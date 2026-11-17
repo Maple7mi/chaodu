@@ -126,7 +126,7 @@ node scripts\validate-library.mjs
 node scripts\validate-library.mjs data\library\my-file.json
 ```
 
-写作口径与完整字段见 [`content-schema.md`](content-schema.md)。当前库覆盖 112 个专题、672 个文章变体，足够每天 20 篇轮换一个月以上；正在扩充到约 500 个专题、3000 个变体。
+写作口径与完整字段见 [`content-schema.md`](content-schema.md)。当前库覆盖 512 个专题、3072 个文章变体，按每天 20 篇计算可轮换约 150 天。
 
 ## 目录
 
