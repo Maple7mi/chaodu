@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <meta name="description" content="朝读 · 每天早上八点，二十篇给好奇心的科普。">
+  <title>朝读 · 每日科普</title>
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <div class="reading-progress" id="reading-progress" aria-hidden="true"></div>
+  <header class="masthead">
+    <div class="masthead-inner">
+      <a class="brand" href="#/today" aria-label="朝读首页">
+        <span class="seal">朝</span>
+        <span class="brand-text">
+          <strong>朝读</strong>
+          <small>DAILY SCIENCE</small>
+        </span>
+      </a>
+      <nav class="nav" aria-label="主导航">
+        <a href="#/today" data-nav="today">今日</a>
+        <a href="#/archive" data-nav="archive">已读</a>
+        <a href="#/stats" data-nav="stats">口味</a>
+      </nav>
+      <div class="masthead-meta" id="masthead-meta">每天 08:00 · 20 篇</div>
+    </div>
+  </header>
+  <main id="app" tabindex="-1"></main>
+  <footer class="site-footer">
+    <span>朝读 · 高中毕业难度 · 每天八点开卷</span>
+    <span id="footer-stats"></span>
+  </footer>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script type="module" src="/app.js"></script>
+</body>
+</html>

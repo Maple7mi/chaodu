@@ -1,0 +1,22 @@
+node_modules/
+.DS_Store
+Thumbs.db
+tmp_*.txt
+docs/check-*.png
+
+# 本机阅读数据与生成结果；代码和内容库仍会提交
+data/state.json
+data/state.json.corrupt-*
+data/issues/
+data/push/
+data/backups/
+data/server.log
+data/*.log
+
+# 测试临时目录
+tests/.tmp-data/
+tests/.completion-data/
+tests/.ui*/
+tests/.edge*/
+tests/.next*/
+tests/.completion-sent.json

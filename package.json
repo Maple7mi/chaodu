@@ -1,0 +1,14 @@
+{
+  "name": "morning-scientia",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "朝读 · 每天 20 篇科普，08:00 送达",
+  "scripts": {
+    "start": "node server.js",
+    "generate": "node scripts/generate.mjs",
+    "daily": "node scripts/daily.mjs",
+    "validate": "node scripts/validate-library.mjs",
+    "test": "node tests/smoke.mjs"
+  }
+}
