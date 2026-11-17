@@ -15,6 +15,7 @@ const cjk = (s) => (String(s).match(/[\u3400-\u9fff]/g) || []).length;
 const errs = [];
 const warns = [];
 const ids = new Map();
+const titles = new Map();
 let total = 0;
 
 function check(cond, msg) {
@@ -55,6 +56,8 @@ for (const file of files) {
     if (d.category === 'psychology') check(d.region === 'global', `${pre}: 心理学 region 必须是 global`);
     else check(d.region !== 'global', `${pre}: 非心理学 region 必须是 cn/world`);
     len(d.title, 5, 30, `${pre}.title`);
+    if (titles.has(d.title)) errs.push(`${pre}: 标题与 ${titles.get(d.title)} 重复`);
+    else titles.set(d.title, path.basename(file));
     len(d.subtitle, 10, 70, `${pre}.subtitle`);
     check(Array.isArray(d.tags) && d.tags.length >= 3 && d.tags.length <= 6, `${pre}: tags 需 3–6 个`);
     check(Array.isArray(d.facts) && d.facts.length >= 10 && d.facts.length <= 12, `${pre}: facts 需 10–12 条`);
@@ -62,6 +65,7 @@ for (const file of files) {
     check(Array.isArray(d.terms) && d.terms.length >= 3 && d.terms.length <= 5, `${pre}: terms 需 3–5 个`);
     check(Array.isArray(d.sources) && d.sources.length >= 2 && d.sources.length <= 4, `${pre}: sources 需 2–4 个`);
     check(d.difficulty === 'high-school', `${pre}: difficulty 必须是 high-school`);
+    check(!!d.story, `${pre}: story 必填（hook/setup/question）`);
     if (d.story) {
       const sh = cjk(d.story.hook || '');
       const sp = cjk(d.story.setup || '');
