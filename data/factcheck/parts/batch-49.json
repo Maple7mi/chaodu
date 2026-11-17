@@ -1,0 +1,319 @@
+{
+  "batch": "batch-49",
+  "checkedAt": "2026-11-18T02:55:00+08:00",
+  "dossiers": [
+    {
+      "id": "world-history-viking",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "medium"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "imprecise", "confidence": "high", "issue": "issue-01"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "medium"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "supported", "confidence": "medium"},
+        {"id": "f11", "verdict": "supported", "confidence": "high"}
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f4",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "这类“丹麦金”后来成为西欧应对维京袭击的常规手段，也暴露了地方防御的脆弱。",
+          "problem": "“丹麦金”（Danegeld）特指英格兰在991年马尔登战役后开征、用以向维京人买平安的土地税，该词到1066年诺曼征服之后才见于书面文献；845年法兰克王室付给拉格纳的七千利弗尔是赎金/贡银，把它叫作“丹麦金”属于时代错置。",
+          "correction": "845年，拉格纳的部队沿塞纳河攻入巴黎，法王秃头查理付给七千利弗尔银币换取撤退；这类贡银后来成为西欧应对维京袭击的常规手段，也暴露了地方防御的脆弱。",
+          "evidence": [
+            {
+              "title": "Regesta Imperii I,2,1 n. 476：845年查理与拉格纳议和",
+              "url": "https://www.regesta-imperii.de/en/regesta/1-2-1-karl-der-kahle/nr/0845-04-00-1-0-1-2-1-476-476.html",
+              "quote": "Karl trifft mit dem Führer der Normannen Ragnar und seinen Großen zu Verhandlungen zusammen und sagt ihnen ... die Zahlung von 7000 Pfund Silber zu."
+            },
+            {
+              "title": "Óscar González Camaño 等：维京人在西欧的贡赋（博士论文，Extremadura 大学）",
+              "url": "https://dehesa.unex.es/bitstream/10662/9821/1/TDUEX_2009_Negro_Cortes.pdf",
+              "quote": "Tradicionalmente el vocablo danegeld se relaciona con los pagos realizados por la Inglaterra anglosajona ... tras la batalla de Maldon en 991. Sin embargo, el término empieza a aparecer en la documentación escrita en el período posterior a la conquista de 1066."
+            }
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "f2 的舵桨实际装在右舷后部，starboard（右舷）一词即由 steer-board 而来，原文写“船尾”是简化说法，不影响整段判断。",
+        "f6 的“14世纪后定居点消失”对应西定居点约1350年废弃、东定居点延续到15世纪中叶（末次放射性碳年代约1430年），表述可通。",
+        "f5 的“欧洲最早的议会之一”是常见限定说法，阿尔庭至今仍在辛格维利尔运作。"
+      ],
+      "summary": "维京专题整体可靠；唯 f4 把845年法兰克贡银称作“丹麦金”属术语时代错置，已改为“贡银”。"
+    },
+    {
+      "id": "world-geo-panama",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "medium"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "medium"},
+        {"id": "f8", "verdict": "imprecise", "confidence": "high", "issue": "issue-01"},
+        {"id": "f9", "verdict": "supported", "confidence": "medium"},
+        {"id": "f10", "verdict": "imprecise", "confidence": "high", "issue": "issue-02"},
+        {"id": "f11", "verdict": "supported", "confidence": "medium"}
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f8",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "管理局把日通行量从约36至38艘削减到22至24艘，并限制吃水。",
+          "problem": "22–24艘只是2023年11–12月的阶段值，不是最低值：运河管理局的削减路线是11月24艘、12月22艘、2024年1月20艘、2月18艘；而且削减起点是当时已降至32艘的日通行量，36–38艘是正常设计通行量。",
+          "correction": "2023至2024年的厄尔尼诺干旱让运河陷入危机。加通湖水位降到历史低位，管理局把日通行量从正常约36至38艘逐步削减，2024年初最低降到18艘，并限制吃水；船公司改道或排队，全球运费因此上涨。",
+          "evidence": [
+            {
+              "title": "Autoridad del Canal de Panamá: Navigating Change — A Timeline of Recent & Future Progress",
+              "url": "https://pancanal.com/en/navigating-change-a-timeline-of-recent-future-progress-at-the-panama-canal/",
+              "quote": "daily transits would be gradually reduced from 32 daily transits to 24 in November, 22 in December, 20 in January, and 18 in February."
+            }
+          ]
+        },
+        {
+          "id": "issue-02",
+          "factId": "f10",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "运河沿线的滑坡是长期工程问题，1907年与1970年代的滑坡都曾导致停航。",
+          "problem": "1907年运河尚未通航（1914年8月才开放），那一年是库莱布拉切开始开挖、库卡拉查滑坡开始活动的年份，谈不上“停航”；真正让运河停航的是1915年前后的东、西库莱布拉滑坡，1974年的滑坡只是限制通行，1931年亦然。",
+          "correction": "地峡的地质并不平静。巴拿马位于加勒比板块与南美板块等板块的交界附近，地震与火山活动塑造了地形；运河沿线的滑坡是长期工程问题，1915年库莱布拉滑坡曾让运河停航数月，1931年与1974年的滑坡只是限制通行。",
+          "evidence": [
+            {
+              "title": "Landslides on the Panama Canal（Circum-Pacific Council / Springer）",
+              "url": "https://archives.datapages.com/data/meta/circ_pac/0017/0391_f_firstpage.pdf",
+              "quote": "These landslides closed the Canal for much of its second year of operation ... Debris from the East Culebra Extension landslide (2.4 million m3 in motion) restricted navigation in 1931 and 1974."
+            },
+            {
+              "title": "BBC History: Reconstruction of the digging of the Culebra Cut",
+              "url": "https://www.stage.bbc.co.uk/history/british/victorians/panama_gallery_02.shtml",
+              "quote": "The building of the Culebra Cut, later renamed Gaillard Cut, took place from 1907 to 1913."
+            }
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "f1 的“约三百万年前闭合”取 O'Dea 等 2016 年《Science Advances》观点；Montes 等 2015 年则主张更早闭合，学界仍有争论，正文的“约”字可保留。",
+        "f7 的“两倍多”按旧闸约5000 TEU、新闸13000–14000 TEU计算约为2.6–2.8倍，说法成立。",
+        "f11 的“约5%全球海运贸易量”为运河管理局与 AFP 常用口径；FY2024 总收入49.9亿巴波亚，比上年增2.09亿，与“收入不降反升”相符。"
+      ],
+      "summary": "巴拿马专题主体可靠；f8 的限行数字应为“最低18艘”，f10 把1907年施工期滑坡误作通航后的停航事件，均已订正。"
+    },
+    {
+      "id": "w5-myth-africa-famadihana",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "medium"},
+        {"id": "f5", "verdict": "wrong", "confidence": "high", "issue": "issue-01"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "medium"},
+        {"id": "f8", "verdict": "supported", "confidence": "medium"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "supported", "confidence": "high"},
+        {"id": "f11", "verdict": "supported", "confidence": "medium"},
+        {"id": "f12", "verdict": "supported", "confidence": "medium"}
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f5",
+          "severity": "minor",
+          "verdict": "wrong",
+          "claim": "家族墓室叫“特拉诺加西”，字面意思是“冷房子”。",
+          "problem": "“trano gasy”在梅里纳语里是“马达加斯加式房屋”，指高地传统民居，不是墓室，也不含“冷”的意思；表示“冷房子”的是“trano manara”，指停放遗体的墓屋，而家族祖墓通常称“tranon-drazana”（祖先之屋）。原文把两个词混成了一个。",
+          "correction": "梅里纳人的家族墓室称“tranon-drazana”，意为“祖先之屋”；“trano gasy”指传统民居，而“trano manara”（冷房子）才指停放遗体的墓屋。墓室建在祖传土地上，多为石砌，按辈分排列，是家族最重要的财产之一。",
+          "evidence": [
+            {
+              "title": "IRD（法国发展研究院）马达加斯加语汇表：trano manara / tranon-drazana",
+              "url": "https://horizon.documentation.ird.fr/exl-doc/pleins_textes/pleins_textes_7/b_fdi_03_05/010014834.pdf",
+              "quote": "tragno manara (Btm) : «maison froide», maison funéraire contenant généralement deux fosses ... tranon-drazana (Me, MC) : «maison ancestrale»."
+            },
+            {
+              "title": "L'Express de Madagascar: Mon plaidoyer Trano Gasy",
+              "url": "https://lexpress.mg/17/05/2021/mon-plaidoyer-trano-gasy/",
+              "quote": "Le Malgache de Tananarive qui, aujourd'hui, parle de TRANO GASY (maison malgache) ..."
+            }
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "f2 的“至少两年”与 McGeorge 1974 年《Imerina Famadihana as a Secondary Burial》一致；卢汶大学的论文则说通常要等两三年、待骨“干透”。",
+        "f9 的布洛赫《Placing the Dead: Tombs, Ancestral Villages and Kinship Organization in Madagascar》1971 年出版，核对无误。",
+        "f10 的死亡数按 WHO 2017 年 11 月通报为 127 人，原文“一百二十余人”成立。"
+      ],
+      "summary": "翻尸节专题整体可靠；f5 把“trano gasy”（传统民居）当成“冷房子”墓室，属术语混淆，已按马达加斯加语汇表订正。"
+    },
+    {
+      "id": "world-geo-amazon",
+      "status": "verified",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "medium"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "supported", "confidence": "medium"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "supported", "confidence": "high"},
+        {"id": "f11", "verdict": "supported", "confidence": "high"},
+        {"id": "f12", "verdict": "supported", "confidence": "high"}
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "f1 的“雨季与旱季差别不明显”只在赤道附近成立；南部与东南部边缘有明显旱季（6–10月），若日后改写可加“赤道附近”限定。",
+        "f5 的非洲沙尘量取 NASA CALIPSO 2007–2013 年观测的 27.7 Tg/年，原文“约两千七百万吨”相符。",
+        "f8 的“十分之一”与亚马孙净碳汇约0.4 PgC/年、全球陆地碳汇约3 PgC/年相符；干旱年转为净排放有 2010、2015–16 年观测支持。",
+        "f12 的“五分之一”是常用上限（15%–20%），原文用“约占”可接受。"
+      ],
+      "summary": "亚马孙专题的流域面积、降水、飞行河流、沙尘磷补给、临界点、碳储量与毁林趋势均与主流文献相符，未发现需要改写的硬错误。"
+    },
+    {
+      "id": "w2-geo-world-mountains-rockies",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "medium"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "medium"},
+        {"id": "f10", "verdict": "wrong", "confidence": "high", "issue": "issue-01"},
+        {"id": "f11", "verdict": "supported", "confidence": "high"},
+        {"id": "f12", "verdict": "supported", "confidence": "medium"}
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f10",
+          "severity": "major",
+          "verdict": "wrong",
+          "claim": "美国境内最高峰埃尔伯特山海拔四千四百米。",
+          "problem": "埃尔伯特山是落基山脉的最高峰、科罗拉多州最高点，也是美国本土（lower 48）第二高峰，仅次于加州惠特尼山（4,421米）；美国境内最高峰是阿拉斯加的德纳里山（6,190米）。原文漏掉“落基山脉”限定，把区域性最高峰说成了全国最高峰。",
+          "correction": "落基山的高度不如喜马拉雅：落基山脉的最高峰埃尔伯特山海拔四千四百零一米，在美国本土仅次于惠特尼山；加拿大的罗布森山三千九百五十四米。造山结束得早，长期侵蚀把山削低了一大截。",
+          "evidence": [
+            {
+              "title": "Natural Atlas: Mount Elbert",
+              "url": "https://naturalatlas.com/mtns/mount-elbert-1459818",
+              "quote": "Mount Elbert is the highest summit of the Rocky Mountains of North America ... the second-highest summit in the contiguous United States after Mount Whitney."
+            },
+            {
+              "title": "Wikipedia (2005 年存档): Mount Elbert",
+              "url": "https://webarchiveweb.wayback.bac-lac.canada.ca/web/20051215000000/http://en.wikipedia.org/wiki/Mount_Elbert",
+              "quote": "Mount Elbert in Colorado is the highest peak in the Rocky Mountains. Elbert is the second highest mountain in the Continental United States after Mount Whitney in California."
+            }
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "f1 的拉勒米造山时限，文献常用 80–40 Ma，也有 80–55 Ma 或 75–35 Ma 的区间，原文可通。",
+        "f3 的三分水岭峰在蒙大拿冰川国家公园，太平洋、大西洋（墨西哥湾）与北冰洋（哈得孙湾）三条水系在此分岔，NPS 页面有说明。",
+        "f8 的黄石1872年、落基山国家公园1915年、班夫1885年均核对无误；班夫的设立确与加拿大太平洋铁路的旅游推广有关。"
+      ],
+      "summary": "落基山专题地质与公园史部分可靠；f10 把埃尔伯特山说成“美国境内最高峰”是明显错误，已补上“落基山脉”与“美国本土第二”的限定。"
+    },
+    {
+      "id": "w5-myth-compare-flood",
+      "status": "verified",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "medium"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "medium"},
+        {"id": "f10", "verdict": "supported", "confidence": "medium"},
+        {"id": "f11", "verdict": "supported", "confidence": "high"},
+        {"id": "f12", "verdict": "supported", "confidence": "medium"}
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "f1 的“日本几乎没有毁灭性大洪水”有早期日本宗教研究文献支持（“no tradition of a deluge”）；埃及洪水叙事以尼罗河定期泛滥为背景，不作毁灭主题。",
+        "f3 的祖苏德拉（Ziusudra）、阿特拉哈西斯与《吉尔伽美什》第十一块泥板对应无误；动机分别为人声嘈杂、神意任意与秘密泄露。",
+        "f9 的夏威夷洪水主角通常写作 Nu'u，故事说他在洪水前带家人与动植物登舟，水退后重新落地。",
+        "f11 的“十九世纪七十年代”指 George Smith 1872 年宣读《吉尔伽美什》洪水泥板，随后与《创世记》对读。"
+      ],
+      "summary": "洪水神话专题的比较结论均有神话学与文本证据支撑，未发现需要改写的年份、专名或因果错误。"
+    },
+    {
+      "id": "w3-myth-cn-erlang",
+      "status": "verified",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "medium"},
+        {"id": "f3", "verdict": "supported", "confidence": "medium"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "supported", "confidence": "medium"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "supported", "confidence": "medium"},
+        {"id": "f11", "verdict": "supported", "confidence": "medium"}
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "f2 的《史记·河渠书》原文作“蜀守冰凿离碓（堆），辟沫水之害，穿二江成都之中”，确实未提其子；宋代封号见《宋会要》嘉祐八年封李冰次子为灵惠侯，属朝廷诏令而非地方志，原文“地方志”一词略宽，但整段判断成立。",
+        "f5 的《西游记》第六回原文有“乃陛下令甥显圣二郎真君，见居灌洲灌江口……又有梅山兄弟与帐前一千二百草头神……奈他只是听调不听宣”，与原文一致；最终擒悟空确有太上老君掷金刚琢、细犬咬腿的配合。",
+        "f6 的《封神演义》全书未出现“二郎神”神号，杨戬为玉鼎真人弟子、会八九玄功（七十二变），与原文相符。",
+        "f8 的《二郎神搜山图》今存宋元摹本，故宫博物院等有藏；猎户祭二郎的记载见于四川地方文献与民俗调查。"
+      ],
+      "summary": "二郎神专题的《史记》《东京梦华录》《西游记》《封神演义》引文与封号源流均能对上，未发现需要改写的硬错误。"
+    },
+    {
+      "id": "w3-myth-world-persephone",
+      "status": "verified",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "supported", "confidence": "high"},
+        {"id": "f11", "verdict": "supported", "confidence": "medium"},
+        {"id": "f12", "verdict": "supported", "confidence": "medium"}
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "f1 的 495 行、公元前七至六世纪与法国国家图书馆（BnF）著录一致。",
+        "f5 的“三分之一跟丈夫、三分之二跟母亲”见颂歌 434–461 行，Loeb 英译作 “for the third part of the circling year ... but for the two parts shall live with her mother”。",
+        "f9 的“约九天、妇女奴隶外邦人都可参加”有 Eleusis 田野课程与古典学研究支持；仪式核心因守密而不可详知，原文表述稳妥。",
+        "f10 的奥维德《变形记》第五卷把采花场设在西西里恩纳，并加入库阿涅化泉、阿斯卡拉福斯变猫头鹰，核对无误。"
+      ],
+      "summary": "珀耳塞福涅专题的颂歌文本、行数、三分之二/三分之一裁定、厄琉西斯秘仪与奥维德改写均与古典文献相符，无需改写。"
+    }
+  ]
+}

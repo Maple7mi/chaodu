@@ -1,0 +1,382 @@
+{
+  "batch": 62,
+  "checkedAt": "2026-11-18T03:08:00+08:00",
+  "dossiers": [
+    {
+      "id": "world-history-industrial",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "imprecise", "confidence": "medium", "issue": "i1"},
+        {"id": "f3", "verdict": "imprecise", "confidence": "high", "issue": "i2"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "medium"},
+        {"id": "f8", "verdict": "supported", "confidence": "medium"},
+        {"id": "f9", "verdict": "supported", "confidence": "medium"},
+        {"id": "f10", "verdict": "imprecise", "confidence": "high", "issue": "i3"},
+        {"id": "f11", "verdict": "supported", "confidence": "medium"},
+        {"id": "f12", "verdict": "supported", "confidence": "high"}
+      ],
+      "issues": [
+        {
+          "id": "i1",
+          "factId": "f2",
+          "severity": "medium",
+          "verdict": "imprecise",
+          "claim": "同一台珍妮纺纱机在法国省下的工钱不足以抵消投资，在英国却可能一年多回本，技术选择因此分岔。",
+          "problem": "艾伦的高工资—廉价能源解释成立，但“一年多回本”与“法国必然不划算”是建立在产量不变假设上的计算结果，学界有反驳；该数字未能独立证实。",
+          "correction": "经济学家罗伯特·艾伦提出，英国的高工资与廉价能源组合，使机器替代人力变得划算。他算出一台珍妮纺纱机在英国较快回本、在法国却不够抵消投资；但这一结论依赖产量不变的假设，后来有研究提出不同意见。",
+          "evidence": [
+            {"title": "The Spinning Jenny: A Fresh Look (Journal of Economic History)", "url": "https://www.cambridge.org/core/journals/journal-of-economic-history/article/abs/spinning-jenny-a-fresh-look/5198F0B8A2D81B3BB7F2EC5C3CA8A608", "quote": "the spinning jenny was profitable to install in England in the 1780s but not in France"},
+            {"title": "The Spinning Jenny and the Industrial Revolution: A Reappraisal", "url": "https://www.cambridge.org/core/journals/journal-of-economic-history/article/abs/div-classtitlethe-spinning-jenny-and-the-industrial-revolution-a-reappraisaldiv/793A9E7CD899A54A88DEFDDB6C4D6FE1", "quote": "reappraisal of the spinning jenny and its profitability"}
+          ]
+        },
+        {
+          "id": "i2",
+          "factId": "f3",
+          "severity": "medium",
+          "verdict": "imprecise",
+          "claim": "18世纪英格兰议会通过约4000件圈地法案。",
+          "problem": "约4000件是1750—1850年一个世纪的合计，不是“18世纪”内的数量；把百年数字挂到18世纪，时间跨度错了。",
+          "correction": "农业先提供了粮食与劳动力。1750至1850年间，英国议会通过约四千件圈地法案，把公地与散田合并；诺福克轮作引入芜菁与三叶草，休耕减少、牲畜增多，粮食产量上升，释放出进城做工的人口。",
+          "evidence": [
+            {"title": "Parliamentary enclosure in England (Journal of Historical Sociology)", "url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1750-0206.1998.tb00587.x", "quote": "Between 1750 and 1850 parliament passed over 4,000 enclosure bills"}
+          ]
+        },
+        {
+          "id": "i3",
+          "factId": "f10",
+          "severity": "medium",
+          "verdict": "imprecise",
+          "claim": "霍乱三次流行，推动了下水道与清洁水源投资。",
+          "problem": "19世纪英国霍乱是四次（1831—32、1848—49、1853—54、1866），不是三次；次数影响“渐进推动”的叙述节奏。",
+          "correction": "城市卫生付出血的代价。1842年查德威克的《英国劳动人口卫生状况报告》记录曼彻斯特的排水与死亡率，1848年《公共卫生法》授权地方设立卫生局；1831至1866年间英国暴发四次霍乱，推动了下水道建设。",
+          "evidence": [
+            {"title": "Cholera and the 19th-century public health movement (Int J Epidemiol)", "url": "https://academic.oup.com/ije/article-abstract/31/5/908/745789", "quote": "suffered epidemics in 1831–1832, 1848–1849, 1853–1854 and 1866"}
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "1851年城市人口50.08%、乡村49.92%，见 archive.org 所载人口普查表 https://archive.org/download/cu31924032523270/cu31924032523270.pdf",
+        "布里奇沃特运河1761年通航、曼彻斯特煤价减半，见 https://lex.dk/Bridgewater_Canal",
+        "阿克莱特1769年水力纺纱机、1771年克罗姆福德工厂，见英国国家档案馆 https://www.nationalarchives.gov.uk/education/resources/georgian-britain-age-modernity/arkwrights-spinning-frame/",
+        "卡特赖特1785年动力织布机专利见 HathiTrust 所载专利说明书；瓦特1769年专利、1774年与博尔顿合伙见 education.gov.scot 工业革命资料 PDF；查德威克1842年报告见 Google Books 影印本。",
+        "f8“1830年可通航水路约4000英里”未能找到逐字对应的统计表，按通行经济史叙述判 supported（medium）；f7、f9 的核心事实有据，具体年份依通行叙述。"
+      ],
+      "summary": "12条中9条有可靠来源直接支持；3条数字/时间口径有误：珍妮机回本结论依赖假设且有学术争议、4000件圈地法案实为1750—1850合计、霍乱为四次而非三次，均已给出修正。"
+    },
+    {
+      "id": "w3-myth-eastasia-dangun",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "supported", "confidence": "medium"},
+        {"id": "f9", "verdict": "imprecise", "confidence": "medium", "issue": "i1"},
+        {"id": "f10", "verdict": "supported", "confidence": "medium"},
+        {"id": "f11", "verdict": "supported", "confidence": "medium"},
+        {"id": "f12", "verdict": "supported", "confidence": "high"}
+      ],
+      "issues": [
+        {
+          "id": "i1",
+          "factId": "f9",
+          "severity": "medium",
+          "verdict": "imprecise",
+          "claim": "把一个神话读成建国史，是近代才有的事。",
+          "problem": "前近代的朝鲜王朝已把檀君当作开国始祖，平壤建有檀君庙并立“朝鲜始祖檀君位”木主，年年祭祀；把神话读成建国史并非近代才出现，近代改变的是民族主义式的重写。",
+          "correction": "学界多认为檀君是后世建构的祖先形象：熊图腾部落与天神信仰结合，反映半岛早期部落的联盟，以及王权合法化的需求，而不是一次真实的建国；不过前近代的朝鲜王朝已把檀君当作开国始祖来祭祀。",
+          "evidence": [
+            {"title": "东北亚历史网《新增东国舆地胜览》平壤檀君庙条", "url": "https://contents.nahf.or.kr/item/level.do?levelId=gb.d_0425_0050", "quote": "今廟在箕子祠東有木主題曰朝鮮始祖檀君位"}
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "《三国遗事》1281年成书、一然撰、纪异篇，见韩国史数据库 https://contents.history.go.kr/mobile/ht/view.do?levelId=ht_001_0020_0010_0010 （“1281~1289년 무렵”）；《帝王韵纪》1287年李承休撰。",
+        "在位1500年、寿1908岁见 https://www.gmw.cn/01wzb/2007-03/04/content_563108.htm",
+        "檀纪1948年9月25日依法律第4号成为官方纪年、1960年后废止，见国家记录院 https://theme.archives.go.kr/next/chronology/archiveDetail.do?isPop=Y&flag=1&evntId=0049286383 ；开天节10月3日见 korea.net https://www.korea.net/NewsFocus/Society/view?articleId=163971",
+        "1993年朝鲜发掘檀君陵并称发现二人遗骨、测年5011年前，见韩联社 https://www.yna.co.kr/view/AKR20091113151100005",
+        "江华堑星坛开天节祭檀君见韩国观光公社 https://chinese.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=112051&menuSn=351",
+        "申采浩1908年《读史新论》否定箕子、以檀君为主族，见韩国史数据库 https://contents.history.go.kr/mobile/tg/view.do?levelId=tg_004_0290&pageUnit=10&subjectCode=all&tabId=01"
+      ],
+      "summary": "12条中11条与《三国遗事》原文、韩国官方纪年与祭祀资料相符；仅f9末句“近代才有的事”与前近代檀君祭祀史实不符，已修正，其余保留。"
+    },
+    {
+      "id": "w1-geo-cn-qilian",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "medium"},
+        {"id": "f3", "verdict": "imprecise", "confidence": "high", "issue": "i1"},
+        {"id": "f4", "verdict": "supported", "confidence": "medium"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "medium"},
+        {"id": "f7", "verdict": "supported", "confidence": "medium"},
+        {"id": "f8", "verdict": "supported", "confidence": "medium"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "supported", "confidence": "medium"},
+        {"id": "f11", "verdict": "supported", "confidence": "high"},
+        {"id": "f12", "verdict": "supported", "confidence": "medium"}
+      ],
+      "issues": [
+        {
+          "id": "i1",
+          "factId": "f3",
+          "severity": "medium",
+          "verdict": "imprecise",
+          "claim": "走廊夹在祁连山与北山之间，长约一千公里，宽处几十公里。",
+          "problem": "河西走廊东西长约1000余公里（另有1200余公里的说法），南北宽“数公里至百余公里”，最宽处远超“几十公里”；宽度上限被低估。",
+          "correction": "走廊夹在祁连山与北山之间，长约一千公里，宽处可达百余公里，海拔一千到一千五百米。两侧是山，中间是平的，这种地形在全国都少见，人只能顺着它走，改不了。",
+          "evidence": [
+            {"title": "河西走廊地貌与绿洲（CNKI）", "url": "https://www.cnki.com.cn/Article/CJFDTOTAL-DIQU198504012.htm", "quote": "河西走廊长约1000余公里，宽数公里至百余公里"},
+            {"title": "北京大学中国古代史研究中心·河西走廊", "url": "https://ccj.pku.edu.cn/Article/info?aid=286661746", "quote": "走廊东西长约1200公里"}
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "团结峰5826.8米见《地理学报》祁连山冰川文 PDF https://www.geog.com.cn/CN/article/downloadArticleFile.do?attachType=PDF&id=20202 ；走廊南山—冷龙岭—疏勒南山—大雪山排列见维基百科模板 https://zh.wikipedia.org/zh-hans/Template:祁连山脉",
+        "山区年降水量300—700毫米见甘肃省人大 http://new.gsrdw.gov.cn/2017/dbfc_0109/2134.html",
+        "冰川2859条、1972.5平方公里见《地理学报》PDF https://www.geog.com.cn/CN/article/downloadArticleFile.do?attachType=PDF&id=21442",
+        "疏勒河尾闾哈拉奇/敦煌西湖见央视 http://m.news.cctv.com/2019/10/26/ARTIW5qp7UR4CKKbBR9nKX52191026.shtml",
+        "青土湖1959年干涸、2010年首次输水形成约3平方公里水面见国家林草局 https://www.forestry.gov.cn/lyj/1/sddfdt/20261102/694597.html",
+        "黑河2000年统一调度、2002年东居延海进水见人民网 http://society.people.com.cn/n1/2018/1010/c1008-30331282.html ；1992年干涸见黄河水利委员会 http://www.yrcc.gov.cn/xwdt/hhyw/202608/t20260820_453101.html",
+        "颜师古“祁连山即天山也，匈奴呼天为祁连”见识典古籍 https://www.shidianguji.com/mid-page/7352264534410739739 ；清代《山西通志》辨名实混淆见 https://www.shidianguji.com/zh/mid-page/7670288141982941193",
+        "1988年设立国家级自然保护区、2017年中办国办通报祁连山生态破坏，见中央纪委国家监委 https://www.ccdi.gov.cn/yaowen/201707/t20170720_148494.html"
+      ],
+      "summary": "12条中11条与地理文献、官方通报一致；f3把走廊最宽处写成“几十公里”，与“数公里至百余公里”的通行描述不符，已修正。"
+    },
+    {
+      "id": "w3-geo-world-koppen",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "imprecise", "confidence": "high", "issue": "i1"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "medium"},
+        {"id": "f10", "verdict": "supported", "confidence": "high"},
+        {"id": "f11", "verdict": "supported", "confidence": "medium"},
+        {"id": "f12", "verdict": "supported", "confidence": "medium"}
+      ],
+      "issues": [
+        {
+          "id": "i1",
+          "factId": "f5",
+          "severity": "medium",
+          "verdict": "imprecise",
+          "claim": "中国的华北、长江流域和欧洲大部都在其中。这一带也叫暖温带气候。",
+          "problem": "C组要求最冷月高于−3℃。北京最冷月约−2.7至−3.1℃，柯本分类为Dwa（冷温带），华北平原北部并不属于C；“暖温带”是中国气候区划用语，也不能等同于柯本C组全部。",
+          "correction": "温带C的最冷月在零下三度到十八度之间，最热月高于十度，对应四季分明、冬季不长久封冻的地方。长江流域与欧洲大部属于此类；中国华北平原北部最冷月已低于零下三度，归入冷温带D。",
+          "evidence": [
+            {"title": "Wikipedia: Beijing (Climate)", "url": "https://en.wikipedia.org/wiki/Beijing", "quote": "humid continental climate (Koppen: Dwa)"}
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "高山气候H为后加、不在柯本原系统或修订系统内，见 Britannica https://www.britannica.com/science/highland-climate （“often added to the Köppen classification, although it was not part of ... Köppen's original or revised systems”）",
+        "20世纪柯本气候区确有位移（A增、E减、B在1970年代后扩张），见 KCI 论文 https://kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001533087"
+      ],
+      "summary": "12条中11条与柯本分类通行表述一致；f5把华北整体归入C组并以“暖温带”概括，与北京Dwa的实际分类冲突，已修正。"
+    },
+    {
+      "id": "w3-psych-expressive-suppression",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "medium"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "imprecise", "confidence": "high", "issue": "i1"},
+        {"id": "f5", "verdict": "supported", "confidence": "medium"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "medium"},
+        {"id": "f10", "verdict": "supported", "confidence": "medium"},
+        {"id": "f11", "verdict": "imprecise", "confidence": "medium", "issue": "i2"},
+        {"id": "f12", "verdict": "supported", "confidence": "medium"}
+      ],
+      "issues": [
+        {
+          "id": "i1",
+          "factId": "f4",
+          "severity": "high",
+          "verdict": "imprecise",
+          "claim": "同样的影片，重评组事后记得的细节比重评组之外的人更多。",
+          "problem": "句子自相矛盾（“重评组”与“重评组之外的人”比较方向不清），且与实验结论相反：Richards & Gross 2000 发现抑制组对影片细节的记忆更差，重评组不比对照差，而不是重评组更好。",
+          "correction": "记忆也会受影响。抑制需要持续监控自己的表情，还要压住手势与语气，占用注意力，正在发生的事就记不牢；看同样的影片，抑制组事后记得的细节比重评组更少。",
+          "evidence": [
+            {"title": "Richards & Gross (2000), Emotion regulation and memory (APA)", "url": "https://psycnet.apa.org/record/2000-05317-008", "quote": "suppression led to poorer memory for the details of the film"}
+          ]
+        },
+        {
+          "id": "i2",
+          "factId": "f11",
+          "severity": "medium",
+          "verdict": "imprecise",
+          "claim": "长期压住的人常有睡眠浅、肩颈紧、胃口变化。",
+          "problem": "“肩颈紧、胃口变化”这类具体症状清单没有可靠文献支持，属于把临床印象写成研究结论；可支持的只是抑制与自报压力相关症状存在关联，且不能推定因果。",
+          "correction": "身体会先报警。长期压住情绪的人常报告各种躯体不适与睡眠问题；这些不是“想太多”，而是压力信号，持续存在时该去看医生，而不是继续忍。忍过去不是处理，只是把它延后。",
+          "evidence": [
+            {"title": "Expressive suppression and stress-related symptoms (Behav Res Ther, PMC)", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2629793/", "quote": "expressive suppression was associated with higher ... self-reported stress-related symptoms"}
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "f2引 Gross & John (2003) 五项研究，结论（抑制者负性情绪更多、正性更少、人际功能更差）见 APA 摘要 https://psycnet.apa.org/doiLanding?doi=10.1037%2F0022-3514.85.2.348 ；但“让被试连续两周记录情绪事件”这一方法细节未能在摘要及二次文献中确认，故置信度降为 medium，不作为 issue。",
+        "Butler et al. (2003) 抑制削弱沟通、提高压力反应，见 https://contextualscience.org/publications/social_consequences_expressive_suppression",
+        "文化调节见 Butler, Lee & Gross (2007) https://psycnet.apa.org/record/2007-02169-004",
+        "f8“相关不等于因果”与 PMC2629793 明言“direction of causality cannot be determined”一致。"
+      ],
+      "summary": "12条中10条与 Gross 系列实验及综述一致；f4比较句自相矛盾且方向与实验结果相反，f11症状清单缺乏来源，均已修正，其余保留。"
+    },
+    {
+      "id": "w4-cn-history-taiping-tianguo",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "imprecise", "confidence": "high", "issue": "i1"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "supported", "confidence": "medium"},
+        {"id": "f11", "verdict": "supported", "confidence": "medium"},
+        {"id": "f12", "verdict": "supported", "confidence": "medium"}
+      ],
+      "issues": [
+        {
+          "id": "i1",
+          "factId": "f7",
+          "severity": "medium",
+          "verdict": "imprecise",
+          "claim": "1856年天京事变，诸王互相残杀，杨秀清、韦昌辉死，石达开出走，领导核心瓦解。",
+          "problem": "石达开率部出走发生在1857年6月，不在1856年；天京事变（1856）与石达开出走是两个年份，原句把两者压在同一年。",
+          "correction": "太平天国的权力集中在天王与诸王手中，东王杨秀清掌军政、借天父下凡发号施令。1856年天京事变，诸王互相残杀，杨秀清、韦昌辉先后死；石达开在次年被洪秀全疑忌，率部出走，领导核心瓦解。",
+          "evidence": [
+            {"title": "人民网·太平天国领导集团的内讧", "url": "http://theory.people.com.cn/n1/2016/0825/c406838-28665171-2.html", "quote": "1857年6月，石达开终以遭洪氏兄弟的疑忌而出走安庆"}
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "《天朝田亩制度》未曾施行、后改行“照旧交粮纳税”，见 CNKI 摘要 https://www.cnki.com.cn/Article/CJFDTotal-CHSO201008060.htm",
+        "男女分馆1854年末至1855年初取消，见中国人民大学清史研究所 http://iqh.ruc.edu.cn/old/jsmmhsymjjpyj/mjzj/3892e58c29d6401397181daabafa3a1d.htm",
+        "死亡人数估计悬殊（1000万—2000万、7000万、1亿以上诸说），见《安徽农业大学学报（社科版）》PDF http://ahndskxb.ahau.edu.cn/ahnydxxbsk/article/pdf/20160423",
+        "1851年1月11日金田起义、1853年3月定都南京，见中国大百科全书条目 chlb.cishu.com.cn"
+      ],
+      "summary": "12条中11条与通史及专题研究一致；f7把石达开出走系于1856年天京事变同年，实为1857年6月，已修正。"
+    },
+    {
+      "id": "cn-myth-kuafu",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "supported", "confidence": "medium"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "supported", "confidence": "high"},
+        {"id": "f11", "verdict": "imprecise", "confidence": "high", "issue": "i1"}
+      ],
+      "issues": [
+        {
+          "id": "i1",
+          "factId": "f11",
+          "severity": "medium",
+          "verdict": "imprecise",
+          "claim": "在汉画像石与后世绘画里，夸父多被画成奔跑的巨人，身后是太阳或桃树。",
+          "problem": "汉画像石中的夸父形象通常是“人首蛇身”，作追日或摘日状，并非身着衣裳奔跑的巨人；“身后太阳或桃树”的构图也没有图像依据。",
+          "correction": "在汉画像石与后世绘画里，夸父常被画成人首蛇身的巨人，朝着太阳奔去。图像把“追”凝固成一个姿势，反而抹掉了文本里的口渴、河流与死亡，视觉传统偏爱的是动作，不是代价。",
+          "evidence": [
+            {"title": "南阳汉画像石中的夸父逐日", "url": "https://m.sunzhenxian.com/news_view_137_163.html", "quote": "画面刻夸父，人首蛇身，他想摘下太阳"}
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "《海外北经》原文见《山海经校注》PDF 及中国社会科学报 http://sspress.cssn.cn/2009n/9y/3_27919/d5b_27924/201508/t20150826_2651458.shtml",
+        "《大荒北经》世系与珥蛇见中国作家网 http://www.chinawriter.com.cn/2013/2013-02-01/153423.html",
+        "《大荒东经》应龙杀蚩尤与夸父，见人民日报海外版 PDF http://paper.people.com.cn/fcyym/images/2024-03/01/11/fcymm2024030111.pdf",
+        "郭璞注“邓林=桃林”见 https://www.jyeoo.com/shiti/15800103-d515-4e15-5782-eaf7f725f85d",
+        "《列子·汤问》同卷收录夸父逐日与愚公移山，见 https://mp.weixin.qq.com/s?__biz=MzA4NzY5NjcxMg==&mid=2651301301&idx=3&sn=583a8743874232f821d323569bf52be2",
+        "陶渊明《读山海经》其九全文见 https://mp.weixin.qq.com/s?__biz=MzkxMjIzNTc1Ng==&mid=2247576265&idx=2&sn=b5aeabfc548b52be5623d60ce95fa5b7"
+      ],
+      "summary": "11条中10条与《山海经》原文、郭璞注、陶诗及《列子》文本吻合；f11把汉画像石中的“人首蛇身”夸父写成奔跑的巨人，与图像不符，已修正。"
+    },
+    {
+      "id": "w1-myth-world-sekhmet",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "imprecise", "confidence": "medium", "issue": "i1"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "imprecise", "confidence": "high", "issue": "i2"},
+        {"id": "f11", "verdict": "supported", "confidence": "medium"},
+        {"id": "f12", "verdict": "supported", "confidence": "medium"}
+      ],
+      "issues": [
+        {
+          "id": "i1",
+          "factId": "f8",
+          "severity": "low",
+          "verdict": "imprecise",
+          "claim": "开头是众神与拉神的对话，叙述者常被写成托特或伊西斯。",
+          "problem": "《天牛之书》是咒语文本，主体为拉神言语与仪式指令，并非由托特或伊西斯担任叙述者；把后起神话的叙述框架套到该文本上，缺乏依据。",
+          "correction": "文本以咒语的形式写成，主体是拉神与众神的对话，念诵时还要配合涂油、焚香与清洁。它的功能不只是讲故事，也用于治疗与保护，常被抄在墓室与护身符上，念出来才算完成。",
+          "evidence": [
+            {"title": "The Book of the Heavenly Cow (translation)", "url": "https://sourcelibrary.org/book/the-book-of-the-heavenly-cow/page/69e637c8f6b7b7d53ad38895", "quote": "57. Words spoken by the Majesty of Re"}
+          ]
+        },
+        {
+          "id": "i2",
+          "factId": "f10",
+          "severity": "medium",
+          "verdict": "imprecise",
+          "claim": "阿蒙霍特普三世时期制作了数百尊塞赫麦特石像，多数出土于卡纳克一带。",
+          "problem": "数量约600尊；这些像分置于孔姆·埃尔·希坦葬祭庙与卡纳克穆特神庙，今日多认为原均立于葬祭庙，并非“多数出土于卡纳克一带”。",
+          "correction": "孟菲斯是塞赫麦特的祭祀中心，她与普塔、奈费尔图姆组成三联神。阿蒙霍特普三世时期制作了约六百尊塞赫麦特石像，原立于底比斯西岸的葬祭庙，部分后来移到卡纳克，今天散落在各大博物馆。",
+          "evidence": [
+            {"title": "The Met: Statue of Sekhmet", "url": "https://www.metmuseum.org/art/collection/search/544484", "quote": "some six hundred statues ... many scholars believe that originally the statues all stood at the Kom el Heitan mortuary temple"}
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "《天牛之书》最早完整版本出自图坦卡蒙墓，塞提一世等王陵存完整图文，见 Persée https://www.persee.fr/doc/bifao_0255-0962_1941_num_40_1_2012",
+        "女神名 Hathor/Sekhmet/Tefnut 互通见 Bresciani https://open.rstfen.cnr.it/index.php/rsf/article/download/59/28/208",
+        "7000罐啤酒与红赭石染啤酒见《天牛之书》译本 https://sourcelibrary.org/book/the-book-of-the-heavenly-cow/page/69e637c8f6b7b7d53ad38895",
+        "塞赫麦特狮首、战争与瘟疫、医生守护神、孟菲斯三联神见 ROM https://collections.rom.on.ca/objects/181172/"
+      ],
+      "summary": "12条中10条与埃及学文献及博物馆藏品说明一致；f8叙述者说法无据，f10石像数量与出土地点表述失准，均已修正。"
+    }
+  ]
+}

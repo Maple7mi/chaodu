@@ -1,0 +1,383 @@
+{
+  "batch": "batch-29",
+  "checkedAt": "2026-11-18T02:55:00+08:00",
+  "dossiers": [
+    {
+      "id": "world-history-constitution",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        { "id": "f1", "verdict": "imprecise", "confidence": "high", "issue": "i1" },
+        { "id": "f2", "verdict": "supported", "confidence": "high" },
+        { "id": "f3", "verdict": "imprecise", "confidence": "high", "issue": "i2" },
+        { "id": "f4", "verdict": "supported", "confidence": "medium" },
+        { "id": "f5", "verdict": "supported", "confidence": "high" },
+        { "id": "f6", "verdict": "imprecise", "confidence": "medium", "issue": "i3" },
+        { "id": "f7", "verdict": "supported", "confidence": "high" },
+        { "id": "f8", "verdict": "supported", "confidence": "high" },
+        { "id": "f9", "verdict": "supported", "confidence": "medium" },
+        { "id": "f10", "verdict": "imprecise", "confidence": "high", "issue": "i4" },
+        { "id": "f11", "verdict": "supported", "confidence": "high" },
+        { "id": "f12", "verdict": "supported", "confidence": "medium" }
+      ],
+      "issues": [
+        {
+          "id": "i1",
+          "factId": "f1",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "麦迪逊的笔记成了后世了解会议的唯一完整记录。",
+          "problem": "麦迪逊笔记最完整，但不是唯一记录。会议秘书威廉·杰克逊留有官方议事日志，另有耶茨、金、帕特森、皮尔斯、麦克亨利、梅森、汉密尔顿等七位代表的笔记存世，法伦德编《1787年联邦制宪会议记录》即把这些材料并置校勘。",
+          "correction": "麦迪逊的笔记最完整，却不是唯一记录：会议秘书杰克逊留有正式日志，另有耶茨、金、帕特森、皮尔斯等七位代表的笔记，后世可互相校勘。",
+          "evidence": [
+            {
+              "title": "Quill Project: The Quill Approach to the 1787 Materials",
+              "url": "https://www.quill.pmb.ox.ac.uk/1787-quill-approach",
+              "quote": "Several accounts of the Convention recorded by delegates survive, and looming large among these are the official journal (kept by secretary William Jackson) and James Madison's notes."
+            },
+            {
+              "title": "George Washington Law Review 80:1707（引 Farrand's Records）",
+              "url": "https://www.gwlr.org/wp-content/uploads/2018/04/80-Geo.-Wash.-L.-Rev.-1707.pdf",
+              "quote": "Although Madison took the most complete notes, the historical record also includes notes taken by seven other deputies."
+            }
+          ]
+        },
+        {
+          "id": "i2",
+          "factId": "f3",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "这个比例此前已用于邦联国会的征税折算。",
+          "problem": "1783年4月邦联国会确实提出按人口（奴隶按五分之三）摊派各州征缴配额，比例也被称为“联邦比率”，但该修正案只获十一个州批准，因《邦联条例》要求十三州一致而未生效；条例实际长期按土地价值与改良摊派。说“已用于”把提案说成了实施的制度。",
+          "correction": "五分之三的比例确实先出现在一七八三年邦联国会的征税摊派修正案里，但该案只获十一个州批准、始终未生效；《邦联条例》实际按土地价值摊派。",
+          "evidence": [
+            {
+              "title": "Florida Law Review: The Three-Fifths Clause",
+              "url": "https://scholarship.law.ufl.edu/cgi/viewcontent.cgi?article=1408&context=ftr",
+              "quote": "The 1783 proposed amendment of the Articles never went into effect. It was passed by Congress and ratified by 11 states, but the Articles themselves required ratification by all the states and New York and New Hampshire refused."
+            },
+            {
+              "title": "Center for the Study of the American Constitution: Population and Constitution-Making, 1774–1792",
+              "url": "https://csac.history.wisc.edu/2022/08/01/population-and-constitution-making-1774-1792/",
+              "quote": "This amendment with the “federal ratio” was ratified by eleven of the thirteen states"
+            }
+          ]
+        },
+        {
+          "id": "i3",
+          "factId": "f6",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "1850年法允许北方自由州协助抓捕。",
+          "problem": "方向相反：1850年《逃奴法》不是“允许”而是强制。它设联邦专员审理、取消陪审与被告自辩，并规定“一切善良公民”经召唤即须协助抓捕，拒绝协助或帮助逃奴者受罚并可被起诉。北方自由州是被法律义务拖入执行的，这正是武装抵抗（克里斯蒂安娜、奥伯林-惠灵顿救援）的起因。",
+          "correction": "一八五〇年法不是允许、而是强制北方官员与公民协助抓捕，拒绝者受重罚，还取消陪审审判，北方自由州因此被拖入执行，激起武装抵抗。",
+          "evidence": [
+            {
+              "title": "Teach US History: Effects of the Fugitive Slave Law",
+              "url": "https://www.teachushistory.org/second-great-awakening-age-reform/resources/effects-fugitive-slave-law",
+              "quote": "It forced citizens to assist in the recovery of fugitives, and if they were unwilling to assist or had aided a fugitive in escaping, they were subject to a fine and prosecution."
+            },
+            {
+              "title": "Finkelman, The Tumultuous Years（Taylor & Francis）",
+              "url": "https://www.taylorfrancis.com/chapters/mono/10.4324/9780203081686-8/tumultuous-years-paul-finkelman-diane-barnes",
+              "quote": "These commissioners could call on assistance of federal marshals, the military, the state militias, and local citizens to aid in enforcement. The law commanded “all good citizens” to help captu…"
+            }
+          ]
+        },
+        {
+          "id": "i4",
+          "factId": "f10",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "古弗尼尔·莫里斯则直言，这是与南方兄弟做成的交易。",
+          "problem": "“南方兄弟”（our Southern brethren）是麦迪逊在《联邦党人》第54篇里的措辞，该篇出自麦迪逊；莫里斯在制宪会议上恰恰反对五分之三条款，说自己只能在“对不起南方各州”与“对不起人性”之间选一个，并抱怨该条款让南卡罗来纳、佐治亚奴隶主比宾夕法尼亚或新泽西公民拥有更多选票。把辩护语安到反对者头上，归属错误。",
+          "correction": "《联邦党人》第五十四篇出自麦迪逊之手，他称奴隶是“独特的财产”；莫里斯在会上反对该条款，抱怨自己只能对不起南方或对不起人性。",
+          "evidence": [
+            {
+              "title": "NYT Room for Debate: The Union Wasn't Worth the Three-Fifths Compromise",
+              "url": "https://www.nytimes.com/roomfordebate/2013/02/26/the-constitutions-immoral-compromise/the-union-wasnt-worth-the-three-fifths-compromise-on-slavery",
+              "quote": "shall have more votes ... than the citizen of Pennsylvania or New Jersey"
+            },
+            {
+              "title": "Madison's Journal（1840 年版, Internet Archive）",
+              "url": "https://archive.org/details/jamesmadi00gays/page/n122/mode/1up",
+              "quote": "doing injustice to the Southern States or to human nature, and he must do it to the former"
+            }
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "《西北法令》由邦联国会于1787年7月13日通过，与费城制宪会议同期同城，但不是同一机构，也不是制宪会议的产物；其第六条同时禁止奴隶制并保留逃奴追索，适用于俄亥俄河以西、密西西比河以东、大湖区以南。",
+        "席位红利数字：1793年南方蓄奴州在众议院105席中占47席，若按自由人口分配仅33席（多约42%）；1812年为143席中的76席。第4至36届国会南方每届多出14–30席，平均约20席，故“约三分之一”在区间内。",
+        "1807年3月2日杰斐逊签署《禁止奴隶输入法》，1808年1月1日生效，与宪法第一条第九款第1项的二十年内不得禁止条款衔接。"
+      ],
+      "summary": "12条中8条成立、4条需修正：麦迪逊笔记非唯一记录；五分之三比例在1783年只是未生效的修正案提案；1850年逃奴法是强制而非“允许”协助；《联邦党人》第54篇的“南方兄弟”是麦迪逊的措辞，莫里斯实为反对者。前三条属表述强度与归属问题，条文年代、席位数字与选票机制均与史料相符。"
+    },
+    {
+      "id": "world-myth-flood",
+      "status": "verified",
+      "confidence": "high",
+      "facts": [
+        { "id": "f1", "verdict": "supported", "confidence": "high" },
+        { "id": "f2", "verdict": "supported", "confidence": "medium" },
+        { "id": "f3", "verdict": "supported", "confidence": "high" },
+        { "id": "f4", "verdict": "supported", "confidence": "high" },
+        { "id": "f5", "verdict": "supported", "confidence": "high" },
+        { "id": "f6", "verdict": "supported", "confidence": "high" },
+        { "id": "f7", "verdict": "supported", "confidence": "high" },
+        { "id": "f8", "verdict": "supported", "confidence": "medium" },
+        { "id": "f9", "verdict": "supported", "confidence": "high" },
+        { "id": "f10", "verdict": "supported", "confidence": "medium" },
+        { "id": "f11", "verdict": "supported", "confidence": "medium" },
+        { "id": "f12", "verdict": "supported", "confidence": "medium" }
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "《阿特拉哈西斯》现存泥板属古巴比伦时期，学界多定为约公元前十七世纪；“公元前十八世纪”略早，但在常见的“约前1800—前1700年”区间内，且原文有“约”字，不作错误处理。",
+        "方舟尺寸见《创世记》6:15：“三百肘长、五十肘宽、三十肘高”，6:16 记上中下三层，与文中数字一致。",
+        "伍利1929年在乌尔发现的清水沉积黏土，其本人记为“eight solid feet”（约2.4米），另有“11英尺”的转述；“厚约三米”处于两说之间。现代地层学多认为属局部河道或三角洲沉积，非全流域洪水。"
+      ],
+      "summary": "12条全部有据可查：近东各版本谱系、1872年乔治·史密斯读板、创世记J/P双源痕迹、方舟尺寸、丢卡利翁掷石、摩奴与鱼、鲧禹治水、波波尔·乌木人与阿兹特克第四太阳纪、伍利发掘及其后续解释、以及海平面与黑海/波斯湾假说的局限，均与文献相符。仅《阿特拉哈西斯》断代与伍利淤泥厚度存在学术区间，原文措辞已足够保留余地。"
+    },
+    {
+      "id": "w1-psych-arousal-attribution",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        { "id": "f1", "verdict": "supported", "confidence": "high" },
+        { "id": "f2", "verdict": "supported", "confidence": "high" },
+        { "id": "f3", "verdict": "supported", "confidence": "high" },
+        { "id": "f4", "verdict": "imprecise", "confidence": "medium", "issue": "i1" },
+        { "id": "f5", "verdict": "supported", "confidence": "medium" },
+        { "id": "f6", "verdict": "supported", "confidence": "high" },
+        { "id": "f7", "verdict": "supported", "confidence": "medium" },
+        { "id": "f8", "verdict": "supported", "confidence": "medium" },
+        { "id": "f9", "verdict": "supported", "confidence": "high" },
+        { "id": "f10", "verdict": "supported", "confidence": "medium" },
+        { "id": "f11", "verdict": "supported", "confidence": "medium" }
+      ],
+      "issues": [
+        {
+          "id": "i1",
+          "factId": "f4",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "齐尔曼的研究显示，前一个情境留下的残余唤醒，会叠加到随后的刺激上：刚看完恐怖片的人，对接下来遇到的人评价更高，因为心跳还没降下来。",
+          "problem": "唤醒转移（excitation transfer）确为齐尔曼提出，但1971年那项实验的自变量是影片引起的残余生理唤醒，因变量是随后的攻击/报复强度（血压、心率、血管收缩按性、暴力、中性影片排序，报复强度同序），不是对遇到的人的评价。把“看完恐怖片后更喜欢对方”直接系于齐尔曼1971，混淆了攻击行为研究与吸引研究两条文献线。",
+          "correction": "齐尔曼的唤醒转移指残余唤醒会加强随后的情绪与行为，他一九七一年的实验测的是攻击性；“看完恐怖片更喜欢对方”是后人把该机制引申到吸引研究。",
+          "evidence": [
+            {
+              "title": "Zillmann (1971) 原始论文题录及其攻击性因变量（J-STAGE 综述）",
+              "url": "https://www.jstage.jst.go.jp/article/sjpr/33/2/33_239/_pdf/-char/ja",
+              "quote": "Zillmann, D. (1971). Excitation transfer in communication-mediated aggressive behavior. Journal of Experimental Social Psychology, 7(4), 419–434.（该文因变量为攻击/报复行为，非对他人吸引力的评价）"
+            }
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "吊桥数据：高桥组18名男性中9人（50%）事后致电，安全桥组16人中2人（12.5%，即1/8），与文中“约一半”“约八分之一”一致；两组访员为同一名女性，问卷相同。",
+        "沙赫特-辛格1962年论文（Psychological Review 69(5): 379–399）的核心命题为情绪=生理唤醒×与之匹配的认知，属双因素理论原始表述。",
+        "复制争议属实：后续研究结果混杂，方法批评集中于准实验设计（无随机分配、操纵仅为访员性别与桥的紧张度）、样本自选与单一因变量。"
+      ],
+      "summary": "11条中10条成立。吊桥比例、沙赫特-辛格双因素理论、错误归因、复制危机与方法批评、归因需“无更合理解释”、唤醒可被读成不适、相关不等于因果、操控的伦理边界、长期关系中回应性更重要，均与文献一致。唯一问题是把“看完恐怖片后评价更高”的吸引类发现归到齐尔曼1971的攻击行为实验上，属文献归属不准。"
+    },
+    {
+      "id": "w2-myth-india-ganesha-origins",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        { "id": "f1", "verdict": "supported", "confidence": "high" },
+        { "id": "f2", "verdict": "supported", "confidence": "high" },
+        { "id": "f3", "verdict": "supported", "confidence": "medium" },
+        { "id": "f4", "verdict": "supported", "confidence": "high" },
+        { "id": "f5", "verdict": "supported", "confidence": "high" },
+        { "id": "f6", "verdict": "supported", "confidence": "high" },
+        { "id": "f7", "verdict": "supported", "confidence": "medium" },
+        { "id": "f8", "verdict": "supported", "confidence": "medium" },
+        { "id": "f9", "verdict": "supported", "confidence": "medium" },
+        { "id": "f10", "verdict": "imprecise", "confidence": "medium", "issue": "i1" },
+        { "id": "f11", "verdict": "supported", "confidence": "high" },
+        { "id": "f12", "verdict": "supported", "confidence": "high" }
+      ],
+      "issues": [
+        {
+          "id": "i1",
+          "factId": "f10",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "在另一些文本里，他被说成是毗湿奴或太阳神的化身。",
+          "problem": "“湿婆与帕尔瓦蒂之子、与室建陀为兄弟”在往世书系统内成立；但“毗湿奴或太阳神的化身”一说未见可靠文本或学界通行表述支持。象头神在《象头神往世书》中被提升为最高神、与梵等同，也有与毗湿奴、湿婆同一的表述，但那是“同一”（identity）而非“化身”（avatara）；把他列为太阳神化身更缺依据。",
+          "correction": "他与室建陀的兄弟关系在往世书里成立；但“毗湿奴或太阳神化身”的说法缺乏可靠文本依据，学界更强调他原为地方护佑神、后被纳入湿婆家庭。",
+          "evidence": [
+            {
+              "title": "Ganesha（Wikipedia，含 Brown/Courtright/Thapan 综述）",
+              "url": "https://en.wikipedia.org/wiki/Ganesha?oldid=707756224",
+              "quote": "came to be regularly worshipped after the Gupta age"
+            },
+            {
+              "title": "Shodhganga: Ganesa 造像与文本源流",
+              "url": "https://shodhganga.inflibnet.ac.in/bitstream/10603/536747/13/13_chapter%2010.pdf",
+              "quote": "A full-fledged figure for Ganesa occurs only in the 5th century A.D. at Bhumara"
+            }
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "姜黄膏捏男孩、守门、被湿婆斩首、帕尔瓦蒂悲怒、接象头，是《湿婆往世书》系统最流行的版本；《梵转往世书》等则称其为帕尔瓦蒂亲生之子。两系并存，文中“至少三种写法”的判断成立。",
+        "断牙故事至少三说：与持斧罗摩交手被砍、自折断牙掷月、折牙作笔抄写《摩诃婆罗多》，末说流传最广。",
+        "《摩诃婆罗多》开篇象头神执笔一节被学界普遍视为后加（“widely regarded as a late addition”），不见于精校本正文，仅存于异读，与文中判断一致。",
+        "独立造像的年代：Bhumara 的5世纪像被视为最早成熟作品，马图拉约400年的裸体象头像与比特argaon的飞象头是否为象头神尚有争议，故“四至五世纪、此前仅有零星候选”成立。"
+      ],
+      "summary": "12条中11条成立。名称与“除障碍者”职能、姜黄膏造男孩的湿婆往世书版本、亲生/造出之别、象头来源诸说、断牙三说、摩诃婆罗多抄录节为后加、鼠骑较晚、四臂法器配置、造像始于笈多、日本欢喜天、往世书长期增补，均与文献相符。唯一问题是把他称作毗湿奴或太阳神的“化身”，缺可靠依据。"
+    },
+    {
+      "id": "w5-cn-history-danwei-zhufang",
+      "status": "verified",
+      "confidence": "high",
+      "facts": [
+        { "id": "f1", "verdict": "supported", "confidence": "high" },
+        { "id": "f2", "verdict": "supported", "confidence": "high" },
+        { "id": "f3", "verdict": "supported", "confidence": "high" },
+        { "id": "f4", "verdict": "supported", "confidence": "high" },
+        { "id": "f5", "verdict": "supported", "confidence": "medium" },
+        { "id": "f6", "verdict": "supported", "confidence": "high" },
+        { "id": "f7", "verdict": "supported", "confidence": "high" },
+        { "id": "f8", "verdict": "supported", "confidence": "medium" },
+        { "id": "f9", "verdict": "supported", "confidence": "high" },
+        { "id": "f10", "verdict": "supported", "confidence": "high" },
+        { "id": "f11", "verdict": "supported", "confidence": "high" },
+        { "id": "f12", "verdict": "supported", "confidence": "high" }
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "1958—1977年公房体制的“统一管理、统一分配、以租养房”与九成建设资金靠政府拨款，见央视《百姓生活》专题与央视网2014年报道。",
+        "1980年4月2日邓小平《关于建筑业和住宅问题的谈话》提出个人购房、自建房、新房旧房均可出售、一次或分期付款（10—15年）、联系房价调整房租、低工资职工补贴；讲话未使用“住房商品化”一词，该词是后来的政策概括。",
+        "1994年国发〔1994〕43号《国务院关于深化城镇住房制度改革的决定》成文日期为1994年7月18日，提出公积金、稳步出售公房、经济适用住房；该文件已由国发〔2016〕38号宣布失效。1998年国发〔1998〕23号于7月3日发出，规定1998年下半年起停止住房实物分配、逐步实行货币化，新建经济适用住房只售不租。"
+      ],
+      "summary": "12条全部成立。单位作为城市基本组织单元、国家与单位投资建房、低租金与单位补贴、按工龄职务家庭人口排序的分房办法、使用权而非产权、单位办社会、介绍信制度、单位间住房条件分化、1980年邓小平谈话、1994与1998两次房改文件、国企改革后职能外移、“社会人”与记忆差异，均有政策文本或报道支撑。"
+    },
+    {
+      "id": "w2-wh-islamic-canon-avicenna",
+      "status": "verified",
+      "confidence": "high",
+      "facts": [
+        { "id": "f1", "verdict": "supported", "confidence": "high" },
+        { "id": "f2", "verdict": "supported", "confidence": "high" },
+        { "id": "f3", "verdict": "supported", "confidence": "high" },
+        { "id": "f4", "verdict": "supported", "confidence": "high" },
+        { "id": "f5", "verdict": "supported", "confidence": "medium" },
+        { "id": "f6", "verdict": "supported", "confidence": "medium" },
+        { "id": "f7", "verdict": "supported", "confidence": "high" },
+        { "id": "f8", "verdict": "supported", "confidence": "high" },
+        { "id": "f9", "verdict": "supported", "confidence": "medium" },
+        { "id": "f10", "verdict": "supported", "confidence": "high" },
+        { "id": "f11", "verdict": "supported", "confidence": "high" },
+        { "id": "f12", "verdict": "supported", "confidence": "high" }
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "美国国会图书馆《医典》条目明确五卷分工：卷一医学总论（al-umūr al-kullīya）、卷二单药约800种（al-adwiya al-mufrada）、卷三按器官论病、卷四发热与外伤毒物、卷五复方制剂；并记克雷莫纳的杰拉德12世纪拉丁译本及该书作为医学院标准教材沿用至17世纪晚期。",
+        "1593年罗马 Typographia Medicea 印本为《医典》阿拉伯文首次排印，题记“Arabice nunc primum impressi”，意大利 EDIT16 与国家中央图书馆书目均著录。",
+        "生平：980年生于布哈拉附近 Afshana，少年学医，为萨曼王朝苏丹 Nuh ibn Mansur 治病后获准使用王室图书馆，1037年卒于哈马丹。《医典》约成于1015—1025年，属其中后期著作，“晚年”为宽泛说法。"
+      ],
+      "summary": "12条全部成立。生卒与游历、五卷结构、四体液说源流、脉尿粪色诊法、对瘟疫接触与水源传播的讨论及隔离建议、外科保守与鸦片止痛、药物卷按字母排列并注替代品、杰拉德12世纪拉丁译与三所医学院采用、译本非逐字忠实、1593年罗马阿拉伯文排印、17世纪后地位下降、以及“统治欧洲医学六百年”属夸张的判断，均与权威书目与医学史文献相符。"
+    },
+    {
+      "id": "cn-geo-black-soil",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        { "id": "f1", "verdict": "supported", "confidence": "high" },
+        { "id": "f2", "verdict": "supported", "confidence": "medium" },
+        { "id": "f3", "verdict": "supported", "confidence": "high" },
+        { "id": "f4", "verdict": "wrong", "confidence": "high", "issue": "i1" },
+        { "id": "f5", "verdict": "supported", "confidence": "medium" },
+        { "id": "f6", "verdict": "supported", "confidence": "high" },
+        { "id": "f7", "verdict": "supported", "confidence": "medium" },
+        { "id": "f8", "verdict": "supported", "confidence": "high" },
+        { "id": "f9", "verdict": "supported", "confidence": "medium" },
+        { "id": "f10", "verdict": "supported", "confidence": "high" },
+        { "id": "f11", "verdict": "supported", "confidence": "medium" },
+        { "id": "f12", "verdict": "supported", "confidence": "high" }
+      ],
+      "issues": [
+        {
+          "id": "i1",
+          "factId": "f4",
+          "severity": "major",
+          "verdict": "wrong",
+          "claim": "形成一厘米厚的黑土，约需数百年，整层土壤是几千年的积累。",
+          "problem": "前半句与后半句自相矛盾，且后半句量级错误。按公认速率每厘米200—400年，60—80厘米厚的黑土层需1.2万—3.2万年；科普中国与中国科学院东北地理所的材料明确称今日黑土层是“数万年甚至十几万年”堆积的产物。“几千年”把时间尺度压缩了一个数量级。",
+          "correction": "形成一厘米黑土约需二百至四百年，六十至八十厘米厚的土层要上万年乃至十几万年，把整层土说成几千年，把时间尺度缩短了一个数量级。",
+          "evidence": [
+            {
+              "title": "科普中国：黑土地的形成与保护",
+              "url": "https://www.kepuchina.cn/article/articleinfo?business_type=100&classify=0&ar_id=700522",
+              "quote": "形成1厘米厚的黑土需要200至400年，今天的黑土层是数万年甚至十几万年堆积的结果"
+            },
+            {
+              "title": "农民日报：东北黑土区耕地质量（第二次全国土地调查数据）",
+              "url": "https://szb.farmer.com.cn/m/mobile/2021/20210406/20210406_006/content_20210406_006_1.htm",
+              "quote": "典型黑土区耕地面积18.53万平方公里，约2.78亿亩"
+            }
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "东北黑土区总面积约103万平方公里（含内蒙古东部），典型黑土区耕地18.53万平方公里即2.78亿亩，出自第二次全国土地调查。",
+        "开垦前后厚度存在学术争议：流行的“60—80厘米降至20—30厘米”多引自代表性报道与人大代表发言；张之一《黑土开垦后黑土层厚度的变化》认为开垦前一般仅30—50厘米、局部可达1米，称流行说法“与事实相差甚远”；第二次土壤普查黑龙江、吉林薄层（<30厘米）耕地约占39.8%。故 f5 给 supported/medium，不作错误处理。",
+        "梨树模式：2016年《农民日报》将其命名为“梨树秸秆覆盖免耕玉米种植技术体系”，核心为秸秆覆盖免耕、条带旋耕等少动土措施；2024年发布《中国黑土区“梨树模式”技术标准》。",
+        "《中华人民共和国黑土地保护法》2022年6月24日由十三届全国人大常委会第三十五次会议通过，2022年8月1日施行。东北三省粮食产量“占全国五分之一以上”见新华社2023年报道；含内蒙古的“东北三省一区”超全国四分之一、商品粮约占三分之一。"
+      ],
+      "summary": "12条中11条成立，1条量级错误。黑土定义与肥力来源、四大黑土带、103万平方公里与2.78亿亩、冻融与沟蚀、梨树模式及秸秆覆盖的代价、东北粮食占比、酸化盐碱化板结、2022年立法，均有据。f4 把整层黑土的形成时间说成“几千年”，与每厘米200—400年、层厚60—80厘米的事实相差一个数量级，应改为数万年至十几万年。"
+    },
+    {
+      "id": "w1-geo-world-atacama",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        { "id": "f1", "verdict": "supported", "confidence": "high" },
+        { "id": "f2", "verdict": "supported", "confidence": "high" },
+        { "id": "f3", "verdict": "supported", "confidence": "medium" },
+        { "id": "f4", "verdict": "supported", "confidence": "high" },
+        { "id": "f5", "verdict": "imprecise", "confidence": "high", "issue": "i1" },
+        { "id": "f6", "verdict": "supported", "confidence": "high" },
+        { "id": "f7", "verdict": "supported", "confidence": "medium" },
+        { "id": "f8", "verdict": "supported", "confidence": "high" },
+        { "id": "f9", "verdict": "supported", "confidence": "high" },
+        { "id": "f10", "verdict": "supported", "confidence": "medium" },
+        { "id": "f11", "verdict": "supported", "confidence": "high" }
+      ],
+      "issues": [
+        {
+          "id": "i1",
+          "factId": "f5",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "苔藓、地衣和一种靠雾生存的树状植物就靠这点水活着，一年下来的水量其实并不算少。",
+          "problem": "物种定性不准。阿塔卡马雾漠带的标志植物是凤梨科空气凤梨 Tillandsia landbeckii：附生、无功能性根系、全赖叶面吸收雾水（CAM 光合），与苔藓、地衣构成 tillandsiales/lomas 群落，并非“树状植物”。另“水量并不算少”只在“相对零降雨”的意义上成立，雾水绝对量很小，宜加限定。",
+          "correction": "靠雾生存的是凤梨科空气凤梨，如无根的 Tillandsia landbeckii，并非树状植物，它与苔藓、地衣构成雾漠植被；雾是当地唯一稳定水源。",
+          "evidence": [
+            {
+              "title": "Population genomics of Tillandsia landbeckii（Atacama fog oases）",
+              "url": "https://bibliotecadigital.infor.cl/handle/20.500.12220/30502?show=full",
+              "quote": "Tillandsia landbeckii (Bromeliaceae), a epiarenic plant without functional roots, completely depends on fog as source for water, therefore it is found only in fog corridors."
+            },
+            {
+              "title": "Setting the evolutionary timeline: Tillandsia landbeckii in the Chilean Atacama Desert（Zenodo）",
+              "url": "https://zenodo.org/records/4386524",
+              "quote": "Without developing a typical root system, there are only few other terrestrial Tillandsia species growing on bare sand in Chile and Peru"
+            }
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "吉尼斯世界纪录“最干燥沙漠”条目：阿塔卡马沿秘鲁、智利海岸延伸约1000公里，面积约10.5万平方公里，年降水10—15毫米，多为 camanchaca 雾凝结；Arica 年均0.76毫米、Quillagua 0.5毫米。",
+        "智利天文：一年逾300个晴夜，占全球天文观测设施约40%（在建项目投用后可达60%），Paranal 与 ALMA 均在此。",
+        "硝石：太平洋战争（1879—1883）后智利取得玻利维亚与秘鲁的硝石产区，1880—1930年垄断全球供应，1913年占世界出口70%以上；矿区城镇（oficinas）与铁路随之兴衰。",
+        "锂：Salar de Atacama 卤水提锂耗水、卤水位下降后恢复缓慢、周边湿地缩小；智利《水法典》未把富锂卤水纳入水权管理，是当地争水争议的制度根源。"
+      ],
+      "summary": "11条中10条成立。三重干旱机制（副热带高压下沉、安第斯雨影、秘鲁寒流逆温）、camanchaca 雾、硝石与太平洋战争、斑岩铜矿、锂卤水耗水、天文台选址、木乃伊与火星类比、融雪绿洲与水权冲突，均有据。唯一问题是把雾漠带的空气凤梨说成“树状植物”，且对雾水量作了偏乐观的表述。"
+    }
+  ]
+}

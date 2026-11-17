@@ -47,7 +47,7 @@
         },
         {
           "id": "f7",
-          "text": "冰盖底部并不安静。雷达与冰芯研究发现数千个冰下湖，水在冰与岩石之间积存，偶尔会快速排空；排水时冰面塌陷，冰的滑动也随之改变，这类事件在西北部被反复观测到。"
+          "text": "冰盖底部并不安静。雷达与冰芯研究已确认数十个冰下湖，水在冰与岩石之间积存，偶尔会快速排空；排水时冰面塌陷，冰的滑动也随之改变，这类事件在西北部被反复观测到。"
         },
         {
           "id": "f8",
@@ -175,7 +175,16 @@
         "Morlighem 等，BedMachine v3: Complete Bed Topography and Ocean Bathymetry Mapping of Greenland，Geophysical Research Letters，2017",
         "Jon Gertner，The Ice at the End of the World，Random House，2019",
         "IPCC 第六次评估报告第一工作组，第九章：海洋、冰冻圈与海平面变化，2021"
-      ]
+      ],
+      "factCheck": {
+        "status": "corrected",
+        "confidence": "high",
+        "batch": "batch-54",
+        "checkedAt": "2026-11-18T02:47:00+08:00",
+        "issueCount": 1,
+        "appliedAt": "2026-11-17T18:46:28.277Z",
+        "summary": "格陵兰面积、冰盖厚度、BedMachine 冰下地形、750 公里峡谷、伊苏阿绿岩带与 7.4 米海平面当量均与文献一致；唯“数千个冰下湖”与实测不符（已确认约 64 个），已修正。"
+      }
     },
     {
       "id": "w5-geo-world-aral-sea",
@@ -203,7 +212,7 @@
         },
         {
           "id": "f2",
-          "text": "一九六〇年代，苏联把这两条河的水引去种棉花。灌溉渠道多为土渠，渗漏与蒸发损失很大，据估计真正到达田里的水不到引水量的一半，其余在途中损失。卡拉库姆运河从阿姆河取水，一路穿过沙漠，输水距离超过一千公里。"
+          "text": "一九六〇年代，苏联把这两条河的水引去种棉花。灌溉渠道多为土渠，渗漏与蒸发损失很大，据估计真正到达田里的水只有一半左右。卡拉库姆运河从阿姆河取水，穿过沙漠，输水距离超过一千公里。"
         },
         {
           "id": "f3",
@@ -351,7 +360,16 @@
         "Philip Micklin，The Aral Sea Disaster，Annual Review of Earth and Planetary Sciences，2007",
         "Philip Micklin、Nikolay Aladin、Igor Plotnikov 编，The Aral Sea: The Devastation and Partial Rehabilitation of a Great Lake，Springer，2014",
         "世界银行，Syr Darya Control and Northern Aral Sea Project 评估报告，2005"
-      ]
+      ],
+      "factCheck": {
+        "status": "corrected",
+        "confidence": "high",
+        "batch": "batch-56",
+        "checkedAt": "2026-11-18T02:52:00+08:00",
+        "issueCount": 1,
+        "appliedAt": "2026-11-17T18:46:28.277Z",
+        "summary": "咸海专题的年份、面积、坝名与渔业数字都能对上；只需把“到达田里的水不到一半”改成更贴合的“一半左右”。"
+      }
     },
     {
       "id": "w5-geo-world-patagonia",
@@ -527,7 +545,16 @@
         "Bruce Chatwin，In Patagonia，Jonathan Cape，1977",
         "Jorge Rabassa 编，The Late Cenozoic of Patagonia and Tierra del Fuego，Elsevier，2008",
         "Thomas Veblen、Kenneth Young、Antony Orme 编，The Physical Geography of South America，Oxford University Press，2007"
-      ]
+      ],
+      "factCheck": {
+        "status": "verified",
+        "confidence": "medium",
+        "batch": "batch-52",
+        "checkedAt": "2026-11-18T02:58:00+08:00",
+        "issueCount": 0,
+        "appliedAt": "2026-11-17T18:46:28.277Z",
+        "summary": "雨影、冰原面积、冰坝溃决、风成地貌、12 Ma 侵入体与风电容量因子均有可查数据支撑，未发现需要改写的事实错误。"
+      }
     },
     {
       "id": "w5-geo-world-mountain-zones",
@@ -551,7 +578,7 @@
       "facts": [
         {
           "id": "f1",
-          "text": "山每升高一千米，气温大约下降六度半，这个数值叫气温直减率。它意味着在热带的高山上，从山脚到山顶可以依次遇到常绿林、落叶林、针叶林、灌丛、草甸和冰雪，纬度带被压缩进几千米的高度里。"
+          "text": "山每升高一千米，气温约降六度半。但热带高山的带谱并非常绿林、落叶林、针叶林依次排列：自下而上是低山常绿林、山地常绿林、云雾林、亚高山林，再往上是灌丛、草甸与冰雪；落叶林和针叶林主要属于温带山地。"
         },
         {
           "id": "f2",
@@ -707,7 +734,16 @@
         "Alexander von Humboldt、Aimé Bonpland，Essay on the Geography of Plants，1807（英译本，University of Chicago Press，2009）",
         "Christian Körner，Alpine Treelines: Functional Ecology of the Global High Elevation Tree Limits，Springer，2012",
         "IPCC，特别报告：海洋与冰冻圈，第二章 高山地区，2019"
-      ]
+      ],
+      "factCheck": {
+        "status": "corrected",
+        "confidence": "high",
+        "batch": "batch-48",
+        "checkedAt": "2026-11-18T02:52:00+08:00",
+        "issueCount": 1,
+        "appliedAt": "2026-11-17T18:46:28.277Z",
+        "summary": "垂直带谱的其余论述（递减率、洪堡、林线温度、雪线、安第斯带名、云雾林、物种上移、农业分层、气压与冰雪融水）均可核实；只有 f1 把温带山地的落叶林、针叶林带写进了热带高山序列，已修正。"
+      }
     },
     {
       "id": "w5-geo-world-island-biogeography",
@@ -887,7 +923,16 @@
         "Robert H. MacArthur、Edward O. Wilson，The Theory of Island Biogeography，Princeton University Press，1967",
         "David Quammen，The Song of the Dodo: Island Biogeography in an Age of Extinctions，Scribner，1996",
         "Mark Lomolino、Brett Riddle、Robert Whittaker，Biogeography，第5版，Sinauer，2017"
-      ]
+      ],
+      "factCheck": {
+        "status": "verified",
+        "confidence": "high",
+        "batch": "batch-54",
+        "checkedAt": "2026-11-18T02:47:00+08:00",
+        "issueCount": 0,
+        "appliedAt": "2026-11-17T18:46:28.277Z",
+        "summary": "岛屿生物地理学的模型、物种—面积关系、红树林去动物实验、喀拉喀托再定居与保护区设计讨论均与经典文献一致，未见事实性问题。"
+      }
     },
     {
       "id": "w5-geo-world-dust-belt",
@@ -1067,7 +1112,16 @@
         "Joseph Prospero 等，Environmental characterization of global sources of atmospheric soil dust，Reviews of Geophysics，2002",
         "Hongbin Yu 等，The fertilizing role of African dust in the Amazon rainforest，Geophysical Research Letters，2015",
         "Peter Knippertz、Jan-Bernd Stuut 编，Mineral Dust: A Key Player in the Earth System，Springer，2014"
-      ]
+      ],
+      "factCheck": {
+        "status": "verified",
+        "confidence": "high",
+        "batch": "batch-12",
+        "checkedAt": "2026-11-18T02:13:15+08:00",
+        "issueCount": 0,
+        "appliedAt": "2026-11-17T18:46:28.277Z",
+        "summary": "尘带来源、跨洋输送、生态与气候效应均与文献一致，未发现需改写之处。"
+      }
     },
     {
       "id": "w5-geo-world-city-water",
@@ -1115,7 +1169,7 @@
         },
         {
           "id": "f7",
-          "text": "墨西哥城坐落在古湖盆上，长期抽取地下水造成地面沉降。百年间部分地区下沉数米，且不同街区速率不一，供水与排水管道因此错位破裂，教堂与地铁站出现倾斜，维修成本逐年上升。"
+          "text": "墨西哥城坐落在古湖盆上，长期抽取地下水造成地面沉降。近百年间部分地区累计下沉近十米，不同街区速率不一，供水与排水管道因此错位破裂，教堂与地铁站出现倾斜，维修成本逐年上升。"
         },
         {
           "id": "f8",
@@ -1247,7 +1301,16 @@
         "William L. Kahrl，Water and Power: The Conflict over Los Angeles' Water Supply in the Owens Valley，University of California Press，1982",
         "David Soll，Empire of Water: An Environmental and Political History of the New York City Water Supply，Cornell University Press，2013",
         "联合国教科文组织，World Water Development Report 2021: Valuing Water，2021"
-      ]
+      ],
+      "factCheck": {
+        "status": "corrected",
+        "confidence": "medium",
+        "batch": "batch-30",
+        "checkedAt": "2026-11-18T02:38:00+08:00",
+        "issueCount": 1,
+        "appliedAt": "2026-11-17T18:46:28.277Z",
+        "summary": "城市水源专题以通论与三个城市案例为主，均有对应资料；仅墨西哥城“下沉数米”低估了实际量级，已改为“近十米”。"
+      }
     },
     {
       "id": "w5-geo-world-seismic-belts",
@@ -1427,7 +1490,16 @@
         "Bruce Bolt，Earthquakes，第5版，W. H. Freeman，2005",
         "Susan Hough，Earthshaking Science: What We Know (and Don't Know) about Earthquakes，Princeton University Press，2002",
         "美国地质调查局，Earthquake Hazards Program 技术说明，2020"
-      ]
+      ],
+      "factCheck": {
+        "status": "verified",
+        "confidence": "high",
+        "batch": "batch-36",
+        "checkedAt": "2026-11-18T02:27:00+08:00",
+        "issueCount": 0,
+        "appliedAt": "2026-11-17T18:46:28.277Z",
+        "summary": "板块边界分类、俯冲带700公里深源、圣安德烈斯走滑、洋中脊浅源小震、P/S 波与面波、震级与烈度、1985年墨西哥城场地效应、地震空区、预警时限、建筑抗震与近场海啸，均与 USGS 及地震学教材的口径一致，未发现需要改写的断言。"
+      }
     },
     {
       "id": "w5-geo-world-coasts",
@@ -1607,7 +1679,16 @@
         "Paul Komar，Beach Processes and Sedimentation，第2版，Prentice Hall，1998",
         "Orrin Pilkey、J. Andrew Cooper，The Last Beach，Duke University Press，2014",
         "IPCC，特别报告：海洋与冰冻圈，第四章 海平面上升与低地海岸，2019"
-      ]
+      ],
+      "factCheck": {
+        "status": "verified",
+        "confidence": "medium",
+        "batch": "batch-14",
+        "checkedAt": "2026-11-18T02:13:00+08:00",
+        "issueCount": 0,
+        "appliedAt": "2026-11-17T18:46:28.277Z",
+        "summary": "泥沙收支、波浪折射、沿岸输沙、潮差控制、海崖掏蚀、沙丘交换、硬软防护、三角洲沉降与输移单元管理均为标准海岸地貌结论，无事实错误。"
+      }
     },
     {
       "id": "w5-geo-world-aurora",
@@ -1787,7 +1868,16 @@
         "Asgeir Brekke、Alv Egeland，The Northern Lights: Their Heritage and Science，Grøndahl Dreyer，1994",
         "Lucy Jago，The Northern Lights，Knopf，2001",
         "美国国家海洋和大气管理局空间天气预报中心，Geomagnetic Storms 技术说明，2019"
-      ]
+      ],
+      "factCheck": {
+        "status": "verified",
+        "confidence": "high",
+        "batch": "batch-55",
+        "checkedAt": "2026-11-18T02:58:00+08:00",
+        "issueCount": 0,
+        "appliedAt": "2026-11-17T18:46:28.277Z",
+        "summary": "极光的物理机制、观测史与空间天气影响均与文献相符，未发现需要改动的断言。"
+      }
     }
   ]
 }

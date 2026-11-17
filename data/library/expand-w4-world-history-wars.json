@@ -63,7 +63,7 @@
         },
         {
           "id": "f11",
-          "text": "1918年春天，德军把精锐部队编成突击队，用短促炮击和渗透战术绕过强点，一度推进到马恩河附近。但补给跟不上，部队在旧战场里耗尽，攻势两个月后停摆。"
+          "text": "1918年春天，德军把精锐部队编成突击队，用短促炮击和渗透战术绕过强点，一度推进到马恩河附近。但补给跟不上，部队在旧战场里耗尽，攻势前后拖了近四个月，到七月才彻底停摆。"
         },
         {
           "id": "f12",
@@ -176,7 +176,16 @@
         "John Keegan, The First World War, Knopf, 1999。",
         "Hew Strachan, The First World War: To Arms, Oxford University Press, 2001。",
         "Michael Howard, The First World War: A Very Short Introduction, Oxford University Press, 2002。"
-      ]
+      ],
+      "factCheck": {
+        "status": "corrected",
+        "confidence": "high",
+        "batch": "batch-31",
+        "checkedAt": "2026-11-18T02:52:00+08:00",
+        "issueCount": 1,
+        "appliedAt": "2026-11-17T18:46:28.270Z",
+        "summary": "机枪、毒气、坦克与伤亡数字均与史料一致；唯一问题是 f11 把持续近四个月的春季攻势说成“两个月后停摆”，已给修正文本。"
+      }
     },
     {
       "id": "w4-wh-wars-versailles",
@@ -200,7 +209,7 @@
       "facts": [
         {
           "id": "f1",
-          "text": "1919年1月18日，巴黎和会开幕。日期和地点都经过挑选：四十八年前，德意志帝国正是在凡尔赛宫的镜厅宣告成立。战胜国要用这个安排说明，谁赢了，谁就有权安排会场的每一个细节。"
+          "text": "1919年1月18日，巴黎和会在法国外交部钟厅开幕。日期经过挑选：四十八年前，德意志帝国正是在凡尔赛宫的镜厅宣告成立，签约仪式后来也设在那里。这个安排本身就是一种宣示。"
         },
         {
           "id": "f2",
@@ -353,7 +362,16 @@
         "Margaret MacMillan, Peacemakers: The Paris Conference of 1919, John Murray, 2001。",
         "Sally Marks, The Illusion of Peace: International Relations in Europe 1918-1933, Palgrave, 2003。",
         "John Maynard Keynes, The Economic Consequences of the Peace, 1919。"
-      ]
+      ],
+      "factCheck": {
+        "status": "corrected",
+        "confidence": "high",
+        "batch": "batch-04",
+        "checkedAt": "2026-11-18T02:32:00+08:00",
+        "issueCount": 1,
+        "appliedAt": "2026-11-17T18:46:28.270Z",
+        "summary": "赔款、领土、军事条款与各国反应均可核实，仅开幕地点被误挂到凡尔赛宫。"
+      }
     },
     {
       "id": "w4-wh-wars-great-depression",
@@ -401,7 +419,7 @@
         },
         {
           "id": "f7",
-          "text": "1930年的斯姆特霍利关税把两千多种进口商品的税率提高，其他国家随即报复。世界贸易额在几年内萎缩大半，靠出口还债的国家处境更糟，国际分工被关税墙切断。"
+          "text": "1930年的斯姆特霍利关税把两万多种进口商品的税率提高，其他国家随即报复。世界贸易额在几年内萎缩大半，靠出口还债的国家处境更糟，国际分工被关税墙切断。"
         },
         {
           "id": "f8",
@@ -530,7 +548,16 @@
         "John Kenneth Galbraith, The Great Crash 1929, Houghton Mifflin, 1955。",
         "Barry Eichengreen, Golden Fetters: The Gold Standard and the Great Depression, Oxford University Press, 1992。",
         "Ben S. Bernanke, Essays on the Great Depression, Princeton University Press, 2000。"
-      ]
+      ],
+      "factCheck": {
+        "status": "corrected",
+        "confidence": "high",
+        "batch": "batch-02",
+        "checkedAt": "2026-11-18T02:45:00+08:00",
+        "issueCount": 1,
+        "appliedAt": "2026-11-17T18:46:28.270Z",
+        "summary": "十二条中仅关税覆盖商品数一条数量级有误（两千余 vs 两万余），其余年份、数字与制度叙述均可核实。"
+      }
     },
     {
       "id": "w4-wh-wars-total-war",
@@ -574,7 +601,7 @@
         },
         {
           "id": "f6",
-          "text": "英国从1940年1月起实行配给，糖、黄油、肉类、衣物都凭券购买。配给保证了基本营养，也压缩了消费；黑市和以物易物始终存在，城市之间的供应差别很大。政府还通过广播和食谱教家庭用有限食材做饭。"
+          "text": "英国从1940年1月起配给糖、黄油和肉类，衣物到1941年6月才凭票。配给保证了基本营养，也压缩了消费；黑市与以物易物始终存在，各地供应差别很大。政府还用广播和食谱教家庭用有限食材做饭。"
         },
         {
           "id": "f7",
@@ -594,7 +621,7 @@
         },
         {
           "id": "f11",
-          "text": "占领区的平民承受了另一种总体战：粮食被征走，青壮年被抓去做工。1941年冬至1942年，希腊出现严重饥荒；1944年冬，荷兰西部在封锁与运输中断中饿死数万人。"
+          "text": "占领区的平民承受了另一种总体战：粮食被征走，青壮年被抓去做工。1941年冬至1942年，希腊出现严重饥荒；1944年冬，荷兰西部在封锁与运输中断中饿死约两万人。"
         },
         {
           "id": "f12",
@@ -707,7 +734,16 @@
         "Mark Harrison, ed., The Economics of World War II, Cambridge University Press, 1998。",
         "Richard Overy, Why the Allies Won, W. W. Norton, 1995。",
         "Adam Tooze, The Wages of Destruction: The Making and Breaking of the Nazi Economy, Viking, 2006。"
-      ]
+      ],
+      "factCheck": {
+        "status": "corrected",
+        "confidence": "high",
+        "batch": "batch-58",
+        "checkedAt": "2026-11-18T03:12:00+08:00",
+        "issueCount": 2,
+        "appliedAt": "2026-11-17T18:46:28.270Z",
+        "summary": "12条中10条与史料吻合；配给起始时间被压缩到1940年1月、荷兰饥饿之冬死亡人数写作“数万”两处需改，已给出修正。"
+      }
     },
     {
       "id": "w4-wh-wars-logistics-oil-rubber",
@@ -884,7 +920,16 @@
         "Daniel Yergin, The Prize: The Epic Quest for Oil, Money and Power, Simon & Schuster, 1991。",
         "Mark Harrison, ed., The Economics of World War II, Cambridge University Press, 1998。",
         "Richard Overy, Why the Allies Won, W. W. Norton, 1995。"
-      ]
+      ],
+      "factCheck": {
+        "status": "verified",
+        "confidence": "high",
+        "batch": "batch-05",
+        "checkedAt": "2026-11-18T02:18:00+08:00",
+        "issueCount": 0,
+        "appliedAt": "2026-11-17T18:46:28.270Z",
+        "summary": "石油、合成燃料、橡胶与租借法案各条均有可靠史料支撑，未发现需要改写的硬伤。"
+      }
     },
     {
       "id": "w4-wh-wars-hiroshima-nuclear",
@@ -908,7 +953,7 @@
       "facts": [
         {
           "id": "f1",
-          "text": "1939年，物理学家西拉德担心纳粹德国先造出原子弹，说服爱因斯坦写信给罗斯福。美国随后启动曼哈顿计划，高峰时雇用了数十万人，在橡树岭、汉福德和洛斯阿拉莫斯同时推进。"
+          "text": "1939年，物理学家西拉德担心纳粹德国先造出原子弹，说服爱因斯坦写信给罗斯福。美国随后启动曼哈顿计划，高峰时雇用了约十三万人，在橡树岭、汉福德和洛斯阿拉莫斯同时推进。"
         },
         {
           "id": "f2",
@@ -1061,7 +1106,16 @@
         "Richard Rhodes, The Making of the Atomic Bomb, Simon & Schuster, 1986。",
         "John Hersey, Hiroshima, Knopf, 1946。",
         "Michael D. Gordin, Five Days in August: How World War II Became a Nuclear War, Princeton University Press, 2007。"
-      ]
+      ],
+      "factCheck": {
+        "status": "corrected",
+        "confidence": "high",
+        "batch": "batch-07",
+        "checkedAt": "2026-11-18T02:20:00+08:00",
+        "issueCount": 1,
+        "appliedAt": "2026-11-17T18:46:28.270Z",
+        "summary": "整体可靠；仅曼哈顿计划峰值用工规模被夸大，已给出改稿。"
+      }
     },
     {
       "id": "w4-wh-wars-un-cold-war",
@@ -1237,7 +1291,16 @@
       "sources": [
         "Paul Kennedy, The Parliament of Man: The Past, Present, and Future of the United Nations, Random House, 2006。",
         "John Lewis Gaddis, The Cold War: A New History, Penguin Press, 2005。"
-      ]
+      ],
+      "factCheck": {
+        "status": "verified",
+        "confidence": "high",
+        "batch": "batch-45",
+        "checkedAt": "2026-11-18T02:44:00+08:00",
+        "issueCount": 0,
+        "appliedAt": "2026-11-17T18:46:28.270Z",
+        "summary": "联合国成立、否决权、朝鲜战争、第 2758 号决议与维和原则均可核实，未发现事实错误。"
+      }
     },
     {
       "id": "w4-wh-wars-marshall-plan",
@@ -1414,7 +1477,16 @@
         "Alan S. Milward, The Reconstruction of Western Europe, 1945-1951, University of California Press, 1984。",
         "John Lewis Gaddis, The Cold War: A New History, Penguin Press, 2005。",
         "Benn Steil, The Marshall Plan: Dawn of the Cold War, Simon & Schuster, 2018。"
-      ]
+      ],
+      "factCheck": {
+        "status": "verified",
+        "confidence": "high",
+        "batch": "batch-14",
+        "checkedAt": "2026-11-18T02:13:00+08:00",
+        "issueCount": 0,
+        "appliedAt": "2026-11-17T18:46:28.270Z",
+        "summary": "从 1947 年 6 月 5 日演讲、巴黎会议与 CEEC/OEEC、到 1948–1952 年约一百三十亿美元与经互会的对抗，时间线与数字均与主流史料一致。"
+      }
     },
     {
       "id": "w4-wh-wars-berlin-blockade",
@@ -1466,7 +1538,7 @@
         },
         {
           "id": "f8",
-          "text": "1949年4月，空运达到高峰，一天运入的物资接近一万吨。这个数字超过封锁前的铁路运输量，也向苏联证明：封锁无法让城市屈服，西方不会因成本退让，空运可以长久维持下去。"
+          "text": "1949年4月空运达到高峰，4月16日一天运入近一万三千吨物资，超过封锁前铁路的日运输量。这向苏联证明：封锁无法让城市屈服，西方不会因成本退让，空运能长久维持。"
         },
         {
           "id": "f9",
@@ -1591,7 +1663,16 @@
         "Andrei Cherny, The Candy Bombers: The Untold Story of the Berlin Airlift and America's Finest Hour, Putnam, 2008。",
         "Hope M. Harrison, Driving the Soviets up the Wall: Soviet-East German Relations, 1953-1961, Princeton University Press, 2003。",
         "John Lewis Gaddis, The Cold War: A New History, Penguin Press, 2005。"
-      ]
+      ],
+      "factCheck": {
+        "status": "corrected",
+        "confidence": "high",
+        "batch": "batch-57",
+        "checkedAt": "2026-11-18T02:58:00+08:00",
+        "issueCount": 1,
+        "appliedAt": "2026-11-17T18:46:28.270Z",
+        "summary": "12条中11条与史料吻合，唯“一天接近一万吨”低估了1949年4月16日12 941短吨的纪录日，已给出修正。"
+      }
     },
     {
       "id": "w4-wh-wars-cuban-missiles",
@@ -1768,7 +1849,16 @@
         "Michael Dobbs, One Minute to Midnight: Kennedy, Khrushchev, and Castro on the Brink of Nuclear War, Knopf, 2008。",
         "Graham Allison and Philip Zelikow, Essence of Decision: Explaining the Cuban Missile Crisis, 2nd ed., Longman, 1999。",
         "John Lewis Gaddis, The Cold War: A New History, Penguin Press, 2005。"
-      ]
+      ],
+      "factCheck": {
+        "status": "verified",
+        "confidence": "high",
+        "batch": "batch-55",
+        "checkedAt": "2026-11-18T02:58:00+08:00",
+        "issueCount": 0,
+        "appliedAt": "2026-11-17T18:46:28.270Z",
+        "summary": "古巴导弹危机的时序、决策与后果叙述与档案研究一致；船队掉头与秘密承诺两处细节的复杂性已记入来源注记。"
+      }
     }
   ]
 }

@@ -1,0 +1,930 @@
+{
+  "batch": "batch-15",
+  "checkedAt": "2026-11-18T02:45:00+08:00",
+  "dossiers": [
+    {
+      "id": "psych-similarity",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        {
+          "id": "f1",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f2",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f3",
+          "verdict": "supported",
+          "confidence": "medium"
+        },
+        {
+          "id": "f4",
+          "verdict": "imprecise",
+          "confidence": "high",
+          "issue": "issue-01"
+        },
+        {
+          "id": "f5",
+          "verdict": "wrong",
+          "confidence": "high",
+          "issue": "issue-02"
+        },
+        {
+          "id": "f6",
+          "verdict": "supported",
+          "confidence": "medium"
+        },
+        {
+          "id": "f7",
+          "verdict": "wrong",
+          "confidence": "high",
+          "issue": "issue-03"
+        },
+        {
+          "id": "f8",
+          "verdict": "unsupported",
+          "confidence": "low",
+          "issue": "issue-04"
+        },
+        {
+          "id": "f9",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f10",
+          "verdict": "supported",
+          "confidence": "medium"
+        },
+        {
+          "id": "f11",
+          "verdict": "unsupported",
+          "confidence": "low",
+          "issue": "issue-05"
+        },
+        {
+          "id": "f12",
+          "verdict": "supported",
+          "confidence": "medium"
+        }
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f4",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "后者与吸引的关联更强，也更稳定。",
+          "problem": "蒙托亚等2008年元分析（460个效应量、313项研究）中，实际相似与吸引的关联为 r=.47，感知相似为 r=.39，实际的总体关联反而更强；感知相似的优势在于对既有关系仍能预测吸引，而不是关联强度更大。",
+          "correction": "蒙托亚等人2008年的元分析区分了两种相似：客观相似指双方真实的态度或特质接近，感知相似指“我觉得我们很像”。总体上客观相似的关联更强，但在已经建立的关系里，只有感知相似仍能预测吸引。",
+          "evidence": [
+            {
+              "title": "Is actual similarity necessary for attraction? A meta-analysis of actual and perceived similarity (SAGE)",
+              "url": "https://journals.sagepub.com/doi/abs/10.1177/0265407508096700",
+              "quote": "the associations between interpersonal attraction and both actual similarity (r = .47) and perceived similarity (r = .39) were significant and large"
+            }
+          ]
+        },
+        {
+          "id": "issue-02",
+          "factId": "f5",
+          "severity": "major",
+          "verdict": "wrong",
+          "claim": "在短暂的初次见面里，客观相似对喜欢的预测力很小；随着相处时间变长，它的作用才逐渐显现。",
+          "problem": "方向与元分析相反：实际相似在无互动与短互动研究中作用显著，超过无互动后效应明显下降，在既有关系中不再显著；感知相似才在长期关系中持续预测吸引。",
+          "correction": "在短暂的初次见面里，客观相似对喜欢有明显预测力；相处时间变长后，它的作用反而下降。相似更像最初点燃关系的火花，关系能不能维持下去，更多取决于感知到的相似和两个人怎样互动。",
+          "evidence": [
+            {
+              "title": "Is actual similarity necessary for attraction? A meta-analysis of actual and perceived similarity (SAGE)",
+              "url": "https://journals.sagepub.com/doi/abs/10.1177/0265407508096700",
+              "quote": "actual similarity was important in no-interaction and short-interaction studies ... there was a significant reduction in the effect size of actual similarity beyond no-interaction studies"
+            }
+          ]
+        },
+        {
+          "id": "issue-03",
+          "factId": "f7",
+          "severity": "major",
+          "verdict": "wrong",
+          "claim": "价值观与宗教性的相似和婚姻质量有关，而人格特质的相似与婚姻质量关联很弱。",
+          "problem": "卢与克洛嫩2005年研究的摘要给出相反结果：人格相关领域的相似与婚姻质量正相关，态度相关领域反而不显著；依恋特征的相似预测力最强。原文还把“态度域相似度高、人格域相似度低”与“哪种相似预测婚姻质量”混为一谈。",
+          "correction": "卢与克洛嫩2005年对新婚夫妻的研究发现，夫妻在态度与价值观上相似度较高、在人格上较低；但人格相似与婚姻质量正相关，态度相似反而没有显著关联。相似的内容比总量更重要。",
+          "evidence": [
+            {
+              "title": "Assortative mating and marital quality in newlyweds: a couple-centered approach (PubMed)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/15841861/",
+              "quote": "positive associations between similarity and marital quality for personality-related domains but not for attitude-related domains"
+            }
+          ]
+        },
+        {
+          "id": "issue-04",
+          "factId": "f8",
+          "severity": "minor",
+          "verdict": "unsupported",
+          "claim": "相似也会放大冲突。两个都很强势、都不愿先让步的人，可能因为“太像”而在争执里卡死。",
+          "problem": "检索到的相似性文献集中在相似与吸引，没有实证研究支持“相似放大冲突”或“双方强势因太像而卡死”；这是合理猜测，但不能作为已核实的研究结论。",
+          "correction": null,
+          "evidence": [
+            {
+              "title": "Is actual similarity necessary for attraction? A meta-analysis of actual and perceived similarity (SAGE)",
+              "url": "https://journals.sagepub.com/doi/abs/10.1177/0265407508096700",
+              "quote": "To evaluate the impact of actual and perceived similarity on interpersonal attraction, we meta-analyzed 460 effect sizes"
+            }
+          ]
+        },
+        {
+          "id": "issue-05",
+          "factId": "f11",
+          "severity": "minor",
+          "verdict": "unsupported",
+          "claim": "相似性研究多集中在态度与价值观，对生活习惯的结论更混杂。",
+          "problem": "没有找到可引用的综述支持“生活习惯相似的研究结论更混杂”这一判断；后半句关于作息、整洁、金钱观制造摩擦的说法也缺实证来源，属未被证实的概括。",
+          "correction": null,
+          "evidence": [
+            {
+              "title": "Is actual similarity necessary for attraction? A meta-analysis of actual and perceived similarity (SAGE)",
+              "url": "https://journals.sagepub.com/doi/abs/10.1177/0265407508096700",
+              "quote": "we meta-analyzed 460 effect sizes from 313 laboratory and field investigations"
+            }
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "Byrne 1961 的线性关系与 Montoya 等 2008 的效应量均可在摘要页核对；Newcomb 1961 的密歇根转学生宿舍研究见教材综述，具体宿舍安排细节未逐页核对。",
+        "f7 的方向以 PubMed 摘要为准；该研究同时发现依恋特征相似预测力最强，原文未提。"
+      ],
+      "summary": "伯恩、纽科姆与芬克尔三条主线可靠；但“感知相似更强”“客观相似只在长期关系中起作用”“人格相似与婚姻质量弱相关”三处与元分析/原文相反，需改写。"
+    },
+    {
+      "id": "w1-psych-self-disclosure",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        {
+          "id": "f1",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f2",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f3",
+          "verdict": "supported",
+          "confidence": "medium"
+        },
+        {
+          "id": "f4",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f5",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f6",
+          "verdict": "unsupported",
+          "confidence": "low",
+          "issue": "issue-01"
+        },
+        {
+          "id": "f7",
+          "verdict": "imprecise",
+          "confidence": "medium",
+          "issue": "issue-02"
+        },
+        {
+          "id": "f8",
+          "verdict": "supported",
+          "confidence": "medium"
+        },
+        {
+          "id": "f9",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f10",
+          "verdict": "supported",
+          "confidence": "medium"
+        },
+        {
+          "id": "f11",
+          "verdict": "supported",
+          "confidence": "medium"
+        },
+        {
+          "id": "f12",
+          "verdict": "supported",
+          "confidence": "medium"
+        }
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f6",
+          "severity": "minor",
+          "verdict": "unsupported",
+          "claim": "一些速度约会研究也发现，问深层问题比闲聊更能提高再见面意愿。",
+          "problem": "未检索到“速度约会中问深层问题提高再见面意愿”的实证研究；可查到的是阿伦1997年的实验室渐进问题范式，以及提问行为与好感的研究，二者都不是速度约会场景。",
+          "correction": null,
+          "evidence": [
+            {
+              "title": "Fast Tracking Intimacy — APS Observer",
+              "url": "https://www.psychologicalscience.org/observer/fast-tracking-intimacy"
+            }
+          ]
+        },
+        {
+          "id": "issue-02",
+          "factId": "f7",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "研究里，过早的负面披露会降低吸引力，除非双方已经建立了足够的信任。",
+          "problem": "文献支持的是“披露的亲密程度超过当前关系阶段、披露过量会降低好感”，而不是“负面内容本身”降低吸引力；把机制归到“负面”上缺证据。",
+          "correction": "披露过量有代价。第一次见面就讲创伤细节、前任纠葛，常让对方不知如何回应；研究里，披露的亲密程度超过当前关系阶段时，好感会下降，而不只是内容负面。信任足够之后，同样的内容才更容易被接住。",
+          "evidence": [
+            {
+              "title": "自我暴露的边界：说多少才合适",
+              "url": "https://mp.weixin.qq.com/s?__biz=MzI3MjMwOTQzOQ==&mid=2247524520&idx=1&sn=df69de0839416fcedb39194e6a85de9a"
+            }
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "柯林斯与米勒1994年元分析覆盖94项研究，方向为披露者更被喜欢、喜欢促进披露、披露促进喜欢，可在 Psychology Today 的综述与 Ovid 摘要页核对。",
+        "阿伦1997年范式为36题、三组递进、约45分钟、最后对视4分钟；f5 的“效果来自结构与双向性”是解释性表述，非原文结论。"
+      ],
+      "summary": "社会渗透理论、柯林斯与米勒元分析、阿伦36题范式均可靠；速度约会深层问题的研究无法落实，披露过量的机制被误写成“负面内容”。"
+    },
+    {
+      "id": "w3-psych-anchoring",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        {
+          "id": "f1",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f2",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f3",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f4",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f5",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f6",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f7",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f8",
+          "verdict": "unsupported",
+          "confidence": "low",
+          "issue": "issue-01"
+        },
+        {
+          "id": "f9",
+          "verdict": "imprecise",
+          "confidence": "medium",
+          "issue": "issue-02"
+        },
+        {
+          "id": "f10",
+          "verdict": "supported",
+          "confidence": "medium"
+        },
+        {
+          "id": "f11",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f12",
+          "verdict": "supported",
+          "confidence": "medium"
+        }
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f8",
+          "severity": "minor",
+          "verdict": "unsupported",
+          "claim": "群体里锚会被放大：第一个发言的人定下调子，后面的人围绕它微调。",
+          "problem": "只检索到把“首个发言者权重”形式化的理论模型，没有实证研究证明群体讨论会把锚放大、或首个发言者的起点决定最终共识；这是模型推演，不是实验结论。",
+          "correction": null,
+          "evidence": [
+            {
+              "title": "Anchoring in deliberations of structured groups (Synthese)",
+              "url": "https://link.springer.com/content/pdf/10.1007/s10670-024-00814-7.pdf",
+              "quote": "the anchoring effect depends crucially on the weight of the first speaker"
+            }
+          ]
+        },
+        {
+          "id": "issue-02",
+          "factId": "f9",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "当锚明显荒谬、当人受到提醒、当判断涉及非常熟悉的领域时，效应会减弱。",
+          "problem": "“熟悉领域会减弱锚定”被夸大：英格利希等2006年用经验丰富的法官做被试，无关的求刑锚仍显著影响判决。可减弱的是明显荒谬的锚与明确警告，专业经验不能可靠消除效应。",
+          "correction": "锚定不是万能的。锚明显荒谬或受到提醒时，效应会减弱；但专业经验并不能可靠地关掉它，法官、房产经纪人同样会受影响。熟悉的领域里，人只是多了一把尺子，锚仍可能从别处进来。",
+          "evidence": [
+            {
+              "title": "Playing Dice With Criminal Sentences: The Influence of Irrelevant Anchors on Experts' Judicial Decision Making",
+              "url": "https://cir.nii.ac.jp/crid/1382262943702314368"
+            }
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "特沃斯基与卡尼曼1974年的轮盘实验、诺思克拉夫特与尼尔1987年的房产经纪实验、扬尼斯泽夫斯基与乌伊2008年的精确锚实验均有可查摘要/综述。",
+        "f9 的“熟悉领域”说法与同一专题 f7 的法官实验直接冲突，已按后者修正。"
+      ],
+      "summary": "锚定-调整、选择性通达、精确锚与法官实验都站得住；群体放大锚缺实证，熟悉领域减弱锚定与法官研究矛盾。"
+    },
+    {
+      "id": "w4-psych-scarcity",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        {
+          "id": "f1",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f2",
+          "verdict": "wrong",
+          "confidence": "high",
+          "issue": "issue-01"
+        },
+        {
+          "id": "f3",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f4",
+          "verdict": "imprecise",
+          "confidence": "high",
+          "issue": "issue-02"
+        },
+        {
+          "id": "f5",
+          "verdict": "supported",
+          "confidence": "medium"
+        },
+        {
+          "id": "f6",
+          "verdict": "supported",
+          "confidence": "medium"
+        },
+        {
+          "id": "f7",
+          "verdict": "supported",
+          "confidence": "medium"
+        },
+        {
+          "id": "f8",
+          "verdict": "imprecise",
+          "confidence": "medium",
+          "issue": "issue-03"
+        },
+        {
+          "id": "f9",
+          "verdict": "wrong",
+          "confidence": "high",
+          "issue": "issue-04"
+        },
+        {
+          "id": "f10",
+          "verdict": "supported",
+          "confidence": "medium"
+        },
+        {
+          "id": "f11",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f12",
+          "verdict": "supported",
+          "confidence": "high"
+        }
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f2",
+          "severity": "major",
+          "verdict": "wrong",
+          "claim": "沙阿、穆莱纳森与沙菲尔二〇一二年的研究找了印度甘蔗种植户。",
+          "problem": "研究归属错误：2012年《科学》论文是五个实验室实验（注意力分配与借贷），没有印度蔗农；甘蔗农收获前后是 Mani、Mullainathan、Shafir 与 Zhao 2013年的《Poverty Impedes Cognitive Function》。",
+          "correction": "马尼、穆莱纳森、沙菲尔与赵二〇一三年的研究找了印度甘蔗种植户。收获前，农民手头最紧；收获后，一次性拿到全年收入。同一批人在两个时间点，做了同一套认知测试。",
+          "evidence": [
+            {
+              "title": "Poverty Impedes Cognitive Function (Science, 2013)",
+              "url": "https://www.science.org/doi/10.1126/science.1238041"
+            },
+            {
+              "title": "Some Consequences of Having Too Little (Science, 2012)",
+              "url": "https://katalog.slub-dresden.de/en/id/ai-55-aHR0cDovL2R4LmRvaS5vcmcvMTAuMTEyNi9zY2llbmNlLjEyMjI0MjY"
+            }
+          ]
+        },
+        {
+          "id": "issue-02",
+          "factId": "f4",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "马尼等人二〇一三年的后续研究把机制说得更细。",
+          "problem": "这不是“后续研究”，就是2013年同一篇论文；该文用瑞文推理、数字广度与斯特鲁普任务测试，斯特鲁普属抑制控制，但“反应更慢”的具体表述没有原文依据。",
+          "correction": "马尼等人二〇一三年的同一项研究测试了不同任务：收获前的农民在瑞文推理和需要抑制冲动的斯特鲁普任务上表现更差。研究者认为，经济压力占用了有限的心理带宽，留给其他任务的余量就少了。",
+          "evidence": [
+            {
+              "title": "Poverty Impedes Cognitive Function (Science, 2013)",
+              "url": "https://www.science.org/doi/10.1126/science.1238041"
+            }
+          ]
+        },
+        {
+          "id": "issue-03",
+          "factId": "f8",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "有的团队在其他地区重复农民研究时，效应更小，甚至没有出现。",
+          "problem": "没有找到“在其他地区重复农民研究”的直接证据；现有的不一致证据是卡瓦略等2016年发薪日研究发现认知测试无差异，以及对效应大小的批评。可以说不一致，不能说重复农民研究失败。",
+          "correction": "后续证据并不完全一致。卡瓦略等人二〇一六年用发薪日做自然实验，没有发现发薪前认知测试变差；也有学者质疑农民研究的效应大小。“认知带宽会被占用”的方向仍获不少支持，但效应有多大、在哪些情境出现，仍有争论。",
+          "evidence": [
+            {
+              "title": "Poverty and Economic Decision-Making: Evidence from Changes in Financial Resources at Payday (AER)",
+              "url": "https://ftp.aeaweb.org/research/does-economic-stress-impair-decision-making",
+              "quote": "performed no worse on cognitive tasks like the Stroop test"
+            }
+          ]
+        },
+        {
+          "id": "issue-04",
+          "factId": "f9",
+          "severity": "major",
+          "verdict": "wrong",
+          "claim": "发薪前的认知表现更差。这种短期波动说明，效应不必等到长期贫困才出现。",
+          "problem": "与卡瓦略、迈耶与王2016年的结论相反：发薪前手头更紧的人更不耐烦、更看重眼前，但在斯特鲁普等认知测试上没有变差；作者明确报告了认知功能的阴性结果。",
+          "correction": "卡瓦略、迈耶与王二〇一六年的研究利用发薪日做比较：发薪前手头更紧的人更不耐烦、更看重眼前，但在斯特鲁普等认知测试上并没有变差。这说明短期现金约束会改变偏好，却未必拉低认知表现。",
+          "evidence": [
+            {
+              "title": "Poverty and Economic Decision-Making: Evidence from Changes in Financial Resources at Payday (AER)",
+              "url": "https://ftp.aeaweb.org/research/does-economic-stress-impair-decision-making",
+              "quote": "they performed no worse on cognitive tasks like the Stroop test"
+            },
+            {
+              "title": "The Psychology of Poverty (University of Zurich lecture)",
+              "url": "https://www.ccwd.uzh.ch/assets/pdf/lichands_inaugural_lecture.pdf",
+              "quote": "IS THAT REALLY SO? Carvalho, Meyer and Wang (2016)"
+            }
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "稀缺的“带宽”框架以 Mullainathan & Shafir 2013 与 Shah 等 2012 为基础；印度蔗农的具体数字（约13个智商点）见 Mani 等 2013 及中文报道。",
+        "f2 的年份与人名在原句中同时出错（2012/沙阿 对 2013/马尼），已整体改写。"
+      ],
+      "summary": "稀缺框架、农民研究的方向与13个智商点成立；但把2012年实验室研究误当成蔗农研究，并把卡瓦略2016年的阴性认知结果写反，两处需改。"
+    },
+    {
+      "id": "w2-geo-world-mountains-alps",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        {
+          "id": "f1",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f2",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f3",
+          "verdict": "imprecise",
+          "confidence": "medium",
+          "issue": "issue-01"
+        },
+        {
+          "id": "f4",
+          "verdict": "supported",
+          "confidence": "medium"
+        },
+        {
+          "id": "f5",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f6",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f7",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f8",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f9",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f10",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f11",
+          "verdict": "imprecise",
+          "confidence": "high",
+          "issue": "issue-02"
+        },
+        {
+          "id": "f12",
+          "verdict": "wrong",
+          "confidence": "high",
+          "issue": "issue-03"
+        }
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f3",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "下面的基底并没有跟着变形。",
+          "problem": "薄皮构造与蒸发岩滑脱面成立，但“基底没有变形”说过头：赫尔维蒂推覆体之下还有 Infrahelvetic 结晶基底（Aar 地块），它参与了后来的变形与隆升；只是上覆沉积盖层与基底脱开。",
+          "correction": "瑞士地质学家海姆等人用构造剖面证明，阿尔卑斯北缘的赫尔维蒂推覆体属于薄皮构造：上覆沉积岩沿三叠纪蒸发岩等滑脱面整体向北推移几十公里，与下伏结晶基底脱开；但基底后来也参与了隆升与变形。",
+          "evidence": [
+            {
+              "title": "Basement-involved thin-skinned and thick-skinned tectonics in the Alps (Geological Magazine)",
+              "url": "https://www.cambridge.org/core/journals/geological-magazine/article/basementinvolved-thinskinned-and-thickskinned-tectonics-in-the-alps/B245B45815E32AB476A4DFF8272F8F88",
+              "quote": "The Helvetic nappes represent a classic thin-skinned style with Mesozoic sediments detached from their pre-Triassic crystalline substratum."
+            },
+            {
+              "title": "Alpine detachment faults and Helvetic cover (thesis, HAL)",
+              "url": "https://theses.hal.science/tel-04647705v1/file/thesisdallasta.pdf",
+              "quote": "detached above the underlying basement through evaporite decollement"
+            }
+          ]
+        },
+        {
+          "id": "issue-02",
+          "factId": "f11",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "隧道走的是山体下方几百米深处。",
+          "problem": "圣哥达基线隧道最深处约2.3公里（覆盖层），不是“几百米”；长度57.1公里、2016年通车、穿越时间约20分钟均正确。",
+          "correction": "二〇一六年通车的圣哥达基线隧道长五十七公里，把穿越阿尔卑斯的时间压到二十分钟。隧道最深处在圣哥达山体下方约两千三百米，避开了积雪、陡坡和每年长达数月的封路。",
+          "evidence": [
+            {
+              "title": "The Gotthard Base Tunnel: the world's longest railway tunnel (ScienceDirect)",
+              "url": "https://www.sciencedirect.com/science/article/pii/S2095809916311535"
+            }
+          ]
+        },
+        {
+          "id": "issue-03",
+          "factId": "f12",
+          "severity": "major",
+          "verdict": "wrong",
+          "claim": "南坡处在背风侧，下沉气流增温变干，这就是焚风。",
+          "problem": "方向反了：经典阿尔卑斯焚风是南来气流越过主脊后，在北侧（背风侧）下沉增温变干；阿尔卑斯北坡才是焚风的一侧。北坡降水多也主要来自大西洋方向的湿气，南坡另有地中海一侧的降水。",
+          "correction": "阿尔卑斯南北坡气候差别很大。北坡迎向来自大西洋的湿气，降水多、森林茂密；南坡面向地中海，来自南方的湿空气被迫抬升，翻过主脊后在北侧下沉增温变干，形成焚风，能让北坡雪线一夜之间退上去。",
+          "evidence": [
+            {
+              "title": "L'index de foehn — MétéoSuisse",
+              "url": "https://www.meteosuisse.admin.ch/meteo/meteo-et-climat-de-a-a-z/lindex-de-foehn.html",
+              "quote": "La condition requise pour l'apparition de foehn sur le versant nord des Alpes est la présence d'un vent du sud sur la crête principale des Alpes"
+            }
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "推覆构造、冰川侵蚀与山口地形以 Pfiffner 2016 及瑞士水文图集、EEA 报告为据；马特洪峰4478米见 IUGS 地质遗产页。",
+        "f12 的焚风方向以瑞士气象局（MétéoSuisse）的焚风指数说明为准。"
+      ],
+      "summary": "阿尔卑斯地质与冰川主线可靠；圣哥达隧道深度写成“几百米”、焚风背风侧写成南坡两处需改，薄皮构造的基底表述需加限定。"
+    },
+    {
+      "id": "w5-geo-cn-zhoushan-fishery",
+      "status": "corrected",
+      "confidence": "medium",
+      "facts": [
+        {
+          "id": "f1",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f2",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f3",
+          "verdict": "supported",
+          "confidence": "medium"
+        },
+        {
+          "id": "f4",
+          "verdict": "supported",
+          "confidence": "medium"
+        },
+        {
+          "id": "f5",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f6",
+          "verdict": "imprecise",
+          "confidence": "high",
+          "issue": "issue-01"
+        },
+        {
+          "id": "f7",
+          "verdict": "supported",
+          "confidence": "medium"
+        },
+        {
+          "id": "f8",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f9",
+          "verdict": "supported",
+          "confidence": "medium"
+        },
+        {
+          "id": "f10",
+          "verdict": "supported",
+          "confidence": "medium"
+        },
+        {
+          "id": "f11",
+          "verdict": "supported",
+          "confidence": "medium"
+        },
+        {
+          "id": "f12",
+          "verdict": "supported",
+          "confidence": "medium"
+        }
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f6",
+          "severity": "major",
+          "verdict": "imprecise",
+          "claim": "到七十年代，野生大黄鱼渔汛基本消失，此后一直没有恢复到从前的规模。",
+          "problem": "时间偏早且忽略关键节点：敲罟1956年秋传入温州、1964年被国务院禁止；1974年浙江大黄鱼产量达19.7万吨创历史最高，之后才崩溃；舟山岱衢洋等主要产卵场到80年代中期才形不成渔汛，1977年是猫头洋、大目洋、官井洋先失去渔汛。",
+          "correction": "大黄鱼曾是最重要的经济鱼种。上世纪五十年代起，敲罟作业用声波把鱼群赶进网中，连幼鱼一起捕捞；1974年产量创下新高后迅速崩溃，舟山岱衢洋等产卵场到八十年代中期已形不成渔汛，此后一直没有恢复。",
+          "evidence": [
+            {
+              "title": "中国大黄鱼渔业及其资源可持续利用（中国海洋学会/专题报告）",
+              "url": "https://www.tio.org.cn/OWUP/u/cms/www/201907/14230603czqm.pdf"
+            }
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "水团与锋面以《舟山渔场及其邻近海域水团的气候学分析》与长江口冲淡水研究为据；伏季休渔1995年实施的表述见农业农村部与政府网材料。",
+        "带鱼小型化、赤潮与低氧为渔业与海洋环境文献的通行结论，本次未逐篇核对具体百分比。"
+      ],
+      "summary": "水团、锋面、渔汛与休渔制度均可靠；大黄鱼崩溃的时间线被压缩到“七十年代”，需按1974年峰值与80年代中期产卵场消失改写。"
+    },
+    {
+      "id": "w3-geo-world-temperate-rainforest",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        {
+          "id": "f1",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f2",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f3",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f4",
+          "verdict": "imprecise",
+          "confidence": "high",
+          "issue": "issue-01"
+        },
+        {
+          "id": "f5",
+          "verdict": "imprecise",
+          "confidence": "high",
+          "issue": "issue-02"
+        },
+        {
+          "id": "f6",
+          "verdict": "supported",
+          "confidence": "medium"
+        },
+        {
+          "id": "f7",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f8",
+          "verdict": "supported",
+          "confidence": "medium"
+        },
+        {
+          "id": "f9",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f10",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f11",
+          "verdict": "supported",
+          "confidence": "medium"
+        },
+        {
+          "id": "f12",
+          "verdict": "supported",
+          "confidence": "medium"
+        }
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f4",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "还有日本中部山地的一小块。",
+          "problem": "位置不对：白神山地（Shirakami-Sanchi）在本州北部青森县与秋田县交界，不在“日本中部山地”；其余分布列举正确。",
+          "correction": "温带雨林只占全球森林的很小一部分，分布零散：北美太平洋西北岸、智利南部、新西兰南岛、澳大利亚塔斯马尼亚，还有日本北部白神山地的一小块。每一块都被海洋或者干旱区隔开。",
+          "evidence": [
+            {
+              "title": "Shirakami-Sanchi, Japan (Springer reference)",
+              "url": "https://link.springer.com/referenceworkentry/10.1007/978-981-13-2538-0_2227",
+              "quote": "located on the boundary between Aomori ken and Akita ken in northern Honshu, Japan"
+            }
+          ]
+        },
+        {
+          "id": "issue-02",
+          "factId": "f5",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "北美西海岸的花旗松、巨杉和西加云杉，可以长到七八十米甚至更高。",
+          "problem": "树种用错：巨杉（giant sequoia）只生长在内华达山脉西坡，不属于海岸温带雨林；北美西海岸温带雨林最高的是海岸红杉，最高纪录115.55米，花旗松与西加云杉也可达七八十米以上。",
+          "correction": "这里的树种不多，却长出世界上最高的一些树：北美西海岸的花旗松、海岸红杉和西加云杉，可以长到七八十米以上，海岸红杉最高纪录超过一百一十五米，年龄以百年、千年计，树干里存着几百年的降水记录。",
+          "evidence": [
+            {
+              "title": "Redwoods: the tallest and largest trees (LibreTexts)",
+              "url": "https://bio.libretexts.org/Bookshelves/Botany/Inanimate_Life_(Briggs)/02%3A_Organisms/2.41%3A_Redwoods-_the_tallest_and_largest_trees"
+            },
+            {
+              "title": "The giant sequoia grows in groves on the western slopes of the Sierra Nevada",
+              "url": "https://psfaculty.plantsciences.ucdavis.edu/courses/enh101/Favorite%20Tree/JoshuaMeltzer.pdf"
+            }
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "温带雨林定义（年降水>1400毫米、夏季凉爽、火干扰少）见 EOEarth 的 Alaback 标准；原始林到1990年只剩不到13%见 WSU Press 专著介绍。",
+        "倒木苗床、鲑鱼输运养分分别见 Ancient Forest Alliance 与加拿大公园与荒野协会材料。"
+      ],
+      "summary": "温带雨林的成因、土壤、倒木更新与采伐史可靠；白神山地位置与“巨杉”树种两处专名错误需改。"
+    },
+    {
+      "id": "w5-geo-world-arctic-sea-ice",
+      "status": "verified",
+      "confidence": "high",
+      "facts": [
+        {
+          "id": "f1",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f2",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f3",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f4",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f5",
+          "verdict": "supported",
+          "confidence": "medium"
+        },
+        {
+          "id": "f6",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f7",
+          "verdict": "supported",
+          "confidence": "medium"
+        },
+        {
+          "id": "f8",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f9",
+          "verdict": "supported",
+          "confidence": "medium"
+        },
+        {
+          "id": "f10",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f11",
+          "verdict": "supported",
+          "confidence": "medium"
+        },
+        {
+          "id": "f12",
+          "verdict": "supported",
+          "confidence": "high"
+        }
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "多年冰占比（1984年61%降至2018年34%）、面积与厚度测量方式、浮冰融化与海平面、冰-反照率反馈均有 NOAA、NSIDC 与 Copernicus 出版物可查。",
+        "f1 的厚度范围、f5 的冰藻物候、f6 的海象与北极熊、f7 的航道与黑碳、f9 的热量交换均为 IPCC SROCC 与 AMAP 的通行表述，本次按综述核对，未逐条引原文页码。"
+      ],
+      "summary": "全篇为海冰物理、生态与气候反馈的教科书级表述，未发现与 IPCC/NSIDC 口径冲突之处。"
+    }
+  ]
+}

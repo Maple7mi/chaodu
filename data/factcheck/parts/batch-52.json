@@ -1,0 +1,270 @@
+{
+  "batch": "batch-52",
+  "checkedAt": "2026-11-18T02:58:00+08:00",
+  "dossiers": [
+    {
+      "id": "psych-desire",
+      "status": "corrected",
+      "confidence": "medium",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "imprecise", "confidence": "medium", "issue": "issue-01"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "imprecise", "confidence": "medium", "issue": "issue-02"},
+        {"id": "f6", "verdict": "supported", "confidence": "medium"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "supported", "confidence": "medium"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "supported", "confidence": "medium"},
+        {"id": "f11", "verdict": "supported", "confidence": "medium"}
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f2",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "研究观察到，过高的亲密在部分人身上会抑制欲望",
+          "problem": "这一说法主要来自临床观察与访谈，而非系统的问卷研究；Muise 与 Goss 的综述报告，其团队 269 对伴侣的数据只发现亲密与欲望的线性正相关，并未发现“亲密过高后欲望转而下降”的曲线关系。原句用“研究观察到”把临床印象说成了实证结论，应降级为“临床观察提示”。",
+          "correction": "临床观察与访谈提示，部分人会觉得过高的亲密削弱欲望；但较大样本的伴侣问卷只发现亲密与欲望正相关，未发现亲密升高后欲望下降，保留距离感对一些人仍可能有帮助。",
+          "evidence": [
+            {"title": "Does Too Much Closeness Dampen Desire? On the Balance of Closeness and Otherness for the Maintenance of Sexual Desire in Romantic Relationships (Current Directions in Psychological Science, 2024)", "url": "https://psychologicalscience.org/journals/current-directions/09637214231211542", "quote": "we tested whether there is a curvilinear association between closeness and desire and found evidence only for a significant linear, but not a curvilinear, association ... higher closeness was associated with higher levels of desire"}
+          ]
+        },
+        {
+          "id": "issue-02",
+          "factId": "f5",
+          "severity": "major",
+          "verdict": "imprecise",
+          "claim": "差异本身不预测关系变差，处理差异的方式才预测",
+          "problem": "综述性研究发现，欲望差异越大，性与关系满意度的平均值越低，二者存在稳定关联；原句断言“差异本身不预测”过于绝对。可以说差异很常见、并非必然导致关系破裂，但不能说它本身与满意度无关。",
+          "correction": "欲望差异很常见，但研究一致发现差异越大，性与关系满意度平均越低；差异本身未必毁掉关系，能否沟通、拒绝与协商，会影响它是否继续恶化。",
+          "evidence": [
+            {"title": "Sexual Desire Discrepancy (Current Sexual Health Reports, 2015)", "url": "https://link.springer.com/article/10.1007/s11930-015-0057-7", "quote": "the research in this area has found consistent links between greater desire discrepancy and lower sexual and relationship satisfaction"},
+            {"title": "(PNM-04) Sexual discrepancy: is it a problem or an everyday occurrence? (Journal of Sexual Medicine, 2026)", "url": "https://academic.oup.com/jsm/article/23/Supplement_1/qdag002.083/8454700", "quote": "Discrepancies regarding sexual desire in heterosexual couples are a common reason for consultation in sexual medicine."}
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "f1 的 Baumeister & Bratslavsky (1999) 是理论文章而非实证研究，原文用“提出”是准确的；该文把激情定义为亲密度的变化率（一阶导数），与 fact 表述一致。",
+        "f7 的 Aron et al. (2000) 三项实验室实验用的是 7 分钟的陌生、挑战性任务，效应是关系满意度的短期提升，fact 说“提升关系满意度”未夸大。",
+        "f11 关于“安排性爱”的表述可被 2025 年 York University 的干预研究支持（计划性爱提升欲望与频率），但该研究对象是幼儿父母，fact 未点明样本，属可接受的概括。"
+      ],
+      "summary": "四条经典文献（Baumeister 1999、Basson 2000、Chivers 2010、Aron 2000）的年份、作者与结论均可核实；两处需要收紧：亲密抑制欲望的证据强度，以及欲望差异与满意度的关系。"
+    },
+    {
+      "id": "w5-wh-tech-vaccines",
+      "status": "verified",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "medium"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "medium"},
+        {"id": "f10", "verdict": "supported", "confidence": "high"},
+        {"id": "f11", "verdict": "supported", "confidence": "high"},
+        {"id": "f12", "verdict": "supported", "confidence": "high"}
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "f2 说“1967年启动全球根除计划”：WHO 的天花根除规划 1958 年即已启动，1967 年是“强化”（intensified）之年；WHO 官方页面的措辞正是 1967 年启动强化计划，故 fact 可接受，但严格说略去了 1958 年起点。",
+        "f9 的“每十万人一例量级”是粗略量级：英国 AZ 疫苗约 3/10 万、美国 J&J 约 1/20 万，量级表述成立。",
+        "f12 的 -70°C 指辉瑞/BioNTech 原始疫苗的超低温冷链，莫德纳为 -20°C；fact 用“mRNA疫苗”统称略宽，但后半句已说明后来的版本放宽了储存条件。"
+      ],
+      "summary": "12 条均可核实：詹纳 1796、1980 年宣布消灭天花、麻疹 R0 12–18 与 92–95% 阈值、2019 年 869,770 例与 207,500 例死亡、VITT 量级、韦克菲尔德撤稿等关键数字与年份全部对得上。"
+    },
+    {
+      "id": "w5-wh-trade-coffee",
+      "status": "corrected",
+      "confidence": "medium",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "medium"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "medium"},
+        {"id": "f8", "verdict": "supported", "confidence": "medium"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "supported", "confidence": "medium"},
+        {"id": "f11", "verdict": "wrong", "confidence": "high", "issue": "issue-01"},
+        {"id": "f12", "verdict": "supported", "confidence": "medium"}
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f11",
+          "severity": "major",
+          "verdict": "wrong",
+          "claim": "英国从茶叶进口国变成了茶叶生产国之一",
+          "problem": "十九世纪茶叶种植的扩张发生在英属印度（阿萨姆、锡兰等）与荷属东印度，英国本土并不具备茶叶种植条件，始终是进口与消费国。把“英帝国”的产量算到“英国”头上是主体错误。",
+          "correction": "十九世纪后期印度茶大量进入英国市场，价格下降，饮茶成了日常；茶叶生产重心从中国转向英属印度，英国本土并不种茶，仍是进口国。",
+          "evidence": [
+            {"title": "The Assam tea plant and the introduction of Chinese tea (Indian Tea Association history paper)", "url": "https://www.irantea.org/fa/upload/b952ab11/5b9be799.pdf", "quote": "nurseries of the indigenous tea plant ... the first experimental samples of tea from the indigenous plant were sent to Calcutta in 1836"},
+            {"title": "Commutation Act 1784 (tea duty cut from 119% to 12.5%)", "url": "https://eresources.nlb.gov.sg/webarchives/wayback/20110331101647/http://en.wikipedia.org/wiki/Commutation_Act", "quote": "reduced the tax on tea from 119% to 12.5%, effectively ending the smuggling trade"}
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "f3 的年份在史学上有争议：牛津 1650 年（Jacob）、伦敦 1652 年（Pasqua Rosee）是主流叙述，但也有 1651/1654 等说法；fact 用“前后”已留余地。",
+        "f5 的“1662 年凯瑟琳公主带动饮茶”是常见但被简化的叙述：茶在 1650 年代已进入英国，凯瑟琳的作用更接近宫廷示范；fact 末句已作限定，故不另记 issue。",
+        "f6 的 1784 年《折偿法》把茶税从 119% 降到 12.5%，数字与年份均可核实。"
+      ],
+      "summary": "咖啡与茶馆的传播链条基本可靠，唯 f11 把英属印度的茶叶生产误写成英国本身，属主体错误，需改。"
+    },
+    {
+      "id": "w5-psych-risk-airplane",
+      "status": "corrected",
+      "confidence": "medium",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "imprecise", "confidence": "medium", "issue": "issue-01"},
+        {"id": "f9", "verdict": "supported", "confidence": "medium"},
+        {"id": "f10", "verdict": "supported", "confidence": "medium"},
+        {"id": "f11", "verdict": "supported", "confidence": "medium"},
+        {"id": "f12", "verdict": "supported", "confidence": "high"}
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f8",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "格式改变，感受就改变，这类现象叫框架效应",
+          "problem": "fact 举的例子是“每万人中几人”与“百分之零点零几”的差异，这属于自然频数/概率格式效应（Gigerenzer 与 Hoffrage 的研究），不是经典的框架效应。经典框架效应指同一信息以收益或损失两种方式表述导致偏好反转（Tversky 与 Kahneman 1981 的亚洲疾病问题）。二者相关但机制与实验范式不同。",
+          "correction": "把同一概率说成“每一万人中有几人”，比说成“百分之零点零几”更容易理解；这是数字格式造成的差异，广义上可算框架效应，但经典框架效应指收益与损失两种说法。",
+          "evidence": [
+            {"title": "Framing Effect — overview (ScienceDirect topic page)", "url": "https://www.sciencedirect.com/topics/computer-science/framing-effect", "quote": "The framing effect, grounded in the prospect theory, describes how humans react differently to choices depending on how information is presented (e.g., in terms of gains or losses)."},
+            {"title": "How to Improve Bayesian Reasoning Without Instruction: Frequency Formats (Gigerenzer & Hoffrage)", "url": "https://faculty.wharton.upenn.edu/wp-content/uploads/2015/07/1999---how-to-improve-bayesian-reasoning.pdf", "quote": "The Bayesian solution, or the posterior probability of H given D ... most people find this problem difficult."}
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "f2 的“可怕性/未知性”两因子出自 Slovic 的心理测量范式研究，fact 对两个因子所含条目的归类与原始量表一致。",
+        "f10 关于恐惧的演化来源属于理论推断而非实验结论，措辞已用“大概”，可接受。"
+      ],
+      "summary": "心理测量范式、可得性启发、情感启发、乐观偏差等均可核实；唯 f8 把“频数格式效应”与“框架效应”混为一谈，需要区分。"
+    },
+    {
+      "id": "w2-psych-family-economic-control",
+      "status": "verified",
+      "confidence": "medium",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "medium"},
+        {"id": "f6", "verdict": "supported", "confidence": "medium"},
+        {"id": "f7", "verdict": "supported", "confidence": "medium"},
+        {"id": "f8", "verdict": "supported", "confidence": "medium"},
+        {"id": "f9", "verdict": "supported", "confidence": "medium"},
+        {"id": "f10", "verdict": "supported", "confidence": "high"},
+        {"id": "f11", "verdict": "supported", "confidence": "medium"},
+        {"id": "f12", "verdict": "supported", "confidence": "medium"}
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "f2 的 Adams 等 (2008)《Scale of Economic Abuse》发表于 Violence Against Women 14(5): 563–588，年份、作者与量表名称均正确。",
+        "f8 引《反家庭暴力法》第二条：“家庭暴力，是指家庭成员之间以殴打、捆绑、残害、限制人身自由以及经常性谩骂、恐吓等方式实施的身体、精神等侵害行为。”法条未单列“经济控制”，fact 说“实践中常作为精神侵害的一部分被讨论”是准确的限定。",
+        "f6 的性别差异有流行病学数据支持，但“男性受害者因羞耻更少求助”主要来自质性研究与服务统计，属中等强度证据。"
+      ],
+      "summary": "经济控制的行为清单、Adams 量表、离开成本与《反家庭暴力法》的表述均站得住；未发现需要改写的事实错误。"
+    },
+    {
+      "id": "w5-geo-world-patagonia",
+      "status": "verified",
+      "confidence": "medium",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "medium"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "medium"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "supported", "confidence": "medium"},
+        {"id": "f11", "verdict": "supported", "confidence": "high"},
+        {"id": "f12", "verdict": "supported", "confidence": "high"}
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "f1 的面积随边界定义浮动：以科罗拉多河为界约 100 万 km²（Coronato 2016 给“约 1,000,000 km²”），更窄的定义可低至 67 万 km²；fact 用“约一百万”与常用估计一致。",
+        "f3 的南巴塔哥尼亚冰原 13,000 km²、北巴塔哥尼亚冰原 4,200 km² 与 Aberystwyth 冰川学中心的数字一致。",
+        "f9 的“约一千二百万年前冷却”与 Torres del Paine 侵入体 12 Ma 的年代学结果一致；灰色花岗岩为 I 型花岗岩，fact 的“花岗岩侵入体”表述准确。",
+        "书目中 Chatwin 的 In Patagonia 是旅行文学，不能作为地貌与气候数据的来源；实际数据应归到 Veblen 等与 Rabassa 编的专著。"
+      ],
+      "summary": "雨影、冰原面积、冰坝溃决、风成地貌、12 Ma 侵入体与风电容量因子均有可查数据支撑，未发现需要改写的事实错误。"
+    },
+    {
+      "id": "w3-wh-discovery-slave-trade",
+      "status": "verified",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "medium"},
+        {"id": "f4", "verdict": "supported", "confidence": "medium"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "supported", "confidence": "medium"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "supported", "confidence": "high"},
+        {"id": "f11", "verdict": "supported", "confidence": "medium"},
+        {"id": "f12", "verdict": "supported", "confidence": "high"}
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "f1 的数字与 SlaveVoyages 数据库一致：12,521,337 人上船、10,702,657 人上岸；fact 的“一千二百多万/一千零七十万”是正确取整。",
+        "f5 的宗号（Zong）遇难人数各源记为 132、133 或 142 人，fact 用“一百多名”是稳妥处理；索赔金额为每人 30 英镑。",
+        "f2 的航程“六到十周”与常见的“六到十一周”估计相符，属合理范围。",
+        "f9 关于北美奴隶人口自然增长、加勒比与巴西不能的解释（作物、性别比、劳动强度）是史学界主流解释，非单一因果。"
+      ],
+      "summary": "运奴船数量、中间航道、宗号案、种植园死亡率与废奴时间线全部可核实，未发现需要改写的事实错误。"
+    },
+    {
+      "id": "w3-cn-history-wang-an-shi",
+      "status": "verified",
+      "confidence": "medium",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "medium"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "supported", "confidence": "high"},
+        {"id": "f11", "verdict": "supported", "confidence": "medium"},
+        {"id": "f12", "verdict": "supported", "confidence": "high"}
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "f2 的熙宁二年（1069）任参知政事、设制置三司条例司，与《宋史》及辞书条目一致；条例司于熙宁三年五月废罢，权归中书。",
+        "f3 的青苗法“正月/五月两次、二分息、随夏秋税归还”与《宋会要》系统的记载一致；富户作保（上三等户作保）亦有据。",
+        "f5 的保甲编制“十家一保、五十家一大保、十大保一都保”与《宋史·兵志》一致；fact 只写到大保，未及都保，不算错。",
+        "f9 的郑侠《流民图》上于熙宁七年（1074）三月，王安石第一次罢相在同年四月；fact 把二者连写为因果，是传统叙述，细节上罢相还涉及吕惠卿与神宗态度，非单一原因。",
+        "f11 的“国库充实”是史学界较有共识的判断，但增收幅度与其中摊派、官营垄断的占比仍有争论。"
+      ],
+      "summary": "新法的年份、机构、编制与利率数字均与《宋史》及辞书条目吻合；两处属于传统叙事的简化（流民图与罢相的因果、增收的构成），不构成事实错误。"
+    }
+  ]
+}

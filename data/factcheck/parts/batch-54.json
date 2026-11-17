@@ -1,0 +1,261 @@
+{
+  "batch": "batch-54",
+  "checkedAt": "2026-11-18T02:47:00+08:00",
+  "dossiers": [
+    {
+      "id": "w3-psych-availability-heuristic",
+      "status": "corrected",
+      "confidence": "medium",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "medium"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "medium"},
+        {"id": "f8", "verdict": "supported", "confidence": "medium"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "imprecise", "confidence": "medium", "issue": "issue-01"},
+        {"id": "f11", "verdict": "supported", "confidence": "medium"},
+        {"id": "f12", "verdict": "supported", "confidence": "high"}
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f10",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "在熟人社会里这个启发式几乎总是对的",
+          "problem": "“几乎总是对的”把启发式说成了近乎可靠。特沃斯基与卡尼曼的原文只说可用性与生态频率“相关”，且明确它受其他因素影响、依赖它会导致系统性偏差；在稳定环境里它是够用的捷径，而不是几乎不出错。",
+          "correction": "它不是纯粹的缺陷。信息稀缺、要快速判断时，依赖“最近见过什么”比什么都不依赖好。在变化缓慢的熟人社会里，它多数时候够用；出错的地方，是样本被报道和偶然事件重新洗过的场景。",
+          "evidence": [
+            {"title": "Tversky & Kahneman (1973), Availability: A heuristic for judging frequency and probability, Cognitive Psychology 5(2):207-232（摘要）", "url": "https://www.sciencedirect.com/science/article/abs/pii/0010028573900339", "quote": "In general, availability is correlated with ecological frequency, but it is also affected by other factors. Consequently, the reliance on the availability heuristic leads to systematic biases."}
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "Tversky & Kahneman 1973 摘要明确：可用性与生态频率只是相关，且受其他因素影响，依赖它会产生系统性偏差。",
+        "f4 所引 Lichtenstein 等 1978 的结论成立，但 2024 年 Cognition 论文对“媒体覆盖与判断对应”的机制提出修正，属学术争议，不构成事实错误。",
+        "f6 的施瓦茨实验为 Schwarz et al. 1991, JPSP 61(2):195-202，方向与正文一致；举 12 例者自评更不果断。",
+        "f9 的可用性级联见 Kuran & Sunstein 1999, Stanford Law Review 51(4):683。"
+      ],
+      "summary": "可用性启发的提出、字母实验、媒体覆盖与风险判断、易得性实验与级联理论均有可靠文献支撑；仅结尾把该启发式在熟人社会中的作用说成“几乎总是对的”，属绝对化表述，已按原始论文的限定改写。"
+    },
+    {
+      "id": "w5-geo-world-greenland-under-ice",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "medium"},
+        {"id": "f5", "verdict": "supported", "confidence": "medium"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "wrong", "confidence": "high", "issue": "issue-01"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "supported", "confidence": "medium"},
+        {"id": "f11", "verdict": "supported", "confidence": "high"},
+        {"id": "f12", "verdict": "supported", "confidence": "medium"}
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f7",
+          "severity": "major",
+          "verdict": "wrong",
+          "claim": "雷达与冰芯研究发现数千个冰下湖",
+          "problem": "格陵兰冰下湖的数量被夸大了约两个数量级。2022 年的综述统计，格陵兰冰盖下已确认的冰下湖为 7 个活跃湖加 57 个稳定湖，共约 64 个；“数千个”既不符合格陵兰实测，也不是南极的数字（南极已确认约数百个）。",
+          "correction": "冰盖底部并不安静。雷达与冰芯研究已确认数十个冰下湖，水在冰与岩石之间积存，偶尔会快速排空；排水时冰面塌陷，冰的滑动也随之改变，这类事件在西北部被反复观测到。",
+          "evidence": [
+            {"title": "Livingstone et al. (2022), Subglacial lakes and their changing role in a warming climate, The Cryosphere（preprint）", "url": "https://tc.copernicus.org/preprints/tc-2022-122/tc-2022-122-manuscript-version4.pdf", "quote": "only 7 active and 57 stable subglacial lakes have been identified underneath the Greenland Ice Sheet (GrIS) (Livingstone et al., 2022)"}
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "全岛面积 2,166,086 km²，见 CIA World Factbook 格陵兰条目；冰盖约 1.71×10^6 km²、占全岛约 80%，见 NSIDC。",
+        "冰盖体积约 2.85–2.9×10^6 km³、平均厚度约 1.67 km，由体积除以面积得出，与正文“平均一点五公里”的约数相容。",
+        "BedMachine v3 见 Morlighem et al. 2017, Geophysical Research Letters, doi:10.1002/2017GL074954；冰下峡谷长约 750 km，见 Bamber et al. 2013。",
+        "冰下湖数目见 Livingstone et al. 2022：7 个活跃、57 个稳定；原稿“数千个”应来自对南极或早期推测的误记。"
+      ],
+      "summary": "格陵兰面积、冰盖厚度、BedMachine 冰下地形、750 公里峡谷、伊苏阿绿岩带与 7.4 米海平面当量均与文献一致；唯“数千个冰下湖”与实测不符（已确认约 64 个），已修正。"
+    },
+    {
+      "id": "world-geo-nile",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "medium"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "imprecise", "confidence": "high", "issue": "issue-01"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "supported", "confidence": "medium"},
+        {"id": "f9", "verdict": "supported", "confidence": "medium"},
+        {"id": "f10", "verdict": "supported", "confidence": "high"},
+        {"id": "f11", "verdict": "supported", "confidence": "high"},
+        {"id": "f12", "verdict": "supported", "confidence": "high"}
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f6",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "阿斯旺的年水量可在约四百亿到一千二百亿立方米之间摆动",
+          "problem": "上限明显偏低。联合国环境规划署文件记载，阿斯旺的自然年流量 1913 年低至约 455 亿立方米、1978 年高达约 1,500 亿立方米；正文的“四百亿到一千二百亿”把实际波动范围压缩了约四分之一。",
+          "correction": "尼罗河的年径流量波动很大。二十世纪的记录显示，阿斯旺的年水量可在约四百五十亿到一千五百亿立方米之间摆动，洪水过大冲毁堤坝，过小则造成歉收与饥荒，两种极端都出现过。",
+          "evidence": [
+            {"title": "UNEP, 尼罗河流域评估文件（自然流量的年际变化）", "url": "https://wedocs.unep.org/bitstream/handle/20.500.11822/25746/88wg2_14_eng.pdf?sequence=1&isAllowed=y", "quote": "natural flow has varied from 150 billions m3 in 1978, to a minimum of 45.5 bill. m3 in 1913"}
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "《世界地理·非洲卷》未给出版信息，相关数据改以 Britannica、UNEP 与尼罗河流域组织文件核对。",
+        "1959 年协议：埃及 55.5 bcm、苏丹 18.5 bcm，合计约占阿斯旺年均来水的 88%。",
+        "阿斯旺高坝 1970 年蓄水，纳赛尔湖总库容 169 bcm；复兴大坝现装机 5,150 MW（原设计 5,250 MW）。",
+        "三角洲人口约 4,000 万，约占埃及人口 41%；埃及约 97% 淡水取自尼罗河。"
+      ],
+      "summary": "尼罗河长度、流域面积、青白尼罗河汇合、阿斯旺两坝、1959 年水量协议、复兴大坝装机与三角洲人口均与资料相符；仅年径流量上限写低（实可达约 1,500 亿立方米），已修正。"
+    },
+    {
+      "id": "w5-geo-world-island-biogeography",
+      "status": "verified",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "medium"},
+        {"id": "f10", "verdict": "supported", "confidence": "high"},
+        {"id": "f11", "verdict": "supported", "confidence": "medium"},
+        {"id": "f12", "verdict": "supported", "confidence": "high"}
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "MacArthur & Wilson 1967 由普林斯顿大学出版社出版，平衡模型与正文一致。",
+        "物种—面积关系 z 通常 0.2–0.3；面积缩小十倍对应物种数减少约 40%–50%，正文“约四成”在区间内。",
+        "Simberloff & Wilson 1969, Ecology 50:267-278 为佛罗里达红树林小岛去动物实验，1966–67 年进行，正文“一九六〇年代末”成立。",
+        "喀拉喀托 1883 年喷发后的再定居与群落差异见岛屿生物地理学综述；Anolis 肢长随岛屿条件变化见 Losos 等 1994。"
+      ],
+      "summary": "岛屿生物地理学的模型、物种—面积关系、红树林去动物实验、喀拉喀托再定居与保护区设计讨论均与经典文献一致，未见事实性问题。"
+    },
+    {
+      "id": "w2-wh-medieval-hundred-years-war",
+      "status": "verified",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "medium"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "supported", "confidence": "high"},
+        {"id": "f11", "verdict": "supported", "confidence": "high"},
+        {"id": "f12", "verdict": "supported", "confidence": "high"}
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "“百年战争”一词到 1860 年代才通行，牛津参考书目与剑桥图书馆均记“not coined until the 1860s”。",
+        "长弓以紫杉制、长约 6 英尺、拉力 80–150 磅、熟练弓手每分钟约 6 箭，见中世纪军事史研究。",
+        "卡斯蒂永 1453 年后英格兰在大陆仅余加来与海峡群岛。",
+        "傅华萨的伤亡数字被现代研究大幅下调，正文对史料偏向的提醒成立。"
+      ],
+      "summary": "百年战争的时间跨度、名称由来、克雷西与阿金库尔的地形战术、火炮与财政国家、卡斯蒂永后的领土结果均与主流史学一致，未见事实性问题。"
+    },
+    {
+      "id": "w5-cn-history-zixingche-qiche",
+      "status": "verified",
+      "confidence": "medium",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "medium"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "medium"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "supported", "confidence": "medium"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "supported", "confidence": "high"},
+        {"id": "f11", "verdict": "supported", "confidence": "high"},
+        {"id": "f12", "verdict": "supported", "confidence": "medium"}
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "六七十年代“三转一响”为自行车、缝纫机、手表、收音机，凭票供应，见人民网 2019 年回顾。",
+        "2009 年中国汽车产量 1,379 万辆、销量 1,364 万辆，均居世界第一（中国汽车工业协会）。",
+        "2011 年 5 月 1 日起《刑法修正案（八）》施行，醉酒驾驶机动车纳入危险驾驶罪。",
+        "摩拜 2016 年在上海投放、ofo 2014 年创立，共享单车潮与正文时间相符。"
+      ],
+      "summary": "票证与三大件、飞鸽/永久/凤凰、加入 WTO 与 2009 年汽车产销第一、2011 年醉驾入刑、2016 年共享单车等均可核实；其余为一般性城市史描述，未见事实性问题。"
+    },
+    {
+      "id": "w4-myth-americas-orisha",
+      "status": "verified",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "supported", "confidence": "medium"},
+        {"id": "f11", "verdict": "supported", "confidence": "high"},
+        {"id": "f12", "verdict": "supported", "confidence": "high"}
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "伊法签文为 16 个主 odu 与 240 个派生组合，共 256，见 Abimbola 1976 与 De Gruyter 附录。",
+        "401 在约鲁巴数字中为 400+1 的神圣成数，亦表“不可数”，不是统计数字。",
+        "尚戈为奥约第四位阿拉芬，见 Drouot 词条与 Johnson 1897。",
+        "埃舒被 19 世纪传教士译为 Satan/demon，见 Crowther 译本与相关研究；奥顺、奥娅分别对应奥孙河与尼日尔河。"
+      ],
+      "summary": "约鲁巴城邦、401 的象征义、伊法 256 签文、埃舒的传教士误译、尚戈与奥约王权、奥顺/奥娅与河流的对应均与民族志文献一致，未见事实性问题。"
+    },
+    {
+      "id": "w2-wh-medieval-nunneries",
+      "status": "verified",
+      "confidence": "medium",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "medium"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "medium"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "supported", "confidence": "medium"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "supported", "confidence": "medium"},
+        {"id": "f11", "verdict": "supported", "confidence": "high"},
+        {"id": "f12", "verdict": "supported", "confidence": "high"}
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "Montivilliers 修女院为诺曼“monastic baronies”，院长须提供骑士役，见 Speculum 1974, doi:10.2307/2852032。",
+        "希尔德加德 1147 年在特里尔会议获教皇尤金三世认可，见 Regesta Imperii。",
+        "英格兰修女院 1536/1539 年随修道院解散而解散；德意志修院多延续到 1803 年世俗化。",
+        "《英格兰修女院巡视记录选编》《修女院账簿与入院名录》为档案选编而非正式出版物，相关细节另以二手研究核对。"
+      ],
+      "summary": "修女院的地产与司法权、院长选举与确认、希尔德加德的认可、英格兰解散修女院等均有档案与研究支撑；f10 的识字率推断原文已自带限定，未见事实性问题。"
+    }
+  ]
+}

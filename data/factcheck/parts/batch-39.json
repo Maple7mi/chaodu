@@ -1,0 +1,296 @@
+{
+  "batch": "batch-39",
+  "checkedAt": "2026-11-18T02:38:00+08:00",
+  "dossiers": [
+    {
+      "id": "w5-wh-tech-sewers",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "imprecise", "confidence": "high", "issue": "i1"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "imprecise", "confidence": "high", "issue": "i2"},
+        {"id": "f7", "verdict": "supported", "confidence": "medium"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "supported", "confidence": "medium"},
+        {"id": "f11", "verdict": "supported", "confidence": "high"},
+        {"id": "f12", "verdict": "supported", "confidence": "high"}
+      ],
+      "issues": [
+        {
+          "id": "i1",
+          "factId": "f4",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "科赫后来因此获得诺贝尔奖",
+          "problem": "科赫1905年获诺贝尔生理学或医学奖，获奖理由是结核病研究，不是霍乱。霍乱弧菌的发现本身与诺奖归属被混为一谈。",
+          "correction": "科赫1883年在埃及和印度发现霍乱弧菌，但1905年诺贝尔生理学或医学奖表彰的是他发现的结核杆菌，而非霍乱研究；霍乱病原学的建立与诺奖归属是两件事。",
+          "evidence": [
+            {"title": "Koch's postulates and the Nobel Prize (ScienceDirect)", "url": "https://www.sciencedirect.com/science/article/abs/pii/S1068607X02001671", "quote": "receive the Nobel Prize for Medicine in 1905"},
+            {"title": "科赫与霍乱弧菌（中国科普博览）", "url": "http://kepu.net.cn/vmuseum/lives/microbe/microbe_development/200310170053.html", "quote": "1905年，科赫获得了诺贝尔医学和生理学奖，主要是为了表彰他在肺结核研究方面的贡献"}
+          ]
+        },
+        {
+          "id": "i2",
+          "factId": "f6",
+          "severity": "major",
+          "verdict": "imprecise",
+          "claim": "总长约一百多公里……工程1865年基本完工",
+          "problem": "一百多公里只是主干截流下水道；连同街道下水道全系统约两千多公里。主干1868年通水，全系统到1875年才建成，1865年之说偏早。",
+          "correction": "巴扎尔盖特系统的主干截流下水道约132公里，连同街道下水道共两千多公里；工程1859年动工，1868年主干通水，1875年全系统建成，而非1865年基本完工。",
+          "evidence": [
+            {"title": "BBC London: Bazalgette and the sewers", "url": "http://news.bbc.co.uk/local/london/hi/people_and_places/history/newsid_8993000/8993921.stm", "quote": "82 miles of intercepting sewers ... 1,100 miles of street sewers ... Work began in 1859 and was completed in 1868."},
+            {"title": "Bazalgette sewer system (EBSCO)", "url": "https://openurl.ebsco.com/EPDB%3Agcd%3A6%3A10793062/detailv2?sid=ebsco%3Aplink%3Aresult-item&id=ebsco%3Agcd%3A180450306", "quote": "132 km (82 miles) of underground sewers, about 2,100 km (1,300 miles) of street sewers ... his project was completed in 1875."}
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "f2 啤酒厂部分据 UCLA Snow 档案：宽街啤酒厂七十余名工人无一死于霍乱，厂方供麦芽酒且工人不从该泵取水；远处妇人死亡见 Wellcome 版《霍乱传播方式》。",
+        "f7 伦敦排污口东移与建处理厂属通史性叙述，未逐条核到具体年份。",
+        "f10 麦基翁与萨雷特的史学争论未逐条核到原文，按通行学术综述判 supported/medium。"
+      ],
+      "summary": "霍乱与下水道专题整体可靠；两处需修正：科赫诺奖理由被误挂到霍乱上，巴扎尔盖特工程的规模与完工年份被低估和提前。"
+    },
+    {
+      "id": "w1-world-history-ancient-sumer-cities",
+      "status": "verified",
+      "confidence": "medium",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "medium"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "medium"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "supported", "confidence": "medium"},
+        {"id": "f9", "verdict": "supported", "confidence": "medium"},
+        {"id": "f10", "verdict": "supported", "confidence": "medium"},
+        {"id": "f11", "verdict": "supported", "confidence": "high"}
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "f2 白庙建于约公元前3500至前3000年、高约12米有据；但乌鲁克在公元前三千五百年即已有城墙一说缺乏直接证据，城墙多属早王朝时期，此处按 medium 处理。",
+        "f10 债务奴役与赎身：<Anchor Bible Dictionary> 称早期美索不达米亚法律通常把债务奴役期限限于三或六年，乌尔第三王朝已有释奴法庭记录，支持该段但细节因城而异。",
+        "f3 再分配经济为学界通行模型，具体运行仍有争论。"
+      ],
+      "summary": "苏美尔专题的年代、人物与制度叙述基本成立；仅乌鲁克早期城墙与债务奴役细节需降级为中等置信。"
+    },
+    {
+      "id": "w4-geo-world-anthropocene",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "medium"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "medium"},
+        {"id": "f8", "verdict": "supported", "confidence": "medium"},
+        {"id": "f9", "verdict": "wrong", "confidence": "high", "issue": "i3"},
+        {"id": "f10", "verdict": "supported", "confidence": "medium"},
+        {"id": "f11", "verdict": "supported", "confidence": "medium"},
+        {"id": "f12", "verdict": "supported", "confidence": "medium"}
+      ],
+      "issues": [
+        {
+          "id": "i3",
+          "factId": "f9",
+          "severity": "major",
+          "verdict": "wrong",
+          "claim": "二〇一九年，人类世工作组把它列为一种非正式的地质时间表述",
+          "problem": "2019年工作组并非把它登记为“非正式表述”，而是投票支持以20世纪中叶为底界、推动建立正式GSSP；把它说成非正式单位与当年表决方向相反。",
+          "correction": "2019年人类世工作组并非把它列为非正式表述，而是投票支持以20世纪中叶为底界、推动建立正式的全球界线层型剖面；2024年提案被否决后，它才继续作为非正式术语使用。",
+          "evidence": [
+            {"title": "GSA 2023 abstract: The Anthropocene Working Group", "url": "https://gsa.confex.com/gsa/2023AM/webprogram/Paper392051.html", "quote": "In May 2019, they voted in favor of working toward a GSSP to define an epoch with a mid-20thC base"},
+            {"title": "IUGS statement on the Anthropocene vote (2024)", "url": "https://www.iugs.org/_files/ugd/f1fc07_23c6f9e723bc47b9b5fdcd300f806f25.pdf", "quote": "the vote by the ICS Subcommission on Quaternary Stratigraphy (SQS) to reject the proposal for an Anthropocene Epoch ... is approved"}
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "f3 的2016年表决据 Mines Paris 整理的 AWG 材料：人类世具地层现实性 34 票赞成、0 反对、1 弃权；应否正式化 30 赞成、3 反对、2 弃权。候选剖面为12个。",
+        "f4 官方声明只公布否决结果，未详列理由；“信号太年轻、难以全球对比”是提案反对者的主要论证，故降为 medium。",
+        "f6 钚与碳十四的核试验峰值见 AWG 总结文章，属通行结论。"
+      ],
+      "summary": "人类世专题的证据链与2024年否决均准确；唯一硬伤是把2019年工作组立场说反了——它当年支持正式化，而非列为非正式表述。"
+    },
+    {
+      "id": "w1-myth-world-celtic-otherworld",
+      "status": "verified",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "medium"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "supported", "confidence": "high"},
+        {"id": "f11", "verdict": "supported", "confidence": "medium"},
+        {"id": "f12", "verdict": "supported", "confidence": "medium"}
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "f8 凯撒原文见 Loeb 版《高卢战记》：灵魂不灭、死后转生，故不畏死；确为外部观察且带政治意图。",
+        "f6 当恩之屋见《入侵之书》Macalister 译本：当恩溺亡葬于 Dumacha，Tech Duin 由他得名；九世纪诗称其后代死后皆往彼处，故判 medium。",
+        "f12 萨温与万圣节的“凯尔特亡灵节”说法确为近代建构，现代民俗学多持修正态度。"
+      ],
+      "summary": "凯尔特他界专题与原始文本、考古年代吻合，无实质错误；仅当恩之屋的后代信仰与安农细节按 medium 处理。"
+    },
+    {
+      "id": "psych-36questions",
+      "status": "verified",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "medium"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "medium"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "supported", "confidence": "medium"},
+        {"id": "f9", "verdict": "supported", "confidence": "medium"},
+        {"id": "f10", "verdict": "supported", "confidence": "medium"},
+        {"id": "f11", "verdict": "supported", "confidence": "medium"},
+        {"id": "f12", "verdict": "supported", "confidence": "medium"}
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "f1/f2 原程序为三组递增问题加四分钟对视，见 Aron 等1997年论文及 NYT 2015年报道。",
+        "f3 “显著高于闲聊组”只适用于原研究与部分复现；维也纳团队的部分复现发现视频、现场、加对视三组亲近感无显著差异，故判 supported/medium。",
+        "f5 感知到的回应性见 Reis & Shaver 1988 亲密过程模型。",
+        "f6 自我扩张模型为 Aron & Aron 1986 的通行解释，未逐条核到原文。"
+      ],
+      "summary": "36问专题对原研究的设计、样本与局限描述准确，且明确区分“当下亲近感”与长期关系质量；复现效果按 medium 保留。"
+    },
+    {
+      "id": "w1-myth-world-inanna",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "medium"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "wrong", "confidence": "high", "issue": "i4"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "medium"},
+        {"id": "f10", "verdict": "supported", "confidence": "high"},
+        {"id": "f11", "verdict": "supported", "confidence": "medium"},
+        {"id": "f12", "verdict": "supported", "confidence": "medium"}
+      ],
+      "issues": [
+        {
+          "id": "i4",
+          "factId": "f4",
+          "severity": "major",
+          "verdict": "wrong",
+          "claim": "王冠、耳饰、项链、胸饰、金环、量绳与量杆、裙衣",
+          "problem": "苏美尔原文七件中没有“耳饰”。第二道门脱下的是颈上蓝金石小珠串，第三道是胸前双卵形珠，第四道才是“来吧，人”胸饰；清单把三件胸颈饰物压缩成“项链、胸饰”并凭空添了耳饰。",
+          "correction": "原文七件依次为头巾、颈上蓝金石小珠串、胸前双卵形珠、“来吧，人”胸饰、金环、蓝金石量绳与量杆、帕拉裙；并无耳饰，第七道门后她才赤身见到姐姐。",
+          "evidence": [
+            {"title": "ETCSL: Inana's descent to the nether world (lines 129-163)", "url": "https://etcsl.orinst.ox.ac.uk/section1/tr141.htm", "quote": "the turban, headgear for the open country, was removed from her head ... the small lapis-lazuli beads were removed from her neck ... the twin egg-shaped beads were removed from her breast ... the \"Come, man, come\" pectoral ... the golden ring ... the lapis-lazuli measuring rod and measuring line ... the pala dress"}
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "f1 “约三十件泥板与残片、多为古巴比伦抄本”为克莱默以来的通行估计，ETCSL 复合文本未直接给出件数，故判 medium。",
+        "f3 三天三夜见 ETCSL 第173行；f5 尸体挂钩与七位 Anuna 判官见第164-172行；f6 恩基指甲垢造 kur-jara/gala-tura 见第217-225行。",
+        "f8 兄妹各半年见第404-410行，但文本残缺，季节神话式解读确非唯一读法。",
+        "f11 冥界非奖惩之地、重点在“不能回来”，与 Katz 等研究一致，判 medium。"
+      ],
+      "summary": "伊南娜下冥界专题的情节骨架与苏美尔原文高度吻合；唯一硬伤是七道门清单里多出“耳饰”、少算两件胸颈饰物，已给出原文顺序的更正。"
+    },
+    {
+      "id": "w2-myth-india-ramakien-thai",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "medium"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "medium"},
+        {"id": "f5", "verdict": "supported", "confidence": "medium"},
+        {"id": "f6", "verdict": "imprecise", "confidence": "medium", "issue": "i6"},
+        {"id": "f7", "verdict": "imprecise", "confidence": "high", "issue": "i5"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "medium"},
+        {"id": "f10", "verdict": "supported", "confidence": "high"},
+        {"id": "f11", "verdict": "supported", "confidence": "high"},
+        {"id": "f12", "verdict": "supported", "confidence": "medium"}
+      ],
+      "issues": [
+        {
+          "id": "i5",
+          "factId": "f7",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "一八八二年又重绘",
+          "problem": "1882年是拉玛五世为建都百年对壁画做的整修，不是重绘；壁画主体绘于拉玛三世时期，约1832年。",
+          "correction": "壁画主体绘于拉玛三世时期，约1832年；1882年拉玛五世为建都百年所做的是整修，不是重绘。178幅常指整组回廊画，具体数目各本记载略有出入。",
+          "evidence": [
+            {"title": "玉佛寺回廊壁画沿革（Trip.com）", "url": "https://jp.trip.com/moments/detail/bangkok-191-144799412/", "quote": "ラーマ3世の時代には、1832年...建都50周年を祝うため...描き直され...ラーマ5世の時代には、1882年...建都100周年を祝って修復"}
+          ]
+        },
+        {
+          "id": "i6",
+          "factId": "f6",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "曼谷王朝的正式名称里就含“拉玛”一词",
+          "problem": "曼谷王朝的正式王朝名是却克里（Chakri），“拉玛”是历任国王的称号，不是王朝名；说“正式名称含拉玛”不准确。",
+          "correction": "曼谷王朝的正式名称是却克里王朝，“拉玛”是历任国王的称号而非王朝名；王室确以罗摩自比，宫廷仪式也多取《拉玛坚》，但“正式名称含拉玛”不确切。",
+          "evidence": [
+            {"title": "Chakri dynasty", "url": "https://en.wikipedia.org/wiki/Chakri_dynasty", "quote": "The Chakri dynasty is the current reigning dynasty of the Kingdom of Thailand ... has ruled Thailand since the founding of ... Bangkok in 1782."}
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "f1 词源 Ramakirti、阿瑜陀耶时期已见、《拉玛坚》现存舞剧抄本仅可溯至吞武里期，均见 SPAFA 论文摘要。",
+        "f9 泰文版对悉多火验与二次流放的处理确有不同，Ravana 为悉多之父也见于《拉玛坚》；但“删去”程度各本不一，判 medium。",
+        "f10 柬埔寨 Reamker、老挝 Phra Lak Phra Lam、爪哇与马来 Hikayat Seri Rama 的并列，见牛津书目与东南亚罗摩衍那研究。",
+        "f11 孔剧2018年列入 UNESCO 人类非物质文化遗产名录。"
+      ],
+      "summary": "《拉玛坚》专题的源流、人物与孔剧地位基本准确；两处需修正：1882年是整修而非重绘，以及“拉玛”是王号不是王朝正式名称。"
+    },
+    {
+      "id": "w5-geo-cn-island-freshwater",
+      "status": "verified",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "medium"},
+        {"id": "f6", "verdict": "supported", "confidence": "medium"},
+        {"id": "f7", "verdict": "supported", "confidence": "medium"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "medium"},
+        {"id": "f10", "verdict": "supported", "confidence": "medium"},
+        {"id": "f11", "verdict": "supported", "confidence": "medium"},
+        {"id": "f12", "verdict": "supported", "confidence": "medium"}
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "f1/f2/f4 淡水透镜体与 Ghyben-Herzberg 关系见 USGS 报告；塞班岛研究说明透镜体厚度受岩石渗透率、补给与开采控制，岛越窄越脆弱。",
+        "f5 风暴潮盐分入渗有据，但“恢复往往需要一两年”未核到直接来源，故整条判 medium。",
+        "f7 珊瑚砂岛透水、依赖屋顶集雨与水窖，见 USGS 塞班岛报告及小岛屿发展中国家水资料。",
+        "f8 反渗透浓盐水盐度约为原海水两倍，见澳大利亚 Water Corporation 资料。"
+      ],
+      "summary": "海岛淡水专题的水文机制、透镜体收支与浓盐水影响均与 USGS 等资料一致；仅台风后恢复年限缺直接文献，按中等置信保留。"
+    }
+  ]
+}

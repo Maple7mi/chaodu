@@ -1,0 +1,308 @@
+{
+  "batch": "batch-47",
+  "checkedAt": "2026-11-18T02:54:00+08:00",
+  "dossiers": [
+    {
+      "id": "w5-wh-trade-rubber",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "imprecise", "confidence": "medium", "issue": "issue-01"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "imprecise", "confidence": "medium", "issue": "issue-02"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "imprecise", "confidence": "medium", "issue": "issue-03"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "supported", "confidence": "high"},
+        {"id": "f11", "verdict": "supported", "confidence": "high"},
+        {"id": "f12", "verdict": "supported", "confidence": "high"}
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f3",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "1885年柏林会议后，刚果盆地成为比利时国王利奥波德二世的私人领地。",
+          "problem": "柏林会议实际于1884年11月15日至1885年2月26日举行，1885年2月26日签署的总议定书才确认刚果自由邦归利奥波德二世控制；只写“1885年”会让人以为会议在1885年召开。",
+          "correction": "1884至1885年的柏林会议把刚果盆地划为比利时国王利奥波德二世的私人领地。橡胶和象牙是主要出口，代理人给村庄定配额，完不成的人遭到屠杀、断手，妇女被扣作人质。",
+          "evidence": [
+            {"title": "Encyclopaedia Britannica, “Berlin Conference”", "url": "https://www.britannica.com/event/Berlin-West-Africa-Conference", "quote": "Berlin Conference, a series of negotiations (November 15, 1884–February 26, 1885) ... The conference resolved the immediate issue of Leopold’s claim by recognizing the Congo Free State as being under his control"},
+            {"title": "Encyclopaedia Britannica, “Scramble for Africa”", "url": "https://www.britannica.com/event/Scramble-for-Africa", "quote": "the Berlin Conference (also called the Berlin West Africa Conference), which was held from November 15, 1884, to February 26, 1885"}
+          ]
+        },
+        {
+          "id": "issue-02",
+          "factId": "f5",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "1876年，英国人威克姆从亚马逊把橡胶种子偷运到邱园。",
+          "problem": "“偷运”不符合史实：1876年巴西并无禁止橡胶种子出境的法律，威克姆的种子是公开装船、经贝伦海关查验放行的；剑桥期刊编者按称“英国偷走种子”的说法“完全没有根据”。",
+          "correction": "1876年，英国人威克姆从亚马逊收集约七万粒橡胶种子运到邱园，当时巴西并无禁止种子出境的法律。育苗后送到锡兰和马来亚，东南亚的气候和土壤适合橡胶，种植园从1890年代起迅速扩张。",
+          "evidence": [
+            {"title": "“Plants do not respect political boundaries” (editorial comment), Environmental Conservation", "url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/B0B4AA0AEE4697C43126189BDD50FD73/S0376892900022074a.pdf", "quote": "There was in 1876 no law in Brazil prohibiting the exportation of rubber seeds ... The cargo was passed by customs in Belém do Pará"}
+          ]
+        },
+        {
+          "id": "issue-03",
+          "factId": "f7",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "巴西后来立法禁止橡胶种子出境，但已经挡不住重心转移。",
+          "problem": "没查到禁止橡胶种子出境的法令。1912年的“橡胶防卫”立法与计划（Lei 2.543-A、Decreto 9.521）是补贴、免税、修路、移民与卫生等扶持措施，针对的是产业衰退，不是种子出口。",
+          "correction": "东南亚的种植园橡胶成本更低，1910年代起压低国际价格，马瑙斯的繁荣随之结束。巴西后来出台保护本土橡胶业的法令，补贴、免税、修路都试过，却已挡不住产业重心转移。",
+          "evidence": [
+            {"title": "SEADE, História econômica da borracha (PDF)", "url": "https://bibliotecadigital.seade.gov.br/view/linkPdf.php?pdf=10020322-1.pdf", "quote": "Nesta inspeção, feita de acordo com a lei de defesa de 1912, o Dr. Osvaldo Cruz ficou chocado com as condições que viu"},
+            {"title": "Environmental Conservation, editorial comment", "url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/B0B4AA0AEE4697C43126189BDD50FD73/S0376892900022074a.pdf", "quote": "There was in 1876 no law in Brazil prohibiting the exportation of rubber seeds"}
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "f5/f7 的“偷运—禁令”叙事在通俗读物中常见，但与剑桥编者按及巴西1912年立法内容不符。",
+        "f2 的歌剧院为1896年落成的马瑙斯亚马逊剧院；割胶工债务束缚见 Warren Dean 及巴西地方史研究。"
+      ],
+      "summary": "亚马逊橡胶兴衰主线成立，但柏林会议年份、“偷运种子”和“禁止种子出境”三处需要改正。"
+    },
+    {
+      "id": "world-history-marshall",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "wrong", "confidence": "high", "issue": "issue-01"},
+        {"id": "f11", "verdict": "supported", "confidence": "high"}
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f10",
+          "severity": "major",
+          "verdict": "wrong",
+          "claim": "到1952年，西欧工业产值比1947年增长约三成半。",
+          "problem": "“三成半”的基准是战前（1938年），不是1947年。1951年西欧工业产值已比1938年高约四成，1947至1952年的实际增幅明显大于三成半。",
+          "correction": "到1952年，西欧工业产值比战前高出约三成半，农业也恢复到战前水平；但经济史家仍在争论，其中多少应归功于美元援助，多少来自欧洲自身的重建与信心恢复，答案因国家而异。",
+          "evidence": [
+            {"title": "Hrvatska enciklopedija, “Marshallov plan”", "url": "https://enciklopedija.hr/clanak/marshallov-plan", "quote": "ukupna industrijska proizvodnja u tim državama 1952. narasla za 35%, a poljoprivredna proizvodnja 10% iznad predratne razine"}
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "f5 的总额常写作131.5亿或133亿美元，差额来自统计口径与是否计入加拿大等出资。",
+        "f10 的战前基准在英文文献中多说1938年；若作者原意是“1947—1952”，则数字需要上调到五成左右。"
+      ],
+      "summary": "马歇尔计划的机构、金额与冷战背景均可核实，只有1952年工业增幅的比较基年写错。"
+    },
+    {
+      "id": "w5-cn-history-huifu-gaokao",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "wrong", "confidence": "high", "issue": "issue-01"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "supported", "confidence": "high"},
+        {"id": "f11", "verdict": "supported", "confidence": "high"},
+        {"id": "f12", "verdict": "supported", "confidence": "high"}
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f8",
+          "severity": "major",
+          "verdict": "wrong",
+          "claim": "一九七八年夏天，高考恢复全国统一命题，外语成绩计入总分。",
+          "problem": "1978年外语只是列入高考科目，成绩不计入总分、仅作录取参考，未学过外语的还可免试；1979年报考重点院校才按10%计入，1983年起本科才按100%计入。",
+          "correction": "一九七八年夏天，高考恢复全国统一命题，外语列入考试科目，但成绩不计入总分，只作录取参考，没学过外语的可以免试。此后高考时间逐步固定在七月，直到二〇〇三年提前到六月。",
+          "evidence": [
+            {"title": "刘海峰《以平常心看待高考英语改革》，中国教育报（学信网转载）", "url": "https://gaokao.chsi.com.cn/gkxx/jysp/201310/20131031/580768477.html", "quote": "1978年外语列入高考，但考试成绩不计入总分，且规定没有学过外语的可以免试。1979年高考外语考试成绩，报考重点院校的，按考试分数的10%计入总分"}
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "f5 的录取率按27.3万/570万约为4.8%，“不到百分之五”成立；也有材料把报考人数记为570万、录取27万。",
+        "f12 的1999年扩招数据（招生153万、增幅42%、录取率约49%）来自教育部与当年统计公报。"
+      ],
+      "summary": "恢复高考的进程、人数与政审变化基本准确，仅1978年外语计分办法写错。"
+    },
+    {
+      "id": "world-geo-rift",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "wrong", "confidence": "high", "issue": "issue-01"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "supported", "confidence": "medium"},
+        {"id": "f11", "verdict": "supported", "confidence": "medium"}
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f4",
+          "severity": "major",
+          "verdict": "wrong",
+          "claim": "2005年的一次岩浆侵入在几天内让地面裂开约8公里长的裂缝。",
+          "problem": "2005年9月阿法尔事件是约60公里长的裂段在三周内张开，最大张开量约8米；“8公里长的裂缝”把张开量与裂段长度混为一谈。",
+          "correction": "阿法尔洼地是三块板块的交汇点。阿拉伯、努比亚与索马里板块在这里分离，地壳被拉到不足二十公里厚；二〇〇五年一次岩浆侵入在约三周内使六十公里长的裂段张开，最大张开约八米。",
+          "evidence": [
+            {"title": "ESA, “Envisat satellite witnesses Earth’s largest crack”", "url": "https://www.esa.int/Applications/Observing_the_Earth/Envisat/ESA_s_Envisat_satellite_witnesses_Earth_s_largest_crack", "quote": "In September 2005, the Earth split apart along a 60 kilometre section of the East African Rift in Afar, Ethiopia ... the 8-metre rift developed along the 60 kilometre-long stretch of the rift in just three weeks"}
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "f1 的长度有6000公里与6500公里两种常引口径，均为约数。",
+        "f9 的红海张开时间常见“约3000万年前”，也有研究把初始张裂定在2400万—2000万年前；正文用约数可接受。",
+        "f10 的奥卡瑞装机各年数据在720—920兆瓦之间，“约800兆瓦”是合理的约数。"
+      ],
+      "summary": "裂谷的尺度、湖泊与火山记录均可核实，仅2005年阿法尔事件的裂缝长度写错。"
+    },
+    {
+      "id": "w2-geo-cn-climate-typhoon",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "medium"},
+        {"id": "f4", "verdict": "imprecise", "confidence": "medium", "issue": "issue-01"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "supported", "confidence": "high"},
+        {"id": "f11", "verdict": "supported", "confidence": "high"},
+        {"id": "f12", "verdict": "supported", "confidence": "high"}
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f4",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "路径预报误差每十年缩小约一半。",
+          "problem": "中国24小时路径预报误差每10年减小39—49公里，折合每年约3%—4%，即每十年三成上下，不是一半；2023年24小时平均误差仍有64公里。",
+          "correction": "台风路径主要受副热带高压引导：副高西侧气流把台风往西北推，强盛时台风西行登陆华南，东退时转向北上。路径预报误差每年约缩小百分之三到四，二十四小时误差仍有几十到上百公里。",
+          "evidence": [
+            {"title": "《气象学报》2025年台风预报综述（PDF）", "url": "http://qxxb.cmsjournal.net/cn/article/pdf/preview/10.11676/qxxb2025.20240180.pdf", "quote": "年均24 h（48 h）路径预报误差每10 a减小39—49 km（81—99 km），平均每年减小3%—4% ... 2023年，各预报时效的路径预报平均误差分别为64 km（24 h）、115 km（48 h）"},
+            {"title": "中国气象局上海台风研究所，《中国台风预报技术发展的历史、现状与未来》", "url": "http://mp.weixin.qq.com/s?__biz=MzIzOTU5NTg1OA==&mid=2247490262&idx=1&sn=df03a544445252a572b9c8cf6ba72482", "quote": "年均24 h（48 h）路径预报误差每10 a减小39—49 km（81—99 km），平均每年减小3%—4%"}
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "f5 的“约25个生成、约7个登陆”与1991—2020年气候平均值一致（25.5个、7.2个）。",
+        "f11 的140个名字为14个成员各10个，其中部分名字已因除名替换。"
+      ],
+      "summary": "台风结构与灾害机制无误，仅路径预报误差的下降速度被夸大。"
+    },
+    {
+      "id": "w5-psych-premarital-counseling",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "imprecise", "confidence": "high", "issue": "issue-01"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "medium"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "medium"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "supported", "confidence": "high"},
+        {"id": "f11", "verdict": "supported", "confidence": "medium"}
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f2",
+          "severity": "major",
+          "verdict": "imprecise",
+          "claim": "结论是婚前预防项目在短期内能改善沟通与冲突处理技能，效果量小到中等。",
+          "problem": "Carroll 与 Doherty 汇总的平均效果量为0.80，按科恩惯例属于大效果，不是“小到中等”；长期对婚姻满意度作用弱这半句成立。",
+          "correction": "二〇〇三年卡罗尔与多尔蒂汇总了多项对照研究，结论是婚前预防项目短期内能改善沟通与冲突处理技能，平均效果量偏大；对婚姻满意度的长期作用则弱得多。",
+          "evidence": [
+            {"title": "Carroll & Doherty (2003), Family Relations 52(2): 105–118（Mendeley 摘要页）", "url": "https://www.mendeley.com/catalogue/79757dba-8cdc-3128-a012-578a081b523c/", "quote": "Results revealed that the mean effect size for premarital programs was .80, which means that the average person who participated in a premarital prevention program was significantly better off afterwards than 79% of people who did not participate."},
+            {"title": "Relationships Australia, “Fab Abs” 文摘（PDF）", "url": "http://www.relationships.com.au/resources/pdfs/fab-abs/favol1.pdf", "quote": "the mean effect size of premarital programs was 0.80"}
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "f8 的政策依据是民政部2015年《婚姻登记工作规范》（婚姻家庭辅导室、坚持群众自愿）与2020年民政部、全国妇联《关于加强新时代婚姻家庭辅导教育工作的指导意见》（探索婚前辅导）。"
+      ],
+      "summary": "婚前辅导的形式、选择效应与议题清单均站得住，只有效果量大小写反了。"
+    },
+    {
+      "id": "w3-geo-cn-coal-belt",
+      "status": "verified",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "supported", "confidence": "medium"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "supported", "confidence": "high"},
+        {"id": "f11", "verdict": "supported", "confidence": "high"}
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "f7 的“四亿吨以上”对应大秦铁路2018年4.51亿吨的历史峰值，近年运量略低。",
+        "f6 的高硫煤判断依据 USGS OFR 84-357 与黔西晚二叠世龙潭组煤质研究。"
+      ],
+      "summary": "煤带的地层归属、煤质差异与运输链条均可核实，未发现需要修改的断言。"
+    },
+    {
+      "id": "w4-cn-history-neige-piaoni",
+      "status": "verified",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "supported", "confidence": "high"},
+        {"id": "f11", "verdict": "supported", "confidence": "high"},
+        {"id": "f12", "verdict": "supported", "confidence": "medium"}
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "f2 的“洪武十五年设殿阁大学士”见《明会典》与故宫博物院官制条目，品级正五品。",
+        "f12 的“数十人”对应崇祯十七年间前后入阁的五十名大学士，常见概括为“五十宰相”。"
+      ],
+      "summary": "内阁制度、票拟批红与张居正、万历后期的史实均可核实，未发现需要修改的断言。"
+    }
+  ]
+}

@@ -1,0 +1,273 @@
+{
+  "batch": "batch-38",
+  "checkedAt": "2026-11-18T02:39:00+08:00",
+  "dossiers": [
+    {
+      "id": "w5-wh-tech-pill",
+      "status": "verified",
+      "confidence": "high",
+      "facts": [
+        { "id": "f1", "verdict": "supported", "confidence": "high" },
+        { "id": "f2", "verdict": "supported", "confidence": "high" },
+        { "id": "f3", "verdict": "supported", "confidence": "high" },
+        { "id": "f4", "verdict": "supported", "confidence": "high" },
+        { "id": "f5", "verdict": "supported", "confidence": "high" },
+        { "id": "f6", "verdict": "supported", "confidence": "high" },
+        { "id": "f7", "verdict": "supported", "confidence": "high" },
+        { "id": "f8", "verdict": "supported", "confidence": "medium" },
+        { "id": "f9", "verdict": "supported", "confidence": "high" },
+        { "id": "f10", "verdict": "supported", "confidence": "high" },
+        { "id": "f11", "verdict": "supported", "confidence": "high" },
+        { "id": "f12", "verdict": "supported", "confidence": "medium" }
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "Enovid 于1960年5月获FDA批准用于避孕（1957年已获批用于月经紊乱），见FDA历史文件与《柳叶刀》回顾：https://www.fda.gov/media/110456/download 、https://www.sciencedirect.com/science/article/abs/pii/S0140673612611660 。",
+        "复方口服避孕药正确使用失败率0.3%、典型使用约8%–9%，见默沙东诊疗手册对照表：https://www.merckmanuals.com/professional/multimedia/table/comparison-of-common-contraceptive-methods 。",
+        "今日低剂量复方药含20–35微克炔雌醇，见苏格兰NHS临床指南：https://www.rightdecisions.scot.nhs.uk/shared-content/west-of-scotland-sexual-health-clinical-guidelines/contraception/combined-hormonal-contraception/types-of-combined-hormonal-contraception/ 。",
+        "Goldin & Katz 2002 载 Journal of Political Economy 110(4):730–770，见哈佛DASH记录：https://dash.harvard.edu/entities/publication/73120378-7cb9-6bd4-e053-0100007fdf3b ；Bailey 2006 载 QJE 121(1):289–320，见 https://pubmed.ncbi.nlm.nih.gov/40124738/ 。",
+        "女性劳动参与率1950年约33%、2000年约60%，见BLS《Women in the Labor Force: A Databook》：https://www.bls.gov/opub/reports/womens-databook/archive/women-in-the-labor-force-a-databook-2015.pdf 。",
+        "Humanae Vitae 由保罗六世于1968年7月25日颁布；爱尔兰1960年代禁止避孕药进口与销售、仅可以“调节月经”名义开具，见 https://pmc.ncbi.nlm.nih.gov/articles/PMC8567738/ ；菲律宾约83%人口为天主教徒、2012年通过《生殖健康法》，现代避孕使用率约37%（2023年估计）。",
+        "日本1999年6月批准低剂量口服避孕药、9月2日上市，此前主要按月经问题开药，见 https://pubmed.ncbi.nlm.nih.gov/10029933/ 与 https://academic.oup.com/jjco/article-abstract/29/10/519/823591 。"
+      ],
+      "summary": "避孕药专题十二条均可核实：1960年5月Enovid获批、负反馈抑制排卵与三重避孕机制、0.3%与8%–9%的失败率区间、20–35微克炔雌醇的现代低剂量、1965年格里斯沃尔德案与1972年艾森斯塔德案、Goldin & Katz 2002 的州级法律差异识别策略、女性劳动参与率33%→60%、1968年《人类生命》通谕、日本1999年才上市、男性口服药仍无产品。仅f8（天主教地区使用率长期偏低）与f12（收入略高）按中等置信度处理，属综述性表述而非硬数字。"
+    },
+    {
+      "id": "w1-world-history-classical-early-christianity",
+      "status": "verified",
+      "confidence": "high",
+      "facts": [
+        { "id": "f1", "verdict": "supported", "confidence": "high" },
+        { "id": "f2", "verdict": "supported", "confidence": "high" },
+        { "id": "f3", "verdict": "supported", "confidence": "high" },
+        { "id": "f4", "verdict": "supported", "confidence": "high" },
+        { "id": "f5", "verdict": "supported", "confidence": "high" },
+        { "id": "f6", "verdict": "supported", "confidence": "high" },
+        { "id": "f7", "verdict": "supported", "confidence": "high" },
+        { "id": "f8", "verdict": "supported", "confidence": "high" },
+        { "id": "f9", "verdict": "supported", "confidence": "high" },
+        { "id": "f10", "verdict": "supported", "confidence": "high" },
+        { "id": "f11", "verdict": "supported", "confidence": "high" },
+        { "id": "f12", "verdict": "supported", "confidence": "high" }
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "家庭教会容量：40–75平方米的住宅可容纳30–50人，以弗所富人宅第350–650平方米，见 https://serials.atla.com/gcbjm/issue/download/355/359 。Meeks《The First Urban Christians》(1983) 书目记录：https://catalogue.nlb.gov.sg/search/card?recordId=2404320 。",
+        "塔西佗《编年史》15.44 记64年大火后基督徒被兽皮裹身投狗、钉十字架点火照明，见 https://www.cambridge.org/core/journals/classical-quarterly/article/abs/tacitus-and-neros-persecution-of-the-christians/72A648B7C52F7914ED7274F0B297FB31 。",
+        "德修斯迫害为249–251年，libellus献祭证明书制度及事后补赎规则，见《剑桥基督教史》相关章节：http://core-varnish-new.prod.aop.cambridge.org/core/books/abs/cambridge-history-of-christianity/ecclesiology-forged-in-the-wake-of-persecution/46C3E28D9C7C4AC39D0F2677B84C23F6 。",
+        "“迫害局限在罗马城”采塔西佗“per urbem”的通常读法，学界对行省是否同时波及仍有讨论，但不影响本专题表述。",
+        "戴克里先迫害303年起、伽列里乌斯311年宽容敕令、313年米兰敕令为通说；伊格纳修《致士每拿人书》8.2 最早出现“公教会”用法。"
+      ],
+      "summary": "早期基督教专题十二条与史料及社会史研究一致：家庭教会以私宅为单位、规模数十人、房主多为较富裕者；一世纪仍属犹太教分支、耶路撒冷会议为分离关键；保罗在小亚细亚与希腊城市先入会堂后转外邦人；64年尼禄迫害局限于罗马城；图拉真对小普林尼的复文确立“不主动追查”立场；二世纪主教制成形、伊格纳修最早使用“公教会”；诺斯替与马吉安争议促成信经与正典；250年德修斯献祭证明书、303年戴克里先迫害至311/313年转折。无事实性错误。"
+    },
+    {
+      "id": "w3-psych-emotion-rumination",
+      "status": "verified",
+      "confidence": "high",
+      "facts": [
+        { "id": "f1", "verdict": "supported", "confidence": "high" },
+        { "id": "f2", "verdict": "supported", "confidence": "high" },
+        { "id": "f3", "verdict": "supported", "confidence": "high" },
+        { "id": "f4", "verdict": "supported", "confidence": "high" },
+        { "id": "f5", "verdict": "supported", "confidence": "high" },
+        { "id": "f6", "verdict": "supported", "confidence": "high" },
+        { "id": "f7", "verdict": "supported", "confidence": "high" },
+        { "id": "f8", "verdict": "supported", "confidence": "high" },
+        { "id": "f9", "verdict": "supported", "confidence": "medium" },
+        { "id": "f10", "verdict": "supported", "confidence": "high" },
+        { "id": "f11", "verdict": "supported", "confidence": "high" },
+        { "id": "f12", "verdict": "supported", "confidence": "medium" }
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "Nolen-Hoeksema 1991 实载 Journal of Abnormal Psychology 100(4):569–582，专题 sources 误记为 Journal of Personality and Social Psychology，属书目错误：https://pubmed.ncbi.nlm.nih.gov/1757671/ 。",
+        "Treynor, Gonzalez & Nolen-Hoeksema 2003 使用22题RRS，拆出沉浸（brooding）与反思（reflection）两因子，沉浸与抑郁关联更强：https://pmc.ncbi.nlm.nih.gov/articles/PMC8864461/pdf/12144_2022_Article_2859.pdf 。",
+        "Johnson & Whisman 2013 元分析（k=59，N=14321）：女性反刍 d=0.24、沉浸 d=0.19、反思 d=0.17，原文自述效应量“small in magnitude”，支持f8的“略多、效应量小”：https://pmc.ncbi.nlm.nih.gov/articles/PMC3786159/ 。",
+        "Watkins et al. 2011 随机对照试验实载 British Journal of Psychiatry 199(4):317–322，专题 sources 误记为 Journal of Consulting and Clinical Psychology：https://pubmed.ncbi.nlm.nih.gov/21778171/ 。",
+        "Kross et al. 2014 非第一人称自我对话研究载 JPSP 106(2):304–324，N=585：https://psykebase.es/servlet/articulo?codigo=4564920 。"
+      ],
+      "summary": "反刍思维专题十二条与文献吻合：1991年反应风格理论的定义、22题RRS与2003年沉浸/反思二因子、纵向相关与混淆因素、情绪诱导实验、抽象“为什么”与过程性“下一步”的分野、工作记忆占用、与失眠的双向循环、性别差异效应量小、干预（反刍聚焦CBT、正念）中等效应、自我抽离实验、正常哀伤与反刍的区分。事实层无错，但 sources 中两处期刊名有误（1991年文应为 Journal of Abnormal Psychology，2011年RCT应为 British Journal of Psychiatry），已在 sourceNotes 记录。"
+    },
+    {
+      "id": "w1-psych-commitment",
+      "status": "verified",
+      "confidence": "high",
+      "facts": [
+        { "id": "f1", "verdict": "supported", "confidence": "high" },
+        { "id": "f2", "verdict": "supported", "confidence": "high" },
+        { "id": "f3", "verdict": "supported", "confidence": "high" },
+        { "id": "f4", "verdict": "supported", "confidence": "high" },
+        { "id": "f5", "verdict": "supported", "confidence": "high" },
+        { "id": "f6", "verdict": "supported", "confidence": "high" },
+        { "id": "f7", "verdict": "supported", "confidence": "high" },
+        { "id": "f8", "verdict": "supported", "confidence": "high" },
+        { "id": "f9", "verdict": "supported", "confidence": "high" },
+        { "id": "f10", "verdict": "supported", "confidence": "medium" },
+        { "id": "f11", "verdict": "supported", "confidence": "high" },
+        { "id": "f12", "verdict": "supported", "confidence": "high" }
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "Stanley, Rhoades & Markman 2006《Sliding versus Deciding》载 Family Relations 55(4)，提出“滑入”与“决定”的区分及惯性视角：https://onlinelibrary.wiley.com/doi/full/10.1111/j.1741-3729.2006.00418.x 。",
+        "需注意的性别细节：婚前同居与较低的dedication相关，该效应在男性中显著、在女性中不显著（Rhoades 等），专题f2的总体表述未区分性别，属可接受的概述：https://www.tandfonline.com/doi/pdf/10.1080/15332690902813794 。",
+        "投资模型（Rusbult 等）以满意度、替代选择质量、投入量三要素解释承诺；承诺促进 accommodation、牺牲与宽恕，见 Rusbult, Martz & Agnew 1998《The investment model scale》。",
+        "关系的分分合合（on-again/off-again）与更低满意度、更低信任相关，见 Dailey 等2011年研究；f10 的“我们”语言对应 Agnew 等1998年的认知互依与复数代词研究。"
+      ],
+      "summary": "承诺专题十二条与关系科学文献一致：dedication 与 constraint 两层承诺、2006年“滑入/决定”框架与同居效应、选择效应不可忽略、代价高昂的信号、承诺不对称带来的权力差距、分分合合的代价、投资模型的牺牲与宽恕、替代选择质量的作用、公开承诺的双面性、“我们”语言、承诺不等于保证、相关不等于因果。f2 的总体表述略去“效应主要在男性”这一细节，但不构成事实错误。"
+    },
+    {
+      "id": "cn-geo-yellow-river",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        { "id": "f1", "verdict": "supported", "confidence": "high" },
+        { "id": "f2", "verdict": "supported", "confidence": "high" },
+        { "id": "f3", "verdict": "supported", "confidence": "high" },
+        { "id": "f4", "verdict": "supported", "confidence": "high" },
+        { "id": "f5", "verdict": "supported", "confidence": "high" },
+        { "id": "f6", "verdict": "imprecise", "confidence": "high", "issue": "issue-01" },
+        { "id": "f7", "verdict": "supported", "confidence": "high" },
+        { "id": "f8", "verdict": "supported", "confidence": "high" },
+        { "id": "f9", "verdict": "supported", "confidence": "high" },
+        { "id": "f10", "verdict": "supported", "confidence": "high" },
+        { "id": "f11", "verdict": "imprecise", "confidence": "medium", "issue": "issue-02" },
+        { "id": "f12", "verdict": "supported", "confidence": "high" }
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f6",
+          "severity": "major",
+          "verdict": "imprecise",
+          "claim": "一一二八年，宋将杜充在滑州决开黄河堤防，试图以水阻金兵，黄河由此夺淮入海，持续了七百多年。泥沙淤塞淮河入海口，把淮河逼成一条借长江入海的河流，至今未能恢复独立入海。",
+          "problem": "末句已过时且与事实相反：淮河入海水道建成后于2003年6月28日放水通航，全长163.5公里、设计行洪2270立方米每秒，官方表述为“结束了淮河800年没有入海通道的历史”，淮河重新拥有独立的入海尾闾。原文“至今未能恢复独立入海”沿用了2003年以前的说法。",
+          "correction": "一一二八年，宋将杜充在滑州决开黄河堤防，以水阻金兵，黄河由此夺淮入海，持续七百多年。泥沙淤塞淮河入海口，淮河一度只能借长江入海；2003年淮河入海水道建成通水，淮河重获独立入海的人工通道。",
+          "evidence": [
+            {
+              "title": "新浪/新华：淮河入海水道建成通水（2003年6月29日）",
+              "url": "http://news.sina.com.cn/o/2003-06-29/1239288085s.shtml",
+              "quote": "内容要点：2003年6月28日淮河入海水道建成通水，结束了淮河800年没有入海通道的历史。"
+            },
+            {
+              "title": "新浪新闻转载：淮河重新拥有独立入海尾闾（2003年6月30日）",
+              "url": "https://news.sina.cn/sa/2003-06-30/detail-ikkntiak7505911.d.html",
+              "quote": "内容要点：工程全长163.5公里，设计行洪流量2270立方米每秒，淮河重新拥有独立的入海尾闾。"
+            }
+          ]
+        },
+        {
+          "id": "issue-02",
+          "factId": "f11",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "黄河三角洲在利津以下淤积造陆，历史上每年新增土地数十平方公里。近年因入海泥沙减少，部分岸段由淤进转为蚀退，湿地生态随之改变，候鸟栖息地也受到影响。",
+          "problem": "“每年新增土地数十平方公里”把峰值期的造陆速率当作长期均值。对1976—2024年遥感序列的测算显示，三角洲年均净增土地约6.36平方公里；1976—1988年为快速淤进期（岸线最大推进1825米每年），1989—2008年转为蚀退（最大后退1243米每年），2009年后仅局部淤进。原文的“数十平方公里”只在个别淤进年份成立。",
+          "correction": "黄河三角洲在利津以下淤积造陆，历史上多数年份每年新增十几到几十平方公里；1976年以来平均每年约六平方公里。近年因入海泥沙减少，部分岸段由淤进转为蚀退，湿地生态改变，候鸟栖息地也受到影响。",
+          "evidence": [
+            {
+              "title": "《海洋地质与第四纪地质》：1976—2024年黄河三角洲岸线与造陆演变",
+              "url": "https://www.cgsjournals.com/hydzqy/cn/article/id/a2a2e997-e13c-4838-81b0-3b6763ce2826",
+              "quote": "内容要点：1976—2024年三角洲年均新增土地6.358平方公里，经历快速淤进、蚀退与局部淤进三个阶段。"
+            },
+            {
+              "title": "《海洋地质前沿》：现行河口区岸线演变（2025）",
+              "url": "https://www.sciengine.com/MGFront/doi/10.16028/j.1009-2722.2025.155",
+              "quote": "内容要点：1976—1988年岸线最大淤进速率1825米每年，1989—2008年最大蚀退速率1243米每年。"
+            }
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "河长5464公里、源头约古宗列盆地、注入渤海，见黄河水利委员会：http://yrcc.gov.cn/xwdt/mtgz/202611/t20261116_454584.html ；科普中国同口径：https://cloud.kepuchina.cn/newSearch/imgText?id=7236489798372753408 。",
+        "“从先秦到中华人民共和国成立前的2500多年间，黄河下游共决溢1500多次，改道26次”为黄委口径，与f5“两千多年、决口一千五百多次、较大改道二十余次”相容。",
+        "多年平均输沙量曾约16亿吨、现约3亿吨、九成来自黄土高原，见 National Science Review 论文：http://oxfordjournals.org/nsr/article/3/2/155/2460240 。",
+        "开封河段河床高出城内地面约10米、下游悬河段长约800公里，见 http://english.china.org.cn/english/environment/45924.htm 与 https://radio.cgtn.com/news/recommend/The-Yellow-River-Mosaic-Kaifeng-City/2614 。",
+        "1128年杜充决河于滑州李固渡、1855年铜瓦厢决口改走大清河由利津入海，见 http://www.yrcc.gov.cn/hhwh/whcz/202312/t20231220_358690.html 与 http://yrcc.gov.cn/hhwh/wxyc/202512/t20251209_447066.html 。",
+        "小浪底2002年起调水调沙、下游主河槽由淤积转为冲刷，见 https://www.sciencedirect.com/science/article/abs/pii/S0959652620335782 与 https://www.sciencedirect.com/science/article/abs/pii/S092585741500107X 。"
+      ],
+      "summary": "黄河专题主体扎实：5464公里河长与河源、黄土高原产沙与16亿吨历史输沙量、孟津以下比降骤减形成悬河、开封河床高出城内约10米、下游1500多次决溢与26次改道、1128年杜充决河夺淮、1855年铜瓦厢改道、1938年花园口与1947年堵口、小浪底调水调沙。两处需改：f6“至今未能恢复独立入海”已过时，2003年淮河入海水道通水后淮河重获独立入海通道；f11“每年数十平方公里”把峰值速率当均值，1976年以来实测年均约6.4平方公里。"
+    },
+    {
+      "id": "w1-psych-apology",
+      "status": "verified",
+      "confidence": "high",
+      "facts": [
+        { "id": "f1", "verdict": "supported", "confidence": "high" },
+        { "id": "f2", "verdict": "supported", "confidence": "high" },
+        { "id": "f3", "verdict": "supported", "confidence": "high" },
+        { "id": "f4", "verdict": "supported", "confidence": "medium" },
+        { "id": "f5", "verdict": "supported", "confidence": "high" },
+        { "id": "f6", "verdict": "supported", "confidence": "medium" },
+        { "id": "f7", "verdict": "supported", "confidence": "high" },
+        { "id": "f8", "verdict": "supported", "confidence": "high" },
+        { "id": "f9", "verdict": "supported", "confidence": "medium" },
+        { "id": "f10", "verdict": "supported", "confidence": "high" },
+        { "id": "f11", "verdict": "supported", "confidence": "medium" }
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "Lewicki, Polin & Lount 2016 归纳道歉六要素（表达遗憾、说明、承认责任、悔改、提出补救、请求原谅），其中承认责任与提出补救最关键：https://onlinelibrary.wiley.com/doi/abs/10.1111/ncmr.12073 ；科普版见 https://news.osu.edu/the-6-elements-of-an-effective-apology-according-to-science/ 。",
+        "Kim, Ferrin, Cooper & Dirks 2004 载 Journal of Applied Psychology 89(1):104–118：道歉对能力型信任违背更有效，对诚信型违背不如否认加澄清：https://pubmed.ncbi.nlm.nih.gov/14769123/ 。",
+        "Robbennolt 2003《Apologies and Legal Settlement》载 Michigan Law Review，实验显示含责任与补救的道歉更易促成和解；医疗纠纷中的道歉与责任顾虑见 Kraman & Hamm 1999 及“Sorry Works”相关文献。",
+        "f4（时机）、f6（道歉贬值）、f9（公开与私下）、f11（具体补救）为证据较分散的综述性判断，按中等置信度处理。"
+      ],
+      "summary": "道歉专题十一条与实证文献一致：有效道歉的构成要素、Lewicki 等六要素实验中承认责任与补救最关键、Kim 等2004年能力型与诚信型违背的差异、条件式道歉（“如果你觉得受伤”）转移责任、解释置于承认之后更易被接受、被要求原谅引发羞耻与愤怒、公开与私下的功能差异、医疗与法律纠纷中道歉促进和解、补救需具体可检验。f4、f6、f9、f11 属证据分散的综述判断，置信度记 medium。"
+    },
+    {
+      "id": "w2-geo-world-rivers-ganges",
+      "status": "verified",
+      "confidence": "high",
+      "facts": [
+        { "id": "f1", "verdict": "supported", "confidence": "high" },
+        { "id": "f2", "verdict": "supported", "confidence": "high" },
+        { "id": "f3", "verdict": "supported", "confidence": "high" },
+        { "id": "f4", "verdict": "supported", "confidence": "high" },
+        { "id": "f5", "verdict": "supported", "confidence": "high" },
+        { "id": "f6", "verdict": "supported", "confidence": "high" },
+        { "id": "f7", "verdict": "supported", "confidence": "high" },
+        { "id": "f8", "verdict": "supported", "confidence": "medium" },
+        { "id": "f9", "verdict": "supported", "confidence": "high" },
+        { "id": "f10", "verdict": "supported", "confidence": "medium" },
+        { "id": "f11", "verdict": "supported", "confidence": "high" },
+        { "id": "f12", "verdict": "supported", "confidence": "high" }
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "恒河长2505（或2525）公里、源出甘戈特里冰川高穆克、在孟加拉国与布拉马普特拉河汇合注入孟加拉湾，见 JICA 报告：https://openjicareport.jica.go.jp/pdf/11788502_01.pdf 。",
+        "哈德瓦尔处径流约七成来自季风降雨与地下补给、甘戈特里冰川退缩幅度有限，见印度科技部：https://www.indiascienceandtechnology.gov.in/featured-science/isro-keeping-eye-himalayan-glaciers 。",
+        "法拉卡堰引水至胡格利河、孟加拉国旱季水量减少并提交联合国申诉（1976年A/31/195/Add.1），见 https://digitallibrary.un.org/nanna/record/678252/files/A_31_195_Add.1-EN.pdf 与 NOAA 报告 https://repository.library.noaa.gov/view/noaa/37229/noaa_37229_DS1.pdf 。",
+        "潮汐河管理（TRM）以每日两次涨潮引水入beel淤积抬高地面，BWDB自1997年实施，1991—2013年在35个beel中的12个推行：https://www.sciencedirect.com/science/article/abs/pii/S0048969720322646 。",
+        "恒河-布拉马普特拉-梅克纳三角洲沉降速率1.1—43.8毫米每年、均值2.9毫米每年：https://onlinelibrary.wiley.com/doi/full-xml/10.1002/hyp.14119 。",
+        "f8 砷污染为沉积物中天然砷在还原条件下释放，与过量抽水改变氧化还原环境有关，原文“把深层污染物带上来”是简化说法，故记 medium。"
+      ],
+      "summary": "恒河专题十二条均可核实：约2500公里河长与甘戈特里冰川河源、季风主导的丰枯节律、冲积平原与洪水肥田、与布拉马普特拉河共建世界最大三角洲之一、潮汐咸淡水混合、季风年际波动、宗教活动与污染治理、地下水超采与砷污染、法拉卡堰与两国分水谈判、三角洲的潮汐淤田（TRM）、沉降与海平面上升叠加、城市污水与流量季节差。无事实性错误；f8的砷释放机制与f10的传统淤田表述按中等置信度处理。"
+    },
+    {
+      "id": "w5-geo-cn-yellow-sea-cold-water",
+      "status": "verified",
+      "confidence": "high",
+      "facts": [
+        { "id": "f1", "verdict": "supported", "confidence": "high" },
+        { "id": "f2", "verdict": "supported", "confidence": "high" },
+        { "id": "f3", "verdict": "supported", "confidence": "high" },
+        { "id": "f4", "verdict": "supported", "confidence": "high" },
+        { "id": "f5", "verdict": "supported", "confidence": "high" },
+        { "id": "f6", "verdict": "supported", "confidence": "high" },
+        { "id": "f7", "verdict": "supported", "confidence": "high" },
+        { "id": "f8", "verdict": "supported", "confidence": "high" },
+        { "id": "f9", "verdict": "supported", "confidence": "high" },
+        { "id": "f10", "verdict": "supported", "confidence": "high" },
+        { "id": "f11", "verdict": "supported", "confidence": "high" },
+        { "id": "f12", "verdict": "supported", "confidence": "high" }
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "科普中国：黄海冷水团面积约13万平方公里、体积约5000亿立方米，温跃层仅20—30米深，夏季底层4.6—9.3℃、上层25—28℃，季节演变为12—3月更新、4—6月成长、7—8月鼎盛、9—11月消衰，以成山角—长山串分为南北两中心：https://cloud.kepuchina.cn/newSearch/imgText?id=6972624783566950400 、https://www.kepuchina.cn/article/articleinfo?business_type=100&classify=0&ar_id=288031 。",
+        "冷水团通常以水温低于10℃定义，为冬季残留水被温跃层封存：https://www.sciencedirect.com/science/article/am/pii/S0278434324000530 。",
+        "大沙渔场1998—2000年调查游泳生物以鳀鱼为主（占69.32%），渔场受黄海暖流、冷水团与长江冲淡水交汇影响：https://baike.baidu.com/item/%E5%A4%A7%E6%B2%99%E6%B8%94%E5%9C%BA/0 ；鳀鱼越冬适温8—15℃、最适10—12℃，中心渔场位于冷水舌/暖水舌锋区：https://aipub.cn/1e2D70 。",
+        "黄海平均水深约44米、中央洼地较深，潮混合对层结边界的控制符合 Simpson-Hunter 判据；秋季偏北风增强导致层结破坏与垂向混合为通说。"
+      ],
+      "summary": "黄海冷水团专题十二条与海洋学观测一致：半封闭浅海冬季冷却下沉、夏季淡水与降水造成上轻下重的层结、温跃层封存冬季冷水（底层6—10℃、表层25℃以上）、中央洼地与深槽控制位置、潮混合塑造边界、鳀鱼与黄盖鲽等冷水性鱼类的夏季庇护所、层结下的底层耗氧与低氧风险、秋季冷却混合使冷水团消失并补充营养盐、秋季混合支持浮游植物繁殖、全球变暖下底层升温与边界移动、与黄海暖流的相互作用、作为冬季风“季节性记忆”。无事实性错误。"
+    }
+  ]
+}

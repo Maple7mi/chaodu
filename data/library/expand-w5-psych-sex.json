@@ -43,7 +43,7 @@
         },
         {
           "id": "f6",
-          "text": "上世纪八十年代有研究者提出“象征性拒绝”的说法，认为女性常口头说不要、心里其实想要。后续研究把这个比例压得很低：多数说“不”的人就是不想。把这个旧说法当常识，会让真实的拒绝被当成撒娇，也让强迫多了一个借口。"
+          "text": "1988年缪伦哈德与霍拉博的调查中，610名女大学生有39.3%至少一次口头拒绝而心里愿意，比例并不低；后续研究估计虽有下降，但把“象征性拒绝”说成已被压到很低，缺乏可核对的数字。"
         },
         {
           "id": "f7",
@@ -172,7 +172,16 @@
         "Muehlenhard, C. L., Humphreys, T. P., Jozkowski, K. N., & Peterson, Z. D. (2016). The complexities of sexual consent. Journal of Sex Research",
         "Beres, M. A. (2007). “Spontaneous” sexual consent: An analysis of sexual consent literature. Feminism & Psychology",
         "California Senate Bill 967 (2014). Student safety: sexual assault standards for postsecondary institutions"
-      ]
+      ],
+      "factCheck": {
+        "status": "corrected",
+        "confidence": "high",
+        "batch": "batch-53",
+        "checkedAt": "2026-11-18T02:50:00+08:00",
+        "issueCount": 1,
+        "appliedAt": "2026-11-17T18:46:28.284Z",
+        "summary": "同意的要件、立法与强迫识别各条均有权威依据，仅象征性拒绝的比例表述与原始数据不符。"
+      }
     },
     {
       "id": "w5-psych-script",
@@ -208,7 +217,7 @@
         },
         {
           "id": "f4",
-          "text": "一九九九年一项美国调查问大学生：怎样才算“发生过性关系”？绝大多数人把阴道性交算进去，只有少数人把口交、肛交或触摸算进去。同一个词，不同的人理解不同，这直接影响同意、避孕与“出轨”的判断。"
+          "text": "一九九九年一项美国调查问大学生：怎样才算「发生过性关系」？几乎所有受访者都把阴道性交算进去，约四成把口交算进去，肛交与触摸的比例更低。同一个词，不同的人理解不同，这直接影响同意、避孕与「出轨」的判断。"
         },
         {
           "id": "f5",
@@ -345,7 +354,16 @@
         "Simon, W., & Gagnon, J. H. (1986). Sexual scripts: Permanence and change. Archives of Sexual Behavior",
         "Sanders, S. A., & Reinisch, J. M. (1999). Would you say you “had sex” if...? JAMA",
         "Wiederman, M. W. (2005). The gendered nature of sexual scripts. The Family Journal"
-      ]
+      ],
+      "factCheck": {
+        "status": "corrected",
+        "confidence": "high",
+        "batch": "batch-50",
+        "checkedAt": "2026-11-18T02:42:00+08:00",
+        "issueCount": 1,
+        "appliedAt": "2026-11-17T18:46:28.284Z",
+        "summary": "十条站得住；口交一项约四成受访者算作“发生过性关系”，说成“只有少数”低估了比例。"
+      }
     },
     {
       "id": "w5-psych-sexual-satisfaction",
@@ -373,11 +391,11 @@
         },
         {
           "id": "f2",
-          "text": "二〇一六年一项追踪研究把伴侣分成两组，一组维持原有频率，一组被要求把频率加倍。加倍的那组在欲望、享受与亲密感上都没有提升，反而报告了更多疲惫与压力。研究者因此提出“足够好”的频率这个概念。"
+          "text": "二〇一五年一项实验把伴侣分组，一组维持原频率，一组被要求把频率加倍。加倍组在欲望、享受与亲密感上都没有提升，反而报告更多疲惫与压力；研究者称，性满足不随次数线性增加。"
         },
         {
           "id": "f3",
-          "text": "二〇一二年一项针对美国大学生的调查发现，异性性行为中男性几乎每次都达到高潮，女性约在三成到四成之间。差距主要来自性行为脚本，而不是身体构造：延长前戏、增加口交、把女性高潮当成共同目标，差距会明显缩小。"
+          "text": "二〇一二年美国大学生调查发现，异性性行为中男性几乎每次都达到高潮，女性在恋爱关系中约六成七，在初次约炮中仅约一成一。差距主要来自性行为脚本而非身体构造，增加口交与延长前戏能缩小差距。"
         },
         {
           "id": "f4",
@@ -518,7 +536,16 @@
         "Armstrong, E. A., England, P., & Fogarty, A. C. K. (2012). Accounting for women’s orgasm and sexual enjoyment in college hookups and relationships. American Sociological Review",
         "Muise, A., & Impett, E. A. (2016). Applying theories of communal motivation to sexuality. Social and Personality Psychology Compass",
         "Laumann, E. O., et al. (2006). A cross-national study of subjective sexual well-being. Archives of Sexual Behavior"
-      ]
+      ],
+      "factCheck": {
+        "status": "corrected",
+        "confidence": "high",
+        "batch": "batch-37",
+        "checkedAt": "2026-11-18T02:58:00+08:00",
+        "issueCount": 2,
+        "appliedAt": "2026-11-17T18:46:28.284Z",
+        "summary": "性满意度专题的机制性描述大体成立；两处需改：频率加倍实验是 2015 年而非 2016 年，且“足够好”模型并非该实验提出；女性高潮比例应区分恋爱关系（67%）与约炮（11%–34%）。"
+      }
     },
     {
       "id": "w5-psych-sex-ed",
@@ -691,7 +718,16 @@
         "Kirby, D. (2007). Emerging Answers: Research Findings on Programs to Reduce Teen Pregnancy and Sexually Transmitted Diseases. National Campaign to Prevent Teen Pregnancy",
         "Guttmacher Institute. Sex and HIV education policy briefs (United States)",
         "《中华人民共和国未成年人保护法》（2020 年修订，2021 年施行）"
-      ]
+      ],
+      "factCheck": {
+        "status": "verified",
+        "confidence": "medium",
+        "batch": "batch-22",
+        "checkedAt": "2026-11-18T02:36:00+08:00",
+        "issueCount": 0,
+        "appliedAt": "2026-11-17T18:46:28.284Z",
+        "summary": "性教育的历史、政策与评估证据总体可靠，未发现需要改写的硬错误。"
+      }
     },
     {
       "id": "w5-psych-refusal",
@@ -751,7 +787,7 @@
         },
         {
           "id": "f10",
-          "text": "能接受“不”的关系更稳定。追踪研究显示，反复越界、被拒绝后施压或冷处理，比一次拒绝本身更能预测关系恶化；也就是说，测试关系的是对方的反应，不是你的拒绝。"
+          "text": "能接受「不」的关系更稳定。追踪研究提示，反复越界、被拒绝后施压或冷处理，与关系满意度下降相互关联；一次拒绝本身未必伤关系，对方如何回应才是关键。"
         },
         {
           "id": "f11",
@@ -864,7 +900,16 @@
         "Guerrero, L. K., & Afifi, W. A. (2013). Close Encounters: Communication in Relationships. SAGE",
         "Kim, M. S., & Wilson, S. R. (1994). A cross-cultural comparison of implicit theories of requesting. Communication Monographs",
         "Overall, N. C., & McNulty, J. K. (2017). What type of communication during conflict is beneficial for intimate relationships? Current Opinion in Psychology"
-      ]
+      ],
+      "factCheck": {
+        "status": "corrected",
+        "confidence": "medium",
+        "batch": "batch-09",
+        "checkedAt": "2026-11-18T02:42:00+08:00",
+        "issueCount": 2,
+        "appliedAt": "2026-11-17T18:46:28.284Z",
+        "summary": "“拒绝高估伤害”有实验支持；“间接拒绝更频繁且更易被误读”无调查来源，“越界比拒绝更能预测恶化”表述过强。"
+      }
     },
     {
       "id": "w5-psych-passion",
@@ -924,7 +969,7 @@
         },
         {
           "id": "f10",
-          "text": "日记研究显示，激情在日级别上明显波动，与睡眠、压力、争吵和身体状态都有关。也就是说，某几周觉得“没感觉”，未必是关系趋势，可能只是这段时间太累、太忙。"
+          "text": "日记研究显示，关系里的满意度和情绪在日级别上明显波动，与睡眠、压力、争吵都有关。也就是说，某几周觉得「没感觉」，未必是关系趋势，可能只是这段时间太累、太忙。"
         },
         {
           "id": "f11",
@@ -1037,7 +1082,16 @@
         "Fisher, H., Aron, A., & Brown, L. L. (2005). Romantic love: An fMRI study of a neural mechanism for mate choice. Journal of Comparative Neurology",
         "Aron, A., Norman, C. C., Aron, E. N., McKenna, C., & Heyman, R. E. (2000). Couples’ shared participation in novel and arousing activities and experienced relationship quality. Journal of Personality and Social Psychology",
         "Berscheid, E., & Walster, E. (1978). Interpersonal Attraction. Addison-Wesley"
-      ]
+      ],
+      "factCheck": {
+        "status": "corrected",
+        "confidence": "high",
+        "batch": "batch-59",
+        "checkedAt": "2026-11-18T03:02:00+08:00",
+        "issueCount": 1,
+        "appliedAt": "2026-11-17T18:46:28.284Z",
+        "summary": "爱情三角理论、fMRI 奖赏回路与共同新活动实验的年份、作者、期刊均可核；唯一需要改的是 f10 把「关系满意度/压力的日级波动」写成了「激情的日级波动」，已给出限定后的替换文本。"
+      }
     },
     {
       "id": "w5-psych-long-distance-daily",
@@ -1209,7 +1263,16 @@
         "Stafford, L. (2005). Maintaining Long-Distance and Cross-Residential Relationships. Lawrence Erlbaum Associates",
         "Jiang, L. C., & Hancock, J. T. (2013). Absence makes the communication grow fonder: Geographic separation, interpersonal media, and intimacy in dating relationships. Journal of Communication",
         "Stafford, L., & Merolla, A. J. (2007). Idealization, reunions, and stability in long-distance dating relationships. Journal of Social and Personal Relationships"
-      ]
+      ],
+      "factCheck": {
+        "status": "verified",
+        "confidence": "medium",
+        "batch": "batch-11",
+        "checkedAt": "2026-11-18T02:41:00+08:00",
+        "issueCount": 0,
+        "appliedAt": "2026-11-17T18:46:28.284Z",
+        "summary": "11条均与已发表研究方向一致；关键结论（异地分手率不更高、理想化、重聚后满意度下降、结束时间不确定带来压力）分别有Stafford & Merolla 2007、Jiang & Hancock 2013、Maguire 2007、Stafford等2006年研究支撑。"
+      }
     },
     {
       "id": "w5-psych-post-breakup-friends",
@@ -1381,7 +1444,16 @@
         "Sbarra, D. A., & Emery, R. E. (2005). The emotional sequelae of nonmarital relationship dissolution: Analysis of change and intraindividual variability over time. Personal Relationships",
         "Dailey, R. M., McCracken, A. A., Jin, B., Rossetto, K. R., & Green, E. W. (2013). Negotiating breakups and renewals: Types of on-again/off-again dating relationships. Journal of Social and Personal Relationships",
         "Halpern-Meekin, S., Manning, W. D., Giordano, P. C., & Longmore, M. A. (2013). Relationship churning in emerging adulthood: On/off relationships and sex with an ex. Journal of Adolescent Research"
-      ]
+      ],
+      "factCheck": {
+        "status": "verified",
+        "confidence": "medium",
+        "batch": "batch-10",
+        "checkedAt": "2026-11-18T02:31:00+08:00",
+        "issueCount": 0,
+        "appliedAt": "2026-11-17T18:46:28.284Z",
+        "summary": "分手后联系、复合与恢复期的表述与追踪研究及综述一致，未发现需要修正的硬断言。"
+      }
     },
     {
       "id": "w5-psych-phone-privacy",
@@ -1445,7 +1517,7 @@
         },
         {
           "id": "f11",
-          "text": "信任坏了，查手机修不好。修复靠的是可验证的承诺与时间：位置共享、账单透明、按约定汇报，持续几个月，而不是一次彻底的检查，这是慢功夫，也是唯一的路。"
+          "text": "信任坏了，查手机修不好。修复靠的是可验证的承诺与时间：位置共享、账单透明、按约定汇报，持续几个月，而不是一次彻底的检查；这是慢功夫，也是最可靠的路。"
         }
       ],
       "angles": [
@@ -1557,7 +1629,16 @@
         "Petronio, S. (2002). Boundaries of Privacy: Dialectics of Disclosure. State University of New York Press",
         "Tokunaga, R. S. (2011). Social networking site or social surveillance site? Understanding the use of interpersonal electronic surveillance in romantic relationships. Computers in Human Behavior",
         "Afifi, T. D., & Caughlin, J. P. (2006). A close look at revealing secrets and some consequences that follow. Communication Research"
-      ]
+      ],
+      "factCheck": {
+        "status": "corrected",
+        "confidence": "medium",
+        "batch": "batch-34",
+        "checkedAt": "2026-11-18T02:47:00+08:00",
+        "issueCount": 2,
+        "appliedAt": "2026-11-17T18:46:28.284Z",
+        "summary": "隐私/秘密之分、CPM、确认寻求循环与依恋差异都有文献基础；把“被迫披露削弱亲密”写成研究结论缺乏直接证据，“唯一的路”也应收敛。"
+      }
     },
     {
       "id": "w5-psych-marriage-expectation",
@@ -1589,11 +1670,11 @@
         },
         {
           "id": "f3",
-          "text": "有一类期待特别容易落空：针对对方具体行为的期待，比如“结婚以后他会变得上进”“有了孩子他会收心”。这类期待把改变的责任放在别人身上，通常等不到兑现。"
+          "text": "研究不支持“这类期待通常等不到兑现”。可核实的是：期待伴侣改变，与更低的关系满意度、更多冲突相关；改变是否发生取决于对方和两人的互动，无法由期待本身预测。"
         },
         {
           "id": "f4",
-          "text": "另一类期待反而有益：对伴侣总体品性的积极看法，以及对关系前景的信心。研究里这类积极幻觉与更高的满意度相关，前提是它不否认具体问题的存在。"
+          "text": "另一类期待确有益处，但研究给出了条件：只有当夫妻的沟通与归因方式较积极时，积极期待才预示满意度更稳定；若互动技能最差，期待越高，满意度下降反而越快。"
         },
         {
           "id": "f5",
@@ -1733,7 +1814,16 @@
         "McNulty, J. K., & Karney, B. R. (2004). Positive illusions in marriage: When are they associated with changes in marital satisfaction? Journal of Personality and Social Psychology",
         "Hochschild, A. R. (1989). The Second Shift: Working Parents and the Revolution at Home. Viking",
         "Karney, B. R., & Bradbury, T. N. (1995). The longitudinal course of marital quality and stability: A review of theory, method, and research. Psychological Bulletin"
-      ]
+      ],
+      "factCheck": {
+        "status": "corrected",
+        "confidence": "high",
+        "batch": "batch-48",
+        "checkedAt": "2026-11-18T02:52:00+08:00",
+        "issueCount": 2,
+        "appliedAt": "2026-11-17T18:46:28.284Z",
+        "summary": "社会塑造、参照点比较、第二班、性别脚本、婚姻轨迹、社会比较与沟通训练均可核实；两处涉及具体研究结论的表述有偏差：f3 把'与低满意度相关'写成'等不到兑现'，f4 漏掉 McNulty 与 Karney 研究的关键调节条件，均已修正。"
+      }
     },
     {
       "id": "w5-psych-premarital-counseling",
@@ -1761,7 +1851,7 @@
         },
         {
           "id": "f2",
-          "text": "二〇〇三年卡罗尔与多尔蒂汇总了多项对照研究，结论是婚前预防项目在短期内能改善沟通与冲突处理技能，效果量小到中等；对婚姻满意度的长期作用则弱得多。"
+          "text": "二〇〇三年卡罗尔与多尔蒂汇总了多项对照研究，结论是婚前预防项目短期内能改善沟通与冲突处理技能，平均效果量偏大；对婚姻满意度的长期作用则弱得多。"
         },
         {
           "id": "f3",
@@ -1909,7 +1999,16 @@
         "Carroll, J. S., & Doherty, W. J. (2003). Evaluating the effectiveness of premarital prevention programs: A meta-analytic review of outcome research. Family Relations",
         "Halford, W. K., Markman, H. J., Kline, G. H., & Stanley, S. M. (2003). Best practice in couple relationship education. Journal of Marital and Family Therapy",
         "Stanley, S. M., Amato, P. R., Johnson, C. A., & Markman, H. J. (2006). Premarital education, marital quality, and marital stability. Journal of Family Psychology"
-      ]
+      ],
+      "factCheck": {
+        "status": "corrected",
+        "confidence": "high",
+        "batch": "batch-47",
+        "checkedAt": "2026-11-18T02:54:00+08:00",
+        "issueCount": 1,
+        "appliedAt": "2026-11-17T18:46:28.284Z",
+        "summary": "婚前辅导的形式、选择效应与议题清单均站得住，只有效果量大小写反了。"
+      }
     },
     {
       "id": "w5-psych-conflict-style",
@@ -1933,7 +2032,7 @@
       "facts": [
         {
           "id": "f1",
-          "text": "面对威胁，神经系统有几套默认反应：争、逃、僵、顺。它们不是性格缺陷，而是身体在极短时间内做出的自保选择，通常比意识更早启动，也常常事后才被自己发现。"
+          "text": "面对威胁，人常见几套反应：争、逃、僵、顺。它们不是性格缺陷，而是身体在极短时间内做出的自保选择，往往比意识更早启动。其中争、逃、僵有较多生理研究支撑，顺更多是临床经验的概括。"
         },
         {
           "id": "f2",
@@ -2081,7 +2180,16 @@
         "Gottman, J. M., & Levenson, R. W. (1988). The social psychophysiology of marriage. In P. Noller & M. A. Fitzpatrick (Eds.), Perspectives on Marital Interaction. Multilingual Matters",
         "Christensen, A., & Heavey, C. L. (1990). Gender and social structure in the demand/withdraw pattern of marital conflict. Journal of Personality and Social Psychology",
         "Gottman, J. M., & Levenson, R. W. (2000). The timing of divorce: Predicting when a couple will divorce over a 14-year period. Journal of Marriage and Family"
-      ]
+      ],
+      "factCheck": {
+        "status": "corrected",
+        "confidence": "high",
+        "batch": "batch-60",
+        "checkedAt": "2026-11-18T02:41:57+08:00",
+        "issueCount": 2,
+        "appliedAt": "2026-11-17T18:46:28.284Z",
+        "summary": "11条中9条有据；“四种默认神经反应”把临床概括的“顺”与有生理证据的争逃僵并列，属过度概括；f5关于顺从者满意度与爆发的断言缺乏实证，标为不可验证并留空修正。"
+      }
     }
   ]
 }

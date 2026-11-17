@@ -1,0 +1,302 @@
+{
+  "batch": "batch-06",
+  "checkedAt": "2026-11-18T02:38:00+08:00",
+  "dossiers": [
+    {
+      "id": "w4-wh-regions-mexican-revolution",
+      "status": "verified",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "medium"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "supported", "confidence": "medium"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "supported", "confidence": "high"},
+        {"id": "f11", "verdict": "supported", "confidence": "medium"},
+        {"id": "f12", "verdict": "supported", "confidence": "medium"}
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "f1 的“自1876年起长期执政”略去了1880—1884年的间断，作为概述可接受。",
+        "f10 的政党改名链条是 PNR(1929)→PRM(1938)→PRI(1946)，原文略去中间一步，不影响结论。"
+      ],
+      "summary": "十二条均能由革命通史、计划文本与1917年宪法条文支撑；迪亚斯任期间断与政党改名细节可在注释中说明。"
+    },
+    {
+      "id": "w4-psych-social-support",
+      "status": "corrected",
+      "confidence": "medium",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "imprecise", "confidence": "medium", "issue": "issue-01"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "medium"},
+        {"id": "f7", "verdict": "wrong", "confidence": "high", "issue": "issue-02"},
+        {"id": "f8", "verdict": "supported", "confidence": "medium"},
+        {"id": "f9", "verdict": "supported", "confidence": "medium"},
+        {"id": "f10", "verdict": "supported", "confidence": "medium"},
+        {"id": "f11", "verdict": "supported", "confidence": "medium"},
+        {"id": "f12", "verdict": "supported", "confidence": "low"}
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f2",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "科恩与威尔斯一九八五年的框架指出，情感支持缓解的是“我被接纳”的感受，工具性支持解决的是具体负担；给错类型，效果会打折。",
+          "problem": "归属不准。Cohen & Wills(1985) 的综述按“支持结构 vs 支持功能”和“主效应 vs 缓冲效应”组织证据，并未提出三类支持不可互相替代；“类型与需求匹配”是后来的研究线索。",
+          "correction": "三类支持各有分工，但不能说完全不能替代。科恩与威尔斯一九八五年的综述区分的是支持的结构与功能、主效应与缓冲效应；后来的研究才强调，支持类型与压力需求不匹配时，效果会打折。",
+          "evidence": [
+            {"title": "Cohen & Wills (1985), Stress, social support, and the buffering hypothesis", "url": "https://psycnet.apa.org/record/1986-01119-001", "quote": "The review of studies is organized according to (1) whether a measure assesses support structure ... or function ..."}
+          ]
+        },
+        {
+          "id": "issue-02",
+          "factId": "f7",
+          "severity": "major",
+          "verdict": "wrong",
+          "claim": "可见的支持常常更有效……在自尊受威胁时，前者效果更好，因为它承认了对方的能力。",
+          "problem": "方向说反了。Bolger & Amarel(2007) 的三个实验发现，不被当事人察觉的支持（invisible support）才降低情绪反应；可见的支持要么无效，要么反而加剧反应。",
+          "correction": "支持未必越显眼越有效。博尔格与阿马雷尔二〇〇七年的实验发现，在自尊受威胁时，不被察觉的支持更能缓解情绪反应；明说“我在帮你”有时反而无效，甚至让人更难受，因为它提醒了对方自己需要帮助。",
+          "evidence": [
+            {"title": "Bolger & Amarel (2007), Invisible support and adjustment to stress", "url": "https://europepmc.org/article/MED/17352603", "quote": "Invisible support and adjustment to stress"},
+            {"title": "APA PsycNET 记录（DOI: 10.1037/0022-3514.92.3.458）", "url": "https://doi.org/10.1037/0022-3514.92.3.458", "quote": "Invisible support and adjustment to stress"}
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "f1 的三分法源自 House(1981) 一系的支持分类，属通行框架。",
+        "f6 的“被过度照顾者恢复更慢”有心脏病人过度保护研究支持，但多为小样本旧研究，强度不宜夸大。",
+        "f12 的“之所以无效”是绝对化表述，属临床与沟通共识，未见单一实证研究直接检验。"
+      ],
+      "summary": "两条需改：f2 把“三类不可替代”挂在 Cohen & Wills(1985) 名下属归属错误；f7 把可见支持的效果说反，原研究结论是不被察觉的支持更有效。"
+    },
+    {
+      "id": "w1-psych-trust",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "medium"},
+        {"id": "f5", "verdict": "supported", "confidence": "medium"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "supported", "confidence": "medium"},
+        {"id": "f9", "verdict": "supported", "confidence": "medium"},
+        {"id": "f10", "verdict": "imprecise", "confidence": "medium", "issue": "issue-01"},
+        {"id": "f11", "verdict": "supported", "confidence": "medium"},
+        {"id": "f12", "verdict": "supported", "confidence": "medium"}
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f10",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "研究提示，频繁查看伴侣的社交与行程，会降低双方的关系满意度，也让监控的人更焦虑。",
+          "problem": "把相关写成确定的因果，且效应被放大。Métellus 等(2025) 的纵向研究里，电子伴侣监控与稍后关系满意度的相关约为 −0.12，属弱相关；原文“会降低双方的关系满意度”语气过强。",
+          "correction": "监控看起来像是在求证，实际上常常在制造证据。研究提示，频繁查看伴侣的社交与行程，与关系满意度下降和监控者焦虑升高相关；它换来的确定很短暂，因为它永远无法给出完整的答案。",
+          "evidence": [
+            {"title": "Métellus et al. (2025), Attachment Anxiety and Relationship Satisfaction in the Digital Era", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12445260/", "quote": "Electronic partner surveillance (T1) … Relationship satisfaction (T3) | −0.12*"}
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "f1 Rempel, Holmes & Zanna(1985) 的三维是 predictability、dependability、faith。",
+        "f3 的前提是“被发现的欺骗”，与一般不可信行为不同；原文这一层没有丢。",
+        "f4、f5、f9 属临床与依恋研究的通行表述，本批未逐条对应单一研究。"
+      ],
+      "summary": "核心研究（Rempel 1985、Mayer 1995、Schweitzer 2006、Finkel 2002）均可核对；仅 f10 把相关写成因果，建议降调。"
+    },
+    {
+      "id": "world-geo-mekong",
+      "status": "verified",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "medium"},
+        {"id": "f5", "verdict": "supported", "confidence": "medium"},
+        {"id": "f6", "verdict": "supported", "confidence": "medium"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "supported", "confidence": "medium"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "supported", "confidence": "medium"},
+        {"id": "f11", "verdict": "supported", "confidence": "high"}
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "f1 长度有 4,350 km（湄公河委员会口径）与 4,880 km（中国官方澜湄合作页面口径）两种说法，原文取前者可接受；流域面积 795,000 km² 一致。",
+        "f3 洞里萨湖面积各来源略有差异（旱季 2,500—3,500 km²、雨季 14,500—16,000 km²），原文“一万平方公里以上”留了余量。",
+        "f5 三角洲总面积约 5.5 万 km² 含柬埔寨部分，越南境内约 3.9 万 km²。"
+      ],
+      "summary": "长度、流域、洞里萨湖倒灌、1995 年湄公河委员会与 2020 年咸潮等关键数字均有可追溯来源，未见需改之处。"
+    },
+    {
+      "id": "w1-cn-history-bronze-ritual",
+      "status": "verified",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "medium"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "medium"},
+        {"id": "f6", "verdict": "supported", "confidence": "medium"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "supported", "confidence": "medium"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "supported", "confidence": "medium"},
+        {"id": "f11", "verdict": "supported", "confidence": "high"}
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "f3 九鼎八簋的文献依据常引《公羊传》桓公二年何休注，原文笼统作“《周礼》等文献”，可接受但不精确。",
+        "f4 毛公鼎 497 字、大盂鼎 291 字，引自杜迺松《中国青铜器发展史》。",
+        "f11 中国国家博物馆的表述是“目前已知中国古代最重的青铜器”，原文作“最重的商代青铜器”更强，但成立。"
+      ],
+      "summary": "铸铜工艺、曾侯乙墓九鼎八簋、毛公鼎与大盂鼎字数、失蜡法、编钟与后母戊鼎重量等关键断言均有来源支撑。"
+    },
+    {
+      "id": "cn-history-anlushan",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "wrong", "confidence": "high", "issue": "issue-01"},
+        {"id": "f4", "verdict": "supported", "confidence": "medium"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "wrong", "confidence": "high", "issue": "issue-02"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "supported", "confidence": "medium"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "supported", "confidence": "high"},
+        {"id": "f11", "verdict": "supported", "confidence": "medium"},
+        {"id": "f12", "verdict": "supported", "confidence": "medium"}
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f3",
+          "severity": "major",
+          "verdict": "wrong",
+          "claim": "天宝年间又更名“彍骑”。",
+          "problem": "年份错。“长从宿卫”改称“彍骑”在开元年间：一说开元十二年（明年），《新唐书·兵志》一系作开元十三年（725），总之不是天宝年间（742 年起）。",
+          "correction": "开元十一年（723），唐玄宗采纳张说建议，招募壮士充任宿卫，称为“长从宿卫”；次年即改称“彍骑”（一说开元十三年），并不是天宝年间。职业兵提高了战斗力，也把军费变成了长期财政负担。",
+          "evidence": [
+            {"title": "《新刊唐荆川先生稗编》引《新唐书·兵志》", "url": "https://www.shidianguji.com/zh/mid-page/7666575132420685870", "quote": "十一年……號長從宿衛……明年，更號曰彍騎。"},
+            {"title": "《读礼疑图》卷五", "url": "https://www.shidianguji.com/zh/mid-page/7656185061663064091", "quote": "十三年，更命長從宿衛曰彍騎，分隸十二衛。"}
+          ]
+        },
+        {
+          "id": "issue-02",
+          "factId": "f6",
+          "severity": "major",
+          "verdict": "wrong",
+          "claim": "叛军沿河北南下，次年攻占洛阳，安禄山自称大燕皇帝。",
+          "problem": "“次年攻占洛阳”年份错。洛阳（东京）在天宝十四载十二月丁酉已被攻陷；安禄山是次年正月初一才在洛阳称帝，原文把攻城与称帝并到了次年。",
+          "correction": "天宝十四载（755）十一月，安禄山以“奉密诏讨杨国忠”为名在范阳起兵。叛军沿河北南下，同年十二月攻占洛阳，次年正月安禄山自称大燕皇帝；唐朝这才发现，边军调转枪口只需要几个月。",
+          "evidence": [
+            {"title": "《资治通鉴考异》卷十四", "url": "https://zh.wikisource.org/zh-hans/資治通鑑考異/卷14", "quote": "十二月庚寅，禄山陷陈留……丁酉，陷东京。"},
+            {"title": "百度百科“安史之乱”", "url": "https://baike.baidu.com/item/安史之乱/131840", "quote": "安禄山于同年十二月十二日就攻入洛阳……天宝十五年正月初一，安禄山在洛阳称大燕皇帝。"}
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "f1 边兵 49 万余、全国约 60 万，分别见天宝元年十节度使条与《读礼疑图》“通率为兵六十万”。",
+        "f5 安禄山三镇兵“约十五万”是常见实指，另有 18.39 万的编制数；原文取十五万可接受。",
+        "f10 《通典》天宝十四载 891.479 万户、乾元三年 193.3134 万户，与“约九百万降至约两百万”相符。"
+      ],
+      "summary": "除 f3 把“彍骑”改名错置到天宝年间外，军事布局、安禄山起兵、马嵬与灵武、两税法与户口数据均可核对。"
+    },
+    {
+      "id": "w2-geo-world-rivers-danube",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "imprecise", "confidence": "high", "issue": "issue-01"},
+        {"id": "f3", "verdict": "supported", "confidence": "medium"},
+        {"id": "f4", "verdict": "supported", "confidence": "medium"},
+        {"id": "f5", "verdict": "imprecise", "confidence": "high", "issue": "issue-02"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "medium"},
+        {"id": "f8", "verdict": "supported", "confidence": "medium"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "supported", "confidence": "medium"},
+        {"id": "f11", "verdict": "supported", "confidence": "medium"},
+        {"id": "f12", "verdict": "supported", "confidence": "medium"}
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f2",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "下游在罗马尼亚与保加利亚之间再次束窄。",
+          "problem": "位置放错了。多瑙河再次束窄是在塞尔维亚与罗马尼亚之间的铁门峡谷；罗马尼亚—保加利亚之间的下游河段反而宽阔。",
+          "correction": "多瑙河上游穿过山地，中游进入匈牙利平原，在进入下游平原前再次被峡谷束窄，最后散开成三角洲。同一条河，在不同河段有完全不同的坡度、流速和泥沙行为。",
+          "evidence": [
+            {"title": "Local Communities and Management of The Djerdap Protected Area in Serbia", "url": "https://www.taylorfrancis.com/chapters/edit/10.4324/9780203076989-17/local-communities-management-djerdap-protected-area-serbia-biljana-macura-dragana-bojovi%C4%87-ivana-petri%C4%87-nada-%C4%87osi%C4%87-miroslav-tadi%C4%87-ivan-jari%C4%87-jelena-knezevi%C4%87-jovanka-%C5%A1piri%C4%87-milo%C5%A1-jari%C4%87", "quote": "the Iron Gate Dam ... was built on the border of Serbia ... and Romania"}
+          ]
+        },
+        {
+          "id": "issue-02",
+          "factId": "f5",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "十九世纪起，人们在这里开凿航道、修建水坝，航运才得以连续。",
+          "problem": "把两件事压在同一时段。铁门航道整治确在十九世纪末，但两座大型水坝（铁门一号、二号）分别建成于 1972 年与 1984 年，属二十世纪。",
+          "correction": "铁门峡谷是上下游之间的瓶颈：喀尔巴阡山南缘的硬岩在这里夹住河道，落差集中，水流湍急。十九世纪起人们在这里开凿航道，两座大型水坝则是在二十世纪七十年代以后才建成，航运才得以连续。",
+          "evidence": [
+            {"title": "Iron Gates state of play of fish migration in Romania", "url": "https://waterquality.danube-region.eu/wp-content/uploads/sites/13/sites/13/2024/05/5.-Constantin_-Iron-Gates-–-state-of-play-for-fishpass-design-from-Romanian-viewpoint.pdf", "quote": "Iron Gate I ... start in the 60 and finished in 1972"}
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "f1 长度常作 2,850—2,857 km、流域约 81.7 万 km²，原文“约两千八百五十”“约八十万”均为合理约数。",
+        "f9 1994 年《多瑙河保护公约》、1998 年 ICPDR 开始运作，与原文一致。",
+        "f10 “二〇〇〇年前后”涵盖 2002、2006 等几次大洪水，表述可接受。"
+      ],
+      "summary": "总体可靠；两处需改：f2 把第二次束窄错放在罗保之间（应为铁门峡谷），f5 把 1970 年代的水坝并进“十九世纪起”。"
+    },
+    {
+      "id": "w2-cn-history-tang-fubing",
+      "status": "verified",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "medium"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "medium"},
+        {"id": "f7", "verdict": "supported", "confidence": "medium"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "supported", "confidence": "medium"},
+        {"id": "f11", "verdict": "supported", "confidence": "high"},
+        {"id": "f12", "verdict": "supported", "confidence": "medium"}
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "f2 原文“于六户中等以上，家有三丁者，选材力一人，免其身租庸调”，与拣点之法“财均者取强，力均者取富，财力又均先取多丁”均见《唐律疏议》一系记载。",
+        "f4 清单见《新唐书》卷五〇《兵志》：“人具弓一，矢三十，胡禄、横刀、砺石、大觿、毡帽、毡装、行縢皆一，麦饭九斗，米二斗，皆自备。”",
+        "f9 张说募长从宿卫在开元十一年，改称彍骑在开元十三年（725），原文只说“后来改名”，未系错年份。"
+      ],
+      "summary": "拣点标准、自备甲仗清单、折冲都尉与果毅都尉、番上与募兵替代等关键制度细节均有正史或律疏依据，未见需改之处。"
+    }
+  ]
+}

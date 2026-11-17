@@ -1,0 +1,271 @@
+{
+  "batch": "batch-04",
+  "checkedAt": "2026-11-18T02:32:00+08:00",
+  "dossiers": [
+    {
+      "id": "w3-wh-revolutions-american-revolution",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "supported", "confidence": "high"},
+        {"id": "f11", "verdict": "supported", "confidence": "high"},
+        {"id": "f12", "verdict": "imprecise", "confidence": "high", "issue": "issue-01"}
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f12",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "第一届国会通过十条修正案，1791年生效",
+          "problem": "数字与流程不准：1789年第一届国会提出的是十二条修正案，1791年12月15日获批的是其中十条（第三至第十二条），不是“通过十条”。",
+          "correction": "宪法批准后，第一届国会提出十二条修正案，其中十条在1791年获批生效，即权利法案。它限制联邦政府的权力，却没有触及各州的奴隶制；谁算“人民”，仍由各州法律按财产与身份界定。",
+          "evidence": [
+            {"title": "Library of Congress — Bill of Rights: Introduction", "url": "https://guides.loc.gov/bill-of-rights/introduction", "quote": "First Federal Congress proposed twelve amendments; Articles three through twelve—known as the Bill of Rights—were ratified ... December 15, 1791"}
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "Bailyn 1967、Wood 1992 只给作者与年份，未给版次页码；条约、国会记录类断言改用 LOC/NARA 页面核对。"
+      ],
+      "summary": "十二项事实均可追溯到一手文献或机构页面，唯一问题是权利法案的条数与批准年份被压缩成一句话。"
+    },
+    {
+      "id": "w4-wh-wars-versailles",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "imprecise", "confidence": "high", "issue": "issue-01"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "supported", "confidence": "high"},
+        {"id": "f11", "verdict": "supported", "confidence": "high"},
+        {"id": "f12", "verdict": "supported", "confidence": "high"}
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f1",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "1919年1月18日，巴黎和会开幕……地点经过挑选：四十八年前，德意志帝国正是在凡尔赛宫的镜厅宣告成立",
+          "problem": "日期与“相隔四十八年”都对，但开幕地点错：和会 1919年1月18日在法国外交部钟厅（Quai d'Orsay）开幕，凡尔赛宫镜厅是 1871 年帝国宣告成立与 1919 年 6 月签约的地点。",
+          "correction": "1919年1月18日，巴黎和会在法国外交部钟厅开幕。日期经过挑选：四十八年前，德意志帝国正是在凡尔赛宫的镜厅宣告成立，签约仪式后来也设在那里。这个安排本身就是一种宣示。",
+          "evidence": [
+            {"title": "Sénat — 20 janvier 1919, le « banquet Wilson »", "url": "https://www.senat.fr/connaitre-le-senat/lhistoire-du-senat/20-janvier-1919-le-banquet-wilson.html", "quote": "Cette conférence, ouverte deux jours plus tôt, le samedi 18 janvier 1919, dans le salon de l’Horloge du ministère des Affaires étrangères, quai d’Orsay"},
+            {"title": "Library of Congress — Peace conference (1919 Jan. 18)", "url": "https://www.loc.gov/item/2014708458/", "quote": "meeting in the Salon de l'Horloge (Clock room), Quai d'Orsay, French Ministry of Foreign Affairs ... January 18, 1919"}
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "凯恩斯《和约的经济后果》未给版本页码；赔款表与洛桑会议改用 FRUS 与 RTE 报道核对。",
+        "“背后捅刀”传说一条为史学共识（无档案支撑），未找到相反证据。"
+      ],
+      "summary": "赔款、领土、军事条款与各国反应均可核实，仅开幕地点被误挂到凡尔赛宫。"
+    },
+    {
+      "id": "psych-investment",
+      "status": "verified",
+      "confidence": "medium",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "medium"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "medium"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "medium"},
+        {"id": "f8", "verdict": "supported", "confidence": "medium"},
+        {"id": "f9", "verdict": "supported", "confidence": "medium"},
+        {"id": "f10", "verdict": "supported", "confidence": "medium"},
+        {"id": "f11", "verdict": "supported", "confidence": "high"},
+        {"id": "f12", "verdict": "supported", "confidence": "medium"}
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "Le & Agnew 2003 卷期已核（Personal Relationships 10(1):37-57），元分析 52 项研究、满意度 r=.65、投资 r=.53、替代 r=-.43。",
+        "Rusbult 1980 与 1998 量表条目均未给卷期页码，已用出版社与期刊记录补核。"
+      ],
+      "summary": "模型来源、三变量、元分析与量表均可核实，属于有实证支持的综述性表述。"
+    },
+    {
+      "id": "world-history-translation",
+      "status": "verified",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "medium"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "medium"},
+        {"id": "f10", "verdict": "supported", "confidence": "high"},
+        {"id": "f11", "verdict": "supported", "confidence": "high"}
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "萨顿《科学史导论》为多卷本，条目未给卷次页码；托莱多星表一条用其英译原文核对。",
+        "伯内特《中世纪的阿拉伯语到拉丁语翻译》未给版次。"
+      ],
+      "summary": "人物、年代、译本数量与概念转写均有独立来源支撑，未发现反证。"
+    },
+    {
+      "id": "cn-myth-shanhaijing",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "imprecise", "confidence": "high", "issue": "issue-01"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "medium"},
+        {"id": "f10", "verdict": "supported", "confidence": "medium"},
+        {"id": "f11", "verdict": "supported", "confidence": "high"},
+        {"id": "f12", "verdict": "supported", "confidence": "high"}
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f7",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "《大荒北经》说它……吹气为冬，呼气为夏",
+          "problem": "章节归属混淆：「身长千里、视为昼瞑为夜、不食不寝不息」出《大荒北经》，但「吹为冬，呼为夏」出《海外北经》烛阴条，原句把两章合并挂在《大荒北经》。",
+          "correction": "烛龙是《山海经》里最像宇宙机制的神兽。《大荒北经》说它人面蛇身而赤，身长千里，闭眼为夜，睁眼为昼，不食不寝不息；《海外北经》说它吹气为冬，呼气为夏，是昼夜与季节的人格化。",
+          "evidence": [
+            {"title": "维基文库《山海经（四库全书本）》卷八·海外北经", "url": "https://zh.wikisource.org/zh-hans/%E5%B1%B1%E6%B5%B7%E7%B6%93_(%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E6%9C%AC)/%E5%8D%B708", "quote": "锺山之神名曰烛阴……视为昼暝为夜吹为冬呼为夏不饮不食不息息为风身长千里"},
+            {"title": "现代快报《烛龙是什么》", "url": "http://odz.xdkb.net//html/2014-09/01/content_358945.htm", "quote": "《山海经·大荒北经》：……其瞑乃晦，其视乃明，不食不寝不息，风雨是谒。是烛九阴，是烛龙。"}
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "袁珂《山海经校注》未给版次页码；引文改用四库本与中华书局方韬译本核对。",
+        "“鹏鸟可能是鲸或大型海鸟”属转述学界比附，鲲鹏出自《庄子》，非《山海经》本文，建议后续在正文中区分。"
+      ],
+      "summary": "卷数、字数、九尾狐、饕餮、图赞与巫书说均可核实，仅烛龙一条把两章原文合并。"
+    },
+    {
+      "id": "w1-cn-history-gaochang-oasis",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "imprecise", "confidence": "high", "issue": "issue-01"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "medium"},
+        {"id": "f6", "verdict": "supported", "confidence": "medium"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "supported", "confidence": "high"},
+        {"id": "f11", "verdict": "supported", "confidence": "high"}
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f2",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "阿斯塔那古墓群出土数万件晋唐文书",
+          "problem": "数量夸大：阿斯塔那 1959—1975 年发掘出土文书约 2700 余件（近万片残纸缀合约 1800 件），全墓地出土文物总数才“上万件”，不是“数万件文书”。",
+          "correction": "阿斯塔那古墓群出土数千件晋唐文书，包括户籍、田亩帐、租佃契、借贷契、差科簿、随葬衣物疏，学界统称“吐鲁番文书”。它们不是史官写的，而是普通人办事留下的纸，因此格外具体。",
+          "evidence": [
+            {"title": "故宫博物院 —“吐鲁番出土文书再整理与研究”项目立项纪实", "url": "https://www.dpm.org.cn/learing_detail/246287.html", "quote": "对其中1959至1975年吐鲁番阿斯塔那和哈拉合卓中古墓葬出土的近万片文书残纸进行整理，缀合约1800件较为完整的晋唐官私文书"},
+            {"title": "国家文物局 — 新疆吐鲁番阿斯塔那古墓群", "url": "http://www.ncha.gov.cn/art/2022/3/18/art_2591_50.html", "quote": "出土以文书、墓志、丝织品为代表的文物上万件"}
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "《吐鲁番出土文书》未给册次；文书性质与数量用故宫博物院项目说明、国家文物局页面核对。",
+        "姜伯勤、荣新江两种著作未给版次，粟特聚落与银钱部分改用期刊论文核对。"
+      ],
+      "summary": "高昌郡设立、麴氏纪年、西州建置与水权、契约、货币诸条均可核实，仅文书数量被夸大一个量级。"
+    },
+    {
+      "id": "w2-geo-cn-transport-shudao",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "imprecise", "confidence": "high", "issue": "issue-01"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "medium"},
+        {"id": "f10", "verdict": "supported", "confidence": "medium"},
+        {"id": "f11", "verdict": "supported", "confidence": "high"},
+        {"id": "f12", "verdict": "supported", "confidence": "medium"}
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f5",
+          "severity": "major",
+          "verdict": "imprecise",
+          "claim": "岩层向北倾斜，形成一道刀削般的单斜山脊",
+          "problem": "倾向写反：剑门关砾岩岩层向东南呈不均匀倾斜，因而北坡陡成断崖、南坡渐缓；若向北倾斜则北坡应为缓坡，与“北陡南缓”自相矛盾。",
+          "correction": "剑门关一带出露厚层砾岩，岩层向东南倾斜，北坡陡成断崖、南坡渐缓，形成一道刀削般的单斜山脊，中间只有一处天然缺口。关城就卡在这个缺口上，两侧崖壁无法攀援，守军只需对付正面。",
+          "evidence": [
+            {"title": "剑门关景区科普《剑门关是怎样形成的》", "url": "http://mp.weixin.qq.com/s?__biz=MzA4ODI2MjUxOA==&mid=2651151167&idx=4&sn=d0aa33b7c668643063b64d82e0ea95b0", "quote": "形成北陡南缓的单斜山，北坡坡度几近90度……岩层向东南呈不均匀倾斜，北坡陡峭，南坡渐缓"},
+            {"title": "《剑门关地质遗迹景观特征与成因研究》（成都理工大学学报）", "url": "https://www.cnki.com.cn/Article/CJFDTOTAL-CDLG200805023.htm", "quote": "剑门关丹霞地貌是中国西部单斜中低山区砾岩丹霞地貌……的典型代表"}
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "严耕望《唐代交通图考》第三卷（1985）书名已核，未逐页核对驿程；唐代三十里一驿、栈道形制用论文与地方志页面补充。",
+        "f12 中子午道、傥骆道的“最直/最短”属概括说法，来源只支持“距长安最近、长而险”与“里程最短、绝水距离长”。"
+      ],
+      "summary": "秦岭地貌、褒斜与金牛道路线、栈道工艺、石牛传说与近现代交通线均可核实，仅剑门关岩层倾向写反。"
+    },
+    {
+      "id": "w3-cn-history-yuan-xingsheng",
+      "status": "verified",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "supported", "confidence": "high"},
+        {"id": "f11", "verdict": "supported", "confidence": "high"}
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "《元史》百官志、地理志未给中华书局点校本页码；行省数目与名称用《元史·地理志》系统与通史叙述对照。",
+        "李治安《元代行省制度》（中华书局 2011）书名已核，未逐章引用。"
+      ],
+      "summary": "行省起源、十行省与腹里格局、达鲁花赤、监察系统与元末军阀化均可核实，未发现反证。"
+    }
+  ]
+}

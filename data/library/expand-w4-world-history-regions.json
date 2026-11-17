@@ -172,7 +172,16 @@
         "Thomas Pakenham, The Scramble for Africa, 1991。",
         "H. L. Wesseling, Divide and Rule: The Partition of Africa, 1996。",
         "General Act of the Berlin Conference, 1885（条约文本）。"
-      ]
+      ],
+      "factCheck": {
+        "status": "verified",
+        "confidence": "high",
+        "batch": "batch-20",
+        "checkedAt": "2026-11-18T02:42:00+08:00",
+        "issueCount": 0,
+        "appliedAt": "2026-11-17T18:46:28.267Z",
+        "summary": "柏林会议的会期、与会国、议题、有效占领原则及其后续影响均与史料相符，未发现需要修正之处。"
+      }
     },
     {
       "id": "w4-wh-regions-congo-free-state",
@@ -196,7 +205,7 @@
       "facts": [
         {
           "id": "f1",
-          "text": "1885年，柏林会议承认利奥波德二世以“国际非洲协会”名义占有的刚果盆地为“刚果自由邦”。它不属于比利时国家，而是国王的私人财产；他自任元首，任命总督，收入归他支配。"
+          "text": "1885年，柏林会议承认利奥波德二世以“国际刚果协会”名义占有的刚果盆地为“刚果自由邦”。它不属于比利时国家，而是国王的私人财产；他自任元首，任命总督，收入归他支配。"
         },
         {
           "id": "f2",
@@ -345,7 +354,16 @@
         "Adam Hochschild, King Leopold's Ghost, 1998。",
         "Roger Casement, The Casement Report, 1904。",
         "Jan Vansina, Being Colonized: The Kuba Experience in Rural Congo, 2010。"
-      ]
+      ],
+      "factCheck": {
+        "status": "corrected",
+        "confidence": "high",
+        "batch": "batch-36",
+        "checkedAt": "2026-11-18T02:27:00+08:00",
+        "issueCount": 1,
+        "appliedAt": "2026-11-17T18:46:28.267Z",
+        "summary": "刚果自由邦的骨架——1885年柏林会议、利奥波德私人领地、1908年比利时接管、Casement、Morel 与柯南·道尔的抗议链——均可核实。需要改的是建国名义：柏林会议承认的是“国际刚果协会”，不是“国际非洲协会”。配额、断手与人口损失部分把学界争论保留在正文里，处理得当。"
+      }
     },
     {
       "id": "w4-wh-regions-noncooperation",
@@ -405,7 +423,7 @@
         },
         {
           "id": "f10",
-          "text": "穆斯林政治的组织化与国大党的关系也在变化。穆盟在1930年代提出建立独立穆斯林国家的主张，宗教代表权与联邦结构成为此后二十年最难的谈判题目。"
+          "text": "穆斯林政治的组织化与国大党的关系也在变化。1930年伊克巴尔提出在西北印度建立穆斯林家园；1940年穆盟在拉合尔决议中正式要求建立独立的穆斯林国家，宗教代表权与联邦结构成为此后谈判中最难的题目。"
         },
         {
           "id": "f11",
@@ -518,7 +536,16 @@
         "Judith M. Brown, Gandhi: Prisoner of Hope, 1989。",
         "Ramachandra Guha, Gandhi Before India, 2013。",
         "B. R. Ambedkar, What Congress and Gandhi Have Done to the Untouchables, 1945。"
-      ]
+      ],
+      "factCheck": {
+        "status": "corrected",
+        "confidence": "high",
+        "batch": "batch-55",
+        "checkedAt": "2026-11-18T02:58:00+08:00",
+        "issueCount": 1,
+        "appliedAt": "2026-11-17T18:46:28.267Z",
+        "summary": "不合作运动的进程、数字与甘地的策略大体准确；把穆盟的建国主张系于 1930 年代属时间错置，拉合尔决议在 1940 年，已修正。"
+      }
     },
     {
       "id": "w4-wh-regions-partition",
@@ -546,7 +573,7 @@
         },
         {
           "id": "f2",
-          "text": "边界委员会由英国律师西里尔·拉德克利夫主持，成员包括印度与巴基斯坦的法官。委员会在五周内划出旁遮普与孟加拉的界线，依据是1941年人口普查、地籍图与教派比例；拉德克利夫本人在公布前从未到过印度。"
+          "text": "边界委员会由英国律师拉德克利夫主持，成员含印巴两国法官；委员会依据1941年人口普查与教派比例，在五周内划出旁遮普与孟加拉界线。拉德克利夫此前从未到过印度，1947年7月8日才抵达。"
         },
         {
           "id": "f3",
@@ -691,7 +718,16 @@
         "Yasmin Khan, The Great Partition, 2007。",
         "Urvashi Butalia, The Other Side of Silence, 2000。",
         "Vazira Zamindar, The Long Partition, 2007。"
-      ]
+      ],
+      "factCheck": {
+        "status": "corrected",
+        "confidence": "high",
+        "batch": "batch-44",
+        "checkedAt": "2026-11-17T18:32:06.665Z",
+        "issueCount": 1,
+        "appliedAt": "2026-11-17T18:46:28.267Z",
+        "summary": "分治的骨架——8月14/15日独立、蒙巴顿方案、五周划界、1200万—1500万迁徙、20万—200万死亡、土邦并入与第一次印巴战争——均可核实。唯一硬错是拉德克利夫的到印时间：他7月8日已到印度，此前从未到过次大陆。"
+      }
     },
     {
       "id": "w4-wh-regions-apartheid",
@@ -739,7 +775,7 @@
         },
         {
           "id": "f7",
-          "text": "班图斯坦政策把黑人的“国籍”迁到若干保留地。1970年代，特兰斯凯等四个班图斯坦被宣布“独立”，其居民在法律上成为外国人，失去南非公民权；国际社会普遍不承认这些“国家”。"
+          "text": "班图斯坦政策把黑人的“国籍”迁到保留地。1976年起，特兰斯凯、博普塔茨瓦纳、文达、西斯凯相继被宣布“独立”，最后一个在1981年；居民在法律上成为外国人，失去南非公民权，国际社会普遍不承认这些“国家”。"
         },
         {
           "id": "f8",
@@ -864,7 +900,16 @@
         "Leonard Thompson, A History of South Africa, 2001。",
         "Deborah Posel, The Making of Apartheid 1948-1961, 1991。",
         "Nelson Mandela, Long Walk to Freedom, 1994。"
-      ]
+      ],
+      "factCheck": {
+        "status": "corrected",
+        "confidence": "high",
+        "batch": "batch-18",
+        "checkedAt": "2026-11-18T02:58:00+08:00",
+        "issueCount": 1,
+        "appliedAt": "2026-11-17T18:46:28.267Z",
+        "summary": "12条中11条可用官方与学术来源支撑，仅班图斯坦“独立”的年份范围需要收紧到1976–1981。"
+      }
     },
     {
       "id": "w4-wh-regions-peronism",
@@ -1037,7 +1082,16 @@
         "Daniel James, Resistance and Integration: Peronism and the Argentine Working Class, 1988。",
         "Mariano Plotkin, Mañana es San Perón, 1993。",
         "James Brennan (ed.), Peronism and Argentina, 1998。"
-      ]
+      ],
+      "factCheck": {
+        "status": "verified",
+        "confidence": "high",
+        "batch": "batch-32",
+        "checkedAt": "2026-11-18T02:41:00+08:00",
+        "issueCount": 0,
+        "appliedAt": "2026-11-17T18:46:28.267Z",
+        "summary": "庇隆主义专题十二条均可核实：1943年军官政变与庇隆的劳工职位、1945年10月17日忠诚日、1946年就职、1947年第13.010号妇女选举权法、1949年宪法改革、1955年九月革命与十八年禁选、1973年回归、1976年政变与“肮脏战争”约三万人失踪，时间线与因果链均与主流叙述一致。"
+      }
     },
     {
       "id": "w4-wh-regions-brazil-military",
@@ -1065,11 +1119,11 @@
         },
         {
           "id": "f2",
-          "text": "军政府用一系列制度法令改造政治：1965年取消原有政党，建立亲政府的全国革新联盟与反对党巴西民主运动；总统由国会间接选举，州长与市长也多由任命或间接产生。"
+          "text": "军政府用一系列制度法令改造政治：1965年取消原有政党，建立亲政府的全国革新联盟与反对党巴西民主运动；总统由国会间接选举，州长改由间接选举，首府等少数城市的市长则由任命产生。"
         },
         {
           "id": "f3",
-          "text": "1968到1973年是所谓“经济奇迹”：国内生产总值年均增长接近百分之十，钢铁、汽车、石化与耐用消费品扩张，中产阶级的消费能力上升，城市里出现大规模基建与新住宅区。"
+          "text": "1968到1973年是所谓“经济奇迹”：国内生产总值年均增长超过百分之十，钢铁、汽车、石化与耐用消费品扩张，中产阶级的消费能力上升，城市里出现大规模基建与新住宅区。"
         },
         {
           "id": "f4",
@@ -1210,7 +1264,16 @@
         "Thomas Skidmore, The Politics of Military Rule in Brazil, 1988。",
         "Boris Fausto, A Concise History of Brazil, 1999。",
         "Comissão Nacional da Verdade, Relatório, 2014。"
-      ]
+      ],
+      "factCheck": {
+        "status": "corrected",
+        "confidence": "high",
+        "batch": "batch-05",
+        "checkedAt": "2026-11-18T02:18:00+08:00",
+        "issueCount": 2,
+        "appliedAt": "2026-11-17T18:46:28.267Z",
+        "summary": "军政府政治制度、经济奇迹、镇压与债务危机的叙述基本可靠，仅制度细节与增长率表述各需一处修正。"
+      }
     },
     {
       "id": "w4-wh-regions-mexican-revolution",
@@ -1383,7 +1446,16 @@
         "Alan Knight, The Mexican Revolution, 1986。",
         "John Womack, Zapata and the Mexican Revolution, 1969。",
         "Enrique Krauze, Mexico: Biography of Power, 1997。"
-      ]
+      ],
+      "factCheck": {
+        "status": "verified",
+        "confidence": "high",
+        "batch": "batch-06",
+        "checkedAt": "2026-11-18T02:38:00+08:00",
+        "issueCount": 0,
+        "appliedAt": "2026-11-17T18:46:28.267Z",
+        "summary": "十二条均能由革命通史、计划文本与1917年宪法条文支撑；迪亚斯任期间断与政党改名细节可在注释中说明。"
+      }
     },
     {
       "id": "w4-wh-regions-cuban-revolution",
@@ -1556,7 +1628,16 @@
         "Richard Gott, Cuba: A New History, 2004。",
         "Ada Ferrer, Cuba: An American History, 2021。",
         "Jorge Domínguez, Cuba: Order and Revolution, 1978。"
-      ]
+      ],
+      "factCheck": {
+        "status": "verified",
+        "confidence": "high",
+        "batch": "batch-19",
+        "checkedAt": "2026-11-18T02:32:00+08:00",
+        "issueCount": 0,
+        "appliedAt": "2026-11-17T18:46:28.267Z",
+        "summary": "12条均可核实：蒙卡达、格拉玛号、土地改革、糖配额、吉隆滩、导弹危机与特殊时期的时间与数字与史料一致；导弹危机一条按“古巴未获正式安全保障”判为可用。"
+      }
     }
   ]
 }

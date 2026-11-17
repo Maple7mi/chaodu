@@ -1,0 +1,678 @@
+{
+  "batch": "batch-12",
+  "checkedAt": "2026-11-18T02:13:15+08:00",
+  "dossiers": [
+    {
+      "id": "psych-breakup",
+      "status": "corrected",
+      "confidence": "medium",
+      "facts": [
+        {
+          "id": "f1",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f2",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f3",
+          "verdict": "supported",
+          "confidence": "medium"
+        },
+        {
+          "id": "f4",
+          "verdict": "supported",
+          "confidence": "medium"
+        },
+        {
+          "id": "f5",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f6",
+          "verdict": "imprecise",
+          "confidence": "medium",
+          "issue": "issue-01"
+        },
+        {
+          "id": "f7",
+          "verdict": "unsupported",
+          "confidence": "medium",
+          "issue": "issue-02"
+        },
+        {
+          "id": "f8",
+          "verdict": "supported",
+          "confidence": "low"
+        },
+        {
+          "id": "f9",
+          "verdict": "supported",
+          "confidence": "medium"
+        },
+        {
+          "id": "f10",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f11",
+          "verdict": "supported",
+          "confidence": "low"
+        }
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f6",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "研究提示，持续查看前任动态与更强的思念、更慢的恢复相关；这不是意志力问题，而是每次查看都在重新激活同一套奖赏回路。",
+          "problem": "持续查看前任动态与思念、恢复较差的相关性有研究支持，但“每次查看都在重新激活同一套奖赏回路”是推测机制：原研究测量的是自我报告与恢复指标，并未同步扫描奖赏回路，因果表述过强。",
+          "correction": "社交媒体延长了分手的可见性。研究提示，持续查看前任动态与更强的思念、更慢的恢复相关；这更像反复被触发的渴求，而不是单纯的意志力问题。",
+          "evidence": [
+            {
+              "title": "Facebook surveillance of former romantic partners: associations with postbreakup recovery and personal growth",
+              "url": "https://doi.org/10.1089/cyber.2012.0125",
+              "quote": "Facebook surveillance was associated with greater breakup-related distress, more negative feelings, greater longing for the former partner, and lower levels of personal growth."
+            },
+            {
+              "title": "REF 2021 impact case study: recovery from relationship breakdown",
+              "url": "https://results2021.ref.ac.uk/impact/6c361fc3-99c5-4ae3-a048-2b15e5ca58ec/pdf",
+              "quote": "Facebook surveillance was associated with greater breakup-related distress, more negative feelings, greater longing for the former partner, and lower levels of personal growth."
+            }
+          ]
+        },
+        {
+          "id": "issue-02",
+          "factId": "f7",
+          "severity": "minor",
+          "verdict": "unsupported",
+          "claim": "研究观察到，社交圈重叠越多，分手后接触越难避免，恢复也越容易被拖慢；这不是要求朋友选边，而是需要重新划定信息边界。",
+          "problem": "没有可靠研究直接检验“社交圈重叠越多、接触越难避免、恢复越慢”这条完整链条；现有综述指出，分手后接触与恢复的关系是条件性的，取决于对分离的接受、共同义务、动机与接触形式，不能一概而论。",
+          "correction": null,
+          "evidence": [
+            {
+              "title": "Romantic Relationship Dissolution and the Possibility of Post-Breakup Friendship: A Narrative Review",
+              "url": "https://zenodo.org/records/22178937",
+              "quote": "Evidence concerning contact is conditional: acceptance of the separation, shared obligations, motives, and the form of contact matter."
+            }
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "Marshall (2012) 与 Slotter & Ward (2015) 均为相关性或日记研究，不能单独支撑强因果表述。"
+      ],
+      "summary": "神经影像与追踪研究支撑分手痛、奖赏渴求与自我概念变化的总体叙述；社媒查看的机制表述与社交圈重叠推论两处已降级。"
+    },
+    {
+      "id": "w2-myth-mesopotamia-assyria-fall",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        {
+          "id": "f1",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f2",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f3",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f4",
+          "verdict": "imprecise",
+          "confidence": "medium",
+          "issue": "issue-01"
+        },
+        {
+          "id": "f5",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f6",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f7",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f8",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f9",
+          "verdict": "imprecise",
+          "confidence": "high",
+          "issue": "issue-02"
+        },
+        {
+          "id": "f10",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f11",
+          "verdict": "supported",
+          "confidence": "medium"
+        },
+        {
+          "id": "f12",
+          "verdict": "supported",
+          "confidence": "low"
+        }
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f4",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "铭文记他牵着马尔杜克的手，把神像送回神庙，举行盛大的归位仪式。",
+          "problem": "以撒哈顿确实修复巴比伦并重造马尔杜克神像，但神像归位不是由他完成：他于 669 年去世，神像在 668 年由继位的亚述巴尼拔送回，归位仪式与沙马什-舒姆-乌金登基同时举行。原句把“重造/筹备”与“归位”合并到他一人身上。",
+          "correction": "他的儿子以撒哈顿修复巴比伦，重造马尔杜克神像，却没能亲眼看到归位；668年，神像由继位的亚述巴尼拔送回，归位仪式与巴比伦新王登基同时举行。政治和解仍须通过神的归位完成。",
+          "evidence": [
+            {
+              "title": "Marduk's Return and Reconciliation in a Prophetic Letter from Arbela",
+              "url": "https://www.degruyterbrill.com/document/doi/10.1515/9783110467765-015/pdf",
+              "quote": "The repatriation of the statue of Marduk from Assyria to Babylonia, seriously attempted by Esarhaddon and finally achieved by his son, Assurbanipal, in the year 668 BCE, is a major event in Neo-Assyrian history."
+            },
+            {
+              "title": "The Contents of the Letters and Their Political and Historical Contexts (SAA 21)",
+              "url": "https://build-oracc.museum.upenn.edu/saao/saa21/thecontentsoftheletters/index.html",
+              "quote": "Šamaš-šumu-ukin entered Babylon with the statue of Marduk and ascended the throne of Babylon only in Iyyar (II), 668. For this event, Assurbanipal played the role of his appointer and the returner of the statue."
+            }
+          ]
+        },
+        {
+          "id": "issue-02",
+          "factId": "f9",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "传统解释强调内战与过度扩张，近年的研究又加上气候：树木年轮与湖泊沉积显示，公元前七世纪末近东经历了一段干旱，可能削弱了帝国的农业基础。",
+          "problem": "关键的高分辨率气候重建来自伊拉克库纳巴洞穴的石笋，不是树木年轮或湖泊沉积；原文把证据类型说错了。该研究确实把公元前七世纪末的干旱与帝国崩溃联系起来，但结论仍是多因解释。",
+          "correction": "灭亡的原因没有定论。传统解释强调内战与过度扩张，近年的研究又加上气候：库纳巴洞穴的石笋记录显示，公元前七世纪末近东经历了一段干旱，可能削弱了帝国的农业基础。多因解释比单一解释更可靠。",
+          "evidence": [
+            {
+              "title": "Role of climate in the rise and fall of the Neo-Assyrian Empire",
+              "url": "https://par.nsf.gov/biblio/10187401",
+              "quote": "we present a high-resolution and precisely dated speleothem record of climate change from the Kuna Ba cave in northern Iraq"
+            }
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "气候研究为 Kuna Ba 洞穴石笋记录，不是树木年轮或湖泊沉积。",
+        "阿舒尔神像的下落无明确文献，f12 按“文献未载”处理。"
+      ],
+      "summary": "帝国兴衰、尼尼微陷落与文献传承基本可靠；马尔杜克归位的时间线与气候证据类型两处需修正。"
+    },
+    {
+      "id": "w2-wh-islamic-iconoclasm",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        {
+          "id": "f1",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f2",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f3",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f4",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f5",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f6",
+          "verdict": "imprecise",
+          "confidence": "high",
+          "issue": "issue-01"
+        },
+        {
+          "id": "f7",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f8",
+          "verdict": "supported",
+          "confidence": "medium"
+        },
+        {
+          "id": "f9",
+          "verdict": "supported",
+          "confidence": "medium"
+        },
+        {
+          "id": "f10",
+          "verdict": "imprecise",
+          "confidence": "high",
+          "issue": "issue-02"
+        },
+        {
+          "id": "f11",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f12",
+          "verdict": "supported",
+          "confidence": "high"
+        }
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f6",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "813年，利奥五世再次禁止圣像，第二阶段的破坏持续到843年。",
+          "problem": "利奥五世 813 年登基，但再次禁止圣像的会议在 815 年召开；813 把登基年与政策年混在一起。第二阶段破坏通常以 815 年为起点，到 843 年恢复圣像。",
+          "correction": "815年，利奥五世召开会议再次禁止圣像，第二阶段的破坏持续到843年。皇后狄奥多拉在摄政期间恢复圣像，东正教把这件事定为正教凯旋日，至今仍在四旬期第一个周日纪念。",
+          "evidence": [
+            {
+              "title": "León V el Armenio",
+              "url": "https://tesauros.cultura.gob.es/tesauros/contextosculturales/1170787.html",
+              "quote": "Restauró el Iconoclasmo y convocó en el 815 un concilio en Constantinopla"
+            }
+          ]
+        },
+        {
+          "id": "issue-02",
+          "factId": "f10",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "拜占庭在意大利中部的控制力下降，伦巴第人趁机施压，教皇转而越过阿尔卑斯山向法兰克人求援；754年丕平献土，教皇国由此形成，西部教会也摆脱了皇帝的管辖。",
+          "problem": "754 年通常指丕平与教皇结盟、许诺献土；实际把意大利中部领土交给教皇的“丕平献土”多系于 756 年。原句把许诺年当成献土年。",
+          "correction": "罗马教皇反对破坏圣像，双方关系迅速恶化。拜占庭在意大利中部的控制力下降，伦巴第人趁机施压，教皇转而越过阿尔卑斯山向法兰克人求援；756年丕平献土，教皇国由此形成，西部教会也摆脱了皇帝的管辖。",
+          "evidence": [
+            {
+              "title": "A History of the Christian Church (Cheetham)",
+              "url": "https://babel.hathitrust.org/cgi/ssd?id=hvd.ah4tk4;page=ssd;view=plaintext;seq=32;num=28",
+              "quote": "presented to the see of St. Peter the territories which became the Papal State"
+            }
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "754 年通常指丕平与教皇结盟并许诺献土，实际献土多系于 756 年。"
+      ],
+      "summary": "破坏圣像运动的脉络、神学争论与 843 年恢复基本可靠；利奥五世再禁与丕平献土两个年份需修正。"
+    },
+    {
+      "id": "w5-geo-world-dust-belt",
+      "status": "verified",
+      "confidence": "high",
+      "facts": [
+        {
+          "id": "f1",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f2",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f3",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f4",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f5",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f6",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f7",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f8",
+          "verdict": "supported",
+          "confidence": "medium"
+        },
+        {
+          "id": "f9",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f10",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f11",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f12",
+          "verdict": "supported",
+          "confidence": "high"
+        }
+      ],
+      "issues": [],
+      "sourceNotes": [],
+      "summary": "尘带来源、跨洋输送、生态与气候效应均与文献一致，未发现需改写之处。"
+    },
+    {
+      "id": "w1-geo-world-new-zealand",
+      "status": "verified",
+      "confidence": "high",
+      "facts": [
+        {
+          "id": "f1",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f2",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f3",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f4",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f5",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f6",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f7",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f8",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f9",
+          "verdict": "supported",
+          "confidence": "medium"
+        },
+        {
+          "id": "f10",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f11",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f12",
+          "verdict": "supported",
+          "confidence": "high"
+        }
+      ],
+      "issues": [],
+      "sourceNotes": [],
+      "summary": "地质、气候、生态与人文地理叙述与来源一致，未发现需改写之处。"
+    },
+    {
+      "id": "world-geo-andes",
+      "status": "verified",
+      "confidence": "high",
+      "facts": [
+        {
+          "id": "f1",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f2",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f3",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f4",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f5",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f6",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f7",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f8",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f9",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f10",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f11",
+          "verdict": "supported",
+          "confidence": "medium"
+        }
+      ],
+      "issues": [],
+      "sourceNotes": [],
+      "summary": "范围、气候、冰川、矿产与印加农业叙述均与来源一致，未发现需改写之处。"
+    },
+    {
+      "id": "w3-geo-cn-nw-solar-wind",
+      "status": "verified",
+      "confidence": "high",
+      "facts": [
+        {
+          "id": "f1",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f2",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f3",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f4",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f5",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f6",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f7",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f8",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f9",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f10",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f11",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f12",
+          "verdict": "supported",
+          "confidence": "high"
+        }
+      ],
+      "issues": [],
+      "sourceNotes": [],
+      "summary": "风光资源、基地分布、外送通道与产业瓶颈叙述一致，未发现需改写之处。"
+    },
+    {
+      "id": "w1-myth-cn-longwang",
+      "status": "verified",
+      "confidence": "high",
+      "facts": [
+        {
+          "id": "f1",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f2",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f3",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f4",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f5",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f6",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f7",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f8",
+          "verdict": "supported",
+          "confidence": "medium"
+        },
+        {
+          "id": "f9",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f10",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f11",
+          "verdict": "supported",
+          "confidence": "medium"
+        },
+        {
+          "id": "f12",
+          "verdict": "supported",
+          "confidence": "high"
+        }
+      ],
+      "issues": [],
+      "sourceNotes": [],
+      "summary": "龙王的佛教渊源、道教整合、官方祀典与文学形象叙述一致，未发现需改写之处。"
+    }
+  ]
+}

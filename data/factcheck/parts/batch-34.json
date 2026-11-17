@@ -1,0 +1,311 @@
+{
+  "batch": "batch-34",
+  "checkedAt": "2026-11-18T02:47:00+08:00",
+  "dossiers": [
+    {
+      "id": "w4-psych-group-ingroup-bias",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "medium"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "imprecise", "confidence": "medium", "issue": "issue-01"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "medium"},
+        {"id": "f10", "verdict": "supported", "confidence": "high"},
+        {"id": "f11", "verdict": "supported", "confidence": "high"},
+        {"id": "f12", "verdict": "supported", "confidence": "medium"}
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f7",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "内隐联想测验与真实行为的相关很弱，通常只有零点一到零点二",
+          "problem": "上限偏低：Oswald 等 2013 年元分析给出 r≈0.148，而 Greenwald 等 2009 年元分析给出 r≈0.236（部分子域到 0.274），常被引用的区间应是 0.15–0.24，不是 0.1–0.2。重测信度约 0.5，后半句“隔几周再测可能明显不同”成立。",
+          "correction": "内隐联想测验与真实行为的相关很弱，多项元分析估计在零点一五到零点二四之间；同一个人隔几周再测，结果也可能明显不同。用它给一个人下结论，既不准确也不公平。",
+          "evidence": [
+            {"title": "Statistically small effects of the Implicit Association Test can have societally large effects (Oswald et al., 2013 综述)", "url": "https://europepmc.org/article/MED/25402677", "quote": "Oswald, Mitchell, Blanton, Jaccard, and Tetlock (2013; OMBJT) reported a lower aggregate figure for correlations involving IAT measures (r̄ = .148)."},
+            {"title": "APA PsycNET: The IAT and predictive validity", "url": "https://psycnet.apa.org/doiLanding?doi=10.1037%2Fpspa0000016", "quote": "Oswald ... reported a lower aggregate figure for correlations involving IAT measures (r̄ = .148)."}
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "Tajfel 1971 年论文为 Tajfel, Billig, Bundy & Flament, European Journal of Social Psychology 1(2): 149–178；被试为布里斯托一所综合学校的 64 名 14–15 岁男生，原文常写作 14 and 15 岁，“十四岁男孩”是约数。",
+        "f4 的“内群爱不等于外群恨”在 Brewer 1979 的综述里已有雏形，但系统论证通常引 Brewer 1999（Journal of Social Issues 55(3): 429–444）；两条都可用，年份不算错。",
+        "f3 的“效应量不大”依据的是最小群体范式的整体偏小效应，具体估计随研究设计差异较大，未找到单一权威数值。"
+      ],
+      "summary": "塔杰菲尔最小群体实验、谢里夫罗伯斯山洞、简历回电实验与佩蒂格鲁元分析的核心数字均站得住；仅内隐联想测验的相关系数区间需要上调。"
+    },
+    {
+      "id": "w4-psych-group-stereotype-threat",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "medium"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "imprecise", "confidence": "high", "issue": "issue-01"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "supported", "confidence": "medium"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "supported", "confidence": "medium"},
+        {"id": "f11", "verdict": "supported", "confidence": "high"},
+        {"id": "f12", "verdict": "supported", "confidence": "medium"}
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f6",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "弗洛雷与维赫茨二〇一五年的元分析认为效应偏小，且可能被发表偏倚夸大",
+          "problem": "该元分析的对象是女生在数学、科学、空间测验上的表现（儿童与青少年样本），不是全部刻板印象威胁研究；原句把它当成对整个领域的总结，范围过宽，且“另一些元分析给出的估计更小”没有具体出处。",
+          "correction": "但效应到底有多大，学界仍在争论。弗洛雷与维赫茨二〇一五年针对女生数学表现的元分析认为效应偏小，且可能被发表偏倚夸大；其他元分析给出的估计也不高。",
+          "evidence": [
+            {"title": "Flore & Wicherts (2015), Does stereotype threat influence performance of girls in stereotyped domains? A meta-analysis", "url": "https://pubmed.ncbi.nlm.nih.gov/25636259/", "quote": "In this meta-analysis we estimated the effects of stereotype threat on performance of girls on math, science and spatial skills (MSSS) tests."},
+            {"title": "Shewach, Sackett & Quint (2019), stereotype threat meta-analysis", "url": "https://psycnet.apa.org/record/2019-26581-001", "quote": "We meta-analyze the effect of stereotype threat on cognitive ability tests, focusing on both laboratory and operational studies."}
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "f1 的“一半被告知是能力诊断测试”对应 Steele & Aronson 1995 研究一的诊断/非诊断两组，非诊断组差距消失的表述与研究一、二一致；f2 的 Spencer, Steele & Quinn 论文实际发表于 1999 年，“差不多同一时间”是宽泛说法。",
+        "f7 的 Shewach 等 2019 元分析确实比较了实验室与接近真实考试情境的研究，结论是后者的效应更小。",
+        "f8 的“大型预注册复制不一致”属于对复制文献的概括，未找到单一标志性多实验室项目可引。"
+      ],
+      "summary": "1995 年两项经典实验、工作记忆机制与后续元分析的方向都可靠；唯一需要收紧的是把一项针对女生的元分析说成了整个领域的结论。"
+    },
+    {
+      "id": "w2-geo-world-rivers-victoria",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "supported", "confidence": "medium"},
+        {"id": "f9", "verdict": "supported", "confidence": "medium"},
+        {"id": "f10", "verdict": "supported", "confidence": "medium"},
+        {"id": "f11", "verdict": "imprecise", "confidence": "high", "issue": "issue-01"},
+        {"id": "f12", "verdict": "supported", "confidence": "high"}
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f11",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "一条世界上最长的河，源头是一个靠雨水维持的浅盆",
+          "problem": "“世界最长河流”是尼罗河与亚马孙河之间长期未决的争议：圭尼斯等机构与英美百科仍列尼罗河，巴西方面与部分新测量则主张亚马孙河更长。科普句用无条件最高级不妥，应加“通常被称为”。",
+          "correction": "维多利亚湖的湖水最终流向地中海，但它的水源却来自赤道降雨。一条通常被称为世界最长的河，源头是一个靠雨水维持的浅盆；这个反差，正是它水文上的特别之处。",
+          "evidence": [
+            {"title": "The Nile is the world's longest river? The Amazon would like a word", "url": "https://www.stuff.co.nz/travel/news/300909501/the-nile-is-the-worlds-longest-river-the-amazon-would-like-a-word", "quote": "Guinness World Records, Britannica and the US government agree: the longest river in the world is the mighty Nile ... But in Brazil ... the Nile's standing is slightly lower."},
+            {"title": "New Quest Aims to Settle Debate Over Which River Is Longest – Amazon or Nile", "url": "https://voa.pangea-cms.com/preview/en-US/a/new-quest-aims-to-settle-debate-over-which-river-is-longest-amazon-or-nile-/7154329.html", "quote": "Which is the longest river in the world, the Nile or the Amazon? The question has fueled a heated debate for years."}
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "面积 68,800 km²、平均水深 40 m、最大水深 84 m 与 FAO 及乌干达水利部资料一致；“非洲最大湖泊”按面积成立，按蓄水量则是坦噶尼喀湖。",
+        "水量收支：湖面直接降水约占入湖 82%，蒸发约占出湖 76%，与乌干达水利部报告的数字吻合。",
+        "1961–1964 年水位急升主要由湖区降雨增加解释，Owen Falls 大坝影响较小；这与 f6 的表述一致。"
+      ],
+      "summary": "维多利亚湖的面积、深度、水量收支、1960 年代水位上涨与晚更新世干涸都有可靠来源；只有“世界最长河”这一最高级需要加限定。"
+    },
+    {
+      "id": "w1-world-history-classical-hellenistic-cities",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "medium"},
+        {"id": "f6", "verdict": "supported", "confidence": "medium"},
+        {"id": "f7", "verdict": "supported", "confidence": "medium"},
+        {"id": "f8", "verdict": "supported", "confidence": "medium"},
+        {"id": "f9", "verdict": "supported", "confidence": "medium"},
+        {"id": "f10", "verdict": "supported", "confidence": "high"},
+        {"id": "f11", "verdict": "supported", "confidence": "high"},
+        {"id": "f12", "verdict": "imprecise", "confidence": "medium", "issue": "issue-01"}
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f12",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "帕加马的剧场、以弗所的塞尔苏斯图书馆、杰拉什的列柱大街……说明希腊化城市不是传说",
+          "problem": "三处遗迹的年代被混为一谈：塞尔苏斯图书馆建于约 110–135 年（罗马帝国时期），杰拉什的列柱大街主要也是罗马时期（公元 2 世纪）的城市改造，二者不是希腊化时代的建筑。用它们证明“希腊化城市”存在，论据与结论错位。",
+          "correction": "今天在土耳其、叙利亚、埃及仍能看到这些城市的骨架：帕加马的剧场、以弗所的塞尔苏斯图书馆、杰拉什的列柱大街。后两处主要建于罗马时期，说明这套空间方案不是传说，而是被反复沿用。",
+          "evidence": [
+            {"title": "Library of Celsus, Ephesus — built in 135 AD", "url": "https://www.gettyimages.no/detail/news-photo/aerial-view-of-the-library-of-celsus-is-seen-in-izmir-news-photo/869056528", "quote": "The Library of Celsus was built in 135 AD and was built by Gaius Julius Aquila ... in honour of his father."},
+            {"title": "Seleucia on the Tigris (Oxford Classical Dictionary)", "url": "https://academic.oup.com/edited-volume/61673/chapter-abstract/550497860", "quote": "The great size and scale (550 ha.) by comparison with other Seleucid Greek city foundations ... needs stressing."}
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "f1 的“大麦粉画城墙”出自普鲁塔克《亚历山大传》26–27 节，公元前 331 年建城与托勒密王朝定都均无误。",
+        "f2 的“锡尔河畔、今苦盏”即 Alexandria Eschate，牛津古典辞书与 British Museum 地名库都指向 modern Khujand/Khodjend。",
+        "f4 说塞琉西亚“超过三百公顷”偏保守：牛津古典辞书给的是约 550 公顷，故“超过三百”不算错，但“不输任何都城”是修辞。",
+        "f6 的藏书数古代记载从四万到七十万卷不等，原句已注明“争论很大”，处理得当。"
+      ],
+      "summary": "亚历山大建城、希波达摩斯网格、塞琉西亚规模、帕加马遗赠与凯撒火损都可靠；末尾把罗马时期建筑当作希腊化遗存，需要一句限定。"
+    },
+    {
+      "id": "w5-psych-phone-privacy",
+      "status": "corrected",
+      "confidence": "medium",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "medium"},
+        {"id": "f4", "verdict": "supported", "confidence": "medium"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "medium"},
+        {"id": "f7", "verdict": "supported", "confidence": "medium"},
+        {"id": "f8", "verdict": "supported", "confidence": "medium"},
+        {"id": "f9", "verdict": "unsupported", "confidence": "medium", "issue": "issue-01"},
+        {"id": "f10", "verdict": "supported", "confidence": "medium"},
+        {"id": "f11", "verdict": "imprecise", "confidence": "medium", "issue": "issue-02"}
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f9",
+          "severity": "major",
+          "verdict": "unsupported",
+          "claim": "研究显示，被迫的自我暴露会降低自主感，反而削弱亲密",
+          "problem": "只找到关于“被迫披露威胁自主感”的质性线索（如残障者被迫披露的研究），没有找到直接检验“被迫自我暴露会削弱亲密关系”的量化研究。原句以“研究显示”给出确定因果，证据不足，应降级或删去因果方向。",
+          "correction": null,
+          "evidence": [
+            {"title": "\"It's harder to set boundaries when it's so obvious\": Disclosing observable disabilities", "url": "https://uwe-repository.worktribe.com/preview/15896149/Disability%20disclosure%20revision%20033026.pdf", "quote": "Participants varied in whether they felt they had a choice (termed autonomous non/disclosure) or felt forced ... others threatened their autonomy by disclosing for them."}
+          ]
+        },
+        {
+          "id": "issue-02",
+          "factId": "f11",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "这是慢功夫，也是唯一的路",
+          "problem": "“唯一的路”是无依据的绝对断言。信任修复研究归纳的是多种策略（道歉、承诺、可验证的行为、监督与时间），其有效性随违背严重程度与关系类型变化，并不存在唯一路径。",
+          "correction": "信任坏了，查手机修不好。修复靠的是可验证的承诺与时间：位置共享、账单透明、按约定汇报，持续几个月，而不是一次彻底的检查；这是慢功夫，也是最可靠的路。",
+          "evidence": [
+            {"title": "Trust Repair (Annual Review of Organizational Psychology and Organizational Behavior)", "url": "https://www.annualreviews.org/content/journals/10.1146/annurev-orgpsych-032516-113147", "quote": "Severity and frequency of trust violation ... Efficacy of repair tactics generally decreases as violation severity increases."}
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "f2 的传播隐私管理理论（CPM）与“边界紊乱”均出自 Petronio；书本身无开放全文，理论要点有大量二手综述可核。",
+        "f3 的“相当比例年轻人”有 Stonard 等 2017 年关于青少年恋爱关系中电子监控的调查支撑，但不同样本的比例差异很大，原句没有给具体数字是稳妥的。",
+        "f11 原句属于建议而非实证结论，本次只按“绝对措辞”判 imprecise。"
+      ],
+      "summary": "隐私/秘密之分、CPM、确认寻求循环与依恋差异都有文献基础；把“被迫披露削弱亲密”写成研究结论缺乏直接证据，“唯一的路”也应收敛。"
+    },
+    {
+      "id": "w2-myth-cn-chenghuang",
+      "status": "verified",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "medium"},
+        {"id": "f10", "verdict": "supported", "confidence": "medium"},
+        {"id": "f11", "verdict": "supported", "confidence": "high"},
+        {"id": "f12", "verdict": "supported", "confidence": "high"}
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "《周易·泰》上六“城复于隍”，隍即城下干池，与 f1 的拆字解释一致。",
+        "f2 的慕容俨守郢城事见《北齐书·慕容俨传》，系天保六年（555）；《隋书·五行志》另载梁武陵王祭城隍神，可补“南朝梁人”之说。",
+        "f5、f6 的洪武二年封爵与洪武三年革去封号，分别见《明太祖实录》卷三十八与《明会典》；《明史·礼志》所记“三年定诸神封号”是同一诏令。",
+        "f8 的杭州城隍，地方文献多记周新，也有并列文天祥之说；上海秦裕伯、苏州春申君黄歇则各家一致。"
+      ],
+      "summary": "从《周易》城复于隍、北齐慕容俨祈城隍，到洪武二/三年的封爵与去封号，再到三巡会与《聊斋》考城隍，关键年代、地名与制度细节都能对上原始文献。"
+    },
+    {
+      "id": "w1-myth-world-anubis",
+      "status": "verified",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "supported", "confidence": "medium"},
+        {"id": "f9", "verdict": "supported", "confidence": "medium"},
+        {"id": "f10", "verdict": "supported", "confidence": "high"},
+        {"id": "f11", "verdict": "supported", "confidence": "high"},
+        {"id": "f12", "verdict": "supported", "confidence": "medium"}
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "《阿尼纸草》约抄于公元前 1250 年、长逾 23 米、被裁为 37 幅，Trismegistos 与 British Museum 藏品说明一致；“近二十四米”是合理约数。",
+        "f2、f6、f7 的称心场景、42 位审判官与否定告白，见《亡灵书》第 125 章及菲茨威廉博物馆藏品说明；阿米特的鳄鱼头、狮身前部、河马后腿见 British Museum Images。",
+        "f10 的赫尔曼努比斯见牛津古典辞书 Anubis 条，明确提到希腊化时期与赫尔墨斯认同。",
+        "f12 说“十九世纪收藏家把一卷拆成几段卖给不同买家”是行业通例的概括；《阿尼纸草》本身是 Budge 于 1888 年购得后裁切装裱，并非拆卖，细节略有出入但结论不受影响。"
+      ],
+      "summary": "阿努比斯的胡狼形象与防腐职能、第 125 章称心流程、42 条否定告白、阿尼纸草的年代与尺寸、圣甲虫 30B 与赫尔曼努比斯，全部有博物馆或辞书依据。"
+    },
+    {
+      "id": "world-geo-mediterranean",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "medium"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "wrong", "confidence": "high", "issue": "issue-01"},
+        {"id": "f6", "verdict": "supported", "confidence": "medium"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "supported", "confidence": "medium"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "supported", "confidence": "medium"},
+        {"id": "f11", "verdict": "supported", "confidence": "medium"}
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f5",
+          "severity": "major",
+          "verdict": "wrong",
+          "claim": "葡萄、橄榄与柑橘根系深、耐旱，成为地中海农业的三大支柱",
+          "problem": "地中海农业的“三大支柱”（Mediterranean triad）是谷物（小麦）、橄榄与葡萄，不是柑橘。柑橘类原产南亚，中世纪后经阿拉伯人传入西地中海，不能与小麦、橄榄并列作为古典农业的支柱；同段前句已经写了小麦，后句却把它换成了柑橘，前后自相矛盾。",
+          "correction": "雨热错位对农业影响深远。小麦在冬季生长、春末收获，夏季休耕；葡萄与橄榄根系深、耐旱，与谷物一起构成地中海农业的三大支柱，橄榄油与葡萄酒因此成为区域贸易的主要商品。",
+          "evidence": [
+            {"title": "The presence of the Mediterranean triad — wheat, olive and grapes (Jordan Times 考古专文)", "url": "https://jordantimes.com/sites/default/files/PDFs-New/jt_fe3d51fd6bf3ab28fb026d4515a46e36.pdf", "quote": "The presence of the Mediterranean triad - wheat, olive and grapes has been attached in the Bronze Age archaeological record across the Mediterranean."},
+            {"title": "Wesleyan Digital Collections: cereal, grapes, and olives as the 'Mediterranean triad'", "url": "https://digitalcollections.wesleyan.edu/_flysystem/fedora/2023-03/22765-Original%20File.pdf", "quote": "reason that modern historians call cereal, grapes, and olives the 'Mediterranean triad'."}
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "f1 的 30–40° 大陆西岸与五个分布区，与粮农组织/农学教材及科普中国条目一致。",
+        "f2 的罗马数字随参照期与站点变化：1992–2021 年罗马 Urbe 七月均温约 26°C、降水约 25.6 mm；1971–2000 年常用值约 24.5°C、19 mm。原句“约二十五度、不足二十毫米”属旧常年值，不算错但不宜当作唯一标准。",
+        "f9 的“地中海升温高于全球平均、夏季降水减少”与 IPCC AR6 第二工作组报告一致。",
+        "f10 的深层水冬季形成于狮子湾、亚得里亚海南部与爱琴海，见 IUCN 地中海报告。"
+      ],
+      "summary": "分布、成因、硬叶植被、火灾与水资源压力都对；唯一硬伤是把柑橘列进“三大支柱”，实际应为谷物、橄榄与葡萄。"
+    }
+  ]
+}

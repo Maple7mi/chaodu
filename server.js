@@ -5,6 +5,7 @@ import path from 'node:path';
 import { PUBLIC, ROOT } from './lib/paths.mjs';
 import { buildArchive, buildArticle, buildBootstrap, buildStats, buildTodayPayload, doFeedback, doRead, togglePush } from './lib/api.mjs';
 import { librarySummary } from './lib/library.mjs';
+import { auditSummary, getAuditDossier, listAudits } from './lib/factcheck.mjs';
 import { schedulerStatus, startScheduler, tick } from './lib/scheduler.mjs';
 import { stateSummary } from './lib/store.mjs';
 import { today } from './lib/time.mjs';
@@ -103,6 +104,7 @@ const server = http.createServer(async (req, res) => {
         library: librarySummary(),
         scheduler: schedulerStatus(),
         state: stateSummary(),
+        factcheck: auditSummary(),
       });
     }
 
@@ -166,6 +168,25 @@ const server = http.createServer(async (req, res) => {
     if (pathname === '/api/tick' && req.method === 'POST') {
       const result = tick();
       return sendJson(res, 200, { result, status: schedulerStatus() });
+    }
+
+    if (pathname === '/api/factcheck' && req.method === 'GET') {
+      return sendJson(res, 200, {
+        summary: auditSummary(),
+        list: listAudits({
+          status: url.searchParams.get('status') || 'all',
+          query: url.searchParams.get('query') || '',
+          page: Number(url.searchParams.get('page') || 1),
+          pageSize: Number(url.searchParams.get('pageSize') || 30),
+        }),
+      });
+    }
+
+    if (pathname.startsWith('/api/factcheck/') && req.method === 'GET') {
+      const id = decodeURIComponent(pathname.slice('/api/factcheck/'.length));
+      const value = getAuditDossier(id);
+      if (!value) return sendJson(res, 404, { error: '核查记录不存在' });
+      return sendJson(res, 200, value);
     }
 
     if (pathname.startsWith('/api/')) {

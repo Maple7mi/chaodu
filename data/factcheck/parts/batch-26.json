@@ -1,0 +1,374 @@
+{
+  "batch": "batch-26",
+  "checkedAt": "2026-11-18T02:31:00+08:00",
+  "dossiers": [
+    {
+      "id": "w5-wh-tech-ivf",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "wrong", "confidence": "high", "issue": "issue-01"},
+        {"id": "f4", "verdict": "supported", "confidence": "medium"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "wrong", "confidence": "high", "issue": "issue-02"},
+        {"id": "f7", "verdict": "imprecise", "confidence": "high", "issue": "issue-03"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "supported", "confidence": "high"},
+        {"id": "f11", "verdict": "imprecise", "confidence": "medium", "issue": "issue-04"},
+        {"id": "f12", "verdict": "supported", "confidence": "medium"}
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f3",
+          "severity": "major",
+          "verdict": "wrong",
+          "claim": "2010年，爱德华兹获得诺贝尔生理学或医学奖。斯特普托已于1991年去世，诺贝尔奖不追授，因此只有爱德华兹一人获奖。",
+          "problem": "斯特普托的卒年错了。他是爱德华兹在剑桥的临床合作者、伯恩霍尔诊所的医学主任，一九八八年去世，不是一九九一年。诺贝尔奖确实不追授，二〇一〇年也只有爱德华兹一人获奖，但原因不是“一九九一年已去世”。",
+          "correction": "二〇一〇年，爱德华兹获得诺贝尔生理学或医学奖。斯特普托已于一九八八年去世，诺贝尔奖不追授，因此只有爱德华兹一人获奖。颁奖词提到，这项技术为不孕治疗开辟了一条全新的路径。",
+          "evidence": [
+            {
+              "title": "Nobel Prize in Physiology or Medicine 2010 – Press release",
+              "url": "https://www.nobelprize.org/prizes/medicine/2010/press-release/",
+              "quote": "Steptoe was its medical director until his death in 1988"
+            }
+          ]
+        },
+        {
+          "id": "issue-02",
+          "factId": "f6",
+          "severity": "major",
+          "verdict": "wrong",
+          "claim": "1983年，首例冷冻胚胎移植后婴儿出生。1990年代玻璃化冷冻技术提高了胚胎和卵子的存活率。",
+          "problem": "年份与事件都对不上。一九八三年特劳森与莫尔报告的是冷冻八细胞胚胎移植后获得妊娠，不是活产；世界首例冷冻胚胎婴儿一九八四年四月生于澳大利亚墨尔本。后一句关于玻璃化冷冻的评价无误。",
+          "correction": "一九八四年，首例冷冻胚胎移植后出生的婴儿在澳大利亚诞生；此前一九八三年只有移植后妊娠的报告。一九九〇年代玻璃化冷冻提高了胚胎存活率，让患者能一次取卵、多次移植。",
+          "evidence": [
+            {
+              "title": "First Baby Born of Frozen Embryo (The New York Times, 1984-04-11)",
+              "url": "https://www.nytimes.com/1984/04/11/us/first-baby-born-of-frozen-embryo.html",
+              "quote": "First Baby Born of Frozen Embryo"
+            }
+          ]
+        },
+        {
+          "id": "issue-03",
+          "factId": "f7",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "三十五岁以下女性每个取卵周期的活产率约三到四成，四十岁以上降到一成以下。",
+          "problem": "“四十岁以上降到一成以下”把年龄段压得太粗。美国辅助生殖技术登记二〇二二年数据显示，四十至四十二岁每个取卵周期的自卵活产率仍有一成多（四十一至四十二岁为一二·七%），四十二岁以上才降到五%以下。",
+          "correction": "成功率与年龄高度相关。以美国辅助生殖技术登记数据为例，三十五岁以下每个取卵周期的活产率约四成，三十八至四十岁约两成多，四十一二岁约一成多，四十二岁以上才降到一成以下，四十五岁以上多需供卵。",
+          "evidence": [
+            {
+              "title": "SART Clinic Summary Report, 2022 (national aggregate)",
+              "url": "https://www.sartcorsonline.com/Csr/Public?ClinicPKID=0&reportingYear=2022&newReport=True",
+              "quote": "Live births per egg retrieval, autologous cycles: age <35 41.3%, 35-37 32.8%, 38-40 23.1%, 41-42 12.7%, >42 4.7%"
+            }
+          ]
+        },
+        {
+          "id": "issue-04",
+          "factId": "f11",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "禁止代孕、禁止买卖配子、胚胎和胎儿。",
+          "problem": "条文禁止买卖的是“配子、合子、胚胎”，没有“胎儿”。一九八〇年代初办法起草时针对的是卵子、精子、受精卵与胚胎的商品化，误植“胎儿”会改变禁令范围。其余表述准确。",
+          "correction": "中国二〇〇一年发布《人类辅助生殖技术管理办法》，规定辅助生殖技术只能在批准的医疗机构开展，禁止代孕，禁止买卖配子、合子与胚胎；代孕在全球的法律差异很大。",
+          "evidence": [
+            {
+              "title": "人类辅助生殖技术管理办法（卫生部令第14号，国务院公报）",
+              "url": "https://www.gov.cn/gongbao/content/2002/content_61906.htm",
+              "quote": "禁止以任何形式买卖配子、合子、胚胎。医疗机构和医务人员不得实施任何形式的代孕技术。"
+            }
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "斯特普托卒年见诺贝尔奖二〇一〇年新闻稿：Steptoe was its medical director until his death in 1988。同稿还确认路易丝·布朗一九七八年七月二十五日出生、其父母此前已尝试九年。",
+        "SART 二〇二二年全国汇总按取卵周期统计的自卵活产率：三十五岁以下四一·三%，三十五至三十七岁三二·八%，三十八至四十岁二三·一%，四十一至四十二岁一二·七%，四十二岁以上四·七%。",
+        "中国《人类辅助生殖技术管理办法》为卫生部令第十四号，二〇〇一年二月二十日发布、八月一日施行；发布主体与施行日期均无问题。",
+        "线粒体替代疗法二〇一五年在英国获批、二〇一六年首例三亲婴儿在墨西哥出生，属通行报道，本次未逐条取到机构原始公告，置信度记为中等。"
+      ],
+      "summary": "十二条事实中，斯特普托卒年（一九九一应为一九八八）与首例冷冻胚胎婴儿年份（一九八三应为一九八四）是硬错误；活产率在“四十岁以上”处过粗，中国管理办法的禁售对象误作“胎儿”。其余技术史与监管事实有诺奖新闻稿、SART 数据与政府公报支撑。"
+    },
+    {
+      "id": "w1-psych-autonomy",
+      "status": "corrected",
+      "confidence": "medium",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "medium"},
+        {"id": "f3", "verdict": "imprecise", "confidence": "high", "issue": "issue-01"},
+        {"id": "f4", "verdict": "supported", "confidence": "low"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "medium"},
+        {"id": "f8", "verdict": "supported", "confidence": "medium"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "supported", "confidence": "low"},
+        {"id": "f11", "verdict": "supported", "confidence": "low"},
+        {"id": "f12", "verdict": "supported", "confidence": "medium"}
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f3",
+          "severity": "major",
+          "verdict": "imprecise",
+          "claim": "帕特里克与同事二〇〇七年的纵向研究显示，感知到伴侣支持自主的人，关系满意度与承诺更高；而被控制感更强的人，满意度下降，冲突也更多。",
+          "problem": "研究设计被说错了。该文是三项研究，其中第三项用日记记录法做短期多次测量，不是多年追踪的纵向研究；它检验的是自主、胜任、关联三种需要满足经由关系动机影响关系质量，“被控制感”不是该文的测量变量。",
+          "correction": "帕特里克与同事二〇〇七年的三项研究（含日记追踪）显示，关系中的自主、胜任与关联需要得到满足的人，关系满意度与承诺更高；需要受挫的人则相反，相关方向仍需谨慎解读。",
+          "evidence": [
+            {
+              "title": "Patrick, Knee, Canevello & Lonsbary (2007), The role of need fulfillment in relationship functioning and well-being, JPSP 92(3)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/17352602/",
+              "quote": "in Study 3, the authors used a diary recording procedure and tested a model in which the association between need fulfillment and relationship quality was mediated by relationship motivation"
+            }
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "La Guardia 等（2000，JPSP 79:367–384）研究的是具体关系中的需求满足与依恋安全、幸福感，未直接测量“伴侣支持彼此自主”的行为，故 f2 只记中等置信。",
+        "f4 关于过度融合的长期后果、f10 关于承诺即选择留下、f11 关于边界与自我维持，属家庭治疗与承诺模型的通行表述，缺少直接检验该措辞的实证研究，记为低置信。",
+        "Baxter（1990）提出自主—联结、开放—封闭、可预测—新奇三组关系辩证张力；Michelangelo 现象见 Drigotas 等（1999，JPSP 77:293–323）。",
+        "f12 的因果提醒与方法学立场一致：横断相关无法排除反向因果，故该条按方法论陈述判为成立。"
+      ],
+      "summary": "自我决定论与关系研究的引用基本可靠；一处把三项研究（含日记法）说成“纵向研究”，并把“被控制感”的结论安到该文头上，已给出改写。其余多为理论综述与临床描述层面的概括，证据强度中等偏弱。"
+    },
+    {
+      "id": "cn-myth-yu",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "medium"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "medium"},
+        {"id": "f10", "verdict": "imprecise", "confidence": "medium", "issue": "issue-01"},
+        {"id": "f11", "verdict": "supported", "confidence": "high"},
+        {"id": "f12", "verdict": "supported", "confidence": "high"}
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f10",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "道家则说他“不逆天理”，各取所需。",
+          "problem": "“不逆天理”一语不见于《庄子·天下》论禹的段落。该段引的是墨子称道禹的话，说他亲自操耜、汇通天下川流、腓无胈胫无毛；把三家整齐对应成墨家、儒家、道家各引一句，属于后人的归纳，文本依据不足。",
+          "correction": "战国诸子都在借大禹说话。墨家强调他亲自劳作、腓无胈胫无毛，用来证明节用与尚贤；儒家强调他“卑宫室而尽力乎沟洫”，用来证明仁政；各家引的禹，其实都是自己学说的投影。",
+          "evidence": [
+            {
+              "title": "《庄子·天下》原文（维基文库）",
+              "url": "https://zh.wikisource.org/wiki/%E8%8E%8A%E5%AD%90/%E5%A4%A9%E4%B8%8B",
+              "quote": "墨子稱道曰：「昔者禹之湮洪水……禹親自操橐耜，而九雜天下之川，腓无胈，脛无毛，沐甚雨，櫛疾風，置萬國。」"
+            }
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "喇家遗址灾难成因有争议：二〇一六年《Science》论文主张积石峡堰塞湖溃决洪水（约公元前一九二〇年），二〇一七年黄春长等在同期《Science》发表商榷，认为遗址毁于地震伴生的暴雨山洪泥流。",
+        "《禹贡》成书年代学界主流定为战国，另有西周说；九州名目与“导山导水”结构无异议。",
+        "遂公盨为西周中期偏晚青铜食器，内底十行九十八字，现藏保利艺术博物馆，铭文开篇与《禹贡》序说相近。"
+      ],
+      "summary": "遂公盨、九州、二里头、喇家与魏特夫诸条均有出土材料、文献或考古报道支撑；喇家洪水与积石峡堰塞湖的对应关系学界仍有争议，已在 sourceNotes 标注。“道家说不逆天理”一条缺文本依据，另三条引证无误。"
+    },
+    {
+      "id": "w2-psych-family-rules",
+      "status": "verified",
+      "confidence": "medium",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "medium"},
+        {"id": "f4", "verdict": "supported", "confidence": "medium"},
+        {"id": "f5", "verdict": "supported", "confidence": "medium"},
+        {"id": "f6", "verdict": "supported", "confidence": "medium"},
+        {"id": "f7", "verdict": "supported", "confidence": "medium"},
+        {"id": "f8", "verdict": "supported", "confidence": "medium"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "supported", "confidence": "medium"},
+        {"id": "f11", "verdict": "supported", "confidence": "low"},
+        {"id": "f12", "verdict": "supported", "confidence": "medium"}
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "杰克逊一九六五年文载《Family Process》，把家庭视为靠重复互动形成稳定模式（即规则）的系统，后被系统家庭治疗广泛沿用。",
+        "Fiese 等（2002，J Fam Psychol 16:381–390）综述区分 routines（可观察的实践）与 rituals（集体事件的象征意义），发现二者与儿童健康、学业与情绪安全感相关。",
+        "父母差别对待的预测因素见 Jensen & Jorgensen-Wells 二〇二五年《Psychological Bulletin》元分析（151:33–47），出生顺序、性别与气质均有涉及。",
+        "f11 的三步改变法与 f3、f4 的功能与代价分析，属家庭治疗实务中的通行做法，缺少针对该表述的对照研究，置信度按低处理。"
+      ],
+      "summary": "十二条均为家庭治疗与家庭研究的概念性陈述，杰克逊一九六五年、Fiese 等二〇〇二年与父母差别对待元分析可支撑主要说法；属临床与综述层面的概括，未发现硬性事实错误，故记为 verified。"
+    },
+    {
+      "id": "w3-wh-discovery-voc",
+      "status": "verified",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "medium"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "supported", "confidence": "high"},
+        {"id": "f11", "verdict": "supported", "confidence": "medium"},
+        {"id": "f12", "verdict": "supported", "confidence": "high"}
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "特许状于一六〇二年三月二十日授予，垄断范围为好望角至麦哲伦海峡，期限二十一年，并授权宣战、缔约、筑城、任命总督与铸币。",
+        "十七董事席位分配：阿姆斯特丹八、泽兰四、鹿特丹一、代尔夫特一、霍伦一、恩克赫伊森一；六个商会各自出船记账。",
+        "解散年份有两说：特许状一度续至一七九八年，后又延至一八〇〇年十二月三十一日；公司一七九九年已停止运作，故“一七九九年到期未续”是通行简写。",
+        "巴达维亚一六一九年建立；一六四一年荷兰人被迁往长崎出岛，此后是唯一与日本通商的西方国家；班达群岛一六二一年被征服。"
+      ],
+      "summary": "特许状、六商会与十七董事、巴达维亚、出岛、班达与解散诸条均可考；解散年份存在一七九九与一八〇〇两种算法，原文取通行说法，已在 sourceNotes 说明，不构成错误。"
+    },
+    {
+      "id": "w3-geo-cn-north-china-aquifer",
+      "status": "verified",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "medium"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "medium"},
+        {"id": "f7", "verdict": "supported", "confidence": "medium"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "supported", "confidence": "high"},
+        {"id": "f11", "verdict": "supported", "confidence": "high"},
+        {"id": "f12", "verdict": "supported", "confidence": "high"}
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "沧州自一九七〇年代起持续沉降，一九九〇年累计逾一千一百毫米，一九九七年接近两千米；华北平原局部累计最大沉降三点一八米，天津市区约两米、塘沽约三米。",
+        "衡水一带一九五四年地下水位仅一至二米，一九九八年降至五十三米，漏斗中心埋深超过九十六米（李振声，二〇〇六年）。",
+        "南水北调中线二〇一四年通水，河北受水区累计引南水数十亿立方米并封停自备井，近年深层与浅层水位同比回升。",
+        "冬小麦灌溉定额约二百毫米、夏玉米约一百二十毫米，折合每亩两百立方米上下；“两三百立方米”取的是偏高区间，量级无误。"
+      ],
+      "summary": "沉降量、漏斗范围、灌溉定额与南水北调成效均有官方公报或论文数据支撑；个别数字取区间上限（如每亩两三百立方米），属可接受的量级表述，未见硬性错误。"
+    },
+    {
+      "id": "world-geo-iceland",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "medium"},
+        {"id": "f5", "verdict": "imprecise", "confidence": "high", "issue": "issue-01"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "supported", "confidence": "medium"},
+        {"id": "f11", "verdict": "supported", "confidence": "high"}
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f5",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "冰岛覆盖着欧洲最大的冰帽，瓦特纳冰原面积约八千平方公里。冰下火山喷发会融化大量冰，形成冰川洪水，短时间内流量可以达到亚马孙河的数倍。",
+          "problem": "两处不准。瓦特纳冰原按体积是欧洲最大，按面积则次于斯瓦尔巴的奥斯特方纳冰帽；“数倍于亚马孙河”也偏高，一九一八年卡特拉冰川洪水峰值约三十万立方米每秒，高于亚马孙河年均流量，但只有一倍多。",
+          "correction": "冰岛覆盖着欧洲体积最大的冰帽，瓦特纳冰原面积约八千平方公里，论面积则次于斯瓦尔巴的奥斯特方纳冰帽。冰下喷发融化大量冰，洪水流量可超过亚马孙河，冲毁道路与桥梁。",
+          "evidence": [
+            {
+              "title": "Vatnajökull（Wikipedia 存档）",
+              "url": "https://webarchiveweb.wayback.bac-lac.canada.ca/web/20060913000000/http://en.wikipedia.org:80/wiki/Vatnaj%C3%B6kull",
+              "quote": "it is the largest glacier in Europe in volume and the second largest (after Austfonna on Nordaustlandet, Svalbard) in area"
+            },
+            {
+              "title": "Katla 1918 jökulhlaup（Lancaster eprints via Openpolar）",
+              "url": "https://openpolar.no/Record/ftulancaster:oai:eprints.lancs.ac.uk:68414",
+              "quote": "The peak discharge rate, at 300,000 m3 s-1, was greater than that of the Amazon, and was reached within just a few hours"
+            }
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "冰岛约有三十三个活火山系统，平均每四到五年喷发一次；原文“三到五年”略窄，方向无误，记为中等置信。",
+        "地热满足约九成建筑供暖、约三成发电，其余电力基本来自水电，电力系统几乎不含化石燃料。",
+        "冰岛土地以玄武岩等火山岩为主，夹有少量沉积层；末次冰期后约四分之一国土曾有桦树林，现以苔藓、草地与低矮灌丛为主。",
+        "二零一零年埃亚菲亚德拉喷发致欧洲航空大面积停飞，二零二一年起雷克雅内斯半岛裂隙喷发断续持续，均有公开报道。"
+      ],
+      "summary": "板块、火山、地热与植被诸条成立；冰帽“欧洲最大”与冰川洪水“数倍于亚马孙”两处不准确，已合并为一条 issue 给出改写，其余无需改动。"
+    },
+    {
+      "id": "w2-cn-history-wu-zetian",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "imprecise", "confidence": "high", "issue": "issue-01"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "supported", "confidence": "medium"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "supported", "confidence": "high"},
+        {"id": "f11", "verdict": "imprecise", "confidence": "high", "issue": "issue-02"},
+        {"id": "f12", "verdict": "supported", "confidence": "medium"}
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f4",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "垂拱四年（688），武则天拆除洛阳宫城的乾元殿，就地建明堂。",
+          "problem": "拆殿与建成的年份被并成了一年。《旧唐书·礼仪志》记垂拱三年春毁乾元殿、就其地创建，四年正月五日明堂成；《资治通鉴》则把建成系于垂拱四年十二月。拆在前一年春天，不是六八八年。",
+          "correction": "垂拱三年（六八七）春，武则天拆除洛阳宫城的乾元殿，就地兴建明堂，次年正月建成，号万象神宫，高二百九十四尺。明堂上圆下方，是儒家礼制中天子布政的场所，谁坐进去就像天子。",
+          "evidence": [
+            {
+              "title": "明堂兴建始末（腾讯新闻，引《旧唐书·礼仪志》）",
+              "url": "https://news.qq.com/rain/a/20241218A08F0N00",
+              "quote": "唐睿宗垂拱三年春（687年），武则天力排众议，拆除紫微城之正殿乾元殿（即隋之乾阳殿），就其地创建明堂。"
+            }
+          ]
+        },
+        {
+          "id": "issue-02",
+          "factId": "f11",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "《旧唐书》把武则天列入本纪，《新唐书》则多加贬抑。",
+          "problem": "对比容易被读成《新唐书》未列本纪。实际《新唐书》卷四也是《则天皇后本纪》，只是笔法更严、褒贬更明显，并另外把她列入后妃传；两书都受正统论影响，差别在书法与评价，不在体例。",
+          "correction": "后世史书的评价长期受正统论影响。《旧唐书》与《新唐书》都把武则天列入本纪，但《新唐书》笔法更严、贬抑更多；宋代以后“牝鸡司晨”式的批评成为主流，史料本身带着立场。",
+          "evidence": [
+            {
+              "title": "《新唐书》武则天本纪的书法（山东大学史学理论研究所）",
+              "url": "http://www.lhp.sdu.edu.cn/__local/C/D7/F0/7C33819D4820FB7B3B736FD846F_698E1174_EF062E.pdf",
+              "quote": "《新唐书》认为将则天纳入《本纪》是《春秋》的“实录”精神"
+            }
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "明堂建成时间，《旧唐书》记垂拱四年正月五日，《资治通鉴》系于垂拱四年十二月辛亥，均在六八八年内；高三丈说法不一，二九四尺约合八十八米。",
+        "铜匦置于垂拱二年（六八六）三月，四匦为延恩、招谏、伸冤、通玄；来俊臣、周兴、索元礼等酷吏政治与之配套。",
+        "《大云经疏》由薛怀义、法明等十僧于载初元年（六九〇）进上，依托北凉昙无谶译《大云经》的“净光天女”与“女身当王国土”，称武则天为弥勒下生、阎浮提主。",
+        "武则天卒于神龙元年（七〇五）十一月，年八十二（虚岁），与“年过八十”相符。"
+      ],
+      "summary": "铜匦、大云经疏、明堂、殿试与神龙政变均可考；明堂拆建年份被并成一年、《新唐书》本纪的对比表述各有偏差，其余事实成立。"
+    }
+  ]
+}

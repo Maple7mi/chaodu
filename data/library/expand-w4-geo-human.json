@@ -176,7 +176,16 @@
         "Reynolds, J. F. et al. 2007. Global desertification: building a science for dryland development. Science.",
         "Herrmann, S. M. & Hutchinson, C. F. 2005. The changing contexts of the desertification debate. Journal of Arid Environments.",
         "UNEP. 1997. World Atlas of Desertification，第二版。"
-      ]
+      ],
+      "factCheck": {
+        "status": "verified",
+        "confidence": "high",
+        "batch": "batch-23",
+        "checkedAt": "2026-11-18T02:41:00+08:00",
+        "issueCount": 0,
+        "appliedAt": "2026-11-17T18:46:28.258Z",
+        "summary": "定义、萨赫勒降水与变率、盐渍化案例、卫星复绿、1970 年代南侵图的争议、绿色长城的转向与进度，全部能找到对应文献，未发现需要改写的断言。"
+      }
     },
     {
       "id": "w4-geo-world-population-urban",
@@ -244,7 +253,7 @@
         },
         {
           "id": "f12",
-          "text": "跨国比较要小心定义。城市可以指行政区、市镇联合体或连续建成区，印度和中国的统计口径不同，同一座跨境都市圈在两国的数字可能相差数倍，排名因此常被误读。"
+          "text": "跨国比较要小心定义。城市可以指行政区、市镇联合体或连续建成区，各国统计口径不同，同一片都市区按不同口径算出的数字可能相差数倍，城市排名因此常被误读。"
         }
       ],
       "angles": [
@@ -353,7 +362,16 @@
         "Mumford, L. 1961. The City in History. Harcourt.",
         "Glaeser, E. 2011. Triumph of the City. Penguin Press.",
         "国家统计局. 中华人民共和国二〇二三年国民经济和社会发展统计公报."
-      ]
+      ],
+      "factCheck": {
+        "status": "corrected",
+        "confidence": "high",
+        "batch": "batch-23",
+        "checkedAt": "2026-11-18T02:41:00+08:00",
+        "issueCount": 1,
+        "appliedAt": "2026-11-17T18:46:28.258Z",
+        "summary": "人口比例、中国城乡两套城镇化率、埃及的“5% 国土”都能对上；唯一问题是 f12 拿印中“跨境都市圈”举例，这个例子在地理上不存在，已改为一般性的口径差异表述。"
+      }
     },
     {
       "id": "w4-geo-world-megalopolis",
@@ -530,7 +548,16 @@
         "Marchetti, C. 1994. Anthropological invariants in travel behavior. Technological Forecasting and Social Change.",
         "世界银行. 2009. World Development Report 2009: Reshaping Economic Geography.",
         "国家发展改革委. 长江三角洲区域一体化发展规划纲要，2019."
-      ]
+      ],
+      "factCheck": {
+        "status": "verified",
+        "confidence": "medium",
+        "batch": "batch-22",
+        "checkedAt": "2026-11-18T02:36:00+08:00",
+        "issueCount": 0,
+        "appliedAt": "2026-11-17T18:46:28.258Z",
+        "summary": "城市群的概念、数据与规划案例大体可核，部分数字随统计口径浮动但方向无误。"
+      }
     },
     {
       "id": "w4-geo-world-food-trade",
@@ -582,7 +609,7 @@
         },
         {
           "id": "f8",
-          "text": "粮食贸易也是水贸易。生产一公斤小麦大约需要一到一点五立方米水，进口粮食等于进口虚拟水；埃及、沙特这类缺水国，靠买粮缓解水压力，也把风险转移给了出口国。"
+          "text": "粮食贸易也是水贸易。生产一公斤小麦全球平均约需一点八立方米水，不同产区差别很大；进口粮食等于进口虚拟水。埃及、沙特这类缺水国靠买粮缓解水压力，也把风险转移给了出口国。"
         },
         {
           "id": "f9",
@@ -707,7 +734,16 @@
         "USDA Economic Research Service. Wheat Data 与 Grain: World Markets and Trade。",
         "Clapp, J. 2012. Food. Polity Press.",
         "WTO. 1995. Agreement on Agriculture，乌拉圭回合文本。"
-      ]
+      ],
+      "factCheck": {
+        "status": "corrected",
+        "confidence": "high",
+        "batch": "batch-44",
+        "checkedAt": "2026-11-17T18:32:06.665Z",
+        "issueCount": 1,
+        "appliedAt": "2026-11-17T18:46:28.258Z",
+        "summary": "粮食贸易的结构性判断——出口集中、进口集中、交易所定价、2007—08与2010—11的出口限制、大米市场薄、黑海协议3300万吨、中国小麦库存占半壁——都能核实。唯一需要修正的是小麦的水足迹数值。"
+      }
     },
     {
       "id": "w4-geo-world-high-seas-fishery",
@@ -747,11 +783,11 @@
         },
         {
           "id": "f5",
-          "text": "非法、不报告和不受管制的捕捞每年估计在一千万到两千三百万吨之间，价值数百亿美元。挂方便旗、关闭识别系统、在公海转运，是常见手法，追责却要跨越好几套司法管辖。"
+          "text": "非法、不报告和不受管制的捕捞每年估计在一千一百万到两千六百万吨之间，价值一百亿到两百三十亿美元。挂方便旗、关闭识别系统、在公海转运，是常见手法，追责却要跨越好几套司法管辖。"
         },
         {
           "id": "f6",
-          "text": "补贴是扭曲的核心。全球渔业补贴每年约三百五十亿美元，其中约两百多亿被认为助长过度捕捞；二〇二二年世贸组织达成协定，限制非法捕捞与过度产能相关补贴。"
+          "text": "补贴是扭曲的核心。全球渔业补贴每年约三百五十亿美元，其中约六成三被认为有害；二〇二二年世贸组织达成协定，禁止助长非法捕捞、捕捞过捕种群与无管制公海捕鱼的补贴，产能过剩一条当时仍未谈成。"
         },
         {
           "id": "f7",
@@ -884,7 +920,16 @@
         "FAO. 2022. The State of World Fisheries and Aquaculture.",
         "Sumaila, U. R. et al. 2019. Updated estimates of global fishing subsidies. Marine Policy.",
         "联合国. 2023. 国家管辖范围以外区域海洋生物多样性协定（BBNJ）文本。"
-      ]
+      ],
+      "factCheck": {
+        "status": "corrected",
+        "confidence": "high",
+        "batch": "batch-22",
+        "checkedAt": "2026-11-18T02:36:00+08:00",
+        "issueCount": 2,
+        "appliedAt": "2026-11-17T18:46:28.258Z",
+        "summary": "公海渔业制度与案例可靠；IUU 捕捞量级与2022年WTO协定覆盖范围两处需修正。"
+      }
     },
     {
       "id": "w4-geo-world-national-parks",
@@ -920,7 +965,7 @@
         },
         {
           "id": "f4",
-          "text": "澳大利亚乌鲁鲁一九八五年归还阿南古原住民，再以九十九年租约交回公园管理，形成共管。二〇一九年应原住民要求停止攀登，游客量并未因此崩塌，反而转向文化体验。"
+          "text": "澳大利亚乌鲁鲁一九八五年归还阿南古原住民，再以九十九年租约交回公园管理，形成共管。二〇一九年十月应原住民要求停止攀登。此后游客量长期低于禁攀前的峰值，疫情又加剧了下滑，近年才回升到二十六万上下。"
         },
         {
           "id": "f5",
@@ -1061,7 +1106,16 @@
         "Spence, M. D. 1999. Dispossessing the Wilderness: Indian Removal and the Making of the National Parks. Oxford University Press.",
         "IUCN. 2020. Protected Planet Report，全球保护地评估。",
         "国务院. 建立国家公园体制总体方案，2017；首批国家公园设立公告，2021."
-      ]
+      ],
+      "factCheck": {
+        "status": "corrected",
+        "confidence": "medium",
+        "batch": "batch-21",
+        "checkedAt": "2026-11-18T02:18:50+08:00",
+        "issueCount": 1,
+        "appliedAt": "2026-11-17T18:46:28.258Z",
+        "summary": "黄石、NPS、生物圈计划、中国首批国家公园与30x30目标均可核实；乌鲁鲁禁攀后“游客量并未崩塌”与统计数据不符，已修正。"
+      }
     },
     {
       "id": "w4-geo-world-island-nations",
@@ -1121,7 +1175,7 @@
         },
         {
           "id": "f10",
-          "text": "适应有硬约束。防波堤、抬高地基建、填海，都需要钱和砂石，还需要维护；世界银行估计，小岛国每年的适应成本相当于其国内生产总值的可观比例，外部援助是主要来源。"
+          "text": "联合国环境署测算，小岛国每年适应成本约47亿美元，相当于其GDP的0.7%；这一比例看似不高，但相对财政预算压力显著，且建设与维护高度依赖外部援助，长期能否持续仍是问题。"
         },
         {
           "id": "f11",
@@ -1238,7 +1292,16 @@
         "World Bank. 2021. Groundswell: Preparing for Internal Climate Migration.",
         "联合国. 2023. 损失与损害基金运作安排相关决议。",
         "Farbotko, C. 2010. Wishful sinking: disappearing islands, climate refugees and cosmopolitan experimentation. Asia Pacific Viewpoint."
-      ]
+      ],
+      "factCheck": {
+        "status": "corrected",
+        "confidence": "high",
+        "batch": "batch-43",
+        "checkedAt": "2026-11-18T02:36:00+08:00",
+        "issueCount": 1,
+        "appliedAt": "2026-11-17T18:46:28.258Z",
+        "summary": "海平面观测、图瓦卢与马尔代夫数据、气候迁移估算与国家资格要件均可核实；适应成本占GDP的比例表述不准确，已修正。"
+      }
     },
     {
       "id": "w4-geo-world-transboundary-water",
@@ -1415,7 +1478,16 @@
         "联合国欧洲经济委员会. 1992. 保护和利用跨界水道与国际湖泊公约（赫尔辛基公约）。",
         "World Bank. 2023. 印度河水条约相关评估与背景资料。",
         "FAO. 2020. 跨境流域与水权分配研究资料。"
-      ]
+      ],
+      "factCheck": {
+        "status": "verified",
+        "confidence": "high",
+        "batch": "batch-40",
+        "checkedAt": "2026-11-18T02:56:00+08:00",
+        "issueCount": 0,
+        "appliedAt": "2026-11-17T18:46:28.258Z",
+        "summary": "跨境水专题十二条均有公约文本、机构数据与案例研究支撑；尼罗河份额、印度河分水、咸海萎缩与虚拟水核算均与主流数据一致，复兴大坝装机按现行 5,150 兆瓦表述成立。"
+      }
     },
     {
       "id": "w4-geo-world-polar-routes",
@@ -1451,7 +1523,7 @@
         },
         {
           "id": "f4",
-          "text": "通航窗口在变长，但波动很大。二〇二〇年东北航道因冰情提前关闭，部分船队被迫改道；单看某一年是否创纪录，很容易把天气波动当成趋势，需要看多年平均，而不是单年数据。"
+          "text": "通航窗口在变长，但波动很大。二〇二〇年东北航道八月二日就开航，全年开放八十八天，十月末关闭；秋季冰情突变仍可能让船队被困或改道。单看某一年是否创纪录，容易把天气波动当成趋势。"
         },
         {
           "id": "f5",
@@ -1467,7 +1539,7 @@
         },
         {
           "id": "f8",
-          "text": "规则已经在写。国际海事组织的极地水域船舶航行安全规则二〇一七年生效，对船体、设备、培训和油污排放作出要求；二〇二一年起禁止在北极使用和携带重油，但豁免条款仍多。"
+          "text": "规则已经在写。国际海事组织的极地水域船舶航行安全规则二〇一七年生效，对船体、设备、培训和油污排放作出要求；北极重油禁令二〇二一年通过，二〇二四年七月起生效，部分船舶的豁免可延到二〇二九年。"
         },
         {
           "id": "f9",
@@ -1592,7 +1664,16 @@
         "国际海事组织. 2014/2017. 极地水域船舶航行国际准则（极地规则）。",
         "Arctic Council. 2023. Arctic Shipping Status Reports.",
         "Gunnarsson, B. 2021. Recent ship traffic and developing shipping trends on the Northern Sea Route. Marine Policy."
-      ]
+      ],
+      "factCheck": {
+        "status": "corrected",
+        "confidence": "high",
+        "batch": "batch-42",
+        "checkedAt": "2026-11-18T02:56:00+08:00",
+        "issueCount": 2,
+        "appliedAt": "2026-11-17T18:46:28.258Z",
+        "summary": "海冰、航道与规则的主线都可靠，两处时间口径需要修：重油禁令是 2021 年通过、2024 年生效，不是 2021 年起实施；2020 年东北航道是创纪录的长窗口，不是因冰情提前关闭。"
+      }
     },
     {
       "id": "w4-geo-world-anthropocene",
@@ -1648,7 +1729,7 @@
         },
         {
           "id": "f9",
-          "text": "即使没有正式命名，这个概念已经进入教材、博物馆和公共政策。二〇一九年，人类世工作组把它列为一种非正式的地质时间表述，学术论文与展览继续使用，争议并未停止。"
+          "text": "2019年人类世工作组并非把它列为非正式表述，而是投票支持以20世纪中叶为底界、推动建立正式的全球界线层型剖面；2024年提案被否决后，它才继续作为非正式术语使用。"
         },
         {
           "id": "f10",
@@ -1769,7 +1850,16 @@
         "Anthropocene Working Group. 2019/2023. 人类世提案与表决相关材料。",
         "International Commission on Stratigraphy. 2024. 关于人类世提案的决定与说明。",
         "Steffen, W. et al. 2015. The trajectory of the Anthropocene: The Great Acceleration. The Anthropocene Review."
-      ]
+      ],
+      "factCheck": {
+        "status": "corrected",
+        "confidence": "high",
+        "batch": "batch-39",
+        "checkedAt": "2026-11-18T02:38:00+08:00",
+        "issueCount": 1,
+        "appliedAt": "2026-11-17T18:46:28.258Z",
+        "summary": "人类世专题的证据链与2024年否决均准确；唯一硬伤是把2019年工作组立场说反了——它当年支持正式化，而非列为非正式表述。"
+      }
     }
   ]
 }

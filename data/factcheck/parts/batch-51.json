@@ -1,0 +1,312 @@
+{
+  "batch": "batch-51",
+  "checkedAt": "2026-11-18T02:58:00+08:00",
+  "dossiers": [
+    {
+      "id": "world-myth-troy",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "medium"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "imprecise", "confidence": "medium", "issue": "issue-01"},
+        {"id": "f7", "verdict": "supported", "confidence": "medium"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "supported", "confidence": "high"},
+        {"id": "f11", "verdict": "supported", "confidence": "high"},
+        {"id": "f12", "verdict": "supported", "confidence": "high"}
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f6",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "条约本身只涉及效忠与边界，不涉及战争",
+          "problem": "阿拉克桑杜条约是赫梯与维鲁萨的附庸条约，除效忠与边界外，还规定阿拉克桑杜须向赫梯提供军队、报告邻国叛乱、阻止敌军过境。说它“不涉及战争”不准确；准确的说法是条约没有留下希腊人围攻特洛伊的记载。",
+          "correction": "约公元前一二八〇年的阿拉克桑杜条约以赫梯王穆瓦塔里二世与维鲁萨王为当事人，是特洛伊地名争论中最常被引用的外交文书；条约规定效忠、边界与战时出兵义务，却没有留下希腊人围攻特洛伊的记载。",
+          "evidence": [
+            {"title": "Tratado de Alaksandu（西班牙语维基百科）", "url": "https://es.wikipedia.org/wiki/Tratado_de_Alaksandu", "quote": "Alaksandu, como rey de Wilusa, es obligado por el tratado a: ... Ayudar con sus tropas al Imperio hitita en caso de guerra."},
+            {"title": "Trevor Bryce, Troy's role and status in the Near Eastern world", "url": "https://www.taylorfrancis.com/chapters/mono/10.4324/9780203695340-12/troy-role-status-near-eastern-world-trevor-bryce", "quote": "The treaty makes clear that Wilusa was a vassal state of the Hittite empire."}
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "Blegen 原把特洛伊 VIIa 的毁灭定在约公元前 1260 年，现代重定年多取约前 1180 年；f4 采用后者，与地震层（VI，约前 1300 年）之间确有重建层。",
+        "《伊利亚特》行数各版本统计略有差异，常见作 15,693 行；f1 的“一万五千余行”与“五十一天”均可核。"
+      ],
+      "summary": "除阿拉克桑杜条约的条款概括不准外，特洛伊专题的史诗情节、发掘层位与古代纪年均与来源相符。"
+    },
+    {
+      "id": "w5-wh-trade-banana",
+      "status": "corrected",
+      "confidence": "medium",
+      "facts": [
+        {"id": "f1", "verdict": "imprecise", "confidence": "medium", "issue": "issue-01"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "medium"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "imprecise", "confidence": "medium", "issue": "issue-02"},
+        {"id": "f6", "verdict": "imprecise", "confidence": "high", "issue": "issue-03"},
+        {"id": "f7", "verdict": "supported", "confidence": "medium"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "supported", "confidence": "medium"},
+        {"id": "f11", "verdict": "imprecise", "confidence": "medium", "issue": "issue-04"},
+        {"id": "f12", "verdict": "supported", "confidence": "medium"}
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f1",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "十九世纪经加勒比海岛屿传入美洲",
+          "problem": "香蕉栽培种十六世纪已由加那利群岛传入伊斯帕尼奥拉（Oviedo 记载）；十九世纪传入美洲的是商业品种 Gros Michel（约 1835 年经马提尼克）。原句把整个物种的传入时间说晚了约三百年。",
+          "correction": "香蕉原产东南亚，十六世纪经加那利群岛传入加勒比岛屿，十九世纪才作为商品大规模种植。它热量高、好种、一年四季都能收，但极容易腐烂，没有快速运输就只能就近卖。没有铁路和冷藏船，它只是产地附近的水果。",
+          "evidence": [
+            {"title": "Ploetz et al., Banana and Plantain—An Overview (Plant Disease, 1998)", "url": "https://apsjournals.apsnet.org/doi/pdf/10.1094/PDIS.1998.82.9.964", "quote": "In the New World, Gros Michel first appeared in Martinique ... early in the nineteenth century."},
+            {"title": "De Candolle, Origine des plantes cultivées（引 Oviedo）", "url": "https://bibdigital.rjb.csic.es/medias/ab/76/e9/9a/ab76e99a-d068-40da-8eb5-09b648034a72/files/CAN_Orig_Pl_Cult.pdf", "quote": "d'après Oviedo, l'espèce a été apportée des Canaries à Saint-Domingue."}
+          ]
+        },
+        {
+          "id": "issue-02",
+          "factId": "f5",
+          "severity": "major",
+          "verdict": "imprecise",
+          "claim": "1911年，联合果品支持洪都拉斯的政变，帮流亡的前总统夺回权力",
+          "problem": "1911 年资助博尼利亚夺权的主要是萨缪尔·泽穆雷的库亚梅尔果品公司，它是联合果品的竞争对手，1929 年才并入联合果品。把这场政变记在联合果品账上，主体错了。",
+          "correction": "1911年，泽穆雷的库亚梅尔果品公司资助洪都拉斯的政变，帮流亡的前总统博尼利亚夺回权力，换取土地和铁路特许；该公司1929年并入联合果品，在当地拥有大片土地、铁路和港口，被称作国中之国。",
+          "evidence": [
+            {"title": "Pecados azules, El Heraldo（洪都拉斯）", "url": "https://www.elheraldo.hn/opinion/columnas/pecados-azules-EN25822475", "quote": "para recuperar el poder aceptó dólares de Samuel Zemurray ... y volver al mando en 1911."},
+            {"title": "Sam the Banana Man, Library of Congress", "url": "https://blogs.loc.gov/inside_adams/2018/10/sam-the-banana-man/", "quote": "Zemurray bought land in Honduras along the Cuyamel River and founded the Cuyamel Fruit Company."}
+          ]
+        },
+        {
+          "id": "issue-03",
+          "factId": "f6",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "1954年，危地马拉总统阿本斯的土地改革征收了联合果品的部分闲置土地",
+          "problem": "征收发生在 1953 年 2 月 26 日（约 23.4 万英亩，3 月最高法院驳回公司上诉），1954 年是中情局支持政变、阿本斯下台之年。原句把两件事压在同一年。",
+          "correction": "1953年，危地马拉总统阿本斯的土地改革征收了联合果品的部分闲置土地。1954年，美国国务院和中情局支持政变，阿本斯下台，改革被逆转。香蕉园的土地，成了冷战在美洲的第一块试验田。",
+          "evidence": [
+            {"title": "FRUS 1952–1954, vol. IV, doc. 420（美国国务院）", "url": "https://history.state.gov/historicaldocuments/frus1952-54v04/d420", "quote": "On February 26, 1953 ... expropriation ... of approximately 234,000 acres of United Fruit Company property."},
+            {"title": "United-Fruit Loses Expropriation Plea, The New York Times, 1953-03-20", "url": "https://www.nytimes.com/1953/03/20/archives/unitedfruit-loses-expropriation-plea.html", "quote": "the Government's expropriation of 233,973 acres of the company's Pacific holdings."}
+          ]
+        },
+        {
+          "id": "issue-04",
+          "factId": "f11",
+          "severity": "major",
+          "verdict": "imprecise",
+          "claim": "美国法院作出判决，多起案件以赔偿或和解结束；跨国公司第一次为海外种植园的健康损害承担责任",
+          "problem": "1990 年代 DBCP 索赔主要在尼加拉瓜审理并获赔偿判决；美国法院多以管辖权、forum non conveniens 等理由驳回，或拒绝执行尼加拉瓜判决（如 2003 年加州尝试执行 4.89 亿美元判决被驳回）。“美国法院作出判决”与“第一次承担责任”都不准确。",
+          "correction": "1990年代，香蕉工人起诉杀虫剂导致不育，多起案件在尼加拉瓜审理并获赔偿判决，美国法院却多以管辖权为由拒绝执行。跨国公司付出了赔偿，但说这是第一次承担责任，证据不足。",
+          "evidence": [
+            {"title": "US District Court, S.D. Fla., DBCP 判决执行案", "url": "https://www.govinfo.gov/content/pkg/USCOURTS-flsd-1_07-cv-22693/pdf/USCOURTS-flsd-1_07-cv-22693-1.pdf", "quote": "In 2003, more than 450 Nicaraguan plaintiffs attempted to enforce a $489 million judgment in California, but their complaint was dismissed on technical and jurisdictional grounds."}
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "f4 末两句语义重复（“这个词后来成了通用说法”“这个词后来被用来批评……”），属文字问题，非事实错误；1904 年《Cabbages and Kings》确为“banana republic”一词的出处。",
+        "f2 的 1899 年合并方包括波士顿果品公司与基思的香蕉贸易企业，联合果品随后延伸到洪都拉斯、危地马拉与巴拿马，与来源相符。"
+      ],
+      "summary": "香蕉专题的产业史骨架成立，但物种传入时间、1911 年政变主体、1953/1954 年征收与政变的年份、以及 DBCP 诉讼的法院归属需要修正。"
+    },
+    {
+      "id": "w5-wh-tech-fertilizer",
+      "status": "verified",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "medium"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "supported", "confidence": "high"},
+        {"id": "f11", "verdict": "supported", "confidence": "high"},
+        {"id": "f12", "verdict": "supported", "confidence": "high"}
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "Smil 的估算常表述为“约五分之二的人口依赖合成氨”，Erisman 等 2008 则常用“约一半的粮食生产依赖合成氨”；f3 用了“约一半”并两次声明这是估算，属可接受的范围表述。",
+        "Guo et al. 2010 的全国尺度结果为 1980 年代至 2000 年代表层 pH 平均下降 0.13–0.80，f9 的“零点一到零点八”是同一区间的取整。",
+        "N2O 的百年增温潜势：IPCC AR6 取 273，AR5 取 265，AR4 取 298；f8 的“约二百七十倍”与 AR6 一致。"
+      ],
+      "summary": "哈伯-博施法、绿色革命育种、氮素损失与土壤酸化的年份和数字均可核，未发现需要修改的断言。"
+    },
+    {
+      "id": "w5-wh-trade-chip",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "imprecise", "confidence": "high", "issue": "issue-01"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "imprecise", "confidence": "high", "issue": "issue-02"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "medium"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "supported", "confidence": "medium"},
+        {"id": "f11", "verdict": "supported", "confidence": "high"},
+        {"id": "f12", "verdict": "supported", "confidence": "medium"}
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f2",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "1958年，基尔比在德州仪器、诺伊斯在仙童公司分别做出集成电路",
+          "problem": "基尔比 1958 年在德州仪器做出相移振荡器集成电路；诺伊斯 1959 年 1 月才在笔记本中提出改进方案，7 月申请专利，仙童 1959 年春展示平面电路。把两人都算在 1958 年不准。",
+          "correction": "1958年，基尔比在德州仪器做出集成电路；次年，诺伊斯在仙童公司做出可制造的平面集成电路。1965年，摩尔提出芯片上的晶体管数量大约每年翻一倍，后来修正为约两年。",
+          "evidence": [
+            {"title": "July 1958: Kilby conceives the IC, IEEE", "url": "https://ieeexplore.ieee.org/document/8389182/keywords", "quote": "in January 1959, Robert Noyce ... was to jot in his lab notebook an improved version of the very same idea."},
+            {"title": "From microelectronics to nanoelectronics", "url": "https://www.taylorfrancis.com/chapters/oa-mono/10.5117/9789462984127_CH12/microelectronics-nanoelectronics-christian-ng%C3%B4-joseph-natowitz", "quote": "The first such integrated circuits were developed by Jack Kilby at Texas instruments, and Robert Noyce and Jean Hoemi at Fairchild in 1958-59."}
+          ]
+        },
+        {
+          "id": "issue-02",
+          "factId": "f5",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "一台光刻机有几十万个零件，来自上千家供应商",
+          "problem": "ASML 的公开口径是每台约 10 万个零件（roughly 100,000 parts），供应商约 5,100 家。“几十万个”把零件数夸大了数倍；“上千家供应商”则与 5,100 家相符。",
+          "correction": "荷兰的阿斯麦在极紫外光刻机上几乎独家供应；美国的应用材料、泛林和日本的东京电子在刻蚀、沉积、清洗设备上占大头。一台光刻机约有十万个零件，来自上千家供应商。",
+          "evidence": [
+            {"title": "LightSource, ASML vs China: chip equipment supply chains", "url": "https://lightsource.ai/blog/asml-vs-china-chip-equipment-supply-chains", "quote": "Each machine has roughly 100,000 parts and depends on artisanal, single-source components like Carl Zeiss's EUV optics."}
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "摩尔 1965 年原文说每年翻倍，1975 年修正为每两年翻倍；f2 的表述与这一修正史相符。",
+        "f9 的“2018 年以后”涵盖 2018 年中兴案、2019 年华为实体清单与 2022 年 10 月 7 日对先进制程设备、人才与部分芯片的管制，时间线成立。"
+      ],
+      "summary": "芯片供应链的结构描述基本可靠，只需修正诺伊斯做出集成电路的年份与光刻机零件数量级。"
+    },
+    {
+      "id": "w2-myth-mesopotamia-mithra",
+      "status": "corrected",
+      "confidence": "medium",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "supported", "confidence": "medium"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "supported", "confidence": "high"},
+        {"id": "f11", "verdict": "supported", "confidence": "high"},
+        {"id": "f12", "verdict": "imprecise", "confidence": "medium", "issue": "issue-01"}
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f12",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "密特拉教没有救赎死亡的教义",
+          "problem": "密特拉教确实向入教者许诺灵魂不朽、死后穿越七重天球升天，七级秘仪正与此相关。可质疑的是“密特拉死而复生”和“12 月 25 日诞生”，不是“没有救赎/永生教义”。",
+          "correction": "十九世纪以来流行一种说法，说密特拉是基督的原型，圣诞节也来自他的生日。这个说法证据薄弱：密特拉并非死而复生的救世神，也没有十二月二十五日降生的记载；两者的相似更多是同一时代共享的语汇。",
+          "evidence": [
+            {"title": "Gordon Laing, Survivals of Roman Religion (1931), full text", "url": "https://archive.org/stream/survivalsofroman009154mbp/survivalsofroman009154mbp_djvu.txt", "quote": "The cults of the Great Mother, Isis, and Mithras stressed, as a telling part of their propaganda, the certainty of a blessed immortality."}
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "普鲁塔克《庞培传》24 记奇里乞亚海盗在公元前 67 年前后已行密特拉秘仪，是罗马一侧最早的线索之一；f5 的表述与之一致。",
+        "七级名称（Corax、Nymphus、Miles、Leo、Perses、Heliodromus、Pater）见 1911 年版《大英百科全书》“Mithras”条与 Clauss 2000。"
+      ],
+      "summary": "密特拉从契约神到罗马秘仪的谱系与图像描述均可核；唯一需要改的是把“没有救赎教义”换成“并非死而复生的救世神”。"
+    },
+    {
+      "id": "w5-myth-africa-anansi",
+      "status": "verified",
+      "confidence": "medium",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "medium"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "medium"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "medium"},
+        {"id": "f8", "verdict": "supported", "confidence": "medium"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "supported", "confidence": "medium"},
+        {"id": "f11", "verdict": "supported", "confidence": "high"},
+        {"id": "f12", "verdict": "supported", "confidence": "medium"}
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "Rattray 的《Akan-Ashanti Folk-Tales》确为 Oxford: Clarendon Press, 1930，正文为阿肯语原文与英译对照，Nature 1930 年的书评可核。",
+        "“金箱”细节在不同转述中作 box、golden box 或天空中的故事屋，属版本差异；f2 用“在阿散蒂的版本里”作了限定，可以接受。"
+      ],
+      "summary": "阿南西故事的阿肯语词源、尼亚梅索价四物、牙买加与古拉变体、Rattray 1930 记录与盖曼 2005 改写均有来源支撑。"
+    },
+    {
+      "id": "w3-wh-discovery-encomienda",
+      "status": "verified",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "supported", "confidence": "high"},
+        {"id": "f11", "verdict": "supported", "confidence": "high"},
+        {"id": "f12", "verdict": "supported", "confidence": "high"}
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "1542 年《新法》引发的是 1544–1548 年贡萨洛·皮萨罗叛乱；王室在 1545–1546 年废除了其中关于委托监护继承的条款，f5 的“部分收回”与史实相符。",
+        "巴利亚多利德辩论通常定在 1550–1551 年，未产生明确裁决；f6 的“没有产生明确的裁决”准确。"
+      ],
+      "summary": "委托监护制的伊比利亚起源、1511 年蒙特西诺斯布道、1512 年布尔戈斯法令、1542 年新法与 1550 年辩论均与史料一致。"
+    },
+    {
+      "id": "w3-geo-world-tundra",
+      "status": "verified",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "medium"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "supported", "confidence": "high"},
+        {"id": "f11", "verdict": "supported", "confidence": "medium"},
+        {"id": "f12", "verdict": "supported", "confidence": "high"}
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "冻土区土壤有机碳的常用估算为 1400–1600 PgC，大气碳库约 860 PgC，f3 的“超过大气中的碳”成立；具体数字随分层与深度定义而变。",
+        "旅鼠种群周期通常为 3–4 年，其对植被与养分循环的影响有观测支持，但强度随地点差异很大；f7 的表述留了余地。"
+      ],
+      "summary": "苔原的气候、植被适应、冻土碳反馈、热喀斯特与候鸟繁殖地描述均与 IPCC SROCC 及冻土碳研究一致。"
+    }
+  ]
+}

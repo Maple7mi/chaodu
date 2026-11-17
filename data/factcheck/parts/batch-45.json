@@ -1,0 +1,251 @@
+{
+  "batch": "batch-45",
+  "checkedAt": "2026-11-18T02:44:00+08:00",
+  "dossiers": [
+    {
+      "id": "w5-wh-tech-climate-ipcc",
+      "status": "verified",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "medium"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "supported", "confidence": "high"},
+        {"id": "f11", "verdict": "supported", "confidence": "high"},
+        {"id": "f12", "verdict": "supported", "confidence": "medium"}
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "傅立叶 1824 年玻璃温室比喻、富特 1856 年气体吸热实验、丁达尔 1859–1861 年红外吸收、阿伦尼乌斯 1896 年 5–6°C、基林 1958 年 315 ppm，分别据康奈尔 PALE 经典文献页、英国皇家学会 Notes and Records、AGU Eos 讣闻式回顾与斯克里普斯海洋研究所基林曲线页核对。",
+        "IPCC 校准语言（可能 66–100%、很可能 90–100%、极可能 95–100%）见 IPCC 关于不确定性的指导文件；AR6 的 1.09 [0.95–1.20]°C、ECS 最佳估计 3°C（很可能 2.5–4°C、极可能 2–5°C）与 2020 年起 500 GtCO2 剩余预算，见 AR6 第一工作组 SPM 头条声明、第 1 章图 1.16 与第 7 章。",
+        "f9 的平流层变冷/对流层变暖指纹与太阳活动无法解释近几十年升温，属气候检测归因的教科书结论，未逐条附 URL；f2、f12 为通俗化表述，故 confidence 记 medium。"
+      ],
+      "summary": "十二项事实的年份、数值与机制均与 IPCC 第六次评估报告及原始文献一致，未发现需要改动之处。"
+    },
+    {
+      "id": "world-myth-arthur",
+      "status": "verified",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "medium"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "supported", "confidence": "high"},
+        {"id": "f11", "verdict": "supported", "confidence": "medium"},
+        {"id": "f12", "verdict": "supported", "confidence": "medium"}
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "《不列颠史》十二战与巴登山、'dux bellorum'非国王，见 De Gruyter 亚瑟研究章节；《威尔士编年史》516/537 两条与'Arthur et Medraut corruere'见罗切斯特大学卡美洛文本页；吉尔达斯提巴登山而不提亚瑟见 Taylor & Francis 导论。",
+        "杰弗里 1136 年本、克雷蒂安五部传奇、罗伯特·德·博龙、武加大版五部散文传奇、马洛里 1470/1485 年，分别据 BBC Wales、Taylor & Francis 作者条目、BnF 目录、剑桥 Companion 与 Google Books 版本信息核对。",
+        "1191 年格拉斯顿伯里'发现'与 1184 年大火后重建募款的关系，见 BBC 与 Science 对雷丁大学项目的报道；'遗骨下落不明'指 1539 年修道院解散后的情况。f6 的'续成'是通俗说法，罗伯特实际另写《约瑟·亚利马太》等圣杯传奇，并非逐字续写克雷蒂安残篇，因不改变主旨未单列 issue。"
+      ],
+      "summary": "亚瑟从战报到小说的文献链完整，年代与作者归属均可核实，仅个别措辞偏通俗。"
+    },
+    {
+      "id": "w4-wh-wars-un-cold-war",
+      "status": "verified",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "medium"},
+        {"id": "f10", "verdict": "supported", "confidence": "high"},
+        {"id": "f11", "verdict": "supported", "confidence": "high"},
+        {"id": "f12", "verdict": "supported", "confidence": "high"}
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "旧金山会议 1945 年 4 月 25 日开幕、46 国参加、最终 50 国签署、会期约两个月，见《纽约时报》存档与人民日报党史版；否决权公式在 1945 年 2 月雅尔塔会议确定。",
+        "1950 年苏联因中国代表权缺席安理会、安理会 6 月 25 日至 7 月 7 日连过第 82/83/84 号决议，见联合国大学案例库；第 2758 号决议文本见中国常驻日内瓦代表团网站；秘书长按《宪章》第 97 条由安理会推荐、大会任命，见联合国秘书长任命页。",
+        "维和三原则以联合国维和部官方图示为准（同意、公正、除自卫和授权外不使用武力）；fact 中'中立'是中文常见旧译，现行原则用'公正'（impartiality），不影响史实判断。"
+      ],
+      "summary": "联合国成立、否决权、朝鲜战争、第 2758 号决议与维和原则均可核实，未发现事实错误。"
+    },
+    {
+      "id": "world-myth-osiris",
+      "status": "verified",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "medium"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "medium"},
+        {"id": "f10", "verdict": "supported", "confidence": "high"},
+        {"id": "f11", "verdict": "supported", "confidence": "high"},
+        {"id": "f12", "verdict": "supported", "confidence": "medium"}
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "普鲁塔克《论伊西斯与奥西里斯》第 18 章十四块与生殖器被鱼吞食，见 Loeb 古典丛书原文；乌纳斯金字塔（约前 2375–2345 年）首刻金字塔文、283 篇咒语，见埃及旅游与文物部专页；科伊亚克节与'谷木乃伊'见圣保罗大学期刊论文。",
+        "《亡灵书》'一百九十余篇'为学界常用统计（约 192 篇）；《阿尼纸草》约前 1250 年、第十九王朝，见互联网档案馆影写本说明；称心仪式见《亡灵书》第 125 篇与第 19 咒。",
+        "f9 的卡、巴、阿克三分与 f12 的希罗多德卷二第 123 节灵魂轮回说，属埃及学与古典学通说，未逐条附 URL，故 confidence 记 medium。"
+      ],
+      "summary": "奥西里斯神话的文献来源、仪式与《亡灵书》细节均可核实，未发现需要改动之处。"
+    },
+    {
+      "id": "w2-cn-history-sui-granary",
+      "status": "verified",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "medium"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "medium"},
+        {"id": "f6", "verdict": "supported", "confidence": "medium"},
+        {"id": "f7", "verdict": "supported", "confidence": "medium"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "supported", "confidence": "medium"},
+        {"id": "f11", "verdict": "supported", "confidence": "high"},
+        {"id": "f12", "verdict": "supported", "confidence": "medium"}
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "含嘉仓探出 287 座窖穴、发掘 40 余座、口径 10–16 米（最大 18 米）、深 7–9 米（最深 12 米），铭砖记仓窖位置、租粮来源、入窖年月、授领粟官与调露/天授/长寿/圣历/开元纪年，储糙米、粟、小豆，见《洛阳隋唐含嘉仓的发掘》及新浪转载的考古报道。",
+        "洛口仓'城周二十余里，穿三千窖，窖容八千石'出《隋书》；《隋书·食货志》'死者相枕，臭秽盈路'为征高句丽运粮语；通济渠、永济渠各发百余万男女见《文献通考》卷二十五；李密开仓'恣民所取'见《资治通鉴》。",
+        "f3、f5、f6、f7、f10 属制度性概括，无单一出土材料可逐条对证，按隋唐仓储、漕运与役法研究的一般结论判 supported（medium）。"
+      ],
+      "summary": "隋代粮仓的考古数据、运河征役与瓦岗军开仓等均可核实，制度性描述也与研究共识相符。"
+    },
+    {
+      "id": "cn-geo-tibet",
+      "status": "verified",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "medium"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "medium"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "supported", "confidence": "high"},
+        {"id": "f11", "verdict": "supported", "confidence": "medium"}
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "平均海拔 4000 米以上、面积约 250 万平方公里、地壳厚度可达 80 公里，见中科院青藏高原研究所科普页；'六十至七十公里'取常用估值，另见 CNKI 摘要。",
+        "喜马拉雅南坡最大降水带 2000–2400 毫米、北麓雨影区不足 300 毫米，见生态学报论文与 OSGeo 资料；'感热气泵'与无高原时长江流域干旱少雨的数值试验，见吴国雄团队综述与 CNKI 摘要。",
+        "f3 的'约八百万年以来加速抬升'是经典假说，具体年代仍有争议；f11 黄土物源取'青藏高原东北部为主要源区、黄河搬运'的研究结论，故这两条 confidence 记 medium。"
+      ],
+      "summary": "青藏高原的隆升、雨影、季风热力作用、冻土与峡谷数据均有中文文献支撑，仅年代与物源细节存在学术争议。"
+    },
+    {
+      "id": "w3-cn-history-dadu-grain",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "medium"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "imprecise", "confidence": "high", "issue": "issue-01"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "medium"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "supported", "confidence": "high"},
+        {"id": "f11", "verdict": "supported", "confidence": "high"}
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f4",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "至元年间，伯颜采纳罗璧、朱清、张瑄的建议，开辟海运。",
+          "problem": "创议者是伯颜而非罗璧等三人。《元史·食货志》记至元十九年伯颜'追忆海道载宋图籍之事，以为海运可行'，奏请朝廷后，才命上海总管罗璧、朱清、张瑄等造平底海船六十艘；三人是奉命造船、领运的执行者，不是建议者。",
+          "correction": "至元年间，伯颜追忆海道载宋图籍旧事，奏请开辟海运，命罗璧、朱清、张瑄造平底海船：粮船从刘家港出海，沿黄海北上，绕过山东半岛，到直沽卸粮。海运成本低于河运，逐渐成为南粮北运的主力。",
+          "evidence": [
+            {"title": "《元史·食货志·海运》至元十九年伯颜请行海运条", "url": "https://www.shidianguji.com/mid-page/7697762020536565798", "quote": "至元十九年，伯颜追忆海道载宋图籍之事，以为海运可行，于是请于朝廷，命上海总管罗璧、朱清、张瑄等造平底海船六十艘"}
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "1267 年始建、1272 年命名大都、刘秉忠规划、郭守敬治水，见中国国家博物馆论文；'都城十万家'约 50 万口、1340 年'京师人烟百万'与海运最多一年 300 余万石，见元史研究综述。",
+        "至元十九年伯颜'追忆海道载宋图籍'、请行海运，命罗璧、朱清、张瑄造平底海船六十艘，见《元史·食货志》；三人是奉命执行而非创议者，故 f4 判 imprecise。",
+        "通惠河 1293 年完工、会通河山东段水源不足、元末方国珍与张士诚阻断海道，分别据国家图书馆、运河研究论文与《续文献通考》。"
+      ],
+      "summary": "元大都营建、漕运路线与元末粮荒均可核实；仅海运创议的归功对象需要改正。"
+    },
+    {
+      "id": "w4-cn-history-zouzhe-mizhe",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "imprecise", "confidence": "high", "issue": "issue-02"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "medium"},
+        {"id": "f6", "verdict": "supported", "confidence": "medium"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "medium"},
+        {"id": "f10", "verdict": "supported", "confidence": "high"},
+        {"id": "f11", "verdict": "imprecise", "confidence": "high", "issue": "issue-03"},
+        {"id": "f12", "verdict": "supported", "confidence": "medium"}
+      ],
+      "issues": [
+        {
+          "id": "issue-02",
+          "factId": "f1",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "奏本用于私事，由官员自己呈递。",
+          "problem": "奏本同样要经通政使司投进，并非官员自行呈递。《大清会典》载顺治二年令：'一切奏本，不分公私，俱赴通政司投进'；题本由通政司转内阁（通本），奏本也走通政司这一关，只是内容多为谢恩等私事。",
+          "correction": "清初上行文书沿明制，分题本与奏本：题本用于公事，盖官印，经通政司转内阁；奏本用于私事，也要投通政司转递，并非官员自呈。两者层层转递，抄写登记，速度慢，看的人也多。",
+          "evidence": [
+            {"title": "《大清会典》卷一百四十八·通政使司", "url": "https://www.shidianguji.com/zh/book/HY2645/chapter/1kr3jorx9u7ub", "quote": "一切奏本，不分公私，俱赴通政司投进"},
+            {"title": "光明日报：清代题本与奏本的公题私奏", "url": "https://epaper.gmw.cn/wzb/html/2018-08/25/nw.D110000wzb_20180825_2-05.htm", "quote": "题本……由通政使司转交内阁，故称通本"}
+          ]
+        },
+        {
+          "id": "issue-03",
+          "factId": "f11",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "乾隆后期，和珅当权，官员的奏折要先经过他的手，密折的保密性大打折扣。",
+          "problem": "奏折经奏事处呈进、由皇帝亲批，并非制度上先经和珅之手。嘉庆上谕列举的罪状是：和珅'于各路军营递到奏报，任意延阁，有心欺蔽'，又将'原奏駮回，隐匿不办'，即他延搁、驳压军报，而非所有奏折都须先过他这一关；原句把权臣干预写成了固定流程，程度过强。",
+          "correction": "乾隆后期，和珅当权，把持军机处，各路奏报被他任意延搁、驳压，密折的保密性大打折扣。信息通道一旦被权臣把持，皇帝再勤政，看到的也只是二手材料，甚至是被改过的材料。",
+          "evidence": [
+            {"title": "嘉庆上谕：和珅罪状（识典古籍）", "url": "https://www.shidianguji.com/mid-page/7556737439177326638", "quote": "和珅于各路军营递到奏报，任意延阁，有心欺蔽……将原奏駮回，隐匿不办"}
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "题本/奏本'公题私奏'与乾隆 1748 年废奏本，见《光明日报》文史版；但《大清会典》明载'一切奏本，不分公私，俱赴通政司投进'，故 f1 的'由官员自己呈递'不确。",
+        "康熙三十一年曹寅、李煦分任江宁、苏州织造并密报江南雨水、粮价、民情，见清史文章；雍正扩大具折范围至布政使、按察使、道员、知府、副将、参将，并要求履历折亲书，见中华文史网。",
+        "军机处 1729 年设'军机房'、1732 年改'办理军机处'，见故宫博物院院刊 PDF；光绪二十七年八月改题为奏见刘文华论文；和珅事见嘉庆上谕，仅能证明其延搁、驳压军报，不能证明所有奏折先经其手。"
+      ],
+      "summary": "清代奏折制度的起源、流程与终局均可核实；两处表述过强或与《会典》相悖，已给出修正。"
+    }
+  ]
+}

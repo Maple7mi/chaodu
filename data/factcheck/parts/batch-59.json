@@ -1,0 +1,289 @@
+{
+  "batch": "batch-59",
+  "checkedAt": "2026-11-18T03:02:00+08:00",
+  "dossiers": [
+    {
+      "id": "w5-psych-passion",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "medium"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "medium"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "supported", "confidence": "medium"},
+        {"id": "f9", "verdict": "supported", "confidence": "medium"},
+        {"id": "f10", "verdict": "imprecise", "confidence": "medium", "issue": "issue-01"},
+        {"id": "f11", "verdict": "supported", "confidence": "high"}
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f10",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "日记研究显示，激情在日级别上明显波动，与睡眠、压力、争吵和身体状态都有关",
+          "problem": "没有找到直接测量「激情爱」日级波动的日记研究；能查到的日记/密集追踪研究测的是关系满意度、关系压力、亲密感与睡眠的关联，把这些结果当成「激情」这一特定构念的日级波动，是构念替换，也把相关写成了「都有关」。",
+          "correction": "日记研究显示，关系里的满意度和情绪在日级别上明显波动，与睡眠、压力、争吵都有关。也就是说，某几周觉得「没感觉」，未必是关系趋势，可能只是这段时间太累、太忙。",
+          "evidence": [
+            {"title": "The Impact of Daily Romantic Relationship Stress on Objective and Subjective Sleep Quantity and Quality", "url": "https://link.springer.com/content/pdf/10.1007/s12119-025-10384-7.pdf", "quote": "determine how daily fluctuations in comprehensively assessed relationship stress in college couples predicts subjective and objective sleep duration and continuity"},
+            {"title": "Journal of Consulting and Clinical Psychology: couple relationship interventions", "url": "https://psycnet.apa.org/fulltext/2026-17551-002.pdf", "quote": "A series of meta-analyses indicate CREs are effective, but their pooled effects can be very small"}
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "sources 只给作者、年份与刊名，缺卷期页码；核对后 Sternberg 1986 为 Psychological Review 93(2):119–135，Fisher 等 2005 为 Journal of Comparative Neurology（DOI 10.1002/cne.20772），Aron 等 2000 为 JPSP 78(2):273–284，均与正文相符。",
+        "Berscheid & Walster 1978 一书只能查到书目，正文未从该书取到具体页码；激情爱/伴侣爱的二分在该书与 Hatfield 系列研究中均有，属学科共识而非某一句原文。",
+        "f3 的「婚后头几年与孩子出生后下降最陡」方向有 Tucker & Aron 1993（J Soc Clin Psychol 12(2):135）支持，但该研究样本为 59 对夫妻、只跨三个转变点，个体差异与效应量不宜写得比原文更硬。",
+        "f6 的「效应不大，但可重复」中「可重复」是作者在原文中的表述，独立重复研究结果并不一致，故只给 medium。"
+      ],
+      "summary": "爱情三角理论、fMRI 奖赏回路与共同新活动实验的年份、作者、期刊均可核；唯一需要改的是 f10 把「关系满意度/压力的日级波动」写成了「激情的日级波动」，已给出限定后的替换文本。"
+    },
+    {
+      "id": "w3-wh-revolutions-haitian-revolution",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "medium"},
+        {"id": "f3", "verdict": "imprecise", "confidence": "high", "issue": "issue-01"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "imprecise", "confidence": "high", "issue": "issue-02"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "supported", "confidence": "medium"},
+        {"id": "f11", "verdict": "supported", "confidence": "high"},
+        {"id": "f12", "verdict": "supported", "confidence": "high"}
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f3",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "1790年，自由有色人领袖樊尚·奥热在南部起事",
+          "problem": "地点错。奥热 1790 年 10 月返回圣多明各后，起事发生在北部省（卡普法兰西附近、Dondon 一带），不是南部；被镇压与处死在 1791 年，原文把起事与处死都放在 1790 年也易生歧义。",
+          "correction": "1790年10月，自由有色人领袖樊尚·奥热在北部省起事，要求执行法国国民议会授予有色人公民权的法令；起义很快被镇压，奥热次年被处死。这件事让奴隶看到，法律承诺可以随时被白人殖民者推翻。",
+          "evidence": [
+            {"title": "Wiley Encyclopedia: Oge's Revolt, 1790", "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/9781405198073.wbierp1122", "quote": "The 1790 rebellion of the free people of color of the northern province of Saint-Domingue (the modern Haiti) was the first organized outbreak of violence in what became the Haitian Revolution."},
+            {"title": "Laurent Dubois, Avengers of the New World (University of Chicago Press), ch. 2", "url": "https://degruyter.com/document/doi/10.7208/9780226675855-005/pdf", "quote": "Oge returned to Saint-Domingue in October 1790 and organized a short-lived uprising of the free-colored population in the northeast region of the colony."},
+            {"title": "Wikipedia: Vincent Ogé", "url": "https://en.wikipedia.org/wiki/Vincent_Og%C3%A9", "quote": "Born c. 1757 Dondon, Saint-Domingue ... Died February 6, 1791 ... Cap-Français ... People from Nord (Haitian department)"}
+          ]
+        },
+        {
+          "id": "issue-02",
+          "factId": "f8",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "1803年一度投降后重新开战",
+          "problem": "投降年份错。克里斯托夫 1802 年 2 月交出卡普法兰西，德萨林 1802 年 5 月向勒克莱尔投降，同年晚些时候两人重新起兵；1803 年是大规模反攻与法军撤离之年，不是投降之年。",
+          "correction": "1802年，德萨林与克里斯托夫一度向法军投降，同年秋重新开战；1803年底法军撤离，数千士兵死于疾病。1804年1月1日，德萨林在戈纳伊夫宣布独立，恢复「海地」这个原住民名称。",
+          "evidence": [
+            {"title": "Oxford Research Encyclopedia: The Leclerc Expedition to Saint-Domingue and the Independence of Haiti, 1802-1804", "url": "https://academic.oup.com/edited-volume/61800/chapter-abstract/546414970", "quote": "In December 1801, First Consul Napoleon Bonaparte sent a massive expedition to the French colony of Saint-Domingue ... His goal was to restore direct French rule and overthrow Toussaint Louverture"},
+            {"title": "Ambassade d'Haiti: 216e anniversaire de l'independance", "url": "https://www.haiti.org/a-loccasion-de-la-celebration-du-216eme-anniversaire-de-lindependance-dhaiti/", "quote": "le 1er janvier 1804, aux Gonaives ... Jean-Jacques Dessalines ... proclame l'independance d'Haiti"}
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "sources 三部（James 1938、Dubois 2004、Fick 1990）都只给书名年份，无页码；正文年份改用可检索的档案与百科条目核对。",
+        "f1 的人口数字：奴隶约 50 万、自由黑人约 3 万与 BlackPast 概览一致；自由有色人精确统计为 27,548 人（占 5.2%，Ghachem 引 1789 年数据），「约三万」可接受。",
+        "f7 的「1802 年派远征军」按决策时间应为 1801 年 12 月出发、1802 年 2 月登陆，原文以登陆年计，不算错但不精确。",
+        "f9 的 1825 年赔款为 1.5 亿法郎（1825 年 4 月 17 日查理十世敕令），后经 1838 年条约减为 9000 万法郎，正文只提 1825 年数额，未提减免，属省略而非错误。"
+      ],
+      "summary": "海地革命的主线年份（1791 起义、1794 废奴、1801 宪法、1802 远征、1803 撤离、1804 独立、1825 赔款、1862 承认）全部可核；两处需改：奥热起事在北部省而非南部，德萨林与克里斯托夫的投降在 1802 年而非 1803 年。"
+    },
+    {
+      "id": "cn-geo-three-gorges",
+      "status": "verified",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "medium"},
+        {"id": "f2", "verdict": "supported", "confidence": "medium"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "medium"},
+        {"id": "f10", "verdict": "supported", "confidence": "medium"},
+        {"id": "f11", "verdict": "supported", "confidence": "medium"},
+        {"id": "f12", "verdict": "supported", "confidence": "medium"}
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "sources 为《长江志》《三峡工程阶段性评估报告》《长江流域综合规划》，均无卷次页码；关键工程数字改以公开论文与官方通稿核对。",
+        "f4 的「坝顶高一百八十五米」是坝顶高程 185 m（最大坝高 181 m），中文常混用；原文说法与英文文献 dam crest level is 185 m 一致，故不改。",
+        "f1 的「江面最窄处不足百米」为瞿塘峡段惯用说法，「最深处超过一百米」只查到库区最大水深约 170 m 与峡谷段深槽的描述，未逐段核实，故给 medium。",
+        "f6 的「世界上装机容量最大的水电站」按 2250 万 kW 仍成立（白鹤滩 1600 万 kW），「年发电量约一千亿千瓦时」为多年平均值，2020 年曾达约 1118 亿 kWh。"
+      ],
+      "summary": "三峡的峡谷长度、三个峡名、1994 开工与 2006 建成、185 m 坝顶与 175 m 蓄水位、221.5 亿 m³ 防洪库容与荆江防洪标准、2250 万 kW 装机、130 万移民、五级船闸与 2011 年亿吨货运量均可核，未发现需要改写的断言。"
+    },
+    {
+      "id": "w3-psych-empathy-accuracy",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "imprecise", "confidence": "high", "issue": "issue-01"},
+        {"id": "f3", "verdict": "supported", "confidence": "medium"},
+        {"id": "f4", "verdict": "supported", "confidence": "medium"},
+        {"id": "f5", "verdict": "supported", "confidence": "medium"},
+        {"id": "f6", "verdict": "supported", "confidence": "medium"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "supported", "confidence": "medium"},
+        {"id": "f9", "verdict": "supported", "confidence": "medium"},
+        {"id": "f10", "verdict": "supported", "confidence": "high"},
+        {"id": "f11", "verdict": "supported", "confidence": "medium"},
+        {"id": "f12", "verdict": "supported", "confidence": "high"}
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f2",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "再由旁观者逐句判断说话人此刻的想法",
+          "problem": "方法写反了。艾克斯范式的做法是：对话双方事后各自回看录像，逐句写下自己当时在想什么、感觉什么；再由独立评分者把「猜测方写下的推断」与「对方自述的内容」比对打分。不是旁观者去判断说话人的想法，被判断的内容来自当事人本人。",
+          "correction": "艾克斯的研究让刚认识的两人对话，事后各自回看录像、逐句写下当时所想，再由评分者比对猜中多少。结果准确率高于随机，远谈不上读心；更关键的是，当事人自评的准确度与实测准确度几乎不相关。",
+          "evidence": [
+            {"title": "Ickes, W. (1993). Empathic accuracy. Journal of Personality 61(4):587-610", "url": "https://onlinelibrary.wiley.com/doi/10.1111/j.1467-6494.1993.tb00783.x", "quote": "Empathic Accuracy, Journal of Personality, Volume 61, issue 4, 1993, Page 587-610"},
+            {"title": "Sampalis, Perceived versus Target-Scored Empathic Accuracy (preprint, literature review)", "url": "https://zenodo.org/records/23667351/files/Sampalis_Empathic_Accuracy_Psychedelics_REVISED206_preprint_with_figures.pdf", "quote": "In a dyadic interaction study, self-report measures of empathic skills and of EA did not predict measured EA (Ickes et al., 1990)."},
+            {"title": "Wikipedia: Empathic accuracy（dyadic interaction paradigm，引 Ickes et al. 1990）", "url": "https://en.wikipedia.org/wiki/Empathic_accuracy", "quote": "The videotape is paused for the perceiver at each of the points at which a target person on the videotape had reported having a specific thought or feeling, and the perceiver writes down the thought or feeling."}
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "sources 三条书目信息准确：Ickes 1993 为 Journal of Personality 61(4):587–610；Eyal, Steffel & Epley 2018 为 JPSP 114(4):547–571（DOI 10.1037/pspa0000115），该文报告 25 个实验，结论是「被要求换位思考」并不稳定提高准确度。",
+        "f6 把「更依赖整体印象式判断」归给 Eyal 等 2018，方向与该文对 perspective mistaking 的论述一致，但「整体印象/刻板印象替代具体处境」的机制在该文中是解释之一而非单一主结论，故给 medium。",
+        "f12 的「正相关但方向不清」有综述支持（共情准确度与婚姻质量/满意度正相关），原文已自我限定，未过度断言。"
+      ],
+      "summary": "共情准确度的两位核心作者与两项核心研究（Ickes 1993、Eyal 等 2018）均可核，自信与准确脱节、换位思考不等于更准这两条也有文献支撑；需改的是 f2 对艾克斯范式的方法描述，把「旁观者判断」改回「当事人自述＋评分者比对」。"
+    },
+    {
+      "id": "w3-geo-world-upwelling-fishery",
+      "status": "verified",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "medium"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "medium"},
+        {"id": "f8", "verdict": "supported", "confidence": "medium"},
+        {"id": "f9", "verdict": "supported", "confidence": "medium"},
+        {"id": "f10", "verdict": "supported", "confidence": "high"},
+        {"id": "f11", "verdict": "supported", "confidence": "medium"},
+        {"id": "f12", "verdict": "supported", "confidence": "medium"}
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "sources 的 Barber & Chavez 1991（Nature）与 Chavez 等 2008（Progress in Oceanography）是秘鲁上升流与厄尔尼诺-渔业关系的经典文献，正文未逐句引自原文，具体数值另用 2025 年 ICES 综述核对。",
+        "f4「曾是世界最大的单一鱼种渔业之一」为概称：秘鲁凤尾鱼长期位居单鱼种渔获量前列，但年度第一常与智利竹筴鱼等交替，用「之一」是稳妥写法。",
+        "f8 的缺氧区与上升流共生、暖年更严重，属海洋学共识，但「鱼群被挤到浅层、更易崩溃」是机制推断而非某单一实测结论，故给 medium。",
+        "f9 的「预报窗口只有几个月」与秘鲁 IMARPE 的业务实践一致；ENSO 预报在增暖季确有 spring predictability barrier，几个月是合理表述。"
+      ],
+      "summary": "上升流的物理机制、四大典型海域、短食物链、秘鲁凤尾鱼在厄尔尼诺年崩溃、本格拉系统与纳米布沙漠、以及「上升流趋势区域差异大」均可核，未发现需要改写的断言。"
+    },
+    {
+      "id": "w4-geo-cn-double-season-rice",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "medium"},
+        {"id": "f2", "verdict": "imprecise", "confidence": "high", "issue": "issue-01"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "medium"},
+        {"id": "f6", "verdict": "supported", "confidence": "medium"},
+        {"id": "f7", "verdict": "supported", "confidence": "medium"},
+        {"id": "f8", "verdict": "supported", "confidence": "medium"},
+        {"id": "f9", "verdict": "supported", "confidence": "medium"},
+        {"id": "f10", "verdict": "supported", "confidence": "medium"},
+        {"id": "f11", "verdict": "supported", "confidence": "high"},
+        {"id": "f12", "verdict": "supported", "confidence": "high"}
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f2",
+          "severity": "major",
+          "verdict": "imprecise",
+          "claim": "双季稻需要五千度以上的活动积温……这条线大致沿着南岭和武夷山走",
+          "problem": "两处不准。一是阈值偏低：文献以 ≥10℃ 活动积温 5300℃·d 作为双季稻安全种植北界（可种范围 4500–7000），「五千度以上」把北界画到了热量不足的一侧。二是界线位置错：这条北界大致沿长江，20 世纪 60—80 年代限于长江以南，变暖后已北移到长江以北；南岭与武夷山是双季稻的稳定种植区，不是北界。",
+          "correction": "双季稻需要五千三百度以上的活动积温，北界大致沿长江走，长江以南才稳妥。往北走，晚稻还没灌浆完就遇上低温，空壳率上升；山高一点、海拔升几百米，就只够种一季。",
+          "evidence": [
+            {"title": "中国生态农业学报：长江中下游双季稻种植北界与积温", "url": "https://www.cje.net.cn/CN/article/downloadArticleFile.do?attachType=PDF&id=3892", "quote": "5300℃·d 是双季稻的安全种植北界"},
+            {"title": "气候变化研究进展（2011）：气候变暖对我国南方水稻可种植区的影响", "url": "http://dianda.cqvip.com/Qikan/Article/Detail?id=38734642", "quote": "20世纪60—80年代，双季稻可种植区仅限于长江以南地区，但21世纪初以来的10年双季稻可种植区北界移到长江以北，即向北推移近300 km"}
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "sources 三种（丁颖《中国水稻栽培学》1961、中国水稻研究所区划、统计年鉴）均无页码；关键阈值改用期刊论文核对。",
+        "f4 的「气温低于十二度秧苗就烂」与农业气象指标一致：连续 3 天以上日平均气温 ≤12℃ 作为早稻烂秧指标；f3 的寒露风以连续 3 天以上日平均气温 ≤21℃ 作晚稻抽穗扬花受害指标，原文未给 21℃ 但方向正确。",
+        "f8「双季稻比单季多一倍用工」有成本调查支持（2012 年双季稻劳动用工约 10470 元/hm²，中稻约 5592 元/hm²），但「净收益反而高」在部分调查中并不成立（同组数据里双季稻纯收益高于中稻），故只给 medium。"
+      ],
+      "summary": "双抢时序、寒露风与烂秧的温度指标、育秧与秧龄、直播利弊、稻田甲烷与稻飞虱桥梁田均有依据；唯一硬伤是 f2 把双季稻北界说成「五千度、沿南岭武夷山」，实际是 5300℃·d、沿长江。"
+    },
+    {
+      "id": "w5-myth-compare-trickster",
+      "status": "verified",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "medium"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "medium"},
+        {"id": "f7", "verdict": "supported", "confidence": "medium"},
+        {"id": "f8", "verdict": "supported", "confidence": "medium"},
+        {"id": "f9", "verdict": "supported", "confidence": "medium"},
+        {"id": "f10", "verdict": "supported", "confidence": "high"},
+        {"id": "f11", "verdict": "supported", "confidence": "medium"}
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "Radin, The Trickster 版本可核：1956 年由 Philosophical Library（另有 Bell Pub. Co. 印次）出版，xi+211 页，副题 A Study in American Indian Mythology，主体为温尼贝戈（Winnebago）文本，附 Kerényi 与 Jung 的评论。",
+        "f3 的洛基谱系与结局（巨人血缘、与奥丁结为血兄弟、害死巴德尔后被绑在岩石上、诸神黄昏挣脱）与《散文埃达》一致；「十三世纪斯诺里·斯图鲁松」的归属正确。",
+        "f4 的「从天空神那里买来所有故事」对应阿肯神话中 Anansi 向 Nyame 购得故事、故称 anansesem（蜘蛛故事）的情节；「阿南西的故事」是意译，阿肯语原词为 anansesem。",
+        "f11 的讲述场合限制（郊狼故事在某些族群限冬季讲）属民族志记载的局部规范，原文用「某些族群」已作限定，未普遍化。"
+      ],
+      "summary": "拉丹 1956 的《骗子》、洛基的埃达文本与结局、阿南西的购故事母题与跨大西洋传播（Anancy / Anansi Tori）、以及现代改编（Marvel 洛基、盖曼《蜘蛛男孩》）均可核，未发现需要改写的断言。"
+    },
+    {
+      "id": "w2-cn-history-wudai-warlords",
+      "status": "verified",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "supported", "confidence": "medium"},
+        {"id": "f11", "verdict": "supported", "confidence": "high"},
+        {"id": "f12", "verdict": "supported", "confidence": "high"}
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "f11 引文核对：《新五代史·安重荣传》原文作「天子宁有种邪？兵强马壮者为之尔」，安重荣时为后晋成德军节度使，与正文一致（正文用「耶」「耳」为常见异写，不改）。",
+        "f9 的柴荣卒年：《旧五代史》系于显德六年（959）六月，年三十九；生 921 年、卒 959 年，按虚岁三十九成立。",
+        "f7 的后汉纪年有 947—950（隐帝被杀、后汉亡）与 947—951（郭威称帝）两种算法，正文「仅四年」取后者，且「五代中最短的王朝之一」用「之一」留了余地。",
+        "sources 仅列正史卷次与陶懋炳《五代史略》，未给页码；制度性叙述（牙兵、养子、拥立程序）属史学界通行解释，未逐条追到页码。"
+      ],
+      "summary": "五代起止（907—960，五十三年）、朱温起家、魏博牙兵、李存勖兴教门之变、李嗣源养子身份、石敬瑭割燕云、后汉短命、郭威与柴荣、陈桥兵变、安重荣名句、宋初收兵权，全部与正史及通行史著相符，未发现需要改写的断言。"
+    }
+  ]
+}

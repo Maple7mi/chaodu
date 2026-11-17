@@ -1,0 +1,254 @@
+{
+  "batch": "batch-24",
+  "checkedAt": "2026-11-18T02:25:00+08:00",
+  "dossiers": [
+    {
+      "id": "psych-u-curve",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "imprecise", "confidence": "high", "issue": "issue-01"},
+        {"id": "f5", "verdict": "supported", "confidence": "medium"},
+        {"id": "f6", "verdict": "supported", "confidence": "medium"},
+        {"id": "f7", "verdict": "supported", "confidence": "medium"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "medium"},
+        {"id": "f10", "verdict": "supported", "confidence": "medium"},
+        {"id": "f11", "verdict": "supported", "confidence": "medium"}
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f4",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "卡尔尼与布拉德伯里1995年的元分析把婚姻满意度的变化放进更大的背景",
+          "problem": "研究类型写错了。Karney & Bradbury (1995) 是一篇系统综述（PubMed 标注 Review），回顾并评估 115 项纵向研究、逾 4.5 万对婚姻，并未把各研究的效果量合并成单一统计估计；把它称作“元分析”抬高了方法层级。该文关于“平均缓慢下降、个体差异极大”的概括本身与原文一致。",
+          "correction": "卡尔尼与布拉德伯里1995年系统综述115项纵向研究、逾4.5万对婚姻，发现满意度平均呈缓慢下降，但个体差异极大：有的关系长期稳定，有的在几年内急剧恶化。",
+          "evidence": [
+            {"title": "Karney & Bradbury (1995), Psychological Bulletin 118(1):3–34 (PubMed record)", "url": "https://pubmed.ncbi.nlm.nih.gov/7644604/", "quote": "the authors reviewed and evaluated the literature on how the quality and stability of marriages change over time ... the methods and findings of 115 longitudinal studies--representing over 45,000 marriages--are summarized and evaluated"}
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "Rollins & Feldman (1970) 原刊 Journal of Marriage and the Family 32(1): 20–28；Citation Classic 摘要把最低点放在养育依赖子女的阶段，f1 的 U 型概括成立。",
+        "VanLaningham 等 (2001) 使用 1980–1997 年五波全国面板（17 年），固定效应模型发现各婚龄段均下降、无晚年回升，f3 的“近二十年五轮”与结论一致。",
+        "Gorchoff 等 (2008) 的 18 年纵向研究支持空巢后满意度上升，机制是更享受共处时间而非时间量增加，与 f8 方向一致。",
+        "f6 的“家务分工公平”由多项过渡期研究支持，但 Doss 等 (2009) 本身主要检验睡眠干扰，未把它作为主效应。"
+      ],
+      "summary": "年份、样本量与三条主结论都对得上；唯一的问题是 f4 把一篇系统综述写成“元分析”，已给更准确的表述。"
+    },
+    {
+      "id": "w1-psych-memory",
+      "status": "verified",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "medium"},
+        {"id": "f8", "verdict": "supported", "confidence": "medium"},
+        {"id": "f9", "verdict": "supported", "confidence": "medium"},
+        {"id": "f10", "verdict": "supported", "confidence": "high"},
+        {"id": "f11", "verdict": "supported", "confidence": "high"},
+        {"id": "f12", "verdict": "supported", "confidence": "medium"}
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "Loftus & Palmer (1974) 实验一：“smashed”组平均估计 40.8 mph，“hit”组 34.0 mph；实验二一周后“smashed”组 16/50 报告碎玻璃，而实际没有碎玻璃。",
+        "Bartlett (1932) 的“鬼战”复述实验支持图式重建说；Weiss (1980) 提出 sentiment override；Kahneman 等 (1993) 的冷水实验支持峰终定律。",
+        "f12 是操作建议而非实证命题，按“与证据方向一致的实践建议”判 supported。"
+      ],
+      "summary": "四条经典研究（Bartlett、Loftus & Palmer、Weiss、Kahneman）的年份、作者与结论均无误，其余为有文献依据的概括或实践建议。"
+    },
+    {
+      "id": "world-myth-gilgamesh",
+      "status": "verified",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "supported", "confidence": "high"},
+        {"id": "f11", "verdict": "supported", "confidence": "high"},
+        {"id": "f12", "verdict": "supported", "confidence": "high"}
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "标准巴比伦版 12 块泥板、约 3,000 行、Sin-leqi-unninni 约前 1200 年编定，见 Illinois 课程讲义与中文百科。",
+        "苏美尔语短诗约前 2100 年（乌尔第三王朝）；《苏美尔王表》给 Gilgamesh 126 年；Tablet VII 记 Enkidu 病 12 昼夜而死。",
+        "2011 年 Sulaymaniyah 博物馆购得的 Tablet V 泥板补出约 20 行，来源不明，学界对归属与合法性仍有讨论。"
+      ],
+      "summary": "十二块泥板、三千行、1872 年 Smith 破译、恩基杜十二日而死、2011 年第五块泥板等关键数字与专名均可核实，未见实质错误。"
+    },
+    {
+      "id": "w3-wh-discovery-magellan",
+      "status": "verified",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "medium"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "supported", "confidence": "high"},
+        {"id": "f11", "verdict": "supported", "confidence": "high"},
+        {"id": "f12", "verdict": "supported", "confidence": "medium"}
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "Britannica：1519-09-20 从 Sanlúcar 出发，5 船、约 270 人；Santiago 1520-05-22 在 Santa Cruz 失事，San Antonio 同年 10 月擅自返航。",
+        "海峡 1520-10-21 进入、38 天后驶出；Victoria 1522-09-06 返抵，18 人。日期少一天见 Pigafetta 记录与后来的日期变更线讨论。",
+        "f7 的财务说法有旧著“丁香售款抵付全航”与现代估计（约 533 担丁香售得 9,360,000 maravedís，约 4% 盈余）两套版本，故只判 supported/medium。"
+      ],
+      "summary": "船数、人数、日期、海峡与生还人数均与航海史资料一致；财务一条因估算口径不同保留中等置信度。"
+    },
+    {
+      "id": "w3-psych-mindfulness-evidence",
+      "status": "verified",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "medium"},
+        {"id": "f8", "verdict": "supported", "confidence": "medium"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "supported", "confidence": "high"},
+        {"id": "f11", "verdict": "supported", "confidence": "medium"},
+        {"id": "f12", "verdict": "supported", "confidence": "high"}
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "Goyal 等 (2014) 汇总 47 项 RCT；MYRIAD 为 84 所学校、8,376 名学生，1 年随访无显著差异（部分报道作 85 所）。",
+        "MBCT 对 3 次以上发作者的复发预防与维持用药非劣，见 PREVENT 试验与 NICE NG222 草案。",
+        "f7、f10 关于应用类产品缺少师资、剂量与纠错环节的判断，与现有 MBSR/app 研究的描述一致。"
+      ],
+      "summary": "47 项试验、84 所学校、8,376 名学生等数字与主要结论均对得上；其余为与证据方向一致的概括。"
+    },
+    {
+      "id": "w3-geo-world-thermohaline",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "imprecise", "confidence": "high", "issue": "issue-01"},
+        {"id": "f10", "verdict": "supported", "confidence": "high"},
+        {"id": "f11", "verdict": "supported", "confidence": "high"},
+        {"id": "f12", "verdict": "supported", "confidence": "medium"}
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f9",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "多项重建估计二十世纪以来翻转环流减弱了约百分之十五",
+          "problem": "起算时间写早了。Caesar 等 (2018) 的估计是 AMOC 自二十世纪中叶（mid-twentieth century）以来减弱约 3±1 Sv、约 15%，不是自 1900 年以来；把起点提前约半个世纪会夸大减弱的持续时间。IPCC SROCC 对量级仍持保留态度，因此“约 15%”应保留“部分重建/估计”的限定。",
+          "correction": "多项重建估计自二十世纪中叶以来翻转环流减弱约百分之十五（约三斯维德鲁普），但代理指标误差很大；IPCC评估认为本世纪很可能继续减弱，崩溃证据不足。",
+          "evidence": [
+            {"title": "Caesar et al. (2018), Observed fingerprint of a weakening Atlantic Ocean overturning circulation, Nature 556:191–196", "url": "https://publications.pik-potsdam.de/pubman/faces/ViewItemFullPage.jsp?itemId=item_22351_6", "quote": "Here we provide evidence for a weakening of the AMOC by about 3 ± 1 sverdrups (around 15 per cent) since the mid-twentieth century."}
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "RAPID 自 2004 年、OSNAP 自 2014 年连续监测；26.5°N 向北热输送约 1.18–1.22 PW。",
+        "IPCC SROCC 认为 AMOC 相对 1850–1900 已减弱（中等信度），但数据不足以量化，21 世纪崩溃“very unlikely”。",
+        "海洋碳 38,000 GtC，约为大气的 40–50 倍（NOAA 取 50，Nature Geoscience 2023 取 40），f5 的“四十多倍”在区间内。"
+      ],
+      "summary": "环流机制、观测阵列与古气候事件均无误；f9 把“二十世纪中叶以来”写成“二十世纪以来”，已给修正文本。"
+    },
+    {
+      "id": "w5-myth-africa-siberia-bear",
+      "status": "verified",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "medium"},
+        {"id": "f5", "verdict": "supported", "confidence": "medium"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "supported", "confidence": "medium"},
+        {"id": "f11", "verdict": "supported", "confidence": "medium"},
+        {"id": "f12", "verdict": "supported", "confidence": "medium"}
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "Hallowell (1926) 的“环北极熊崇拜”比较研究；汉特/曼西材料见 HAL 论文与 Kazym 起义研究。",
+        "阿伊努 iyomante 于 1955-03-10 被北海道通達禁止，2007 年撤回；苏联时期熊节转入党派秘密举行。",
+        "“连续七个冬天、停七年、熊皮存圣库”见 Golodova medvedya 博物馆条目；各地做法并不统一。"
+      ],
+      "summary": "哈洛韦尔 1926、阿伊努 1955 年禁令、苏联时期压制与七冬一轮的民族志记录均可核实，未见实质错误。"
+    },
+    {
+      "id": "w2-myth-india-ramayana-hanuman",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "wrong", "confidence": "high", "issue": "issue-01"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "supported", "confidence": "high"},
+        {"id": "f11", "verdict": "supported", "confidence": "medium"},
+        {"id": "f12", "verdict": "supported", "confidence": "high"}
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f8",
+          "severity": "major",
+          "verdict": "wrong",
+          "claim": "泰国的《拉玛坚》、柬埔寨的《林伽》、爪哇的《罗摩衍那》、马来《室利罗摩传》都重写了它",
+          "problem": "柬埔寨版本的专名写错了。柬埔寨的罗摩衍那改写本叫 Reamker（高棉语 Rāmakerti，常译《里姆克尔》/《罗摩之光》），不是《林伽》（Linga）。《林伽》指湿婆林伽崇拜，与这部史诗无关；这一错误会让读者误以为柬埔寨版本是另一部作品。",
+          "correction": "《罗摩衍那》随商路与婆罗门传教进入东南亚，泰国《拉玛坚》、柬埔寨《里姆克尔》（Reamker）、爪哇《卡卡温罗摩衍那》、马来《室利罗摩传》都重写了它；哈奴曼在这些版本里常变成好色顽皮的角色。",
+          "evidence": [
+            {"title": "Reamker (Ramakerti), the Cambodian version of the Ramayana: a review article, Journal of the Royal Asiatic Society", "url": "https://www.cambridge.org/core/journals/journal-of-the-royal-asiatic-society/article/abs/reamker-ramakerti-the-cambodian-version-of-the-ramayana-a-review-article/95EA8AFDE9AF2E63459D9330C098A0C1", "quote": "Reamker (Ramakerti), the Cambodian version of the Ramayana: a review article"},
+            {"title": "Reamker, the best-known Cambodian version of the Ramayana (Shodhganga)", "url": "https://shodhganga.inflibnet.ac.in/bitstream/10603/536759/5/ch-2.pdf", "quote": "Reamker ('Honour of Rama') is the best-known Cambodian version of the Ramayana"}
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "Valmiki 本现存约 24,000 颂、七篇；《美妙篇》几乎全写哈奴曼；《哈奴曼四十颂》确为 40 颂。",
+        "柬埔寨版本为 Reamker/Rāmakerti；泰 Ramakien、爪哇 Kakawin Ramayana、马来 Hikayat Seri Rama 均成立。",
+        "佛教《十车王本生》记罗摩与悉多为兄妹、流放 12 年；耆那教版本中罗波那为有德行的对手。"
+      ],
+      "summary": "篇数、颂数、哈奴曼情节与东南亚各版本大体正确；f8 把柬埔寨版本误写成《林伽》，已给修正文本。"
+    }
+  ]
+}

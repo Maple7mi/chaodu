@@ -1,0 +1,294 @@
+{
+  "batch": "batch-10",
+  "checkedAt": "2026-11-18T02:31:00+08:00",
+  "dossiers": [
+    {
+      "id": "world-history-print",
+      "status": "verified",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "medium"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "medium"},
+        {"id": "f10", "verdict": "supported", "confidence": "medium"},
+        {"id": "f11", "verdict": "supported", "confidence": "medium"},
+        {"id": "f12", "verdict": "supported", "confidence": "high"}
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "f1 的初版印数有 158 部与 180 部两种记载，原文取后者属常见说法；现存 49 部、其中 21 部完整。",
+        "f4 的城镇数在 ISTC 统计中为 261 处、另有 282 处之说，累计版本约 2.85 万–3 万种，原文的 250 个城镇与 2.7 万种略保守但在同一量级。",
+        "f6 的「五分之一」取自 Edwards 对 1518–1525 年德意志小册子的统计，另有估计到四分之一。"
+      ],
+      "summary": "印刷术专题十二条均可由书目学、教会史与科学史来源支撑，仅有计数口径差异，记入注释。"
+    },
+    {
+      "id": "w2-wh-islamic-crusade-byzantium",
+      "status": "corrected",
+      "confidence": "medium",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "imprecise", "confidence": "medium", "issue": "issue-01"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "supported", "confidence": "medium"},
+        {"id": "f11", "verdict": "supported", "confidence": "medium"},
+        {"id": "f12", "verdict": "supported", "confidence": "medium"}
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f5",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "第一次十字军建立的几个国家——耶路撒冷王国、安条克公国、埃德萨伯国、的黎波里伯国——名义上承认拜占庭的宗主权，实际上各自为政。",
+          "problem": "「名义上承认拜占庭宗主权」只对安条克成立：1108 年《德沃尔条约》规定博希蒙德臣属皇帝、安条克成为拜占庭附庸，且从未真正执行；耶路撒冷、的黎波里、埃德萨从未向拜占庭称臣。原句把安条克一例推广到四国，也淡化了 1098 年十字军领袖背弃归还领土承诺这一冲突起点。",
+          "correction": "第一次十字军建立的耶路撒冷王国、安条克公国、埃德萨伯国、的黎波里伯国各自为政；只有安条克在个别条约中承认拜占庭的宗主权，多数国家并不接受这位远方宗主。",
+          "evidence": [
+            {
+              "title": "Andrew D. Buck, The Principality of Antioch and its Frontiers in the Twelfth Century, ch.6 Relations with Byzantium (CUP 2017)",
+              "url": "https://www.cambridge.org/core/books/abs/principality-of-antioch-and-its-frontiers-in-the-twelfth-century/relations-with-byzantium/43AD821F724D44448B3FBC8343CD6F18",
+              "quote": "When the leaders of the First Crusade reneged on an agreement to return Antioch and other former imperial possessions to Emperor Alexios I Komnenos in 1098, they set the soon-to-be-formed principality of Antioch on a collision course with Byzantium."
+            },
+            {
+              "title": "Treaty of Devol (1108)",
+              "url": "https://wwwencyclopedia.thefreedictionary.com/Treaty+of+Devol",
+              "quote": "Bohemond agreed to become a vassal of the emperor, and also of Alexios' son and heir John"
+            }
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "f8 的「六十年后」按 1204—1261 年实为 57 年，概述可接受。",
+        "f12 关于复国后依赖西方雇佣兵与热那亚海军的判断，与 14 世纪拜占庭军事史的一般叙述一致。"
+      ],
+      "summary": "十字军与拜占庭互疑的叙事基本成立；唯 f5 把安条克一例的宗主权推广到四国，已修正。"
+    },
+    {
+      "id": "w2-psych-family-parentification",
+      "status": "verified",
+      "confidence": "medium",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "medium"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "medium"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "medium"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "supported", "confidence": "medium"},
+        {"id": "f9", "verdict": "supported", "confidence": "medium"},
+        {"id": "f10", "verdict": "supported", "confidence": "medium"},
+        {"id": "f11", "verdict": "supported", "confidence": "medium"},
+        {"id": "f12", "verdict": "supported", "confidence": "medium"}
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "f1 的 parentification 术语由 Boszormenyi-Nagy 与 Spark 在 1973 年《Invisible Loyalties》中确立，但该词此前已在临床文献中零星出现，原文「用这个词」的措辞可接受。",
+        "f12 属干预建议而非实证结论，按临床共识与综述判为支持。"
+      ],
+      "summary": "亲职化的定义、工具性与情感性分类、条件性后果均有综述与实证研究支撑，属稳妥的临床科普表述。"
+    },
+    {
+      "id": "w5-psych-post-breakup-friends",
+      "status": "verified",
+      "confidence": "medium",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "medium"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "medium"},
+        {"id": "f5", "verdict": "supported", "confidence": "medium"},
+        {"id": "f6", "verdict": "supported", "confidence": "medium"},
+        {"id": "f7", "verdict": "supported", "confidence": "medium"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "medium"},
+        {"id": "f10", "verdict": "supported", "confidence": "medium"},
+        {"id": "f11", "verdict": "supported", "confidence": "medium"}
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "f1 的「比例不低」有 65%（曾有过分手后友谊，Bullock et al. 2011）与最高 83%（保持某种联系）两套自报数据，原文未给具体数值，表述稳妥。",
+        "f9 的「几个月到一年」是多项追踪研究给出的常见区间，个体差异确实很大；f10、f11 属建议性内容，无硬断言。"
+      ],
+      "summary": "分手后联系、复合与恢复期的表述与追踪研究及综述一致，未发现需要修正的硬断言。"
+    },
+    {
+      "id": "w1-geo-world-gulf-stream",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "imprecise", "confidence": "medium", "issue": "issue-01"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "medium"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "supported", "confidence": "medium"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "supported", "confidence": "high"},
+        {"id": "f11", "verdict": "supported", "confidence": "high"},
+        {"id": "f12", "verdict": "supported", "confidence": "medium"}
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f3",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "它的表层速度可达每秒两米，比长江的流速快一个量级。",
+          "problem": "错在量级比较：湾流表层流速约 1.8–2 米每秒，长江中下游流速也在 1–2 米每秒（平原河段一般不超过 2–3 米每秒），两者同量级；比长江大两个量级以上的是湾流的流量，不是流速。",
+          "correction": "湾流在哈特拉斯角离开海岸，转向东北，变成一条宽一百多公里、深一公里的急流。它的表层速度可达每秒两米，南北两缘的温差可达十摄氏度。",
+          "evidence": [
+            {
+              "title": "American Meteorological Society, Glossary of Meteorology: Gulf Stream",
+              "url": "https://glossary.ametsoc.org/wiki/gulf-stream/",
+              "quote": "surface speed about 1.8 m s−1"
+            },
+            {
+              "title": "长江航道局：流速常识（平原河流流速一般 2~3 m/s 以下）",
+              "url": "http://www.yrcp.com/wssd/gzjc/sll_gzjc/202506/t20250609_571485.html",
+              "quote": "平原河流由于河床纵坡平缓，所以水面比降一般较小，沿程分布变化也小，流速也相应较小，一般都在 2~3 m/s 以下。"
+            }
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "f1 的流量在佛罗里达海峡约 30 Sv，到哈特拉斯角为 70–100 Sv，原文取 90 Sv 在区间内。",
+        "f8 的末句已自行标注时间与幅度仍有争议，与新仙女木成因的主流讨论一致。"
+      ],
+      "summary": "湾流的路径、驱动、观测体系与气候预估均可核实；f3 的流速量级比较有误，已修正。"
+    },
+    {
+      "id": "cn-geo-canal",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "imprecise", "confidence": "high", "issue": "issue-01"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "supported", "confidence": "medium"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "supported", "confidence": "medium"},
+        {"id": "f11", "verdict": "supported", "confidence": "high"},
+        {"id": "f12", "verdict": "supported", "confidence": "high"}
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f1",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "它的走向后来基本被京杭运河继承。",
+          "problem": "本句主语就是京杭大运河，「它的走向后来基本被京杭运河继承」成了自我指涉的空话，疑为讲述隋唐运河旧线时残留的句子，既未提供新信息，也与前一句重复。",
+          "correction": "京杭大运河北起北京，南到杭州，全长约一千七百九十四公里，纵贯海河、黄河、淮河、长江、钱塘江五大水系，是世界上最长的人工运河，也是古代漕运的主干道。",
+          "evidence": [
+            {
+              "title": "人民网：京杭大运河",
+              "url": "http://cpc.people.com.cn/pinglun/n/2013/0621/c78779-21922700.html",
+              "quote": "京杭大运河北起北京、南至杭州，全长约1794公里"
+            },
+            {
+              "title": "中国国家图书馆：京杭大运河",
+              "url": "https://www.nlc.cn/web/dsb_zt/xzzt/djbhcc/jgrj/jgrj_zctxdmhs/index_1.htm",
+              "quote": "京杭大运河是世界上里程最长、工程最大的古代运河"
+            }
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "f6 的乔维岳二斗门建于雍熙初年（约 984）真扬运河第三堰，地在真州以北；乾兴—天圣年间陶鉴才把堰改为通江木闸，原文合述为「复闸」与史实相符。",
+        "f10 关于断航后河段淤废、仅江南段通航的描述，与 1901 年漕运停止后的运河状况一致。"
+      ],
+      "summary": "运河史实、南旺分水与南水北调东线等细节均可由水利志与官方资料核实；f1 末句为自我指涉的残留句，已修正。"
+    },
+    {
+      "id": "w2-myth-mesopotamia-khvarenah",
+      "status": "corrected",
+      "confidence": "medium",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "medium"},
+        {"id": "f6", "verdict": "supported", "confidence": "medium"},
+        {"id": "f7", "verdict": "imprecise", "confidence": "medium", "issue": "issue-01"},
+        {"id": "f8", "verdict": "supported", "confidence": "medium"},
+        {"id": "f9", "verdict": "supported", "confidence": "medium"},
+        {"id": "f10", "verdict": "supported", "confidence": "high"},
+        {"id": "f11", "verdict": "supported", "confidence": "medium"},
+        {"id": "f12", "verdict": "supported", "confidence": "medium"}
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f7",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "国王的浮雕高约七米，头后有光轮。",
+          "problem": "数字错置：塔克·布斯坦大岩洞（大龛）高约 9 米，其中的胡斯洛二世授职浮雕高约 4 米；其骑马浮雕板宽 7.45 米、高 4.25 米。7 米既不是龛高也不是浮雕高，疑由「宽约 7.45 米」误记为高。",
+          "correction": "塔克·布斯坦的大岩洞是萨珊王权图像的集中地。大龛高约九米，国王的浮雕高约四米，头后有光轮。这个光轮后来被伊斯兰艺术吸收，变成先知与圣徒头后的光环。",
+          "evidence": [
+            {
+              "title": "Taq-e Bostan, rock reliefs' story, history, photos",
+              "url": "https://irandoostan.com/taq-e-bostan/",
+              "quote": "The larger arch is 9 m high. ... The relief is about 4 m high."
+            },
+            {
+              "title": "Kaveh Farrokh, An Overview of the Sassanian Site of Taghe Bostan",
+              "url": "https://www.kavehfarrokh.com/ancient-prehistory-651-ad/sassanians/an-overview-of-taghe-bostan/",
+              "quote": "The equestrian relief panel measures 7.45 meters across and 4.25 meters high."
+            }
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "f8 的《列王纪》对句数有 5 万与 6 万两种常见统计，原文取 6 万可接受。",
+        "f11 与天命观的比较属分析性判断，不作事实断言处理。"
+      ],
+      "summary": "灵光神话的文本（《扎姆亚德·亚什特》）、图像与后世影响均可核实；f7 的浮雕高度数字错置，已修正。"
+    },
+    {
+      "id": "w3-geo-cn-hydropower-cascade",
+      "status": "verified",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "medium"},
+        {"id": "f5", "verdict": "supported", "confidence": "medium"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "medium"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "medium"},
+        {"id": "f10", "verdict": "supported", "confidence": "high"},
+        {"id": "f11", "verdict": "supported", "confidence": "medium"},
+        {"id": "f12", "verdict": "supported", "confidence": "high"}
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "f3 按三峡集团公开资料：白鹤滩 1600 万千瓦（16×100 万）、溪洛渡 1386 万千瓦（18×77 万），四库合计 4646 万千瓦。",
+        "f4 的「出力差一倍」为量级描述，实际枯汛比随年份与调度变化，不宜当精确值读。"
+      ],
+      "summary": "金沙江下游梯级的水文、工程参数与特高压外送事实均可核实，未发现需要修正的断言。"
+    }
+  ]
+}

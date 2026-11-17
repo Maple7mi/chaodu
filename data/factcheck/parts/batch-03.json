@@ -1,0 +1,271 @@
+{
+  "batch": "batch-03",
+  "checkedAt": "2026-11-18T02:45:00+08:00",
+  "dossiers": [
+    {
+      "id": "psych-housework",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "imprecise", "confidence": "medium", "issue": "issue-01"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "medium"},
+        {"id": "f6", "verdict": "supported", "confidence": "medium"},
+        {"id": "f7", "verdict": "supported", "confidence": "medium"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "supported", "confidence": "medium"},
+        {"id": "f11", "verdict": "supported", "confidence": "medium"}
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f3",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "照料孩子与老人的时间差距更大",
+          "problem": "2018年全国时间利用调查中，陪伴照料孩子的时间差距确实大于家务（女性约为男性3倍），但陪伴照料成年家人的时间男性7分钟、女性9分钟，差距极小，不能与孩子并列说成“差距更大”。",
+          "correction": "中国2018年全国时间利用调查显示，女性日均家务劳动时间约为男性的2.8倍，陪伴照料孩子的时间差距更大，而照料成年家人的时间男女相差很小；后一类照料很少被计入日常所说的家务讨论。",
+          "evidence": [
+            {"title": "国家统计局2018年全国时间利用调查公报（新浪转载）", "url": "https://news.sina.cn/2019-01-25/detail-ihqfskcp0308958.d.html", "quote": "男性居民家务劳动平均时间为45分钟，女性为2小时6分钟；陪伴照料孩子生活男性17分钟、女性53分钟；陪伴照料成年家人男性7分钟、女性9分钟。"}
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "《第二班》样本为50对双职工夫妻（Kirkus书评），1989年首版；f1“大量”属概括说法，可以接受。",
+        "f6所引纵向证据多为相关性研究，因果强度已按medium处理。"
+      ],
+      "summary": "家务分工的基本事实与研究结论成立，仅“照料老人差距更大”一句与调查数据不符，已给出替换文本。"
+    },
+    {
+      "id": "w5-psych-risk-evacuation",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "medium"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "medium"},
+        {"id": "f10", "verdict": "imprecise", "confidence": "medium", "issue": "issue-01"},
+        {"id": "f11", "verdict": "supported", "confidence": "high"},
+        {"id": "f12", "verdict": "supported", "confidence": "medium"}
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f10",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "走过场式的演练会让人产生“我知道怎么做”的错觉，反而降低真实事件中的准备度",
+          "problem": "现有研究只说演练质量参差、效果取决于设计，演练总体仍与“感觉更有准备”正相关；没有可靠证据证明走过场的演练会“降低”准备度，因果方向被说反了。",
+          "correction": "演练的效果取决于设计是否接近真实。走过场式的演练收益有限，容易让人高估自己的准备程度；有效的演练会临时变更出口、模拟烟雾并明确集合点，让人真正经历一次决策，而不是按规定路线走一遍。",
+          "evidence": [
+            {"title": "Enhancing egress drills: Preparation and assessment of evacuee performance", "url": "https://lz.nstl.gov.cn/paper_detail.html?doi=10.1002/fam.2448", "quote": "演练的益处与评估方法仍未被充分理解，效果高度依赖演练设计。"},
+            {"title": "School Drills and the Sendai Framework (PreventionWeb)", "url": "https://www.preventionweb.net/files/61528/schooldrillsr2abriefeng2018.pdf", "quote": "School drills are one of the external factors known to help people feel prepared."}
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "f6的87%与“撞击层以下超过99%”出自NIST对世贸中心疏散的调查，另有Kuligowski & Mileti对疏散前延迟的专门研究。",
+        "f7“明确指令缩短反应时间”方向有疏散前决策研究支持，但量化证据不强，按medium处理。"
+      ],
+      "summary": "人群密度、瓶颈流量、快即是慢、共同身份与世贸中心疏散等核心结论均有可靠来源，仅对“走过场演练反而降低准备度”作了限定。"
+    },
+    {
+      "id": "psych-complementarity",
+      "status": "verified",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "medium"},
+        {"id": "f6", "verdict": "supported", "confidence": "medium"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "supported", "confidence": "medium"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "supported", "confidence": "medium"},
+        {"id": "f11", "verdict": "supported", "confidence": "medium"},
+        {"id": "f12", "verdict": "supported", "confidence": "medium"}
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "f3的年份与卷页（ASR 1956, 21:602-605）与Trost 1967的复检结论一致：温奇理论未获稳定支持，伴侣相似多于互补。",
+        "f4的“态度相似、人格互补效应很小”与Luo & Klohnen 2005的291对新婚夫妻样本一致。"
+      ],
+      "summary": "互补需要理论的提出、其经验支持的薄弱，以及“相似更稳、互补多限于角色与技能”的结论均与文献相符。"
+    },
+    {
+      "id": "world-myth-odyssey",
+      "status": "verified",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "supported", "confidence": "high"},
+        {"id": "f11", "verdict": "supported", "confidence": "medium"},
+        {"id": "f12", "verdict": "supported", "confidence": "medium"}
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "行数有12109与12110两种统计口径，属版本与断行差异，不影响“约一万二千行”。",
+        "成书年代学界仍有争论，正文已用“通常定在”“仍有争论”限定，可以接受。"
+      ],
+      "summary": "卷数行数、结构、主要情节、口头程式理论及后世改写均与史诗文本和研究文献相符，未发现需修正的硬伤。"
+    },
+    {
+      "id": "cn-myth-niulang",
+      "status": "corrected",
+      "confidence": "medium",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "supported", "confidence": "medium"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "imprecise", "confidence": "high", "issue": "issue-01"},
+        {"id": "f11", "verdict": "supported", "confidence": "medium"},
+        {"id": "f12", "verdict": "supported", "confidence": "high"}
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f10",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "宋代以后，喜鹊搭桥的说法逐渐流行",
+          "problem": "喜鹊搭桥至迟汉代已见于记载（“织女七夕当渡河，使鹊为桥”“乌鹊填河成桥”），宋代文献只是用“七夕鹊首皆秃”来解释，并非到宋代才流行，时间被推后了。",
+          "correction": "鹊桥是后来添加的情节。早期文本只说织女渡河，没有说怎么渡；至迟汉代已有喜鹊搭桥的说法，宋代人又用七夕前后喜鹊变少来解释，把天文、物候和故事缝在一起，这个情节因此流传更广。",
+          "evidence": [
+            {"title": "乌鹊填桥（汉《风俗通》佚文等记载）", "url": "https://baike.baidu.com/item/%E4%B9%8C%E9%B9%8A%E5%A1%AB%E6%A1%A5", "quote": "织女七夕当渡河，使鹊为桥。"},
+            {"title": "鹊填河（《淮南子》等记载）", "url": "https://baike.baidu.com/item/%E9%B9%8A%E5%A1%AB%E6%B2%B3", "quote": "乌鹊填河成桥而渡织女。"}
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "f8“男子拜魁星”主要见于宋代以后、清代闽台文献，唐宋并提略宽，但方向不误。",
+        "f3所引殷芸《小说》为南朝梁文本，其中“一年一度相会”尚未与七月七绑定，正文表述准确。"
+      ],
+      "summary": "星名起源、殷芸文本、天鹅处女故事、乞巧与天文距离均可靠，唯鹊桥流行时间被说得过晚，已修正。"
+    },
+    {
+      "id": "w1-cn-history-manor",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "wrong", "confidence": "high", "issue": "issue-01"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "supported", "confidence": "medium"},
+        {"id": "f11", "verdict": "supported", "confidence": "medium"}
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f2",
+          "severity": "major",
+          "verdict": "wrong",
+          "claim": "正月修农具、二月种春麦、三月蚕桑、四月种黍稻、八月收谷、十月酿酒",
+          "problem": "月份与《四民月令》原文不符：修农具在十二月（“合耦田器，养耕牛”），春麦正月即可种、尽二月止，稻在三月而非四月，收谷在十月（“趣纳禾稼”），八月是种大小麦、收韭菁。",
+          "correction": "崔寔《四民月令》按月份记载庄园事务：正月种春麦，三月育稻与蚕桑，四月种黍禾，八月种麦收韭，十月收谷酿酒，十二月修农具、养耕牛并举行腊祭。农事、手工业与祭祀被排进同一张年历。",
+          "evidence": [
+            {"title": "《四民月令》原文（中国科学院自然科学史研究所）", "url": "http://agri-history.ihns.ac.cn/books/treatise%20records/smyl.htm", "quote": "正月：可种春麦、豍豆，尽二月止。三月：可种秔稻……命蚕妾治蚕室。四月：可种黍禾。八月：种大小麦……收韭菁。十月：趣纳禾稼……酿冬酒。十二月：合耦田器，养耕牛。"}
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "f6“墙高七丈”对应《后汉书·董卓传》“高厚七丈”，高与厚同为七丈，表述可接受。",
+        "f10“族学”是对《四民月令》小学、大学制度的概括，原文确有农忙时令子弟入小学、大学及医药、纺织、酿酒记载。"
+      ],
+      "summary": "庄园兼并、坞堡、度田、屯田、占田荫客等制度性断言均成立，唯《四民月令》月令顺序错乱，已按月重排。"
+    },
+    {
+      "id": "w2-geo-cn-transport-chama",
+      "status": "verified",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "medium"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "medium"},
+        {"id": "f8", "verdict": "supported", "confidence": "medium"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "supported", "confidence": "medium"},
+        {"id": "f11", "verdict": "supported", "confidence": "high"},
+        {"id": "f12", "verdict": "supported", "confidence": "medium"}
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "f7“三四个月”有“从云南驮茶到拉萨要花3个月”的报道支持，取整说法可接受。",
+        "f10印茶经亚东入藏、价格低于川茶有据，但研究同时指出印茶实际销量有限，正文未夸大，可保留。"
+      ],
+      "summary": "横断山谷深、雅安降水、茶马司、康定转运、背夫与马帮组织、古道命名等关键断言均有可追溯来源。"
+    },
+    {
+      "id": "w1-geo-world-pampas",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "imprecise", "confidence": "high", "issue": "issue-01"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "supported", "confidence": "medium"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "supported", "confidence": "high"},
+        {"id": "f11", "verdict": "supported", "confidence": "high"}
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f1",
+          "severity": "major",
+          "verdict": "imprecise",
+          "claim": "面积约五十万平方公里",
+          "problem": "常见统计约为76万平方公里（阿根廷境内约66万），五十万偏低约三分之一，属于数量级内的明显低估。",
+          "correction": "潘帕斯是拉普拉塔平原上的温带草原，大部分在阿根廷境内，面积约七十六万平方公里。它西接安第斯山前地带，东临大西洋，地势从西向东缓缓倾斜，河流也因此流得很慢，泥沙多沉在河道里。",
+          "evidence": [
+            {"title": "Britannica: The Pampas", "url": "https://www.britannica.com/place/the-Pampas", "quote": "The Pampas covers about 295,000 square miles (760,000 square km)."},
+            {"title": "潘帕斯平原（中国资源科学百科全书条目）", "url": "https://elib.cnki.net/grid2008/Detailchkd/XSearch.aspx?KeyWord=%E6%BD%98%E5%B8%95%E6%96%AF%E5%B9%B3%E5%8E%9F", "quote": "潘帕斯平原面积约76万平方公里，其中66.3万平方公里在阿根廷境内。"}
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "f3降水梯度有“东部1000毫米降至西部250毫米”与“干燥潘帕350–500毫米”两种口径，正文取500毫米属保守值。",
+        "f8土壤有机质下降与沟蚀有潘帕斯农业长期试验与土壤退化研究支持，按medium处理。"
+      ],
+      "summary": "土壤、降水、无树成因、铁路与冷藏船、大豆扩张、河口疏浚等均成立，仅面积数字偏低，已改为约76万平方公里。"
+    }
+  ]
+}

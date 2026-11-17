@@ -1,0 +1,333 @@
+{
+  "batch": "batch-23",
+  "checkedAt": "2026-11-18T02:41:00+08:00",
+  "dossiers": [
+    {
+      "id": "psych-mere-exposure",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "medium"},
+        {"id": "f5", "verdict": "imprecise", "confidence": "medium", "issue": "issue-01"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "supported", "confidence": "low"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "supported", "confidence": "high"},
+        {"id": "f11", "verdict": "supported", "confidence": "medium"},
+        {"id": "f12", "verdict": "supported", "confidence": "low"}
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f5",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "如果最初印象已经是明显负面，重复接触可能加深厌烦而不是好感",
+          "problem": "把“负面初印象必然被重复放大”写成确定结论，与 Zajonc 自己的实验不符：他让初评为负的刺激反复呈现，除“每次呈现都与负面情绪配对”外，态度仍随次数上升。可靠且有文献支撑的边界是饱和与厌倦——Bornstein 等 1990 年证明易厌倦被试对复杂图形完全测不到曝光效应，复杂刺激的效应也强于简单刺激。原句可保留“有边界”，但因果方向需要弱化。",
+          "correction": "效应有边界。重复接触的收益会随次数递减，容易饱和，甚至转向厌倦；若最初印象已经很负面，重复能否加分要看具体情境，未必一律加深厌烦。广告投放会遇到疲劳，人际接触也一样。",
+          "evidence": [
+            {"title": "Zajonc, Exposure effects and associative learning (University of Michigan Deep Blue)", "url": "https://deepblue.lib.umich.edu/items/19142460-3e63-4ba8-89c1-5f2986253423/full", "quote": "In all cases, except when negative affect was associatively paired with every stimulus exposure, affective responses became increasingly more positive with increasing exposures."},
+            {"title": "Bornstein, Kale & Cornell (1990), Boredom as a limiting condition on the mere exposure effect", "url": "https://psycnet.apa.org/record/1990-24465-001", "quote": "complex stimuli (line-drawn optical illusions) produced significantly stronger exposure effects than relatively [simple ones]"}
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "Bornstein (1989) 元分析覆盖 1968–1987 年间 208 项独立实验，合并效果量 r≈0.260，与 f3 的“两百多项”“效果量不大但稳定”一致。",
+        "Moreland & Beach (1992) 的四位女性分别以 0/5/10/15 次出现在课堂上，f7 的次数结构正确。",
+        "书目未给 Zajonc (1968) 的卷期页码，Reber et al. (2004) 也未列入书目；不影响事实判断。"
+      ],
+      "summary": "核心的年表、人名与元分析数字都对得上，只有“负面初印象”那条边界被写成了比证据更强的因果断言，已给出替换文本。"
+    },
+    {
+      "id": "w1-psych-money",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "imprecise", "confidence": "high", "issue": "issue-01"},
+        {"id": "f3", "verdict": "supported", "confidence": "medium"},
+        {"id": "f4", "verdict": "supported", "confidence": "medium"},
+        {"id": "f5", "verdict": "imprecise", "confidence": "medium", "issue": "issue-02"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "imprecise", "confidence": "medium", "issue": "issue-03"},
+        {"id": "f8", "verdict": "supported", "confidence": "medium"},
+        {"id": "f9", "verdict": "supported", "confidence": "low"},
+        {"id": "f10", "verdict": "supported", "confidence": "medium"},
+        {"id": "f11", "verdict": "supported", "confidence": "low"},
+        {"id": "f12", "verdict": "supported", "confidence": "high"}
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f2",
+          "severity": "major",
+          "verdict": "imprecise",
+          "claim": "帕普与同事二〇〇九年让伴侣在实验室里讨论金钱与其他冲突话题，发现金钱讨论中的生理唤起更高、行为更消极",
+          "problem": "方法与结论都归错了。Papp、Cummings 与 Goeke-Morey (2009) 是家庭日记研究：100 对夫妻记录 748 起冲突，不是实验室讨论，也没有测生理唤起。原文摘要还明确说，与以往实验室问卷相反，夫妻并不认为钱是最常出现的冲突话题；钱的冲突是更普遍、更棘手、更易复发、更难了结。",
+          "correction": "帕普与同事二〇〇九年让伴侣逐日记录家中冲突，发现关于钱的争执并不比其他话题更频繁，却更棘手、更易反复、更难真正了结，即使双方都更努力解决问题。这提示钱不只是资源问题，还牵动安全感与自我价值。",
+          "evidence": [
+            {"title": "Papp, Cummings & Goeke-Morey (2009), For Richer, for Poorer: Money as a Topic of Marital Conflict in the Home", "url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1741-3729.2008.00537.x", "quote": "spouses did not rate money as the most frequent source of marital conflict in the home. However, compared to nonmoney issues, marital conflicts about money were more pervasive, problematic, and recurrent, and remained unresolved"}
+          ]
+        },
+        {
+          "id": "issue-02",
+          "factId": "f5",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "杜与同事二〇一二年的研究发现，财务担忧与婚姻满意度下降相关，沟通质量在其中起作用",
+          "problem": "Dew & Stewart (2012) 的因变量是“财务冲突”而非婚姻满意度：该文用 1500 多对夫妻的全国样本检验经济压力、沟通问题与婚姻中更深的隐藏议题是否预测财务冲突，结论是三者都相关。把“满意度下降”挂在它名下属于结论外推；满意度与财务压力的关系出自同作者另一系研究。",
+          "correction": "杜与同事二〇一二年的研究分析了一千五百多对夫妻，发现经济压力、沟通问题和婚姻里更深的隐藏议题都与财务冲突相关。这种关联可能是双向的：关系紧张也会让人更在意钱。",
+          "evidence": [
+            {"title": "Dew & Stewart (2012), A Financial Issue, a Relationship Issue, or Both?", "url": "https://core.ac.uk/download/267182948.pdf", "quote": "economic pressure, communication issues, and deeper “hidden” issues within marriage are all associated with financial conflict"},
+            {"title": "Semantic Scholar record of the same paper", "url": "https://www.semanticscholar.org/paper/A-Financial-Issue%2C-a-Relationship-Issue%2C-or-Both-of-Dew-Stewart/e3778af1b82c17db1f830c585385705db2e4d2b2", "quote": "This study examines whether financial conflict arises because of financial difficulties, marital problems, or both."}
+          ]
+        },
+        {
+          "id": "issue-03",
+          "factId": "f7",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "研究提示，它对信任的破坏接近情感背叛",
+          "problem": "“接近情感背叛”是一个没有出处的等价性判断。Garbinsky 等 (2019) 把财务不忠定义为“预期伴侣会反对、却刻意不告知的财务行为”，并编制量表测量个体差异，讨论的是信任与关系后果，并未把它与情感背叛做量化对比。保留“破坏信任”即可，删掉这个类比。",
+          "correction": "财务不忠指隐瞒消费、私设账户或虚报收入。研究把它看成对信任的破坏：被隐瞒的一方不只在意钱，更在意自己为什么被排除在决定之外，这种被排除感往往比金额更伤。",
+          "evidence": [
+            {"title": "Garbinsky, Gladstone, Nikolova & Olson (2019), Love, Lies, and Money: Financial Infidelity in Romantic Relationships", "url": "https://discovery.ucl.ac.uk/id/eprint/10089369/", "quote": "financial infidelity, defined as “engaging in any financial behavior expected to be disapproved of by one’s romantic partner and intentionally failing to disclose this behavior to them.”"}
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "书目里 Papp et al. (2009) 与 Dew & Stewart (2012) 都存在，但正文把前者的方法写成实验室实验、把后者的因变量换成婚姻满意度。",
+        "Bertrand, Kamenica & Pan (2015) 摘要明确包含 marriage satisfaction 与 likelihood of divorce 两项结果，f6 的“略低/略高”与原文一致。"
+      ],
+      "summary": "两处研究结论被张冠李戴（Papp 的家庭日记被写成实验室生理测量、Dew 的财务冲突被写成满意度下降），另有“接近情感背叛”这一无出处的类比，均已给替换文本。"
+    },
+    {
+      "id": "world-history-janissary",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "medium"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "wrong", "confidence": "high", "issue": "issue-01"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "supported", "confidence": "high"},
+        {"id": "f11", "verdict": "supported", "confidence": "medium"},
+        {"id": "f12", "verdict": "supported", "confidence": "medium"}
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f6",
+          "severity": "major",
+          "verdict": "wrong",
+          "claim": "1618年奥斯曼二世被废，1622年被杀",
+          "problem": "年份张冠李戴。1618 年是奥斯曼二世即位的年份（穆斯塔法一世被废后登基）；他本人被禁卫军废黜并杀害是 1622 年 5 月 19–20 日的事。原文把“即位”写成了“被废”，等于把因果顺序也颠倒了。",
+          "correction": "一六一八年的政变把奥斯曼二世推上王位，一六二二年禁卫军又把他废黜并杀死。此后废立苏丹多次由禁卫军与宫廷集团合谋完成，苏丹若要改革军队，往往先要面对自己的卫队。",
+          "evidence": [
+            {"title": "EBSCO Research Starters, Janissary Revolt of 1622", "url": "https://www.ebsco.com/research-starters/history/janissary-revolt-1622", "quote": "Date May 19, 1622 ... Members of the elite Ottoman Janissary corps assassinated Sultan Osman II after they mutinied and overthrew his government."},
+            {"title": "The Ottoman Social and Political Contexts (Cambridge)", "url": "https://www.cambridge.org/core/books/abs/henrietta-listons-travels/ottoman-social-and-political-contexts/C29E4375725F29980D3521BE491A1305", "quote": "his attempt to restructure the army faced a janissary-led popular rebellion and he was dethroned in 1807"}
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "德夫希尔梅的征召年龄各史料记为 8 至 20 岁不等，频率从每年一次到每五年一次都有记载；f1 的“8 至 18 岁”“每隔几年”属于常见但非唯一的说法。",
+        "f3 的“15 世纪中叶起大量装备火绳枪”略早：火器在 15 世纪已用于禁卫军，但成建制换装火绳枪一般定在 16 世纪（Aksan 词条以 1600 年为节点）。不影响其余断言。",
+        "f10 的日期：多数记载为 1826 年 6 月 14–16 日，原文只写“6 月”，安全。"
+      ],
+      "summary": "制度、装备、薪俸与两次废除的脉络都站得住，唯一硬错误是把奥斯曼二世的即位年（1618）当成了他被废的年份，实为 1622 年。"
+    },
+    {
+      "id": "w4-geo-world-desertification",
+      "status": "verified",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "medium"},
+        {"id": "f4", "verdict": "supported", "confidence": "medium"},
+        {"id": "f5", "verdict": "supported", "confidence": "medium"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "medium"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "supported", "confidence": "high"},
+        {"id": "f11", "verdict": "supported", "confidence": "high"},
+        {"id": "f12", "verdict": "supported", "confidence": "medium"}
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "UNCCD 公约第 1 条原文：“land degradation in arid, semi-arid and dry sub-humid areas resulting from various factors, including climatic variations and human activities”，与 f1 的界定、三大气候带完全对应。",
+        "f11 的“一亿公顷”是 2030 年目标；UNCCD 2020 年状态报告显示严格干预区内完成约 400 万公顷（4%），全区域约 1780 万公顷（约 18%），“远慢于宣传”有据。",
+        "f9 所批评的“沙漠南侵”估计源自 Lamprey (1975) 为 UNEP 所做的工作，世界银行文件明确把它列为该说法的出处。"
+      ],
+      "summary": "定义、萨赫勒降水与变率、盐渍化案例、卫星复绿、1970 年代南侵图的争议、绿色长城的转向与进度，全部能找到对应文献，未发现需要改写的断言。"
+    },
+    {
+      "id": "w3-psych-loss-aversion",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "medium"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "imprecise", "confidence": "medium", "issue": "issue-01"},
+        {"id": "f7", "verdict": "supported", "confidence": "medium"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "supported", "confidence": "medium"},
+        {"id": "f11", "verdict": "supported", "confidence": "medium"},
+        {"id": "f12", "verdict": "supported", "confidence": "high"}
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f6",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "自己选的、能预见的、一次性的损失，比被迫的、意外的、反复发生的损失更容易被接受",
+          "problem": "“损失厌恶强度随情境变化”有元分析支持，但把“自选/可预见/一次性”与“被迫/意外/反复”排成一条固定次序，没有直接检验这一排序的研究；把三个维度捆在一起，也无法判断是哪一维在起作用。后半句“反复小损失累加超过一次大损失”只在逐次单独评价时成立，若合并评价则相反，需要补上这个条件。",
+          "correction": "不是所有损失都一样重。损失厌恶的强弱随情境变化：自己选的、能预见的损失，通常比被迫的、意外的更容易接受；反复的小损失若分开来感受，累加起来也可能超过一次同样总额的大损失。",
+          "evidence": [
+            {"title": "Brown, Imai, Vieider & Camerer (2024), Meta-analysis of Empirical Estimates of Loss Aversion, JEL 62(2)", "url": "https://pubs.aeaweb.org/doi/pdf/10.1257/jel.20221698", "quote": "We examine 607 empirical estimates of loss aversion from 150 articles ... the mean loss aversion coefficient is 1.955"}
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "f5 的数字与 2024 年元分析完全一致：150 篇文献、607 个估计、均值 1.955。",
+        "马克杯实验的规范引用是 Kahneman, Knetsch & Thaler (1990)，塞勒是三位作者之一；f4 归给“塞勒”不算错，但书目只列了 Thaler (1980)。",
+        "书目未收 Genesove & Mayer (2001) 等房价与处置效应的实证文献，f7、f8 的判断依据在该文与 Shefrin–Statman 的传统里。"
+      ],
+      "summary": "前景理论、参照点、元分析数字都精确；只有“哪类损失更痛”的排序被写得比证据更整齐，已补上条件与限定。"
+    },
+    {
+      "id": "w3-myth-world-hel",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "medium"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "imprecise", "confidence": "medium", "issue": "issue-01"},
+        {"id": "f11", "verdict": "supported", "confidence": "medium"},
+        {"id": "f12", "verdict": "imprecise", "confidence": "high", "issue": "issue-02"}
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f10",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "位置和层级都不清楚，只能从上下文猜它是海拉之下更暗的一层",
+          "problem": "《欺骗古鲁菲》其实给了层级：恶人先到海拉，再往下到 Niflhel，“那是在第九层世界”。所以说“层级都不清楚”过头了；真正含糊的是诗篇里的用法（《瓦夫斯鲁德尼尔之歌》只把它当作死者所去之处），以及“第九层”本身在文本中的位置，学者因此仍有分歧。",
+          "correction": "《诗体埃达》里另有 Niflhel（雾冥）的说法。《欺骗古鲁菲》说它在海拉之下、位于第九层，但诗篇里的用法含糊，学者对它的位置仍有分歧；中世纪冰岛作者整理材料时，免不了受基督教地狱观的影响。",
+          "evidence": [
+            {"title": "Niflhel — Encyclopedia Mythica", "url": "https://pantheon.org/articles/n/niflhel.html", "quote": "But evil men go to Hel and thence down to the Misty Hel; and that is down in the ninth world."}
+          ]
+        },
+        {
+          "id": "issue-02",
+          "factId": "f12",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "这已经是中世纪晚期的形象",
+          "problem": "丹麦民俗材料把三腿马（helhest）与 Hel 联系起来，但这类记录要晚得多：丹麦最早提及 helhest 是 1672 年，19 世纪仍在采集相关说法（石勒苏益格的“瘟疫时 Hel 骑着三腿马巡行”由格林转引）。把它定在“中世纪晚期”早了两三百年，且原文把马与骑者混为一谈。",
+          "correction": "后世民间传说把她变成另一种角色：丹麦民间的 Hel 骑着三条腿的马、带来瘟疫，这匹马被称为 helhest。这类记录主要见于十七世纪以后，与《埃达》里的冥界主隔了很远，名字还在，职能已经换了。",
+          "evidence": [
+            {"title": "helhest — lex.dk（丹麦大百科）", "url": "https://lex.dk/helhest", "quote": "Helhesten nævnes første gang i Danmark 1672 ... I ældre tid blev den ofte identificeret med pesten"},
+            {"title": "Helhest — Wikipedia", "url": "https://en.wikipedia.org/wiki/Helhest", "quote": "from Schleswig, a phrase is recorded that, in time of plague, “Hel rides about on a three-legged horse, destroying men”"}
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "《散文埃达》约 1220 年成书、冰岛约 1000 年改宗，f1 的“两百多年”成立。",
+        "f4 的厅名与器物名对应 Éljúðnir、Hungr、Sultr、Kör、Blíkjandaból；中文译名（雨雪之厅、饥饿、饥荒、病榻、阴霾）属译者选择，与原文意象大体相符。",
+        "书目只列《诗体埃达》四篇，未列《散文埃达》版本与英译，f2、f3、f4 的关键细节实际都出自《欺骗古鲁菲》。"
+      ],
+      "summary": "神话细节（洛基之女、半身青黑、厅名器物名、巴德尔的条件、词源）都与埃达文本对得上；两处问题在考据层面：Niflhel 的层级被说成完全不明，丹麦三腿马的形象被提前到中世纪晚期。"
+    },
+    {
+      "id": "w4-geo-world-population-urban",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "medium"},
+        {"id": "f4", "verdict": "supported", "confidence": "medium"},
+        {"id": "f5", "verdict": "supported", "confidence": "medium"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "medium"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "medium"},
+        {"id": "f10", "verdict": "supported", "confidence": "medium"},
+        {"id": "f11", "verdict": "supported", "confidence": "medium"},
+        {"id": "f12", "verdict": "imprecise", "confidence": "medium", "issue": "issue-01"}
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f12",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "印度和中国的统计口径不同，同一座跨境都市圈在两国的数字可能相差数倍",
+          "problem": "前半句成立，后半句的例子不成立：印度与中国不接壤，也不存在两国分治的跨境都市圈。真正要说的是一国之内或邻国之间“行政区口径”与“连续建成区口径”的差异，以及行政区划调整（村镇改设城市）会直接改变统计数字。",
+          "correction": "跨国比较要小心定义。城市可以指行政区、市镇联合体或连续建成区，各国统计口径不同，同一片都市区按不同口径算出的数字可能相差数倍，城市排名因此常被误读。",
+          "evidence": [
+            {"title": "United Nations, World Urbanization Prospects: the 2018 Revision（1950/2050 比例）", "url": "https://unhabitat.org/sites/default/files/documents/2019-05/nup-feasibility-note.pdf", "quote": "More than half of the world’s population currently lives in cities and a projected 70 per cent will be living in urban areas by [2050]"},
+            {"title": "UN 文件：非洲城市化报告（把“村镇改划为城市”列为城市增长来源）", "url": "https://documents.un.org/doc/undoc/gen/k16/097/74/pdf/k1609774.pdf", "quote": "La croissance urbaine est l’augmentation de la population urbaine liée à ... modifications territoriales ou requalification de villages et territoires ruraux en zones urbaines."}
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "2023 年常住人口城镇化率 66.16%、户籍城镇化率 48.3%，相差 17.9 个百分点，f8 的“约十八个百分点”准确。",
+        "f1 的三个比例与 UN DESA 口径一致：1950 年约 30%，2023 年 57%，2050 年预计 68%（2018 版展望为 2050 年 68%）。",
+        "f6 的“约一亿人、国土约百分之五”：联合国档案材料称尼罗河水灌溉面积“不足埃及国土的 5%”，人口数按近年口径约一亿，成立。"
+      ],
+      "summary": "人口比例、中国城乡两套城镇化率、埃及的“5% 国土”都能对上；唯一问题是 f12 拿印中“跨境都市圈”举例，这个例子在地理上不存在，已改为一般性的口径差异表述。"
+    },
+    {
+      "id": "w2-wh-islamic-land-tax",
+      "status": "verified",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "medium"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "medium"},
+        {"id": "f10", "verdict": "supported", "confidence": "high"},
+        {"id": "f11", "verdict": "supported", "confidence": "high"},
+        {"id": "f12", "verdict": "supported", "confidence": "medium"}
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "吉兹亚的三档金额（富者 48、中户 24、贫者 12 第纳尔）与“妇女儿童不纳、赤贫者不纳”见 Brill 所辑《Kitab al-Kharaj》法令段落，f1、f8 有据。",
+        "改宗者继续缴土地税、免人头税，是伍麦叶与阿拔斯财政的核心难题；Umar II 的处理方式（免 jizya、留 kharaj）与 f6 一致。",
+        "伊克塔是税收权而非土地所有权、不可世袭，见 Seljuq 制度研究；f10 的“不是封地”准确，但“十一世纪起”只是军事伊克塔普及的时点，更早的九至十世纪已有税收包税形式。",
+        "1856 年《哈蒂·胡马云诏书》确认废除哈里吉（jizya），同时允许非穆斯林以“代役税”（bedel-i askeri）免服兵役，f11 的年份与机制正确。"
+      ],
+      "summary": "吉兹亚、哈拉吉、乌什尔三税的分工，伍麦叶的改宗征税难题，阿布·优素福《论税册》，伊克塔与 1856 年改革，全部与制度史文献吻合，未发现需要改写的断言。"
+    }
+  ]
+}

@@ -1,0 +1,350 @@
+{
+  "batch": "batch-25",
+  "checkedAt": "2026-11-18T02:47:00+08:00",
+  "dossiers": [
+    {
+      "id": "w1-world-history-ancient-sea-peoples",
+      "status": "verified",
+      "confidence": "medium",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "medium"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "medium"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "supported", "confidence": "medium"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "supported", "confidence": "medium"},
+        {"id": "f11", "verdict": "supported", "confidence": "medium"},
+        {"id": "f12", "verdict": "supported", "confidence": "high"}
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "“海上民族”一词出自十九世纪加斯顿·马斯佩罗的假说，后经爱德华·迈耶与考古破坏层结合而成通说；正文说“十九世纪学者提出”无误。",
+        "乌加里特陷落年代学界有 1192、1190–1185 等不同估算，正文取“约前1185年左右”，属常见区间，但不宜当精确年份。",
+        "哈图沙的废弃在年代学上落在公元前十三世纪末至十二世纪初，“约前1180年”是传统约数。",
+        "“铁器普及导致战车贵族衰落”是曾被提出的长期解释，但铁器普及并非突然事件，学界多持保留；正文用“有学者强调”加以限定，可以接受。"
+      ],
+      "summary": "海上民族的称名、麦伦普塔与拉美西斯三世的纪年、哈图沙与乌加里特的陷落、迈锡尼宫殿的废弃均可核，多因连锁崩溃的表述也符合当前研究；唯个别年代属于约数区间。"
+    },
+    {
+      "id": "w1-psych-inlaws",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "medium"},
+        {"id": "f2", "verdict": "wrong", "confidence": "high", "issue": "issue-01"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "medium"},
+        {"id": "f5", "verdict": "supported", "confidence": "medium"},
+        {"id": "f6", "verdict": "supported", "confidence": "medium"},
+        {"id": "f7", "verdict": "supported", "confidence": "medium"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "medium"},
+        {"id": "f10", "verdict": "supported", "confidence": "medium"},
+        {"id": "f11", "verdict": "supported", "confidence": "medium"},
+        {"id": "f12", "verdict": "supported", "confidence": "high"}
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f2",
+          "severity": "major",
+          "verdict": "wrong",
+          "claim": "布莱恩特与同事二〇〇一年在澳大利亚样本中发现",
+          "problem": " Bryant, Conger & Meehan 2001 的论文题为 The influence of in-laws on change in marital success（Journal of Marriage and Family 63(3): 614–626），作者隶属艾奥瓦州立大学社会与行为研究所，样本是美国艾奥瓦州的农村已婚夫妻（约450个扩展家庭），不是澳大利亚样本。批次 sources 里的篇名也写错了。",
+          "correction": "布莱恩特与同事二〇〇一年在美国艾奥瓦州的样本中发现，与姻亲关系较好的夫妻，婚姻满意度下降更少。这是相关研究，不能读成“搞好姻亲就能保住婚姻”。",
+          "evidence": [
+            {
+              "title": "Catalogo Articoli, Università di Bologna（著录 Bryant et al., JMF 63(3):614–626，Iowa State Univ）",
+              "url": "https://serials.cib.unibo.it/cgi-ser/start/it/spogli/df-s.tcl?prog_art=8354894&language=ITALIANO&view=articoli",
+              "quote": "C.M. Bryant et al., \"The influence of in-laws on change in marital success\", J MARRIAGE, 63(3), 2001, pp. 614-626 ... Iowa State Univ, Inst Social & Behav Res, Ames, IA"
+            },
+            {
+              "title": "The Independent: Les had got it right about the in-laws (2001)",
+              "url": "https://www.independent.co.uk/news/uk/this-britain/les-had-got-it-right-about-the-inlaws-5363816.html",
+              "quote": "behavioural scientists who carried out investigations in 450 extended families"
+            }
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "sources 第二条把篇名写成 The effect of in-law relationships on marital stability，实际篇名为 The influence of in-laws on change in marital success；作者首字母亦应为 C. M. Bryant。",
+        "该研究为前瞻性相关设计，原文结论是姻亲关系影响婚姻成功的变化，不能读成因果；正文的限定语是对的。",
+        "f4、f5、f6、f10、f11 属家庭治疗与临床建议（边界、核心家庭决策、时机），不是实证研究结论，书目中没有对应文献；按“专业共识”判 supported，置信度中等。"
+      ],
+      "summary": "姻亲与婚姻质量、三角化、kinkeeping 的脉络可核；但布莱恩特2001年研究被误写成澳大利亚样本，实为美国艾奥瓦样本，篇名亦有误。"
+    },
+    {
+      "id": "cn-geo-jingjinji",
+      "status": "verified",
+      "confidence": "medium",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "medium"},
+        {"id": "f4", "verdict": "supported", "confidence": "medium"},
+        {"id": "f5", "verdict": "supported", "confidence": "medium"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "supported", "confidence": "high"},
+        {"id": "f11", "verdict": "supported", "confidence": "high"},
+        {"id": "f12", "verdict": "supported", "confidence": "medium"}
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "京津冀面积与人口的官方口径为 21.6 万平方公里、约 1.1 亿人（2014—2016 年数据）；2025 年一篇论文按行政区汇总为 21.72 万平方公里，差异来自统计口径，正文用“约”可以接受。",
+        "人均水资源量：2019 年文献给出京津冀约 239 立方米；北京 161、天津 160 立方米，均低于 500 立方米，正文“约二百立方米”略偏低但同量级。",
+        "“水资源总量占全国百分之一左右”对应海河区多年平均约 1.2%；若按京津冀行政区计约 0.7%，正文取整偏宽。",
+        "沧州地面沉降累计超过 2 米见 2004 年河北省地质部门报道；冀枣衡漏斗 2004 年静水位最大埋深 97.84 米，“超过一百米”应理解为此后继续下降的结果，引用时最好标年份。"
+      ],
+      "summary": "面积人口、南水北调通水与年调水量、密云库容、首钢搬迁、雄安与白洋淀等均可核；人均水量与“占全国百分之一”属粗略取整，宜补年份口径。"
+    },
+    {
+      "id": "w3-myth-eastasia-amaterasu",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "medium"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "imprecise", "confidence": "high", "issue": "issue-01"},
+        {"id": "f7", "verdict": "wrong", "confidence": "high", "issue": "issue-02"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "supported", "confidence": "medium"},
+        {"id": "f11", "verdict": "supported", "confidence": "medium"},
+        {"id": "f12", "verdict": "imprecise", "confidence": "high", "issue": "issue-03"}
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f6",
+          "severity": "major",
+          "verdict": "imprecise",
+          "claim": "她出来时，洞口被巨石封住，光却已经回来了",
+          "problem": "《古事记》里是天手力男神拉开岩户、把天照引出；她出来后，布刀玉命随即在洞口拉起注连绳（しめ縄），阻止她再躲回去。封洞的不是巨石；“天手力男把堵门巨石掷出、落地成户隐山”是另一则传说，不能与岩户 opening 混在一起。",
+          "correction": "天照在洞里听见笑声，觉得奇怪，忍不住探头出来；天手力男神趁机拉开岩户，光重新照回高天原。众神随即在洞口拉起注连绳，不让她再躲回去；这个情节常被解释为日食的神话化。",
+          "evidence": [
+            {
+              "title": "天手力男神（百度百科，引《古事记》《日本书纪》）",
+              "url": "https://wapbaike.baidu.com/item/%E5%A4%A9%E6%89%8B%E5%8A%9B%E7%94%B7%E7%A5%9E",
+              "quote": "在天照大神被拉出后，布刀玉命立即用注连绳封锁了天岩户的入口。"
+            },
+            {
+              "title": "新庄まつり「風流 天の岩戸」（山形县，联合国教科文组织非遗）",
+              "url": "https://shinjo-matsuri.jp/db/1987_12",
+              "quote": "天手力男命が石戸を開き大神の手をお取りになられお連れ出しました"
+            }
+          ]
+        },
+        {
+          "id": "issue-02",
+          "factId": "f7",
+          "severity": "major",
+          "verdict": "wrong",
+          "claim": "岩户场景里的镜、玉、币，后来被讲成天皇三种神器的来源",
+          "problem": "天皇三种神器是八咫镜、八尺琼勾玉与草薙剑（天丛云剑），不是“镜、玉、币”。剑来自须佐之男斩八岐大蛇，不在岩户场景里；岩户场景中的“币”只是祭祀用的币帛，与神器无关。",
+          "correction": "岩户场景里的镜与玉，加上须佐之男斩蛇所得的草薙剑，后来被讲成天皇三种神器的来源；八咫镜供在伊势内宫，成为天照神体的象征，另外两件则留在天皇身边，各有供奉地。",
+          "evidence": [
+            {
+              "title": "Nippon.com: The Imperial Regalia: Japan's Three Sacred Treasures",
+              "url": "https://www.nippon.com/en/guide-to-japan/cs00073/the-imperial-regalia-japan%e2%80%99s-three-sacred-treasures.html",
+              "quote": "Japan’s three sacred treasures—a mirror, a sword, and curved jewels ... the mirror Yata no Kagami, the sword Kusanagi no Tsurugi, and the curved jewels Yasakani no Magatama"
+            }
+          ]
+        },
+        {
+          "id": "issue-03",
+          "factId": "f12",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "今天伊势神宫每年有上千万人参拜",
+          "problem": "常年参拜者约 700 万至 800 万人；只有逢二十年一次的式年迁宫（如 2013 年）才达到约 1420 万人。“每年上千万”把特别年份的峰值当成了常态。",
+          "correction": "今天伊势神宫每年约有七八百万人参拜，逢二十年一次的式年迁宫可上千万；参拜路线和祓的仪式仍按古礼进行。天照的神话也被漫画、游戏反复取用，成了流行文化里的符号。",
+          "evidence": [
+            {
+              "title": "CBC news（TBS）: TIME 選出「訪れるべき場所50選」に伊勢神宮",
+              "url": "https://newsdig.tbs.co.jp/articles/cbc/2596057?page=2",
+              "quote": "毎年700万人から800万人の参拝者が訪れる伊勢神宮。前回の式年遷宮の年・2013年は、倍の1420万人が訪れました。"
+            },
+            {
+              "title": "Jinja Honcho: Ise Jingu",
+              "url": "http://www.jinjahoncho.or.jp/en/ise-jingu/",
+              "quote": "visited by about ten million people every year"
+            }
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "《古事记》与《日本书纪》的岩户段落在细节上有异文（谁拉开门、是否掷石），正文混用了两套叙述，已按《古事记》主流版本改写。",
+        "“早期文献里的她并不等于太阳本身”“原本是巫女所祭的神格”属学界假说（津田左右吉等），不是定论，正文用“有学者认为”是合适的。",
+        "式年迁宫始于持统四年（690），除战国与二战后两次中断外延续至今，2013 年为第 62 次；斋王制度约七世纪至南北朝，与正文一致。",
+        "“教育敕语写进天照”是宽松说法：敕语原文称“皇祖皇宗”，未直呼天照之名；作为国家神道意识形态的表述可以接受，但不宜当作原文引用。"
+      ],
+      "summary": "岩户神话的人物与器物大体可核；但“洞口被巨石封住”与“镜玉币为三种神器”两处明显有误，伊势参拜人数也把迁宫年的峰值当成了常年值。"
+    },
+    {
+      "id": "w3-psych-sleep-mood",
+      "status": "verified",
+      "confidence": "medium",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "medium"},
+        {"id": "f6", "verdict": "supported", "confidence": "medium"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "medium"},
+        {"id": "f10", "verdict": "supported", "confidence": "high"},
+        {"id": "f11", "verdict": "supported", "confidence": "medium"},
+        {"id": "f12", "verdict": "supported", "confidence": "high"}
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "Yoo et al. 2007 载 Current Biology 17(20): R877–R878，PMID 17956744；被试为 26 名健康成人（14 人睡眠剥夺），杏仁核反应增强、前额叶—杏仁核功能连接减弱，正文概括准确。",
+        "Walker & van der Helm 2009 是综述（Psychological Bulletin 135(5): 731–748），提出睡眠依赖的情绪脑加工模型；“双向关系”是其中对情绪障碍的总结，属综述立场而非单项实验。",
+        "“缺觉者把中性面孔读成威胁”有直接证据：UC Berkeley 的 Journal of Neuroscience 2015 研究（18 名被试，24 小时觉醒后判断 70 张面孔）发现威胁与友好面孔的区分受损；乌普萨拉 2022 年眼动研究亦报告类似偏差。",
+        "Depner et al. 2019（Current Biology 29(6): 957–967）证实周末补觉不能防止反复睡眠不足导致的代谢失调，支持 f7。",
+        "咖啡因半衰期约 5–6 小时、酒精抑制 REM 并片段化后半夜睡眠，均为睡眠医学通说；f8 的“半衰期长”表述可接受。",
+        "Why We Sleep（2017）为科普书，书中部分数据后被指出有误；本专题只把它当框架，未用其具体数字。"
+      ],
+      "summary": "睡眠剥夺增强杏仁核反应、削弱前额叶调控，以及情绪解读偏移、周末补觉不足、酒精与咖啡因影响睡眠等断言均有研究支持；属综述与机制解释的部分置信度中等。"
+    },
+    {
+      "id": "w3-geo-world-el-nino",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "imprecise", "confidence": "high", "issue": "issue-01"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "supported", "confidence": "medium"},
+        {"id": "f11", "verdict": "supported", "confidence": "medium"},
+        {"id": "f12", "verdict": "supported", "confidence": "high"}
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f6",
+          "severity": "major",
+          "verdict": "imprecise",
+          "claim": "ONI 指数取 Niño3.4 区三个月滑动平均海温距平，连续五个月达到正零点五摄氏度即判为厄尔尼诺",
+          "problem": "NOAA 的定义是：Niño3.4 区三个月滑动平均海温距平连续五个“相互重叠的三月季”（DJF、JFM、FMA…）达到 ±0.5°C，才构成一次厄尔尼诺/拉尼娜事件。不是“连续五个月”；五个重叠三月季实际覆盖约七至八个月。",
+          "correction": "监测靠赤道太平洋的锚系浮标、卫星高度计与 Argo 剖面浮标；ONI 取 Niño3.4 区三个月滑动平均海温距平，连续五个相互重叠的三月季达到正零点五摄氏度，才判为厄尔尼诺。",
+          "evidence": [
+            {
+              "title": "NOAA Climate Prediction Center: Oceanic Niño Index (ONI)",
+              "url": "https://cpc.ncep.noaa.gov/products/analysis_monitoring/enso/oni/v5/",
+              "quote": "3 month running mean of ERSST.v5 SST anomalies in the Niño 3.4 region ... when the threshold is met for a minimum of 5 consecutive overlapping seasons"
+            },
+            {
+              "title": "NOAA CPC: ENSO Temperature & Precipitation Composites (readme)",
+              "url": "https://www.cpc.ncep.noaa.gov/products/precip/CWlink/ENSO/composites/old/readme.shtml",
+              "quote": "El Niño and La Niña episodes are defined when the threshold is met for at least 5 consecutive 3-mo. overlapping seasons (i.e. DJF, JFM, FMA, etc)."
+            }
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "比耶克内斯 1969 年论文为 Atmospheric Teleconnections from the Equatorial Pacific, Monthly Weather Review 97(3): 163–172，正文的年份与机制归属无误。",
+        "NOAA 自 2026 年起以 RONI 取代 ONI 作为官方监测指数（NWS Public Information Statement 26-05），正文仍按 ONI 讲经典定义，属于历史口径说明。",
+        "“发展年夏季副高偏弱偏南、衰减年偏强偏北”见中国海洋气象学界综述与个例研究，正文表述与文献一致；但事件类型（东部型/中部型）会改变结果，正文已加限定。",
+        "1972 年鳀鱼崩溃通常归因于 1972–73 年厄尔尼诺叠加长期过度捕捞，正文的“两者叠加”是主流看法。"
+      ],
+      "summary": "ENSO 的名称、信风—海温正反馈、南方涛动、遥相关与可预报性障碍均可核；唯 ONI 的判定窗口被写成“连续五个月”，应为连续五个重叠三月季。"
+    },
+    {
+      "id": "w5-wh-trade-porcelain",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "medium"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "supported", "confidence": "high"},
+        {"id": "f11", "verdict": "imprecise", "confidence": "high", "issue": "issue-01"},
+        {"id": "f12", "verdict": "supported", "confidence": "high"}
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f11",
+          "severity": "major",
+          "verdict": "imprecise",
+          "claim": "英国韦奇伍德用分工、蒸汽机和新配方生产炻器与骨瓷",
+          "problem": "韦奇伍德（Josiah Wedgwood）的产品是奶油陶（creamware/Queen's Ware）、珍珠陶与炻器（黑玄武岩、碧玉炻器），他确实在 1782 年引入博尔顿—瓦特蒸汽机磨料；但骨瓷配方是乔赛亚·斯波德（Josiah Spode I）在 1789–1793 年间定型的，不是韦奇伍德。把骨瓷归到韦奇伍德名下是错的。",
+          "correction": "十八世纪后期，英国韦奇伍德用分工、蒸汽机和新配方生产奶油陶与炻器，靠品牌和展厅推销；骨瓷则由斯波德在十八世纪末配成。它抢走了部分中国瓷的日常市场，把瓷器变成工业品。",
+          "evidence": [
+            {
+              "title": "Spode（ encyclopedia entry, 引 bone china 配方史）",
+              "url": "https://www.wikiwand.com/en/Spode",
+              "quote": "The company is credited with developing, around 1790, the formula for bone china ... Josiah Spode I effectively finalised the formula, and appears to have been doing so between 1789 and 1793."
+            },
+            {
+              "title": "Archives Hub: Josiah Wedgwood, Etruria, Apr 1782 (Boulton & Watt)",
+              "url": "https://archiveshub.jisc.ac.uk/search/archives/76f73a51-60ad-36d1-bd80-3a5e520dbb73?component=c1f57425-3bd4-37f9-80cd-b742d3066bd0",
+              "quote": "Sun & planet engine, with 22 inch cylinder ... 1782 ... for Mr. Wedgwood"
+            }
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "广州一口通商始于 1757 年，公行（Co-Hong）1720 年已成立，正文把两者并列不算错，但“十三行承揽”是公行制度的延续说法。",
+        "迈森：伯特格尔 1709 年烧出硬质瓷，1710 年在阿尔布雷希茨堡设厂，见大都会博物馆专文；正文无误。",
+        "殷弘绪两封信的日期为 1712 年 9 月 1 日与 1722 年 1 月 25 日，寄给奥里神父，后刊于《耶稣会士书简集》；正文“住了多年”“被公开出版”均属实。",
+        "“瓷器压舱、不用另付运费”是贸易史中的常见说法（瓷器重、耐放，常作回程压舱物），但运费并非绝对为零，属修辞性概括。",
+        "韦奇伍德的展厅（London showroom）与品牌营销见其传记与研究；蒸汽机用于磨燧石与陶土，见 1782 年博尔顿—瓦特图纸。"
+      ],
+      "summary": "高岭土配方、青花钴料、克拉克与纹章瓷、马尼拉银、广州一口通商、迈森与殷弘绪书信均可核；唯把骨瓷说成韦奇伍德的产品有误，应归斯波德。"
+    },
+    {
+      "id": "w2-cn-history-wuyue-water",
+      "status": "verified",
+      "confidence": "medium",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "medium"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "supported", "confidence": "medium"},
+        {"id": "f11", "verdict": "supported", "confidence": "high"},
+        {"id": "f12", "verdict": "supported", "confidence": "medium"}
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "“五里、七里为一纵浦，七里、十里为一横塘”出自北宋郏亶《吴中水利书》对古人遗迹的追述，见《江南通志》卷六十三与《〔嘉靖〕吴江縣志》；正文把它当作塘浦圩田的做法，属转述，不是吴越国当时的法令。",
+        "都水营田使与撩浅军见《〔乾隆〕乌程县志》：“吴越天宝八年，置都水营田使，以主水事，募卒为都，号曰撩浅军……于太湖旁置撩清卒四部，凡七八千人。”",
+        "钱镠捍海塘建于后梁开平四年（910），用“竹笼装石、木桩固基”，见杭州江城路五代捍海塘遗址的考古报道；正文两处重复描述同一工法，属行文问题，不是史实错误。",
+        "吴越 907 年受后梁封吴越王，978 年钱俶纳土，前后七十一年；“七十余年”无误。",
+        "f10 的围垦—蓄水—水患关系是制度推断，正文已自标“难以量化”，处理得当。"
+      ],
+      "summary": "吴越建国的纪年、塘浦圩田的规格、都水营田使与撩浅军、捍海塘工法、纳土归宋均可核；围垦加剧水患属合理推断而非可量化结论。"
+    }
+  ]
+}

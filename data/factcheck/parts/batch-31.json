@@ -1,0 +1,316 @@
+{
+  "batch": "batch-31",
+  "checkedAt": "2026-11-18T02:52:00+08:00",
+  "dossiers": [
+    {
+      "id": "world-history-space",
+      "status": "verified",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "medium"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "medium"},
+        {"id": "f10", "verdict": "supported", "confidence": "high"},
+        {"id": "f11", "verdict": "supported", "confidence": "high"}
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "斯普特尼克1号实测直径58.5厘米、质量83.6公斤、轨道周期约96.2分钟（NASA 与捷克军事历史研究所展品数据）；f1 的“58厘米”是通行的取整写法。",
+        "阿波罗计划总支出约254亿美元（当年美元）、约40万人参与；1966年 NASA 预算59亿美元，占联邦预算约4.4%，为其历史峰值份额。",
+        "N1 火箭四次试射分别失败于1969年2月、1969年7月、1971年6月、1972年11月；苏联载人登月工程1976年正式取消，礼炮1号1971年入轨。f7 的“1969年后放弃载人绕月”说的是计划走向，正式取消要更晚。"
+      ],
+      "summary": "日期、人数、预算比例、事故与任务序列都与 NASA、BBC 及航天史资料对得上，未发现需要改写的错误。"
+    },
+    {
+      "id": "w4-wh-wars-trench-warfare",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "supported", "confidence": "high"},
+        {"id": "f11", "verdict": "imprecise", "confidence": "high", "issue": "issue-01"},
+        {"id": "f12", "verdict": "supported", "confidence": "high"}
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f11",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "攻势两个月后停摆",
+          "problem": "1918年德军春季攻势是一串战役而不是一次战役：米夏埃尔行动3月21日发起、4月5日结束（部分资料记至4月9日），此后还有乔治特、布吕歇尔—约克、格奈森瑙等几次攻势，整轮到7月18日才被挡住。说“两个月后停摆”，既对不上米夏埃尔行动的三周，也对不上整轮攻势的四个月。",
+          "correction": "1918年春天，德军把精锐部队编成突击队，用短促炮击和渗透战术绕过强点，一度推进到马恩河附近。但补给跟不上，部队在旧战场里耗尽，攻势前后拖了近四个月，到七月才彻底停摆。",
+          "evidence": [
+            {"title": "BnF catalogue général: Offensives allemandes du printemps 1918 (21 mars-18 juillet 1918)", "url": "https://catalogue.bnf.fr/ark:/12148/cb177530301", "quote": "les opérations Michael (21 mars-5 avril) entre Bapaume et Saint-Simon ; Georgette (9-29 avril) sur la Lys ; Blücher-Yorck (27 mai-6 juin) sur l'Aisne ; Gneisenau (9-13 juin) sur le Matz ; Marneschutz-Reims (15-18 juillet) sur la Marne"}
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "索姆河首日英军伤亡57,470人、阵亡19,240人，为英军史上最惨重单日，见 BBC Teach 与英国议会档案。",
+        "凡尔登战役“让法军把血流干”的作战意图见美国国防技术信息中心（DTIC）报告 ADA144055；1916年2月至12月双方伤亡大致相当。",
+        "康布雷战役（1917年11月）英军投入约400辆坦克，见 Bryn Hammond 的战役研究。"
+      ],
+      "summary": "机枪、毒气、坦克与伤亡数字均与史料一致；唯一问题是 f11 把持续近四个月的春季攻势说成“两个月后停摆”，已给修正文本。"
+    },
+    {
+      "id": "w1-psych-proximity",
+      "status": "verified",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "medium"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "medium"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "medium"},
+        {"id": "f10", "verdict": "supported", "confidence": "high"},
+        {"id": "f11", "verdict": "supported", "confidence": "high"}
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "Bossard (1932) 载 American Journal of Sociology 38(2)：费城5000份连续结婚登记中约三分之一夫妻住所在五个街区以内，比例随距离稳定下降。",
+        "Festinger、Schachter、Back (1950) 的 Westgate 已婚学生村为17栋两层楼、每栋上下各5户；楼梯口与信箱位置能预测友谊，是功能性距离概念的来源。",
+        "Allen (1977) 的“30米”是沟通概率曲线的拐点：超过约30米，每周沟通概率降到很低。",
+        "f9 的“随机分配宿舍”是把距离与相似性分开的方法学要求，Westgate 本身并非随机分配。"
+      ],
+      "summary": "接近效应的经典研究（Bossard 1932、Westgate 1950、Allen 1977）年份、样本与结论均无误，其余为有文献依据的概括。"
+    },
+    {
+      "id": "w2-geo-world-mountains-himalaya",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "imprecise", "confidence": "high", "issue": "issue-01"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "imprecise", "confidence": "high", "issue": "issue-02"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "imprecise", "confidence": "high", "issue": "issue-03"},
+        {"id": "f11", "verdict": "supported", "confidence": "medium"},
+        {"id": "f12", "verdict": "wrong", "confidence": "high", "issue": "issue-04"}
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f3",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "主边界逆冲断层、主中央逆冲断层和藏南拆离系，各自把更深的岩石送到地表",
+          "problem": "把藏南拆离系（STDS）归入“逆冲岩片”是错的。STDS 是一条低角度正断层系统，属伸展构造，上盘向东北下滑，与南北向挤压下的逆冲抬升机制相反。主边界逆冲断层与主中央逆冲断层才是逆冲性质。",
+          "correction": "喜马拉雅不是一条简单的褶皱，而是一叠由南向北排列的逆冲岩片：主边界逆冲断层和主中央逆冲断层把深部岩石推上地表，更北的藏南拆离系却是一条伸展型正断层，上盘沿它下滑。",
+          "evidence": [
+            {"title": "Searle et al., Ductile shearing to brittle thrusting along the Nepal Himalaya (Tectonophysics, 2016 特刊：2015 Gorkha 地震)", "url": "https://www.sciencedirect.com/science/article/abs/pii/S0040195116303298", "quote": "along the upper contact isograds are right way-up beneath the South Tibetan Detachment (STD), an enigmatic low-angle, north-dipping normal fault"},
+            {"title": "Carosi et al. (1998), The south Tibetan detachment system in the Rongbuk valley, Everest region, Journal of Asian Earth Sciences 16(2-3):299-311（摘要页）", "url": "https://www.mendeley.com/catalogue/51783ad5-3428-3515-a743-0e7e5075daba/", "quote": "investigations into the South Tibetan Detachment System in the Rongbuk valley (southern Tibet) pointed to the presence of a complex extensional setting with the development of two major fault zones with movement in a top-to-NE direction"}
+          ]
+        },
+        {
+          "id": "issue-02",
+          "factId": "f8",
+          "severity": "major",
+          "verdict": "imprecise",
+          "claim": "主震沿主中央逆冲断层破裂",
+          "problem": "2015年4月25日廓尔喀 Mw 7.8 地震的破裂面是主喜马拉雅逆冲断层（MHT），一条倾角约10度的低角度滑脱面，震源深约15公里；主中央逆冲断层（MCT）在其北侧、更深，并非这次地震的发震断层。中文报道常把两者混称。",
+          "correction": "二〇一五年四月，尼泊尔廓尔喀发生七点八级地震，主震沿主喜马拉雅逆冲断层破裂，加德满都以北的山谷受灾最重，珠峰南坡也发生雪崩，登山大本营被部分掩埋。",
+          "evidence": [
+            {"title": "Ductile shearing to brittle thrusting along the Nepal Himalaya: Linking Miocene channel flow and critical wedge tectonics to 25th April 2015 Gorkha earthquake (Tectonophysics)", "url": "https://www.sciencedirect.com/science/article/abs/pii/S0040195116303298", "quote": "active thrust faulting along the MHT as deduced from the 25th April 2015 Gorkha earthquake ... the focal mechanism indicating thrusting on a sub-horizontal fault dipping at ~ 10o north"}
+          ]
+        },
+        {
+          "id": "issue-03",
+          "factId": "f10",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "两国各自测出的结果相差不到一米",
+          "problem": "这一句和前半句自相矛盾。中尼此前的官方数字相差约3.6米：中国2005年按岩面测得8844.43米，尼泊尔按雪面记为8848米，差异主要就来自是否计入峰顶积雪（约3.5米）。“不到一米”只可能指2020年两国协同复测后的一致结果，需要写明限定，否则读者会以为历史分歧不足一米。",
+          "correction": "珠峰高程在二〇二〇年由中尼两国共同公布为八千八百四十八点八六米。此前两国数字相差约三点六米：中方二〇〇五年按岩面测得八千八百四十四点四三米，尼方则把峰顶积雪一并计入。",
+          "evidence": [
+            {"title": "RNZ: Mt Everest grows by nearly a metre to new height", "url": "https://www.rnz.co.nz/news/world/432439/mt-everest-grows-by-nearly-a-metre-to-new-height", "quote": "China's previous official measurement of 8844.43m had put the mountain nearly four metres lower than Nepal's."}
+          ]
+        },
+        {
+          "id": "issue-04",
+          "factId": "f12",
+          "severity": "major",
+          "verdict": "wrong",
+          "claim": "地壳在南北挤压下向东挤出，形成一系列东西向的裂谷和湖泊",
+          "problem": "方向说反了。青藏高原的裂谷是南北走向的：高原在南北向挤压下发生东西向伸展，才拉出一系列近南北向的地堑与湖盆（如亚东—谷露裂谷），这些裂谷切割近东西向的构造单元。写成“东西向的裂谷”与机制不符。",
+          "correction": "山脉北侧的青藏高原内部是另一套机制：地壳在南北挤压下向东挤出，同时发生东西向拉伸，形成一系列南北走向的裂谷和湖泊。高原的隆升与喜马拉雅的抬升是同一场碰撞的两个结果。",
+          "evidence": [
+            {"title": "HA Guanghao et al. (2018), Late Cenozoic Sedimentary Evolution of Pagri-Duoqing Co graben, Southern End of Yadong-Gulu Rift, Southern Tibet, Acta Geologica Sinica 92(3)", "url": "https://pubnr.napstic.cn/periodicalArticle/010dzxb-e201803007", "quote": "The north trending rifts in southern Tibet represent the E-W extension of the plateau"},
+            {"title": "中国科学院地质与地球物理研究所：青藏高原南北向裂谷系不是形成于统一的模式", "url": "http://igg.cas.cn/xwzx/yjcg/202405/t20240511_7158388.html", "quote": "中新世开始青藏高原上发育了一系列南北走向的裂谷，被认为代表了高原动力学机制从南北向挤压转变到了东西向伸展"}
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "珠峰峰顶为奥陶纪（达瑞威尔期）海相灰岩，含海百合、三叶虫、介形虫碎屑，见 IUGS Geoheritage 条目与 Sakai 等 (2005) Island Arc 论文。",
+        "1934年尼泊尔—比哈尔地震 Mw 8.0、1950年察隅地震 Mw 8.6；2015年廓尔喀地震 Mw 7.8，震源深约15公里。",
+        "2020年12月中尼联合公布8848.86米；中国2005年按岩面测得8844.43米，峰顶雪深约3.5米，与尼方雪面高程相差约3.6米。",
+        "卡利甘达基峡谷夹在道拉吉里（8167米）与安纳普尔纳（8091米）之间，常被称为世界最深峡谷。"
+      ],
+      "summary": "碰撞年代、峰顶岩性、地震序列与高程数字大体可靠；四处需改：STDS 被误作逆冲岩片、2015年发震断层应为 MHT、“相差不到一米”与3.6米雪面差矛盾、高原裂谷走向说反。"
+    },
+    {
+      "id": "w5-myth-cn-wongtaisin",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "medium"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "medium"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "imprecise", "confidence": "high", "issue": "issue-01"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "medium"},
+        {"id": "f10", "verdict": "supported", "confidence": "high"},
+        {"id": "f11", "verdict": "supported", "confidence": "medium"}
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f6",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "二十世纪三十年代起赠医施药",
+          "problem": "啬色园官方园史把开办中药局、赠医施药的时间定在1924年，属二十世纪二十年代；“三十年代起”晚了约十年。后半句办中小学、安老院与诊所，以及“庙宇收入与慈善捆在一起”的概括成立。",
+          "correction": "啬色园最特别的地方，是它把信仰做成了社会服务：一九二四年开办中药局赠医施药，后来办中小学、安老院与诊所。今天它仍是香港主要的慈善办学团体之一，庙宇收入与慈善事业捆在一起。",
+          "evidence": [
+            {"title": "嗇色園：普濟樓及中藥局", "url": "http://www.wongtaisintemple.org.hk/zh-CN/index/po-chai-hall-and-herbal-clinic", "quote": "本园于1924年开办中药局，向贫苦大众提供免费中医诊疗及送药服务。"}
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "1915年梁仁庵、梁钧转父子自西樵山普广祖坛携黄大仙画像来港，先在湾仔供奉，1921年按乩示在竹园建祠；中新社2004年报道与啬色园园史口径一致。",
+        "黄大仙灵签共100支，分上签13、中签69、下签18。",
+        "啬色园1921年创立时为私家清修道场，1956年正式开放公众参拜；1969年该祠所在地定名黄大仙区。",
+        "宋代敕封与“叱石成羊”传说见金华市金东区政府网站的黄初平条目，属地方传说整理，不作史实强度要求。"
+      ],
+      "summary": "黄初平传说、1915年来港、1921年建园、1956年开放、100支灵签与1979年地铁站名均可溯源；唯一需改的是把1924年开办中药局写成“三十年代起”。"
+    },
+    {
+      "id": "w2-psych-family-power-bases",
+      "status": "corrected",
+      "confidence": "medium",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "imprecise", "confidence": "medium", "issue": "issue-01"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "medium"},
+        {"id": "f8", "verdict": "supported", "confidence": "medium"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "supported", "confidence": "medium"},
+        {"id": "f11", "verdict": "supported", "confidence": "medium"},
+        {"id": "f12", "verdict": "supported", "confidence": "medium"}
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f5",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "它消失得比其他几种都快。，也更难重建。",
+          "problem": "两点问题。一是没有实证研究比较过各权力基础的衰减速度，French & Raven 的分类只描述机制与影响后果，不给“参照权衰减最快”的排序，这句是把常识印象写成了研究结论。二是原句“。，也更难重建”有重复标点，属编校错误。",
+          "correction": "参照权来自认同与喜欢。一个人被敬佩、被当作榜样，他说的话就更有分量；这种权力不靠威胁，也不靠钱，但关系一旦破裂、敬佩消失，它也会迅速瓦解，而且比别的权力更难重建。",
+          "evidence": [
+            {"title": "Frontiers in Psychology (2021): From Perceived Supervisor Social Power to Employee Commitment", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7952328/", "quote": "according to Raven (1992), referent power stems from identification with an influencing agent"}
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "French & Raven (1959)《The Bases of Social Power》列五种基础，Raven (1965) 在《Social Influence and Power》中补入信息权，共六种。",
+        "f8 的“强制权—关系满意度”方向与家庭权力研究的通行结论一致，但未见针对该句的单一原始研究，confidence 记为 medium。",
+        "f7、f10 至 f12 属理论引申或实践建议，方向与文献一致但无逐句实证，confidence 记为 medium。"
+      ],
+      "summary": "六种权力基础的归属与年份无误；f5 把“参照权衰减最快”写成定论并带一处重复标点，已改为不排名的表述。"
+    },
+    {
+      "id": "w1-cn-history-monastery-economy",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "supported", "confidence": "high"},
+        {"id": "f11", "verdict": "imprecise", "confidence": "medium", "issue": "issue-01"}
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f11",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "也推动了造纸、印刷、借贷与仓储技术的发展",
+          "problem": "雕版印刷起于唐初，现存最早有明确纪年的印本为868年敦煌《金刚经》，南北朝时尚未出现印刷术。把“印刷”列入这一时期寺院经济推动的技术，是时序错置；寺院在当时的实际贡献是抄经与写经。",
+          "correction": "寺院经济为后世佛教寺院的地产、香火与慈善事业提供了模板，也推动了造纸、抄经、借贷与仓储技术的发展。宗教机构的经济功能，往往比教义传播得更久。后世的寺院田产与香火制度，大多能在这一时期找到影子。",
+          "evidence": [
+            {"title": "China Today: The history of printing in China", "url": "http://www.chinatoday.com.cn/english/culture/2016-06/01/content_721803.htm", "quote": "woodblock printing emerged in the early Tang Dynasty ... a block-printed Diamond Sutra ... dated to the year 868 in the Tang Dynasty. It is the world's oldest print including an explicit date."}
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "《魏书·释老志》：“岁输谷六十斛入僧曹者，即为僧祇户……又请民犯重罪及官奴以为佛图户，以供诸寺扫洒”。",
+        "梁武帝四次舍身同泰寺在527、529、546、547年，赎钱各为一亿、一亿、二亿、一亿，合计四亿钱。",
+        "《南史·甄法崇传》“就州长沙寺库质钱”是南朝寺院经营质库的早期记载；北魏末年寺院三万余所、僧尼二百万。",
+        "北周武帝灭佛在574至577年间；隋开皇二十年（600年）敕断三阶教无尽藏。"
+      ],
+      "summary": "僧祇户、佛图户、梁武帝舍身、两次法难与敦煌借贷契约均与正史及出土文书对得上；仅 f11 把唐初才有的印刷术提前到南北朝。"
+    },
+    {
+      "id": "w1-geo-cn-pearl-river",
+      "status": "verified",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "medium"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "supported", "confidence": "medium"},
+        {"id": "f11", "verdict": "supported", "confidence": "high"}
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "西江全长2214公里、流域面积45.37万平方公里、年径流量3360亿立方米，在七大江河中仅次于长江，见水利部珠江水利委员会资料。",
+        "珠江流域多年平均降水量1470毫米，为我国七大流域之首；f3 的“约一千五百毫米”为取整。",
+        "前汛期4至6月以锋面雨为主，后汛期7至9月以台风雨为主；桑基鱼塘明代出现，清代随商品性农业扩展。"
+      ],
+      "summary": "长度、流域面积、径流量排名、降水与汛期机制、桑基鱼塘与咸潮压咸补淡均与水利部门及地方志资料一致。"
+    }
+  ]
+}

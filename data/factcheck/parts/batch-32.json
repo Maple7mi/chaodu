@@ -1,0 +1,326 @@
+{
+  "batch": "batch-32",
+  "checkedAt": "2026-11-18T02:41:00+08:00",
+  "dossiers": [
+    {
+      "id": "cn-history-dunhuang",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        { "id": "f1", "verdict": "supported", "confidence": "high" },
+        { "id": "f2", "verdict": "supported", "confidence": "high" },
+        { "id": "f3", "verdict": "imprecise", "confidence": "high", "issue": "issue-01" },
+        { "id": "f4", "verdict": "supported", "confidence": "high" },
+        { "id": "f5", "verdict": "supported", "confidence": "high" },
+        { "id": "f6", "verdict": "supported", "confidence": "high" },
+        { "id": "f7", "verdict": "supported", "confidence": "high" },
+        { "id": "f8", "verdict": "supported", "confidence": "high" },
+        { "id": "f9", "verdict": "supported", "confidence": "high" },
+        { "id": "f10", "verdict": "supported", "confidence": "high" },
+        { "id": "f11", "verdict": "imprecise", "confidence": "high", "issue": "issue-02" },
+        { "id": "f12", "verdict": "supported", "confidence": "high" }
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f3",
+          "severity": "major",
+          "verdict": "imprecise",
+          "claim": "数量最多的是佛经，《金刚经》《法华经》《大般涅槃经》的抄本各有数十件。抄经人、校对人的名字写在卷尾题记里，有的还注明为谁祈福、用了多少张纸。抄经在当时是积累功德的方式，施主出钱，寺院组织人手，一天可抄出好几卷。",
+          "problem": "“各有数十件”与实物数量相差两三个数量级：敦煌文献中《大般涅槃经》即达3064号，数量仅次于《法华经》《大般若波罗蜜多经》《金刚经》，三部大经的抄本都以千号计，不是“数十件”。",
+          "correction": "数量最多的是佛经，其中《法华经》《大般涅槃经》《金刚经》的抄本各有上千号，多者达数千号。抄经人、校对人的名字写在卷尾题记里，有的还注明为谁祈福、用了多少张纸。抄经在当时是积累功德的方式，施主出钱，寺院组织人手。",
+          "evidence": [
+            {
+              "title": "北朝敦煌写本《大般涅槃经》——丝路文化交流的重要见证（人民日报）",
+              "url": "http://culture.yunnan.cn/system/2024/08/02/033169300.shtml",
+              "quote": "敦煌文献中共有《大般涅槃经》3064号，数量仅次于《法华经》《大般若波罗蜜多经》《金刚经》。"
+            }
+          ]
+        },
+        {
+          "id": "issue-02",
+          "factId": "f11",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "一份《归义军酒账》记下衙内用酒的每一笔开支：宴请使者用几瓮，赏赐工匠用几瓮，某日支酒给某人。研究者据此推算当时的酒价与官府的迎来送往。账本按日期、事由、数量分列，格式和今天的流水账差别不大。",
+          "problem": "《酒破历》逐笔只记日期、事由与支酒数量，通卷不载价钱；仅凭这份账册无法“推算当时的酒价”，该断言超出了材料能支持的范围，其余关于体例与用途的描述无误。",
+          "correction": "一份《归义军酒账》记下衙内用酒的每一笔开支：宴请使者用几瓮，赏赐工匠用几瓮，某日支酒给某人。研究者据此复原官府的迎来送往与宴设制度。账本按日期、事由、数量分列，格式和今天的流水账差别不大。",
+          "evidence": [
+            {
+              "title": "敦煌研究院邰惠莉：敦煌文献中的《酒帐》",
+              "url": "http://mp.weixin.qq.com/s?__biz=MzkyODIzNDQ3MA==&mid=2247483830&idx=2&sn=bc457727d01c1064c3ec8cad964d4753",
+              "quote": "内容要点：《归义军衙府酒破历》逐笔记录用酒的日期、事由与数量，用于宴设司公务接待与酬劳工匠僧侣，不记价钱。"
+            },
+            {
+              "title": "封面新闻：敦煌《酒账》里的官府日常",
+              "url": "https://www.thecover.cn/news/199150",
+              "quote": "内容要点：全卷213笔，起于乾德二年四月九日，止于十月十六日，按日期、事由、数量分列。"
+            }
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "藏经洞文献总数统计口径不一：敦煌研究院作“5万余件”，郝春文等按编号与残片折算为“7万件以上”，专题采用前者，属可接受口径。",
+        "《沙州都督府图经》全称为“沙州都督府图经”，“沙州图经”是罗振玉1913年起的旧称，正文用法不算错。",
+        "《敦煌变文集》辑录变文78篇，与 f10“辑出数十篇”相容。"
+      ],
+      "summary": "敦煌专题史实骨架扎实：1900年发现、斯坦因与伯舋和劫掠、1910年运京、写经题记与图经地志均与文献吻合。两处需修：佛经抄本数量被压低了两三个数量级；《酒账》不记价钱，不能据以推算酒价。"
+    },
+    {
+      "id": "w4-wh-regions-peronism",
+      "status": "verified",
+      "confidence": "high",
+      "facts": [
+        { "id": "f1", "verdict": "supported", "confidence": "high" },
+        { "id": "f2", "verdict": "supported", "confidence": "high" },
+        { "id": "f3", "verdict": "supported", "confidence": "high" },
+        { "id": "f4", "verdict": "supported", "confidence": "high" },
+        { "id": "f5", "verdict": "supported", "confidence": "high" },
+        { "id": "f6", "verdict": "supported", "confidence": "high" },
+        { "id": "f7", "verdict": "supported", "confidence": "high" },
+        { "id": "f8", "verdict": "supported", "confidence": "high" },
+        { "id": "f9", "verdict": "supported", "confidence": "high" },
+        { "id": "f10", "verdict": "supported", "confidence": "high" },
+        { "id": "f11", "verdict": "supported", "confidence": "high" },
+        { "id": "f12", "verdict": "supported", "confidence": "high" }
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "专题所列 Rock、Brennan 等书目为经典研究，未附网址；正文各断言已另行用阿根廷官方史料与纪念性资料复核。",
+        "1946年2月庇隆赢得大选、6月4日就职，正文“1946年当选总统”不误。"
+      ],
+      "summary": "庇隆主义专题十二条均可核实：1943年军官政变与庇隆的劳工职位、1945年10月17日忠诚日、1946年就职、1947年第13.010号妇女选举权法、1949年宪法改革、1955年九月革命与十八年禁选、1973年回归、1976年政变与“肮脏战争”约三万人失踪，时间线与因果链均与主流叙述一致。"
+    },
+    {
+      "id": "w1-psych-reciprocal-liking",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        { "id": "f1", "verdict": "imprecise", "confidence": "high", "issue": "issue-01" },
+        { "id": "f2", "verdict": "supported", "confidence": "high" },
+        { "id": "f3", "verdict": "supported", "confidence": "high" },
+        { "id": "f4", "verdict": "supported", "confidence": "high" },
+        { "id": "f5", "verdict": "supported", "confidence": "high" },
+        { "id": "f6", "verdict": "supported", "confidence": "high" },
+        { "id": "f7", "verdict": "supported", "confidence": "high" },
+        { "id": "f8", "verdict": "supported", "confidence": "high" },
+        { "id": "f9", "verdict": "supported", "confidence": "high" },
+        { "id": "f10", "verdict": "supported", "confidence": "high" },
+        { "id": "f11", "verdict": "supported", "confidence": "high" },
+        { "id": "f12", "verdict": "supported", "confidence": "high" }
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f1",
+          "severity": "major",
+          "verdict": "imprecise",
+          "claim": "一九八六年，柯蒂斯和米勒综述了二十多项研究：当被试相信对方喜欢自己时，对对方的好感会上升；相信对方讨厌自己时，好感下降。这条双向的规律就是互惠好感，效应稳定但幅度中等。",
+          "problem": "Curtis 与 Miller 1986 年发表于 JPSP 的是一项单一实验（60名本科生，2×2 喜欢/讨厌预期操纵），并非“综述二十多项研究”。把单一实验说成综述，抬高了证据层级，也让“效应稳定”缺少元分析支撑。",
+          "correction": "一九八六年，柯蒂斯和米勒做了一个实验：让被试相信对方喜欢或讨厌自己。被引导相信对方喜欢自己的人，举止更友善，也确实更受对方喜欢；相信对方讨厌自己的，互动随之变差。这就是互惠好感，效应稳定但幅度中等。",
+          "evidence": [
+            {
+              "title": "Curtis & Miller (1986), Believing another likes or dislikes you, JPSP 51(2):284–290",
+              "url": "https://www.ovid.com/journals/jpspy/abstract/00005205-198608000-00006~believing-another-likes-or-dislikes-you-behaviors-making-the",
+              "quote": "内容要点：单一实验，操纵被试对搭档喜欢/讨厌自己的预期，再观察双方互动，发现预期会自我实现。"
+            },
+            {
+              "title": "Chicago Tribune: Estimation of popularity (1986-12-02)",
+              "url": "https://www.chicagotribune.com/1986/12/02/estimation-of-popularity/",
+              "quote": "内容要点：该实验以60名大学生为被试。"
+            }
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "Boothby 等 2018 年“喜欢差距”论文页码应为 Psychological Science 29(11):1742–1756，专题 sources 记作 1839–1850，属引文小误，不影响正文断言。",
+        "Aronson & Linder 1965 得失效应四条件的好感排序（先贬后褒＞始终褒奖＞始终贬低＞先褒后贬）与教科书叙述一致。"
+      ],
+      "summary": "互惠好感专题除首条外均可核实：得失效应、喜欢差距、自我表露与亲密感形成、性别差异小等断言与既有实验和综述一致。首条把 Curtis & Miller 的单一实验误称为“综述二十多项研究”，需改写。"
+    },
+    {
+      "id": "w1-world-history-classical-roman-magistracies",
+      "status": "verified",
+      "confidence": "high",
+      "facts": [
+        { "id": "f1", "verdict": "supported", "confidence": "high" },
+        { "id": "f2", "verdict": "supported", "confidence": "high" },
+        { "id": "f3", "verdict": "supported", "confidence": "high" },
+        { "id": "f4", "verdict": "supported", "confidence": "high" },
+        { "id": "f5", "verdict": "supported", "confidence": "high" },
+        { "id": "f6", "verdict": "supported", "confidence": "high" },
+        { "id": "f7", "verdict": "supported", "confidence": "high" },
+        { "id": "f8", "verdict": "supported", "confidence": "high" },
+        { "id": "f9", "verdict": "supported", "confidence": "high" },
+        { "id": "f10", "verdict": "supported", "confidence": "high" },
+        { "id": "f11", "verdict": "supported", "confidence": "high" },
+        { "id": "f12", "verdict": "supported", "confidence": "high" }
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "元老院人数在共和国中期约300人，苏拉增至600人、凯撒增至900人；专题取“约三百人”的通说，未按月分段，尚可接受。",
+        "苏拉规定的各级最低年龄（财务官31、营造官36、大法官39、执政官42）见 Rubicon 2019年第5期专文。"
+      ],
+      "summary": "罗马官职专题十二条均与制度史通说相符：晋升阶梯与年龄门槛、两名执政官互相否决、独裁官六个月、保民官十人且权限限于城内、元老院约三百人且无薪俸、白袍与“候选人”词源、苏拉增至二十名财务官、凯撒终身独裁官与3月15日遇刺、屋大维的保民官权力与军队指挥权。"
+    },
+    {
+      "id": "w5-myth-compare-hero-birth",
+      "status": "verified",
+      "confidence": "high",
+      "facts": [
+        { "id": "f1", "verdict": "supported", "confidence": "high" },
+        { "id": "f2", "verdict": "supported", "confidence": "high" },
+        { "id": "f3", "verdict": "supported", "confidence": "high" },
+        { "id": "f4", "verdict": "supported", "confidence": "high" },
+        { "id": "f5", "verdict": "supported", "confidence": "high" },
+        { "id": "f6", "verdict": "supported", "confidence": "high" },
+        { "id": "f7", "verdict": "supported", "confidence": "high" },
+        { "id": "f8", "verdict": "supported", "confidence": "high" },
+        { "id": "f9", "verdict": "supported", "confidence": "high" },
+        { "id": "f10", "verdict": "supported", "confidence": "high" },
+        { "id": "f11", "verdict": "supported", "confidence": "high" },
+        { "id": "f12", "verdict": "supported", "confidence": "high" }
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "《萨尔贡出生传说》现存文本为亚述晚期抄本，学界多认为成文更早；“最早的弃婴自述之一”属通说。",
+        "罗慕路斯“母狼”之 lupa 亦可指妓女，正文以“可能”出之，未把歧义说死，处理得当。"
+      ],
+      "summary": "英雄出生专题十二条与典籍原文及比较神话学共识一致：萨尔贡的芦苇篮与沥青、摩西的蒲草箱与石漆、俄狄浦斯的钉脚与牧人、珀尔修斯的木箱与塞里福斯、罗慕路斯的母狼、迦尔纳的箱与车夫、后稷的牛羊鸟翼，以及 Otto Rank 1909 年的母题归纳；阿喀琉斯、赫克托耳、亚瑟王未被弃的对照也成立。"
+    },
+    {
+      "id": "w2-psych-family-eldercare",
+      "status": "corrected",
+      "confidence": "medium",
+      "facts": [
+        { "id": "f1", "verdict": "supported", "confidence": "high" },
+        { "id": "f2", "verdict": "supported", "confidence": "high" },
+        { "id": "f3", "verdict": "supported", "confidence": "medium" },
+        { "id": "f4", "verdict": "supported", "confidence": "high" },
+        { "id": "f5", "verdict": "supported", "confidence": "medium" },
+        { "id": "f6", "verdict": "supported", "confidence": "medium" },
+        { "id": "f7", "verdict": "supported", "confidence": "medium" },
+        { "id": "f8", "verdict": "supported", "confidence": "high" },
+        { "id": "f9", "verdict": "supported", "confidence": "high" },
+        { "id": "f10", "verdict": "imprecise", "confidence": "medium", "issue": "issue-01" },
+        { "id": "f11", "verdict": "supported", "confidence": "high" },
+        { "id": "f12", "verdict": "supported", "confidence": "high" }
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f10",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "研究提示，提前讨论并写下安排的家庭，后期冲突更少。讨论内容包括谁做主、紧急时联系谁、钱从哪里出，以及老人自己希望怎样生活。，写下来的东西不必正式，但要能被所有人找到。",
+          "problem": "现有随机对照试验与系统综述测到的是“临终决定更符合本人意愿”“家属决策冲突显著下降（p<.001）”，并未直接测量“家庭后期冲突更少”这一笼统结果；断言把相关指标替换成了更宽泛的家庭冲突。原文此处另有标点损坏（“。，”）。",
+          "correction": "研究提示，提前讨论并写下安排的家庭，临终时的决定更符合老人意愿，家属的决策冲突也更少。讨论内容包括谁做主、紧急时联系谁、钱从哪里出，以及老人自己希望怎样生活。写下来的东西不必正式，但要能被所有人找到。",
+          "evidence": [
+            {
+              "title": "Advance care planning and caregiver outcomes: intervention efficacy – systematic review (BMJ Support Palliat Care)",
+              "url": "https://spcare.bmj.com/content/13/e3/e537.full",
+              "quote": "内容要点：系统综述与元分析，预先照护规划干预对照护者结局有可测量影响。"
+            },
+            {
+              "title": "家庭为中心的 ACP 干预对失智症患者及家属临终决策冲突的影响",
+              "url": "https://pesquisa.bvsalud.org/sms/resource/pt/mdl-33521917",
+              "quote": "The ACP information intervention significantly reduced the decisional conflict score for end-of-life decision making (p < .001)."
+            }
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "该专题多条 fact 正文存在标点损坏（句号后紧跟逗号，如 f1、f3、f5、f6、f8、f9、f10、f11、f12），属数据录入问题，未据此改判。",
+        "ACP 证据以随机对照试验与系统综述为主，样本多来自台湾地区与美国，外推到其他照护体系需谨慎，故 f6、f7 置信度记 medium。"
+      ],
+      "summary": "家庭养老专题的总体框架（无偿照护不进GDP、女性承担多数、照护者健康与收入代价、喘息服务有效）均有实证支持。唯 f10 把“决策冲突下降”写成“后期冲突更少”，且该条正文有标点损坏，需修正。"
+    },
+    {
+      "id": "w1-geo-cn-qiantang-bore",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        { "id": "f1", "verdict": "supported", "confidence": "high" },
+        { "id": "f2", "verdict": "supported", "confidence": "high" },
+        { "id": "f3", "verdict": "supported", "confidence": "high" },
+        { "id": "f4", "verdict": "supported", "confidence": "high" },
+        { "id": "f5", "verdict": "supported", "confidence": "high" },
+        { "id": "f6", "verdict": "supported", "confidence": "high" },
+        { "id": "f7", "verdict": "supported", "confidence": "high" },
+        { "id": "f8", "verdict": "supported", "confidence": "high" },
+        { "id": "f9", "verdict": "supported", "confidence": "high" },
+        { "id": "f10", "verdict": "supported", "confidence": "high" },
+        { "id": "f11", "verdict": "imprecise", "confidence": "high", "issue": "issue-01" }
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f11",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "钱塘江的河床是细沙和粉沙，抗冲刷能力弱。涌潮反复冲刷塘脚，海塘必须常年维修，否则一次大潮就能掏出空洞，塘身随之坍塌，修一次要花几年，一修就是几个月。",
+          "problem": "末句“修一次要花几年，一修就是几个月”句内自相矛盾，且与海塘岁修的实际不符：塘工多抢在小潮期间分段施工，单处工期以月计，不是以年计。前半段关于粉沙河床与塘脚冲刷的描述无误。",
+          "correction": "钱塘江的河床是细沙和粉沙，抗冲刷能力弱。涌潮反复冲刷塘脚，海塘必须常年维修，否则一次大潮就能掏出空洞，塘身随之坍塌。维修多抢在小潮期间分段进行，一处塘工动辄数月，花钱以万计。",
+          "evidence": [
+            {
+              "title": "人民网浙江：杭州湾与钱塘江河口的涌潮",
+              "url": "http://zj.people.com.cn/n2/2021/0901/c186327-34894559.html",
+              "quote": "杭州湾外口宽达100公里，至澉浦缩至20公里，萧山仓前仅2.2公里。"
+            },
+            {
+              "title": "钱塘江河口泥沙与河床演变研究（地理学报）",
+              "url": "https://www.geog.com.cn/CN/article/downloadArticleFile.do?attachType=PDF&id=20103",
+              "quote": "内容要点：河床质以粉砂为主，中径0.026–0.090毫米，抗冲刷能力弱。"
+            }
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "潮头高度与流速为观测区间值（一般1–2米、最高3米以上；5–7米/秒），不同年份差异大，正文用区间表述，未夸大。",
+        "“沙坎”使潮波前坡变陡的机制与河口地形资料一致。"
+      ],
+      "summary": "钱塘江涌潮专题的地形、潮差、流速、含沙量与历史灾害叙述均可核实，数字多取自实测区间。仅 f11 末句自相矛盾（“花几年”与“几个月”并列），需改写为分段岁修、单处以月计。"
+    },
+    {
+      "id": "w1-cn-history-nine-rank",
+      "status": "corrected",
+      "confidence": "medium",
+      "facts": [
+        { "id": "f1", "verdict": "imprecise", "confidence": "medium", "issue": "issue-01" },
+        { "id": "f2", "verdict": "supported", "confidence": "high" },
+        { "id": "f3", "verdict": "supported", "confidence": "high" },
+        { "id": "f4", "verdict": "supported", "confidence": "high" },
+        { "id": "f5", "verdict": "supported", "confidence": "high" },
+        { "id": "f6", "verdict": "supported", "confidence": "high" },
+        { "id": "f7", "verdict": "supported", "confidence": "high" },
+        { "id": "f8", "verdict": "supported", "confidence": "high" },
+        { "id": "f9", "verdict": "supported", "confidence": "high" },
+        { "id": "f10", "verdict": "supported", "confidence": "high" },
+        { "id": "f11", "verdict": "supported", "confidence": "high" }
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f1",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "曹魏黄初元年（220），曹丕采纳吏部尚书陈群的建议，推行九品官人法。郡设中正，州设大中正，负责品评本州郡人物，品第送吏部作为选官依据，选官权从此向中央收拢。",
+          "problem": "“州设大中正”与创制时的制度不符。唐长孺《试释》考订陈群创设时只置郡中正，州（大）中正的设置在其后（一说魏末依司马懿之议），教科书式的“州郡皆置中正”是把后来的制度回溯到了220年。",
+          "correction": "曹魏黄初元年（220），曹丕采纳吏部尚书陈群的建议，推行九品官人法。起初郡国置中正，品评本地人物，品第送吏部作为选官依据；州一级的大中正稍后才设，选官权从此向中央收拢。",
+          "evidence": [
+            {
+              "title": "唐长孺《试释九品中正制度》（20世纪以来九品中正制研究综述引）",
+              "url": "http://dh.dha.ac.cn/FileDownload/index/279140?table=DHXCJFD_METADATA&name=20%E4%B8%96%E7%BA%AA%E4%BB%A5%E6%9D%A5%E4%B9%9D%E5%93%81%E4%B8%AD%E6%AD%A3%E5%88%B6%E7%A0%94%E7%A9%B6%E7%BB%BC%E8%BF%B0",
+              "quote": "内容要点：陈群创制九品官人法时只置郡中正，州中正（大中正）之设在其后。"
+            }
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "九品中正制创设于黄初元年（220）为通说；州中正始设时间有黄初说、魏末说等分歧，故本条置信度记 medium。",
+        "刘毅“上品无寒门，下品无势族”及“宜罢中正而除九品”见《晋书·刘毅传》，明清小说《东西晋演义》亦引，正文引用无误。"
+      ],
+      "summary": "九品中正制专题除首条外均与制度史相符：中正品评人物、品第送吏部、二品以上为“上品”、“上品无寒门”的刘毅批评、南朝寒人掌机要与士族衰落的因果。首条把州大中正说成220年原制，需限定为“稍后才设”。"
+    }
+  ]
+}

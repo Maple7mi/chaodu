@@ -1,0 +1,309 @@
+{
+  "batch": "batch-28",
+  "checkedAt": "2026-11-18T02:36:00+08:00",
+  "dossiers": [
+    {
+      "id": "world-history-columbus",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "medium"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "imprecise", "confidence": "medium", "issue": "issue-01"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "imprecise", "confidence": "medium", "issue": "issue-02"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "supported", "confidence": "medium"},
+        {"id": "f11", "verdict": "supported", "confidence": "high"},
+        {"id": "f12", "verdict": "supported", "confidence": "medium"}
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f5",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "1545年，西班牙人在上秘鲁发现波托西银矿，矿区海拔约4000米，靠汞齐法提炼。",
+          "problem": "矿确实在1545年发现、海拔四千米以上，但汞齐法（汞法炼银）是1572年前后才引入波托西的，建矿初期用的是熔炼法，原句把两者压在同一年。",
+          "correction": "一五四五年，西班牙人在上秘鲁发现波托西银矿，矿区海拔约四千米。一五七二年起改用汞齐法提炼。十六至十七世纪，美洲白银经马尼拉与塞维利亚大量流向中国，成为明朝白银货币化的重要来源，也加剧了欧洲的价格上涨。",
+          "evidence": [
+            {"title": "Xinhua: Potosí, the silver mountain that financed an empire", "url": "http://english.news.cn/20240302/41edfcebe28e4859abadd4cbb167209b/c.html", "quote": "discovered in 1545 ... at more than 4,000 metres above sea level"},
+            {"title": "ISPRS Proceedings: The silver mines of Potosí", "url": "https://isprs.org/proceedings/XXXVII/congress/8_pdf/1_WG-VIII-1/25.pdf", "quote": "mercury amalgamation was introduced in 1572"}
+          ]
+        },
+        {
+          "id": "issue-02",
+          "factId": "f7",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "16世纪末逃逸的马群扩散到北美大平原",
+          "problem": "时间和机制都偏早。2023年《科学》的基因组研究显示，西班牙马从墨西哥向北扩散、原住民开始骑乘与养马，主要发生在17世纪初，不是16世纪末。",
+          "correction": "马回到美洲。西班牙人把马带到加勒比与墨西哥，十七世纪初逃逸的马群已扩散到北美大平原；到十八世纪，科曼奇等原住民族以马为核心重建狩猎与战争方式，部落间的力量格局随之改变。",
+          "evidence": [
+            {"title": "RTVE: Los caballos españoles entraron en las Grandes Llanuras antes que los colonizadores", "url": "https://www.rtve.es/noticias/20230402/caballos-espanoles-grandes-llanuras-norteamerica/2435208.shtml", "quote": "comenzaron a montar y a criar caballos a comienzos del siglo XVII"}
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "“至死认为自己到的是亚洲”是传统叙述，近年有西班牙史家（如 Consuelo Varela）提出哥伦布晚年已知那是新大陆，学界仍有争论（https://www.sohu.com/a/914058036_114911），不影响本条其余断言。",
+        "伊斯帕尼奥拉1492年人口估计差异极大，从十余万到上百万都有；1514年27,800这一统计数字本身可靠。墨西哥中部1519年估计在1500万至3000万之间。",
+        "《1493》与 Crosby 的书都支持“无意的生物迁移最难逆转”这一判断，蚯蚓部分主要依据 Mann 的综述性叙述。"
+      ],
+      "summary": "哥伦布交换的时空框架、人口数字与制度史基本可靠；两处需改：波托西汞齐法的时间、北美马匹扩散的时间。"
+    },
+    {
+      "id": "psych-power",
+      "status": "verified",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "medium"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "medium"},
+        {"id": "f7", "verdict": "supported", "confidence": "medium"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "medium"},
+        {"id": "f10", "verdict": "supported", "confidence": "medium"},
+        {"id": "f11", "verdict": "supported", "confidence": "medium"}
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "Waller 1938 的最小利益原则本身是理论表述，Sprecher 等 2006 的检验支持“依赖不对称影响权力”，但并不支持“冷淡就能赢”的通俗读法，原文已作区分。",
+        "f6 的“做性别”出自 Brines 1994：妻子相对收入升高时，家务分工可能反而更传统，作者用 gender display 与 neutralization 解释，属于观察性研究。",
+        "f9 的证据主要来自关系权力与健康的相关研究（如肯尼亚 HIV 女性样本），横断面设计只能说明相关，原文用“相关”措辞是恰当的。"
+      ],
+      "summary": "十一条全部有文献支撑，理论归属（Waller、Rusbult、French & Raven）与实证发现（要求—退缩、做性别、共同决策）均对得上，毋须改写。"
+    },
+    {
+      "id": "w1-geo-cn-tianshan",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "medium"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "medium"},
+        {"id": "f6", "verdict": "imprecise", "confidence": "high", "issue": "issue-01"},
+        {"id": "f7", "verdict": "supported", "confidence": "medium"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "wrong", "confidence": "high", "issue": "issue-02"},
+        {"id": "f11", "verdict": "supported", "confidence": "medium"},
+        {"id": "f12", "verdict": "wrong", "confidence": "high", "issue": "issue-03"}
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f6",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "中国境内有冰川七千余条，面积近一万平方公里。",
+          "problem": "两个数字来自不同编目、彼此不匹配：第二次中国冰川编目记中国境内天山冰川7934条、7179.77平方公里（约七千二百平方公里，不是“近一万”）；“近一万平方公里”接近第一次编目的9235.96平方公里，但那一次是9081条。",
+          "correction": "天山是中国冰川最集中的山系之一。按较新的编目，中国境内天山有冰川七千九百多条、面积约七千二百平方公里；较早的编目记为九千条、九千二百平方公里。它们大多分布在海拔四千米以上，融水补给了伊犁河、阿克苏河与开都河。",
+          "evidence": [
+            {"title": "中国天山冰川资源及其变化（第二次中国冰川编目）", "url": "http://www.tgs.ac.cn/public/upfiles/file/20191218/1576661554649607.pdf", "quote": "中国境内天山共有冰川7934条，面积7179.77 km²"},
+            {"title": "第一次中国冰川编目中的天山冰川", "url": "http://www.tgs.ac.cn/public/upfiles/file/20191220/1576809438586092.pdf", "quote": "9081条，面积9235.96 km²"}
+          ]
+        },
+        {
+          "id": "issue-02",
+          "factId": "f10",
+          "severity": "major",
+          "verdict": "wrong",
+          "claim": "2006 年一场大风把行进中的列车车厢吹翻",
+          "problem": "年份错。事故发生在2007年2月28日凌晨，5807次列车在吐鲁番珍珠泉—红山渠间被瞬间13级大风吹翻，11节车厢脱轨，3死32伤。",
+          "correction": "达坂城一带是天山著名的风区，山口收窄后气流加速，年均风速可达每秒六米以上。二〇〇七年二月末，一场大风把行进中的列车吹翻，此后沿线修起了挡风墙。",
+          "evidence": [
+            {"title": "央视：新疆吐鲁番列车被大风掀翻", "url": "https://news.cctv.com/china/20070228/100817.shtml", "quote": "2月28日2时05分，5807次列车……11节车厢脱轨"},
+            {"title": "中国广播网：列车被吹翻事故", "url": "https://china.cnr.cn/wbll/gushi/200703/t20070305_504412339.html", "quote": "瞬间风力达13级，造成3人死亡、32人受伤"}
+          ]
+        },
+        {
+          "id": "issue-03",
+          "factId": "f12",
+          "severity": "major",
+          "verdict": "wrong",
+          "claim": "2013 年，中国、哈萨克斯坦、吉尔吉斯斯坦联合申报的“丝绸之路：长安—天山廊道路网”列入世界遗产；天山本身也在同年以自然遗产名义列入。",
+          "problem": "两件事不是同年。天山是2013年6月21日在金边列入自然遗产（四个片区）；“丝绸之路：长安—天山廊道路网”是2014年6月22日在多哈列入，两者相隔一年。",
+          "correction": "二〇一三年，天山以自然遗产名义列入世界遗产，横跨四个片区；二〇一四年，中国、哈萨克斯坦、吉尔吉斯斯坦联合申报的“丝绸之路：长安—天山廊道路网”才列入世界遗产。",
+          "evidence": [
+            {"title": "中新网：新疆天山列入世界自然遗产", "url": "http://www.chinanews.com.cn/cul/2013/06-21/4955024.shtml", "quote": "2013年6月21日，新疆天山被列入《世界遗产名录》"},
+            {"title": "UNESCO 相关报道：丝绸之路长安—天山廊道路网2014年列入", "url": "https://www.unesco-hist.org/index.php?r=article/info&id=717", "quote": "2014年6月22日……“丝绸之路：长安——天山廊道的路网”……成功列入《世界遗产名录》"},
+            {"title": "央视：第38届世界遗产大会丝绸之路项目申遗成功", "url": "https://tv.cctv.com/2014/06/22/VIDE1403451182377205.shtml", "quote": "今天终于成功列入世界文化遗产名录"}
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "f3 的“六百到一千毫米”取的是山地迎风坡最大值：天山北坡一般400–600毫米，伊犁河上游迎风坡接近1000毫米，西天山最大约800毫米；说“可达”成立，说“平均”则不成立。",
+        "f8 的艾丁湖湖面高程用 -154.31 米（中国陆地最低点），极端最高气温接近50℃的表述与吐鲁番气象记录一致。",
+        "f2 的新生代抬升有构造地质研究支持（印度—欧亚碰撞的远场效应使天山复活隆升），但“上千公里之外”是通俗说法，严谨表述是数百至上千公里。"
+      ],
+      "summary": "天山的地貌、雨影、绿洲与坎儿井叙述可靠；三处硬伤：冰川条数与面积混用了两套编目、列车事故年份、两处世界遗产的列入年份。"
+    },
+    {
+      "id": "w2-psych-comm-defensive",
+      "status": "verified",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "medium"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "medium"},
+        {"id": "f8", "verdict": "supported", "confidence": "medium"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "supported", "confidence": "medium"},
+        {"id": "f11", "verdict": "supported", "confidence": "high"},
+        {"id": "f12", "verdict": "supported", "confidence": "medium"}
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "Gibb 1961 的六对气候在原文中是评价/控制/策略/中立/优越/确定 对 描述/问题导向/真诚/共情/平等/开放，f2 的配对与顺序正确。",
+        "f5 的“接受影响”出自 Gottman 的观察研究，属于预测性相关，不是实验因果；原文措辞“与……有关”是准确的。",
+        "f3 的“生理唤醒升高时听进去的更少”是压力—认知狭窄的一般结论，属综述级支持，故给 medium。"
+      ],
+      "summary": "十二条均为有据的沟通心理学表述，理论归属与因果强度都留了余地，未发现需要改写之处。"
+    },
+    {
+      "id": "w4-myth-americas-five-suns",
+      "status": "corrected",
+      "confidence": "medium",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "imprecise", "confidence": "medium", "issue": "issue-01"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "supported", "confidence": "medium"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "supported", "confidence": "high"},
+        {"id": "f11", "verdict": "supported", "confidence": "medium"},
+        {"id": "f12", "verdict": "supported", "confidence": "medium"}
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f4",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "这个观念在纳瓦特尔语里叫 nextlahualiztli，意为清偿。",
+          "problem": "把 nextlahualli 直接等同于“清偿/还债”是殖民时期西班牙语翻译的产物。Köhler 等研究指出，“向神还债”这一框架被过度字面化，纳瓦特尔语原意更接近“偿付、报偿”，人神之间是互惠关系而非债务关系。",
+          "correction": "太阳升空后停住不动，众神只好一个个赴死，由风神埃埃卡特尔吹动它。此后太阳靠供奉维持运行：神先付出血，人再用献祭回报。纳瓦特尔语称这种供奉为 nextlahualiztli，本意接近偿付；西班牙人译作还债，把它说成了债务关系。",
+          "evidence": [
+            {"title": "Köhler (2001), debt payment and Mesoamerican sacrifice (LC catalog record)", "url": "https://www.loc.gov/item/hlas-bi2003006020/", "quote": "nextlahualli — “debt payment”"},
+            {"title": "Leyenda de los Soles (1558), UNAM 数字版", "url": "https://historicas.unam.mx/publicaciones/publicadigital/libros/000/000_04_03_LeyendaSoles.pdf", "quote": "a pagar la deuda"}
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "五个太阳的次序与结局在不同抄本中确有出入（如四风与四雨的先后），原文已声明“各版本互相矛盾”，是恰当的。",
+        "新火仪式每52年（18,980日）、在 Uixachtlan 山上取火、剖开俘虏胸口引火，这几项在民族志与编年史中一致。",
+        "f11 说“阿兹特克”是19世纪以后学者整理出的统一宗教，属史学史判断，用 medium 更稳妥。"
+      ],
+      "summary": "五个太阳的叙事框架、新火仪式与殖民档案背景均可靠；唯一需改的是把 nextlahualli 直接释为“清偿/还债”，那是殖民翻译的建构。"
+    },
+    {
+      "id": "w2-wh-islamic-justinian-code",
+      "status": "verified",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "medium"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "supported", "confidence": "medium"},
+        {"id": "f11", "verdict": "supported", "confidence": "medium"},
+        {"id": "f12", "verdict": "supported", "confidence": "high"}
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "《法典》时间线：528年下令、529年公布首版、534年修订版（11月16日公布、12月29日生效），12卷，与 f1 一致。",
+        "《学说汇纂》50卷、9123条，533年公布、同年12月30日生效；编纂者被授权删改以消除矛盾，f2 的“重新立法”判断是学界共识。",
+        "《巴西尔法典》60卷、利奥六世时期完成（传统记为888年前后），希腊文；f8 未给年份，表述稳妥。",
+        "f9 的“十一世纪博洛尼亚”指 Irnerius 活动于11世纪末至12世纪初，注释法学派由此兴起，年代略宽但不算错。"
+      ],
+      "summary": "查士丁尼法典工程的年代、卷数、编纂授权与后续传播链均可核实，十二条无需改写。"
+    },
+    {
+      "id": "world-myth-yggdrasil",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "medium"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "supported", "confidence": "medium"},
+        {"id": "f9", "verdict": "wrong", "confidence": "high", "issue": "issue-01"},
+        {"id": "f10", "verdict": "supported", "confidence": "high"},
+        {"id": "f11", "verdict": "supported", "confidence": "medium"},
+        {"id": "f12", "verdict": "supported", "confidence": "high"}
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f9",
+          "severity": "minor",
+          "verdict": "wrong",
+          "claim": "奥丁给呼吸，维利给理智，维给体温与外貌，故事见于《沃卢斯帕》第十七节。",
+          "problem": "三位神的名字与所赐之物都张冠李戴。《沃卢斯帕》17–18节写的是奥丁、海尼尔（Hœnir）与洛德尔（Lóðurr）：奥丁给呼吸，海尼尔给灵魂，洛德尔给外貌。维利与维（Vili/Vé）是斯诺里《欺骗古鲁菲》里的另一组，两处传统并不一致；“体温”也不是原文所赐。",
+          "correction": "人类由两段木头造成：阿斯克与恩布拉。《沃卢斯帕》第十七节说，奥丁、海尼尔与洛德尔三位神各赐一物——呼吸、灵魂与外貌；斯诺里的《欺骗古鲁菲》则记作奥丁、维利与维，两处说法并不一致。",
+          "evidence": [
+            {"title": "Store norske leksikon: Ask og Embla", "url": "https://snl.no/Ask_og_Embla", "quote": "I Voluspå fortelles det at … Odin, Høne og Lodur gir liv til to trær … Odin gir dem pust, Høne gir dem sjel og Lodur hår og menneskelig utseende."}
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "《诗体埃达》主抄本 Codex Regius 约1270年，收31首；《散文埃达》约1220年，f1 的“相隔不到一百年”成立。",
+        "Yggdrasill = Yggr（奥丁）+ drasill（马），而“马”在诗歌中可指绞架，这一词源解释是常见学术说法，非定论。",
+        "《格林姆尼尔之歌》确实列出九界，但名单与斯诺里的转述不完全吻合，学界对“九界”具体所指长期有争论，f7 的判断准确。"
+      ],
+      "summary": "世界树的文献、词源、三根三井、诸神黄昏与基督教化背景都站得住；唯有人类起源那条把《沃卢斯帕》与斯诺里的两组神弄混了。"
+    },
+    {
+      "id": "w1-myth-cn-zaoshen",
+      "status": "verified",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "medium"},
+        {"id": "f7", "verdict": "supported", "confidence": "medium"},
+        {"id": "f8", "verdict": "supported", "confidence": "medium"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "supported", "confidence": "medium"},
+        {"id": "f11", "verdict": "supported", "confidence": "medium"},
+        {"id": "f12", "verdict": "supported", "confidence": "medium"}
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "《论语·八佾》原文为王孙贾问“与其媚于奥，宁媚于灶”，孔子答“获罪于天，无所祷也”；王孙贾是卫国大夫，f1 的身份描述正确。",
+        "f6 的供品清单应读作“猪头、双鱼、豆沙、甘松、粉饵团”：甘松是香料，粉饵团是米粉做的团子，不是“甘松粉做的团子”，但整句意思不受影响，故不改判。",
+        "《酉阳杂俎》该版本作“小者夺算，算一百日”，与《抱朴子》“一算三日”不同；f5 只取名号与家眷，未涉及夺算日数，处理得当。",
+        "f12 的“北二十三、南二十四”与清代宫廷腊月二十三祭灶、京城民间随之上移的说法一致，属民俗学通行解释。"
+      ],
+      "summary": "灶神从《论语》《礼记》到《后汉书》《抱朴子》《酉阳杂俎》的文献链完整，名号、职掌与民俗细节均对得上，无需改写。"
+    }
+  ]
+}

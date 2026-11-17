@@ -1,0 +1,328 @@
+{
+  "batch": "batch-40",
+  "checkedAt": "2026-11-18T02:56:00+08:00",
+  "dossiers": [
+    {
+      "id": "world-history-plague",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "imprecise", "confidence": "high", "issue": "issue-01"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "medium"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "medium"},
+        {"id": "f8", "verdict": "imprecise", "confidence": "high", "issue": "issue-02"},
+        {"id": "f9", "verdict": "supported", "confidence": "medium"},
+        {"id": "f10", "verdict": "supported", "confidence": "high"},
+        {"id": "f11", "verdict": "supported", "confidence": "high"},
+        {"id": "f12", "verdict": "imprecise", "confidence": "medium", "issue": "issue-03"}
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f1",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "1347年10月，热那亚商船从黑海北岸的卡法驶入西西里墨西拿港，船上水手相继病亡。鼠疫沿商路北上，1348年波及意大利、法国与西班牙，1349年进入英格兰，1351年抵达北欧。此后五年，瘟疫横扫欧洲大部分地区。",
+          "problem": "英格兰的到达年份晚了一年：14 世纪编年史与地方史料都记 1348 年 6 月（施洗约翰节前）两艘船在梅尔科姆里吉斯（今韦茅斯）靠岸，当地居民最先感染；挪威也在 1348–1349 年暴发。原文的 1349 年只对应苏格兰与爱尔兰，1351 年抵北欧同样偏晚。",
+          "correction": "黑死病1348年6月已由加斯科涅商船传入英格兰多塞特郡的梅尔科姆里吉斯，1349年北上苏格兰与爱尔兰；挪威等地也在1348至1349年沦陷，并非1349年才到英格兰、1351年才抵北欧。",
+          "evidence": [
+            {
+              "title": "The Black Death in the British Isles（引《林恩灰衣修士编年史》）— University of Wisconsin–Milwaukee",
+              "url": "https://sites.uwm.edu/carlin/the-black-death-in-the-british-isles/",
+              "quote": "In this year, 1348, in Melcombe [Regis] in the county of Dorset, a little before the feast of St John the Baptist, two ships... the men of that town of Melcombe were the first in England to be infected."
+            },
+            {
+              "title": "BBC Dorset: Black Death plague tale for Preston novelist",
+              "url": "http://news.bbc.co.uk/local/dorset/hi/people_and_places/history/newsid_8677000/8677019.stm",
+              "quote": "Records indicate that the Black Death plague, which originated in Asia, arrived on a ship moored at Melcombe Regis on June 25 1348."
+            },
+            {
+              "title": "The Arrival of the Black Death in Oslo（De Gruyter，开放获取）",
+              "url": "https://www.degruyterbrill.com:443/document/doi/10.1515/9788376560472-006/pdf?licenseType=open-access",
+              "quote": "The Black Death in Norway, 1348-1349"
+            }
+          ]
+        },
+        {
+          "id": "issue-02",
+          "factId": "f8",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "1381年英格兰爆发瓦特·泰勒起义，直接导火索是1380年开征的第三次人头税，每个14岁以上者缴1先令。起义者烧毁庄园档案、要求废除农奴身份，虽然失败，但人头税此后再未开征。",
+          "problem": "1380 年 12 月授予的第三次人头税规定十五岁以上男女均须缴纳，每人 12 便士（3 格罗特），不是十四岁以上；十四岁以上是 1377 年首次人头税的口径。原文把年龄门槛错置了一年，其余（1 先令、起义导火索、税种废止）无误。",
+          "correction": "1380年第三次人头税规定十五岁以上男女每人缴十二便士即一先令，十四岁以上是1377年首次人头税的口径；正是这次征税直接引发了1381年起义。",
+          "evidence": [
+            {
+              "title": "The National Archives, E 179 database: Poll tax granted 6 December 1380",
+              "url": "https://www.nationalarchives.gov.uk/e179/notes.asp?slctgrantid=407&action=3",
+              "quote": "a subsidy was granted which took the form of a poll tax on all persons of both sexes over 15 years of age ... All individuals were to pay 12d (or 3 groats)"
+            },
+            {
+              "title": "同上：起义导火索",
+              "url": "https://www.nationalarchives.gov.uk/e179/notes.asp?slctgrantid=407&action=3",
+              "quote": "It was this collection, in the early summer of 1381, which sparked the Peasants' Revolt."
+            }
+          ]
+        },
+        {
+          "id": "issue-03",
+          "factId": "f12",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "瘟疫反复回访。1361年英格兰爆发被称为儿童瘟疫的第二次大流行，死者多为没有免疫经历的新生代；1665年伦敦大瘟疫是西欧最后一次大规模爆发，此后鼠疫在地中海以东仍长期流行。",
+          "problem": "1665 年伦敦大瘟疫是英格兰最后一次大规模鼠疫，却不是西欧最后一次：1720–1722 年法国普罗旺斯与马赛暴发鼠疫，死亡可达十余万人，学界通常视为西欧最后一次大流行。原文把「英格兰最后一次」写成「西欧最后一次」，时间线下移半个多世纪。",
+          "correction": "1665年伦敦大瘟疫是英格兰最后一次大规模鼠疫，但西欧最后一次大爆发是1720至1722年的马赛鼠疫，此后鼠疫主要在地中海以东长期流行。",
+          "evidence": [
+            {
+              "title": "Cindy Ermus, The Great Plague Scare of 1720 (Cambridge University Press, 2022)",
+              "url": "https://www.cambridge.org/cx/universitypress/subjects/history/history-medicine/great-plague-scare-1720-disaster-and-diplomacy-eighteenth-century-atlantic-world",
+              "quote": "From 1720 to 1722, the French region of Provence and surrounding areas experienced one of the last major epidemics of plague to strike Western Europe."
+            },
+            {
+              "title": "Max Planck Institute: The hideout of the Black Death",
+              "url": "https://www.mpg.de/9877803/yersinia-pestis-genomes",
+              "quote": "the Great Plague of Marseille (1720-1722), which is conventionally assumed to be the last outbreak of medieval plague in Europe"
+            }
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "f4 的英格兰人口取常用估算：1315 年约 469 万、1400 年约 208 万，与「1300 年前后约 475 万、1400 年前后约 210 万」相容；欧洲 8000 万、死亡四分之一到三分之一为通行区间。",
+        "f5 的工资序列取 Phelps Brown & Hopkins：1371–75 年泥瓦匠约 4.5 便士/日，1451–75 年约 5.7 便士/日，13 世纪约 3 便士属常见估计，翻倍趋势成立。",
+        "f10 的「约四成」对应英格兰受益堂区教士 40%–50% 的死亡估计，取了下限。",
+        "f2 的 2011 年 DNA 研究指 Nature 第 478 卷（2011 年 10 月）对伦敦东史密斯菲尔德墓地遗骨的基因组测定。"
+      ],
+      "summary": "黑死病专题整体可靠；唯英格兰传入年份（1348 而非 1349）、1380 年人头税年龄（15 岁而非 14 岁）与「1665 年是西欧最后一次」（应为 1720 年马赛）三处需修正，已给出校订。"
+    },
+    {
+      "id": "w1-world-history-ancient-hittite",
+      "status": "verified",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "medium"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "supported", "confidence": "medium"},
+        {"id": "f11", "verdict": "supported", "confidence": "high"},
+        {"id": "f12", "verdict": "supported", "confidence": "high"}
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "f2 的「数万块」对应哈图沙（Boğazköy）出土约 3 万块楔形文字泥板，2023 年列入 UNESCO 世界记忆名录；「最早留下大量书面记录」限定在印欧语系内成立。",
+        "f3 的 1595 年取中年代学，另有前 1531 年等偏低年代；原文用「约」可接受。",
+        "f4 的 1274 年取埃及学通行年代，另有 1275 年之说；「没有决定性胜负」为学界主流判断。",
+        "f8 的「十九世纪想象」指 19 世纪研究者由《圣经》与古典记载推断赫梯垄断铁器，20 世纪考古与冶铁研究已否定。"
+      ],
+      "summary": "赫梯专题十二条均有考古材料、条约文本与亚述学/埃及学研究支撑；卡迭石、和约、铁器迷思与帝国崩溃的多因解释均属稳妥表述。"
+    },
+    {
+      "id": "w4-geo-world-transboundary-water",
+      "status": "verified",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "medium"},
+        {"id": "f10", "verdict": "supported", "confidence": "high"},
+        {"id": "f11", "verdict": "supported", "confidence": "medium"},
+        {"id": "f12", "verdict": "supported", "confidence": "medium"}
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "f1 的「约三百一十条」对应 313 个跨境流域的常用统计；含水层 600 余个、约 40 亿人、覆盖约一半陆地面积，均与 Tufts 及 UN-Water 汇总一致。",
+        "f4 的 1959 年协议份额为埃及 555 亿立方米、苏丹 185 亿立方米（年均），合计占阿斯旺以下流量绝大部分。",
+        "f5 的装机容量历经 5,250→6,450→5,150 兆瓦的调整；2025 年埃塞俄比亚电力公司口径为 13 台机组、5,150 兆瓦，故「约五千兆瓦」成立。",
+        "f8 的「十分之一」取 2007 年三片残余湖面合计约为原咸海面积 10% 的统计。"
+      ],
+      "summary": "跨境水专题十二条均有公约文本、机构数据与案例研究支撑；尼罗河份额、印度河分水、咸海萎缩与虚拟水核算均与主流数据一致，复兴大坝装机按现行 5,150 兆瓦表述成立。"
+    },
+    {
+      "id": "w1-myth-world-atrahasis",
+      "status": "verified",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "medium"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "supported", "confidence": "high"},
+        {"id": "f11", "verdict": "supported", "confidence": "medium"},
+        {"id": "f12", "verdict": "supported", "confidence": "medium"}
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "f1 的抄本年代取摩根图书馆藏古巴比伦抄本：抄写员 Ku-Aya，西帕尔，阿米萨杜卡第 11 年（约前 1646–1626 年）；个别文献误作 Ipiq-Aya。",
+        "f2 的「四十年」见第一块泥板下级神抱怨劳役的段落；被杀之神为 Geshtu-e（Wê），以其血与肉和泥造人。",
+        "f3 的瘟疫—旱灾—洪水序列见第二、三块泥板；每次灾难前恩基向阿特拉哈西斯传话。",
+        "f10 的 1872 年指乔治·史密斯在大英博物馆宣读《吉尔伽美什》第十一块泥板，随后《每日电讯报》等报刊报道。"
+      ],
+      "summary": "《阿特拉哈西斯》专题与摩根图书馆抄本、ETCSL 文本及近东洪水传统研究一致；造人动机、四十年代役、芦苇墙传话与书吏传承均有文本依据。"
+    },
+    {
+      "id": "w1-cn-history-well-field",
+      "status": "verified",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "medium"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "medium"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "medium"},
+        {"id": "f10", "verdict": "supported", "confidence": "high"},
+        {"id": "f11", "verdict": "supported", "confidence": "high"}
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "f1 引文见《孟子·滕文公上》，原文作「方里而井，井九百亩，其中为公田。八家皆私百亩，同养公田。公事毕，然后敢治私事」。",
+        "f2 的《周礼》文字见《地官·小司徒》与《考工记·匠人》郑注；九夫为井与八家共井确属两套不同描述。",
+        "f5 的初税亩为鲁宣公十五年（前 594 年），《左传》评「非礼也」，杜预注「履亩而税」。",
+        "f10 的张家山汉简《二年律令·户律》按爵位授田宅；睡虎地秦简《田律》重垦田、雨量与灾情的上报。"
+      ],
+      "summary": "井田专题以《孟子》《周礼》原文、西周金文与秦汉简牍为依据；孟子的理想化性质、初税亩的转折与秦汉授田制的替代，均属主流制度史意见。"
+    },
+    {
+      "id": "w1-geo-world-great-plains",
+      "status": "verified",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "medium"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "supported", "confidence": "medium"},
+        {"id": "f11", "verdict": "supported", "confidence": "high"}
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "f1 的东界「西经一百度线附近」为通行划分；大平原是向西抬升的倾斜台地，非绝对平原。",
+        "f2 的 800/400 毫米为东西两缘的近似值；100 度经线附近年降水约 500 毫米（20 英寸），原文未把它当作分界数值。",
+        "f7 的土壤保持局依 1935 年《土壤保持法》（4 月 27 日签署）设立，后并入 NRCS。",
+        "f11 的中心支轴喷灌圆形地块约占外接正方形面积的 78.5%，四角撂荒是几何结果。"
+      ],
+      "summary": "大平原专题的自然地理（雨影、100 度经线降水梯度、奥加拉拉含水层）与 1930 年代沙尘暴史均有 USGS、NOAA 与农业史来源支撑。"
+    },
+    {
+      "id": "w2-myth-mesopotamia-inanna",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "imprecise", "confidence": "high", "issue": "issue-01"},
+        {"id": "f11", "verdict": "supported", "confidence": "high"},
+        {"id": "f12", "verdict": "supported", "confidence": "medium"}
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f10",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "杜木兹不只是女神的情人。苏美尔王表把他列为乌鲁克的一位牧人王，他既是神，也是理想君主的原型。国王与伊南娜的婚姻，每年要在仪式里重演一次，神婚把政治写成爱情。",
+          "problem": "《苏美尔王表》里有两位杜木兹：牧人杜木兹是史前巴德提比拉王朝的国王，传说在位三万六千年；乌鲁克的那位是渔夫杜木兹，在洪水后第二王朝继承卢伽尔班达。原文把「乌鲁克的王」与「牧人」合在一个人身上，混淆了两位同名王者。",
+          "correction": "苏美尔王表中有两个杜木兹：牧人杜木兹是史前巴德提比拉的国王，乌鲁克的杜木兹是渔夫；说他被王表列为乌鲁克的牧人王，把两人混在了一起。",
+          "evidence": [
+            {
+              "title": "The Melammu Project: Dumuzi = King",
+              "url": "http://www.melammu-project.eu/database/gen_html/a0001388.html",
+              "quote": "According to the Sumerian King List, there were two Dumuzis: one was called the 'Shepherd,' and was said to have ruled the antediluvian dynasty of Badtibira for 36,000 years; the other, known as the 'Fisherman,' whose city was Kua(ra), succeeded Lugalbanda as king of Uruk in the second dynasty after the Flood."
+            }
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "f1 的「四百余行」按 ETCSL c.1.4.1 复合文本约 412 行；「三十件左右」为通行统计，多抄于古巴比伦时期。",
+        "f4 的门卫为 Neti，七道门各卸一件饰物；第七道后赤身，文本明言这是冥界规矩。",
+        "f5 的冥界描述（食泥、饮泥水、羽衣、如鸟蹲踞）见 ETCSL 文本及 Dina Katz 的研究。",
+        "f9 的半年轮值见《杜木兹与格什廷安娜》诸本，苏美尔文本细节略有差异。"
+      ],
+      "summary": "伊南娜专题的文本细节（七道门、宁提、恩基造两使者、杜木兹与格什廷安娜轮值）与 ETCSL 一致；唯杜木兹与《苏美尔王表》的对应混淆了牧人与渔夫两位同名王者，已修正。"
+    },
+    {
+      "id": "w5-cn-history-chunyun",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "imprecise", "confidence": "high", "issue": "issue-01"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "supported", "confidence": "high"},
+        {"id": "f11", "verdict": "supported", "confidence": "high"},
+        {"id": "f12", "verdict": "supported", "confidence": "medium"}
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f3",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "八十年代中后期，民工潮开始出现。火车站、长途汽车站和码头在节前同时承压，超员、晚点和滞留成为常见问题，媒体开始用春运描述这场迁徙。这个说法很快被公众接受。",
+          "problem": "「春运」一词并非八十年代中后期才由媒体启用：1954 年铁道部成立春节旅客输送办公室时已出现这一概念，1980 年《人民日报》即使用「春运」一词。八十年代中后期是民工潮使春运规模骤增、报道增多，而不是称呼的起点。",
+          "correction": "春运一词源于1954年铁道部春节旅客输送办公室，1980年《人民日报》已在使用；八十年代中后期是民工潮令春运规模骤增，并非媒体此时才开始这样称呼。",
+          "evidence": [
+            {
+              "title": "中国网：《春运70年，在变化中见证时代发展》(2024-03-06)",
+              "url": "http://www.china.com.cn/zhuanti2005/txt/2024-03/06/content_117042287.shtml",
+              "quote": "1954年，原铁道部成立春节旅客输送办公室，春运概念油然而生。1980年，“春运”一词出现在《人民日报》上"
+            },
+            {
+              "title": "新华网：《春运70年，铁路速度见证时代之变》(2024-02-22)",
+              "url": "http://www.news.cn/politics/20240222/e34a03b9004e499d86a600dda5460e9b/c.html",
+              "quote": "1954年，原铁道部成立春节旅客输送办公室，春运概念顺势而生。"
+            }
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "f1 的四十天为节前十五天、节后二十五天的现行口径，具体起止日期每年由交通运输部公告。",
+        "f7 的 12306 于 2011 年 1 月 19 日试运行，最初以信息查询为主，网络售票随后逐步开通。",
+        "f11 的免费政策见国发〔2012〕37 号，自 2012 年国庆节起实施，限 7 座及以下小型客车，覆盖春节、清明、劳动节、国庆节。",
+        "f9 的摩托车返乡约自 2000 年前后成规模，峰值超过百万人，后因高铁、私家车与禁摩政策收缩。"
+      ],
+      "summary": "春运专题的数据与政策时点（四十天口径、2012 年实名制、12306、京津城际、节假日免费通行）均有官方与央媒来源；唯「春运」一词的起源时间需修正。"
+    }
+  ]
+}

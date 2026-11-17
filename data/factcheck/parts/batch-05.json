@@ -1,0 +1,263 @@
+{
+  "batch": "batch-05",
+  "checkedAt": "2026-11-18T02:18:00+08:00",
+  "dossiers": [
+    {
+      "id": "w4-wh-regions-brazil-military",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "imprecise", "confidence": "high", "issue": "issue-01"},
+        {"id": "f3", "verdict": "imprecise", "confidence": "high", "issue": "issue-02"},
+        {"id": "f4", "verdict": "supported", "confidence": "medium"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "supported", "confidence": "high"},
+        {"id": "f11", "verdict": "supported", "confidence": "high"},
+        {"id": "f12", "verdict": "supported", "confidence": "high"}
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f2",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "州长与市长也多由任命或间接产生",
+          "problem": "1966 年后州长确由间接选举产生，但市长只有州首府和国家安全市镇由任命，绝大多数市镇市长仍由直接选举产生；“也多由”把例外情况说成了普遍情况。",
+          "correction": "军政府用一系列制度法令改造政治：1965年取消原有政党，建立亲政府的全国革新联盟与反对党巴西民主运动；总统由国会间接选举，州长改由间接选举，首府等少数城市的市长则由任命产生。",
+          "evidence": [
+            {"title": "Ato Institucional nº 3, de 5 de fevereiro de 1966（巴西总统府）", "url": "http://presidencia.gov.br/ccivil_03/ait/ait-03-66.htm", "quote": "dispõe sobre as eleições indiretas e nomeação de Prefeitos das Capitais dos Estados"},
+            {"title": "Em nome da segurança nacional, ditadura proíbe voto em capitais e outras cidades（O Globo 档案）", "url": "https://acervo.oglobo.globo.com/em-destaque/em-nome-da-seguranca-nacional-ditadura-proibe-voto-em-capitais-outras-cidades-20203122", "quote": "Mais de 160 prefeitos de estâncias hidrominerais, municípios com usinas e fronteiriços eram escolhidos por governadores."}
+          ]
+        },
+        {
+          "id": "issue-02",
+          "factId": "f3",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "国内生产总值年均增长接近百分之十",
+          "problem": "1968—1973 年逐年增长率为 11.2%、10.0%、8.8%、13.3%、11.7%、14.0%，平均约 11.5%，是“超过百分之十”，不是“接近百分之十”。",
+          "correction": "1968到1973年是所谓“经济奇迹”：国内生产总值年均增长超过百分之十，钢铁、汽车、石化与耐用消费品扩张，中产阶级的消费能力上升，城市里出现大规模基建与新住宅区。",
+          "evidence": [
+            {"title": "1968—1973年巴西经济奇迹剖析（中国社会科学院拉丁美洲研究所）", "url": "http://ilas.cssn.cn/sjk/gnwlmyjcgsjk/201110/t20111009_2275385.shtml", "quote": "1968—1973年期间，巴西经济创造了前所未有的高增长，国内生产总值年平均增长率达10%以上……历年分别增长11.2%，10.0%，8.8%，13.3%，11.7%和14.0%。"}
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "Skidmore 与 Fausto 的叙事与正文一致；1964 年政变前美国通过“Brother Sam”行动提供支持，政变后迅速承认新政权。",
+        "1970 年人口普查显示收入最高十分之一人口占国民收入 47.7%，可支撑 f4 的收入集中判断。",
+        "f2 的市长产生方式仅适用于首府与国家安全市镇；f3 的增长率按逐年数据平均约 11.5%。"
+      ],
+      "summary": "军政府政治制度、经济奇迹、镇压与债务危机的叙述基本可靠，仅制度细节与增长率表述各需一处修正。"
+    },
+    {
+      "id": "w4-wh-wars-logistics-oil-rubber",
+      "status": "verified",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "medium"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "medium"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "supported", "confidence": "high"},
+        {"id": "f11", "verdict": "supported", "confidence": "high"},
+        {"id": "f12", "verdict": "supported", "confidence": "high"}
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "1941 年 12 月《纽约时报》引石油业估计，日本石油储备约可支撑两年严格军需，与 f2 一致。",
+        "1941 年报道称一个装甲师每小时耗油 18,000 加仑，折合每天远超“几十万升”，f1 的数量级成立。",
+        "1940 年 6 月成立的橡胶储备公司依《复兴金融公司法》授权设立，属政府专案而非单独立法；f7 的“通过法案”为宽泛表述。",
+        "租借法案对苏车辆约 42 万至 47.8 万辆，斯大林格勒与库尔斯克方向的运输依赖这批卡车。"
+      ],
+      "summary": "石油、合成燃料、橡胶与租借法案各条均有可靠史料支撑，未发现需要改写的硬伤。"
+    },
+    {
+      "id": "w1-geo-world-southern-ocean",
+      "status": "verified",
+      "confidence": "medium",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "medium"},
+        {"id": "f4", "verdict": "supported", "confidence": "medium"},
+        {"id": "f5", "verdict": "supported", "confidence": "medium"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "medium"},
+        {"id": "f10", "verdict": "supported", "confidence": "high"},
+        {"id": "f11", "verdict": "supported", "confidence": "high"},
+        {"id": "f12", "verdict": "supported", "confidence": "medium"}
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "国际水文组织 2000 年决议将南纬 60 度以南单列为南大洋；该组织 1929 年首次承认、1953 年撤销，2000 年恢复。",
+        "ACC 流量 130 Sv（1.3 亿立方米/秒）见美国气象学会术语表，与 f2 一致。",
+        "德雷克海峡宽度各来源不一（最窄 645—800 公里，南北宽 900—950 公里），“约八百公里”为常见近似。",
+        "南极海冰多年平均最大约 1,800 万平方公里、最小约 300 万平方公里；2023 年 2 月与 9 月均创卫星记录新低。",
+        "罗斯海保护区 1.55 万平方公里之说有误，实为 155 万平方公里，IUCN 2016 年公告可证。"
+      ],
+      "summary": "南大洋的边界、环流、海冰、碳汇与保护区各条均可由权威机构资料支撑，仅个别数值为常用近似。"
+    },
+    {
+      "id": "world-geo-sahara",
+      "status": "verified",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "medium"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "medium"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "medium"},
+        {"id": "f10", "verdict": "supported", "confidence": "high"},
+        {"id": "f11", "verdict": "supported", "confidence": "high"}
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "撒哈拉面积各家给 700 万至 920 万平方公里不等，9.2 百万平方公里、约占非洲三分之一为常用值。",
+        "沙丘与沙席合计约占撒哈拉面积 25%，与 Britannica 一致。",
+        "沙尘跨大西洋通量取 Yu et al. 2015 的约 27.7 Mt/年。",
+        "锡瓦绿洲低于海平面约 18 米（BBC 2009），“约二十米”成立。",
+        "沙丘移动速率：埃及南部 2—6 米/年，西撒哈拉—毛里塔尼亚 11—20 米/年，支持“数米到十余米”。"
+      ],
+      "summary": "撒哈拉的范围、湿润期、地貌、沙尘与含水层叙述均可核实，未发现需要改写的断言。"
+    },
+    {
+      "id": "psych-nvc",
+      "status": "verified",
+      "confidence": "medium",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "medium"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "medium"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "medium"},
+        {"id": "f8", "verdict": "supported", "confidence": "medium"},
+        {"id": "f9", "verdict": "supported", "confidence": "medium"},
+        {"id": "f10", "verdict": "supported", "confidence": "medium"},
+        {"id": "f11", "verdict": "supported", "confidence": "medium"},
+        {"id": "f12", "verdict": "supported", "confidence": "high"}
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "罗森伯格 1961 年获临床心理学博士学位，1960 年代在民权运动与学校去隔离现场工作，后创立非暴力沟通；CNVC 与 NVC Academy 传记可证。",
+        "2026 年 Frontiers 系统综述指出，非暴力沟通干预研究多缺对照组或随机分配、样本小、以自评为主，支持 f7 对证据强度的保留。",
+        "“被武器化的非暴力沟通”已有专门讨论，可支撑 f10 对权力不对等情境的提醒。",
+        "四步模型（观察、感受、需要、请求）见 Rosenberg《Nonviolent Communication: A Language of Life》。"
+      ],
+      "summary": "非暴力沟通的源流、四步框架与对其证据强度、机械化和权力盲点的批评均有文献依据，未见事实性错误。"
+    },
+    {
+      "id": "cn-myth-kunlun",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "wrong", "confidence": "high", "issue": "issue-01"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "supported", "confidence": "high"},
+        {"id": "f11", "verdict": "supported", "confidence": "medium"},
+        {"id": "f12", "verdict": "supported", "confidence": "high"}
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f6",
+          "severity": "major",
+          "verdict": "wrong",
+          "claim": "祭祀她的活动在东汉甚至引发过大规模的集体狂迷",
+          "problem": "《汉书·五行志》所记“行诏筹”群体事件发生在汉哀帝建平四年（公元前 3 年），属西汉末年而非东汉；东汉是西王母信仰继续升温的时期，但这场大规模狂迷不在东汉。",
+          "correction": "汉代是西王母形象的关键转折。她开始掌管不死药，与东王公配对，成为画像石、铜镜和摇钱树上的常见题材。民众相信她可以赐福、赐寿、赐子，西汉末年祭祀她的活动甚至引发过席卷多郡的集体狂迷。",
+          "evidence": [
+            {"title": "《汉书·五行志》哀帝建平四年条（识典古籍）", "url": "https://www.shidianguji.com/zh/mid-page/7470270279886635058", "quote": "哀帝建平四年正月，民惊走，持槁或𢴔一枚，传相付与，曰：行诏筹……经历郡国，二十六至京师。"},
+            {"title": "四川汉代西王母陶灯研究（故宫博物院）", "url": "https://www.dpm.org.cn/Uploads/File/2018/05/31/u5b0faa078260b.pdf", "quote": "汉哀帝建平四年(公元前3年)，中原地区兴起了一股崇拜西王母的热潮。"}
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "《海内西经》原文作“面有九门”，正文 f2 的“上有九门”为转述，不影响九门与开明兽的叙述。",
+        "《汉武帝内传》成书于魏晋南北朝，属六朝仙道小说，f7 的“六朝道教加工”成立。",
+        "《西游记》第五回明言蟠桃三千六百株，前中后各一千二百株，熟期分三千年、六千年、九千年。",
+        "《史记·大宛列传》记汉使穷河源，天子案古图书名河所出山曰昆仑，f10 与原文一致。"
+      ],
+      "summary": "昆仑与西王母的文本脉络基本可靠，唯将西汉末年的西王母诏筹狂迷误记为东汉，需改正朝代。"
+    },
+    {
+      "id": "w2-geo-world-rivers-caspian",
+      "status": "verified",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "supported", "confidence": "high"},
+        {"id": "f11", "verdict": "supported", "confidence": "high"},
+        {"id": "f12", "verdict": "supported", "confidence": "high"}
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "里海南部最大水深 1,025 米、北部浅至约 10 米，见 ESA 与 Kosarev & Yablonskaya。",
+        "平均盐度约为大洋三分之一，伏尔加河约占入湖流量 80%。",
+        "20 世纪水位变幅约 3 米：1929 年起十余年下降逾 2 米，1977 年累计下降 3 米后回升。",
+        "2018 年 8 月 12 日五国在阿克套签署《里海法律地位公约》。",
+        "里海海豹是湖中唯一水生哺乳动物，在北部冰面繁殖。"
+      ],
+      "summary": "里海的地理、水文、生态与法律地位各条均有可靠资料支撑，未发现需要修改的断言。"
+    },
+    {
+      "id": "w3-cn-history-mongol-yam",
+      "status": "verified",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "medium"},
+        {"id": "f8", "verdict": "supported", "confidence": "medium"},
+        {"id": "f9", "verdict": "supported", "confidence": "medium"},
+        {"id": "f10", "verdict": "supported", "confidence": "high"},
+        {"id": "f11", "verdict": "supported", "confidence": "medium"}
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "站赤词源：突厥语 yam（驿传）借入蒙古语为 jam，元代汉字音写为“站”；伯希和考订见《通报》1930 年笔记。",
+        "《元史·兵志》记“凡站，陆则以马以牛，或以驴，或以车，而水则以舟”，支持 f2 的水站、马站、牛站、车站之分。",
+        "站户属中书省与通政院管辖，元代专供站役，见《元史·兵志》及《中国历史大辞典》。",
+        "《元史·兵志》至元八年条记铺马札子、急递铺与铺兵“须要本户少壮人力正身应役”，支持 f4、f5。",
+        "《元史》世祖朝多条记“签军”“佥民户为军”，签军自备武器马匹、编入辅助队伍的说法成立。"
+      ],
+      "summary": "元代站赤、站户、牌符、急递铺与签军各条均可由《元史》及词源考订支撑，未发现事实错误。"
+    }
+  ]
+}

@@ -35,7 +35,7 @@
         },
         {
           "id": "f4",
-          "text": "太阳升空后停住不动。众神只好一个个赴死，由风神埃埃卡特尔吹动它；此后太阳靠“债”运行，神先付出血，人再用供奉偿还。这个观念在纳瓦特尔语里叫 nextlahualiztli，意为清偿。"
+          "text": "太阳升空后停住不动，众神只好一个个赴死，由风神埃埃卡特尔吹动它。此后太阳靠供奉维持运行：神先付出血，人再用献祭回报。纳瓦特尔语称这种供奉为 nextlahualiztli，本意接近偿付；西班牙人译作还债，把它说成了债务关系。"
         },
         {
           "id": "f5",
@@ -179,7 +179,16 @@
         "《奇马尔波波卡抄本》所收《太阳传说》，1558 年",
         "Miguel León-Portilla, Aztec Thought and Culture, 1963",
         "David Carrasco, City of Sacrifice, 1999"
-      ]
+      ],
+      "factCheck": {
+        "status": "corrected",
+        "confidence": "medium",
+        "batch": "batch-28",
+        "checkedAt": "2026-11-18T02:36:00+08:00",
+        "issueCount": 1,
+        "appliedAt": "2026-11-17T18:46:28.260Z",
+        "summary": "五个太阳的叙事框架、新火仪式与殖民档案背景均可靠；唯一需改的是把 nextlahualli 直接释为“清偿/还债”，那是殖民翻译的建构。"
+      }
     },
     {
       "id": "w4-myth-americas-coyote",
@@ -243,7 +252,7 @@
         },
         {
           "id": "f11",
-          "text": "一九三三年，奥卡纳甘作家莫宁·多夫出版《郊狼故事》，是最早由原住民女性自己编订的英文故事集之一；她在前言里说明这些故事原本的讲述场合，也承认自己删改过一些细节。"
+          "text": "1933年，奥卡纳甘作家莫宁·多夫出版《郊狼故事》，但该书由海斯特·迪恩·盖伊编辑并插图，并非她本人编订；它仍是最早由原住民女性记录出版的英文故事集之一，书中附有立熊酋长序言与麦克沃特注释。"
         },
         {
           "id": "f12",
@@ -358,7 +367,16 @@
         "Archie Phinney, Nez Perce Texts, 1934",
         "Dell Hymes, In Vain I Tried to Tell You, 1981",
         "Lewis Hyde, Trickster Makes This World, 1998"
-      ]
+      ],
+      "factCheck": {
+        "status": "corrected",
+        "confidence": "high",
+        "batch": "batch-19",
+        "checkedAt": "2026-11-18T02:32:00+08:00",
+        "issueCount": 1,
+        "appliedAt": "2026-11-17T18:46:28.260Z",
+        "summary": "口传传统、文本记录与海姆斯研究可核实；《郊狼故事》的编订者被误写为莫宁·多夫本人，已修正。"
+      }
     },
     {
       "id": "w4-myth-americas-orisha",
@@ -538,7 +556,16 @@
         "E. Bolaji Idowu, Olodumare: God in Yoruba Belief, 1962",
         "Wande Abimbola, Ifá: An Exposition of Ifá Literary Corpus, 1976",
         "J. D. Y. Peel, Religious Encounter and the Making of the Yoruba, 2000"
-      ]
+      ],
+      "factCheck": {
+        "status": "verified",
+        "confidence": "high",
+        "batch": "batch-54",
+        "checkedAt": "2026-11-18T02:47:00+08:00",
+        "issueCount": 0,
+        "appliedAt": "2026-11-17T18:46:28.260Z",
+        "summary": "约鲁巴城邦、401 的象征义、伊法 256 签文、埃舒的传教士误译、尚戈与奥约王权、奥顺/奥娅与河流的对应均与民族志文献一致，未见事实性问题。"
+      }
     },
     {
       "id": "w4-myth-americas-vodou",
@@ -590,7 +617,7 @@
         },
         {
           "id": "f8",
-          "text": "一七九一年八月，北部种植园的奴隶起义爆发，传统叙述把它追溯到布瓦·卡伊曼的一场仪式。但这一细节最早见于十九世纪后期的记载，具体时间、地点与参与者，史学界仍有争议。"
+          "text": "一七九一年八月，北部种植园的奴隶起义爆发，传统叙述把它追溯到布瓦·卡伊曼的一场仪式。这一细节最早见于一八一四年达尔马的记载，具体时间、地点与参与者，史学界仍有争议。"
         },
         {
           "id": "f9",
@@ -717,7 +744,16 @@
         "Maya Deren, Divine Horsemen, 1953",
         "Karen McCarthy Brown, Mama Lola, 1991",
         "Leslie Desmangles, The Faces of the Gods, 1992"
-      ]
+      ],
+      "factCheck": {
+        "status": "corrected",
+        "confidence": "high",
+        "batch": "batch-57",
+        "checkedAt": "2026-11-18T02:58:00+08:00",
+        "issueCount": 1,
+        "appliedAt": "2026-11-17T18:46:28.260Z",
+        "summary": "洛阿体系、仪式次序、1804年独立与2003年官方承认均准确；仅布瓦·卡伊曼记载的“十九世纪后期”需改为十九世纪初。"
+      }
     },
     {
       "id": "w4-myth-americas-amazon",
@@ -896,7 +932,16 @@
         "Gerardo Reichel-Dolmatoff, Amazonian Cosmos, 1971",
         "Eduardo Viveiros de Castro, Cosmological Perspectivism in Amazonia, 1998",
         "Davi Kopenawa & Bruce Albert, The Falling Sky, 2013"
-      ]
+      ],
+      "factCheck": {
+        "status": "verified",
+        "confidence": "high",
+        "batch": "batch-27",
+        "checkedAt": "2026-11-18T03:02:00+08:00",
+        "issueCount": 0,
+        "appliedAt": "2026-11-17T18:46:28.260Z",
+        "summary": "图卡诺巨蟒独木舟、太阳父亲与亚赫、亚诺马米亲属猎物、万物之树与瓜拉尼无恶之地均有民族志或学术来源；各版本差异已注明。"
+      }
     },
     {
       "id": "w4-myth-americas-birdman",
@@ -940,11 +985,11 @@
         },
         {
           "id": "f6",
-          "text": "岛上的居民分为两个大联盟：西部的米鲁与东部的霍图伊蒂。鸟人竞赛是它们争夺仪式优先权的场合，不是全民体育节；参赛资格与氏族地位绑在一起。"
+          "text": "岛上的居民分为西部科图乌与东部霍图伊蒂两大联盟；米鲁是西部最有势力的氏族世系，并非联盟的名称，鸟人竞赛是两大联盟争夺仪式优先权的场合。"
         },
         {
           "id": "f7",
-          "text": "摩艾约有九百尊，多数立在阿胡石台上，采自拉诺拉拉库火山口的凝灰岩。十八、十九世纪的记录里，多数已被推倒，今天立着的不少是后来重新竖起的。"
+          "text": "已知摩艾约有九百尊，其中近四百尊仍留在拉诺拉拉库采石场，约三百尊立在阿胡石台上，其余散落在运输道路与山坡上；今天立着的不少是后来重新竖起的。"
         },
         {
           "id": "f8",
@@ -1076,7 +1121,16 @@
         "Alfred Métraux, Ethnology of Easter Island, 1940",
         "Paul Bahn & John Flenley, Easter Island, Earth Island, 1992",
         "Terry Hunt & Carl Lipo, The Statues That Walked, 2011"
-      ]
+      ],
+      "factCheck": {
+        "status": "corrected",
+        "confidence": "high",
+        "batch": "batch-20",
+        "checkedAt": "2026-11-18T02:42:00+08:00",
+        "issueCount": 2,
+        "appliedAt": "2026-11-17T18:46:28.260Z",
+        "summary": "鸟人竞赛、摩艾运输实验、猎奴与人口崩溃、朗格朗格及并入智利均可核实；两大联盟名称与摩艾分布两处被写错，已修正。"
+      }
     },
     {
       "id": "w4-psych-group-ingroup-bias",
@@ -1124,7 +1178,7 @@
         },
         {
           "id": "f7",
-          "text": "内隐联想测验之类的测量与真实行为的相关很弱，通常只有零点一到零点二，同一个人隔几周再测，结果也可能明显不同。用它给一个人下结论，既不准确也不公平。"
+          "text": "内隐联想测验与真实行为的相关很弱，多项元分析估计在零点一五到零点二四之间；同一个人隔几周再测，结果也可能明显不同。用它给一个人下结论，既不准确也不公平。"
         },
         {
           "id": "f8",
@@ -1256,7 +1310,16 @@
         "Marilynn Brewer, In-Group Bias in the Minimal Intergroup Situation, 1979",
         "Bertrand & Mullainathan, Are Emily and Greg More Employable than Lakisha and Jamal, 2004",
         "Pettigrew & Tropp, A Meta-Analytic Test of Intergroup Contact Theory, 2006"
-      ]
+      ],
+      "factCheck": {
+        "status": "corrected",
+        "confidence": "high",
+        "batch": "batch-34",
+        "checkedAt": "2026-11-18T02:47:00+08:00",
+        "issueCount": 1,
+        "appliedAt": "2026-11-17T18:46:28.260Z",
+        "summary": "塔杰菲尔最小群体实验、谢里夫罗伯斯山洞、简历回电实验与佩蒂格鲁元分析的核心数字均站得住；仅内隐联想测验的相关系数区间需要上调。"
+      }
     },
     {
       "id": "w4-psych-group-stereotype-threat",
@@ -1300,7 +1363,7 @@
         },
         {
           "id": "f6",
-          "text": "但效应到底有多大，学界仍在争论。弗洛雷与维赫茨二〇一五年的元分析认为效应偏小，且可能被发表偏倚夸大，也就是被发表的多是有效的研究；另一些元分析给出的估计更小。"
+          "text": "但效应到底有多大，学界仍在争论。弗洛雷与维赫茨二〇一五年针对女生数学表现的元分析认为效应偏小，且可能被发表偏倚夸大；其他元分析给出的估计也不高。"
         },
         {
           "id": "f7",
@@ -1436,7 +1499,16 @@
         "Spencer, Steele & Quinn, Stereotype Threat and Women's Math Performance, 1999",
         "Flore & Wicherts, Does Stereotype Threat Influence Performance of Girls in Stereotyped Domains, 2015",
         "Shewach, Sackett & Quint, Stereotype Threat Effects in Settings With Features Likely Versus Unlikely in Operational Test Settings, 2019"
-      ]
+      ],
+      "factCheck": {
+        "status": "corrected",
+        "confidence": "high",
+        "batch": "batch-34",
+        "checkedAt": "2026-11-18T02:47:00+08:00",
+        "issueCount": 1,
+        "appliedAt": "2026-11-17T18:46:28.260Z",
+        "summary": "1995 年两项经典实验、工作记忆机制与后续元分析的方向都可靠；唯一需要收紧的是把一项针对女生的元分析说成了整个领域的结论。"
+      }
     },
     {
       "id": "w4-psych-group-dehumanization",
@@ -1616,7 +1688,16 @@
         "Leyens et al., The Emotional Side of Prejudice: The Attribution of Secondary Emotions to Ingroups and Outgroups, 2000",
         "Albert Bandura, Moral Disengagement in the Perpetration of Inhumanities, 1999",
         "Zygmunt Bauman, Modernity and the Holocaust, 1989"
-      ]
+      ],
+      "factCheck": {
+        "status": "verified",
+        "confidence": "high",
+        "batch": "batch-17",
+        "checkedAt": "2026-11-18T02:20:00+08:00",
+        "issueCount": 0,
+        "appliedAt": "2026-11-17T18:46:28.260Z",
+        "summary": "12条均可核实：Haslam（2006）的动物性/机械性去人性化二分、Leyens等（2000）的次级情绪否认、Bandura（1999）的八种道德脱离机制，以及卢旺达电台“蟑螂”称呼等史实均有来源。"
+      }
     },
     {
       "id": "w4-psych-group-identity",
@@ -1795,7 +1876,16 @@
         "John Turner, Rediscovering the Social Group: A Self-Categorization Theory, 1987",
         "Benedict Anderson, Imagined Communities, 1983",
         "Brubaker & Cooper, Beyond Identity, 2000"
-      ]
+      ],
+      "factCheck": {
+        "status": "verified",
+        "confidence": "high",
+        "batch": "batch-16",
+        "checkedAt": "2026-11-18T02:13:56+08:00",
+        "issueCount": 0,
+        "appliedAt": "2026-11-17T18:46:28.260Z",
+        "summary": "社会认同、自我类别化、交叉性与想象共同体等概念表述准确，仅有标点与重复句的编辑瑕疵。"
+      }
     }
   ]
 }

@@ -1,0 +1,907 @@
+{
+  "version": 1,
+  "generatedAt": "2026-11-17T18:01:54.539Z",
+  "source": "data/library/*.json",
+  "dossiers": 512,
+  "facts": 6053,
+  "batches": 64,
+  "batchSize": 8,
+  "files": [
+    {
+      "batch": "batch-01",
+      "dossiers": [
+        "psych-self-expansion",
+        "world-history-rome-roads",
+        "world-myth-atlantis",
+        "cn-history-chibi",
+        "cn-history-xiaowen",
+        "w1-myth-world-cuchulainn",
+        "w2-geo-cn-climate-rainbelt",
+        "w5-geo-cn-coast-types"
+      ],
+      "facts": 96
+    },
+    {
+      "batch": "batch-02",
+      "dossiers": [
+        "w4-wh-wars-great-depression",
+        "world-history-inca",
+        "world-myth-greek",
+        "cn-history-changan",
+        "cn-myth-houyi",
+        "w1-cn-history-recommendation",
+        "w2-geo-cn-climate-red-soil",
+        "w4-geo-world-biome-savanna"
+      ],
+      "facts": 94
+    },
+    {
+      "batch": "batch-03",
+      "dossiers": [
+        "psych-housework",
+        "w5-psych-risk-evacuation",
+        "psych-complementarity",
+        "world-myth-odyssey",
+        "cn-myth-niulang",
+        "w1-cn-history-manor",
+        "w2-geo-cn-transport-chama",
+        "w1-geo-world-pampas"
+      ],
+      "facts": 93
+    },
+    {
+      "batch": "batch-04",
+      "dossiers": [
+        "w3-wh-revolutions-american-revolution",
+        "w4-wh-wars-versailles",
+        "psych-investment",
+        "world-history-translation",
+        "cn-myth-shanhaijing",
+        "w1-cn-history-gaochang-oasis",
+        "w2-geo-cn-transport-shudao",
+        "w3-cn-history-yuan-xingsheng"
+      ],
+      "facts": 93
+    },
+    {
+      "batch": "batch-05",
+      "dossiers": [
+        "w4-wh-regions-brazil-military",
+        "w4-wh-wars-logistics-oil-rubber",
+        "w1-geo-world-southern-ocean",
+        "world-geo-sahara",
+        "psych-nvc",
+        "cn-myth-kunlun",
+        "w2-geo-world-rivers-caspian",
+        "w3-cn-history-mongol-yam"
+      ],
+      "facts": 94
+    },
+    {
+      "batch": "batch-06",
+      "dossiers": [
+        "w4-wh-regions-mexican-revolution",
+        "w4-psych-social-support",
+        "w1-psych-trust",
+        "world-geo-mekong",
+        "w1-cn-history-bronze-ritual",
+        "cn-history-anlushan",
+        "w2-geo-world-rivers-danube",
+        "w2-cn-history-tang-fubing"
+      ],
+      "facts": 94
+    },
+    {
+      "batch": "batch-07",
+      "dossiers": [
+        "w4-wh-wars-hiroshima-nuclear",
+        "w4-psych-poverty-decisions",
+        "w1-world-history-ancient-giza-labor",
+        "w5-wh-trade-sugar",
+        "w1-geo-cn-loess-plateau",
+        "cn-geo-qinling",
+        "w2-geo-world-rivers-mississippi",
+        "w2-cn-history-fanzhen-fiscal"
+      ],
+      "facts": 95
+    },
+    {
+      "batch": "batch-08",
+      "dossiers": [
+        "w5-wh-tech-internet",
+        "w4-myth-cn-mengjiangnu-layers",
+        "w2-myth-cn-mazu",
+        "w5-psych-risk-climate",
+        "w1-geo-world-aleutians",
+        "cn-geo-karst",
+        "w2-myth-cn-guandi",
+        "w5-geo-cn-taiwan-strait"
+      ],
+      "facts": 96
+    },
+    {
+      "batch": "batch-09",
+      "dossiers": [
+        "world-history-metric",
+        "w3-myth-eastasia-blue-wolf",
+        "w2-psych-family-differentiation",
+        "w5-psych-refusal",
+        "w1-geo-world-coral-triangle",
+        "cn-geo-hainan",
+        "w2-myth-india-mahabharata-war",
+        "w3-geo-cn-reclamation"
+      ],
+      "facts": 94
+    },
+    {
+      "batch": "batch-10",
+      "dossiers": [
+        "world-history-print",
+        "w2-wh-islamic-crusade-byzantium",
+        "w2-psych-family-parentification",
+        "w5-psych-post-breakup-friends",
+        "w1-geo-world-gulf-stream",
+        "cn-geo-canal",
+        "w2-myth-mesopotamia-khvarenah",
+        "w3-geo-cn-hydropower-cascade"
+      ],
+      "facts": 95
+    },
+    {
+      "batch": "batch-11",
+      "dossiers": [
+        "cn-history-yangwu",
+        "w2-wh-islamic-abbasid-revolution",
+        "w2-wh-islamic-ibn-khaldun",
+        "w5-psych-long-distance-daily",
+        "w1-geo-world-madagascar",
+        "world-myth-kojiki",
+        "w2-wh-medieval-gothic",
+        "w2-wh-medieval-university"
+      ],
+      "facts": 95
+    },
+    {
+      "batch": "batch-12",
+      "dossiers": [
+        "psych-breakup",
+        "w2-myth-mesopotamia-assyria-fall",
+        "w2-wh-islamic-iconoclasm",
+        "w5-geo-world-dust-belt",
+        "w1-geo-world-new-zealand",
+        "world-geo-andes",
+        "w3-geo-cn-nw-solar-wind",
+        "w1-myth-cn-longwang"
+      ],
+      "facts": 94
+    },
+    {
+      "batch": "batch-13",
+      "dossiers": [
+        "psych-first-impression",
+        "w1-world-history-classical-sparta-citizens",
+        "w3-geo-world-coral-bleaching",
+        "w5-cn-history-yidong-zhifu",
+        "w1-world-history-ancient-zoroastrianism",
+        "w5-psych-risk-disaster",
+        "w3-geo-cn-rare-earth",
+        "w5-myth-compare-underworld"
+      ],
+      "facts": 94
+    },
+    {
+      "batch": "batch-14",
+      "dossiers": [
+        "psych-long-distance",
+        "w1-world-history-classical-athenian-jury",
+        "w3-myth-eastasia-momotaro",
+        "w4-wh-wars-marshall-plan",
+        "w1-world-history-classical-roman-grain-supply",
+        "w5-myth-cn-sanshan",
+        "w3-geo-world-polar-vortex",
+        "w5-geo-world-coasts"
+      ],
+      "facts": 94
+    },
+    {
+      "batch": "batch-15",
+      "dossiers": [
+        "psych-similarity",
+        "w1-psych-self-disclosure",
+        "w3-psych-anchoring",
+        "w4-psych-scarcity",
+        "w2-geo-world-mountains-alps",
+        "w5-geo-cn-zhoushan-fishery",
+        "w3-geo-world-temperate-rainforest",
+        "w5-geo-world-arctic-sea-ice"
+      ],
+      "facts": 96
+    },
+    {
+      "batch": "batch-16",
+      "dossiers": [
+        "w3-wh-revolutions-english-civil-war",
+        "w1-myth-world-baal-yamm",
+        "w3-psych-emotion-granularity",
+        "w4-psych-group-identity",
+        "w2-geo-world-mountains-vesuvius",
+        "w5-cn-history-liangpiao",
+        "w3-myth-cn-nezha",
+        "w4-myth-oceania-sedna"
+      ],
+      "facts": 95
+    },
+    {
+      "batch": "batch-17",
+      "dossiers": [
+        "w3-wh-revolutions-suffrage",
+        "psych-gottman",
+        "w3-psych-exercise-mood",
+        "w4-psych-group-dehumanization",
+        "w2-myth-cn-zhongkui",
+        "w5-cn-history-jiadian",
+        "w3-myth-world-tuonela",
+        "w4-myth-cn-fengshen-pantheon"
+      ],
+      "facts": 96
+    },
+    {
+      "batch": "batch-18",
+      "dossiers": [
+        "w4-wh-regions-apartheid",
+        "world-geo-la-smog",
+        "w3-wh-revolutions-1848",
+        "w4-myth-oceania-sami-shaman",
+        "w2-psych-comm-repair",
+        "w4-myth-oceania-maui",
+        "w3-myth-world-xibalba",
+        "w4-geo-cn-check-dam"
+      ],
+      "facts": 95
+    },
+    {
+      "batch": "batch-19",
+      "dossiers": [
+        "w4-wh-regions-cuban-revolution",
+        "world-geo-baikal",
+        "w4-cn-history-shanghai-zujie",
+        "w4-myth-cn-xiyouji-formation",
+        "w3-cn-history-liao-dual",
+        "w4-myth-americas-coyote",
+        "w3-wh-discovery-ming-silver",
+        "w4-cn-history-weisuo-junhu"
+      ],
+      "facts": 95
+    },
+    {
+      "batch": "batch-20",
+      "dossiers": [
+        "world-history-meiji",
+        "w5-wh-tech-chernobyl",
+        "w4-wh-regions-berlin-conference",
+        "w4-myth-americas-birdman",
+        "w3-geo-world-ocean-acidification",
+        "w4-geo-world-biome-taiga",
+        "w4-geo-cn-dujiangyan",
+        "w3-geo-world-river-delta"
+      ],
+      "facts": 96
+    },
+    {
+      "batch": "batch-21",
+      "dossiers": [
+        "cn-history-liangzhu",
+        "w3-psych-emotion-forecasting",
+        "w5-cn-history-jihuashengyu",
+        "w4-geo-world-national-parks",
+        "w3-psych-cognitive-reappraisal",
+        "w4-geo-cn-hetao",
+        "w4-geo-world-biome-rainforest",
+        "w3-geo-cn-ne-grain-base"
+      ],
+      "facts": 96
+    },
+    {
+      "batch": "batch-22",
+      "dossiers": [
+        "psych-attachment",
+        "w1-world-history-classical-roman-law-citizenship",
+        "w5-psych-sex-ed",
+        "w4-geo-world-high-seas-fishery",
+        "w3-psych-confirmation-bias",
+        "w3-wh-discovery-cook",
+        "w4-geo-world-megalopolis",
+        "w2-wh-medieval-hanse"
+      ],
+      "facts": 95
+    },
+    {
+      "batch": "batch-23",
+      "dossiers": [
+        "psych-mere-exposure",
+        "w1-psych-money",
+        "world-history-janissary",
+        "w4-geo-world-desertification",
+        "w3-psych-loss-aversion",
+        "w3-myth-world-hel",
+        "w4-geo-world-population-urban",
+        "w2-wh-islamic-land-tax"
+      ],
+      "facts": 96
+    },
+    {
+      "batch": "batch-24",
+      "dossiers": [
+        "psych-u-curve",
+        "w1-psych-memory",
+        "world-myth-gilgamesh",
+        "w3-wh-discovery-magellan",
+        "w3-psych-mindfulness-evidence",
+        "w3-geo-world-thermohaline",
+        "w5-myth-africa-siberia-bear",
+        "w2-myth-india-ramayana-hanuman"
+      ],
+      "facts": 95
+    },
+    {
+      "batch": "batch-25",
+      "dossiers": [
+        "w1-world-history-ancient-sea-peoples",
+        "w1-psych-inlaws",
+        "cn-geo-jingjinji",
+        "w3-myth-eastasia-amaterasu",
+        "w3-psych-sleep-mood",
+        "w3-geo-world-el-nino",
+        "w5-wh-trade-porcelain",
+        "w2-cn-history-wuyue-water"
+      ],
+      "facts": 96
+    },
+    {
+      "batch": "batch-26",
+      "dossiers": [
+        "w5-wh-tech-ivf",
+        "w1-psych-autonomy",
+        "cn-myth-yu",
+        "w2-psych-family-rules",
+        "w3-wh-discovery-voc",
+        "w3-geo-cn-north-china-aquifer",
+        "world-geo-iceland",
+        "w2-cn-history-wu-zetian"
+      ],
+      "facts": 95
+    },
+    {
+      "batch": "batch-27",
+      "dossiers": [
+        "w5-wh-tech-ozone",
+        "psych-repair",
+        "psych-sacrifice",
+        "w2-psych-family-resource-dependence",
+        "w4-myth-americas-amazon",
+        "w3-cn-history-jin-mengan-mouke",
+        "world-myth-enuma",
+        "w2-cn-history-niu-li"
+      ],
+      "facts": 94
+    },
+    {
+      "batch": "batch-28",
+      "dossiers": [
+        "world-history-columbus",
+        "psych-power",
+        "w1-geo-cn-tianshan",
+        "w2-psych-comm-defensive",
+        "w4-myth-americas-five-suns",
+        "w2-wh-islamic-justinian-code",
+        "world-myth-yggdrasil",
+        "w1-myth-cn-zaoshen"
+      ],
+      "facts": 95
+    },
+    {
+      "batch": "batch-29",
+      "dossiers": [
+        "world-history-constitution",
+        "world-myth-flood",
+        "w1-psych-arousal-attribution",
+        "w2-myth-india-ganesha-origins",
+        "w5-cn-history-danwei-zhufang",
+        "w2-wh-islamic-canon-avicenna",
+        "cn-geo-black-soil",
+        "w1-geo-world-atacama"
+      ],
+      "facts": 94
+    },
+    {
+      "batch": "batch-30",
+      "dossiers": [
+        "world-history-persepolis",
+        "w5-myth-africa-bathala",
+        "w1-psych-desire-gap",
+        "w2-geo-world-mountains-yellowstone",
+        "w5-geo-world-city-water",
+        "w2-wh-islamic-algebra-khwarizmi",
+        "cn-myth-change",
+        "w1-geo-world-arabian"
+      ],
+      "facts": 94
+    },
+    {
+      "batch": "batch-31",
+      "dossiers": [
+        "world-history-space",
+        "w4-wh-wars-trench-warfare",
+        "w1-psych-proximity",
+        "w2-geo-world-mountains-himalaya",
+        "w5-myth-cn-wongtaisin",
+        "w2-psych-family-power-bases",
+        "w1-cn-history-monastery-economy",
+        "w1-geo-cn-pearl-river"
+      ],
+      "facts": 91
+    },
+    {
+      "batch": "batch-32",
+      "dossiers": [
+        "cn-history-dunhuang",
+        "w4-wh-regions-peronism",
+        "w1-psych-reciprocal-liking",
+        "w1-world-history-classical-roman-magistracies",
+        "w5-myth-compare-hero-birth",
+        "w2-psych-family-eldercare",
+        "w1-geo-cn-qiantang-bore",
+        "w1-cn-history-nine-rank"
+      ],
+      "facts": 94
+    },
+    {
+      "batch": "batch-33",
+      "dossiers": [
+        "psych-online-dating",
+        "w4-psych-resilience",
+        "w2-geo-world-mountains-caucasus",
+        "w1-world-history-classical-roman-concrete-water",
+        "w5-myth-compare-twins",
+        "w2-psych-comm-meta",
+        "w1-geo-cn-yangtze-delta",
+        "world-myth-ragnarok"
+      ],
+      "facts": 93
+    },
+    {
+      "batch": "batch-34",
+      "dossiers": [
+        "w4-psych-group-ingroup-bias",
+        "w4-psych-group-stereotype-threat",
+        "w2-geo-world-rivers-victoria",
+        "w1-world-history-classical-hellenistic-cities",
+        "w5-psych-phone-privacy",
+        "w2-myth-cn-chenghuang",
+        "w1-myth-world-anubis",
+        "world-geo-mediterranean"
+      ],
+      "facts": 94
+    },
+    {
+      "batch": "batch-35",
+      "dossiers": [
+        "w4-psych-obedience",
+        "w4-psych-group-polarization",
+        "w2-myth-mesopotamia-zoroaster-dualism",
+        "w1-world-history-ancient-hammurabi",
+        "world-geo-great-barrier",
+        "w2-cn-history-kaiyuan-fiscal",
+        "w1-myth-world-loki",
+        "w5-myth-cn-baosheng"
+      ],
+      "facts": 94
+    },
+    {
+      "batch": "batch-36",
+      "dossiers": [
+        "w4-wh-regions-congo-free-state",
+        "w4-psych-bystander",
+        "w2-psych-family-decision-authority",
+        "w1-psych-forgiveness",
+        "world-geo-monsoon",
+        "w1-world-history-ancient-phoenician-alphabet",
+        "w1-myth-world-morrigan",
+        "w5-geo-world-seismic-belts"
+      ],
+      "facts": 95
+    },
+    {
+      "batch": "batch-37",
+      "dossiers": [
+        "w5-psych-sexual-satisfaction",
+        "w2-psych-family-triangulation",
+        "w3-myth-world-mictlan",
+        "w1-psych-demand-withdraw",
+        "world-myth-inca-sun",
+        "w1-world-history-ancient-akhenaten",
+        "w2-geo-world-rivers-congo",
+        "w5-geo-world-namib-fog-desert"
+      ],
+      "facts": 95
+    },
+    {
+      "batch": "batch-38",
+      "dossiers": [
+        "w5-wh-tech-pill",
+        "w1-world-history-classical-early-christianity",
+        "w3-psych-emotion-rumination",
+        "w1-psych-commitment",
+        "cn-geo-yellow-river",
+        "w1-psych-apology",
+        "w2-geo-world-rivers-ganges",
+        "w5-geo-cn-yellow-sea-cold-water"
+      ],
+      "facts": 95
+    },
+    {
+      "batch": "batch-39",
+      "dossiers": [
+        "w5-wh-tech-sewers",
+        "w1-world-history-ancient-sumer-cities",
+        "w4-geo-world-anthropocene",
+        "w1-myth-world-celtic-otherworld",
+        "psych-36questions",
+        "w1-myth-world-inanna",
+        "w2-myth-india-ramakien-thai",
+        "w5-geo-cn-island-freshwater"
+      ],
+      "facts": 95
+    },
+    {
+      "batch": "batch-40",
+      "dossiers": [
+        "world-history-plague",
+        "w1-world-history-ancient-hittite",
+        "w4-geo-world-transboundary-water",
+        "w1-myth-world-atrahasis",
+        "w1-cn-history-well-field",
+        "w1-geo-world-great-plains",
+        "w2-myth-mesopotamia-inanna",
+        "w5-cn-history-chunyun"
+      ],
+      "facts": 94
+    },
+    {
+      "batch": "batch-41",
+      "dossiers": [
+        "cn-history-railway",
+        "w1-psych-caregiving",
+        "w4-myth-cn-liangzhu-versions",
+        "w1-myth-cn-taishan",
+        "w1-myth-cn-menshen",
+        "w1-geo-cn-sichuan-basin",
+        "w2-psych-comm-escalation",
+        "w4-psych-social-comparison"
+      ],
+      "facts": 96
+    },
+    {
+      "batch": "batch-42",
+      "dossiers": [
+        "w3-psych-cognitive-dissonance",
+        "psych-family",
+        "w4-myth-oceania-polynesian-navigation",
+        "w1-cn-history-chariot-infantry",
+        "w1-myth-world-horus-set",
+        "w1-cn-history-military-rank",
+        "w2-psych-family-coparenting",
+        "w4-geo-world-polar-routes"
+      ],
+      "facts": 94
+    },
+    {
+      "batch": "batch-43",
+      "dossiers": [
+        "w3-wh-revolutions-glorious-revolution",
+        "cn-history-silver",
+        "w4-myth-oceania-rainbow-serpent",
+        "psych-attribution",
+        "w1-world-history-ancient-assyria",
+        "cn-history-zhenghe",
+        "w2-wh-medieval-feudal-contract",
+        "w4-geo-world-island-nations"
+      ],
+      "facts": 96
+    },
+    {
+      "batch": "batch-44",
+      "dossiers": [
+        "w4-wh-regions-partition",
+        "cn-history-maps",
+        "w4-psych-posttraumatic-growth",
+        "cn-history-qin",
+        "w1-world-history-classical-byzantine-admin",
+        "cn-history-song-money",
+        "w2-wh-medieval-manor",
+        "w4-geo-world-food-trade"
+      ],
+      "facts": 96
+    },
+    {
+      "batch": "batch-45",
+      "dossiers": [
+        "w5-wh-tech-climate-ipcc",
+        "world-myth-arthur",
+        "w4-wh-wars-un-cold-war",
+        "world-myth-osiris",
+        "w2-cn-history-sui-granary",
+        "cn-geo-tibet",
+        "w3-cn-history-dadu-grain",
+        "w4-cn-history-zouzhe-mizhe"
+      ],
+      "facts": 94
+    },
+    {
+      "batch": "batch-46",
+      "dossiers": [
+        "w5-wh-trade-oil",
+        "world-history-maya",
+        "w5-cn-history-chaijian-shangpinfang",
+        "world-history-enclosure",
+        "w2-geo-cn-climate-plateau-heat",
+        "world-geo-permafrost",
+        "w3-cn-history-song-keju",
+        "w4-cn-history-shisanhang-yikou"
+      ],
+      "facts": 93
+    },
+    {
+      "batch": "batch-47",
+      "dossiers": [
+        "w5-wh-trade-rubber",
+        "world-history-marshall",
+        "w5-cn-history-huifu-gaokao",
+        "world-geo-rift",
+        "w2-geo-cn-climate-typhoon",
+        "w5-psych-premarital-counseling",
+        "w3-geo-cn-coal-belt",
+        "w4-cn-history-neige-piaoni"
+      ],
+      "facts": 92
+    },
+    {
+      "batch": "batch-48",
+      "dossiers": [
+        "world-history-mongol",
+        "world-history-athens",
+        "w5-geo-world-mountain-zones",
+        "world-geo-dead-sea",
+        "w2-geo-cn-transport-shanghai-port",
+        "w5-psych-marriage-expectation",
+        "w3-geo-world-mediterranean-climate",
+        "w3-wh-discovery-caravel"
+      ],
+      "facts": 94
+    },
+    {
+      "batch": "batch-49",
+      "dossiers": [
+        "world-history-viking",
+        "world-geo-panama",
+        "w5-myth-africa-famadihana",
+        "world-geo-amazon",
+        "w2-geo-world-mountains-rockies",
+        "w5-myth-compare-flood",
+        "w3-myth-cn-erlang",
+        "w3-myth-world-persephone"
+      ],
+      "facts": 93
+    },
+    {
+      "batch": "batch-50",
+      "dossiers": [
+        "world-myth-druid",
+        "world-geo-greenland",
+        "w5-psych-script",
+        "w5-wh-trade-cotton",
+        "w2-myth-india-son-tinh-thuy-tinh",
+        "w5-myth-africa-san-mantis",
+        "w3-myth-cn-mulian",
+        "w3-myth-cn-ten-kings"
+      ],
+      "facts": 94
+    },
+    {
+      "batch": "batch-51",
+      "dossiers": [
+        "world-myth-troy",
+        "w5-wh-trade-banana",
+        "w5-wh-tech-fertilizer",
+        "w5-wh-trade-chip",
+        "w2-myth-mesopotamia-mithra",
+        "w5-myth-africa-anansi",
+        "w3-wh-discovery-encomienda",
+        "w3-geo-world-tundra"
+      ],
+      "facts": 96
+    },
+    {
+      "batch": "batch-52",
+      "dossiers": [
+        "psych-desire",
+        "w5-wh-tech-vaccines",
+        "w5-wh-trade-coffee",
+        "w5-psych-risk-airplane",
+        "w2-psych-family-economic-control",
+        "w5-geo-world-patagonia",
+        "w3-wh-discovery-slave-trade",
+        "w3-cn-history-wang-an-shi"
+      ],
+      "facts": 95
+    },
+    {
+      "batch": "batch-53",
+      "dossiers": [
+        "psych-listening",
+        "w5-psych-consent",
+        "w5-wh-trade-spice",
+        "w5-myth-africa-naga",
+        "w2-wh-islamic-mamluk",
+        "w5-geo-cn-bohai-self-purification",
+        "w4-geo-cn-south-north-water",
+        "w3-cn-history-song-commerce"
+      ],
+      "facts": 94
+    },
+    {
+      "batch": "batch-54",
+      "dossiers": [
+        "w3-psych-availability-heuristic",
+        "w5-geo-world-greenland-under-ice",
+        "world-geo-nile",
+        "w5-geo-world-island-biogeography",
+        "w2-wh-medieval-hundred-years-war",
+        "w5-cn-history-zixingche-qiche",
+        "w4-myth-americas-orisha",
+        "w2-wh-medieval-nunneries"
+      ],
+      "facts": 96
+    },
+    {
+      "batch": "batch-55",
+      "dossiers": [
+        "w3-wh-revolutions-cotton-factories",
+        "w4-wh-regions-noncooperation",
+        "world-geo-ring-fire",
+        "w5-geo-world-aurora",
+        "w2-wh-medieval-investiture",
+        "w4-wh-wars-cuban-missiles",
+        "w5-geo-cn-south-china-sea-reef",
+        "w2-wh-islamic-paper-samarkand"
+      ],
+      "facts": 95
+    },
+    {
+      "batch": "batch-56",
+      "dossiers": [
+        "w3-wh-revolutions-steam-railways",
+        "w4-psych-contact-hypothesis",
+        "world-myth-popol",
+        "w5-geo-world-aral-sea",
+        "w2-wh-medieval-magna-carta",
+        "w4-psych-loneliness",
+        "w5-geo-world-antarctic-ice-sheet",
+        "w2-psych-family-stepfamily"
+      ],
+      "facts": 96
+    },
+    {
+      "batch": "batch-57",
+      "dossiers": [
+        "w4-wh-wars-berlin-blockade",
+        "w4-psych-conformity",
+        "world-myth-veda",
+        "w4-myth-oceania-pele",
+        "w3-cn-history-red-turban",
+        "w4-myth-americas-vodou",
+        "w5-myth-cn-linshui",
+        "w2-myth-india-samudra-manthan"
+      ],
+      "facts": 94
+    },
+    {
+      "batch": "batch-58",
+      "dossiers": [
+        "w4-wh-wars-total-war",
+        "w4-cn-history-xinzheng-keju",
+        "cn-geo-taklamakan",
+        "w3-psych-shame-guilt",
+        "w3-geo-world-sea-level",
+        "w4-geo-cn-kanerjing",
+        "w5-myth-compare-creation",
+        "w2-geo-world-mountains-ural"
+      ],
+      "facts": 96
+    },
+    {
+      "batch": "batch-59",
+      "dossiers": [
+        "w5-psych-passion",
+        "w3-wh-revolutions-haitian-revolution",
+        "cn-geo-three-gorges",
+        "w3-psych-empathy-accuracy",
+        "w3-geo-world-upwelling-fishery",
+        "w4-geo-cn-double-season-rice",
+        "w5-myth-compare-trickster",
+        "w2-cn-history-wudai-warlords"
+      ],
+      "facts": 94
+    },
+    {
+      "batch": "batch-60",
+      "dossiers": [
+        "w5-wh-tech-antibiotics",
+        "w3-wh-revolutions-french-revolution",
+        "cn-history-keju",
+        "w3-myth-world-orpheus",
+        "w3-myth-eastasia-izanami",
+        "w4-geo-cn-double-cropping",
+        "w5-psych-conflict-style",
+        "w2-cn-history-liangshui"
+      ],
+      "facts": 95
+    },
+    {
+      "batch": "batch-61",
+      "dossiers": [
+        "world-geo-netherlands",
+        "w3-psych-emotion-contagion",
+        "cn-myth-baishe",
+        "w3-geo-world-urban-heat-island",
+        "w3-myth-eastasia-susanoo",
+        "w4-cn-history-yangwu-chuanpao",
+        "cn-myth-jingwei",
+        "w1-myth-world-tuatha"
+      ],
+      "facts": 94
+    },
+    {
+      "batch": "batch-62",
+      "dossiers": [
+        "world-history-industrial",
+        "w3-myth-eastasia-dangun",
+        "w1-geo-cn-qilian",
+        "w3-geo-world-koppen",
+        "w3-psych-expressive-suppression",
+        "w4-cn-history-taiping-tianguo",
+        "cn-myth-kuafu",
+        "w1-myth-world-sekhmet"
+      ],
+      "facts": 95
+    },
+    {
+      "batch": "batch-63",
+      "dossiers": [
+        "world-history-suez",
+        "w1-psych-secrecy",
+        "w1-myth-world-valkyrie",
+        "w2-psych-family-housework-standards",
+        "w3-wh-discovery-columbian-exchange",
+        "w4-cn-history-renkou-dingyin",
+        "cn-myth-nuwa",
+        "w1-geo-world-steppe"
+      ],
+      "facts": 94
+    },
+    {
+      "batch": "batch-64",
+      "dossiers": [
+        "psych-jealousy",
+        "psych-triangle",
+        "w1-world-history-ancient-cuneiform",
+        "w2-myth-mesopotamia-akitu",
+        "w3-wh-discovery-columbus-geography",
+        "w3-wh-discovery-potosi-silver",
+        "w1-geo-world-gobi",
+        "w1-geo-world-kalahari"
+      ],
+      "facts": 93
+    }
+  ]
+}

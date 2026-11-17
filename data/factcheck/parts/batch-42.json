@@ -1,0 +1,373 @@
+{
+  "batch": "batch-42",
+  "checkedAt": "2026-11-18T02:56:00+08:00",
+  "dossiers": [
+    {
+      "id": "w3-psych-cognitive-dissonance",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "medium"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "medium"},
+        {"id": "f8", "verdict": "wrong", "confidence": "high", "issue": "issue-01"},
+        {"id": "f9", "verdict": "supported", "confidence": "medium"},
+        {"id": "f10", "verdict": "supported", "confidence": "medium"},
+        {"id": "f11", "verdict": "imprecise", "confidence": "high", "issue": "issue-02"},
+        {"id": "f12", "verdict": "supported", "confidence": "medium"}
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f8",
+          "severity": "major",
+          "verdict": "wrong",
+          "claim": "伊祖马等人二〇〇八年的研究发现，当人做出选择并需要向他人表达时，与冲突监测和奖赏相关的脑区活动，能预测之后态度的改变幅度。",
+          "problem": "年份与实验内容都不对。该脑成像研究是 Izuma 等 2010 年发表在 PNAS 的论文（107(51): 22014–22019），不是 2008 年。实验中被试在扫描仪内对食物配对做选择，之后重新评分，全程没有“向他人表达”这一环节；真正被“表达”的是第二次评分时向被试提示其先前的决定（“你拒绝了它”）。结论是前扣带皮层与背外侧前额叶逐试次追踪失调程度，纹状体活动反映偏好改变，而不是“预测态度改变幅度”。",
+          "correction": "伊祖马等人二〇一〇年的脑成像研究发现，人在两个同样喜欢的选项间做出选择后，前扣带皮层与背外侧前额叶的活动会随失调程度变化，纹状体的活动也跟着偏好一起改变。",
+          "evidence": [
+            {
+              "title": "Izuma et al., Neural correlates of cognitive dissonance and choice-induced preference change, PNAS 2010",
+              "url": "https://www.pnas.org/doi/10.1073/pnas.1011879108",
+              "quote": "our data indicate that the anterior cingulate cortex and dorsolateral prefrontal cortex tracked the degree of cognitive dissonance on a trial-by-trial basis"
+            }
+          ]
+        },
+        {
+          "id": "issue-02",
+          "factId": "f11",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "失调的强度取决于几个条件：行为是否自愿、后果是否可预见、是否造成了伤害、有没有旁观者。",
+          "problem": "前三条是标准条件（自愿、可预见、带来自己不想要的不良后果），但“有没有旁观者”不是失调强度的决定因素，而且与本篇 f9“它不需要观众”直接矛盾。失调的经典实验里，被试独自面对自己的选择也会调整态度；他人在场只影响自我呈现，不是失调产生的门槛。",
+          "correction": "失调的强度取决于几个条件：行为是否出于自愿、后果是否可预见、是否造成了自己不想要的伤害。旁观者在不在场并不是关键；没人看见的时候，人照样会替自己的选择找理由。",
+          "evidence": [
+            {
+              "title": "Vincent Brown, PhD thesis (Royal Holloway) — dissonance absent without aversive consequences",
+              "url": "https://pure.royalholloway.ac.uk/ws/portalfiles/portal/16699507/Vincent_Brown_s_THESIS_approved_version.pdf",
+              "quote": "Dissonance was not observed in the group that believed they were simply engaging in a writing exercise."
+            },
+            {
+              "title": "Universität St. Gallen dissertation — Cooper & Fazio (1984) on unwanted consequences",
+              "url": "https://www.alexandria.unisg.ch/server/api/core/bitstreams/439beb7a-b28c-4d4b-9d4c-5332435dd6f5/content",
+              "quote": "Viele Forscher stimmen Cooper und dem New Look dahingehend zu, dass unerwünschte Konsequenzen das Ausmass von kognitiver Dissonanz verstärken."
+            }
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "书目只列了 Festinger 1957、Festinger & Carlsmith 1959、Brehm 1956、Heine & Lehman 1997，但正文还引了 Aronson & Mills 1959、Bem 1967、Izuma 等，这三条未列入 sources。",
+        "festinger & Carlsmith 1959 原始样本为 71 名男大学生，其中 11 人因故被剔除，实际进入分析的约 60 人；f3 的“七十一名被试”按招募口径成立。",
+        "Heine & Lehman 1997 的“日本被试偏好扩散更弱”是常被引用的结论，但后续研究提示效应受自我肯定、关系性自我建构等调节，不宜读成“东亚人没有失调”。"
+      ],
+      "summary": "八条机制性叙述站得住，一处年份与实验内容张冠李戴（Izuma 应为 2010 年 PNAS），一处把“旁观者”误列为失调强度的条件并与本篇另一段自相矛盾，其余按原样可用。"
+    },
+    {
+      "id": "psych-family",
+      "status": "verified",
+      "confidence": "medium",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "medium"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "medium"},
+        {"id": "f5", "verdict": "supported", "confidence": "medium"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "medium"},
+        {"id": "f8", "verdict": "supported", "confidence": "medium"},
+        {"id": "f9", "verdict": "supported", "confidence": "medium"},
+        {"id": "f10", "verdict": "supported", "confidence": "high"},
+        {"id": "f11", "verdict": "supported", "confidence": "medium"}
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "Bowen 1978《Family Therapy in Clinical Practice》是文集，自我分化的概念在 1950–60 年代的论文里已经成形；学界通行以 Bowen 1978 作为引用出处，故 f1 的“1978 年提出”按引用惯例保留，严格的学说史应写“系统表述于 1978 年”。",
+        "Amato & DeBoer 2001 的原始结论是“父母离婚使子女离婚的几率约翻倍”（approximately doubled the odds），f3 的“风险更高、但绝大多数人婚姻没有破裂”与此一致。",
+        "书目列的 Amato & Keith 1991 元分析在正文中未被引用；Gottman & Katz 1989 只在 f6 用到。",
+        "f9 关于照护责任与公平感的研究方向有大量文献支持，但“协商比小时数更能决定感受”是概括，不是某一项研究的原话。"
+      ],
+      "summary": "十一条均可追溯到家庭系统理论与代际传递的实证文献，没有发现事实性错误；最需留意的是把 1978 年当成自我分化概念的“提出年”，以及把综述性概括写成了单一研究结论。"
+    },
+    {
+      "id": "w4-myth-oceania-polynesian-navigation",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "medium"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "supported", "confidence": "medium"},
+        {"id": "f9", "verdict": "supported", "confidence": "medium"},
+        {"id": "f10", "verdict": "imprecise", "confidence": "high", "issue": "issue-01"},
+        {"id": "f11", "verdict": "supported", "confidence": "high"},
+        {"id": "f12", "verdict": "supported", "confidence": "medium"}
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f10",
+          "severity": "major",
+          "verdict": "imprecise",
+          "claim": "波利尼西亚人用石头、贝壳和木棍做星盘，把星星的方位、岛屿的位置和季节标在一块架上；这些东西不是地图，是教学工具，用来在教室里复述海上的关系。",
+          "problem": "把两种不同的东西合成了一件实物。波利尼西亚与密克罗尼西亚的“星图”（star compass）是背在脑子里的方位框架：记住某颗星在哪个方位升起、落下，以及各岛之间的相对方位，教学时靠口诀和在地面、船屋地上摆石子示意，并没有用石头、贝壳、木棍搭成、可以架起来的“星盘”。用棕榈叶梗与贝壳编成实物的是马绍尔群岛的航海图（stick chart），f11 已经正确地单列了它。这一段等于把口传的星方位表误写成仪器。",
+          "correction": "星图不是实物，而是一套背下来的方位框架：哪颗星在哪个方位升起、落下，岛屿之间怎样相对。教学时会在船屋地上摆石子示意，但没有用石头贝壳做成、可以架起来的星盘，这套关系只存在航海者的记忆里。",
+          "evidence": [
+            {
+              "title": "UNESCO, The Canoe is the People — Becoming a Navigator (star compass as mental island chart)",
+              "url": "https://iportal.usask.ca/sites/iportal.usask.ca/files/content/add/The%20Canoe%20is%20the%20People%20CD-ROM%20%283%29.pdf",
+              "quote": "The student chooses an island. Using that island as the centre, he goes around the star compass and chants all the islands that lie in each direction ... This forms an island chart in his mind."
+            },
+            {
+              "title": "History of Cartography, Vol. 2 Book 3, ch. 13: Nautical Cartography and Traditional Navigation in Oceania",
+              "url": "https://www.chicagomanual.com/books/HOC/HOC_V2_B3/HOC_VOLUME2_Book3_chapter13.pdf",
+              "quote": "four charts—one from Polynesia and three from Micronesia—drawn by early Western explorers and missionaries based on geographical information supplied by island navigators"
+            }
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "f3 的“十余名船员”与 1976 年首航名单相符（Polynesian Voyaging Society 列出的船员为 15 人，另有导航者 Mau Piailug）。",
+        "f2 把 19 世纪欧洲学者的“漂流说”与 Sharp 的“意外漂流说”并置，Sharp 的书 1956 年由波利尼西亚学会出版、1957 年由 Penguin 再版，书中主张定居主要源于意外漂流而非有意的探索航行。",
+        "f8 列出的作物里，甘薯来自南美、是较晚才传入波利尼西亚的，作为“搬家时带上的作物”略有时序问题，但用于说明“带作物上岛”这一层意思成立。"
+      ],
+      "summary": "航海技术各段与人类学、实验考古材料吻合，唯一实质问题是把口传的星方位框架写成了石头贝壳做的实物“星盘”，与下一段马绍尔群岛的航海图混为一谈。"
+    },
+    {
+      "id": "w1-cn-history-chariot-infantry",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "imprecise", "confidence": "high", "issue": "issue-01"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "medium"},
+        {"id": "f8", "verdict": "supported", "confidence": "medium"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "supported", "confidence": "high"},
+        {"id": "f11", "verdict": "supported", "confidence": "medium"},
+        {"id": "f12", "verdict": "supported", "confidence": "medium"}
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f2",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "《周礼》说一乘三十人",
+          "problem": "出处挂错了。“革车一乘，士十人，徒二十人”合三十人，出自《司马法》；《周礼·小司徒》讲的是伍、两、卒、旅的编组（五人为伍、五伍为两……），并没有一乘配多少徒卒的记载。杜预注《左传》成公元年时把《周礼》的井邑丘甸与《司马法》的“甲士三人、步卒七十二人”并列引用，后世常把两套数字混着说，才有了“《周礼》说三十人”的错觉。",
+          "correction": "战车周围有徒卒跟随，数量记载不一。《司马法》说一乘三十人，即甲士十人、徒二十人；《周礼》只讲伍两卒旅的编组，不载一乘人数。徒卒地位低于甲士，装备与训练也差一截，一乘几人至今仍有争论。",
+          "evidence": [
+            {
+              "title": "《陕西师范大学学报》：春秋车制与一乘人数考",
+              "url": "http://www.xuebao.snnu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1781564719&wbfileid=5EDFA8D88864AD8001E38D0E4D0B350A",
+              "quote": "《司马法》中所说“三百家，革车一乘，士十人，徒二十人”的规格……孔颖达疏明确说杜预所作的注中，前为《周礼·小司徒》之文，后为《司马法》之文。"
+            },
+            {
+              "title": "毛奇龄《经问》论一车三十人（识典古籍）",
+              "url": "https://www.shidianguji.com/zh/mid-page/7548939495241941002",
+              "quote": "司马法：成出一车，甲士十人，步卒二十人……则一车三十人，适当其数"
+            }
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "f4 的“大原之战”在《左传·昭公元年》记作“晋中行穆子败无终及群狄于大原”，主帅是荀吴，魏舒是提出“毁车以为行”并实际编组的人；正文写“魏舒主张”没错，写“晋国与狄人”则略去了无终。",
+        "f5 的“三层甲”对应《荀子·议兵》“衣三属之甲”（覆膊、甲裳、胫衣三部分），不是三重重叠的甲片；“免其户赋”对应“复其户”，即免除本户徭役，不完全是赋税。",
+        "f12 说车战“彻底退出主战场”，但《汉书·卫青传》记元狩四年卫青出定襄仍“令武刚车自环为营”，车仍用于结营与辎重；作为“车战”即战车冲击战法的终结，这个说法成立。"
+      ],
+      "summary": "车战到步兵的线索整体可靠，战役年份、编制数字与《左传》《荀子》《史记》对得上；唯一需要改的是把“一乘三十人”的出处从《周礼》改回《司马法》。"
+    },
+    {
+      "id": "w1-myth-world-horus-set",
+      "status": "verified",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "supported", "confidence": "medium"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "supported", "confidence": "high"},
+        {"id": "f11", "verdict": "supported", "confidence": "high"},
+        {"id": "f12", "verdict": "supported", "confidence": "medium"}
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "《战胜塞特》即 P. Chester Beatty 1（亦记作 P. BM 10681），抄写年代定为拉美西斯五世，纸草原文有“我们已在法庭上八十年”一句，f4 的“八十年”有直接文本依据。",
+        "金字塔文最早见于第五王朝乌纳斯金字塔，一直延续到第六王朝，年代约公元前 2350–2150 年，f1 的王朝与年代区间正确。",
+        "普鲁塔克生卒约公元 46–120 年，《论伊西斯与奥西里斯》写于公元 100 年之后、他去世前一两年，f10 的“公元二世纪”成立。",
+        "f8 说荷鲁斯之眼是“献祭中最常见的供品”，wedjat 眼确实是常见的还愿与随葬物，但“最常见”是概括说法，未见统计支持。"
+      ],
+      "summary": "十二段与金字塔文、Chester Beatty 纸草及普鲁塔克文本逐条对得上，年代、人名、情节顺序均无误，未发现需要修改之处。"
+    },
+    {
+      "id": "w1-cn-history-military-rank",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "medium"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "supported", "confidence": "medium"},
+        {"id": "f9", "verdict": "imprecise", "confidence": "high", "issue": "issue-01"},
+        {"id": "f10", "verdict": "supported", "confidence": "medium"},
+        {"id": "f11", "verdict": "supported", "confidence": "high"}
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f9",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "居延汉简中的戍卒名籍登记爵位，可见普通士兵多为公士、上造。",
+          "problem": "名籍登记爵位是对的，但“多为公士、上造”把分布说窄了。居延、肩水金关出土的戍卒、田卒名籍里，除了公士、上造，簪袅、大夫、官大夫、公乘都很常见，有的简册中大夫的数量甚至超过公士；爵位在这类名籍里是逐人登记的常规项，不是低爵者的标记。",
+          "correction": "居延汉简的戍卒名籍逐人登记爵位，公士、上造最多，簪袅、大夫、公乘也不少见。爵位是基层社会的常见标记，征兵、授田、减刑都要查它，也是官府识别身份的第一道标记。",
+          "evidence": [
+            {
+              "title": "居延汉简卒名籍辑录（戍卒、田卒爵位分布）",
+              "url": "https://www.ecsponline.com/yz/B651B3D3181654B3B983E87ADFF2F1FB3000.pdf",
+              "quote": "戌卒张掖郡居延当遂里大夫殷则年卅五……戌卒张掖郡居延平明里上造高自当年廿三……田卒淮阳新平盛昌里上造柳道年廿三"
+            }
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "《二年律令·户律》的名田宅标准为：公士一顷半、上造二顷、簪袅三顷、不更四顷……五大夫二十五顷、公乘二十顷、关内侯九十五顷、彻侯百顷（宅数另计），f4 所引数字准确，且原文是“名田宅”的上限而非实授。",
+        "f5 的三条优待都能落实：秦制“男子赐爵一级以上，有罪以减”；《百官表》“爵四不更”注“言不豫更卒之事”；汉文帝以后五大夫以上“仅本家得免役”。",
+        "f6 的“民得卖爵”与文帝从晁错之言“令民入粟边……拜爵”是两件事：前者是卖爵令，后者是入粟拜爵，f6 把二者连写但未混为一谈。"
+      ],
+      "summary": "二十等爵的级序、名田宅数字、减刑免役与赐爵演变都可核实，唯一偏差是把居延名籍的爵位分布写成“多为公士、上造”，实际大夫、公乘一类并不少。"
+    },
+    {
+      "id": "w2-psych-family-coparenting",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "medium"},
+        {"id": "f5", "verdict": "supported", "confidence": "medium"},
+        {"id": "f6", "verdict": "supported", "confidence": "medium"},
+        {"id": "f7", "verdict": "supported", "confidence": "medium"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "imprecise", "confidence": "high", "issue": "issue-01"},
+        {"id": "f10", "verdict": "supported", "confidence": "medium"},
+        {"id": "f11", "verdict": "supported", "confidence": "medium"},
+        {"id": "f12", "verdict": "supported", "confidence": "medium"}
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f9",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "这句话能显著降低孩子的自责与不安。",
+          "problem": "“显著”是统计与因果口径，现有研究给不出这个保证。关于冲突后解释（post-conflict explanation）的研究提示：父母具体说明冲突、明确告诉孩子“不是你的错”，与较少的自责和较稳的情绪安全感相关；但这类研究多为相关设计或小样本实验，而且解释方式很关键——敷衍、回避、责备式的解释反而增加孩子的不安。",
+          "correction": "修复比避免更现实。争吵之后明确告诉孩子：刚才大人声音大了，不是你的错，我们已经谈好了。研究提示这类解释有助于减少孩子的自责，但效果取决于说得是否具体、孩子有没有听懂。",
+          "evidence": [
+            {
+              "title": "Notre Dame thesis: post-conflict explanations and children's appraisals of interparental conflict",
+              "url": "https://curate.nd.edu/ndownloader/files/43576902/1",
+              "quote": "Dismissive post-conflict explanations may be classified as either of these phenomena ... emotional coaching and emotional dismissiveness are distinguished not only by the presence or lack thereof of attentiveness to children's emotions and inquiries"
+            },
+            {
+              "title": "Davies et al., Children's Responses to Adult Conflict as a Function of Conflict History (ERIC ED390528)",
+              "url": "https://files.eric.ed.gov/fulltext/ED390528.pdf",
+              "quote": "family histories of destructive adult conflict reduce children's emotional security"
+            }
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "f1 与 Feinberg 2003 的框架一致：共同养育被视为影响父母适应、教养与儿童结果的核心要素，但“共同养育影响大于各自教养方式”是综述性判断，不同研究的效应量差别很大。",
+        "f8 所列的焦虑、攻击行为与学业困难，对应 Grych & Fincham 1990 的认知—情境框架与 Cummings & Davies 的情感安全理论，两者都强调“冲突是否解决”比“冲突是否发生”更能预测儿童结果。",
+        "f6 的“孩子一半来自父亲、一半来自母亲”是比喻，不是遗传学陈述；贬低另一方与孩子自我概念的关联有临床观察支持，但缺少直接的因果实验。"
+      ],
+      "summary": "共同养育、冲突收场方式与情感安全的框架都站得住，唯一需要收口的是“这句话能显著降低自责与不安”——方向对，但“显著”把相关性说成了确定的因果效果。"
+    },
+    {
+      "id": "w4-geo-world-polar-routes",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "imprecise", "confidence": "high", "issue": "issue-02"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "medium"},
+        {"id": "f8", "verdict": "wrong", "confidence": "high", "issue": "issue-01"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "supported", "confidence": "high"},
+        {"id": "f11", "verdict": "supported", "confidence": "high"},
+        {"id": "f12", "verdict": "supported", "confidence": "medium"}
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f8",
+          "severity": "major",
+          "verdict": "wrong",
+          "claim": "二〇二一年起禁止在北极使用和携带重油",
+          "problem": "把“通过”当成了“生效”。IMO 海上环境保护委员会 2021 年 6 月以 MEPC.329(76) 通过北极重油禁令（禁止使用与携带作为燃料的重油），但生效日是 2024 年 7 月 1 日；对部分沿岸国船舶还设有豁免，可延至 2029 年。写成“2021 年起禁止”会让读者以为禁令已实施三年。",
+          "correction": "规则已经在写。国际海事组织的极地水域船舶航行安全规则二〇一七年生效，对船体、设备、培训和油污排放作出要求；北极重油禁令二〇二一年通过，二〇二四年七月起生效，部分船舶的豁免可延到二〇二九年。",
+          "evidence": [
+            {
+              "title": "Transport Canada: Banning heavy fuel oil in the Arctic",
+              "url": "https://tc.canada.ca/en/campaigns/protecting-our-coasts-oceans-protection-plan/better-protected-coastal-ecosystems/banning-heavy-fuel-oil-arctic",
+              "quote": "In June 2021, the International Maritime Organization formally announced it will enter into force on July 1, 2024."
+            },
+            {
+              "title": "Explanatory Statement 7 of 2022 — MARPOL Resolution MEPC.329(76) (adopted 17 June 2021)",
+              "url": "https://www.austlii.edu.au/au/other/dfat/treaties/AMTAES/2022/7.pdf",
+              "quote": "Resolution MEPC.329(76) (Prohibition on the use and carriage for use as fuel of heavy fuel oil by ships in Arctic waters) (Adopted on 17 June 2021)"
+            }
+          ]
+        },
+        {
+          "id": "issue-02",
+          "factId": "f4",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "二〇二〇年东北航道因冰情提前关闭，部分船队被迫改道",
+          "problem": "把创纪录的一年说反了。2020 年东北航道是 8 月 2 日创纪录地最早开航、全年开放 88 天、10 月 28 日关闭，属于窗口偏长而非“因冰情提前关闭”；当年北极 70°N 以北 5、7、8 月均温创纪录，海冰退得比常年更远。真正需要提醒的波动出现在秋季：冰情突变仍会让船队被困或被迫改道，但这不是 2020 年的主线。",
+          "correction": "通航窗口在变长，但波动很大。二〇二〇年东北航道八月二日就开航，全年开放八十八天，十月末关闭；秋季冰情突变仍可能让船队被困或改道。单看某一年是否创纪录，容易把天气波动当成趋势。",
+          "evidence": [
+            {
+              "title": "Splash247: 88-day opening of the Northeast Passage sets new Arctic record",
+              "url": "https://splash247.com/88-day-opening-of-the-northeast-passage-sets-new-arctic-record/",
+              "quote": "the Northeast Passage ... was open for a record 88 days ... the earliest ever opening of the Northeast Passage on August 2. The shipping route closed for the year on October 28."
+            }
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "f1 的 12%–13% 与 NSIDC 的 12.4%/十年（1979–2024，相对 1981–2010 均值）一致；若按 1979–2022 的另一口径则约 11.5%，落在所述区间内外沿。",
+        "f2 的“三千海里”指喀拉海至白令海峡的航段长度；上海—鹿特丹经东北航道约比经苏伊士缩短三成（约 14,900 公里对 19,600 公里），两个数字来源不同、不可互相替代。",
+        "f7 说冰区溢油“几乎无先例可循”“破冰船无法在冰中收油”，与北极理事会/IMO 的应急能力评估方向一致，但“无法”是绝对化表述，实际是效率极低、缺少验证过的方案。"
+      ],
+      "summary": "海冰、航道与规则的主线都可靠，两处时间口径需要修：重油禁令是 2021 年通过、2024 年生效，不是 2021 年起实施；2020 年东北航道是创纪录的长窗口，不是因冰情提前关闭。"
+    }
+  ]
+}

@@ -1,0 +1,315 @@
+{
+  "batch": "batch-13",
+  "checkedAt": "2026-11-18T02:22:00+08:00",
+  "dossiers": [
+    {
+      "id": "psych-first-impression",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "imprecise", "confidence": "medium", "issue": "issue-01"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "medium"},
+        {"id": "f6", "verdict": "supported", "confidence": "medium"},
+        {"id": "f7", "verdict": "supported", "confidence": "medium"},
+        {"id": "f8", "verdict": "supported", "confidence": "medium"},
+        {"id": "f9", "verdict": "supported", "confidence": "medium"},
+        {"id": "f10", "verdict": "supported", "confidence": "medium"},
+        {"id": "f11", "verdict": "supported", "confidence": "medium"}
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f3",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "桑代克1920年就描述了这种现象：外表出众的人常被默认更聪明、更善良",
+          "problem": "归属与时间不准。桑代克1920年描述的是总体印象会污染各项具体评分（即光环效应本身），把“外表出众者被默认更聪明、更善良”这一外貌刻板印象的具体结论直接记在他名下，是把后来（1970年代）的研究提前了；原文并未给出这一结论。",
+          "correction": "光环效应让一个突出优点扩散到其他维度。桑代克1920年描述了这种整体印象污染具体评分的倾向；后来的研究发现，外表出众的人常被默认更聪明、更善良。好看被当成好，是最省力的误判，却缺乏依据。",
+          "evidence": [
+            {
+              "title": "Thorndike, E. L. (1920). A constant error in psychological ratings（原文摘录）",
+              "url": "http://rccochin.ignou.ac.in/Ignou-RC-Cochin/userfiles/file/3_Int,Gard+Stern%20n%20hallo%20effect.pdf",
+              "quote": "Ratings were apparently affected by a marked tendency to think of the person in general as rather good or rather inferior"
+            }
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "Thorndike (1920) 原刊为扫描件，本条用可检索的原文摘录核对；阿希 1946、安巴迪与罗森塔尔 1992 的页码未逐页核对。",
+        "“负面信息权重更大”在学界仍有争论（有 2018 年综述主张否定 negativity bias 的强版本），f6 只支持“负面特质权重通常更大”这一较弱表述。"
+      ],
+      "summary": "11 条中 10 条与文献相符，仅光环效应一处把外貌刻板印象的发现提前归到桑代克 1920 年，已给出修正。"
+    },
+    {
+      "id": "w1-world-history-classical-sparta-citizens",
+      "status": "verified",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "supported", "confidence": "high"},
+        {"id": "f11", "verdict": "supported", "confidence": "high"},
+        {"id": "f12", "verdict": "supported", "confidence": "high"}
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "古代文本未逐句核对希腊文：吕库古改革细节依普鲁塔克《吕库古传》，人数与战事依修昔底德、亚里士多德《政治学》与色诺芬《希腊史》。",
+        "留克特拉 700 名公民、400 人阵亡依色诺芬《希腊史》6.4.15；维基百科页面当时无法打开，未用作来源。"
+      ],
+      "summary": "12 条均可由普鲁塔克、修昔底德、亚里士多德与色诺芬等古代文本及现代研究支持，未发现需要改写的断言。"
+    },
+    {
+      "id": "w3-geo-world-coral-bleaching",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "imprecise", "confidence": "medium", "issue": "issue-01"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "supported", "confidence": "medium"},
+        {"id": "f9", "verdict": "imprecise", "confidence": "medium", "issue": "issue-02"},
+        {"id": "f10", "verdict": "supported", "confidence": "medium"},
+        {"id": "f11", "verdict": "supported", "confidence": "high"},
+        {"id": "f12", "verdict": "supported", "confidence": "high"}
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f6",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "快速生长的枝状珊瑚约五到十年可以长回",
+          "problem": "恢复年限偏乐观。即使是生长最快的枝状珊瑚，恢复到白化前的群落结构通常也要十年以上；五到十年不足以长回，且反复白化会把恢复窗口彻底关掉。",
+          "correction": "恢复需要时间。快速生长的枝状珊瑚通常也要十年以上才能长回，若白化间隔短于恢复期，群落会从珊瑚转向藻类，礁体结构随后被侵蚀，鱼类栖息地随之消失。",
+          "evidence": [
+            {
+              "title": "National Geographic — Coral bleaching and climate change",
+              "url": "https://www.nationalgeographic.com/science/article/coral-bleaching-reefs-climate-change-el-nino-environment",
+              "quote": "Even the fastest-growing corals need at least 10 to 15 years to fully recover"
+            }
+          ]
+        },
+        {
+          "id": "issue-02",
+          "factId": "f9",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "大堡礁在一九九八、二〇一六、二〇一七、二〇二〇、二〇二二与二〇二四年多次白化；北部与中部损失最重，南部相对轻",
+          "problem": "两处不准：一是漏掉 2002 年事件，那次约六成大堡礁礁体白化，是当时记录中范围最大的一次；二是“南部相对轻”不能一概而论，2024 年硬珊瑚覆盖的下降恰恰以南部位最严重，重灾区随年份变化。",
+          "correction": "大堡礁在一九九八、二〇〇二、二〇一六、二〇一七、二〇二〇、二〇二二与二〇二四年多次白化；不同年份重灾区不同，北部、中部与南部都曾大面积受损，恢复被反复打断，珊瑚组成已经改变。",
+          "evidence": [
+            {
+              "title": "PMC — 大堡礁白化事件时序图",
+              "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11606497/figure/F2/",
+              "quote": "bleaching events in 1998, 2002, 2016, 2017, 2020, and 2022"
+            },
+            {
+              "title": "Australian Institute of Marine Science — Coral bleaching events",
+              "url": "https://www.aims.gov.au/research-topics/environmental-issues/coral-bleaching/coral-bleaching-events",
+              "quote": "Decline in hard coral cover was most pronounced on the Southern Great Barrier Reef"
+            }
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "第四次全球白化事件的实际跨度到 2025 年（2023–2025），条目写 2023–2024 属可接受的时间截断，未改。",
+        "升温 1.5℃ 与 2℃ 的珊瑚礁损失区间按 IPCC 特别报告与后续综述核对（70–90%、超过 99%）。"
+      ],
+      "summary": "12 条中 10 条与 NOAA、IPCC 及大堡礁监测一致；恢复年限与 2002 年事件两处需要修正。"
+    },
+    {
+      "id": "w5-cn-history-yidong-zhifu",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "medium"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "supported", "confidence": "medium"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "imprecise", "confidence": "high", "issue": "issue-01"},
+        {"id": "f11", "verdict": "supported", "confidence": "medium"},
+        {"id": "f12", "verdict": "supported", "confidence": "medium"}
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f10",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "二〇一六年，央行发布非银行支付机构网络支付业务管理办法",
+          "problem": "年份错。该办法由中国人民银行于 2015 年 12 月 28 日发布（银发〔2015〕第 43 号公告），2016 年 7 月 1 日起施行；2016 年是施行年，不是发布年。",
+          "correction": "二〇一五年底，央行发布《非银行支付机构网络支付业务管理办法》，次年七月施行；按实名程度把个人支付账户分为三类，限制余额支付额度，要求支付机构识别客户身份。实名制也带来新的隐私担忧。",
+          "evidence": [
+            {
+              "title": "新浪新闻 — 央行发布《非银行支付机构网络支付业务管理办法》",
+              "url": "https://news.sina.cn/2015-12-30/detail-ifxmxxst0793289.d.html",
+              "quote": "中国人民银行今日发布《非银行支付机构网络支付业务管理办法》……自2016年7月1日起实施"
+            }
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "首批第三方支付牌照为 2011 年 5 月 18 日发放的 27 家，条目只写“二〇一一年”，成立。",
+        "备付金集中存管 2017 年 1 月宣布、2019 年实现全额缴存，f9 按政策宣布年表述，未改。"
+      ],
+      "summary": "12 条中 11 条与官方发布及当年报道相符；网络支付办法的发布年份提前了一年，已修正。"
+    },
+    {
+      "id": "w1-world-history-ancient-zoroastrianism",
+      "status": "corrected",
+      "confidence": "medium",
+      "facts": [
+        {"id": "f1", "verdict": "imprecise", "confidence": "medium", "issue": "issue-01"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "supported", "confidence": "high"},
+        {"id": "f11", "verdict": "supported", "confidence": "high"},
+        {"id": "f12", "verdict": "supported", "confidence": "medium"}
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f1",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "学界多认为他生活在约公元前一千二百年至前一千年的伊朗东部",
+          "problem": "“多认为”过强。先知年代是琐罗亚斯德研究里最长期的争论之一，学界大体分为“约公元前 1000 年或更早”与“公元前 7–6 世纪”两派，公元前 1200–1000 年只是较常见的一种估算，不是多数共识；地点同样只有大致的东部说。",
+          "correction": "琐罗亚斯德教得名于先知琐罗亚斯德，伊朗传统称他为查拉图斯特拉。学界对他生活年代的推算从公元前一千五百年到前六世纪都有，较常见的是公元前一千年前后的伊朗东部，年代与地点仍有争论。",
+          "evidence": [
+            {
+              "title": "Boyce, Persian Religion in the Achaemenid Age (The Cambridge History of Judaism)",
+              "url": "https://www.cambridge.org/core/books/abs/cambridge-history-of-judaism/persian-religion-in-the-achemenid-age/3861BE3069FDD1ADC154E6BAD2871D32",
+              "quote": "the date of Zarathushtra, over which scholars have been long divided"
+            }
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "《阿维斯陀》现存篇幅、萨珊时期定型等依博伊斯与伊朗学综述核对；帕西人迁印细节依 Brill 相关研究。",
+        "f12 的“可能影响”本身带限定，学界对影响路径确有争议，未改。"
+      ],
+      "summary": "12 条中 11 条可由博伊斯、剑桥宗教史与伊朗学资料支持；先知年代被写成学界多数意见，需弱化。"
+    },
+    {
+      "id": "w5-psych-risk-disaster",
+      "status": "verified",
+      "confidence": "medium",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "medium"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "medium"},
+        {"id": "f7", "verdict": "supported", "confidence": "medium"},
+        {"id": "f8", "verdict": "supported", "confidence": "medium"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "supported", "confidence": "medium"},
+        {"id": "f11", "verdict": "supported", "confidence": "high"},
+        {"id": "f12", "verdict": "supported", "confidence": "medium"}
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "Norris 等 2002 的患病率区间与 Fritz 1961 的“治疗性社区”均按综述转引核对，原始页码未逐条核对。",
+        "心理急救的五项原则通常列为安全、平静、自我效能、连接、希望，条目列出前四项，未改。"
+      ],
+      "summary": "12 条均为灾后心理社会研究的通行表述，未发现事实性错误。"
+    },
+    {
+      "id": "w3-geo-cn-rare-earth",
+      "status": "verified",
+      "confidence": "medium",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "medium"},
+        {"id": "f8", "verdict": "supported", "confidence": "medium"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "supported", "confidence": "low"},
+        {"id": "f11", "verdict": "supported", "confidence": "high"},
+        {"id": "f12", "verdict": "supported", "confidence": "high"}
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "f10 的“治理成本往往和分离成本在同一量级”缺公开量化来源，只核到稀土废渣、氨氮废水与酸性场地治理负担重的定性表述；该句的量级比较应视为未核实。",
+        "白云鄂博为氟碳铈矿与独居石混合矿（约六比四），条目写“以氟碳铈矿为主”成立；独居石渣放射性数据依中文会议论文。"
+      ],
+      "summary": "12 条与《稀土管理条例》、白云鄂博与离子型稀土资料一致；仅治理成本的量级比较缺少公开数据支撑。"
+    },
+    {
+      "id": "w5-myth-compare-underworld",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "medium"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "imprecise", "confidence": "medium", "issue": "issue-01"},
+        {"id": "f7", "verdict": "supported", "confidence": "medium"},
+        {"id": "f8", "verdict": "supported", "confidence": "medium"},
+        {"id": "f9", "verdict": "supported", "confidence": "medium"},
+        {"id": "f10", "verdict": "supported", "confidence": "medium"},
+        {"id": "f11", "verdict": "supported", "confidence": "medium"}
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f6",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "最后杀死死神，升为太阳与金星",
+          "problem": "与《波波尔·乌》通行译本不符。英雄双子升天后是一为太阳、一为月亮（Xbalanque 常对应月亮）；金星说是部分学者对相关含糊句的再解释，不能当作这部文本的结局写定。",
+          "correction": "玛雅《波波尔·乌》的英雄双子下西巴尔巴，不是为了救人，而是被死神召去赴试。他们连过暗屋、刀屋、冷屋、火屋、蝙蝠屋，靠互相配合与诡计取胜，最后杀死死神，升为太阳与月亮。",
+          "evidence": [
+            {
+              "title": "Gillespie, Gendering the Hero Twins in the Popol Vuh (2013)",
+              "url": "https://people.clas.ufl.edu/sgillesp/files/gillespie_gendering_the_hero_twins_in_the_popol_vuh_2013.pdf",
+              "quote": "one became, or arose as, or is, or was given the sun, and the other the moon"
+            },
+            {
+              "title": "Art and Myth of the Ancient Maya — solar and lunar heroes",
+              "url": "https://eclass.asfa.gr/modules/document/file.php/AHT4113/%CE%9A%CE%BB%CE%B1%CF%83%CE%B9%CE%BA%CE%AE/%CE%9C%CE%B5%CF%83%CE%B7%CE%BC%CE%B5%CF%81%CE%B9%CE%BA%CE%B1%CE%BD%CE%B9%CE%BA%CE%AE/art-and-myth-of-the-ancient-maya.pdf",
+              "quote": "the disparity of the solar and lunar heroes"
+            }
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "《波波尔·乌》中译本未逐页核对，升天结局按通行英译本与基切文本研究判定。",
+        "f1 的动机分类与 f9 的“后世地狱图多半来自但丁”属作者的解释性概括，未作对错判定，保留 supported。"
+      ],
+      "summary": "11 条中 10 条与《奥德赛》《埃涅阿斯纪》《古事记》《波波尔·乌》文本相符；双子升为金星的表述与通行译本不符，已修正。"
+    }
+  ]
+}

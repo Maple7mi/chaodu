@@ -1,0 +1,286 @@
+{
+  "batch": "batch-14",
+  "checkedAt": "2026-11-18T02:13:00+08:00",
+  "dossiers": [
+    {
+      "id": "psych-long-distance",
+      "status": "corrected",
+      "confidence": "medium",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "medium"},
+        {"id": "f4", "verdict": "supported", "confidence": "medium"},
+        {"id": "f5", "verdict": "imprecise", "confidence": "medium", "issue": "issue-01"},
+        {"id": "f6", "verdict": "imprecise", "confidence": "high", "issue": "issue-02"},
+        {"id": "f7", "verdict": "imprecise", "confidence": "high", "issue": "issue-03"},
+        {"id": "f8", "verdict": "supported", "confidence": "medium"},
+        {"id": "f9", "verdict": "supported", "confidence": "medium"},
+        {"id": "f10", "verdict": "supported", "confidence": "medium"},
+        {"id": "f11", "verdict": "supported", "confidence": "medium"}
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f5",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "沟通渠道的数量比总时长更重要。研究发现，使用语音、视频、文字等多种媒介保持联系的异地情侣，亲密感更高",
+          "problem": "江与汉考克 2013 的发现是异地情侣更常用文字类媒介做更深的自我表露，而不是「渠道数量」本身带来更高亲密感；「渠道数量比总时长更重要」没有直接研究支持，属对原研究的加码。",
+          "correction": "关键不只是渠道数量。研究发现，异地情侣更常借助文字类媒介做更深的自我表露，这种表达方式提升了亲密感；而渠道本身多不多未必带来更高亲密感，把沟通压缩成固定报备才真正伤感情。",
+          "evidence": [
+            {"title": "Jiang & Hancock 2013, Journal of Communication 63(3):556-577（摘要）", "url": "https://academic.oup.com/joc/article-abstract/63/3/556/4086003", "quote": "LD couples (a) engage in more adaptive self-disclosures and (b) form more idealized relationship perceptions than do GC couples"},
+            {"title": "The New Times: Let's spend some time apart: long-distance relationships are deeper", "url": "https://www.newtimes.co.rw/article/96806/Lifestyle/letas-spend-some-time-apart-long-distance-relationships-are-deeper", "quote": "far-flung couples interacted fewer times per day. But these interactions were more meaningful"}
+          ]
+        },
+        {
+          "id": "issue-02",
+          "factId": "f6",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "江与汉考克2013年让情侣记录两周内的沟通",
+          "problem": "该项日记研究的记录期为一周，不是两周；样本为 63 对情侣，其中一半同城、一半异地。",
+          "correction": "江与汉考克2013年让63对情侣记录一周内的沟通，发现异地情侣更多依靠文字表达深层想法，报告的亲密感更高。但文字可以被反复编辑，呈现的是修饰过的自己，而不是全部。",
+          "evidence": [
+            {"title": "The New Times: Let's spend some time apart: long-distance relationships are deeper", "url": "https://www.newtimes.co.rw/article/96806/Lifestyle/letas-spend-some-time-apart-long-distance-relationships-are-deeper", "quote": "The researchers asked 63 heterosexual couples, half of whom lived together, and half were in long distance relationships, to keep a diary of one week of interactions"},
+            {"title": "Jiang & Hancock 2013, Journal of Communication（摘要）", "url": "https://academic.oup.com/joc/article-abstract/63/3/556/4086003", "quote": "The present diary study tested an intimacy-enhancing process"}
+          ]
+        },
+        {
+          "id": "issue-03",
+          "factId": "f7",
+          "severity": "major",
+          "verdict": "imprecise",
+          "claim": "凯尔默等人2013年跟踪大学生情侣，发现异地本身不预测分手，真正的高风险出现在搬到一起的过渡期",
+          "problem": "该研究用的是全美代表性样本（N=870），不是大学生样本；它确实发现异地不预测分手，但并未检验「搬到一起的过渡期」风险，这一句是把别的推论挂在了这项研究名下。",
+          "correction": "结束异地是一次被低估的转折。凯尔默等人2013年用全美代表性样本发现，异地本身并不预测分手，两地情侣与同城情侣的分手率相近；搬到一起的过渡期风险只是推论，该研究并未直接检验。",
+          "evidence": [
+            {"title": "PubMed: Relationship quality, commitment, and stability in long-distance relationships (Fam Process 2013;52(2):257-70)", "url": "https://pubmed.ncbi.nlm.nih.gov/23763685/", "quote": "Using a nationally representative sample (N = 870)"},
+            {"title": "Wiley Online Library: 同文摘要", "url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1545-5300.2012.01418.x", "quote": "were similar to individuals in close-proximity relationships in terms of perceived and material constraints"}
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "Kelmer 等 2013 的样本为全美代表性样本（N=870），媒体常误写为大学生情侣。",
+        "媒体对 Jiang & Hancock 2013 的报道明确写日记为一周、63 对情侣。"
+      ],
+      "summary": "异地恋的主要实证结论（理想化、自我表露、异地不预测分手）都站得住，但三条把研究细节说错或加了码：日记期、样本性质与「重聚过渡期」风险。"
+    },
+    {
+      "id": "w1-world-history-classical-athenian-jury",
+      "status": "verified",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "supported", "confidence": "high"},
+        {"id": "f11", "verdict": "supported", "confidence": "high"},
+        {"id": "f12", "verdict": "supported", "confidence": "medium"}
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "六千陪审员、三十岁门槛、每部落六百人的说法见 Dyer 校注《Apology》附录与 FRC 罗马宪法研究。",
+        "票制（空心票对第一位发言人）与弃票瓮见 Warwick 古典学资料集所收雅典政制材料。"
+      ],
+      "summary": "十二个事实与亚里士多德《雅典政制》、雅典政制资料集及现今古典学研究一致，数字与制度细节均可核，未见反证。"
+    },
+    {
+      "id": "w3-myth-eastasia-momotaro",
+      "status": "verified",
+      "confidence": "medium",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "medium"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "medium"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "medium"},
+        {"id": "f10", "verdict": "supported", "confidence": "medium"},
+        {"id": "f11", "verdict": "supported", "confidence": "medium"},
+        {"id": "f12", "verdict": "supported", "confidence": "medium"}
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "首藤美香子（白梅学园大学纪要 52 号，2016）区分江户期「回春型」与明治以后教科书定型的「果生型」，与 f2、f3 的分歧叙述一致。",
+        "国定教科书第一期（1904）未收桃太郎，第二期（1910）收入，f8 的「明治时期」成立。"
+      ],
+      "summary": "桃太郎的文本史、桃子驱邪母题、黍团子招募与殖民解读均有可查文献支撑，争议性解读也在文中标为争议，无硬伤。"
+    },
+    {
+      "id": "w4-wh-wars-marshall-plan",
+      "status": "verified",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "medium"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "supported", "confidence": "high"},
+        {"id": "f11", "verdict": "supported", "confidence": "high"},
+        {"id": "f12", "verdict": "supported", "confidence": "medium"}
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "CVCE 关于马歇尔计划与欧洲经济合作的档案页给出十六国、约一百三十亿美元的口径；各国份额在不同统计中略有差异。",
+        "「三根支柱」一类的概括属通史叙述，未逐字对应单一文献。"
+      ],
+      "summary": "从 1947 年 6 月 5 日演讲、巴黎会议与 CEEC/OEEC、到 1948–1952 年约一百三十亿美元与经互会的对抗，时间线与数字均与主流史料一致。"
+    },
+    {
+      "id": "w1-world-history-classical-roman-grain-supply",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "imprecise", "confidence": "high", "issue": "issue-01"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "supported", "confidence": "medium"},
+        {"id": "f11", "verdict": "supported", "confidence": "medium"},
+        {"id": "f12", "verdict": "supported", "confidence": "medium"}
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f5",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "奥斯提亚港在公元一世纪由克劳狄与图拉真扩建",
+          "problem": "克劳狄的外港建于公元一世纪中叶（42 年动工，尼禄 64 年完成），图拉真的六边形内港则在二世纪初（约 100–112 年），两者相隔约半个世纪，不能并称「公元一世纪」。",
+          "correction": "粮食运输依赖船只与港口。克劳狄在公元一世纪中叶建成奥斯提亚外港，图拉真在二世纪初增建六边形内港，可停靠大型运粮船；船主若为罗马运粮，可获得公民权与税收优惠，亚历山大里亚是最大出发港。",
+          "evidence": [
+            {"title": "Turismo Roma: Imperial Harbours of Claudius and Trajan", "url": "https://www.turismoroma.it/en/places/imperial-harbours-claudius-and-trajan", "quote": "In 42 A.D., Emperor Claudius began the construction of a large seaport north of the mouth of the Tiber"},
+            {"title": "ScienceDirect: The plant landscape of the imperial harbour of Rome（摘要）", "url": "https://www.sciencedirect.com/science/article/abs/pii/S0305440310002724", "quote": "built by the Roman Emperor Claudius (1st century AD), and modified by Emperor Trajan (2nd century AD)"},
+            {"title": "ScienceDirect: Palaeoenvironmental reconstruction of the ancient harbors of Rome（摘要）", "url": "https://www.sciencedirect.com/science/article/abs/pii/S1040618209003851", "quote": "During the first and second centuries AD, Emperor Claudius and then Emperor Trajan successively ordered the construction of two large harbors"}
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "Portus 的图拉真内港通常定年在二世纪初（约 100–112 年），与克劳狄外港（42–64 年）分属两个世纪。"
+      ],
+      "summary": "罗马粮食需量、格拉古粮法、五斗配给、庞培的五年粮食指挥权与埃及粮仓等均与史料及研究相符；唯一时间错误是把图拉真的二世纪扩建并入「公元一世纪」。"
+    },
+    {
+      "id": "w5-myth-cn-sanshan",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "medium"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "wrong", "confidence": "high", "issue": "issue-01"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "medium"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "medium"},
+        {"id": "f10", "verdict": "supported", "confidence": "high"},
+        {"id": "f11", "verdict": "supported", "confidence": "medium"}
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f5",
+          "severity": "major",
+          "verdict": "wrong",
+          "claim": "台湾的三山国王庙多由客家移民建立，集中在桃园、新竹、苗栗与屏东",
+          "problem": "全台田野调查（252 座）显示始建时客家仅 88 座、约占 35%，福佬 137 座；分布最多的是宜兰（42）、屏东（42）、彰化（33），桃园没有一座客家主祀的庙、苗栗仅 4 座。原句的族群归属与地理集中两点都与调查相反。",
+          "correction": "台湾的三山国王庙共二百五十余座，但仅约三分之一由客家移民建立，多数为福佬人所建；分布以宜兰、屏东、彰化较多，桃园、新竹、苗栗并不最密集。有的庙同时供奉地方伯公，说明信仰落地后与当地神系混合。",
+          "evidence": [
+            {"title": "《竹塹文獻》78 期：台湾三山国王庙全面田野调查", "url": "https://culture.hccg.gov.tw/uploaddowndoc?file=Publication/202502271538100.pdf&filedisplay=%E7%AB%B9%E5%A1%B9%E6%96%87%E7%8D%BB78%E6%9C%9F_eBook.pdf&flag=doc", "quote": "已發現252座、始建時客家88座、福佬客26座、福佬137座"},
+            {"title": "2024 年会议论文（accesson）：三山国王信仰的族群归属调查", "url": "https://accesson.kr/jearc/assets/conferLibrary/72/jearc_2024_%E8%AB%96%E6%96%87%E9%9B%86-1.pdf", "quote": "而客家人口最多的桃園市沒有任何一間客家主祀的三山國王廟，客家人口比率次高的苗栗縣也僅4座"},
+            {"title": "星洲日报·安焕然《三山国王是不是客家神》", "url": "https://www.sinchew.com.my/news/20220417/yl/3741354", "quote": "客家人在台湾建的三山国王庙只有86间，仅占34.95%"}
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "陈中道生《解构台湾三山国王信仰》（2022）与 2024 年会议论文的全台调查是 f5 的主要反证；两处统计（88 座与 86 座）略有出入，但比例都在三成五上下。",
+        "「客家神」标签本身在学界已被质疑，f10 的处理是妥当的。"
+      ],
+      "summary": "祖庙地望、隋唐肇显与宋代封号、会馆与进香网络均可核；唯一硬伤是台湾庙宇的族群归属与分布，被全台田野调查直接推翻。"
+    },
+    {
+      "id": "w3-geo-world-polar-vortex",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "imprecise", "confidence": "high", "issue": "issue-01"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "supported", "confidence": "high"},
+        {"id": "f11", "verdict": "supported", "confidence": "medium"},
+        {"id": "f12", "verdict": "supported", "confidence": "medium"}
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f6",
+          "severity": "major",
+          "verdict": "imprecise",
+          "claim": "二〇一八年欧洲的东方野兽与二〇二一年得州寒潮，都与平流层增温有关",
+          "problem": "2018 年「东方野兽」与当年 2 月爆发性增温的关联有较多观测支持，但 2021 年 1 月 5 日那次增温对随后得州寒潮的因果正被模拟研究质疑：NCAR 2022 年发表于 Nature Communications 的因果试验显示，该次增温对随后数周天气影响不显著。",
+          "correction": "增温信号有时可在数周内向下传到对流层，极涡偏移，冷空气沿槽南下。二〇一八年欧洲的东方野兽与当年二月增温的关联较有把握；二〇二一年得州寒潮那次增温的因果，模拟研究仍有争议，不能一概而论。",
+          "evidence": [
+            {"title": "UCAR/NCAR News: New study questions explanation for last winter's brutal U.S. cold snap", "url": "https://news.ucar.edu/132831/new-study-questions-explanation-last-winters-brutal-us-cold-snap", "quote": "the spike in temperature … on Jan. 5, 2021 — and the accompanying disruption of the polar vortex — did not significantly impact weather in the weeks that followed, including … Texas"},
+            {"title": "Nature Communications (2022): Limited surface impacts of the January 2021 sudden stratospheric warming", "url": "https://www.nature.com/articles/s41467-022-28836-1", "quote": "We find that the SSW itself had a limited impact"}
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "爆发性增温的判定标准（60°N、10 hPa 纬向风转东风）与「约每十年六次」的量级与文献一致。",
+        "2021 年得州寒潮的增温归因存在直接反证，见 NCAR 2022 年模拟研究。"
+      ],
+      "summary": "极涡的结构、行星波强迫、臭氧化学与北极放大等段落均准确；唯一问题是把 2021 年得州寒潮也一并归因于平流层增温，而这一因果正被模拟研究否定。"
+    },
+    {
+      "id": "w5-geo-world-coasts",
+      "status": "verified",
+      "confidence": "medium",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "medium"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "medium"},
+        {"id": "f10", "verdict": "supported", "confidence": "high"},
+        {"id": "f11", "verdict": "supported", "confidence": "high"},
+        {"id": "f12", "verdict": "supported", "confidence": "medium"}
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "各条为海岸地貌与海岸管理的教科书级描述，未逐条对应单一文献；数字类表述（如软岩海崖每年后退一米以上）属常见量级区间。"
+      ],
+      "summary": "泥沙收支、波浪折射、沿岸输沙、潮差控制、海崖掏蚀、沙丘交换、硬软防护、三角洲沉降与输移单元管理均为标准海岸地貌结论，无事实错误。"
+    }
+  ]
+}

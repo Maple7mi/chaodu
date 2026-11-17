@@ -1,0 +1,411 @@
+{
+  "batch": "batch-50",
+  "checkedAt": "2026-11-18T02:42:00+08:00",
+  "dossiers": [
+    {
+      "id": "world-myth-druid",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "medium"},
+        {"id": "f5", "verdict": "supported", "confidence": "medium"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "imprecise", "confidence": "high", "issue": "issue-01"},
+        {"id": "f8", "verdict": "wrong", "confidence": "high", "issue": "issue-02"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "supported", "confidence": "high"},
+        {"id": "f11", "verdict": "supported", "confidence": "high"},
+        {"id": "f12", "verdict": "supported", "confidence": "high"}
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f7",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "高卢的科利尼历法是一块青铜板，刻着一套带闰月的太阳历",
+          "problem": "科利尼历法不是太阳历，而是阴阳合历（calendrier luni-solaire）：平年 355 天、12 个月，以 5 年为一周期插入两个 30 天的闰月，让月份同时对齐月相与季节。把它说成“太阳历”丢掉了月相这一半，也削弱了“复杂的时间计算”这一论点的分量。",
+          "correction": "高卢的科利尼历法是一块青铜板，刻着一套阴阳合历：平年三百五十五天、十二个月，五年里插入两个三十天的闰月，1897年出土于法国安省。它说明铁器时代祭司掌握着复杂的时间计算，却无法证明使用者就是德鲁伊。",
+          "evidence": [
+            {
+              "title": "ENS de Lyon — Calendriers, sources et documents",
+              "url": "https://www.ens-lyon.fr/RELIE/Cadrans/activpedago/TextesCours/SourcesDoc/Calendriers.pdf",
+              "quote": "Le calendrier de Coligny est un calendrier luni-solaire"
+            }
+          ]
+        },
+        {
+          "id": "issue-02",
+          "factId": "f8",
+          "severity": "major",
+          "verdict": "wrong",
+          "claim": "丹麦的林多沼泽人在1984年被发现",
+          "problem": "林多沼泽人（Lindow Man）1984 年发现于英格兰柴郡（Cheshire）的 Lindow Moss 泥炭沼泽，不是丹麦。丹麦最著名的沼泽人是 1950 年发现的 Tollund Man。同句后半段林恩·塞里格·巴赫在威尔士安格尔西岛、二战期间出土，这两点无误。",
+          "correction": "沼泽与湖水中的献祭遗存也常被联系到德鲁伊。英格兰柴郡的林多沼泽人在一九八四年被发现，尸体保存完好，颈部有勒痕，胃里留着最后一餐；威尔士的林恩·塞里格·巴赫则在二战期间出土大批铁器时代金属器。",
+          "evidence": [
+            {
+              "title": "Smithsonian — Lindow Man",
+              "url": "https://mci.si.edu/node/1294096",
+              "quote": "found in a peat bog at Lindow Moss, Cheshire, England"
+            }
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "f1–f6、f9–f12 的古典文献依据与书目一致：恺撒《高卢战记》VI.14、VI.17，塔西佗《编年史》XIV.30，以及 Piggott 1968、Hutton 2009 两部通史。",
+        "f4 的词源两说均有文献：普林尼主“希腊语 drus（橡树）”，现代凯尔特语文学者多主 dru- + wid/vid“知道”，后者并非定论，正文已用“有争议”限定。",
+        "f7 所据科利尼历法研究可参 ENS Lyon 教学文献；该历法为阴阳合历，正文“太阳历”需改。"
+      ],
+      "summary": "十条站得住；科利尼历法应为阴阳合历而非太阳历，林多沼泽人发现于英格兰柴郡而非丹麦，两处需改。"
+    },
+    {
+      "id": "world-geo-greenland",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "medium"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "imprecise", "confidence": "high", "issue": "issue-01"},
+        {"id": "f9", "verdict": "supported", "confidence": "medium"},
+        {"id": "f10", "verdict": "supported", "confidence": "medium"},
+        {"id": "f11", "verdict": "supported", "confidence": "high"}
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f8",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "2010年代的冰芯与蓝冰研究发现了保存完好的植物化石",
+          "problem": "关键的成果是 2021 年 PNAS 发表的 Camp Century 冰芯底部冻土沉积研究：1966 年钻取的 3.44 米沉积在 2017 年被重新发现，2019 年在显微镜下识别出枝叶，2021 年论文确认格陵兰西北部在近百万年内曾出现苔原植被、冰盖大幅退缩。“2010年代”与“蓝冰”都不准确，材料是冰下冻土沉积，不是蓝冰。",
+          "correction": "冰盖底部并非只有基岩。2021年，科学家在格陵兰西北部冰芯底部的冻土沉积中发现保存完好的植物枝叶，说明在近百万年内，格陵兰冰盖曾大幅退缩甚至消失，今天的冰盖并不是永久不变的地貌。",
+          "evidence": [
+            {
+              "title": "Christ et al., PNAS 2021 — A multimillion-year-old record of Greenland vegetation at Camp Century",
+              "url": "https://www.pnas.org/doi/10.1073/pnas.2021442118",
+              "quote": "well-preserved plant macrofossils ... beneath 1.4 km of ice at Camp Century"
+            }
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "f3 的 3.8 万亿吨 / 10.6 毫米数字与 IMBIE（Shepherd et al., Nature 2020）一致；书目列的“Mouginot 等《Nature》2019”对应的是 1972–2018 质量平衡研究，建议改引 Shepherd et al. 2020，或在 sources 中补上。",
+        "f5 的泰坦尼克冰山来源采用 Smithsonian 海洋门户的说法（Jakobshavn 冰川），该归属是常见解释而非逐冰山追踪的实证，正文已用“这一带”留有余地。",
+        "f8 的“2010年代”与“蓝冰”需改为 2021 年 Camp Century 冰下沉积研究。"
+      ],
+      "summary": "十条站得住；底部植被证据的年份与材料说错了，是 2021 年 Camp Century 冰下沉积，不是 2010 年代冰芯与蓝冰。"
+    },
+    {
+      "id": "w5-psych-script",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "imprecise", "confidence": "high", "issue": "issue-01"},
+        {"id": "f5", "verdict": "supported", "confidence": "medium"},
+        {"id": "f6", "verdict": "supported", "confidence": "medium"},
+        {"id": "f7", "verdict": "supported", "confidence": "medium"},
+        {"id": "f8", "verdict": "supported", "confidence": "medium"},
+        {"id": "f9", "verdict": "supported", "confidence": "medium"},
+        {"id": "f10", "verdict": "supported", "confidence": "medium"},
+        {"id": "f11", "verdict": "supported", "confidence": "medium"}
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f4",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "只有少数人把口交、肛交或触摸算进去",
+          "problem": "同一项调查（Sanders & Reinisch, JAMA 1999，1991 年 599 名中西部大学生）里，约四成受访者把口交算作“发生过性关系”（59% 说不算），并不是“只有少数”；肛交约三分之一，触摸的比例才很低。把口交与触摸并列成“少数”，低估了口交这一项的分歧程度，也丢掉了原文最关键的百分比。",
+          "correction": "一九九九年一项美国调查问大学生：怎样才算「发生过性关系」？几乎所有受访者都把阴道性交算进去，约四成把口交算进去，肛交与触摸的比例更低。同一个词，不同的人理解不同，这直接影响同意、避孕与「出轨」的判断。",
+          "evidence": [
+            {
+              "title": "Science — JAMA Editor Gets the Boot",
+              "url": "https://www.science.org/content/article/jama-editor-gets-boot",
+              "quote": "59% of the group did not regard oral-genital contact as having 'had sex.'"
+            },
+            {
+              "title": "Sanders & Reinisch, Would You Say You \"Had Sex\" If . . . ?, JAMA 1999",
+              "url": "https://jamanetwork.com/journals/jama/fullarticle/188367",
+              "quote": "Ninety-six percent identified themselves as heterosexual."
+            }
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "f4 的研究确为 Sanders & Reinisch 1999（JAMA 281:275-277），基于 1991 年 599 名中西部大学生调查；JAMA 编辑 Lundberg 因快速刊发该文被解职，可参 BMJ 1999;318:213。",
+        "f8 的“这类伴侣往往更擅长用语言谈需求”是概括性判断，缺少直接对照研究支撑，正文已用“研究者注意到”弱化；若要更稳，可改为“缺少模板迫使双方更早把需求说出口”，不宜写成能力优势。",
+        "f1 的 Gagnon & Simon 1973、f2 的三层脚本、f5 的“发起者/守门人”均为性脚本研究的标准表述，书目与正文一致。"
+      ],
+      "summary": "十条站得住；口交一项约四成受访者算作“发生过性关系”，说成“只有少数”低估了比例。"
+    },
+    {
+      "id": "w5-wh-trade-cotton",
+      "status": "verified",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "medium"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "medium"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "supported", "confidence": "high"},
+        {"id": "f11", "verdict": "supported", "confidence": "high"},
+        {"id": "f12", "verdict": "supported", "confidence": "medium"}
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "f3 的两次立法通常记作 1700 年（1699/1700 会期通过）与 1721 年（1720/1721 会期通过），中文文献常写 1699 与 1720，正文用 1700/1721 是英文通行的编年，二者不矛盾。",
+        "f5 的“工人平均寿命比乡下短得多”有 19 世纪城市死亡率统计支撑，但具体数字（如曼彻斯特 1840 年代的低值）受方法争议，正文未给数字，处理得当。",
+        "f9 的棉花饥荒叙述与 1862 年兰开夏赈济文献一致；埃及、印度棉产扩张亦为 Beckert 书中的主线。",
+        "f12 的产棉国排序按 USDA 2026/27 展望为中国、印度、巴西、美国、巴基斯坦，正文只列国名不排座次，成立。"
+      ],
+      "summary": "十二条均有可靠文献支撑，未发现需要修改的硬伤。"
+    },
+    {
+      "id": "w2-myth-india-son-tinh-thuy-tinh",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "wrong", "confidence": "high", "issue": "issue-01"},
+        {"id": "f2", "verdict": "wrong", "confidence": "high", "issue": "issue-02"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "medium"},
+        {"id": "f5", "verdict": "supported", "confidence": "medium"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "medium"},
+        {"id": "f8", "verdict": "supported", "confidence": "medium"},
+        {"id": "f9", "verdict": "wrong", "confidence": "high", "issue": "issue-03"},
+        {"id": "f10", "verdict": "supported", "confidence": "medium"},
+        {"id": "f11", "verdict": "supported", "confidence": "medium"},
+        {"id": "f12", "verdict": "supported", "confidence": "medium"}
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f1",
+          "severity": "major",
+          "verdict": "wrong",
+          "claim": "《山精水精》最早见于《岭南摭怪》",
+          "problem": "现存最早的记载是 14 世纪的《越甸幽灵》（Việt điện u linh），《岭南摭怪》成书于 15 世纪，晚于它；《大越史记全书》也是 15 世纪。说“最早见于《岭南摭怪》”把先后顺序弄反了。",
+          "correction": "《山精水精》现存最早的记载是十四世纪的《越甸幽灵》，十五世纪的《岭南摭怪》随后收录；这是一部用汉文写成的越南传说集，也收了骆龙君、瓯姬等建国神话。故事在民间另有口传版本，细节与今本不完全一致。",
+          "evidence": [
+            {
+              "title": "Văn Hải Phòng — Sơn Tinh, Thủy Tinh: từ huyền thoại đến tín ngưỡng",
+              "url": "https://vanhaiphong.vn/th-gii-ma-tim-nga-chin-hng-mao-nguyn-inh-minh/",
+              "quote": "được ghi vào sử sách đầu tiên là Việt điện u linh (thế kỷ XIV), sau đó là Lĩnh Nam chích quái (thế kỷ XV)"
+            }
+          ]
+        },
+        {
+          "id": "issue-02",
+          "factId": "f2",
+          "severity": "major",
+          "verdict": "wrong",
+          "claim": "雄王要求聘礼：象牙、犀角、龟甲与百种饼",
+          "problem": "越南通行（课本）版本的聘礼是“一百托盘糯米饭、一百包粽子、九牙象、九距鸡、九红毛马”，不是象牙、犀角、龟甲与百种饼。另有异文作九象牙、九鸡距、九马鬃；“百种饼”是把别的故事母题混了进来。",
+          "correction": "雄王十八世有女媚娘，山精与水精同时求婚。雄王索聘礼：百盘糯米饭、百包粽子、九牙象、九距鸡、九红毛马，先到者得婚。山精先到娶走媚娘，水精来迟，怒起大水攻打巴维山，却攻不上山顶。",
+          "evidence": [
+            {
+              "title": "HOC247 — Diễn biến truyện Sơn Tinh, Thủy Tinh",
+              "url": "https://hoc247.net/hoi-dap/ngu-van-6/neu-dien-bien-cua-truyen-son-tinh-thuy-tinh-faq245566.html",
+              "quote": "một trăm ván cơm nếp, một trăm nệp bánh chưng, voi chín ngà, gà chín cựa, ngựa chín hồng mao"
+            },
+            {
+              "title": "Asia Culture Center — Sơn Tinh Thủy Tinh archive",
+              "url": "http://archive.acc.go.kr/infoResManage/infoResManageView.do?ifmrsId=918029",
+              "quote": "voi chín ngà, gà chín cựa, ngựa chín hồng mao"
+            }
+          ]
+        },
+        {
+          "id": "issue-03",
+          "factId": "f9",
+          "severity": "minor",
+          "verdict": "wrong",
+          "claim": "这个故事被收入越南小学语文课本",
+          "problem": "收入的是越南六年级（lớp 6）语文课本，属于初中（THCS），不是小学；越南小学为 1–5 年级，“六年级”在中文语境里容易被误读成小学六年级。",
+          "correction": "这个故事被收入越南六年级语文课本，成为国民共同记忆。近年在越南网络上，还出现过关于「山精先到就算赢是否公平」的讨论，说明古老叙事仍会被用来讨论当代的公平与性别问题。",
+          "evidence": [
+            {
+              "title": "HOC247 — Soạn bài Sơn Tinh, Thủy Tinh (Ngữ văn 6)",
+              "url": "https://hoc247.net/ngu-van-6/soan-bai-son-tinh-thuy-tinh-l10848.html",
+              "quote": "Soạn bài Sơn Tinh, Thủy Tinh - Ngữ văn 6"
+            }
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "书目把《岭南摭怪》列为“十四至十五世纪”，实际成书于 15 世纪；14 世纪的《越甸幽灵》才是现存最早记载，f1 与 story 的 setup 都沿用了这一错误，story 不在本次修改范围。",
+        "f2 与 story 的 hook 都用了“象牙、犀角、龟甲、百种饼”，与越南课本版聘礼不符；两处需一并改，本次只改 facts。",
+        "f4 的雨季“五至十月”与三角洲 5 月中至 9 月中的常见划法略有出入，但作为区域气候概述可接受。"
+      ],
+      "summary": "九条站得住；最早出处、聘礼清单、课本学段三处与越南通行版本不符。"
+    },
+    {
+      "id": "w5-myth-africa-san-mantis",
+      "status": "verified",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "medium"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "medium"},
+        {"id": "f7", "verdict": "supported", "confidence": "medium"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "supported", "confidence": "medium"},
+        {"id": "f11", "verdict": "supported", "confidence": "medium"},
+        {"id": "f12", "verdict": "supported", "confidence": "medium"}
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "f2 的“上万页”与 Bleek Collection 的 12,000 余页相符；1870–1879 在开普敦记录、讲述者 //Kabbo、/Han≠kass'o、Di≠kwain 均可核。",
+        "f3 的《Specimens of Bushman Folklore》1911 年伦敦 G. Allen 出版、468 页，与 archive.org 扫描本一致。",
+        "f6 的“大羚羊是岩画与叙事中出现最多的动物”是南非岩画研究的通行判断，但“最多”按计数口径可能因区域而异，正文未给数字，处理稳妥。",
+        "f9 的 Lewis-Williams 萨满解释及其争议（Kehoe、Ross 等的批评与回应）均有 Antiquity 上的往返文献，书目 1981 年专著与正文一致。"
+      ],
+      "summary": "十二条与 Bleek/Lloyd 档案及岩画研究文献相符，未发现硬伤。"
+    },
+    {
+      "id": "w3-myth-cn-mulian",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "imprecise", "confidence": "medium", "issue": "issue-01"},
+        {"id": "f4", "verdict": "supported", "confidence": "medium"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "wrong", "confidence": "high", "issue": "issue-02"},
+        {"id": "f7", "verdict": "supported", "confidence": "medium"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "supported", "confidence": "high"},
+        {"id": "f11", "verdict": "supported", "confidence": "medium"},
+        {"id": "f12", "verdict": "supported", "confidence": "medium"}
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f3",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "学界多认为《盂兰盆经》是中国撰述的疑伪经",
+          "problem": "这是有争议的判断，不是定论。1999 年《佛学研究》的论文认为现存文献不足以证明它是伪经、可能是真经；学界较一致判为伪经的是唐代流行的《净土盂兰盆经》。用“多认为”压过争议，强度过头。",
+          "correction": "学界多数倾向认为《盂兰盆经》是中国撰述的疑伪经，但也有研究认为现存文献不足以证伪；它造出的「盂兰盆」与七月十五仪式，影响远超过一部真经，把印度的「倒悬」译成了中国人听得懂的孝。",
+          "evidence": [
+            {
+              "title": "《佛学研究》1999 年论文（CNKI 收录）",
+              "url": "https://wap.cnki.net/touch/web/Journal/Article/FXYJ199900032.html",
+              "quote": "现存文献不足以证明《盂兰盆经》是伪经"
+            }
+          ]
+        },
+        {
+          "id": "issue-02",
+          "factId": "f6",
+          "severity": "minor",
+          "verdict": "wrong",
+          "claim": "父亲则叫辅相",
+          "problem": "变文与目连戏里父亲名“傅相”（傅罗卜之父），不是“辅相”。一字之差，但专名写错；母亲刘氏青提（刘四娘）、子傅罗卜的对应关系也据此成立。",
+          "correction": "变文里母亲有了名字，叫青提夫人；她生前谤佛、杀生、不施僧，死后受倒悬之苦。父亲则叫傅相，是个持戒行善的人，两人的结局正好对照，一个升天，一个入地，孝子的努力才有方向。",
+          "evidence": [
+            {
+              "title": "中国非物质文化遗产网 — 目连戏",
+              "url": "https://www.ihchina.cn/search_result/p/258/keyword/香.html",
+              "quote": "父名傅相，母名刘青提"
+            }
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "f2 的“喉细如针、食物化火”与《盂兰盆经》原文一致；经中确实没有刀山剑树，f2 的处理是准确的。",
+        "f5 的“奈何桥”在变文写本中或作“奈河桥”，两种写法并存，正文用“奈何桥”可接受。",
+        "f9 的郑之珍《新编目连救母劝善戏文》三卷一百齣、万历十年（1582）高石山房刊，与浙江图书馆著录一致；正文简称《目连救母劝善戏文》不影响判断。"
+      ],
+      "summary": "十条站得住；疑伪经之说有争议不宜写成定论，父亲名“傅相”误作“辅相”。"
+    },
+    {
+      "id": "w3-myth-cn-ten-kings",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "imprecise", "confidence": "medium", "issue": "issue-01"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "imprecise", "confidence": "high", "issue": "issue-02"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "medium"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "supported", "confidence": "medium"},
+        {"id": "f11", "verdict": "supported", "confidence": "medium"},
+        {"id": "f12", "verdict": "supported", "confidence": "high"}
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f1",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "形象是骑牛、持棒、一脸怒色，与中国的阎王像几乎分不开",
+          "problem": "骑牛、持骷髅杖、牛头兽相是藏传“狱帝主”（阎魔）的忿怒相；汉地庙里的阎王多为端坐公堂、持笏或判笔的判官相。两者是同一神格的不同图像传统，说“几乎分不开”把两套造像混为一谈。",
+          "correction": "阎罗是梵语 Yama 的音译，在印度神话里是第一个死去的人，因此成了冥界之王；佛教传入中国后，他又被安排成地狱的主宰，审判亡人的善恶，形象有骑牛持棒的忿怒相，也有端坐公堂的判官相，后者更常见。",
+          "evidence": [
+            {
+              "title": "故宫博物院 — 阎王（狱帝主）唐卡",
+              "url": "https://www.dpm.org.cn/collection/religion/231959.html",
+              "quote": "蓝色身，牛头兽相……跨立于牛身之上"
+            }
+          ]
+        },
+        {
+          "id": "issue-02",
+          "factId": "f3",
+          "severity": "major",
+          "verdict": "imprecise",
+          "claim": "死后第七天、第二十一天、第三十五天，直到百日、一年、三年",
+          "problem": "十王对应的日子是每七天一王：头七、二七、三七、四七、五七、六七、七七，再到百日、一周年、三周年。原文只列 7、21、35 天，跳过了二七、四七、六七，却仍说“依次过十位王”，十个日子对不上，读者会以为隔 14 天过一王。",
+          "correction": "《十王经》大约在唐末五代出现，敦煌留下了大量写本和绢画；经里说亡人死后每七天过一王，从头七、二七直到七七，再经百日、一年、三年，依次受十位王审判，十个日子正好卡在丧礼的节奏上。",
+          "evidence": [
+            {
+              "title": "《佛说十王经》与十王信仰（微信公众号）",
+              "url": "https://mp.weixin.qq.com/s?__biz=MjM5MjE2NzM0Mg==&mid=2652387084&idx=1&sn=b655f90b9d9b453e78e779d92f762f75",
+              "quote": "头七、二七直至七七，百日、一年、三年逐一过十王殿"
+            },
+            {
+              "title": "东京国立博物馆 — 十王像",
+              "url": "https://colbase.nich.go.jp/collection_items/tnm/A-764-1?locale=zh",
+              "quote": "四十九日内每七日一王，其后百日、一周年、三周年"
+            }
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "f3 的错误也出现在 story 的 setup（“第七天、第二十一天、第三十五天”），story 不在本次修改范围，需同步改。",
+        "f4 的名号顺序以《十王经》系统为准；各地各经略有出入，正文已用“常见的是”“并不完全一致”限定。",
+        "f10 的《玉历钞传》传为宋淡痴道人著、清代增广，最流行刊本在乾隆以后；王见川认为可能是李宗敏乾隆甲寅（1794）自撰，正文称“清代《玉历钞传》”成立。"
+      ],
+      "summary": "十条站得住；十王日期漏掉二七、四七、六七，阎王图像把藏传忿怒相与汉地判官相混为一谈。"
+    }
+  ]
+}

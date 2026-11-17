@@ -1,0 +1,297 @@
+{
+  "batch": "batch-02",
+  "checkedAt": "2026-11-18T02:45:00+08:00",
+  "dossiers": [
+    {
+      "id": "w4-wh-wars-great-depression",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "medium"},
+        {"id": "f7", "verdict": "wrong", "confidence": "high", "issue": "issue-01"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "supported", "confidence": "high"},
+        {"id": "f11", "verdict": "supported", "confidence": "high"},
+        {"id": "f12", "verdict": "supported", "confidence": "medium"}
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f7",
+          "severity": "major",
+          "verdict": "wrong",
+          "claim": "1930年的斯姆特霍利关税把两千多种进口商品的税率提高。",
+          "problem": "数量级错了。该法案涉及的是两万多种（约两万余项）进口商品，不是两千多种；这是常被引用的关键数字。",
+          "correction": "1930年的斯姆特霍利关税把两万多种进口商品的税率提高，其他国家随即报复。世界贸易额在几年内萎缩大半，靠出口还债的国家处境更糟，国际分工被关税墙切断。",
+          "evidence": [
+            {"title": "Smoot-Hawley Tariff Act - Corporate Finance Institute", "url": "https://corporatefinanceinstitute.com/resources/economics/smoot-hawley-tariff-act/", "quote": "raised tariffs on more than 20,000 imported goods"},
+            {"title": "美国关税战的历史（新浪财经）", "url": "https://finance.sina.com.cn/jjxw/2025-04-12/doc-ineswmfc1790421.shtml", "quote": "对2万多种进口商品加征关税"}
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "f6 的“工业产出下降近一半”存在口径差异：按年度均值约降四成，按 1932—1933 年谷底计接近一半，两种说法在通史与教科书里都常见，故判 supported 但置信度记 medium。",
+        "f1 的道指点位与跌幅、f3 的 9,096 家银行倒闭（占 1929 年银行总数约三成），均与美联储史、Wicker 的银行恐慌研究一致。"
+      ],
+      "summary": "十二条中仅关税覆盖商品数一条数量级有误（两千余 vs 两万余），其余年份、数字与制度叙述均可核实。"
+    },
+    {
+      "id": "world-history-inca",
+      "status": "verified",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "supported", "confidence": "high"},
+        {"id": "f11", "verdict": "supported", "confidence": "high"}
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "克丘亚语地位、四省区（suyu）结构、驿道里程与查斯基 relay 制度，均有 UNESCO、秘鲁国会与安第斯通讯社材料可对。",
+        "马丘比丘的建造年代采用 2021 年 Radiocarbon 研究的年代区间（约 1420—1530，动工约 1450），与“帕查库提王室庄园”说一致。"
+      ],
+      "summary": "十一条全部有可追溯来源支持，年代、里程、人数等关键数字未见反证。"
+    },
+    {
+      "id": "world-myth-greek",
+      "status": "verified",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "supported", "confidence": "high"},
+        {"id": "f11", "verdict": "supported", "confidence": "high"},
+        {"id": "f12", "verdict": "supported", "confidence": "high"}
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "《神谱》年代（约前 700）、六音步与千余行的规模，各家译本导言一致；十二神名单的“第十二位为赫斯提亚或狄俄尼索斯”属学界通说。",
+        "线形文字 B 神名与荷马史诗成书年代分别有迈锡尼文书研究与古典学综述支持。"
+      ],
+      "summary": "十二条均可核实，年代、神名与文本归属未见明显偏差。"
+    },
+    {
+      "id": "cn-history-changan",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "imprecise", "confidence": "medium", "issue": "issue-01"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "imprecise", "confidence": "medium", "issue": "issue-02"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "medium"},
+        {"id": "f10", "verdict": "supported", "confidence": "high"},
+        {"id": "f11", "verdict": "supported", "confidence": "high"},
+        {"id": "f12", "verdict": "supported", "confidence": "medium"}
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f2",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "考古在西市遗址发现大量波斯萨珊朝银币与西域钱币。",
+          "problem": "西市的波斯邸、胡姬酒肆与金银行都有材料可对，但“遗址出土大量萨珊银币”检索不到直接考古报告；萨珊银币多出于丝路沿线与长安窖藏，不宜写成西市遗址的定论。",
+          "correction": "东市与西市是两处官方市场。西市靠近丝路来路，胡商云集，有波斯邸、胡姬酒肆与经营金银器的金银行；这里店铺密集，是长安城最繁华的商业区之一。",
+          "evidence": [
+            {"title": "西安西市：胡商云集的国际贸易中心（央视网）", "url": "http://news.cctv.com/m/a/index.shtml?id=ARTI8t6RVWYzrofiDUTd5Cu4190711", "quote": "波斯邸、胡姬酒肆、金银行"}
+          ]
+        },
+        {
+          "id": "issue-02",
+          "factId": "f4",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "《唐语林》里记有官员因买胡饼被同僚讥笑的故事。",
+          "problem": "故事被拼合了：唐人笔记里买胡饼的是刘晏，他赞“美不可言”，并无被讥笑的情节；因买饼被御史弹劾的是张衡，买的是蒸饼而非胡饼。",
+          "correction": "长安的胡食很流行。胡饼是烤制的面饼，上撒芝麻；毕罗是一种包馅的面点；葡萄酒从高昌传入，唐太宗得马乳葡萄种与酿酒法后长安才自酿。胡饼的炉子叫“胡饼炉”，唐人笔记里记有官员清晨买胡饼、称其味美的故事。",
+          "evidence": [
+            {"title": "《隋唐嘉话》记刘晏买胡饼（识典古籍）", "url": "https://www.shidianguji.com/mid-page/7555621821119627273", "quote": "刘晏五鼓入朝……使人买之……美不可言"},
+            {"title": "唐代胡饼与《唐语林》的记载（中国新闻网）", "url": "https://www.chinanews.com.cn/cul/2012/06-28/3993042.shtml", "quote": "《唐语林》中关于胡饼的记载"}
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "f1 的 84 平方公里、南北十一街东西十四街，与中国社会科学院与中新网的城市考古介绍一致；坊数有 108/110 两说。",
+        "f5 所引白居易《胡旋女》两处诗句，与《白香山诗集》原文逐字相合。"
+      ],
+      "summary": "长安专题主体可靠，两处需改：西市银币的考古表述过实，胡饼故事把刘晏与张衡两事并成一件。"
+    },
+    {
+      "id": "cn-myth-houyi",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "wrong", "confidence": "high", "issue": "issue-01"},
+        {"id": "f3", "verdict": "imprecise", "confidence": "medium", "issue": "issue-02"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "supported", "confidence": "high"},
+        {"id": "f11", "verdict": "supported", "confidence": "medium"},
+        {"id": "f12", "verdict": "imprecise", "confidence": "medium", "issue": "issue-03"}
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f2",
+          "severity": "major",
+          "verdict": "wrong",
+          "claim": "射日只是羿完成的六件功业之一，其余五件是诛杀怪兽。",
+          "problem": "数目不对。《淮南子·本经训》列出的怪兽是猰貐、凿齿、九婴、大风、封豨、修蛇共六种，加射日共七件事。",
+          "correction": "《淮南子》的叙述里，射日只是羿完成的七件功业之一，其余六件是诛杀怪兽。十日并出与怪兽为害被放在同一份清单上，说明在汉代人看来，天灾与地怪属于同一类需要被清理的失序。",
+          "evidence": [
+            {"title": "《淮南子·本经训》射日原文（中国网）", "url": "http://read.china.com.cn/2025-10/24/content_43257882.htm", "quote": "猰貐、凿齿、九婴、大风、封豨、修蛇，皆为民害"},
+            {"title": "羿射十日（百度百科）", "url": "https://baike.baidu.com/item/%E7%BE%BF%E5%B0%84%E5%8D%81%E6%97%A5/50507877", "quote": "尧乃使羿诛凿齿于畴华之野……禽封豨于桑林"}
+          ]
+        },
+        {
+          "id": "issue-02",
+          "factId": "f3",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "十日的身世见于《山海经·大荒南经》：羲和是帝俊之妻，生十日。十日住在汤谷的扶桑树上。",
+          "problem": "前后两句分属不同篇：羲和生十日见于《大荒南经》，汤谷扶桑与“九日居下枝，一日居上枝”出自《海外东经》。",
+          "correction": "十日的身世见于《山海经》：羲和是帝俊之妻，生十日；十日住在汤谷的扶桑树上，每天一只出去值班，其余九只留在枝头。它们本该轮流，一旦同时升起，就是历法与秩序的崩溃。",
+          "evidence": [
+            {"title": "《山海经》原文（Internet Archive）", "url": "https://archive.org/download/shan-hai-jing/", "quote": "《海外东经》记：汤谷上有扶桑，十日所浴……九日居下枝，一日居上枝"}
+          ]
+        },
+        {
+          "id": "issue-03",
+          "factId": "f12",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "民间也把羿当作射神或行业祖师。",
+          "problem": "汉画像石有射日实物（南阳汉画馆藏拓片可证），但“射神或行业祖师”这一民俗身份检索不到可靠依据，后半句属无来源的推断。",
+          "correction": "射日后来成为弓矢威力的象征，汉画像石上常见射鸟、射日的图像。一个神话动作被反复刻在墓室里，说明它承担的不只是娱乐，还有辟邪与护佑的功能。",
+          "evidence": [
+            {"title": "汉画像石“后羿射日”拓片（新浪·文博日历）", "url": "https://news.sina.com.cn/zx/gj/2026-08-01/doc-inikumqp4029526.shtml", "quote": "树上栖息着三只太阳鸟……羿……奋力拉弓"}
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "f5 说法成立：《淮南子》原文只作“上射十日”，未言留下几个；射落九日是后世注家与讲述固定下来的。",
+        "f8 “两个后羿被合并”有通俗文献明说（“后人将二人混同”），但严格考证仍属推论，故相关判断只落在可查的文本层。"
+      ],
+      "summary": "文本引述大体准确，但功业数目（六 vs 七）错、《大荒南经》与《海外东经》混引、画像石一段有未经证实的民俗推断。"
+    },
+    {
+      "id": "w1-cn-history-recommendation",
+      "status": "verified",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "medium"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "supported", "confidence": "high"},
+        {"id": "f11", "verdict": "supported", "confidence": "medium"}
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "文帝十五年（前 165）举贤良、晁错对策，见《前汉纪·孝文皇帝纪下》；元光元年（前 134）郡国举孝廉见《汉书·武帝纪》。",
+        "f4 的“二十万口岁举一人”与《后汉书·丁鸿传》原文逐字相合。",
+        "f10 三次求贤令的年份（210、214、217）有明确诏文可对；董仲舒对策的具体年份学界仍有争论，但本专题未就此立论。"
+      ],
+      "summary": "十一条年代、名额与制度叙述均可核实，未见需要修改的硬伤。"
+    },
+    {
+      "id": "w2-geo-cn-climate-red-soil",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "imprecise", "confidence": "medium", "issue": "issue-01"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "medium"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "supported", "confidence": "high"},
+        {"id": "f11", "verdict": "supported", "confidence": "high"},
+        {"id": "f12", "verdict": "supported", "confidence": "high"}
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f1",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "主要分布于北纬二十五度以南的亚热带与热带地区。",
+          "problem": "界线偏南。中国红壤的分布北起长江沿岸，大致到北纬三十度左右；二十五度以南只覆盖南亚热带与热带部分。",
+          "correction": "红壤系列包括红壤、黄壤与砖红壤，主要分布于北纬三十度以南的亚热带与热带地区，覆盖江西、湖南、福建、广东、广西、云南、浙江等省区，总面积约两百万平方公里，是中国面积最大的一类土壤。",
+          "evidence": [
+            {"title": "红壤（CNKI 工具书条目）", "url": "https://elib.cnki.net/grid2008/Detailchkd/XSearch.aspx?KeyWord=%e7%ba%a2%e5%a3%a4", "quote": "北起长江沿岸……总面积达203万平方公里"},
+            {"title": "苍穹下的“红土地”（科普中国）", "url": "https://cloud.kepuchina.cn/h5/detail?id=7126626311692742656", "quote": "约200万平方千米……北起长江"}
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "f1 的面积与省区范围有 200 万/203 万平方公里两说，均可用；需改的只是纬度界线。",
+        "f12 千烟洲站始建于 1983 年，“立体农业”提法出自该站依托的南方山区综合考察，均有中科院站点介绍可对。"
+      ],
+      "summary": "仅分布界线一条偏南（二十五度应为三十度左右），其余成土过程、酸化与改良叙述均成立。"
+    },
+    {
+      "id": "w4-geo-world-biome-savanna",
+      "status": "verified",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "supported", "confidence": "high"},
+        {"id": "f11", "verdict": "supported", "confidence": "high"},
+        {"id": "f12", "verdict": "supported", "confidence": "medium"}
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "f1 的 500—1500 毫米与干湿季交替，与农业百科类综述一致；这一区间是稀树草原的常用定义值。",
+        "火—草—树与放牧的相互作用，属 Scholes & Walker 与 Bond & van Wilgen 的经典框架，未见反证。"
+      ],
+      "summary": "十二条均为生态学通说，数值与机制未见需要修改之处。"
+    }
+  ]
+}

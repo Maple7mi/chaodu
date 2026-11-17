@@ -1,0 +1,835 @@
+{
+  "batch": "batch-44",
+  "checkedAt": "2026-11-17T18:32:06.665Z",
+  "dossiers": [
+    {
+      "id": "w4-wh-regions-partition",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        {
+          "id": "f1",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f2",
+          "verdict": "wrong",
+          "confidence": "high",
+          "issue": "issue-01"
+        },
+        {
+          "id": "f3",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f4",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f5",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f6",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f7",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f8",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f9",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f10",
+          "verdict": "supported",
+          "confidence": "medium"
+        },
+        {
+          "id": "f11",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f12",
+          "verdict": "supported",
+          "confidence": "medium"
+        }
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f2",
+          "severity": "major",
+          "verdict": "wrong",
+          "claim": "边界委员会由英国律师西里尔·拉德克利夫主持，成员包括印度与巴基斯坦的法官。委员会在五周内划出旁遮普与孟加拉的界线，依据是1941年人口普查、地籍图与教派比例；拉德克利夫本人在公布前从未到过印度。",
+          "problem": "拉德克利夫1947年7月8日已抵达印度，此前从未到过印度（有的说法是“从未到过巴黎以东”）；边界委员会7月中旬开工、8月提交界线，8月17日才公布。原句“在公布前从未到过印度”把“此前从未到过”写成了“公布前没到过”，与史实相反。五周划界、依据1941年人口普查与教派比例等其余细节无误。",
+          "correction": "边界委员会由英国律师拉德克利夫主持，成员含印巴两国法官；委员会依据1941年人口普查与教派比例，在五周内划出旁遮普与孟加拉界线。拉德克利夫此前从未到过印度，1947年7月8日才抵达。",
+          "evidence": [
+            {
+              "title": "News18：拉德克利夫与五周划界（含抵印日期）",
+              "url": "https://www.news18.com/photogallery/viral/batwara-1947-meet-the-british-lawyer-who-was-given-5-weeks-to-draw-the-borders-that-divided-india-and-pakistan-ws-e-10260869.html",
+              "quote": "Sir Cyril Radcliffe, a British barrister who had never previously visited India... He arrived in India on July 8, 1947, just weeks before British rule was due to end."
+            },
+            {
+              "title": "Times Now：拉德克利夫线",
+              "url": "https://www.timesnownews.com/india/article/cyril-radcliffe-who-drew-india-pakistan-border-radcliffe-line/468936",
+              "quote": "Radcliffe had never travelled to India — in fact, according to a BBC documentary on India-Pakistan partition, Radcliffe had never been east of Paris... Yet, he was given five weeks to carry out the task"
+            }
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "8月17日公布边界线的说法见 Times Now 同一篇报道；Radcliffe 8月9日提交界线、8月13日离开印度。",
+        "土邦总数常写作565个（另有554、约600等口径），正文用“数百个”是稳妥写法。"
+      ],
+      "summary": "分治的骨架——8月14/15日独立、蒙巴顿方案、五周划界、1200万—1500万迁徙、20万—200万死亡、土邦并入与第一次印巴战争——均可核实。唯一硬错是拉德克利夫的到印时间：他7月8日已到印度，此前从未到过次大陆。"
+    },
+    {
+      "id": "cn-history-maps",
+      "status": "verified",
+      "confidence": "high",
+      "facts": [
+        {
+          "id": "f1",
+          "verdict": "supported",
+          "confidence": "medium"
+        },
+        {
+          "id": "f2",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f3",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f4",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f5",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f6",
+          "verdict": "supported",
+          "confidence": "medium"
+        },
+        {
+          "id": "f7",
+          "verdict": "supported",
+          "confidence": "medium"
+        },
+        {
+          "id": "f8",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f9",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f10",
+          "verdict": "supported",
+          "confidence": "medium"
+        },
+        {
+          "id": "f11",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f12",
+          "verdict": "supported",
+          "confidence": "medium"
+        }
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "放马滩的年代有战国中期、战国晚期、秦王政八年（前239）等说，中国青年网访甘肃简牍博物馆常燕娜作“战国中期”“2300年以前”，CNKI 摘要作“公元前三百年左右的战国后期”；正文“约公元前4世纪”落在通行区间内，故不改判，仅记分歧。",
+        "《禹迹图》《华夷图》为阜昌七年（1136）刻，同石两面，现存西安碑林；禹迹图计里画方“每方折地百里”。",
+        "《皇舆全览图》1718年木刻本三十二幅；西藏测量数据在1721年铜版本中才较完整地并入。"
+      ],
+      "summary": "十二幅地图史叙事——放马滩、马王堆三图、裴秀六体、贾耽朱墨、禹迹与华夷、利玛窦、康熙实测、尼布楚、计里画方——均有可核文献支撑，年代与形制未发现需要改写的硬错。放马滩的绝对年代学界仍有分歧，已在注中保留。"
+    },
+    {
+      "id": "w4-psych-posttraumatic-growth",
+      "status": "verified",
+      "confidence": "high",
+      "facts": [
+        {
+          "id": "f1",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f2",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f3",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f4",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f5",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f6",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f7",
+          "verdict": "supported",
+          "confidence": "medium"
+        },
+        {
+          "id": "f8",
+          "verdict": "supported",
+          "confidence": "medium"
+        },
+        {
+          "id": "f9",
+          "verdict": "supported",
+          "confidence": "medium"
+        },
+        {
+          "id": "f10",
+          "verdict": "supported",
+          "confidence": "medium"
+        },
+        {
+          "id": "f11",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f12",
+          "verdict": "supported",
+          "confidence": "high"
+        }
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "PTGI 为21题、5因子（新可能性、与他人关系、个人力量、精神变化、对生命的珍惜），Tedeschi & Calhoun 1996。",
+        "Frazier et al. 2009, Psychological Science 20(7):912-919，纵向设计发现自评成长与实际变化相关很弱，是“错觉成长”争论的核心文献。",
+        "Jayawickreme & Blackie 2014, European Journal of Personality 28(4):312-331 系统梳理了真实成长、叙事性成长与工具局限。"
+      ],
+      "summary": "这一专题整体是研究现状的稳妥复述：PTGI 的结构、成长与痛苦并存、自评成长的效度争议、成长压力与支持质量，都能在文献里找到对应。没有需要改写的数字或结论，个别处（如干预效果比较）表述较概括，未到失实。"
+    },
+    {
+      "id": "cn-history-qin",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        {
+          "id": "f1",
+          "verdict": "imprecise",
+          "confidence": "high",
+          "issue": "issue-01"
+        },
+        {
+          "id": "f2",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f3",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f4",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f5",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f6",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f7",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f8",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f9",
+          "verdict": "imprecise",
+          "confidence": "high",
+          "issue": "issue-02"
+        },
+        {
+          "id": "f10",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f11",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f12",
+          "verdict": "supported",
+          "confidence": "high"
+        }
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f1",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "公元前230年至前221年，秦将王翦、李信等人逐个灭掉韩、赵、魏、楚、燕、齐。嬴政称始皇帝，废谥法，规定后世以二世、三世相承，一直数到万世。统一后的疆域东到海，西至临洮，北据河套，南抵岭南。",
+          "problem": "灭六国的主将可一一对应：内史腾灭韩（前230）、王翦破赵（前228）与灭楚（前223）、王贲灭魏（前225）、灭燕（前222）、灭齐（前221）。李信伐楚先胜后被项燕大破，并未灭掉任何一国，把他与王翦并列为“灭国主将”不确。废谥法、二世三世相承与疆域四至无误。",
+          "correction": "公元前230年至前221年，秦将内史腾、王翦、王贲等逐个灭掉韩、赵、魏、楚、燕、齐；李信伐楚大败，并未灭国。嬴政称始皇帝，废谥法，定二世三世相承。疆域东到海，西至临洮，北据河为塞，南抵岭南。",
+          "evidence": [
+            {
+              "title": "《史记·秦始皇本纪》（识典古籍）",
+              "url": "https://www.shidianguji.com/book/SK0701/chapter/1l9yd2hmmby89",
+              "quote": "十七年，内史腾攻韩，得韩王安，尽纳其地... 二十三年，秦王复召王翦，强起之，使将击荆... 二十六年，齐王建与其相后胜发兵守其西界，不通秦。秦使将军王贲从燕南攻齐，得齐王建。"
+            },
+            {
+              "title": "《史记》李信伐楚失利",
+              "url": "https://m.zhangyue.com/readbook/11767417/33.html",
+              "quote": "荆人因随之，三日三夜不顿舍，大破李信军，入两壁，杀七都尉，秦军走。"
+            }
+          ]
+        },
+        {
+          "id": "issue-02",
+          "factId": "f9",
+          "severity": "major",
+          "verdict": "imprecise",
+          "claim": "秦始皇三十三年，蒙恬率三十万北击匈奴，收复河套，连接旧长城；同年派兵南征百越，开凿灵渠沟通湘江与漓江，把粮运从长江水系送进珠江流域。灵渠全长约三十余公里，用陡门逐级抬高水位，船只得以翻山越岭。",
+          "problem": "《史记·秦始皇本纪》把两件事分记在两年：三十二年“使将军蒙恬发兵三十万人北击胡，略取河南地”，三十三年才“发诸尝逋亡人、赘壻、贾人略取陆梁地，为桂林、象郡、南海”。南征也不是“三十三年”才开头。另外灵渠的陡门始见于唐宝历元年（825）李渤重修，秦代灵渠尚无陡门，“用陡门逐级抬高水位”不能算到秦代。",
+          "correction": "秦始皇三十二年，蒙恬率三十万北击匈奴，收复河套并连接旧长城；次年派兵南征百越，置桂林、象郡、南海三郡，开凿灵渠沟通湘江与漓江。灵渠全长约三十余公里；陡门为唐代李渤改建时所置，秦代尚无陡门。",
+          "evidence": [
+            {
+              "title": "《史记·秦始皇本纪》三十二年、三十三年条",
+              "url": "https://www.shidianguji.com/book/SK0701/chapter/1l9yd2hmmby89",
+              "quote": "三十二年...始皇乃使将军蒙恬发兵三十万人北击胡，略取河南地。三十三年...发诸尝逋亡人、赘壻、贾人略取陆梁地，为桂林、象郡、南海，以适遣戍。"
+            },
+            {
+              "title": "兴安县志：灵渠陡门为唐李渤所置",
+              "url": "http://www.xazf.gov.cn/mlxa/xaxz/t26644602.shtml",
+              "quote": "经过李渤的改建，才有了关于拦河坝和陡门的记载"
+            },
+            {
+              "title": "央视新闻：灵渠全长36.4公里、前214年建成",
+              "url": "https://content-static.cctvnews.cctv.com/snow-book/index.html?item_id=4779480919154912845",
+              "quote": "灵渠全长36.4公里"
+            }
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "秦统一后郡数：初置三十六郡，后增至四十余郡（通行说法四十八郡）。",
+        "《汉书·贾山传》“道广五十步，三丈而树”，秦一步六尺、一尺约23.1厘米，五十步约合69米，正文“约七十米”成立。"
+      ],
+      "summary": "秦制的骨架——郡县、文书、上计、度量衡、小篆与隶书、驰道、户籍什伍、睡虎地秦律、焚书坑儒、骊山陵七十余万人——都站得住。两处需要改：灭国主将名单里不该有李信；北击匈奴与南征百越分属三十二、三十三年，且陡门是唐代才有的。"
+    },
+    {
+      "id": "w1-world-history-classical-byzantine-admin",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        {
+          "id": "f1",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f2",
+          "verdict": "supported",
+          "confidence": "medium"
+        },
+        {
+          "id": "f3",
+          "verdict": "supported",
+          "confidence": "medium"
+        },
+        {
+          "id": "f4",
+          "verdict": "imprecise",
+          "confidence": "high",
+          "issue": "issue-01"
+        },
+        {
+          "id": "f5",
+          "verdict": "supported",
+          "confidence": "medium"
+        },
+        {
+          "id": "f6",
+          "verdict": "supported",
+          "confidence": "medium"
+        },
+        {
+          "id": "f7",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f8",
+          "verdict": "supported",
+          "confidence": "medium"
+        },
+        {
+          "id": "f9",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f10",
+          "verdict": "supported",
+          "confidence": "medium"
+        },
+        {
+          "id": "f11",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f12",
+          "verdict": "supported",
+          "confidence": "medium"
+        }
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f4",
+          "severity": "major",
+          "verdict": "imprecise",
+          "claim": "头衔体系极其繁复。皇帝以下的贵族有凯撒、贵族、总督、书记官等不同等级，头衔由皇帝颁授，可以世袭，也可以买卖；头衔决定座位、服饰与婚礼规格，是身份的通行证。",
+          "problem": "拜占庭的头衔在制度上被视为终身荣誉性衔号（lifetime honorific distinctions），由皇帝颁授，一般不世袭；实际运作中，尤其是财政部门的荣誉职位，常可出钱购得，11世纪的文件里能看到为官职议价、甚至因官价打官司的记录。“可以世袭”与制度不符，其余关于等级、服饰与座次的部分无误。",
+          "correction": "头衔体系极其繁复。皇帝以下的贵族有凯撒、贵族、总督、书记官等不同等级，头衔由皇帝颁授，通常终身而不世袭，也可以出钱买到；头衔决定座位、服饰与婚礼规格，是身份的通行证。",
+          "evidence": [
+            {
+              "title": "Sc eranea（罗兹大学学报）：拜占庭荣誉头衔制度",
+              "url": "https://czasopisma.uni.lodz.pl/sceranea/issue/download/332/248",
+              "quote": "Theoretically speaking, titles in Byzantium were considered as lifetime honorific distinctions"
+            },
+            {
+              "title": "Laiou, The Economic History of Byzantium：可购买的职位",
+              "url": "https://archive.org/download/laiou-economic-history-of-byzantium/Laiou_Economic%20History%20of%20Byzantium.pdf",
+              "quote": "Some life-tenured administrative posts, especially in the finance departments, could be purchased by those interested in doing so"
+            }
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "军区制：7世纪中期形成，将领（strategos）兼掌军政；士兵以土地换取军役的说法主要见于10世纪的军事地产立法，7—8世纪的情况仍有争论，正文按传统叙述处理。",
+        "君士坦丁堡人口：6世纪常估40万—50万，8世纪降至数万，正文“数十万下降到数万”成立。"
+      ],
+      "summary": "拜占庭这一专题的骨架稳：330年建都、巴西勒斯与宫廷礼仪、军区制、以夷制夷与礼物外交、查士丁尼法典、1204与1453。需要改的是头衔的性质——制度上终身、不世袭，虽然现实中可以花钱买。"
+    },
+    {
+      "id": "cn-history-song-money",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        {
+          "id": "f1",
+          "verdict": "supported",
+          "confidence": "medium"
+        },
+        {
+          "id": "f2",
+          "verdict": "wrong",
+          "confidence": "high",
+          "issue": "issue-01"
+        },
+        {
+          "id": "f3",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f4",
+          "verdict": "imprecise",
+          "confidence": "high",
+          "issue": "issue-02"
+        },
+        {
+          "id": "f5",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f6",
+          "verdict": "imprecise",
+          "confidence": "high",
+          "issue": "issue-03"
+        },
+        {
+          "id": "f7",
+          "verdict": "imprecise",
+          "confidence": "high",
+          "issue": "issue-04"
+        },
+        {
+          "id": "f8",
+          "verdict": "imprecise",
+          "confidence": "high",
+          "issue": "issue-05"
+        },
+        {
+          "id": "f9",
+          "verdict": "supported",
+          "confidence": "medium"
+        },
+        {
+          "id": "f10",
+          "verdict": "imprecise",
+          "confidence": "high",
+          "issue": "issue-06"
+        },
+        {
+          "id": "f11",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f12",
+          "verdict": "supported",
+          "confidence": "high"
+        }
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f2",
+          "severity": "major",
+          "verdict": "wrong",
+          "claim": "四川通行铁钱，据《宋史·食货志》记载，大铁钱一贯重达六斤半。买一匹绢要挑着几十斤金属上路，商人宁愿接受一张有信用的纸，也不愿押运现钱。铁钱与铜钱的比价也不稳定，四川物价因此长期高于其他地区。",
+          "problem": "《宋史·食货志》里“六斤五两”是小铁钱一贯的重量：大铁钱一贯为十二斤十两，嘉州、邛州所铸更重至二十五斤八两，铜钱一当小铁钱十。原文把大铁钱的重量说成六斤半，少了近一半，也把大、小铁钱弄混了。",
+          "correction": "四川通行铁钱，据《宋史·食货志》记载，小铁钱一贯重六斤五两，大铁钱一贯重达十二斤十两，嘉、邛二州所铸更有二十五斤八两。买一匹绢要挑着几十斤金属上路，商人宁愿接受一张有信用的纸，也不愿押运现钱。",
+          "evidence": [
+            {
+              "title": "《宋史·食货志》卷一百八十（识典古籍）",
+              "url": "https://hhl.cnkgraph.com/Book/2462/KR2a0032_180",
+              "quote": "大钱贯十二斤十两以准铜钱... 嘉邛二州所铸钱贯二十五斤八两，铜钱一当小铁钱十"
+            },
+            {
+              "title": "陕西地方志：四川小铁钱每贯重六斤五两",
+              "url": "https://dfz.shaanxi.gov.cn/zslm/fzzlk/xbsxsz/szdylpdf/201404/P020240923612034547624.pdf",
+              "quote": "小铁钱每贯重六斤五两"
+            }
+          ]
+        },
+        {
+          "id": "issue-02",
+          "factId": "f4",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "南宋绍兴三十年（1160），朝廷发行“会子”，最初只在两浙流通，后来扩及全国。会子以铜钱为本位，但政府很快发现，多印一张就是多一笔可以立刻花掉的收入。会子最初三年一界，后来期限越缩越短，最后几乎不再回收旧钞。",
+          "problem": "会子的时间线要分两步：绍兴三十年（1160）是令临安府印造、试行于两浙；绍兴三十一年（1161）才设行在会子务正式发行，并拨左帑钱十万缗为本。流通范围主要是东南诸路，四川仍行钱引，说“扩及全国”过头。",
+          "correction": "南宋绍兴三十年（1160）朝廷令临安府印造会子，试行于两浙；次年设行在会子务正式发行，流通扩及东南诸路。会子以铜钱为本位，政府很快发现多印一张就多一笔可花的收入，界期越缩越短，旧钞几乎不再回收。",
+          "evidence": [
+            {
+              "title": "中国社科院历史所：会子的行用与界分",
+              "url": "http://lishisuo.cass.cn/xsyj/slxxjs/202010/t20201009_5192217.shtml",
+              "quote": "绍兴三十一年，置行在会子务，赐左帑钱十万缗为本"
+            },
+            {
+              "title": "人民网：会子与南宋财政",
+              "url": "http://paper.people.com.cn/mszk/html/2012-07/16/content_1085167.htm",
+              "quote": "会子初行于两浙，后行于东南诸路"
+            }
+          ]
+        },
+        {
+          "id": "issue-03",
+          "factId": "f6",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "商税成为国家重要财源。据《宋史·食货志》，北宋中期商税年入约八百万贯，仅次于两税；设在交通要道的税场对过境货物抽税，连挑担的小贩也要交纳。商税之外还有住税与过税，前者向坐商征收，后者向行商征收。",
+          "problem": "八百万贯是通常年份的口径：北宋中后期商税（过税加住税，不含专卖）常年800万—1000万贯，庆历前后曾增至1975万贯。同期酒课、盐课等禁榷收入合计更大，把商税说成“仅次于两税”的第二大财源并不稳妥；“商税之外还有住税与过税”也自相矛盾，住税、过税本就是商税的两个部分。",
+          "correction": "据《宋史·食货志》等，北宋中后期商税（过税加住税）常年约八百万至一千万贯，战事年份可激增至近两千万贯；它与两税、禁榷（盐酒茶）并列为财政三大支柱，单说“仅次于两税”并不稳妥。",
+          "evidence": [
+            {
+              "title": "《宋代财政研究》：商税由450万贯增至1975万贯",
+              "url": "https://www.zywhyj.cn/Uploads/PdfFile/2025-10-23/68f997abb11f1.pdf",
+              "quote": "商税更是由450万贯增加到1975万贯"
+            },
+            {
+              "title": "吴钩：宋代商税的规模",
+              "url": "https://www.rujiazg.com/category/2%3Fpage%3D3?page=109",
+              "quote": "北宋中后期，商税收入（单指过税加住税，不含其他来自工商业的税费）常年保持在800至1000万贯之间"
+            }
+          ]
+        },
+        {
+          "id": "issue-04",
+          "factId": "f7",
+          "severity": "major",
+          "verdict": "imprecise",
+          "claim": "宋代海外贸易由市舶司管理。广州、泉州、明州先后设司，海舶入港先“抽解”，按货值抽十分之一，再由政府“博买”部分商品，剩下的才允许自由买卖。市舶收入在南宋一度占到财政的重要份额，朝廷因此重视招徕海商。",
+          "problem": "朱彧《萍洲可谈》记抽解“以十分为率，真珠、龙脑凡细色抽一分，玳瑁、苏木凡粗色抽三分”：细货抽十分之一，粗货抽十分之三，不是一律十分之一。抽解之后由官府博买、余货方许贸易，以及南宋重视招徕海商，这两点无误。",
+          "correction": "宋代海外贸易由市舶司管理。广州、泉州、明州先后设司，海舶入港先抽解：细色货抽十分之一，粗色货抽三分；再由政府博买部分商品，剩下的才允许自由买卖。市舶收入在南宋一度占财政重要份额，朝廷因此重视招徕海商。",
+          "evidence": [
+            {
+              "title": "《萍洲可谈》卷二（识典古籍）",
+              "url": "https://www.shidianguji.com/zh/mid-page/7352264767815319579",
+              "quote": "凡舶至，帅漕与市舶监官莅阅其货而征之，谓之抽解。以十分为率，真珠、龙脑凡细色抽一分，玳瑁、苏木凡粗色抽三分"
+            }
+          ]
+        },
+        {
+          "id": "issue-05",
+          "factId": "f8",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "铜钱大量外流，加上民间熔钱铸器，宋代出现长期的“钱荒”。朝廷屡禁铜钱出海，但日本、朝鲜与东南亚都欢迎宋钱，考古发现的海底沉船里常成串出土。钱荒之下，民间大额交易更多依赖纸币、白银与绢帛，铜钱反而退出。",
+          "problem": "白银广泛流通要到明嘉靖、隆庆年间才实现，宋代白银数量有限，只是铜钱的补充；宋代主币仍是铜钱，钱荒指的是铜钱相对不足，不是铜钱退出流通。大额支付更多用交子、钱引、钞引与银锭，说“白银与绢帛替代铜钱”既偏晚又偏重。",
+          "correction": "铜钱大量外流，加上民间熔钱铸器，宋代出现长期的钱荒。朝廷屡禁铜钱出海，但日本、朝鲜与东南亚都欢迎宋钱，沉船中常成串出土。钱荒之下，民间大额交易更多依赖纸币与绢帛，白银的货币性仍有限，铜钱也并未退出日常流通。",
+          "evidence": [
+            {
+              "title": "澎湃：白银的广泛流通要到明嘉靖隆庆年间",
+              "url": "https://www.thepaper.cn/newsDetail_forward_9812711",
+              "quote": "白银的真正广泛流通是到明代嘉靖隆庆年间，也正是从明代开始，白银才成为“法定货币”... 民间流通的货币，主要还是以铜钱为主"
+            },
+            {
+              "title": "葛金芳等《宋代“钱荒”成因再探》",
+              "url": "http://data.gzdafzxx.cn/KCMS/detail/detailall.aspx?filename=hdzs200802011&dbcode=CJFD&dbname=CJFD2008",
+              "quote": "钱荒主要还是表现在基层市场的细碎性贸易中"
+            }
+          ]
+        },
+        {
+          "id": "issue-06",
+          "factId": "f10",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "城市里出现了专门的服务行业：塌房存货、邸店住宿、交引铺兑换茶盐引、金银铺买卖金银。交易不再只靠现钱，信用票据在商人之间层层转手。这些行业集中在商业发达的州县，从业者多是不入户籍的流动人口。",
+          "problem": "宋代城市居民与工商业家庭被编为“坊郭户”，是与乡村户并列的法定户籍类别，塌房、邸店、交引铺、金银铺的经营者多在坊郭户之内；“从业者多是不入户籍的流动人口”与宋代户籍制度不符，流动雇工只是其中一部分。",
+          "correction": "城市里出现了专门的服务行业：塌房存货、邸店住宿、交引铺兑换茶盐引、金银铺买卖金银。交易不再只靠现钱，信用票据在商人之间层层转手。这些行业集中在商业发达的州县；宋代城市商贾多编入坊郭户，并非一概不入户籍。",
+          "evidence": [
+            {
+              "title": "国家图书馆古籍保护网：宋代坊郭户",
+              "url": "https://www.nlc.cn/pcab/zy/pxjz/20200708_192649.shtml",
+              "quote": "到宋代，宋代的城镇居民、工商家庭都属于坊郭户，坊郭户固定为特定的户籍类别，出现了明确的户籍分野"
+            },
+            {
+              "title": "百度百科：坊郭户",
+              "url": "https://baike.baidu.com/item/%e5%9d%8a%e9%83%ad%e6%88%b7/0",
+              "quote": "坊郭户是唐宋时期形成的城乡分治户籍制度下对城市居民的专门称谓"
+            }
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "交子的起源在真宗大中祥符年间（1008—1016），距北宋建国已近五十年，正文“北宋初年”略粗，但十六户富商、天圣元年（1023）益州交子务、铜版面额等均无误，未改判。",
+        "会子界的期限：初为三年一界，后曾改为九年、又缩短，末期权不回收旧钞。"
+      ],
+      "summary": "宋代货币与城市这一专题信息密度高，硬错在大铁钱的重量：六斤半是小铁钱，大铁钱十二斤十两。会子的年份与流通范围、抽解的比例（细货一成、粗货三成）、商税的排名、白银与铜钱的地位、坊郭户，也都需要收紧表述。"
+    },
+    {
+      "id": "w2-wh-medieval-manor",
+      "status": "verified",
+      "confidence": "high",
+      "facts": [
+        {
+          "id": "f1",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f2",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f3",
+          "verdict": "supported",
+          "confidence": "medium"
+        },
+        {
+          "id": "f4",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f5",
+          "verdict": "supported",
+          "confidence": "medium"
+        },
+        {
+          "id": "f6",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f7",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f8",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f9",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f10",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f11",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f12",
+          "verdict": "supported",
+          "confidence": "high"
+        }
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "1351年的是《劳工法令》（Statute of Labourers），其前身是1349年的《劳工条例》（Ordinance of Labourers），正文只提1351年不算错。",
+        "东欧“二次农奴制”（second serfdom）通常定位在16世纪，与波罗的海谷物出口的西向贸易同步；波兰、匈牙利、波希米亚、易北河以东都在其列。"
+      ],
+      "summary": "庄园这一专题写得克制：劳役与折算并存、庄园法庭、农奴与奴隶的差别、黑死病与劳工法令、东欧的二次农奴制、以及“英法档案不等于全欧”，都能与制度史文献对上。没有需要改写的硬错。"
+    },
+    {
+      "id": "w4-geo-world-food-trade",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        {
+          "id": "f1",
+          "verdict": "supported",
+          "confidence": "medium"
+        },
+        {
+          "id": "f2",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f3",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f4",
+          "verdict": "supported",
+          "confidence": "medium"
+        },
+        {
+          "id": "f5",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f6",
+          "verdict": "supported",
+          "confidence": "medium"
+        },
+        {
+          "id": "f7",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f8",
+          "verdict": "imprecise",
+          "confidence": "high",
+          "issue": "issue-01"
+        },
+        {
+          "id": "f9",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f10",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f11",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f12",
+          "verdict": "supported",
+          "confidence": "high"
+        }
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f8",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "粮食贸易也是水贸易。生产一公斤小麦大约需要一到一点五立方米水，进口粮食等于进口虚拟水；埃及、沙特这类缺水国，靠买粮缓解水压力，也把风险转移给了出口国。",
+          "problem": "小麦水足迹的全球平均约为每公斤1800升（1.8立方米），不同产区与灌溉方式差异很大，大致在0.7—2.5立方米之间；“一到一点五立方米”系统性偏低。虚拟水与进口粮缓解水压力的论断无误。",
+          "correction": "粮食贸易也是水贸易。生产一公斤小麦全球平均约需一点八立方米水，不同产区差别很大；进口粮食等于进口虚拟水。埃及、沙特这类缺水国靠买粮缓解水压力，也把风险转移给了出口国。",
+          "evidence": [
+            {
+              "title": "Mekonnen & Hoekstra：全球小麦绿蓝灰水足迹评估",
+              "url": "https://core.ac.uk/download/pdf/25707310.pdf",
+              "quote": "A global and high-resolution assessment of the green, blue and grey water footprint of wheat"
+            }
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "“四分之一”的口径：WTO 原文是“25 per cent of food production is traded internationally”，按产量而非热量计，正文“热量”是常见简化。",
+        "大米贸易占产量的比例：旧文献常称“从未超过5%”，近年约8%—10%，正文“约一成”按近年口径成立。",
+        "中国小麦库存约占全球一半，可由 USDA WASDE 的 World 与 World Less China 两栏库存数直接对出。"
+      ],
+      "summary": "粮食贸易的结构性判断——出口集中、进口集中、交易所定价、2007—08与2010—11的出口限制、大米市场薄、黑海协议3300万吨、中国小麦库存占半壁——都能核实。唯一需要修正的是小麦的水足迹数值。"
+    }
+  ]
+}

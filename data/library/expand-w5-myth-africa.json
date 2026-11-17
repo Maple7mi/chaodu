@@ -175,7 +175,16 @@
         "R. S. Rattray, Akan-Ashanti Folk-Tales, Oxford University Press, 1930",
         "Emily Zobel Marshall, Anansi's Journey: A Story of Jamaican Cultural Resistance, 2012",
         "Kwesi Yankah, The Proverb in the Context of Akan Rhetoric, 1989"
-      ]
+      ],
+      "factCheck": {
+        "status": "verified",
+        "confidence": "medium",
+        "batch": "batch-51",
+        "checkedAt": "2026-11-18T02:58:00+08:00",
+        "issueCount": 0,
+        "appliedAt": "2026-11-17T18:46:28.280Z",
+        "summary": "阿南西故事的阿肯语词源、尼亚梅索价四物、牙买加与古拉变体、Rattray 1930 记录与盖曼 2005 改写均有来源支撑。"
+      }
     },
     {
       "id": "w5-myth-africa-san-mantis",
@@ -352,7 +361,16 @@
         "Dorothea Bleek, The Mantis and His Friends, 1923",
         "Mathias Guenther, Tricksters and Trancers: Bushman Religion and Society, 1999",
         "J. D. Lewis-Williams, Believing and Seeing: Symbolic Meanings in Southern San Rock Paintings, 1981"
-      ]
+      ],
+      "factCheck": {
+        "status": "verified",
+        "confidence": "high",
+        "batch": "batch-50",
+        "checkedAt": "2026-11-18T02:42:00+08:00",
+        "issueCount": 0,
+        "appliedAt": "2026-11-17T18:46:28.280Z",
+        "summary": "十二条与 Bleek/Lloyd 档案及岩画研究文献相符，未发现硬伤。"
+      }
     },
     {
       "id": "w5-myth-africa-siberia-bear",
@@ -528,7 +546,16 @@
         "A. I. Hallowell, Bear Ceremonialism in the Northern Hemisphere, American Anthropologist, 1926",
         "Marjorie Mandelstam Balzer, Shamanic Worlds: Rituals and Lore of Siberia and Central Asia, 1997",
         "Sergei Shirokogoroff, Psychomental Complex of the Tungus, 1935"
-      ]
+      ],
+      "factCheck": {
+        "status": "verified",
+        "confidence": "high",
+        "batch": "batch-24",
+        "checkedAt": "2026-11-18T02:25:00+08:00",
+        "issueCount": 0,
+        "appliedAt": "2026-11-17T18:46:28.280Z",
+        "summary": "哈洛韦尔 1926、阿伊努 1955 年禁令、苏联时期压制与七冬一轮的民族志记录均可核实，未见实质错误。"
+      }
     },
     {
       "id": "w5-myth-africa-naga",
@@ -576,7 +603,7 @@
         },
         {
           "id": "f7",
-          "text": "泰国东北的湄公河一带，每年旱季结束时有“那伽火球”的说法：夜里有火球从河面升起。当地视为那伽显灵，研究者提出过沼气、磷化物等解释，双方各有坚持；这个例子说明神话并没有停在古代，它还在被用来解释眼前的现象。"
+          "text": "那伽火球出现在雨季安居结束的“出夏节”（Ok Phansa），时值阴历十一月满月夜，通常在公历10月；这是雨季结束而非旱季结束，当地寺院与旅游局都按此定期举办节庆。"
         },
         {
           "id": "f8",
@@ -704,7 +731,16 @@
         "Robert L. Brown, The Dvaravati Wheels of the Law and the Indianization of South East Asia, 1996",
         "Vittorio Roveda, Sacred Angkor: The Carved Reliefs of Angkor Wat, 2003",
         "Ian Harris, Cambodian Buddhism: History and Practice, 2005"
-      ]
+      ],
+      "factCheck": {
+        "status": "corrected",
+        "confidence": "high",
+        "batch": "batch-53",
+        "checkedAt": "2026-11-18T02:50:00+08:00",
+        "issueCount": 1,
+        "appliedAt": "2026-11-17T18:46:28.280Z",
+        "summary": "那伽的图像、神话与东南亚在地化叙述基本可靠，唯火球祭的时令说错，应为雨季结束而非旱季结束。"
+      }
     },
     {
       "id": "w5-myth-africa-bathala",
@@ -880,7 +916,16 @@
         "Juan de Plasencia, Customs of the Tagalogs, 1589",
         "William Henry Scott, Barangay: Sixteenth-Century Philippine Culture and Society, 1994",
         "F. Landa Jocano, Philippine Prehistory, 1975"
-      ]
+      ],
+      "factCheck": {
+        "status": "verified",
+        "confidence": "medium",
+        "batch": "batch-30",
+        "checkedAt": "2026-11-18T02:38:00+08:00",
+        "issueCount": 0,
+        "appliedAt": "2026-11-17T18:46:28.280Z",
+        "summary": "巴塔拉专题十二条均可由普拉森西亚 1589 年文本、博克斯手稿研究与菲律宾殖民史研究支撑，未发现需改写处。"
+      }
     },
     {
       "id": "w5-myth-africa-famadihana",
@@ -920,7 +965,7 @@
         },
         {
           "id": "f5",
-          "text": "家族墓室叫“特拉诺加西”，字面意思是“冷房子”，建在祖传的土地上，多为石砌，按辈分排列。墓室是家族最重要的财产之一，修得比住宅还结实；一个家族的历史，写在墓室的墙上和名单里。"
+          "text": "梅里纳人的家族墓室称“tranon-drazana”，意为“祖先之屋”；“trano gasy”指传统民居，而“trano manara”（冷房子）才指停放遗体的墓屋。墓室建在祖传土地上，多为石砌，按辈分排列，是家族最重要的财产之一。"
         },
         {
           "id": "f6",
@@ -1056,7 +1101,16 @@
         "Maurice Bloch, Placing the Dead: Tombs, Ancestral Villages and Kinship Organization in Madagascar, 1971",
         "J. C. McGeorge, An Examination of Secondary Burial in Madagascar, 1974",
         "Karen Middleton, Ancestors, Power and History in Madagascar, 1999"
-      ]
+      ],
+      "factCheck": {
+        "status": "corrected",
+        "confidence": "high",
+        "batch": "batch-49",
+        "checkedAt": "2026-11-18T02:55:00+08:00",
+        "issueCount": 1,
+        "appliedAt": "2026-11-17T18:46:28.280Z",
+        "summary": "翻尸节专题整体可靠；f5 把“trano gasy”（传统民居）当成“冷房子”墓室，属术语混淆，已按马达加斯加语汇表订正。"
+      }
     },
     {
       "id": "w5-psych-risk-airplane",
@@ -1108,7 +1162,7 @@
         },
         {
           "id": "f8",
-          "text": "把风险说成一个数字，往往不能说服人。研究显示，同样的概率用“每一万人中有几人”和用“百分之零点零几”表达，理解程度差别很大；格式改变，感受就改变，这类现象叫框架效应。"
+          "text": "把同一概率说成“每一万人中有几人”，比说成“百分之零点零几”更容易理解；这是数字格式造成的差异，广义上可算框架效应，但经典框架效应指收益与损失两种说法。"
         },
         {
           "id": "f9",
@@ -1232,7 +1286,16 @@
         "Paul Slovic, The Perception of Risk, Earthscan, 2000",
         "Daniel Kahneman, Thinking, Fast and Slow, 2011",
         "Amos Tversky & Daniel Kahneman, Availability: A Heuristic for Judging Frequency and Probability, 1973"
-      ]
+      ],
+      "factCheck": {
+        "status": "corrected",
+        "confidence": "medium",
+        "batch": "batch-52",
+        "checkedAt": "2026-11-18T02:58:00+08:00",
+        "issueCount": 1,
+        "appliedAt": "2026-11-17T18:46:28.280Z",
+        "summary": "心理测量范式、可得性启发、情感启发、乐观偏差等均可核实；唯 f8 把“频数格式效应”与“框架效应”混为一谈，需要区分。"
+      }
     },
     {
       "id": "w5-psych-risk-disaster",
@@ -1408,7 +1471,16 @@
         "Sandra L. Bloom & Brian Farragher, Restoring Sanctuary, 2013",
         "Fran H. Norris et al., 60,000 Disaster Victims Speak: Part I, Psychiatry, 2002",
         "Charles E. Fritz, Disasters and Mental Health, 1961"
-      ]
+      ],
+      "factCheck": {
+        "status": "verified",
+        "confidence": "medium",
+        "batch": "batch-13",
+        "checkedAt": "2026-11-18T02:22:00+08:00",
+        "issueCount": 0,
+        "appliedAt": "2026-11-17T18:46:28.280Z",
+        "summary": "12 条均为灾后心理社会研究的通行表述，未发现事实性错误。"
+      }
     },
     {
       "id": "w5-psych-risk-evacuation",
@@ -1468,7 +1540,7 @@
         },
         {
           "id": "f10",
-          "text": "演练的效果取决于是否真实。走过场式的演练会让人产生“我知道怎么做”的错觉，反而降低真实事件中的准备度；有效的演练包含临时变更出口、模拟烟雾、明确集合点，让人真正经历一次决策。"
+          "text": "演练的效果取决于设计是否接近真实。走过场式的演练收益有限，容易让人高估自己的准备程度；有效的演练会临时变更出口、模拟烟雾并明确集合点，让人真正经历一次决策，而不是按规定路线走一遍。"
         },
         {
           "id": "f11",
@@ -1584,7 +1656,16 @@
         "Dirk Helbing, Illés Farkas & Tamás Vicsek, Simulating Dynamical Features of Escape Panic, Nature, 2000",
         "John Drury, Chris Cocking & Steve Reicher, The Nature of Collective Resilience, 2009",
         "Erica Kuligowski, Predicting Human Behavior During Fires, Fire Technology, 2013"
-      ]
+      ],
+      "factCheck": {
+        "status": "corrected",
+        "confidence": "high",
+        "batch": "batch-03",
+        "checkedAt": "2026-11-18T02:45:00+08:00",
+        "issueCount": 1,
+        "appliedAt": "2026-11-17T18:46:28.280Z",
+        "summary": "人群密度、瓶颈流量、快即是慢、共同身份与世贸中心疏散等核心结论均有可靠来源，仅对“走过场演练反而降低准备度”作了限定。"
+      }
     },
     {
       "id": "w5-psych-risk-climate",
@@ -1612,7 +1693,7 @@
         },
         {
           "id": "f2",
-          "text": "量表是这个领域的基础工具。二〇二〇年克莱顿与卡拉兹亚发表气候焦虑量表，二〇二一年霍格等人发表生态焦虑量表；两项工具测量的构念有重叠但不完全相同，一个偏重对气候的担忧，一个偏重对生态破坏的悲痛。"
+          "text": "量表是这个领域的基础工具。二〇二〇年克莱顿与卡拉兹亚发表气候焦虑量表，二〇二一年霍格等人发表生态焦虑量表；两项工具测量的构念有重叠但不完全相同，都聚焦焦虑，而非对生态破坏的悲痛。"
         },
         {
           "id": "f3",
@@ -1760,7 +1841,16 @@
         "Susan Clayton & Bryan T. Karazsia, Development and Validation of a Measure of Climate Change Anxiety, 2020",
         "Caroline Hickman et al., Climate Anxiety in Children and Young People, Lancet Planetary Health, 2021",
         "Glenn Albrecht, Earth Emotions: New Words for a New World, 2019"
-      ]
+      ],
+      "factCheck": {
+        "status": "corrected",
+        "confidence": "medium",
+        "batch": "batch-08",
+        "checkedAt": "2026-11-18T02:32:00+08:00",
+        "issueCount": 2,
+        "appliedAt": "2026-11-17T18:46:28.280Z",
+        "summary": "量表、调查数字与临床边界均可核实；两处需要改：量表构念被误写成“悲痛”，否认/末日论防御说缺乏实证。"
+      }
     }
   ]
 }

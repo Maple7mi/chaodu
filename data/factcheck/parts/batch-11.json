@@ -1,0 +1,272 @@
+{
+  "batch": "batch-11",
+  "checkedAt": "2026-11-18T02:41:00+08:00",
+  "dossiers": [
+    {
+      "id": "cn-history-yangwu",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "wrong", "confidence": "high", "issue": "issue-01"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "imprecise", "confidence": "high", "issue": "issue-02"},
+        {"id": "f10", "verdict": "supported", "confidence": "high"},
+        {"id": "f11", "verdict": "supported", "confidence": "medium"},
+        {"id": "f12", "verdict": "supported", "confidence": "high"}
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f7",
+          "severity": "major",
+          "verdict": "wrong",
+          "claim": "轮船招商局开办时资本约二百万两，其中官款与商股各占一部分。",
+          "problem": "二百万两是招商局两期招股后的资本总额（1873年后逐步达到），不是开办时的资本。开办时实收股本仅约一万两，另由户部借给官款约十二万三千两起办，官款约占当时资本的两成。",
+          "correction": "洋务企业多采用“官督商办”，如轮船招商局、开平矿务局，官府给政策与部分资本，商人出钱经营，盈亏与官场绑在一起。招商局开办时实收股本仅一万两，靠官款起办，后经两期招股才达到约二百万两。",
+          "evidence": [
+            {"title": "晚清新式企业中的股份制分析——以轮船招商局为中心", "url": "https://1872.cmhk.com/xueshu/5406.html", "quote": "最初，清政府对招商局只是在筹备初注入官款“钱二十万串”（实收18.8万串，合12.3万两，占资本总额的20%）；招商局两期共200万两资本总额"},
+            {"title": "轮船招商局（百度百科）", "url": "https://baike.baidu.com/item/%E8%BD%AE%E8%88%B9%E6%8B%9B%E5%95%86%E5%B1%80/996699", "quote": "开办之初只筹集到股本1万两，经营不到半年便亏损4.2万两"}
+          ]
+        },
+        {
+          "id": "issue-02",
+          "factId": "f9",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "1894年甲午一战全军覆没。",
+          "problem": "甲午战争1894年爆发，但北洋海军是在1895年2月威海卫保卫战失败后投降、全军覆没的，不能压缩到1894年一年内。同条中“1888年成军、此后六年未添新舰、吨位曾居亚洲第一、挪用海军经费修颐和园”均可核实。",
+          "correction": "北洋水师1888年成军，军舰吨位一度居亚洲第一。此后六年未添新舰，1894年甲午开战，次年在威海卫全军覆没，这个结局成了洋务运动最直接的判决。战前海军经费挪去修颐和园的说法流传很广，具体数额仍有争论。",
+          "evidence": [
+            {"title": "甲午战后清政府对北洋海军将弁议恤档案（中国第一历史档案馆）", "url": "https://fhac.com.cn/research_institute/history_detail/detail/4270.html", "quote": "2月17日，日本舰队进入港内，曾经号称“亚洲第一”的北洋海军就此全军覆没"},
+            {"title": "刘杰：中日海军战略差异决定甲午战局（海外网）", "url": "http://opinion.haiwainet.cn/BIG5/n/2014/0314/c345415-20404511-2.html", "quote": "1888年北洋海军成军时……是日本的近2倍。更重要的是，北洋海军成军后再未添置一艘军舰……清廷挪用海军经费为慈禧修建颐和园"}
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "书目三种均为通史/专史，无页码；核查改用可检索的论文、档案馆史料与博物馆/社科网页面。",
+        "“翻译馆译书约一百六十种”可支持：不同统计给出160、162、176、183种，属口径差异，正文取约数无误。"
+      ],
+      "summary": "12条中9条可核实；招商局开办资本数字错误，北洋海军覆没年份需从1894改为1895，其余年代、人名、机构沿革与译书规模均站得住。"
+    },
+    {
+      "id": "w2-wh-islamic-abbasid-revolution",
+      "status": "verified",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "medium"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "supported", "confidence": "medium"},
+        {"id": "f11", "verdict": "supported", "confidence": "high"},
+        {"id": "f12", "verdict": "supported", "confidence": "high"}
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "四种书目均为学术通史（Shaban 1970、Kennedy 2004、希提、塔巴里），核查以英文百科、大学出版社与 Brill 章节互证；未逐页核对原书。"
+      ],
+      "summary": "全部12条可核实：661年定都大马士革、747年黑旗起事、750年扎卜河之战、756年科尔多瓦、762年建巴格达、803年巴尔马克清洗、1258年蒙古陷城，年代与因果叙述均与学界一致。"
+    },
+    {
+      "id": "w2-wh-islamic-ibn-khaldun",
+      "status": "verified",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "medium"},
+        {"id": "f7", "verdict": "supported", "confidence": "medium"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "medium"},
+        {"id": "f10", "verdict": "supported", "confidence": "medium"},
+        {"id": "f11", "verdict": "supported", "confidence": "high"},
+        {"id": "f12", "verdict": "supported", "confidence": "medium"}
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "《历史绪论》无中译本页码可核；阿萨比亚、循环模型、游牧-定居互补等均按牛津书目（Oxford Bibliographies）与学术期刊综述核对。",
+        "“奥斯曼学者重新发现”一说有争议：牛津书目指出“19世纪前无人问津”的说法被夸大，17世纪已有奥斯曼学者阅读，故该句按“后世学者重新发现”理解可成立，但不宜强调“奥斯曼”独家。"
+      ],
+      "summary": "12条均属思想史概述，与牛津书目及研究综述一致；仅“生前影响有限、后由奥斯曼学者重新发现”一句的传播史细节偏简化，不构成事实错误。"
+    },
+    {
+      "id": "w5-psych-long-distance-daily",
+      "status": "verified",
+      "confidence": "medium",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "medium"},
+        {"id": "f5", "verdict": "supported", "confidence": "medium"},
+        {"id": "f6", "verdict": "supported", "confidence": "medium"},
+        {"id": "f7", "verdict": "supported", "confidence": "medium"},
+        {"id": "f8", "verdict": "supported", "confidence": "medium"},
+        {"id": "f9", "verdict": "supported", "confidence": "medium"},
+        {"id": "f10", "verdict": "supported", "confidence": "high"},
+        {"id": "f11", "verdict": "supported", "confidence": "medium"}
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "三条书目真实存在且与论点对应：Stafford & Merolla 2007 支持“异地更稳定/理想化”，Jiang & Hancock 2013 支持“异地亲密度不低”。",
+        "“大学生约三分之一”常见统计为32.5%，属调查性估计而非普查，正文用“约三分之一”措辞稳妥。"
+      ],
+      "summary": "11条均与已发表研究方向一致；关键结论（异地分手率不更高、理想化、重聚后满意度下降、结束时间不确定带来压力）分别有Stafford & Merolla 2007、Jiang & Hancock 2013、Maguire 2007、Stafford等2006年研究支撑。"
+    },
+    {
+      "id": "w1-geo-world-madagascar",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "wrong", "confidence": "high", "issue": "issue-01"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "medium"},
+        {"id": "f5", "verdict": "supported", "confidence": "medium"},
+        {"id": "f6", "verdict": "supported", "confidence": "medium"},
+        {"id": "f7", "verdict": "supported", "confidence": "medium"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "medium"},
+        {"id": "f10", "verdict": "imprecise", "confidence": "medium", "issue": "issue-02"},
+        {"id": "f11", "verdict": "supported", "confidence": "high"},
+        {"id": "f12", "verdict": "supported", "confidence": "high"}
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f2",
+          "severity": "major",
+          "verdict": "wrong",
+          "claim": "狐猴、马岛獴、指猴和猴面包树都只在这里有。",
+          "problem": "猴面包树属（Adansonia）并非马达加斯加特有：现存的8种中6种产自马达加斯加，1种在非洲大陆，1种在澳大利亚。狐猴、马岛獴、指猴确为特有类群。",
+          "correction": "长期隔离让岛上的生物走上独立的路。狐猴、马岛獴、指猴都只在这里有，八种猴面包树有六种是特有种；岛上约九成的维管植物是特有种，不少类群在非洲大陆上早已消失，空缺由少数祖先的后代填满。",
+          "evidence": [
+            {"title": "The rise of baobab trees in Madagascar, Nature (2024)", "url": "https://www.nature.com/articles/s41586-024-07447-4", "quote": "The eight extant baobab species form three geographic lineages, A. digitata on continental Africa, A. gregorii in Northwestern Australia and the remainder in Madagascar"},
+            {"title": "Madagascar and Indian Ocean Islands - Species (CEPF)", "url": "https://www.cepf.net/our-work/biodiversity-hotspots/madagascar-and-indian-ocean-islands/species", "quote": "around 90 percent of vascular plants found only on the island"}
+          ]
+        },
+        {
+          "id": "issue-02",
+          "factId": "f10",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "研究估计原始森林已失去约四成。",
+          "problem": "“四成”对应的是1953—2014年间天然林覆盖的损失（44%），缺了时间范围；若读作“有人类以来原始森林只剩四成”，则与常被引用的更高损失比例冲突。补上时段即可。",
+          "correction": "森林消失后，雨水直接打在裸露的红土上。研究估计1953至2014年间天然林已失去约四成，河流输沙量上升，西部河口淤积加快，水库和珊瑚礁同时受影响，疏浚成本逐年增加。",
+          "evidence": [
+            {"title": "Combining global tree cover loss data with historical national forest cover maps... Madagascar (FAO AGRIS 记录)", "url": "https://agris.fao.org/search/en/records/65e0067b0f3e94b9e5de96e7", "quote": "We estimated that Madagascar has lost 44% of its natural forest cover over the period 1953–2014"},
+            {"title": "Vieilledent et al. 2018, Biological Conservation 222: 189-197（全文 PDF）", "url": "https://mg.chm-cbd.net/objectifs-d-aichi/strategique-b/objectif-5/documents-nationaux/combining-global-tree-cover-loss-data-historical-national-forest-cover-maps-look/download/fr/1/Combining-global-tree-cover-loss-data-with-historical-national_2018_Biologic.pdf?action=view", "quote": "Natural forests in Madagascar covered 16.0 Mha in 1953... In 2014, the forest cover dropped to 8.9 Mha... Madagascar has lost 44% of its natural forest between 1953 and 2014"}
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "Goodman & Benstead 2003 为权威编著但无页码；IUCN 2020 狐猴评估与 FAO 森林评估均可检索到对应数字。",
+        "“岛上约九成维管植物为特有种”“狐猴107种、98%受威胁”“全球约80%天然香草”三项均有机构来源。"
+      ],
+      "summary": "12条中10条可核实；把猴面包树整体说成马达加斯加特有是明确错误（8种中仅6种特有），森林损失“四成”需补1953—2014年这一时段。"
+    },
+    {
+      "id": "world-myth-kojiki",
+      "status": "verified",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "medium"},
+        {"id": "f10", "verdict": "supported", "confidence": "high"},
+        {"id": "f11", "verdict": "supported", "confidence": "high"},
+        {"id": "f12", "verdict": "supported", "confidence": "high"}
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "书目中《古事记传》“1798年完成”可核：国立国会图书馆资料称宣长历时三十余年、1798年（宽政10）完成44卷。",
+        "神话情节（淤能碁吕岛、黄泉国、天岩户、八岐大蛇、让国、天孙降临）按《古事记》通行文本核对，未逐句引原书。"
+      ],
+      "summary": "12条均可核实：712年成书、太安万侣编、三卷分卷、天武下令、720年《日本书纪》、宣长《古事记传》三十余年，年代与人物无误；神话叙述与通行本一致。"
+    },
+    {
+      "id": "w2-wh-medieval-gothic",
+      "status": "verified",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "medium"},
+        {"id": "f8", "verdict": "supported", "confidence": "medium"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "supported", "confidence": "high"},
+        {"id": "f11", "verdict": "supported", "confidence": "medium"},
+        {"id": "f12", "verdict": "supported", "confidence": "high"}
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "潘诺夫斯基《哥特式建筑与经院哲学》中译本与 Simson 1956 均无页码；絮热的的光神学、飞扶壁与肋拱结构按建筑史通说核对。",
+        "“误差以厘米计”为工艺描述，未见直接测量研究，判 supported 但置信度中等，不算硬数字。"
+      ],
+      "summary": "12条均可核实：Gothic 原为贬称、opus francigenum、尖拱/肋拱/飞扶壁的分工、彩窗与铅条、絮热的光神学、1284年博韦拱顶坍塌、维奥莱-勒-杜克修复，均与建筑史文献一致。"
+    },
+    {
+      "id": "w2-wh-medieval-university",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "imprecise", "confidence": "high", "issue": "issue-01"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "supported", "confidence": "medium"},
+        {"id": "f11", "verdict": "supported", "confidence": "high"},
+        {"id": "f12", "verdict": "supported", "confidence": "medium"}
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f7",
+          "severity": "major",
+          "verdict": "imprecise",
+          "claim": "巴黎的一次冲突导致部分师生迁往牛津或剑桥。",
+          "problem": "把两次不同事件并成一次。1229年巴黎大学与市民及教皇使节冲突后“解散”两年，师生主要迁往昂热，另有奥尔良、图卢兹及部分渡海去英格兰；剑桥并非得自这次冲突，而是1209年牛津内部冲突后分出；牛津的起源通常追溯到1167年英王召回巴黎的英国学者。",
+          "correction": "师生与市民的冲突常以集体迁校收场。1229年巴黎大学解散，师生多迁往昂热、奥尔良，也有人去了牛津；剑桥则是1209年从牛津分出去的。城市因此失去租金与生意，只能让步。",
+          "evidence": [
+            {"title": "The World of the Middle Ages (HathiTrust 全文)", "url": "https://babel.hathitrust.org/cgi/ssd?id=mdp.39015024887880;page=ssd;view=plaintext;seq=599;num=571", "quote": "For two years (1229-31) the University of Paris was \"dispersed,\" the masters and scholars settling mostly at Angers... Many universities were founded as the result of migrations from older schools, Oxford from Paris, Cambridge from Oxford"},
+            {"title": "Schachner, The Mediaeval Universities (1962), p.69（HathiTrust 全文）", "url": "https://babel.hathitrust.org/cgi/ssd?id=mdp.39015013085140;page=ssd;view=plaintext;seq=83;num=69", "quote": "The scholars scattered over the face of Europe... others migrated to England, and the infant Universities of Oxford"}
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "Rashdall 1895 与 Haskins 1923 均为经典著作但无页码；核查以 HathiTrust 全文与 Compayré 大学制度史互证。",
+        "“中世纪末大学增至数十所”为通行估计（约80所），未逐一列名。"
+      ],
+      "summary": "12条中11条可核实；唯一问题是把1229年巴黎解散与牛津、剑桥的由来混为一次迁校，需按两次不同迁移改写。"
+    }
+  ]
+}

@@ -1,0 +1,315 @@
+{
+  "batch": "batch-61",
+  "checkedAt": "2026-11-18T02:52:00+08:00",
+  "dossiers": [
+    {
+      "id": "world-geo-netherlands",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "medium"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "imprecise", "confidence": "high", "issue": "issue-01"},
+        {"id": "f11", "verdict": "supported", "confidence": "high"}
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f10",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "标准每六年评估一次",
+          "problem": "《水法》第2.12条规定全部一级堤防每十二年评估一次；六年一轮是三角洲决策（Delta Decisions）的调整周期，两者被混为一谈。",
+          "correction": "海防标准按风险分级。荷兰为不同区域规定可承受的洪水频率，最严格的堤防按约万年一遇设计；法定标准每十二年评估一次，依据最新的水位、地面沉降与气候预估调整。",
+          "evidence": [
+            {"title": "Regeling veiligheid primaire waterkeringen (Stcrt. 2016, 23043)", "url": "https://zoek.officielebekendmakingen.nl/behandelddossier/stcrt-2016-23043.pdf", "quote": "Elke 12 jaar aannames toetsen … iedere 12 jaar zal worden bezien of aanpassing van de normering nodig is"},
+            {"title": "Parlementaire monitor — Waterwet artikel 2.12", "url": "https://www.parlementairemonitor.nl/9353000/1/j4nvgs5kjg27kof_j9vvij5epmj1ey0/vko0goezkryn/f=/.docx", "quote": "de veiligheid van alle primaire waterkeringen elke twaalf jaar moet worden beoordeeld"}
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "f2 的「约三千个圩田」只见于中文媒体转述，缺荷兰官方统计口径；中世纪起源与十六世纪后风车排水有荷兰水务史料支持。",
+        "f8 的「还地于河」2006 年启动、约 2015 年完成，属国家级计划，原文未给起止年份，不需改。",
+        "f10 的法定评估周期已由六年改为十二年（2017 年新标准体系），原文沿用了旧说法。"
+      ],
+      "summary": "荷兰专题的年份、数量与工程参数基本可靠，仅海防标准评估周期一项需要更正。"
+    },
+    {
+      "id": "w3-psych-emotion-contagion",
+      "status": "verified",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "medium"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "medium"},
+        {"id": "f6", "verdict": "supported", "confidence": "medium"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "supported", "confidence": "medium"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "supported", "confidence": "medium"},
+        {"id": "f11", "verdict": "supported", "confidence": "medium"},
+        {"id": "f12", "verdict": "supported", "confidence": "medium"}
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "f2 的「几百毫秒内同步」属模仿/互动同步研究的常见量级，但具体毫秒数各研究不一，原文用「几百毫秒」是稳妥的概括。",
+        "f5 的生理同步研究多在情侣或小组中进行，原文已明确写出「相关不等于传染」，限定充分。",
+        "f6 的纵向证据是朋友配对（dyad）研究而非全网数据，原文用「有纵向网络研究」略宽，但随后点出同质性，结论方向成立。"
+      ],
+      "summary": "情绪传染专题的文献、年份、样本量与限度说明均可核实，未发现需要修改的断言。"
+    },
+    {
+      "id": "cn-myth-baishe",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "medium"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "imprecise", "confidence": "high", "issue": "issue-01"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "medium"},
+        {"id": "f10", "verdict": "supported", "confidence": "high"},
+        {"id": "f11", "verdict": "supported", "confidence": "high"},
+        {"id": "f12", "verdict": "supported", "confidence": "high"}
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f6",
+          "severity": "major",
+          "verdict": "imprecise",
+          "claim": "方成培《雷峰塔传奇》与黄图珌的看山阁本增加「端阳」「求草」「水漫」「断桥」「祭塔」等折",
+          "problem": "增折的归属被平摊给两人。黄图珌 1738 年看山阁本奠定框架，但结局仍是「永镇雷峰塔」；端阳、求（盗）草、水斗、断桥、祭塔等关目主要出自方成培 1771 年在梨园旧抄本基础上的《雷峰塔传奇》。",
+          "correction": "清代是白蛇故事转变的关键。端阳、求草、水斗、断桥、祭塔等折主要出自方成培一七七一年的《雷峰塔传奇》，他在梨园旧抄本上增订而成；黄图珌看山阁本奠定框架，结局仍是永镇雷峰塔。",
+          "evidence": [
+            {"title": "悠悠三百年 戏曲舞台上的「白蛇传说」（中国作家网）", "url": "https://www.chinawriter.com.cn/n1/2025/0226/c419389-40426350.html", "quote": "到1771年，清代文人方成培在「梨园旧抄本」基础上创作了《雷峰塔传奇》曲本，后世为观众所喜闻乐见的「端阳」「求（盗）草」「水斗」「断桥」「祭塔」等关目皆本于此"}
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "f8 雷峰塔建塔年代有 975 与 977 两说，本条件太平兴国二年（977），与方志类报道一致；塔为钱俶为黄妃得子而建，属相传。",
+        "f2《夷坚志·孙知县妻》中的白蛇只求做妻子、并无害人之心，与「患病或死亡为主」略有出入，但同书《同州白蛇》等条仍以蛇妖为害，原句作为类型概括可以成立。"
+      ],
+      "summary": "白蛇传专题的文本谱系、年代与非遗信息基本准确，仅清代增折的归属需要从两人改为主要归方成培。"
+    },
+    {
+      "id": "w3-geo-world-urban-heat-island",
+      "status": "corrected",
+      "confidence": "medium",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "medium"},
+        {"id": "f6", "verdict": "imprecise", "confidence": "medium", "issue": "issue-01"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "supported", "confidence": "high"},
+        {"id": "f11", "verdict": "supported", "confidence": "high"},
+        {"id": "f12", "verdict": "supported", "confidence": "medium"}
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f6",
+          "severity": "major",
+          "verdict": "imprecise",
+          "claim": "城市中心的超额死亡显著高于郊区",
+          "problem": "可核实的结论是城市整体超额死亡高于乡村、且城市内部差异很大；巴黎 2003 年的研究明确说死亡增幅在城内分布不均，按街区社会经济状况分化，并不能简单概括为「中心高于郊区」。",
+          "correction": "热岛与热浪叠加时最危险。二〇〇三年欧洲与二〇一〇年莫斯科热浪中，城市超额死亡高于乡村，城市内部差异也很大，独居老人与无空调家庭风险最高；空调普及程度往往比气温更能解释死亡差异。",
+          "evidence": [
+            {"title": "Canicule et surmortalité à Paris en août 2003, le poids des facteurs socio-économiques", "url": "https://hal.science/inserm-00665842", "quote": "Son impact a été plus massif en milieu urbain que dans les communes rurales … cette surmortalité ne s'est pas produite de manière homogène dans la ville"},
+            {"title": "Intraurban social risk and mortality patterns during extreme heat events: Moscow, 2010-2017", "url": "https://www.sciencedirect.com/science/article/abs/pii/S1353829220301684", "quote": "The intraurban territory of Moscow is significantly differentiated according to the temperature regime"}
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "f7 的同城五度以上差异见 Ziter et al. 2019（PNAS）对街区尺度热岛的测量，原文未给作者，属可省略的引用。",
+        "f12 的巴塞罗那超级街区、新加坡通风廊道、墨尔本树冠目标均为规划案例，效果需长期监测，原文已作限定。"
+      ],
+      "summary": "城市热岛的物理机制、测量口径与缓解手段均可核实，仅热浪死亡的城市内部对比需要收窄表述。"
+    },
+    {
+      "id": "w3-myth-eastasia-susanoo",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "wrong", "confidence": "high", "issue": "issue-01"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "medium"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "medium"},
+        {"id": "f8", "verdict": "supported", "confidence": "medium"},
+        {"id": "f9", "verdict": "supported", "confidence": "medium"},
+        {"id": "f10", "verdict": "supported", "confidence": "medium"},
+        {"id": "f11", "verdict": "supported", "confidence": "medium"},
+        {"id": "f12", "verdict": "imprecise", "confidence": "high", "issue": "issue-02"}
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f3",
+          "severity": "major",
+          "verdict": "wrong",
+          "claim": "一对老夫妇脚摩迟鸟与手摩迟鸟",
+          "problem": "专名多出「鸟」字。《古事记》里这对夫妇是足名椎命（脚摩迟）、手名椎命（手摩迟），是栉名田比卖的父母，并非鸟名；后世中文转写也没有「脚摩迟鸟」这种写法。",
+          "correction": "在肥河边，他遇到一对老夫妇脚摩迟与手摩迟，和他们的女儿栉名田比卖；老夫妇说，八岐大蛇每年吃一个女儿，已经吃了七个，今年轮到第八个，老夫妇哭得说不出话，女儿站在旁边发抖。",
+          "evidence": [
+            {"title": "八岐大蛇（维基百科）", "url": "https://zh.wikipedia.org/zh-mo/八岐大蛇", "quote": "足名椎命（脚摩迟）、手名椎命（手摩迟）夫妇……幺女栉名田比卖"},
+            {"title": "《古事记》神代卷相关论文（引原文）", "url": "http://183.214.211.146:28081/web/downFile.aspx?id=33953", "quote": "故、其足名椎、手名椎……"}
+          ]
+        },
+        {
+          "id": "issue-02",
+          "factId": "f12",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "岛根县的须贺神社",
+          "problem": "神社名是「須我神社」（すがじんじゃ），位于島根県雲南市大東町須賀；「须贺」是地名，不是社名。",
+          "correction": "岛根县雲南市大東町須賀的須我神社以他和栉名田比卖为祭神，附近的地名与传说仍按《古事记》的叙述解释；神话在这里不只是文本，也长在地名、祭礼和神社的社传里，往往比书里记得更细。",
+          "evidence": [
+            {"title": "須我神社（國學院大學 古事記学センター）", "url": "https://kojiki.kokugakuin.ac.jp/jinjya/sugajinja/", "quote": "島根県雲南市大東町須賀……祭神 須佐之男命・稲田比売命"}
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "f5「筑起八个酒槽」对应《古事记》的八门八槽（八つの門と酒槽），「一剑一个」是叙述性夸张，不构成事实错误。",
+        "f6 三种神器在即位礼上被奉献，草薙剑本体供奉于热田神宫，原文「即位时的信物」是仪式性说法，可以成立。",
+        "f7「须贺」地名源于须佐之男叹「すがすがし」的传说属社传，非严格词源。"
+      ],
+      "summary": "须佐之男专题的叙事骨架与《古事记》吻合，但老夫妇专名多字、神社名写错，需两处更正。"
+    },
+    {
+      "id": "w4-cn-history-yangwu-chuanpao",
+      "status": "verified",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "supported", "confidence": "high"},
+        {"id": "f11", "verdict": "supported", "confidence": "medium"},
+        {"id": "f12", "verdict": "supported", "confidence": "medium"}
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "f2 江南制造总局为 1865 年曾国藩会同李鸿章奏准设立，通常归在李名下，属常见简写，不算错。",
+        "f6 开平矿务局 1877 年设局、1878 年 7 月正式成立，「1878 年开办」成立；1900 年庚子事变中被英资墨林公司骗取矿权，原文「义和团运动期间」准确。",
+        "f7 京师同文馆 1862、上海广方言馆 1863、幼童留美 1872 年均属通行史实，原文未给具体年份，不需补。"
+      ],
+      "summary": "洋务运动专题的机构、年份、体制与结局均有可靠史料支撑，未发现需要修改的断言。"
+    },
+    {
+      "id": "cn-myth-jingwei",
+      "status": "unverifiable",
+      "confidence": "medium",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "medium"},
+        {"id": "f4", "verdict": "supported", "confidence": "medium"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "supported", "confidence": "medium"},
+        {"id": "f9", "verdict": "supported", "confidence": "medium"},
+        {"id": "f10", "verdict": "unsupported", "confidence": "medium", "issue": "issue-01"},
+        {"id": "f11", "verdict": "supported", "confidence": "high"}
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f10",
+          "severity": "minor",
+          "verdict": "unsupported",
+          "claim": "抗战时期有以精卫为名的刊物与戏剧",
+          "problem": "检索未见抗战时期以「精卫」为名的刊物或戏剧的可靠记载；「精卫」作为抗战动员意象多见于诗文，但具体刊物、剧目无法核实，不能当作已证事实。",
+          "correction": null,
+          "evidence": [
+            {"title": "精卫 文化实力下的战争与和平（人间副刊剧评）", "url": "https://www.chinatimes.com/cn/newspapers/20250514000745-260115", "quote": "王安祈和国光剧团的《精卫》……它也是民国史里……汪精卫"}
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "f3「东流注于河」的「河」指古黄河，今漳水属海河水系，按现代地理读会错位；原句引《山海经》原文，可以成立。",
+        "f6「刑天舞干戚」为宋人曾纮据《山海经》校改，另有「形夭无千岁」异文，属版本问题，不影响原句。"
+      ],
+      "summary": "精卫专题的经文、别名、陶诗与叙事分析均可核实，唯抗战时期刊物/戏剧一说找不到来源。"
+    },
+    {
+      "id": "w1-myth-world-tuatha",
+      "status": "corrected",
+      "confidence": "medium",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "medium"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "medium"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "imprecise", "confidence": "high", "issue": "issue-01"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "imprecise", "confidence": "medium", "issue": "issue-02"},
+        {"id": "f11", "verdict": "supported", "confidence": "high"},
+        {"id": "f12", "verdict": "supported", "confidence": "medium"}
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f5",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "王位交给了有半血统的布雷斯",
+          "problem": "「有半血统」没有说明是哪一半。布雷斯之父埃拉塔是福摩里人的王，母为达南族的埃里乌，故他是半福摩里血统；这一限定正是他后来向福摩里人求援的伏笔。",
+          "correction": "第一次莫伊图拉之战，他们打败菲波格。国王努阿达在阵中失去一条手臂，因为身体残缺不能继续为王，王位交给了母亲是福摩里人、具半福摩里血统的布雷斯。修复与复位，成了后面故事的引线。",
+          "evidence": [
+            {"title": "Tuatha Dé and Fomoiri in Cath Maige Tuired (Elizabeth Gray)", "url": "https://www.taylorfrancis.com/chapters/edit/10.5117/9789463729055_CH02/tuatha-d%C3%A9-fomoiri-cath-maige-tuired-elizabeth-gray", "quote": "Elatha, king of the Fomoiri, father of … the half-Fomorian Bres, whose deposition from the Tuatha Dé kingship brings about the conflict"}
+          ]
+        },
+        {
+          "id": "issue-02",
+          "factId": "f10",
+          "severity": "major",
+          "verdict": "imprecise",
+          "claim": "达格达把锅里的东西分给所有人，诗人写下预言，莫瑞甘宣布和平",
+          "problem": "《第二次莫伊图拉之战》的结尾是莫瑞甘宣告胜利并吟诵关于世界终局的预言，不是「诗人写下预言」；「达格达把锅里东西分给所有人」在文本中无据，达格达之锅是四宝物之一，不是结尾的分食场面。",
+          "correction": "战后，莫瑞甘向众神宣告胜利，并吟诵关于世界终局的预言；《图雷德之战》以这段预言收束，而不是以分锅或诗人歌唱收尾。胜利必须被宣告、被预言，故事才算真正结束。",
+          "evidence": [
+            {"title": "Carey, Myth and mythology in Cath Maige Tuired (Studia Celtica 24-25)", "url": "https://bill.celt.dias.ie/vol4/pdf/displayObject.php?TreeID=3629", "quote": "Appendix: The Morrigan's prophecy of the end of the world; diplomatic and normalised text from MS Harley 5280"},
+            {"title": "Cath Mag Tuiread（Stokes 译本节选）", "url": "https://www.walkwithtrees.com/uploads/1/1/5/1/115112675/stage_11-_into_the_earth_.pdf", "quote": "the knowledge of the ending of the world was given to her … 'I shall not see a world that will be dear to me.'"}
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "f1 旧说「有知识的人」已被词源研究否定，现通行「女神达努的族人」；「较早文本只写作图哈德」指 Tuatha Dé 的早期形式，属可接受的概括。",
+        "f3 五月一日登陆与贝尔坦节（Bealtaine）的对应见于爱尔兰节日研究，属编年史家的安排，原文已作「被定在」的处理。",
+        "f11「丘中之人」（aes síde）即后世仙境/精灵，属通行译法。"
+      ],
+      "summary": "图哈德达南专题的入侵序列、宝物与两场莫伊图拉之战均可核实，需补布雷斯的血统限定并改正结尾仪式。"
+    }
+  ]
+}

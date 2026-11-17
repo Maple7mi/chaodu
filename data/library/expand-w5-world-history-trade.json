@@ -51,7 +51,7 @@
         },
         {
           "id": "f8",
-          "text": "十七世纪后期，英国东印度公司发现印度棉布和茶叶的利润更高，胡椒贸易的份额下降。十八世纪，胡椒改由地方王公、华人商人和乡村市集经营，欧洲公司只在几个港口设站收购。"
+          "text": "十八世纪英国东印度公司仍在苏门答腊明古连等地直接组织胡椒种植，向地方王公摊派定额、按年巡查收购；王公与华人商人承担中间转运，公司并未退为只在港口设站。"
         },
         {
           "id": "f9",
@@ -172,7 +172,16 @@
         "K. N. Chaudhuri, The Trading World of Asia and the English East India Company, 1660–1760, Cambridge University Press, 1978。",
         "C. R. Boxer, The Dutch Seaborne Empire, 1600–1800, Alfred A. Knopf, 1965。",
         "Jack Turner, Spice: The History of a Temptation, Alfred A. Knopf, 2004。"
-      ]
+      ],
+      "factCheck": {
+        "status": "corrected",
+        "confidence": "high",
+        "batch": "batch-53",
+        "checkedAt": "2026-11-18T02:50:00+08:00",
+        "issueCount": 1,
+        "appliedAt": "2026-11-17T18:46:28.289Z",
+        "summary": "香料的生产、贸易路线、荷兰垄断与近代价格下跌均可核实，仅十八世纪胡椒经营方式的描述低估了公司的直接介入。"
+      }
     },
     {
       "id": "w5-wh-trade-cotton",
@@ -349,7 +358,16 @@
         "Sven Beckert, Empire of Cotton: A Global History, Alfred A. Knopf, 2014。",
         "Giorgio Riello, Cotton: The Fabric that Made the Modern World, Cambridge University Press, 2013。",
         "Eric Hobsbawm, Industry and Empire, Weidenfeld & Nicolson, 1968。"
-      ]
+      ],
+      "factCheck": {
+        "status": "verified",
+        "confidence": "high",
+        "batch": "batch-50",
+        "checkedAt": "2026-11-18T02:42:00+08:00",
+        "issueCount": 0,
+        "appliedAt": "2026-11-17T18:46:28.289Z",
+        "summary": "十二条均有可靠文献支撑，未发现需要修改的硬伤。"
+      }
     },
     {
       "id": "w5-wh-trade-coffee",
@@ -413,7 +431,7 @@
         },
         {
           "id": "f11",
-          "text": "1830年代，英国人在印度阿萨姆发现野生茶树，又引进中国茶种，开辟种植园。十九世纪后期印度茶大量进入英国市场，价格下降，饮茶成了日常。英国从茶叶进口国变成了茶叶生产国之一。"
+          "text": "十九世纪后期印度茶大量进入英国市场，价格下降，饮茶成了日常；茶叶生产重心从中国转向英属印度，英国本土并不种茶，仍是进口国。"
         },
         {
           "id": "f12",
@@ -522,7 +540,16 @@
         "Brian Cowan, The Social Life of Coffee: The Emergence of the British Coffeehouse, Yale University Press, 2005。",
         "Markman Ellis, The Coffee House: A Cultural History, Weidenfeld & Nicolson, 2004。",
         "Erika Rappaport, A Thirst for Empire: How Tea Shaped the Modern World, Princeton University Press, 2017。"
-      ]
+      ],
+      "factCheck": {
+        "status": "corrected",
+        "confidence": "medium",
+        "batch": "batch-52",
+        "checkedAt": "2026-11-18T02:58:00+08:00",
+        "issueCount": 1,
+        "appliedAt": "2026-11-17T18:46:28.289Z",
+        "summary": "咖啡与茶馆的传播链条基本可靠，唯 f11 把英属印度的茶叶生产误写成英国本身，属主体错误，需改。"
+      }
     },
     {
       "id": "w5-wh-trade-sugar",
@@ -699,7 +726,16 @@
         "Sidney W. Mintz, Sweetness and Power: The Place of Sugar in Modern History, Viking, 1985。",
         "Robin Blackburn, The Making of New World Slavery, Verso, 1997。",
         "Eric Williams, Capitalism and Slavery, University of North Carolina Press, 1944。"
-      ]
+      ],
+      "factCheck": {
+        "status": "verified",
+        "confidence": "high",
+        "batch": "batch-07",
+        "checkedAt": "2026-11-18T02:20:00+08:00",
+        "issueCount": 0,
+        "appliedAt": "2026-11-17T18:46:28.289Z",
+        "summary": "糖业与奴隶制的主要年代、数字与因果链均有可靠来源支持，未发现需要改写之处。"
+      }
     },
     {
       "id": "w5-wh-trade-porcelain",
@@ -763,7 +799,7 @@
         },
         {
           "id": "f11",
-          "text": "十八世纪后期，英国韦奇伍德用分工、蒸汽机和新配方生产炻器与骨瓷，靠品牌和展厅推销。它抢走了部分中国瓷的日常市场，把瓷器变成工业品。工业化的瓷器便宜、整齐，也更适合日常餐桌。"
+          "text": "十八世纪后期，英国韦奇伍德用分工、蒸汽机和新配方生产奶油陶与炻器，靠品牌和展厅推销；骨瓷则由斯波德在十八世纪末配成。它抢走了部分中国瓷的日常市场，把瓷器变成工业品。"
         },
         {
           "id": "f12",
@@ -876,7 +912,16 @@
         "Robert Finlay, The Pilgrim Art: Cultures of Porcelain in World History, University of California Press, 2010。",
         "David Porter, The Chinese Taste in Eighteenth-Century England, Cambridge University Press, 2010。",
         "中国硅酸盐学会编《中国陶瓷史》，文物出版社，1982。"
-      ]
+      ],
+      "factCheck": {
+        "status": "corrected",
+        "confidence": "high",
+        "batch": "batch-25",
+        "checkedAt": "2026-11-18T02:47:00+08:00",
+        "issueCount": 1,
+        "appliedAt": "2026-11-17T18:46:28.289Z",
+        "summary": "高岭土配方、青花钴料、克拉克与纹章瓷、马尼拉银、广州一口通商、迈森与殷弘绪书信均可核；唯把骨瓷说成韦奇伍德的产品有误，应归斯波德。"
+      }
     },
     {
       "id": "w5-wh-trade-rubber",
@@ -908,7 +953,7 @@
         },
         {
           "id": "f3",
-          "text": "1885年柏林会议后，刚果盆地成为比利时国王利奥波德二世的私人领地。橡胶和象牙是主要出口，代理人给村庄定配额，完不成的人遭到屠杀、断手，妇女被扣作人质。"
+          "text": "1884至1885年的柏林会议把刚果盆地划为比利时国王利奥波德二世的私人领地。橡胶和象牙是主要出口，代理人给村庄定配额，完不成的人遭到屠杀、断手，妇女被扣作人质。"
         },
         {
           "id": "f4",
@@ -916,7 +961,7 @@
         },
         {
           "id": "f5",
-          "text": "1876年，英国人威克姆从亚马逊把橡胶种子偷运到邱园，育苗后送到锡兰和马来亚。东南亚的气候和土壤适合橡胶，种植园从1890年代起迅速扩张。种子一出境，亚马逊的垄断就结束了。"
+          "text": "1876年，英国人威克姆从亚马逊收集约七万粒橡胶种子运到邱园，当时巴西并无禁止种子出境的法律。育苗后送到锡兰和马来亚，东南亚的气候和土壤适合橡胶，种植园从1890年代起迅速扩张。"
         },
         {
           "id": "f6",
@@ -924,7 +969,7 @@
         },
         {
           "id": "f7",
-          "text": "东南亚的种植园橡胶成本更低，1910年代起压低国际价格。马瑙斯的繁荣结束，巴西后来立法禁止橡胶种子出境，但已经挡不住重心转移。禁令挡住了种子，挡不住资本和土地。"
+          "text": "东南亚的种植园橡胶成本更低，1910年代起压低国际价格，马瑙斯的繁荣随之结束。巴西后来出台保护本土橡胶业的法令，补贴、免税、修路都试过，却已挡不住产业重心转移。"
         },
         {
           "id": "f8",
@@ -1053,7 +1098,16 @@
         "Adam Hochschild, King Leopold's Ghost, Houghton Mifflin, 1998。",
         "Roger Casement, Report on the Administration of the Congo Free State, 1904。",
         "Warren Dean, Brazil and the Struggle for Rubber, Cambridge University Press, 1987。"
-      ]
+      ],
+      "factCheck": {
+        "status": "corrected",
+        "confidence": "high",
+        "batch": "batch-47",
+        "checkedAt": "2026-11-18T02:54:00+08:00",
+        "issueCount": 3,
+        "appliedAt": "2026-11-17T18:46:28.289Z",
+        "summary": "亚马逊橡胶兴衰主线成立，但柏林会议年份、“偷运种子”和“禁止种子出境”三处需要改正。"
+      }
     },
     {
       "id": "w5-wh-trade-oil",
@@ -1093,7 +1147,7 @@
         },
         {
           "id": "f5",
-          "text": "1908年，福特推出T型车；1913年高地公园工厂用流水线装配，1914年把日薪提到五美元。汽车价格下降，普通家庭也买得起。流水线把装配时间压到几分钟，产量迅速上升。"
+          "text": "1908年，福特推出T型车；1913年高地公园工厂改用流水线，1914年把日薪提到五美元。汽车价格下降，普通家庭也买得起。单车装配时间从十二个半小时降到九十三分钟，产量迅速上升。"
         },
         {
           "id": "f6",
@@ -1101,7 +1155,7 @@
         },
         {
           "id": "f7",
-          "text": "1930年代，通用汽车、火石轮胎和标准石油等公司组建控股公司，收购有轨电车线路，改成公共汽车。1949年法院判其违反反垄断法。学界认为汽车化还有道路补贴和房价等原因，不能只归于这一桩案子。"
+          "text": "1930年代，通用汽车、火石与加州标准石油等组建控股公司，收购有轨电车线路，改开公共汽车。1949年法院判它们垄断巴士及相关用品销售，未认定拆电车违法；学界认为另有道路补贴等原因。"
         },
         {
           "id": "f8",
@@ -1113,7 +1167,7 @@
         },
         {
           "id": "f10",
-          "text": "二战后，中东石油的地位上升。1953年，伊朗首相摩萨台推动石油国有化，英美支持政变把他赶下台。1973年石油危机让油价和通货膨胀一起飙升。产油国和消费国的谈判，从此带着军舰的影子。"
+          "text": "二战后，中东石油的地位上升。1951年，伊朗首相摩萨台推动石油国有化；1953年英美支持政变把他赶下台。1973年石油危机让油价和通货膨胀一起飙升。产油国和消费国的谈判，从此带着军舰的影子。"
         },
         {
           "id": "f11",
@@ -1121,7 +1175,7 @@
         },
         {
           "id": "f12",
-          "text": "二十世纪末，混合动力和锂电池汽车出现，城市重新讨论公交、步行和自行车。石油时代没有结束，但它的边界第一次被认真讨论。能源转型的讨论，从这时起有了具体的技术选项。"
+          "text": "二十世纪末混合动力汽车上市，锂电池汽车要到二十一世纪初才量产；城市重新讨论公交、步行和自行车。石油时代没有结束，但它的边界第一次被认真讨论，转型从此有了具体的技术选项。"
         }
       ],
       "angles": [
@@ -1230,7 +1284,16 @@
         "Daniel Yergin, The Prize: The Epic Quest for Oil, Money and Power, Simon & Schuster, 1991。",
         "Kenneth T. Jackson, Crabgrass Frontier: The Suburbanization of the United States, Oxford University Press, 1985。",
         "Tom Lewis, Divided Highways: Building the Interstate Highways, Viking, 1997。"
-      ]
+      ],
+      "factCheck": {
+        "status": "corrected",
+        "confidence": "high",
+        "batch": "batch-46",
+        "checkedAt": null,
+        "issueCount": 4,
+        "appliedAt": "2026-11-17T18:46:28.289Z",
+        "summary": "12条中8条有可靠来源支持；4条需改：装配时长被写成“几分钟”、1949年定罪范围被放大、摩萨台国有化年份误作1953、锂电池汽车被提前到二十世纪末。"
+      }
     },
     {
       "id": "w5-wh-trade-banana",
@@ -1254,7 +1317,7 @@
       "facts": [
         {
           "id": "f1",
-          "text": "香蕉原产东南亚，十九世纪经加勒比海岛屿传入美洲。它热量高、好种、一年四季都能收，但极容易腐烂，没有快速运输就只能就近卖。没有铁路和冷藏船，它只是产地附近的水果。"
+          "text": "香蕉原产东南亚，十六世纪经加那利群岛传入加勒比岛屿，十九世纪才作为商品大规模种植。它热量高、好种、一年四季都能收，但极容易腐烂，没有快速运输就只能就近卖。没有铁路和冷藏船，它只是产地附近的水果。"
         },
         {
           "id": "f2",
@@ -1270,11 +1333,11 @@
         },
         {
           "id": "f5",
-          "text": "1911年，联合果品支持洪都拉斯的政变，帮流亡的前总统夺回权力，换取土地和铁路特许。公司在该国拥有大片土地、铁路和港口，被称作国中之国。政府换了几届，公司的特许还在。"
+          "text": "1911年，泽穆雷的库亚梅尔果品公司资助洪都拉斯的政变，帮流亡的前总统博尼利亚夺回权力，换取土地和铁路特许；该公司1929年并入联合果品，在当地拥有大片土地、铁路和港口，被称作国中之国。"
         },
         {
           "id": "f6",
-          "text": "1954年，危地马拉总统阿本斯的土地改革征收了联合果品的部分闲置土地。美国国务院和中情局支持政变，阿本斯下台，改革被逆转。香蕉园的土地，成了冷战在美洲的第一块试验田。"
+          "text": "1953年，危地马拉总统阿本斯的土地改革征收了联合果品的部分闲置土地。1954年，美国国务院和中情局支持政变，阿本斯下台，改革被逆转。香蕉园的土地，成了冷战在美洲的第一块试验田。"
         },
         {
           "id": "f7",
@@ -1294,7 +1357,7 @@
         },
         {
           "id": "f11",
-          "text": "1990年代，香蕉工人起诉杀虫剂导致不育，美国法院作出判决，多起案件以赔偿或和解结束。跨国公司第一次为海外种植园的健康损害承担责任。赔偿金额不大，但先例开了。"
+          "text": "1990年代，香蕉工人起诉杀虫剂导致不育，多起案件在尼加拉瓜审理并获赔偿判决，美国法院却多以管辖权为由拒绝执行。跨国公司付出了赔偿，但说这是第一次承担责任，证据不足。"
         },
         {
           "id": "f12",
@@ -1407,7 +1470,16 @@
         "Stephen Schlesinger and Stephen Kinzer, Bitter Fruit: The Story of the American Coup in Guatemala, Harvard University Press, 2005。",
         "Charles D. Kepner and Jay H. Soothill, The Banana Empire, Vanguard Press, 1935。",
         "Marcelo Bucheli, Bananas and Business: The United Fruit Company in Colombia, 1899–2000, New York University Press, 2005。"
-      ]
+      ],
+      "factCheck": {
+        "status": "corrected",
+        "confidence": "medium",
+        "batch": "batch-51",
+        "checkedAt": "2026-11-18T02:58:00+08:00",
+        "issueCount": 4,
+        "appliedAt": "2026-11-17T18:46:28.289Z",
+        "summary": "香蕉专题的产业史骨架成立，但物种传入时间、1911 年政变主体、1953/1954 年征收与政变的年份、以及 DBCP 诉讼的法院归属需要修正。"
+      }
     },
     {
       "id": "w5-wh-trade-chip",
@@ -1435,7 +1507,7 @@
         },
         {
           "id": "f2",
-          "text": "1958年，基尔比在德州仪器、诺伊斯在仙童公司分别做出集成电路，把多个元件做在同一块材料上。1965年，摩尔提出芯片上的晶体管数量大约每年翻一倍，后来修正为约两年。"
+          "text": "1958年，基尔比在德州仪器做出集成电路；次年，诺伊斯在仙童公司做出可制造的平面集成电路。1965年，摩尔提出芯片上的晶体管数量大约每年翻一倍，后来修正为约两年。"
         },
         {
           "id": "f3",
@@ -1447,7 +1519,7 @@
         },
         {
           "id": "f5",
-          "text": "荷兰的阿斯麦在极紫外光刻机上几乎独家供应；美国的应用材料、泛林和日本的东京电子在刻蚀、沉积、清洗设备上占大头。一台光刻机有几十万个零件，来自上千家供应商。"
+          "text": "荷兰的阿斯麦在极紫外光刻机上几乎独家供应；美国的应用材料、泛林和日本的东京电子在刻蚀、沉积、清洗设备上占大头。一台光刻机约有十万个零件，来自上千家供应商。"
         },
         {
           "id": "f6",
@@ -1584,7 +1656,16 @@
         "Chris Miller, Chip War: The Fight for the World's Most Critical Technology, Scribner, 2022。",
         "Semiconductor Industry Association, 2023 Factbook, 2023。",
         "ASML, Annual Report 2023, 2024。"
-      ]
+      ],
+      "factCheck": {
+        "status": "corrected",
+        "confidence": "high",
+        "batch": "batch-51",
+        "checkedAt": "2026-11-18T02:58:00+08:00",
+        "issueCount": 2,
+        "appliedAt": "2026-11-17T18:46:28.289Z",
+        "summary": "芯片供应链的结构描述基本可靠，只需修正诺伊斯做出集成电路的年份与光刻机零件数量级。"
+      }
     }
   ]
 }

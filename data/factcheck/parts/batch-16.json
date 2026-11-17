@@ -1,0 +1,721 @@
+{
+  "batch": "batch-16",
+  "checkedAt": "2026-11-18T02:13:56+08:00",
+  "dossiers": [
+    {
+      "id": "w3-wh-revolutions-english-civil-war",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        {
+          "id": "f1",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f2",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f3",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f4",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f5",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f6",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f7",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f8",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f9",
+          "verdict": "imprecise",
+          "confidence": "high",
+          "issue": "issue-01"
+        },
+        {
+          "id": "f10",
+          "verdict": "imprecise",
+          "confidence": "high",
+          "issue": "issue-02"
+        },
+        {
+          "id": "f11",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f12",
+          "verdict": "supported",
+          "confidence": "high"
+        }
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f9",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "两年后，同一批人开始讨论要不要审判国王。",
+          "problem": "普特尼辩论在1647年10—11月，审判国王的决议在1649年1月，相隔约十五个月，不是两年。",
+          "correction": "1647年，军队在普特尼教堂举行辩论，平等派主张按人头分配选举权，独立派军官坚持财产资格。辩论没有结论，却第一次把“谁有资格投票”摆上台面；一年多后，同一批人开始讨论要不要审判国王。",
+          "evidence": [
+            {
+              "title": "The Putney Debates（剑桥大学出版社导论节选）",
+              "url": "https://assets.cambridge.org/97810093/95267/excerpt/9781009395267_excerpt.pdf"
+            },
+            {
+              "title": "Pride's Purge, 'the Rump' and regicide — UK Parliament",
+              "url": "https://www.parliament.uk/about/living-heritage/evolutionofparliament/parliamentaryauthority/civilwar/overview/prides-purge/",
+              "quote": "a determined clique unilaterally forced through an 'Act' on 6 January 1649, establishing a court to try Charles I for high treason"
+            }
+          ]
+        },
+        {
+          "id": "issue-02",
+          "factId": "f10",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "12月，军队清洗下院，排除约一百名倾向妥协的议员，剩下的人被称为“残余议会”。",
+          "problem": "Pride’s Purge 逮捕45人、排除186人，合计约231人，“约一百名”明显偏低；此后还有86人自行离开，残余议会不足200人。",
+          "correction": "1648年，苏格兰人再次支持国王，第二次内战爆发。12月军队清洗下院，逮捕四十五人、排除一百八十六名议员，余下者称“残余议会”。1649年1月，下院通过审判国王的决议，查理一世以叛国罪被处死。",
+          "evidence": [
+            {
+              "title": "Pride's Purge, 'the Rump' and regicide — UK Parliament",
+              "url": "https://www.parliament.uk/about/living-heritage/evolutionofparliament/parliamentaryauthority/civilwar/overview/prides-purge/",
+              "quote": "arrested 45 Members and excluded a further 186 whom the Army thought were unlikely to support its goal of punishing the King"
+            }
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "长期议会、Pride’s Purge 的日期与人数以英国议会官网为准；Putney 辩论的月份见剑桥大学出版社导论节选。",
+        "f10 原文称“约一百名”，实际为逮捕45人加排除186人；该数字在议会官网上有明确记载。"
+      ],
+      "summary": "时间线与议会史大体可靠，但普特尼辩论到审判国王的间隔、清洗下院的人数两处数字需修正。"
+    },
+    {
+      "id": "w1-myth-world-baal-yamm",
+      "status": "verified",
+      "confidence": "high",
+      "facts": [
+        {
+          "id": "f1",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f2",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f3",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f4",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f5",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f6",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f7",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f8",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f9",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f10",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f11",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f12",
+          "verdict": "supported",
+          "confidence": "high"
+        }
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "乌加里特1929年起发掘、约前1195—1185年被毁，见牛津参考与慕尼黑大学论文；KTU 1.1–1.6 的编号与30字母表据 Anchor Bible Dictionary。",
+        "f7 的“齐膝、齐腰”与波兰学者转述的“从膝到腰（biodra）”一致。"
+      ],
+      "summary": "乌加里特发掘、泥板编号与巴力—雅姆叙事均与近东研究文献相符，未发现需改的事实错误。"
+    },
+    {
+      "id": "w3-psych-emotion-granularity",
+      "status": "verified",
+      "confidence": "high",
+      "facts": [
+        {
+          "id": "f1",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f2",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f3",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f4",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f5",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f6",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f7",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f8",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f9",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f10",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f11",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f12",
+          "verdict": "supported",
+          "confidence": "high"
+        }
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "Barrett 等 2001 的样本为大学生，经验取样研究多依赖自评；跨文化效度仍是待检验问题。",
+        "命名情绪实验（Lieberman 等 2007）样本不大，原文也提示效应有限，f5 的保留表述与之一致。"
+      ],
+      "summary": "情绪粒度的测量、命名情绪实验与构念论表述均与原始研究相符，无实质错误。"
+    },
+    {
+      "id": "w4-psych-group-identity",
+      "status": "verified",
+      "confidence": "high",
+      "facts": [
+        {
+          "id": "f1",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f2",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f3",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f4",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f5",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f6",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f7",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f8",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f9",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f10",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f11",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f12",
+          "verdict": "supported",
+          "confidence": "high"
+        }
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "f3 原文有“；换一个场合……”重复句，f7–f11 有“。，”标点残留，属编辑问题，不影响事实判断。",
+        "描述性规范与禁令性规范的比较研究结论并不完全一致，但 f7 只说“往往比单纯说教更强”，未越过证据。"
+      ],
+      "summary": "社会认同、自我类别化、交叉性与想象共同体等概念表述准确，仅有标点与重复句的编辑瑕疵。"
+    },
+    {
+      "id": "w2-geo-world-mountains-vesuvius",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        {
+          "id": "f1",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f2",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f3",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f4",
+          "verdict": "imprecise",
+          "confidence": "high",
+          "issue": "issue-01"
+        },
+        {
+          "id": "f5",
+          "verdict": "imprecise",
+          "confidence": "high",
+          "issue": "issue-02"
+        },
+        {
+          "id": "f6",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f7",
+          "verdict": "imprecise",
+          "confidence": "high",
+          "issue": "issue-03"
+        },
+        {
+          "id": "f8",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f9",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f10",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f11",
+          "verdict": "imprecise",
+          "confidence": "high",
+          "issue": "issue-04"
+        },
+        {
+          "id": "f12",
+          "verdict": "supported",
+          "confidence": "high"
+        }
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f4",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "庞贝的很多死者不是在屋里，而是在街上和拱廊下——他们先逃出来，又被落石和灰埋住，姿势定格在逃跑的中途。",
+          "problem": "火山学研究给出的比例是：约38%死于第一波浮岩、多为房屋倒塌；躲过第一波的人中又有一半死在屋内、一半死在屋外。不能概括为“很多死者不是在屋里”。",
+          "correction": "浮岩轻，能浮在水上，但三米厚的堆积足以压垮屋顶。庞贝死者约三成八死于第一波浮岩，多因房屋倒塌；活下来的人后来一半死在屋内、一半死在屋外，姿势定格在逃亡或躲藏的中途。",
+          "evidence": [
+            {
+              "title": "The Last Hours of Pompei — Science",
+              "url": "https://www.science.org/content/article/last-hours-pompei",
+              "quote": "many survived the first harrowing pumice storms by hiding in houses--only to perish hours later when more powerful waves of ash and pumice rushed inside"
+            }
+          ]
+        },
+        {
+          "id": "issue-02",
+          "factId": "f5",
+          "severity": "major",
+          "verdict": "imprecise",
+          "claim": "赫库兰尼姆离火山更近，却被火山泥流和高温碎屑流封住，木头、纸草和食物因此炭化保存。",
+          "problem": "赫库兰尼姆先遭的是约400℃的火山灰尘暴（高温碎屑流/冲击波），不是“泥流”；泥流（lahar）是含水火山碎屑流，与此处灾害类型不同。",
+          "correction": "赫库兰尼姆离火山更近，被四百摄氏度的高温火山灰尘暴和碎屑流封住，木头、纸草和食物因此炭化保存；那里的房屋因埋得更深、盗掘更少而保存完整，二层楼板都还在。",
+          "evidence": [
+            {
+              "title": "赫库兰尼姆古城 — 央视国际",
+              "url": "https://big5.cctv.com/gate/big5/discovery.cctv.com/special/C17783/20070227/106355.shtml",
+              "quote": "溫度高達400℃的衝擊波順維蘇威山坡高速下瀉，幾分鐘便到達了赫庫蘭尼姆城"
+            }
+          ]
+        },
+        {
+          "id": "issue-03",
+          "factId": "f7",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "庞贝出土的一枚炭化无花果和一枚刻着十月日期的硬币，让学者倾向于十月。",
+          "problem": "2018年的关键新证据是炭书铭文（记10月17日），无花果只是旁证；那枚银币纪念的是Titus第十五次称帝，反而指向8月，并非“刻着十月日期”。",
+          "correction": "喷发日期长期写作八月二十四日，但庞贝新出土的炭书铭文记有十月十七日，加上无花果等秋季物产，让学者倾向十月；旧发现的一枚银币反而指向八月，铭文与实物证据的冲突至今没有完全解决。",
+          "evidence": [
+            {
+              "title": "New Pompeii dig uncovers at least 5 skeletons of women, kids — The New Daily",
+              "url": "https://www.thenewdaily.com.au/news/world/2018/10/26/pompeii-skeletons-found",
+              "quote": "The day of the eruption would therefore have been on October 24 instead of August 24, 79 AD."
+            },
+            {
+              "title": "The Making of the 79 AD Eruption of Vesuvius（年代学讨论）",
+              "url": "https://escholarship.org/content/qt1zx3621s/qt1zx3621s.pdf"
+            }
+          ]
+        },
+        {
+          "id": "issue-04",
+          "factId": "f11",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "约六十万人需要在喷发前撤离",
+          "problem": "较新的风险评估给出的维苏威红区人口约为70万；“约六十万”是较早的估计，偏低。",
+          "correction": "维苏威的应急预案把山脚划成红区，较新的评估认为约七十万人需在喷发前撤离；黄区是可能积灰的区域，覆盖那不勒斯的部分城区，总人口以百万计，撤离演练已多次举行。",
+          "evidence": [
+            {
+              "title": "I rischi catastrofali: azioni di mitigazione e gestione del rischio — IRISS",
+              "url": "https://www.iriss.cnr.it/files/I-rischi-catastrofali-azioni-di-mitigazione-e-gestione-del-rischio.pdf",
+              "quote": "l'evacuazione della zona rossa di competenza, che contiene rispettivamente circa 700.000 abitanti (Vesuvio) e 600.000 (Campi Flegrei)"
+            }
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "79年喷发的两阶段时长与浮岩厚度见 AJA/JSTOR 论文及中文编译；17或18小时、2.7或2.8米属测量口径差异。",
+        "红区人口采用 IRISS 报告约70万；更早的公开材料常写55—60万，故 f11 判 imprecise 而非 wrong。",
+        "赫库兰尼姆的400℃灰尘暴、23米堆积与有机物保存，见央视编译的庞贝考古管理局材料。"
+      ],
+      "summary": "喷发过程与年代学大体成立，但死者位置、赫库兰尼姆的灾害类型、日期证据和红区人口四处需修正。"
+    },
+    {
+      "id": "w5-cn-history-liangpiao",
+      "status": "verified",
+      "confidence": "high",
+      "facts": [
+        {
+          "id": "f1",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f2",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f3",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f4",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f5",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f6",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f7",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f8",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f9",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f10",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f11",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f12",
+          "verdict": "supported",
+          "confidence": "high"
+        }
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "1953年命令、1955年定量办法、1958年户口登记条例与1993年取消粮票的日期，均据官方公报、党史文献或央广报道。"
+      ],
+      "summary": "统购统销、定量供应、户口绑定与1993年取消粮票的时间线均与官方文献一致。"
+    },
+    {
+      "id": "w3-myth-cn-nezha",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        {
+          "id": "f1",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f2",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f3",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f4",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f5",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f6",
+          "verdict": "wrong",
+          "confidence": "high",
+          "issue": "issue-01"
+        },
+        {
+          "id": "f7",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f8",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f9",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f10",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f11",
+          "verdict": "supported",
+          "confidence": "high"
+        }
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f6",
+          "severity": "major",
+          "verdict": "wrong",
+          "claim": "死后由如来用荷菱为骨、藕为肉复活",
+          "problem": "“折荷菱为骨，藕为肉，系为胫，叶为衣”出自《三教源流搜神大全》；《西游记》写的是如来“将藕为骨，荷叶为衣”复活哪吒，两套文本被混为一条。",
+          "correction": "《西游记》里，哪吒是托塔李天王的三太子，曾割肉还母、剔骨还父，死后由如来用藕为骨、荷叶为衣复活；他出战时有六件兵器，其中就有火轮儿，这段复活情节和《封神演义》的莲花化身并不相同。",
+          "evidence": [
+            {
+              "title": "哪吒闹海故事流变及其文化意蕴 — 中国作家网",
+              "url": "https://www.chinawriter.com.cn/n1/2025/0205/c442005-40412933.html",
+              "quote": "佛祖将藕为骨，荷叶为衣，念动起死回生的咒语，将哪吒复活。"
+            },
+            {
+              "title": "《三教源流搜神大全》那吒太子条 — 维基文库",
+              "url": "https://zh.wikisource.org/wiki/Page:NCPSSD-30153671_三教源流搜神大全七卷_第二册.pdf/92",
+              "quote": "折荷菱为骨，藕为肉，系为胫，叶为衣"
+            }
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "《西游记》与《三教源流搜神大全》的复活材料不同：前者为藕骨荷叶衣，后者为荷菱骨藕肉；f6 混用了两套文本。",
+        "1979年与2019年两版动画的改编及票房，见相关报道与票房统计。"
+      ],
+      "summary": "佛教渊源与封神情节准确，唯《西游记》复活情节混入了《三教源流搜神大全》的文字。"
+    },
+    {
+      "id": "w4-myth-oceania-sedna",
+      "status": "verified",
+      "confidence": "medium",
+      "facts": [
+        {
+          "id": "f1",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f2",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f3",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f4",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f5",
+          "verdict": "supported",
+          "confidence": "medium"
+        },
+        {
+          "id": "f6",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f7",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f8",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f9",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f10",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f11",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f12",
+          "verdict": "supported",
+          "confidence": "high"
+        }
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "名字含义采用 Encyclopedia.com 与德文维基综述：Sedna“下面那位”、Nuliajuk“亲爱的女人/海兽之母”、Nerrivik“食物之地”，故 f4 判 supported。",
+        "f5 梳头仪式的细节未逐字核对民族志原文，confidence 记为 medium。",
+        "f10 所述强制搬迁与寄宿学校政策确在二十世纪中期，但博厄斯1888年、拉斯穆森1920年代已记录塞德娜故事，“很多故事在这一时期记录”只是部分成立，未到判错程度。"
+      ],
+      "summary": "塞德娜故事的版本差异、手指造海兽与禁忌义务均成立；记录史与名字含义的表述偏粗，但不足以判错。"
+    }
+  ]
+}

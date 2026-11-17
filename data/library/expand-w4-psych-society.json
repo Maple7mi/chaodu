@@ -175,7 +175,16 @@
         "Latané, B., & Darley, J. M. (1970). The Unresponsive Bystander: Why Doesn't He Help? Appleton-Century-Crofts",
         "Fischer, P., et al. (2011). The bystander-effect: A meta-analytic review on bystander intervention in dangerous and non-dangerous emergencies. Psychological Bulletin",
         "Philpot, R., et al. (2020). Would I be helped? Cross-national CCTV footage shows that intervention is the norm in public conflicts. American Psychologist"
-      ]
+      ],
+      "factCheck": {
+        "status": "verified",
+        "confidence": "high",
+        "batch": "batch-36",
+        "checkedAt": "2026-11-18T02:27:00+08:00",
+        "issueCount": 0,
+        "appliedAt": "2026-11-17T18:46:28.265Z",
+        "summary": "旁观者效应的经典实验（1968年纽约大学、冒烟、癫痫、五步模型、好撒玛利亚人）与后续元分析、CCTV 研究均能对上。38人神话的修正、危险情境下效应减弱、指定具体人求助等说法与文献一致，未见需要改写的硬伤。"
+      }
     },
     {
       "id": "w4-psych-conformity",
@@ -351,7 +360,16 @@
         "Deutsch, M., & Gerard, H. B. (1955). A study of normative and informational social influences upon individual judgment. Journal of Abnormal and Social Psychology",
         "Bond, R., & Smith, P. B. (1996). Culture and conformity: A meta-analysis of studies using Asch's line judgment task. Psychological Bulletin",
         "Berns, G. S., et al. (2005). Neurobiological correlates of social conformity and independence during mental rotation. Biological Psychiatry"
-      ]
+      ],
+      "factCheck": {
+        "status": "verified",
+        "confidence": "high",
+        "batch": "batch-57",
+        "checkedAt": "2026-11-18T02:58:00+08:00",
+        "issueCount": 0,
+        "appliedAt": "2026-11-17T18:46:28.265Z",
+        "summary": "阿希实验的年份、比例（约1/3判断、75%至少一次、25%从不）、群体规模饱和点与后续 Neuroimaging 结论均可核实，无需改动。"
+      }
     },
     {
       "id": "w4-psych-obedience",
@@ -527,7 +545,16 @@
         "Milgram, S. (1974). Obedience to Authority: An Experimental View. Harper & Row",
         "Hofling, C. K., et al. (1966). An experimental study in nurse-physician relationships. Journal of Nervous and Mental Disease",
         "Haslam, S. A., & Reicher, S. D. (2017). 50 years of “obedience to authority”: From blind conformity to engaged followership. Annual Review of Law and Social Science"
-      ]
+      ],
+      "factCheck": {
+        "status": "verified",
+        "confidence": "high",
+        "batch": "batch-35",
+        "checkedAt": "2026-11-18T02:54:00+08:00",
+        "issueCount": 0,
+        "appliedAt": "2026-11-17T18:46:28.265Z",
+        "summary": "十二条均有实验文献或综述支撑，1961 年基线 26/40、触摸条件 30%、两同伴反抗 10%、Bridgeport 47.5%、Hofling 21/22 等关键数字与原始报告一致，未发现需要修正之处。"
+      }
     },
     {
       "id": "w4-psych-group-polarization",
@@ -566,7 +593,7 @@
         },
         {
           "id": "f5",
-          "text": "陪审团的量刑研究提供了现实版本。模拟陪审团讨论惩罚性赔偿时，讨论后的金额往往高于成员讨论前的个人判断，分歧被压缩，少数极高或极低的意见反而被放大。"
+          "text": "模拟陪审团讨论惩罚性赔偿后，裁决金额系统性高于陪审员讨论前判断的中位数，这被称为“严厉性偏移”；讨论并未简单压缩分歧，而是把整体金额推高。"
         },
         {
           "id": "f6",
@@ -703,7 +730,16 @@
         "Moscovici, S., & Zavalloni, M. (1969). The group as a polarizer of attitudes. Journal of Personality and Social Psychology",
         "Myers, D. G., & Lamm, H. (1976). The group polarization phenomenon. Psychological Bulletin",
         "Sunstein, C. R. (2009). Going to Extremes: How Like Minds Unite and Divide. Oxford University Press"
-      ]
+      ],
+      "factCheck": {
+        "status": "corrected",
+        "confidence": "high",
+        "batch": "batch-35",
+        "checkedAt": "2026-11-18T02:54:00+08:00",
+        "issueCount": 1,
+        "appliedAt": "2026-11-17T18:46:28.265Z",
+        "summary": "十二条中十一条成立；f5 把“严厉性偏移”误写成“分歧压缩、极端意见被放大”，已按原论文摘要改写。"
+      }
     },
     {
       "id": "w4-psych-contact-hypothesis",
@@ -726,7 +762,7 @@
       "facts": [
         {
           "id": "f1",
-          "text": "接触假说认为，在合适条件下，不同群体成员的直接接触能够降低偏见。奥尔波特一九五四年在《偏见的本质》里提出这个框架，并列出几个缺一不可的关键条件。"
+          "text": "接触假说认为，在合适条件下，不同群体成员的直接接触能够降低偏见。奥尔波特一九五四年在《偏见的本质》里提出这个框架，并列出四个最有利于减少偏见的关键条件。"
         },
         {
           "id": "f2",
@@ -879,7 +915,16 @@
         "Sherif, M., et al. (1961). Intergroup Conflict and Cooperation: The Robbers Cave Experiment. University of Oklahoma Book Exchange",
         "Pettigrew, T. F., & Tropp, L. R. (2006). A meta-analytic test of intergroup contact theory. Journal of Personality and Social Psychology",
         "Enos, R. D. (2014). Causal effect of intergroup contact on exclusionary attitudes. Proceedings of the National Academy of Sciences"
-      ]
+      ],
+      "factCheck": {
+        "status": "corrected",
+        "confidence": "high",
+        "batch": "batch-56",
+        "checkedAt": "2026-11-18T02:52:00+08:00",
+        "issueCount": 1,
+        "appliedAt": "2026-11-17T18:46:28.265Z",
+        "summary": "四条经典条件被写成“缺一不可”是本专题唯一实质偏差，其余年份、样本量与因果表述都站得住。"
+      }
     },
     {
       "id": "w4-psych-scarcity",
@@ -906,7 +951,7 @@
         },
         {
           "id": "f2",
-          "text": "沙阿、穆莱纳森与沙菲尔二〇一二年的研究找了印度甘蔗种植户。收获前，农民手头最紧；收获后，一次性拿到全年收入。同一批人在两个时间点，做了同一套认知测试。"
+          "text": "马尼、穆莱纳森、沙菲尔与赵二〇一三年的研究找了印度甘蔗种植户。收获前，农民手头最紧；收获后，一次性拿到全年收入。同一批人在两个时间点，做了同一套认知测试。"
         },
         {
           "id": "f3",
@@ -914,7 +959,7 @@
         },
         {
           "id": "f4",
-          "text": "马尼等人二〇一三年的后续研究把机制说得更细：收获前的农民在需要抑制冲动的任务上表现更差，反应更慢。经济压力像是占用了有限的心理带宽，留给其他任务的余量就少了。"
+          "text": "马尼等人二〇一三年的同一项研究测试了不同任务：收获前的农民在瑞文推理和需要抑制冲动的斯特鲁普任务上表现更差。研究者认为，经济压力占用了有限的心理带宽，留给其他任务的余量就少了。"
         },
         {
           "id": "f5",
@@ -930,11 +975,11 @@
         },
         {
           "id": "f8",
-          "text": "后续研究结果并不完全一致。有的团队在其他地区重复农民研究时，效应更小，甚至没有出现；研究者对效应大小仍有争论，但“认知资源会被占用”这个方向得到了不少支持。"
+          "text": "后续证据并不完全一致。卡瓦略等人二〇一六年用发薪日做自然实验，没有发现发薪前认知测试变差；也有学者质疑农民研究的效应大小。“认知带宽会被占用”的方向仍获不少支持，但效应有多大、在哪些情境出现，仍有争论。"
         },
         {
           "id": "f9",
-          "text": "卡瓦略、迈耶与王二〇一六年的研究利用发薪日做比较：同一批人在发薪前后面临不同的现金约束，发薪前的认知表现更差。这种短期波动说明，效应不必等到长期贫困才出现。"
+          "text": "卡瓦略、迈耶与王二〇一六年的研究利用发薪日做比较：发薪前手头更紧的人更不耐烦、更看重眼前，但在斯特鲁普等认知测试上并没有变差。这说明短期现金约束会改变偏好，却未必拉低认知表现。"
         },
         {
           "id": "f10",
@@ -1055,7 +1100,16 @@
         "Mani, A., Mullainathan, S., Shafir, E., & Zhao, J. (2013). Poverty impedes cognitive function. Science",
         "Mullainathan, S., & Shafir, E. (2013). Scarcity: Why Having Too Little Means So Much. Times Books",
         "Carvalho, L. S., Meier, S., & Wang, S. W. (2016). Poverty and economic decision-making: Evidence from changes in financial resources at payday. American Economic Review"
-      ]
+      ],
+      "factCheck": {
+        "status": "corrected",
+        "confidence": "high",
+        "batch": "batch-15",
+        "checkedAt": "2026-11-18T02:45:00+08:00",
+        "issueCount": 4,
+        "appliedAt": "2026-11-17T18:46:28.265Z",
+        "summary": "稀缺框架、农民研究的方向与13个智商点成立；但把2012年实验室研究误当成蔗农研究，并把卡瓦略2016年的阴性认知结果写反，两处需改。"
+      }
     },
     {
       "id": "w4-psych-poverty-decisions",
@@ -1090,11 +1144,11 @@
         },
         {
           "id": "f4",
-          "text": "德梅尔、麦肯齐与伍德拉夫二〇〇八年在斯里兰卡给小微企业主发放小额资本，发现回报率很高，不少人一年内就把钱翻了几倍。这说明缺的常常是启动资金，不是经营头脑。"
+          "text": "德梅尔、麦肯齐与伍德拉夫二〇〇八年在斯里兰卡给小微企业主发放小额资本，测得月实际回报约百分之五，年化五成到六成，资金一年多可翻倍。这说明缺的常常是启动资金，不是经营头脑。"
         },
         {
           "id": "f5",
-          "text": "但同一笔钱给不同的人，效果差别很大。后续研究里，现金资助对已有生意的男性店主效果明显，对新开业者就弱得多；约束不同，钱能撬动的东西也不同，平均效应常常掩盖了两极的差别。"
+          "text": "但同一笔钱给不同的人，效果差别很大。后续研究里，现金资助对男性店主效果明显，对女性店主几乎为零；约束不同，钱能撬动的东西也不同，平均效应常常掩盖两端的差别。"
         },
         {
           "id": "f6",
@@ -1102,7 +1156,7 @@
         },
         {
           "id": "f7",
-          "text": "杜帕斯与罗宾逊二〇一三年在肯尼亚比较了几种鼓励储蓄的方式：给利息、发提醒、开承诺账户。结果承诺账户效果最好，因为它直接对付“钱一到手就花掉”这个问题。"
+          "text": "杜帕斯与罗宾逊二〇一三年在肯尼亚比较了几种鼓励储蓄的方式：提供安全的存款账户、给存款加用途限制、借助小组互助施压。结果最简单的安全账户就让健康储蓄增加六成多，用途限制只在应急时有用。"
         },
         {
           "id": "f8",
@@ -1231,7 +1285,16 @@
         "de Mel, S., McKenzie, D., & Woodruff, C. (2008). Returns to capital in microenterprises: Evidence from a field experiment. Quarterly Journal of Economics",
         "Ashraf, N., Karlan, D., & Yin, W. (2006). Tying Odysseus to the mast: Evidence from a commitment savings product in the Philippines. Quarterly Journal of Economics",
         "Dupas, P., & Robinson, J. (2013). Why don't the poor save more? Evidence from health savings experiments. American Economic Review"
-      ]
+      ],
+      "factCheck": {
+        "status": "corrected",
+        "confidence": "medium",
+        "batch": "batch-07",
+        "checkedAt": "2026-11-18T02:20:00+08:00",
+        "issueCount": 3,
+        "appliedAt": "2026-11-17T18:46:28.265Z",
+        "summary": "主题立论成立，但三处研究细节失真：资本回报被夸大、异质性维度写错、肯尼亚储蓄实验的处理与结论被误述。"
+      }
     },
     {
       "id": "w4-psych-posttraumatic-growth",
@@ -1407,7 +1470,16 @@
         "Tedeschi, R. G., & Calhoun, L. G. (2004). Posttraumatic growth: Conceptual foundations and empirical evidence. Psychological Inquiry",
         "Frazier, P., et al. (2009). Does self-reported posttraumatic growth reflect genuine positive change? Psychological Science",
         "Jayawickreme, E., & Blackie, L. E. R. (2014). Post-traumatic growth as positive personality change: Evidence, controversies and future directions. European Journal of Personality"
-      ]
+      ],
+      "factCheck": {
+        "status": "verified",
+        "confidence": "high",
+        "batch": "batch-44",
+        "checkedAt": "2026-11-17T18:32:06.665Z",
+        "issueCount": 0,
+        "appliedAt": "2026-11-17T18:46:28.265Z",
+        "summary": "这一专题整体是研究现状的稳妥复述：PTGI 的结构、成长与痛苦并存、自评成长的效度争议、成长压力与支持质量，都能在文献里找到对应。没有需要改写的数字或结论，个别处（如干预效果比较）表述较概括，未到失实。"
+      }
     },
     {
       "id": "w4-psych-resilience",
@@ -1454,7 +1526,7 @@
         },
         {
           "id": "f7",
-          "text": "可预测性也重要。规律作息、稳定收入、清楚的治疗方案，都会减少不确定性带来的消耗；灾后重建里，恢复日常秩序常常比心理疏导更先起作用。知道明天会发生什么，本身就是一种支撑。"
+          "text": "规律作息、稳定收入和清楚的治疗方案能减少不确定性带来的消耗；灾后心理支持指南也强调尽快恢复日常生活，但它与心理疏导是并行的，不宜说谁一定先起作用。"
         },
         {
           "id": "f8",
@@ -1583,7 +1655,16 @@
         "Bonanno, G. A. (2004). Loss, trauma, and human resilience: Have we underestimated the human capacity to thrive after extremely aversive events? American Psychologist",
         "Werner, E. E., & Smith, R. S. (1992). Overcoming the Odds: High Risk Children from Birth to Adulthood. Cornell University Press",
         "Risch, N., et al. (2009). Interaction between the serotonin transporter gene, stressful life events and risk of depression: A meta-analysis. JAMA"
-      ]
+      ],
+      "factCheck": {
+        "status": "corrected",
+        "confidence": "high",
+        "batch": "batch-33",
+        "checkedAt": "2026-11-18T02:45:00+08:00",
+        "issueCount": 1,
+        "appliedAt": "2026-11-17T18:46:28.265Z",
+        "summary": "韧性研究的经典结论（普通适应系统、Kauai 队列、Bonanno 轨迹、5-HTTLPR 无稳定交互）均可核实，仅灾后秩序与心理疏导的先后关系需去掉排序。"
+      }
     },
     {
       "id": "w4-psych-social-support",
@@ -1610,7 +1691,7 @@
         },
         {
           "id": "f2",
-          "text": "三类支持不能互相替代。科恩与威尔斯一九八五年的框架指出，情感支持缓解的是“我被接纳”的感受，工具性支持解决的是具体负担；给错类型，效果会打折，甚至让人更累。"
+          "text": "三类支持各有分工，但不能说完全不能替代。科恩与威尔斯一九八五年的综述区分的是支持的结构与功能、主效应与缓冲效应；后来的研究才强调，支持类型与压力需求不匹配时，效果会打折。"
         },
         {
           "id": "f3",
@@ -1630,7 +1711,7 @@
         },
         {
           "id": "f7",
-          "text": "可见的支持常常更有效，但前提是不被当成施舍。博尔格与阿马雷尔二〇〇七年的研究比较了“明说我在帮你”和“悄悄替你做”，在自尊受威胁时，前者效果更好，因为它承认了对方的能力。"
+          "text": "支持未必越显眼越有效。博尔格与阿马雷尔二〇〇七年的实验发现，在自尊受威胁时，不被察觉的支持更能缓解情绪反应；明说“我在帮你”有时反而无效，甚至让人更难受，因为它提醒了对方自己需要帮助。"
         },
         {
           "id": "f8",
@@ -1759,7 +1840,16 @@
         "Holt-Lunstad, J., Smith, T. B., & Layton, J. B. (2010). Social relationships and mortality risk: A meta-analytic review. PLoS Medicine",
         "Thoits, P. A. (2011). Mechanisms linking social ties and support to physical and mental health. Journal of Health and Social Behavior",
         "Bolger, N., & Amarel, D. (2007). Effects of social support visibility on adjustment to stress: Experimental evidence. Journal of Personality and Social Psychology"
-      ]
+      ],
+      "factCheck": {
+        "status": "corrected",
+        "confidence": "medium",
+        "batch": "batch-06",
+        "checkedAt": "2026-11-18T02:38:00+08:00",
+        "issueCount": 2,
+        "appliedAt": "2026-11-17T18:46:28.265Z",
+        "summary": "两条需改：f2 把“三类不可替代”挂在 Cohen & Wills(1985) 名下属归属错误；f7 把可见支持的效果说反，原研究结论是不被察觉的支持更有效。"
+      }
     },
     {
       "id": "w4-psych-loneliness",
@@ -1814,7 +1904,7 @@
         },
         {
           "id": "f9",
-          "text": "有效的干预很具体。汇总研究里，针对“纠正对他人态度的负面解读”和“增加有质量的接触”的项目效果较好；只把人凑到一起做活动，效果有限。关键在改变人对关系的解读，而不只是增加相处时间。"
+          "text": "有效的干预很具体。汇总研究里，针对“纠正对他人态度的负面解读”的项目效果最好；单纯增加接触机会、只把人凑到一起做活动，效果最有限。关键在改变人对关系的解读，而不只是增加相处时间。"
         },
         {
           "id": "f10",
@@ -1935,7 +2025,16 @@
         "Hawkley, L. C., & Cacioppo, J. T. (2010). Loneliness matters: A theoretical and empirical review of consequences and mechanisms. Annals of Behavioral Medicine",
         "Masi, C. M., Chen, H.-Y., Hawkley, L. C., & Cacioppo, J. T. (2011). A meta-analysis of interventions to reduce loneliness. Personality and Social Psychology Review",
         "Holt-Lunstad, J. (2017). The potential public health relevance of social isolation and loneliness. Public Policy & Aging Report"
-      ]
+      ],
+      "factCheck": {
+        "status": "corrected",
+        "confidence": "high",
+        "batch": "batch-56",
+        "checkedAt": "2026-11-18T02:52:00+08:00",
+        "issueCount": 1,
+        "appliedAt": "2026-11-17T18:46:28.265Z",
+        "summary": "孤独专题的机制、相关性与年龄分布都站得住；唯一实质偏差是把“增加接触机会”这类效果最弱的干预写成了效果较好。"
+      }
     },
     {
       "id": "w4-psych-social-comparison",
@@ -2111,7 +2210,16 @@
         "Vogel, E. A., Rose, J. P., Roberts, L. R., & Eckles, K. (2014). Social comparison, social media, and self-esteem. Psychology of Popular Media Culture",
         "Verduyn, P., et al. (2015). Passive Facebook usage undermines affective well-being: Experimental and longitudinal evidence. Journal of Experimental Psychology: General",
         "Buunk, A. P., & Gibbons, F. X. (2007). Social comparison: The end of a theory and the emergence of a field. Organizational Behavior and Human Decision Processes"
-      ]
+      ],
+      "factCheck": {
+        "status": "verified",
+        "confidence": "high",
+        "batch": "batch-41",
+        "checkedAt": "2026-11-18T02:41:00+08:00",
+        "issueCount": 0,
+        "appliedAt": "2026-11-17T18:46:28.265Z",
+        "summary": "12 条全部 supported；费斯汀格、上行与下行比较、被动使用等核心断言可核，f10 的术语译法在 sourceNotes 中说明。"
+      }
     }
   ]
 }

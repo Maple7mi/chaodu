@@ -43,7 +43,7 @@
         },
         {
           "id": "f6",
-          "text": "监测靠赤道太平洋的锚系浮标阵列、卫星高度计与 Argo 剖面浮标；ONI 指数取 Niño3.4 区三个月滑动平均海温距平，连续五个月达到正零点五摄氏度即判为厄尔尼诺。"
+          "text": "监测靠赤道太平洋的锚系浮标、卫星高度计与 Argo 剖面浮标；ONI 取 Niño3.4 区三个月滑动平均海温距平，连续五个相互重叠的三月季达到正零点五摄氏度，才判为厄尔尼诺。"
         },
         {
           "id": "f7",
@@ -176,7 +176,16 @@
         "NOAA Climate Prediction Center. Oceanic Niño Index 与 ENSO 监测报告.",
         "IPCC. 第六次评估报告第一工作组，ENSO 相关章节.",
         "Philander, S. G. 1990. El Niño, La Niña, and the Southern Oscillation. Academic Press."
-      ]
+      ],
+      "factCheck": {
+        "status": "corrected",
+        "confidence": "high",
+        "batch": "batch-25",
+        "checkedAt": "2026-11-18T02:47:00+08:00",
+        "issueCount": 1,
+        "appliedAt": "2026-11-17T18:46:28.238Z",
+        "summary": "ENSO 的名称、信风—海温正反馈、南方涛动、遥相关与可预报性障碍均可核；唯 ONI 的判定窗口被写成“连续五个月”，应为连续五个重叠三月季。"
+      }
     },
     {
       "id": "w3-geo-world-thermohaline",
@@ -232,7 +241,7 @@
         },
         {
           "id": "f9",
-          "text": "多项重建估计二十世纪以来翻转环流减弱了约百分之十五，但代理指标误差很大；政府间气候变化专门委员会的评估认为本世纪很可能继续减弱，崩溃证据不足。"
+          "text": "多项重建估计自二十世纪中叶以来翻转环流减弱约百分之十五（约三斯维德鲁普），但代理指标误差很大；IPCC评估认为本世纪很可能继续减弱，崩溃证据不足。"
         },
         {
           "id": "f10",
@@ -353,7 +362,16 @@
         "Caesar, L. et al. 2018. Observed fingerprint of a weakening Atlantic Ocean overturning circulation. Nature.",
         "IPCC. 海洋与冰冻圈特别报告（SROCC），环流章节.",
         "RAPID 与 OSNAP 观测计划公开资料."
-      ]
+      ],
+      "factCheck": {
+        "status": "corrected",
+        "confidence": "high",
+        "batch": "batch-24",
+        "checkedAt": "2026-11-18T02:25:00+08:00",
+        "issueCount": 1,
+        "appliedAt": "2026-11-17T18:46:28.238Z",
+        "summary": "环流机制、观测阵列与古气候事件均无误；f9 把“二十世纪中叶以来”写成“二十世纪以来”，已给修正文本。"
+      }
     },
     {
       "id": "w3-geo-world-polar-vortex",
@@ -397,7 +415,7 @@
         },
         {
           "id": "f6",
-          "text": "增温信号可在数周内向下传到对流层，极涡偏移，冷空气沿槽南下。二〇一八年欧洲的东方野兽与二〇二一年得州寒潮，都与平流层增温有关。但同样的信号，不同年份的地面结果差别很大。"
+          "text": "增温信号有时可在数周内向下传到对流层，极涡偏移，冷空气沿槽南下。二〇一八年欧洲的东方野兽与当年二月增温的关联较有把握；二〇二一年得州寒潮那次增温的因果，模拟研究仍有争议，不能一概而论。"
         },
         {
           "id": "f7",
@@ -530,7 +548,16 @@
         "Cohen, J. et al. 2021. Linking Arctic variability and change with extreme winter weather in the United States. Science.",
         "Francis, J. A. & Vavrus, S. J. 2012. Evidence linking Arctic amplification to extreme weather in mid-latitudes. Geophysical Research Letters.",
         "ECMWF. ERA5 再分析资料."
-      ]
+      ],
+      "factCheck": {
+        "status": "corrected",
+        "confidence": "high",
+        "batch": "batch-14",
+        "checkedAt": "2026-11-18T02:13:00+08:00",
+        "issueCount": 1,
+        "appliedAt": "2026-11-17T18:46:28.238Z",
+        "summary": "极涡的结构、行星波强迫、臭氧化学与北极放大等段落均准确；唯一问题是把 2021 年得州寒潮也一并归因于平流层增温，而这一因果正被模拟研究否定。"
+      }
     },
     {
       "id": "w3-geo-world-sea-level",
@@ -707,7 +734,16 @@
         "IPCC. 第六次评估报告第一工作组，海平面章节.",
         "Cazenave, A. & Llovel, W. 2010. Contemporary sea level rise. Annual Review of Marine Science.",
         "Syvitski, J. P. M. et al. 2009. Sinking deltas due to human activities. Nature Geoscience."
-      ]
+      ],
+      "factCheck": {
+        "status": "verified",
+        "confidence": "high",
+        "batch": "batch-58",
+        "checkedAt": "2026-11-18T03:12:00+08:00",
+        "issueCount": 0,
+        "appliedAt": "2026-11-17T18:46:28.238Z",
+        "summary": "12条与IPCC AR6/SROCC及冰川均衡调整、海平面指纹等文献一致，数字与机制表述无需修改。"
+      }
     },
     {
       "id": "w3-geo-world-coral-bleaching",
@@ -751,7 +787,7 @@
         },
         {
           "id": "f6",
-          "text": "恢复需要时间。快速生长的枝状珊瑚约五到十年可以长回，若白化间隔短于恢复期，群落会从珊瑚转向藻类，礁体结构随后被侵蚀，鱼类栖息地随之消失。"
+          "text": "恢复需要时间。快速生长的枝状珊瑚通常也要十年以上才能长回，若白化间隔短于恢复期，群落会从珊瑚转向藻类，礁体结构随后被侵蚀，鱼类栖息地随之消失。"
         },
         {
           "id": "f7",
@@ -763,7 +799,7 @@
         },
         {
           "id": "f9",
-          "text": "大堡礁在一九九八、二〇一六、二〇一七、二〇二〇、二〇二二与二〇二四年多次白化；北部与中部损失最重，南部相对轻，恢复被反复打断，珊瑚组成已经改变。每一次白化之后，耐热种类的占比都会上升一点。"
+          "text": "大堡礁在一九九八、二〇〇二、二〇一六、二〇一七、二〇二〇、二〇二二与二〇二四年多次白化；不同年份重灾区不同，北部、中部与南部都曾大面积受损，恢复被反复打断，珊瑚组成已经改变。"
         },
         {
           "id": "f10",
@@ -884,7 +920,16 @@
         "IPCC. 全球升温 1.5 摄氏度特别报告，珊瑚礁章节.",
         "Hughes, T. P. et al. 2018. Spatial and temporal patterns of mass bleaching of corals in the Anthropocene. Science.",
         "NOAA Coral Reef Watch. 珊瑚白化监测产品."
-      ]
+      ],
+      "factCheck": {
+        "status": "corrected",
+        "confidence": "high",
+        "batch": "batch-13",
+        "checkedAt": "2026-11-18T02:22:00+08:00",
+        "issueCount": 2,
+        "appliedAt": "2026-11-17T18:46:28.238Z",
+        "summary": "12 条中 10 条与 NOAA、IPCC 及大堡礁监测一致；恢复年限与 2002 年事件两处需要修正。"
+      }
     },
     {
       "id": "w3-geo-world-ocean-acidification",
@@ -1061,7 +1106,16 @@
         "IPCC. 海洋与冰冻圈特别报告（SROCC），酸化章节.",
         "夏威夷冒纳罗亚观测站与百慕大时间序列公开资料.",
         "Zeebe, R. E. & Wolf-Gladrow, D. 2001. CO2 in Seawater: Equilibrium, Kinetics, Isotopes."
-      ]
+      ],
+      "factCheck": {
+        "status": "verified",
+        "confidence": "high",
+        "batch": "batch-20",
+        "checkedAt": "2026-11-18T02:42:00+08:00",
+        "issueCount": 0,
+        "appliedAt": "2026-11-17T18:46:28.238Z",
+        "summary": "海洋酸化的化学、吸收量、区域差异、时间序列与生物响应均与现代观测和综述一致，未发现需要修正之处。"
+      }
     },
     {
       "id": "w3-geo-world-urban-heat-island",
@@ -1104,7 +1158,7 @@
         },
         {
           "id": "f6",
-          "text": "热岛与热浪叠加时最危险。二〇〇三年欧洲热浪与二〇一〇年莫斯科热浪中，城市中心的超额死亡显著高于郊区，独居老人与无空调家庭风险最高。空调的普及程度，往往比气温本身更能解释死亡差异。"
+          "text": "热岛与热浪叠加时最危险。二〇〇三年欧洲与二〇一〇年莫斯科热浪中，城市超额死亡高于乡村，城市内部差异也很大，独居老人与无空调家庭风险最高；空调普及程度往往比气温更能解释死亡差异。"
         },
         {
           "id": "f7",
@@ -1237,7 +1291,16 @@
         "US EPA. Reducing Urban Heat Islands: Compendium of Strategies, 2008.",
         "IPCC. 第六次评估报告第二工作组，城市与定居点章节.",
         "巴塞罗那市政府. 超级街区（Superilles）评估报告."
-      ]
+      ],
+      "factCheck": {
+        "status": "corrected",
+        "confidence": "medium",
+        "batch": "batch-61",
+        "checkedAt": "2026-11-18T02:52:00+08:00",
+        "issueCount": 1,
+        "appliedAt": "2026-11-17T18:46:28.238Z",
+        "summary": "城市热岛的物理机制、测量口径与缓解手段均可核实，仅热浪死亡的城市内部对比需要收窄表述。"
+      }
     },
     {
       "id": "w3-geo-world-river-delta",
@@ -1414,7 +1477,16 @@
         "Giosan, L., Syvitski, J., Constantinescu, S. & Day, J. 2014. Protect the world's deltas. Nature.",
         "Stanley, D. J. & Warne, A. G. 1993. Nile delta: recent geological evolution of the Nile delta. Science.",
         "IPCC. 海洋与冰冻圈特别报告（SROCC），海岸与三角洲章节."
-      ]
+      ],
+      "factCheck": {
+        "status": "verified",
+        "confidence": "high",
+        "batch": "batch-20",
+        "checkedAt": "2026-11-18T02:42:00+08:00",
+        "issueCount": 0,
+        "appliedAt": "2026-11-17T18:46:28.238Z",
+        "summary": "三角洲的泥沙收支、尼罗河与密西西比案例、雅加达沉降、恒河三角洲人口与恢复措施均有文献支持，未发现需要修正之处。"
+      }
     },
     {
       "id": "w3-geo-world-upwelling-fishery",
@@ -1590,7 +1662,16 @@
         "Chavez, F. P. et al. 2008. Biological consequences of the 1997-98 El Niño in the central Pacific. Progress in Oceanography.",
         "联合国粮农组织. 世界渔业与水产养殖状况报告.",
         "秘鲁海洋研究所（IMARPE）渔业与海温监测资料."
-      ]
+      ],
+      "factCheck": {
+        "status": "verified",
+        "confidence": "high",
+        "batch": "batch-59",
+        "checkedAt": "2026-11-18T03:02:00+08:00",
+        "issueCount": 0,
+        "appliedAt": "2026-11-17T18:46:28.238Z",
+        "summary": "上升流的物理机制、四大典型海域、短食物链、秘鲁凤尾鱼在厄尔尼诺年崩溃、本格拉系统与纳米布沙漠、以及「上升流趋势区域差异大」均可核，未发现需要改写的断言。"
+      }
     },
     {
       "id": "w3-geo-world-tundra",
@@ -1766,7 +1847,16 @@
         "Natali, S. M. et al. 2019. Large loss of CO2 in winter observed across the northern permafrost region. Nature Climate Change.",
         "IPCC. 海洋与冰冻圈特别报告（SROCC），冻土与高纬章节.",
         "北极理事会. 北极气候影响评估（ACIA）报告."
-      ]
+      ],
+      "factCheck": {
+        "status": "verified",
+        "confidence": "high",
+        "batch": "batch-51",
+        "checkedAt": "2026-11-18T02:58:00+08:00",
+        "issueCount": 0,
+        "appliedAt": "2026-11-17T18:46:28.238Z",
+        "summary": "苔原的气候、植被适应、冻土碳反馈、热喀斯特与候鸟繁殖地描述均与 IPCC SROCC 及冻土碳研究一致。"
+      }
     }
   ]
 }

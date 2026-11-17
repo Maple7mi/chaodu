@@ -12,6 +12,7 @@ data/push/
 data/backups/
 data/server.log
 data/*.log
+data/factcheck/*.log
 
 # 测试临时目录
 tests/.tmp-data/

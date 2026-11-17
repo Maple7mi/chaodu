@@ -1,0 +1,356 @@
+{
+  "batch": "batch-33",
+  "checkedAt": "2026-11-18T02:45:00+08:00",
+  "dossiers": [
+    {
+      "id": "psych-online-dating",
+      "status": "corrected",
+      "confidence": "medium",
+      "facts": [
+        {"id": "f1", "verdict": "imprecise", "confidence": "high", "issue": "issue-01"},
+        {"id": "f2", "verdict": "supported", "confidence": "medium"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "unsupported", "confidence": "medium", "issue": "issue-02"},
+        {"id": "f5", "verdict": "unsupported", "confidence": "medium", "issue": "issue-03"},
+        {"id": "f6", "verdict": "imprecise", "confidence": "high", "issue": "issue-04"},
+        {"id": "f7", "verdict": "supported", "confidence": "medium"},
+        {"id": "f8", "verdict": "imprecise", "confidence": "medium", "issue": "issue-05"},
+        {"id": "f9", "verdict": "unsupported", "confidence": "medium", "issue": "issue-06"},
+        {"id": "f10", "verdict": "supported", "confidence": "high"},
+        {"id": "f11", "verdict": "unsupported", "confidence": "medium", "issue": "issue-07"}
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f1",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "通过线上认识的比例在2010年后超过朋友介绍与同事相识。",
+          "problem": "罗森菲尔德等人研究给出的交叉年份是2013年，“2010年后”过于宽泛，读者会以为更早。",
+          "correction": "罗森菲尔德等人2019年的研究发现，美国异性恋伴侣中通过线上认识的比例在2013年超过朋友介绍与同事相识，成为最常见的相识途径；技术改变了相遇的结构，却没有改变人们对承诺的期待。",
+          "evidence": [
+            {"title": "Disintermediating your friends: How online dating in the United States displaces other ways of meeting (PNAS, 2019)", "url": "https://www.pnas.org/doi/10.1073/pnas.1908630116", "quote": "online dating ... displaces other ways of meeting"},
+            {"title": "More people are meeting online than through friends, family: study", "url": "https://nypost.com/2019/02/13/more-people-are-meeting-online-than-through-friends-family/", "quote": "connecting online had outstripped meeting through friends among heterosexual couples in 2013"}
+          ]
+        },
+        {
+          "id": "issue-02",
+          "factId": "f4",
+          "severity": "minor",
+          "verdict": "unsupported",
+          "claim": "资料页的可信度取决于具体细节与一致性。",
+          "problem": "没有可核对的实证研究支持这一具体机制，书目里也没有对应文献；这是一条写作建议，不是研究结论。",
+          "correction": "资料页的说服力更多来自可核对的细节与前后一致，而不是形容词的密度：写清上次去了哪里、为什么喜欢，比笼统说喜欢旅行更容易被记住，也更容易让对方愿意接话。",
+          "evidence": [
+            {"title": "Separating Fact From Fiction: An Examination of Deceptive Self-Presentation in Online Dating Profiles (Toma et al., 2008)", "url": "https://doi.org/10.1177/0146167208318067", "quote": "deviations tended to be ubiquitous but small in magnitude"}
+          ]
+        },
+        {
+          "id": "issue-03",
+          "factId": "f5",
+          "severity": "minor",
+          "verdict": "unsupported",
+          "claim": "期待越高，第一次见面的评价越容易下滑。",
+          "problem": "没有找到直接检验该命题的研究；理想化与落差的研究多集中在关系满意度，不能支撑这条普遍规律。",
+          "correction": "见面前人会用有限线索补全对方形象，期待越高，见面时的落差越容易被感受到；但落差该归因于对方还是自己的想象，研究并没有定论，测量口径也不统一。",
+          "evidence": [
+            {"title": "When and Why Do Ideal Partner Preferences Affect the Process of Initiating and Maintaining Romantic Relationships? (Eastwick et al., 2011)", "url": "https://psycnet.apa.org/doiLanding?doi=10.1037%2Fa0024062", "quote": "after a live interaction with the partner, the match vs. mismatch manipulation was no longer associated with romantic interest"}
+          ]
+        },
+        {
+          "id": "issue-04",
+          "factId": "f6",
+          "severity": "major",
+          "verdict": "imprecise",
+          "claim": "说谎程度与见面后的吸引力下降相关。",
+          "problem": "托马等人2008年测量的是资料与真实身高体重的偏差，没有跟踪见面后的吸引力；把“见面后吸引力下降”归给该研究是错误归属。",
+          "correction": "托马等人2008年让80名在线约会者核对资料与真实身高体重，发现偏差普遍但幅度很小，男性多报身高、女性多报体重；该研究并未跟踪见面后的吸引力变化。",
+          "evidence": [
+            {"title": "Separating Fact From Fiction: An Examination of Deceptive Self-Presentation in Online Dating Profiles (Toma et al., 2008)", "url": "https://doi.org/10.1177/0146167208318067", "quote": "deviations tended to be ubiquitous but small in magnitude"}
+          ]
+        },
+        {
+          "id": "issue-05",
+          "factId": "f8",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "被消失的人报告的困扰高于被明确拒绝的人。",
+          "problem": "实验研究显示被消失者与明确被拒者都报告较高负面情绪，被消失者更多是持续的情感牵连；“困扰更高”的比较并不一致。",
+          "correction": "被消失的人缺少解释，容易反复回想并保持情感牵连；而选择消失的人常低估这种伤害，以为不说是为了避免冲突。不过，它与明确拒绝相比哪一种更痛苦，研究结果并不一致。",
+          "evidence": [
+            {"title": "Ghosting and rejection: emotional consequences of ambiguous endings (Personal Relationships, 2025)", "url": "https://onlinelibrary.wiley.com/doi/10.1111/pere.70018", "quote": "Ghosted and explicitly rejected participants reported high negative emotion ... ghosted participants reported ongoing emotional attachment"}
+          ]
+        },
+        {
+          "id": "issue-06",
+          "factId": "f9",
+          "severity": "minor",
+          "verdict": "unsupported",
+          "claim": "平台算法按停留与互动排序，优化的是使用时长而不是关系质量。",
+          "problem": "各平台排序算法并不公开，没有可靠来源能证明其目标函数就是使用时长；这属于外部推测。",
+          "correction": "平台确实会用停留、互动等信号排序推荐，但各家算法并不公开，公开资料里也看不到目标函数；所谓优化使用时长而非关系质量只是外部推测，不能当作已经验证的结论。",
+          "evidence": [
+            {"title": "Why we've fallen out of love with dating apps (RTÉ Brainstorm)", "url": "https://www.rte.ie/brainstorm/2025/0718/1513862-dating-apps-algorithms-ai-technology/", "quote": "a growing belief that the AI used by these apps seems to prioritise short-term engagement metrics over meaningful connections"}
+          ]
+        },
+        {
+          "id": "issue-07",
+          "factId": "f11",
+          "severity": "minor",
+          "verdict": "unsupported",
+          "claim": "第一次见面的互动质量比资料页的匹配度更能预测后续，所以应尽早见面。",
+          "problem": "没有引用具体研究；Eastwick 等2011年只发现资料匹配的预测力在真实互动后消失，不足以支撑“尽早见面”的普遍建议。",
+          "correction": "第一次见面的互动质量，往往比资料页的匹配度更能预测后续关系；但这只是概率上的提示，不是定论。把时间花在几次真实见面上通常比反复筛选更有用。",
+          "evidence": [
+            {"title": "When and Why Do Ideal Partner Preferences Affect the Process of Initiating and Maintaining Romantic Relationships? (Eastwick et al., 2011)", "url": "https://psycnet.apa.org/doiLanding?doi=10.1037%2Fa0024062", "quote": "the match vs. mismatch manipulation was no longer associated with romantic interest"}
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "罗森菲尔德等人的交叉点是2013年，不是笼统的2010年后。",
+        "书目没有给出 ghosting、算法排序相关文献，f8、f9 的证据来自核查时另找的研究与报道。"
+      ],
+      "summary": "线上相识的宏观趋势与选择过载实验站得住，但资料页细节、期待落差、算法目标等几处把写作经验写成了研究结论，需降级。"
+    },
+    {
+      "id": "w4-psych-resilience",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "medium"},
+        {"id": "f6", "verdict": "supported", "confidence": "medium"},
+        {"id": "f7", "verdict": "imprecise", "confidence": "medium", "issue": "issue-01"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "medium"},
+        {"id": "f10", "verdict": "supported", "confidence": "medium"},
+        {"id": "f11", "verdict": "supported", "confidence": "high"},
+        {"id": "f12", "verdict": "supported", "confidence": "high"}
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f7",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "灾后重建里，恢复日常秩序常常比心理疏导更先起作用。",
+          "problem": "灾后心理支持指南确实强调恢复日常生活，但把它说成优先于心理疏导的次序没有依据；两者是并行的。",
+          "correction": "规律作息、稳定收入和清楚的治疗方案能减少不确定性带来的消耗；灾后心理支持指南也强调尽快恢复日常生活，但它与心理疏导是并行的，不宜说谁一定先起作用。",
+          "evidence": [
+            {"title": "Finding calm after a crisis (Queensland Health)", "url": "https://www.health.qld.gov.au/newsroom/features/finding-calm-after-a-crisis-how-to-look-after-your-mental-wellbeing-and-physical-health-after-a-natural-disaster", "quote": "Routine can relieve stress because it helps you feel in control and know what's coming up."}
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "书目没有列韧性干预的元分析，f10 的判断另据 PRP 与学生样本的元分析。",
+        "Kauai 队列的比例按“约三分之一高风险、其中约三分之二发展尚可”表述。"
+      ],
+      "summary": "韧性研究的经典结论（普通适应系统、Kauai 队列、Bonanno 轨迹、5-HTTLPR 无稳定交互）均可核实，仅灾后秩序与心理疏导的先后关系需去掉排序。"
+    },
+    {
+      "id": "w2-geo-world-mountains-caucasus",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "medium"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "medium"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "medium"},
+        {"id": "f10", "verdict": "supported", "confidence": "medium"},
+        {"id": "f11", "verdict": "supported", "confidence": "high"},
+        {"id": "f12", "verdict": "unsupported", "confidence": "medium", "issue": "issue-01"}
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f12",
+          "severity": "minor",
+          "verdict": "unsupported",
+          "claim": "一个山谷里有四套格语法体系、三套辅音系统。",
+          "problem": "找不到支持这一具体计数的来源；高加索通常被概括为三大语系、语法差异极大，但没有“四套语法、三套辅音”的实测结论。",
+          "correction": "高加索常被语言学家当作天然实验室：山谷之间交通不便，语言分化细碎，语法和辅音系统差异很大；但所谓四套语法、三套辅音这类整齐数字是概括，不是实测结论。",
+          "evidence": [
+            {"title": "Peoples and Languages of the Caucasus (The Routledge Handbook of the Caucasus)", "url": "https://www.taylorfrancis.com/chapters/edit/10.4324/9781351055628-3/peoples-languages-lore-john-colarusso", "quote": "three language families ... diverge radically in the details of their grammars"}
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "高加索语言常被概括为西北高加索、东北高加索、南高加索三大语系，具体山谷的语法/辅音计数没有可核对来源。",
+        "达吉斯坦面积约5.03万平方公里、语言“超过30种”，不是恰好30种。"
+      ],
+      "summary": "厄尔布鲁士、三大语系、达吉斯坦、Darial 峡谷、巴库石油、BTC 管道与1988年地震等硬事实均可核实；只有“四套语法、三套辅音”的整齐计数无来源。"
+    },
+    {
+      "id": "w1-world-history-classical-roman-concrete-water",
+      "status": "verified",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "medium"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "medium"},
+        {"id": "f7", "verdict": "supported", "confidence": "medium"},
+        {"id": "f8", "verdict": "supported", "confidence": "medium"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "supported", "confidence": "high"},
+        {"id": "f11", "verdict": "supported", "confidence": "medium"},
+        {"id": "f12", "verdict": "supported", "confidence": "high"}
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "引文数字与 Frontinus、Pleiades、GVP 等来源一致；部分工程细节依赖二手概述。",
+        "罗马城十一条水道到公元三世纪的说法按 Aqua Alexandrina（226年）计入。"
+      ],
+      "summary": "罗马混凝土、万神殿尺寸、Aqua Appia、十一条水道总长与坡度、Frontinus 的分配制度、特雷维水源等均可核实，未发现需要改动的断言。"
+    },
+    {
+      "id": "w5-myth-compare-twins",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "imprecise", "confidence": "high", "issue": "issue-01"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "medium"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "supported", "confidence": "medium"},
+        {"id": "f9", "verdict": "supported", "confidence": "medium"},
+        {"id": "f10", "verdict": "supported", "confidence": "medium"},
+        {"id": "f11", "verdict": "supported", "confidence": "medium"}
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f2",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "两人最后跳进火中，升为太阳与金星。",
+          "problem": "现存《波波尔·乌》写双子成为太阳与月亮；太阳与金星是汤普森对更早口传版本的复原假说，原文把假说说成了定本。",
+          "correction": "Hunahpu 在蝙蝠屋被斩首，Xbalanque 用计让他复活，两人最后跳进火中升天。现存《波波尔·乌》写他们成为太阳与月亮；也有学者认为更早的口传版本是太阳与金星，两种说法并存。",
+          "evidence": [
+            {"title": "Maya Hero Twins: Hunahpu and Xbalanque (EBSCO Research Starters)", "url": "https://www.ebsco.com/research-starters/literature-and-writing/maya-hero-twins-hunahpu-and-xbalanque", "quote": "ascending to the sky as the sun and the moon"},
+            {"title": "Eroii gemeni înfrâng Moartea (Evenimentul Istoric)", "url": "https://evenimentulistoric.ro/eroii-gemeni-infrang-moartea.html/2", "quote": "în tradiţia orală, gemenii au fost preschimbaţi în Soare şi Venus"}
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "现存《波波尔·乌》文本写双子成为太阳与月亮，太阳与金星是 Thompson 的复原假说。",
+        "伊邪那岐与伊邪那美是兄妹而非双胞胎，长子蛭子被放流。"
+      ],
+      "summary": "双子神话的跨文化比较整体可靠，唯一需改的是《波波尔·乌》结局：定本写日月，日月+金星是学术假说而非原文。"
+    },
+    {
+      "id": "w2-psych-comm-meta",
+      "status": "corrected",
+      "confidence": "medium",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "medium"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "medium"},
+        {"id": "f6", "verdict": "supported", "confidence": "medium"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "supported", "confidence": "medium"},
+        {"id": "f9", "verdict": "supported", "confidence": "medium"},
+        {"id": "f10", "verdict": "unsupported", "confidence": "medium", "issue": "issue-01"},
+        {"id": "f11", "verdict": "supported", "confidence": "medium"},
+        {"id": "f12", "verdict": "supported", "confidence": "high"}
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f10",
+          "severity": "minor",
+          "verdict": "unsupported",
+          "claim": "研究提示，能够讨论关系本身的伴侣，通常对关系有更高的掌控感。",
+          "problem": "没有给出具体研究；现有文献多为横断相关，不能支撑“掌控感”这一因果性表述。",
+          "correction": "目前没有稳定证据表明，能讨论关系本身的伴侣一定对关系更有掌控感；相关研究多为横断调查，不能证明元沟通能挽救关系，也不能排除其他因素。",
+          "evidence": [
+            {"title": "Content Themes in Marital Conversations (Sillars et al., 1987)", "url": "https://eric.ed.gov/?id=EJ385206", "quote": "marital satisfaction tends to be positively associated with communal and impersonal themes"}
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "书目多为临床与自助书，f10 没有给出具体实证研究。",
+        "Gottman 的“冲突后修复”流程按公开文章核对，属临床建议而非实验结论。"
+      ],
+      "summary": "元沟通的定义、内容/关系两层、时机与安全边界等临床表述基本可靠；f10 的“掌控感”缺实证，应降为相关性的谨慎说法。"
+    },
+    {
+      "id": "w1-geo-cn-yangtze-delta",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "medium"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "wrong", "confidence": "high", "issue": "issue-01"},
+        {"id": "f6", "verdict": "supported", "confidence": "medium"},
+        {"id": "f7", "verdict": "supported", "confidence": "medium"},
+        {"id": "f8", "verdict": "supported", "confidence": "medium"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "supported", "confidence": "medium"},
+        {"id": "f11", "verdict": "supported", "confidence": "medium"}
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f5",
+          "severity": "major",
+          "verdict": "wrong",
+          "claim": "最严重时每年下沉几十厘米。",
+          "problem": "可靠数字是1921–1965年累计约1.76米（年均约4厘米），最大年速率约98毫米（1956–1959），即近十厘米，不是几十厘米。",
+          "correction": "上海在二十世纪因大量抽取地下水而明显下沉，1921至1965年累计下沉约1.76米，最严重时每年近十厘米。后来限制开采并回灌地下水，沉降才逐步被控制，但并未完全停止。",
+          "evidence": [
+            {"title": "Shanghai sinks as water is pumped out (Reuters)", "url": "https://www.reuters.com/article/summitNews/idUSTRE49502K20081006/", "quote": "sank 1.76 meters between 1921 and 1965, or an average of about 4 centimeters a year"},
+            {"title": "Land Subsidence in Shanghai (USGS/UNESCO)", "url": "https://wwwrcamnl.wr.usgs.gov/rgws/Unesco/PDF-Chapters/Chapter9-2.pdf", "quote": "greatest subsidence ... 1956 to 1959, at an annual rate of 98 mm"}
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "上海沉降数字采用1921–1965累计1.76米与1956–1959年最大约98毫米/年。",
+        "长江多年平均输沙量按1960年代以来约4.026亿吨表述，近几十年明显下降。"
+      ],
+      "summary": "太湖、河口三级分汊四口入海、输沙量与围垦等地理事实可靠；唯一硬错误是上海沉降速率被夸大约一个量级。"
+    },
+    {
+      "id": "world-myth-ragnarok",
+      "status": "verified",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "medium"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "medium"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "supported", "confidence": "medium"},
+        {"id": "f11", "verdict": "supported", "confidence": "medium"},
+        {"id": "f12", "verdict": "supported", "confidence": "medium"}
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "《埃达》诗歌的成书年代与作者多不可确考，f1 按通行断代表述。",
+        "“Ragnarøkkr”因瓦格纳《诸神的黄昏》而流行，属接受史而非古代用法。"
+      ],
+      "summary": "《沃卢斯帕》与《散文埃达》的诸神黄昏叙事、芬里尔与托尔、巴德尔之死、洪水后重生、戈斯福斯十字与瓦格纳接受史均可核实，无需改动。"
+    }
+  ]
+}

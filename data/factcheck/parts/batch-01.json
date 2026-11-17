@@ -1,0 +1,347 @@
+{
+  "batch": "batch-01",
+  "checkedAt": "2026-11-18T02:18:00+08:00",
+  "dossiers": [
+    {
+      "id": "psych-self-expansion",
+      "status": "corrected",
+      "confidence": "medium",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "imprecise", "confidence": "medium", "issue": "issue-01"},
+        {"id": "f4", "verdict": "imprecise", "confidence": "medium", "issue": "issue-02"},
+        {"id": "f5", "verdict": "supported", "confidence": "medium"},
+        {"id": "f6", "verdict": "supported", "confidence": "medium"},
+        {"id": "f7", "verdict": "supported", "confidence": "medium"},
+        {"id": "f8", "verdict": "supported", "confidence": "medium"},
+        {"id": "f9", "verdict": "supported", "confidence": "medium"},
+        {"id": "f10", "verdict": "supported", "confidence": "medium"},
+        {"id": "f11", "verdict": "supported", "confidence": "medium"},
+        {"id": "f12", "verdict": "supported", "confidence": "medium"}
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f3",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "让已婚伴侣完成新奇或有唤醒感的共同任务，之后报告的关系满意度上升",
+          "problem": "原研究把53对伴侣随机分到新奇活动、愉快活动与不安排活动三组，两类活动合并后与对照组相比提升不显著，摘要明确说“任何活动都提升满意度”未获支持；原句把不显著的结果写成普遍上升。",
+          "correction": "赖斯曼、阿伦与伯根1993年让53对已婚伴侣连续十周共同做新奇或愉快的活动，但两类活动合并后与不安排活动的对照组相比，满意度提升并不显著；研究没有证明共同活动会普遍提升满意度。",
+          "evidence": [
+            {"title": "Reissman, Aron & Bergen (1993), Journal of Social and Personal Relationships", "url": "https://journals.sagepub.com/doi/10.1177/026540759301000205", "quote": "A planned linear contrast comparing the two activities groups to the control group was not significant and had a small effect size; thus the theory that any kind of activity enhances marital satisfaction was not supported"}
+          ]
+        },
+        {
+          "id": "issue-02",
+          "factId": "f4",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "把伴侣分配到高唤醒、低唤醒与平淡三类任务，高唤醒组的满意度提升最大",
+          "problem": "2000年的三个实验比较的是“新奇而有唤醒感”的七分钟任务与“更平淡”的任务，另设不安排活动的对照组，并非高、低唤醒与平淡三档；原句凭空多出一档。",
+          "correction": "阿伦、诺曼等人2000年的实验让伴侣一起完成七分钟新奇而有唤醒感的任务，再与做平淡任务的伴侣比较，前者的关系满意度提升更大。关键不在活动多有趣，而在它是否带来“我们一起做到了新东西”的感觉。",
+          "evidence": [
+            {"title": "Aron et al. (2000), PubMed abstract", "url": "https://pubmed.ncbi.nlm.nih.gov/10707334/", "quote": "In all 3 experiments, the authors found predicted greater increases in experienced relationship quality from before to after participating together in a 7-min novel and arousing (vs. a more mundane) task."}
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "f1: Aron & Aron (1986), Love and the Expansion of Self, Hemisphere; https://archive.org/details/loveexpansionofs0000aron",
+        "f2: Aron, Aron & Smollan (1992), JPSP 63(4):596-612; https://doi.org/10.1037/0022-3514.63.4.596",
+        "f5: Dutton & Aron (1974), JPSP 30(4):510-517；CEJSH 复分析论文指出原始关键比较 p=.08，不显著，故“复现困难”成立，但方向性效应仍被讨论。",
+        "f6/f7/f8/f9/f12: 综述见 Springer, Relationship-Induced Self-concept Change (2020); https://link.springer.com/chapter/10.1007/978-3-030-43747-3_1",
+        "f11: Partner Support for Self-Expansion in Retirement (2020); https://psycnet.apa.org/manuscript/2020-49974-001.pdf",
+        "f10: 所引研究样本以美国大学生与已婚伴侣为主，跨文化、长期追踪证据仍有限。"
+      ],
+      "summary": "模型、IOS量表与吊桥实验可核实；两项共同活动实验的结论被原句夸大或误述，已给出修正。"
+    },
+    {
+      "id": "world-history-rome-roads",
+      "status": "verified",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "medium"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "supported", "confidence": "medium"},
+        {"id": "f9", "verdict": "supported", "confidence": "medium"},
+        {"id": "f10", "verdict": "supported", "confidence": "high"},
+        {"id": "f11", "verdict": "supported", "confidence": "medium"},
+        {"id": "f12", "verdict": "supported", "confidence": "medium"}
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "f1: UNESCO Italia, Via Appia Regina Viarum; https://unesco.cultura.gov.it/projects/via-appia-regina-viarum/",
+        "f2: Epigraphic Roads 项目：8万余公里铺石路、约40万公里未铺石路；https://sdam-au.github.io/epigraphic_roads/ 不同研究口径不一，量级一致。",
+        "f3: 鹿儿岛大学罗马道路构造页；https://www.sci.kagoshima-u.ac.jp/oyo/advanced/engineering/infra.html",
+        "f4: 奥古斯都约前27-20年组织 cursus publicus 的论文摘要；https://oa.las.ac.cn/",
+        "f5: Duncan-Jones (1982) 据301年《最高价格敕令》得海运:河运:陆运=1:4.9:28-56；https://research-information.bris.ac.uk/ws/portalfiles/portal/34500858/425132.pdf",
+        "f6: PIARC, Via Egnatia；https://proceedings-paris2007.piarc.org/ressources/files/5/HS110-Eliou-E.pdf",
+        "f7: Milliarium Aureum 词条；https://babel.hathitrust.org/cgi/ssd?id=njp.32101060060983",
+        "f9: 4世纪道路失修与沿线地主承担维护的记载；https://www.taylorfrancis.com/chapters/mono/10.4324/9780429497087-4/regulating-land-ronald-edward-zupko-robert-anthony-laures",
+        "f10: RTVE 节目页：约5300万件陶罐、85%来自贝提卡；https://www.rtve.es/play/audios/preguntas-a-la-historia/",
+        "f12: “How Roman is your road?” 测算英国A级路5.0%沿罗马线，反向20%罗马道路与现路重合；https://zenodo.org/records/23673516"
+      ],
+      "summary": "关键年份、里程、成本比与工程构造均有可追溯来源，未发现需要修正的硬错误。"
+    },
+    {
+      "id": "world-myth-atlantis",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "medium"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "imprecise", "confidence": "high", "issue": "issue-01"},
+        {"id": "f11", "verdict": "supported", "confidence": "medium"},
+        {"id": "f12", "verdict": "supported", "confidence": "medium"}
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f10",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "但年代差了约九千年",
+          "problem": "亚特兰蒂斯的“九千年”是距梭伦约九千年，即约公元前9600年；圣托里尼喷发约公元前1600年，两者相差约八千年，不是九千年。",
+          "correction": "与亚特兰蒂斯最接近的真实事件是圣托里尼火山喷发，约在公元前十七世纪，摧毁了米诺斯文明的阿克罗蒂里城。但年代差了约八千年，规模也不足以淹没大陆，只能算部分灵感来源。",
+          "evidence": [
+            {"title": "EPFL GraphSearch: Minoan eruption", "url": "https://graphsearch.epfl.ch/en/concept/4217801", "quote": "circa 1600 BCE ... destroyed the Minoan settlement at Akrotiri"},
+            {"title": "Plato, Timaeus/Critias (HathiTrust)", "url": "https://babel.hathitrust.org/cgi/ssd?id=uva.x000141829", "quote": "Nine thousand years before Solon"}
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "f1: BBC In Our Time, Plato's Atlantis; https://www.bbc.com/audio/play/m001c6t3",
+        "f2/f5: HathiTrust  Plato 文本导言，梭伦—克里提亚斯转述链与“九千年”；https://babel.hathitrust.org/cgi/ssd?id=uva.x000141829",
+        "f8: HathiTrust 书目记录，Donnelly 1882, Harper；https://catalog.hathitrust.org/Record/001286811",
+        "f9: Bimini 为天然石灰岩的 Nature 1980 回溯；https://archive.nstl.gov.cn/Archives/browse.do?action=viewDetail&articleID=5f4e385727fbf7ba&navig=9565bcbb40dbfbe9&navigator=category&flag=byWord&subjectCode=null&searchfrom=null/1000；Richat 为侵蚀穹隆与碱性-热液杂岩；https://www.sciencedirect.com/science/article/abs/pii/S1464343X14000971",
+        "f10: 喷发年代取约前1600年，另有前17世纪说；九千年按距梭伦（约前590年）推算约前9600年。",
+        "f12: 培根《新大西洋岛》、神智学与流行文化线索见 Leiden University 关于 Blavatsky 与亚特兰蒂斯的论文。"
+      ],
+      "summary": "文本来源、转述链与近代接受史均可核实；唯一硬错误是把约八千年的年代差写成约九千年。"
+    },
+    {
+      "id": "cn-history-chibi",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "wrong", "confidence": "high", "issue": "issue-01"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "supported", "confidence": "medium"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "wrong", "confidence": "high", "issue": "issue-02"},
+        {"id": "f11", "verdict": "unsupported", "confidence": "medium", "issue": "issue-03"},
+        {"id": "f12", "verdict": "supported", "confidence": "high"}
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f3",
+          "severity": "major",
+          "verdict": "wrong",
+          "claim": "从江陵顺流而下到赤壁约二百里",
+          "problem": "江陵到赤壁的水路约三百二十公里，合六百多里；二百里约一百公里，只及实际距离的三分之一。",
+          "correction": "赤壁在今湖北赤壁市西北的长江南岸，对岸是乌林。江面在此转弯，两岸有山，适合设伏与火攻，是长江中游的险要处。从江陵顺流而下到赤壁的水路约三百二十公里，曹军的水路补给线拉得很长。",
+          "evidence": [
+            {"title": "《赤壁》第8章", "url": "https://ubook.reader.qq.com/book-read/46678647/8", "quote": "江陵距赤壁的水路约三百二十公里，夏口至赤壁的水路距离约一百五十公里"}
+          ]
+        },
+        {
+          "id": "issue-02",
+          "factId": "f10",
+          "severity": "major",
+          "verdict": "wrong",
+          "claim": "书中的赤壁占了大半回篇幅",
+          "problem": "《三国演义》共一百二十回，赤壁之战集中在第四十三回到第五十回，共八回，远非“大半回篇幅”。",
+          "correction": "这场战役的规模在后世被不断放大。说书与元明小说把兵力夸张到八十万对五万，草船借箭等情节逐渐叠加上去。《三国演义》成书于元末明初，赤壁之战集中在该书第四十三回到第五十回，共八回，虚构多于史实。",
+          "evidence": [
+            {"title": "青岛市图书馆讲座：烈火燃江定三分", "url": "https://qdlib.net/html/huodongyugao/jiangzuo/20260825_5272.html", "quote": "从第四十三回“诸葛亮舌战群儒”至第五十回“关云长义释华容”"}
+          ]
+        },
+        {
+          "id": "issue-03",
+          "factId": "f11",
+          "severity": "major",
+          "verdict": "unsupported",
+          "claim": "2009年以后，考古队在赤壁江段做水下探测，发现一些铁箭镞与船具残件",
+          "problem": "未检索到2009年以后赤壁江段水下考古并发现铁箭镞、船具残件的可靠报道；可查的出土记录多为1973、1976年赤壁山与乌林的陆上遗址所出，不能支持“水下探测”一说。",
+          "correction": "赤壁古战场的确切位置至今仍有几种说法；黄州赤壁因苏轼的《赤壁赋》出名，一般不被当作战场。沿江出土过一些铁箭镞等遗物，但还不足以确认战场。",
+          "evidence": [
+            {"title": "维基百科：赤壁", "url": "https://zh.wikipedia.org/wiki/%E6%96%87%E8%B5%A4%E5%A3%81", "quote": "1973年出土的铜马镫、“建安八年”（203年）字样的瓦砚，1976年赤壁山下土层中的沉船遗址"},
+            {"title": "央视：专家汇聚赤壁研讨赤壁之战", "url": "https://news.cntv.cn/20120601/102842.shtml", "quote": "赤壁之战发生地史上说法有六七处之多"}
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "f1/f2/f4/f5/f6/f7/f9: 央视《赤壁之战》战例页；https://jishi.cntv.cn/20101113/100011_4.shtml；中新网引《资治通鉴》卷六五；https://www.chinanews.com.cn/cul/news/2009/01-03/1512106.shtml",
+        "f3: 江陵—赤壁水路里程见《赤壁》第8章；https://ubook.reader.qq.com/book-read/46678647/8",
+        "f8: 东南风与顺流说的争论见《赤壁古战场考辩》相关章节；原句作为“有争论”的描述可成立，但“顺流说”并非学界共识。",
+        "f10: 回目见青岛市图书馆讲座；https://qdlib.net/html/huodongyugao/jiangzuo/20260825_5272.html",
+        "f11: 地点争议至少七说，焦点在蒲圻与嘉鱼；https://zh.wikipedia.org/wiki/%E6%96%87%E8%B5%A4%E5%A3%81"
+      ],
+      "summary": "战役过程与引文大体可靠；江陵—赤壁里程、演义回目数两处硬错，另有2009年水下考古一条无法取证，均已处理。"
+    },
+    {
+      "id": "cn-history-xiaowen",
+      "status": "corrected",
+      "confidence": "medium",
+      "facts": [
+        {"id": "f1", "verdict": "imprecise", "confidence": "high", "issue": "issue-01"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "medium"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "imprecise", "confidence": "high", "issue": "issue-02"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "supported", "confidence": "high"},
+        {"id": "f11", "verdict": "supported", "confidence": "medium"},
+        {"id": "f12", "verdict": "supported", "confidence": "high"}
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f1",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "到孝文帝拓跋宏即位时，北魏已统治中原近半个世纪",
+          "problem": "北魏439年灭北凉统一北方，孝文帝471年即位，前后三十二年；“近半个世纪”把三十二年说成近五十年。",
+          "correction": "北魏由鲜卑拓跋部建立。386年拓跋珪称代王，同年改国号魏；439年太武帝灭北凉，统一北方。到孝文帝拓跋宏即位时，北魏已统治中原三十余年，胡汉杂处。拓跋部入主中原后逐渐定居，贵族与汉人士族仍有隔阂。",
+          "evidence": [
+            {"title": "百度百科：北魏", "url": "https://baike.baidu.com/item/%E5%8C%97%E9%AD%8F/914008", "quote": "439年，太武帝拓跋焘灭北凉，统一北方"},
+            {"title": "维基百科：魏孝文帝", "url": "https://zh.wikipedia.org/wiki/%E9%AD%8F%E5%AD%9D%E6%96%87%E5%B8%9D", "quote": "471年9月20日－499年4月26日在位"}
+          ]
+        },
+        {
+          "id": "issue-02",
+          "factId": "f6",
+          "severity": "major",
+          "verdict": "imprecise",
+          "claim": "土地不许买卖，年老或身死后归还国家",
+          "problem": "均田令只规定露田不准买卖、老免身没还田；桑田为世业，身终不还，限额内允许“盈者卖其盈、不足者买所不足”。原句把两类田混为一谈。",
+          "correction": "均田制规定，男子十五岁以上受露田四十亩、桑田二十亩，妇人受露田二十亩，奴婢与耕牛也可受田。露田不准买卖，年老或身死后归还国家；桑田为世业，限额内可以买卖。这套办法的前提是国家手里有大量无主荒地。",
+          "evidence": [
+            {"title": "《磻溪随录》卷六引北魏均田令", "url": "https://zh.wikisource.org/zh-hans/%E7%A3%BB%E6%BA%AA%E9%9A%A8%E9%8C%84/%E5%8D%B7%E5%85%AD", "quote": "桑田皆为世业，身终不还……盈者得卖其盈，不足者得买所不足"}
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "f2/f9: 孝文帝生于467年，471年即位，499年卒；https://zh.wikipedia.org/wiki/%E9%AD%8F%E5%AD%9D%E6%96%87%E5%B8%9D",
+        "f3: 央视《魏孝文帝巧迁都》；https://news.cntv.cn/20120217/112666.shtml",
+        "f4: 《魏书·咸阳王禧传》诏文“三十已下……当加降黜”“违者免所居官”；https://www.shidianguji.com/book/SK0938/chapter/1lxu2249sf9ye",
+        "f7: 《魏书·食货志》三长制“邻长复一夫，里长二，党长三”；https://open.cnkgraph.com/Book/%e5%ad%90%e9%83%a8/%e9%a1%9e%e6%9b%b8%e9%a1%9e/%e6%ac%bd%e5%ae%9a%e5%8f%a4%e4%bb%8a%e5%9c%96%e6%9b%b8%e9%9b%86%e6%88%90.%e7%b6%93%e6%bf%9f%e5%bd%99%e7%b7%a8.%e9%a3%9f%e8%b2%a8%e5%85%b8/14377/KR7a0027_115",
+        "f10: 六镇起义为正光四年（523），破六韩拔陵首义；https://maphub.cn/map/mdf0a/"
+      ],
+      "summary": "迁都、改姓、定姓族与六镇起义均可核实；两处数字/制度表述过宽，已修正。"
+    },
+    {
+      "id": "w1-myth-world-cuchulainn",
+      "status": "verified",
+      "confidence": "medium",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "medium"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "medium"},
+        {"id": "f6", "verdict": "supported", "confidence": "medium"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "supported", "confidence": "high"},
+        {"id": "f11", "verdict": "supported", "confidence": "medium"},
+        {"id": "f12", "verdict": "supported", "confidence": "high"}
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "f1: Táin 英译本关于 Setanta 更名与守门的段落；archive.org 藏本。",
+        "f2: 七岁取武器与“名留千古但短命”的预言；https://zh.m.wikipedia.org/zh-hk/%E5%BA%AB%E8%83%A1%E6%9E%97",
+        "f3: 《灰牛之书》约1100年、《伦斯特之书》约1160年，均属12世纪抄本传统。",
+        "f4: Dictionary of Irish Biography, Macha；https://www.dib.ie/biography/macha-a9257",
+        "f7: Ferdiad 与 Gáe Bolga；https://en.wikipedia.org/wiki/Ferdiad",
+        "f8: 里昂大学论文关于 Morrigan 化鳗鱼、灰狼、无角母牛三次袭击的段落；https://theses.univ-lyon2.fr/",
+        "f9: HathiTrust 英译本“three one-eyed hag... dog's flesh”；https://babel.hathitrust.org/cgi/ssd?id=hvd.32044058115395",
+        "f10: Scholastic 故事页“lashed himself to a stone pillar... Morrigan flew down as a crow”；https://teacher.scholastic.com/writewit/mff/celticland.htm",
+        "f12: Oliver Sheppard 1935年雕像在都柏林中央邮局；https://staging.discoverireland.ie/dublin/cu-chulainn"
+      ],
+      "summary": "史诗情节、抄本传统与雕像纪念均可核实，未发现需要修正的硬错误。"
+    },
+    {
+      "id": "w2-geo-cn-climate-rainbelt",
+      "status": "verified",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "medium"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "medium"},
+        {"id": "f10", "verdict": "supported", "confidence": "high"},
+        {"id": "f11", "verdict": "supported", "confidence": "medium"},
+        {"id": "f12", "verdict": "supported", "confidence": "high"}
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "f2/f3/f4: 中国气象局《梅雨：江淮特有 相对稳定》：副高脊线北跳至北纬20°～22°，地面准静止锋，梅雨期一般持续约20天～30天；https://www.cma.gov.cn/kppd/kppdsytj/202111/t20211103_4146581.html",
+        "f4: 按《梅雨监测指标》平均入梅6月14日、出梅7月16日约32天，与“二十多天”略有出入，但气象局科普口径为20-30天，故不改。",
+        "f8: 水利部《2020中国水旱灾害防御公报》：6月1日入梅、8月2日出梅、62天、759毫米、常年2.2倍；https://www.mwr.gov.cn/zzsc/tjgb/zgshzhgb/2020/files/basic-html/page42.html",
+        "f8: 巢湖忠庙站2020年最高13.43米，超1991年历史最高12.80米0.63米；https://yjt.ah.gov.cn/group6/M00/0C/19/wKg8BmcgnnmAG1TsAQBoJnwiOqc336.pdf",
+        "f9: 400毫米等降水量线与季风区/非季风区分界；https://baike.baidu.com/item/%E9%9D%9E%E5%AD%A3%E9%A3%8E%E5%8C%BA",
+        "f10: 排水管网设计重现期一般1-3年；https://news.sina.cn/sa/2012-07-26/detail-ikmyaawa4063781.d.html",
+        "f12: 1951-2020年中国降水强度与极端指数显著增加、湿日数减少；https://www.int-res.com/articles/cr_oa/c091p001.pdf"
+      ],
+      "summary": "雨带机制、梅雨指标、2020年超长梅雨与城市内涝成因均可核实，未发现需要修正的硬错误。"
+    },
+    {
+      "id": "w5-geo-cn-coast-types",
+      "status": "verified",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "medium"},
+        {"id": "f3", "verdict": "supported", "confidence": "medium"},
+        {"id": "f4", "verdict": "supported", "confidence": "medium"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "medium"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "supported", "confidence": "medium"},
+        {"id": "f11", "verdict": "supported", "confidence": "medium"},
+        {"id": "f12", "verdict": "supported", "confidence": "medium"}
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "f1: 自然资源部：中国大陆海岸线约1.8万公里，北起鸭绿江口、南至北仑河口；https://app.m.mnr.gov.cn/zt/hd/chfxcr/gcdtgltl_29657/gjbtzs/201608/t20160811_2130093.html",
+        "f2-f5/f7: 科普中国“海岸类型”：基岩海岸约5000公里、泥质海岸约4000公里及分布；https://cloud.kepuchina.cn/h5/detail?id=6969069953772605440",
+        "f6: 科普中国“潮差分布”：东海西部与黄海东部潮差最大，南海最小；https://cloud.kepuchina.cn/newSearch/imgText?from=1&id=6969042703438049280",
+        "f8: 红树林北界27°20′N与温度限制；https://www.sciencedirect.com/science/article/abs/pii/S0925857423000794",
+        "f9: 山东海岸侵蚀与河流输沙减少、采砂等人为因素；http://chinageology.cgs.cn/article/id/7fbafe05-6efb-4940-bdd8-556fa4db6060",
+        "f10-f12: 围填海、湿地补偿与海岸带管理属综述性判断，依据自然资源部海岸线保护政策与 IPCC SROCC 相关章节。"
+      ],
+      "summary": "海岸类型、潮差格局、红树林北界与侵蚀成因均有可追溯来源，未发现需要修正的硬错误。"
+    }
+  ]
+}

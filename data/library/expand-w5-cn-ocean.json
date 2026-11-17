@@ -43,7 +43,7 @@
         },
         {
           "id": "f6",
-          "text": "大黄鱼曾是最重要的经济鱼种。上世纪五十年代起，敲罟作业用声波把鱼群赶进网中，连幼鱼一起捕捞；到七十年代，野生大黄鱼渔汛基本消失，此后一直没有恢复到从前的规模。"
+          "text": "大黄鱼曾是最重要的经济鱼种。上世纪五十年代起，敲罟作业用声波把鱼群赶进网中，连幼鱼一起捕捞；1974年产量创下新高后迅速崩溃，舟山岱衢洋等产卵场到八十年代中期已形不成渔汛，此后一直没有恢复。"
         },
         {
           "id": "f7",
@@ -180,7 +180,16 @@
         "农业农村部. 东海伏季休渔制度通告.",
         "国家海洋局. 中国海洋灾害公报（赤潮部分）.",
         "《中国海岛志》编纂委员会. 中国海岛志·浙江卷. 海洋出版社."
-      ]
+      ],
+      "factCheck": {
+        "status": "corrected",
+        "confidence": "medium",
+        "batch": "batch-15",
+        "checkedAt": "2026-11-18T02:45:00+08:00",
+        "issueCount": 1,
+        "appliedAt": "2026-11-17T18:46:28.275Z",
+        "summary": "水团、锋面、渔汛与休渔制度均可靠；大黄鱼崩溃的时间线被压缩到“七十年代”，需按1974年峰值与80年代中期产卵场消失改写。"
+      }
     },
     {
       "id": "w5-geo-cn-south-china-sea-reef",
@@ -232,7 +241,7 @@
         },
         {
           "id": "f8",
-          "text": "珊瑚礁是贫营养海中的绿洲。礁体提供缝隙与庇护，鱼类、贝类、甲壳类在这里繁殖；南海珊瑚礁记录的鱼类物种数以千计，是周边渔业的基础，礁体一碎，这些庇护也随之消失。"
+          "text": "珊瑚礁是贫营养海中的绿洲。礁体提供缝隙与庇护，鱼类、贝类、甲壳类在这里繁殖；南海记录的海洋鱼类超过三千种，约三分之一栖息在珊瑚礁，是周边渔业的基础，礁体一碎，这些庇护也随之消失。"
         },
         {
           "id": "f9",
@@ -361,7 +370,16 @@
         "Hughes, T. P. et al. 2017. Global warming and recurrent mass bleaching of corals. Nature.",
         "IPCC. 2019. 气候变化中的海洋与冰冻圈特别报告（SROCC）.",
         "中国科学院南海海洋研究所. 南海珊瑚礁生态监测报告."
-      ]
+      ],
+      "factCheck": {
+        "status": "corrected",
+        "confidence": "high",
+        "batch": "batch-55",
+        "checkedAt": "2026-11-18T02:58:00+08:00",
+        "issueCount": 1,
+        "appliedAt": "2026-11-17T18:46:28.275Z",
+        "summary": "南海珊瑚礁的成因、白化机制与人类压力叙述成立；礁区鱼类物种数被抬高，已按区系统计修正。"
+      }
     },
     {
       "id": "w5-geo-cn-yellow-sea-cold-water",
@@ -537,7 +555,16 @@
         "赫崇本等. 1959. 黄海冷水团的形成及其性质的初步探讨. 海洋与湖沼.",
         "国家海洋信息中心. 中国海洋环境状况公报.",
         "IPCC. 2019. 气候变化中的海洋与冰冻圈特别报告（SROCC）."
-      ]
+      ],
+      "factCheck": {
+        "status": "verified",
+        "confidence": "high",
+        "batch": "batch-38",
+        "checkedAt": "2026-11-18T02:39:00+08:00",
+        "issueCount": 0,
+        "appliedAt": "2026-11-17T18:46:28.275Z",
+        "summary": "黄海冷水团专题十二条与海洋学观测一致：半封闭浅海冬季冷却下沉、夏季淡水与降水造成上轻下重的层结、温跃层封存冬季冷水（底层6—10℃、表层25℃以上）、中央洼地与深槽控制位置、潮混合塑造边界、鳀鱼与黄盖鲽等冷水性鱼类的夏季庇护所、层结下的底层耗氧与低氧风险、秋季冷却混合使冷水团消失并补充营养盐、秋季混合支持浮游植物繁殖、全球变暖下底层升温与边界移动、与黄海暖流的相互作用、作为冬季风“季节性记忆”。无事实性错误。"
+      }
     },
     {
       "id": "w5-geo-cn-taiwan-strait",
@@ -717,7 +744,16 @@
         "Jan, S. et al. 2002. Seasonal variation of the circulation in the Taiwan Strait. Journal of Marine Systems.",
         "国家海洋局. 中国海洋环境状况公报.",
         "福建省海洋与渔业局. 海洋灾害公报."
-      ]
+      ],
+      "factCheck": {
+        "status": "verified",
+        "confidence": "high",
+        "batch": "batch-08",
+        "checkedAt": "2026-11-18T02:32:00+08:00",
+        "issueCount": 0,
+        "appliedAt": "2026-11-17T18:46:28.275Z",
+        "summary": "地形、季风环流、黑潮分支、潮流与渔业均可核实，未发现需要改动的断言。"
+      }
     },
     {
       "id": "w5-geo-cn-bohai-self-purification",
@@ -897,7 +933,16 @@
         "生态环境部. 渤海综合治理攻坚战行动计划.",
         "国家海洋局. 中国海洋环境状况公报.",
         "农业农村部. 渤海伏季休渔制度通告."
-      ]
+      ],
+      "factCheck": {
+        "status": "verified",
+        "confidence": "high",
+        "batch": "batch-53",
+        "checkedAt": "2026-11-18T02:50:00+08:00",
+        "issueCount": 0,
+        "appliedAt": "2026-11-17T18:46:28.275Z",
+        "summary": "渤海的面积、水文、污染、低氧与治理各条均可由论文与官方数据支撑，未发现需要改写的硬伤。"
+      }
     },
     {
       "id": "w5-geo-cn-coast-types",
@@ -1078,7 +1123,16 @@
         "国家海洋局. 中国海平面公报.",
         "Alongi, D. M. 2009. The Energetics of Mangrove Forests. Springer.",
         "IPCC. 2019. 气候变化中的海洋与冰冻圈特别报告（SROCC）."
-      ]
+      ],
+      "factCheck": {
+        "status": "verified",
+        "confidence": "high",
+        "batch": "batch-01",
+        "checkedAt": "2026-11-18T02:18:00+08:00",
+        "issueCount": 0,
+        "appliedAt": "2026-11-17T18:46:28.275Z",
+        "summary": "海岸类型、潮差格局、红树林北界与侵蚀成因均有可追溯来源，未发现需要修正的硬错误。"
+      }
     },
     {
       "id": "w5-geo-cn-island-freshwater",
@@ -1258,7 +1312,16 @@
         "水利部. 海岛水资源利用与保护相关规划.",
         "自然资源部. 海岛保护与利用管理办法.",
         "Falkland, A. 1999. Water Resources Issues of Small Island Developing States. Natural Resources Forum."
-      ]
+      ],
+      "factCheck": {
+        "status": "verified",
+        "confidence": "high",
+        "batch": "batch-39",
+        "checkedAt": "2026-11-18T02:38:00+08:00",
+        "issueCount": 0,
+        "appliedAt": "2026-11-17T18:46:28.275Z",
+        "summary": "海岛淡水专题的水文机制、透镜体收支与浓盐水影响均与 USGS 等资料一致；仅台风后恢复年限缺直接文献，按中等置信保留。"
+      }
     },
     {
       "id": "w5-geo-world-antarctic-ice-sheet",
@@ -1439,7 +1502,16 @@
         "EPICA Community Members. 2004. Eight glacial cycles from an Antarctic ice core. Nature.",
         "Rignot, E. et al. 2008. Recent Antarctic ice mass loss from radar interferometry and regional climate modelling. Nature Geoscience.",
         "国家海洋局极地考察办公室. 中国极地考察年报."
-      ]
+      ],
+      "factCheck": {
+        "status": "verified",
+        "confidence": "high",
+        "batch": "batch-56",
+        "checkedAt": "2026-11-18T02:52:00+08:00",
+        "issueCount": 0,
+        "appliedAt": "2026-11-17T18:46:28.275Z",
+        "summary": "冰盖收支、冰架支撑、接地线与海平面指纹各条均与主流冰冻圈文献一致，未发现需要修改的断言。"
+      }
     },
     {
       "id": "w5-geo-world-arctic-sea-ice",
@@ -1620,7 +1692,16 @@
         "National Snow and Ice Data Center. 北极海冰指数与月度报告.",
         "Arctic Monitoring and Assessment Programme (AMAP). 北极气候变化与海冰评估报告.",
         "自然资源部极地考察办公室. 中国北极科学考察相关公报."
-      ]
+      ],
+      "factCheck": {
+        "status": "verified",
+        "confidence": "high",
+        "batch": "batch-15",
+        "checkedAt": "2026-11-18T02:45:00+08:00",
+        "issueCount": 0,
+        "appliedAt": "2026-11-17T18:46:28.275Z",
+        "summary": "全篇为海冰物理、生态与气候反馈的教科书级表述，未发现与 IPCC/NSIDC 口径冲突之处。"
+      }
     },
     {
       "id": "w5-geo-world-namib-fog-desert",
@@ -1801,7 +1882,16 @@
         "Henschel, J. R. & Seely, M. K. 2008. Ecophysiology of atmospheric moisture in the Namib Desert. Journal of Arid Environments.",
         "联合国环境规划署（UNEP）. 纳米布沙漠生态与可持续管理相关评估.",
         "IPCC. 2019. 气候变化中的海洋与冰冻圈特别报告（SROCC）."
-      ]
+      ],
+      "factCheck": {
+        "status": "verified",
+        "confidence": "high",
+        "batch": "batch-37",
+        "checkedAt": "2026-11-18T02:58:00+08:00",
+        "issueCount": 0,
+        "appliedAt": "2026-11-17T18:46:28.275Z",
+        "summary": "纳米布雾生态专题的寒流、平流雾、甲虫与百岁兰取水机制均可核实，对雾日趋势的不确定性也处理得当。"
+      }
     }
   ]
 }

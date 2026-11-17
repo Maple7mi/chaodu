@@ -1,0 +1,729 @@
+{
+  "batch": "batch-17",
+  "checkedAt": "2026-11-18T02:20:00+08:00",
+  "dossiers": [
+    {
+      "id": "w3-wh-revolutions-suffrage",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        {
+          "id": "f1",
+          "verdict": "imprecise",
+          "confidence": "medium",
+          "issue": "issue-01"
+        },
+        {
+          "id": "f2",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f3",
+          "verdict": "imprecise",
+          "confidence": "high",
+          "issue": "issue-02"
+        },
+        {
+          "id": "f4",
+          "verdict": "imprecise",
+          "confidence": "high",
+          "issue": "issue-03"
+        },
+        {
+          "id": "f5",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f6",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f7",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f8",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f9",
+          "verdict": "imprecise",
+          "confidence": "high",
+          "issue": "issue-04"
+        },
+        {
+          "id": "f10",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f11",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f12",
+          "verdict": "supported",
+          "confidence": "medium"
+        }
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f1",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "法案还统一了城市与乡村的选举资格，改变了议会席位的分布与政党版图。",
+          "problem": "1832年法案只在城镇推行统一的十镑房产持有人资格；郡选区仍保留四十先令自由持有农等旧资格，城乡并未统一，只是各自比过去整齐。",
+          "correction": "1832年的改革法案扩大了选民，但选举权仍与财产挂钩，工人与妇女大多被排除。它在城镇实行统一的十镑房产资格，郡选区却保留四十先令自由持有农等旧资格，城乡并不一致。",
+          "evidence": [
+            {
+              "title": "Nick Clegg and the not-so-great 1832 Reform Act (History & Policy)",
+              "url": "https://historyandpolicy.org/opinion-articles/articles/nick-clegg-and-the-not-so-great-1832-reform-act/",
+              "quote": "In counties, the 40 shilling freehold franchise (unchanged since the fifteenth century) was maintained. In boroughs, a uniform property franchise was introduced bestowing the vote on substantial householders."
+            }
+          ]
+        },
+        {
+          "id": "issue-02",
+          "factId": "f3",
+          "severity": "major",
+          "verdict": "imprecise",
+          "claim": "到19世纪末，英国成年男性基本获得投票权",
+          "problem": "1884年第三次改革法后，只有约六成21岁以上男性户主有投票权；无产者、与父母同住的成年男子和常住佣工等仍被排除，离“成年男性普选”尚有距离。",
+          "correction": "1867年的第二次改革法案把选举权扩大到城市工人，1884年的第三次改革法案扩展到乡村；但到19世纪末，英国只有约六成成年男性户主拥有投票权，妇女更被整体排除在议会选举之外。",
+          "evidence": [
+            {
+              "title": "Spartacus Educational: The 1884 Reform Act",
+              "url": "https://spartacus-educational.com/U3Ahistory19.htm",
+              "quote": "Even after the passing of the Third Reform Act in 1884, only 60% of male householders over the age of 21 had the vote."
+            }
+          ]
+        },
+        {
+          "id": "issue-03",
+          "factId": "f4",
+          "severity": "major",
+          "verdict": "imprecise",
+          "claim": "要求把“人”改为“男人和女人”",
+          "problem": "密尔修正案是把法案中的“man”改为“person”，即用中性词覆盖两性，并非写成“男人和女人”；1867年5月20日表决以73票对196票被否决。",
+          "correction": "1866年，一批妇女向议会递交请愿书；1867年，议员约翰·斯图尔特·密尔提出修正案，要求把法案中的“man”改为“person”，以73票对196票被否决。此后妇女参政进入组织化阶段。",
+          "evidence": [
+            {
+              "title": "Presenting the 1866 petition (UK Parliament)",
+              "url": "https://www.parliament.uk/about/living-heritage/transformingsociety/electionsvoting/womenvote/parliamentary-collections/1866-suffrage-petition/presenting-the-petition/",
+              "quote": "On 20 May 1867 Mill tried to amend the Second Reform Bill to replace the word ‘man' with ‘person'... The division was lost by 73 votes to 196"
+            }
+          ]
+        },
+        {
+          "id": "issue-04",
+          "factId": "f9",
+          "severity": "major",
+          "verdict": "imprecise",
+          "claim": "同时把男性投票年龄降到21岁",
+          "problem": "1918年以前，符合财产资格的男子本就在21岁取得投票权；1918年法案废除的是几乎全部男性财产资格，把选举权给到所有21岁以上男子，并未把年龄从更高值降下来。",
+          "correction": "1918年的《人民代表法》废除男性选举的财产资格，年满21岁的男子均可投票；同时给30岁以上、拥有财产或大学学历的妇女投票权。1928年，妇女投票年龄也降到21岁。",
+          "evidence": [
+            {
+              "title": "Representation of the People Act 1918 (UK Parliament)",
+              "url": "https://www.parliament.uk/about/living-heritage/transformingsociety/parliament-and-the-first-world-war/legislation-and-acts-of-war/acts-of-war---representation-of-the-people-act-1918--/",
+              "quote": "For the first time, almost all property qualifications needed for men to vote were abolished."
+            }
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "1832/1867/1884/1918/1928年各法案的选民资格，以UK Parliament、History & Policy、Spartacus Educational的条目交叉核对。",
+        "1918年以前男子投票的年龄资格已是21岁；该法废除的是财产资格，并给30岁以上合资格妇女投票权。"
+      ],
+      "summary": "12条中8条可核实；1832年法案并未统一城乡选举资格，1884年后仅约六成男性户主有票，密尔修正案是把“man”改为“person”，1918年法案废除的是男性财产资格而非降低年龄。"
+    },
+    {
+      "id": "psych-gottman",
+      "status": "verified",
+      "confidence": "high",
+      "facts": [
+        {
+          "id": "f1",
+          "verdict": "supported",
+          "confidence": "medium"
+        },
+        {
+          "id": "f2",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f3",
+          "verdict": "supported",
+          "confidence": "medium"
+        },
+        {
+          "id": "f4",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f5",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f6",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f7",
+          "verdict": "supported",
+          "confidence": "medium"
+        },
+        {
+          "id": "f8",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f9",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f10",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f11",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f12",
+          "verdict": "supported",
+          "confidence": "medium"
+        }
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "核心论文：Gottman & Levenson, Marital processes predictive of later dissolution, JPSP 63(2), 1992, 221–233；批评与复现见Heyman & Slep (2001), Journal of Marriage and Family 63(2), 473–479。",
+        "5:1与四骑士的通俗表述见Gottman机构文章，属对研究结论的简化，方向与原文一致。"
+      ],
+      "summary": "12条均可核实：1992年Gottman与Levenson对73对夫妻的研究、5:1“魔法比”、四骑士与蔑视的破坏性、冲突中暂停20—30分钟、negative sentiment override，均与原始论文及Gottman机构文本一致。"
+    },
+    {
+      "id": "w3-psych-exercise-mood",
+      "status": "verified",
+      "confidence": "high",
+      "facts": [
+        {
+          "id": "f1",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f2",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f3",
+          "verdict": "supported",
+          "confidence": "medium"
+        },
+        {
+          "id": "f4",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f5",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f6",
+          "verdict": "supported",
+          "confidence": "medium"
+        },
+        {
+          "id": "f7",
+          "verdict": "supported",
+          "confidence": "medium"
+        },
+        {
+          "id": "f8",
+          "verdict": "supported",
+          "confidence": "medium"
+        },
+        {
+          "id": "f9",
+          "verdict": "supported",
+          "confidence": "medium"
+        },
+        {
+          "id": "f10",
+          "verdict": "supported",
+          "confidence": "medium"
+        },
+        {
+          "id": "f11",
+          "verdict": "supported",
+          "confidence": "low"
+        },
+        {
+          "id": "f12",
+          "verdict": "supported",
+          "confidence": "medium"
+        }
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "Noetel M, et al. Effect of exercise for depression: systematic review and network meta-analysis of randomised controlled trials. BMJ 2024;384:e075847；2024年5月28日更正见BMJ 2024;385:q1024。"
+      ],
+      "summary": "12条均可核实：Noetel等2024年BMJ系统综述与网络荟萃分析纳入218项RCT、495个臂、14,170人，步行/慢跑与瑜伽效应最大，效果随处方强度上升，但证据确定性多为低或极低。"
+    },
+    {
+      "id": "w4-psych-group-dehumanization",
+      "status": "verified",
+      "confidence": "high",
+      "facts": [
+        {
+          "id": "f1",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f2",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f3",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f4",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f5",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f6",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f7",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f8",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f9",
+          "verdict": "supported",
+          "confidence": "medium"
+        },
+        {
+          "id": "f10",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f11",
+          "verdict": "supported",
+          "confidence": "low"
+        },
+        {
+          "id": "f12",
+          "verdict": "supported",
+          "confidence": "medium"
+        }
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "Haslam, Dehumanization: An Integrative Review, PSPR 10(3), 2006；Bandura, Moral Disengagement in the Perpetration of Inhumanities, PSPR 3(3), 1999。",
+        "卢旺达RTLM电台以“蟑螂”称呼图西族的史实见BBC等庭审报道。"
+      ],
+      "summary": "12条均可核实：Haslam（2006）的动物性/机械性去人性化二分、Leyens等（2000）的次级情绪否认、Bandura（1999）的八种道德脱离机制，以及卢旺达电台“蟑螂”称呼等史实均有来源。"
+    },
+    {
+      "id": "w2-myth-cn-zhongkui",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        {
+          "id": "f1",
+          "verdict": "imprecise",
+          "confidence": "high",
+          "issue": "issue-01"
+        },
+        {
+          "id": "f2",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f3",
+          "verdict": "imprecise",
+          "confidence": "high",
+          "issue": "issue-02"
+        },
+        {
+          "id": "f4",
+          "verdict": "supported",
+          "confidence": "medium"
+        },
+        {
+          "id": "f5",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f6",
+          "verdict": "imprecise",
+          "confidence": "high",
+          "issue": "issue-03"
+        },
+        {
+          "id": "f7",
+          "verdict": "supported",
+          "confidence": "medium"
+        },
+        {
+          "id": "f8",
+          "verdict": "supported",
+          "confidence": "medium"
+        },
+        {
+          "id": "f9",
+          "verdict": "supported",
+          "confidence": "medium"
+        },
+        {
+          "id": "f10",
+          "verdict": "supported",
+          "confidence": "medium"
+        },
+        {
+          "id": "f11",
+          "verdict": "supported",
+          "confidence": "medium"
+        },
+        {
+          "id": "f12",
+          "verdict": "supported",
+          "confidence": "medium"
+        }
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f1",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "现存最早的钟馗文字，是敦煌出土的唐代写本《除夕钟馗驱傩文》……里面请钟馗带着队伍吃鬼",
+          "problem": "更早的敦煌写本《太上洞渊神咒经》（P.2444，晋末以前）已出现钟馗除夕斩鬼；唐代驱傩文只写捉鬼杀鬼、镬汤火烧刀割，未见“啖鬼”字句。",
+          "correction": "现存较早的钟馗文字，是晋末以前的敦煌写本《太上洞渊神咒经》，钟馗已以除夕斩鬼的神灵出现；唐代《除夕钟馗驱傩文》是岁末驱傩念的咒文，请他带队伍捉鬼杀鬼，语气像在调兵。",
+          "evidence": [
+            {
+              "title": "刘锡诚：钟馗论（中国民俗学会）",
+              "url": "https://www.chinesefolklore.org.cn/ChinaFolkloreSociety/xrwc/xrzj/lxc/zkl.htm",
+              "quote": "最早见于记载的，是写于晋末以前的敦煌写本《太上洞渊神咒经》，钟馗以在除夕之夜举行的傩仪中斩鬼的神灵面貌出现。"
+            },
+            {
+              "title": "刘锡诚：钟馗传说的滥觞（中国民俗学网）",
+              "url": "https://chinesefolklore.org.cn/web/index.php?NewsID=10945&Page=3",
+              "quote": "能够捉鬼杀鬼的神性形象（未见“啖鬼”的词句）"
+            }
+          ]
+        },
+        {
+          "id": "issue-02",
+          "factId": "f3",
+          "severity": "major",
+          "verdict": "imprecise",
+          "claim": "北宋沈括在《梦溪笔谈》里记下完整的传说……因貌丑落第，触阶而死",
+          "problem": "此条出自《补笔谈》卷三，不在《梦溪笔谈》正文；原文只说“武举不捷之士/进士”，并无貌丑落第、触阶而死；“终南”等细节是后世增补。",
+          "correction": "北宋沈括在《补笔谈》卷三里记下这则传说：唐玄宗患疟疾，梦见大鬼捉住偷香囊的小鬼，自称钟馗，是武举不捷的进士，誓为皇帝除尽妖孽；玄宗醒后病愈，命吴道子画其像。",
+          "evidence": [
+            {
+              "title": "光明网：钟馗其人其事",
+              "url": "http://epaper.gmw.cn/wzb/html/2019-06/08/nw.D110000wzb_20190608_2-05.htm",
+              "quote": "北宋的沈括在《梦溪笔谈·补笔谈》卷三中曾言……臣钟馗氏，即武举不捷之士也。"
+            }
+          ]
+        },
+        {
+          "id": "issue-03",
+          "factId": "f6",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "市上卖门神、钟馗、桃符、财神",
+          "problem": "《东京梦华录》原文所列是“门神、钟馗、桃板、桃符，及财门、钝驴、回头鹿马之行帖子”，没有“财神”；“财门”“钝驴”是纸马类年货。",
+          "correction": "宋代把钟馗挂进了年节市场。《东京梦华录》记汴京十二月，市上印卖门神、钟馗、桃板、桃符，还有“财门”“钝驴”一类纸马，家家户户贴挂。钟馗从宫廷仪式用品，变成了可以买到的年货。",
+          "evidence": [
+            {
+              "title": "识典古籍：《东京梦华录》卷十",
+              "url": "https://www.shidianguji.com/book/HY6564/chapter/1mb9b27oxo4za",
+              "quote": "市井皆印卖门神、鍾馗、桃板、桃符，及財門、鈍驢、回頭鹿馬之行帖子"
+            }
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "钟馗传说文本以《日知录》卷三十二、《补笔谈》卷三、《东京梦华录》卷十及敦煌写本P.2569、P.3552核对；写本释读参考刘锡诚《钟馗论》。"
+      ],
+      "summary": "12条中9条可核实；钟馗最早文字可追到晋末以前的《太上洞渊神咒经》，唐代驱傩文只写捉鬼杀鬼，沈括记载出自《补笔谈》且无“貌丑落第”，《东京梦华录》原文也无“财神”。"
+    },
+    {
+      "id": "w5-cn-history-jiadian",
+      "status": "verified",
+      "confidence": "high",
+      "facts": [
+        {
+          "id": "f1",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f2",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f3",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f4",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f5",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f6",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f7",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f8",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f9",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f10",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f11",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f12",
+          "verdict": "supported",
+          "confidence": "high"
+        }
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "家电下乡试点时间为2007年12月21日，首批试点山东、河南、四川，补贴按销售价格13%。"
+      ],
+      "summary": "12条均可核实：1958年5月1日北京电视台试播、1983年2月12日首届春晚、80年代“新三大件”、1989与1996年长虹降价、2007年12月家电下乡试点及13%补贴，年代与数字均有官方或主流媒体来源。"
+    },
+    {
+      "id": "w3-myth-world-tuonela",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        {
+          "id": "f1",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f2",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f3",
+          "verdict": "imprecise",
+          "confidence": "high",
+          "issue": "issue-01"
+        },
+        {
+          "id": "f4",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f5",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f6",
+          "verdict": "supported",
+          "confidence": "medium"
+        },
+        {
+          "id": "f7",
+          "verdict": "supported",
+          "confidence": "medium"
+        },
+        {
+          "id": "f8",
+          "verdict": "supported",
+          "confidence": "medium"
+        },
+        {
+          "id": "f9",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f10",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f11",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f12",
+          "verdict": "supported",
+          "confidence": "medium"
+        }
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f3",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "它另有一个名字叫马纳拉，来自 mana 一词",
+          "problem": "manala 的词源有争议：一说来自“maan ala”（地下），一说 mana 才是原词根；mana 在《卡勒瓦拉》中也是 Lönnrot 引入的 tuoni 的同义词，不能把“来自 mana”说成定论。",
+          "correction": "图奥内拉是死者的国度，由图奥尼和图奥内塔尔统治，又叫马纳拉。这个词源有争议：一说来自“maan ala”（地下），一说 mana 才是词根；两种说法都与冥界、死者相关，边界并不清楚。",
+          "evidence": [
+            {
+              "title": "Suomen etymologinen sanakirja: mana",
+              "url": "https://kaino.kotus.fi/ses/?p=article&etym_id=ETYM_fe2aff8e1fb597734c4c00e48f3220d3&word=mana:1&list_id=26062",
+              "quote": "manala … lyhentymiä ilmauksista maan ala, maan alainen, maan alla"
+            }
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "《卡勒瓦拉》篇章与行数依芬兰 kirjastot.fi 的版本说明；神话情节对照Kirby 1907英译本第十六篇。"
+      ],
+      "summary": "12条中11条可核实：1835年初版32篇12,078行、1849年版50篇22,795行，图奥内拉的地理、图奥尼一家、勒明盖宁赴死、第十六篇饮酒与变形、1893年《图奥内拉的天鹅》均与通行本一致；仅“马纳拉来自mana”的词源被说成定论。"
+    },
+    {
+      "id": "w4-myth-cn-fengshen-pantheon",
+      "status": "verified",
+      "confidence": "high",
+      "facts": [
+        {
+          "id": "f1",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f2",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f3",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f4",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f5",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f6",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f7",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f8",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f9",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f10",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f11",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f12",
+          "verdict": "supported",
+          "confidence": "high"
+        }
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "作者与版本问题参考鲁迅《中国小说史略》、孙楷第《日本东京所见小说书目》及内阁文库藏本说明；神职对照原著第九十九、一百回。"
+      ],
+      "summary": "12条均可核实：最早刻本是明万历金阊舒载阳刊本（藏日本内阁文库，卷二题“钟山逸叟许仲琳编辑”），全书封365位正神，柏鉴、黄飞虎、闻仲、赵公明、比干等神职与原著一致。"
+    }
+  ]
+}

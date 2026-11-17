@@ -1,0 +1,318 @@
+{
+  "batch": "batch-30",
+  "checkedAt": "2026-11-18T02:38:00+08:00",
+  "dossiers": [
+    {
+      "id": "world-history-persepolis",
+      "status": "corrected",
+      "confidence": "medium",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "medium"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "medium"},
+        {"id": "f5", "verdict": "wrong", "confidence": "high", "issue": "issue-01"},
+        {"id": "f6", "verdict": "imprecise", "confidence": "high", "issue": "issue-02"},
+        {"id": "f7", "verdict": "supported", "confidence": "medium"},
+        {"id": "f8", "verdict": "supported", "confidence": "medium"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "supported", "confidence": "high"},
+        {"id": "f11", "verdict": "supported", "confidence": "medium"}
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f5",
+          "severity": "minor",
+          "verdict": "wrong",
+          "claim": "1933年，考古队在台地东南角发现数以万计的泥板文书，即“城防档案”",
+          "problem": "发现地点写反了。芝加哥大学东方研究所的发掘（Herzfeld，1933 年 3 月）是在台地围墙的东北角墙体内发现这批泥板的，不是东南角；档案也因出土地点得名“城防档案”。数量、文字（埃兰文）与配给内容均无误。",
+          "correction": "1933年，考古队在台地东北角的城墙内发现数以万计的泥板文书，即城防档案，用埃兰文记录粮食、牲畜、酒与工匠的配给；它们说明帝国以实物工资养活大量劳工，而不只是靠贡赋。",
+          "evidence": [
+            {"title": "Darius' Daughter and the Persepolis Inscriptions (Journal of Near Eastern Studies)", "url": "https://www.journals.uchicago.edu/doi/abs/10.1086/370636?download=true", "quote": "uncovered in 1933 by Professor Ernst Herzfeld in the fortification wall at the northeast corner of the terrace proper, comprised (according to original estimates) “thirty thousand tablets and fragments.”"},
+            {"title": "The Persepolis Fortification Archive — Achaemenica", "url": "https://achaemenica.org/articles/the-persepolis-fortification-tablets", "quote": "Ernst Herzfeld's Oriental Institute expedition uncovered the Fortification tablets in March 1933 in the fortification wall at Persepolis"}
+          ]
+        },
+        {
+          "id": "issue-02",
+          "factId": "f6",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "希罗多德说，信使接力传递，雨雪、酷暑与黑夜都不能阻挡，从爱琴海到波斯腹地只要十几天",
+          "problem": "“十几天”不是希罗多德的说法。希罗多德《历史》5.53 给出的全程是 111 站、13,500 斯塔德、步行约九十天；8.98 只描写接力传信之快（“没有比这些信使更快的东西”），并未给出总天数。七八天到十余天是后世据里程与驿传速度做的估算。",
+          "correction": "御道从萨第斯通往苏萨，全长约两千五百公里，沿途设一百一十一个驿站；希罗多德说，信使接力传递，雨雪、酷暑与黑夜都不能阻挡，而步行全程约需九十天，驿传则快得多。",
+          "evidence": [
+            {"title": "Herodotus, Histories 5.53–5.56 (Perseus)", "url": "https://fgh.perseids.org/read/greekLit/tlg0016/tlg001/perseus-eng2/5.53.1-5.56.2", "quote": "the sum total of stages is one hundred and eleven ... thirteen thousand and five hundred furlongs ... four hundred and fifty parasangs"},
+            {"title": "The surprising origins of the postal service (BBC Travel)", "url": "https://www.bbc.com/travel/article/20200624-iran-the-surprising-origins-of-the-postal-service", "quote": "Herodotus – who estimated that the approximately 2,600km distance would take three months on foot ... a message could be sent from Susa ... to Sardis ... in between seven and nine days"}
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "f2“用两年平定叛乱”与贝希斯敦铭文所记前 522–521 年主要战役略有出入，通说可接受，未单列 issue。",
+        "f8“此后一百五十年不再远征希腊本土”是概括（前 479 至亚历山大东征约一百五十年），非直接引文。",
+        "f7“统一铸币”为传统叙述；大流克金币主要流通于帝国西部，行省仍各有银币，措辞略宽。"
+      ],
+      "summary": "波斯波利斯专题十一条中九条有据；泥板出土地点（东南角）写反、御道“十几天”误挂希罗多德名下，已各给修正。"
+    },
+    {
+      "id": "w5-myth-africa-bathala",
+      "status": "verified",
+      "confidence": "medium",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "medium"},
+        {"id": "f2", "verdict": "supported", "confidence": "medium"},
+        {"id": "f3", "verdict": "supported", "confidence": "medium"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "medium"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "supported", "confidence": "medium"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "supported", "confidence": "medium"},
+        {"id": "f11", "verdict": "supported", "confidence": "low"},
+        {"id": "f12", "verdict": "supported", "confidence": "medium"}
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "f2“最早系统记录”是学界通说（Plasencia 1589 两篇 relation），但没有第二份独立文本可作绝对证明，故 confidence 记 medium。",
+        "f3“掌管雷电”在他加禄神系中另有专司雷电的神祇，通俗读物常把天界神权与雷电合并；本句因自带“修士转述”限定，未判 imprecise。",
+        "f11“今天学校仍教巴塔拉、教材多取自二十世纪整理本”属描述性断言，仅找到间接旁证（Jocano 1969 被菲律宾院校论文普遍引用），confidence 记 low。"
+      ],
+      "summary": "巴塔拉专题十二条均可由普拉森西亚 1589 年文本、博克斯手稿研究与菲律宾殖民史研究支撑，未发现需改写处。"
+    },
+    {
+      "id": "w1-psych-desire-gap",
+      "status": "corrected",
+      "confidence": "medium",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "medium"},
+        {"id": "f2", "verdict": "imprecise", "confidence": "high", "issue": "issue-01"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "medium"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "medium"},
+        {"id": "f8", "verdict": "supported", "confidence": "medium"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "supported", "confidence": "medium"},
+        {"id": "f11", "verdict": "supported", "confidence": "medium"},
+        {"id": "f12", "verdict": "supported", "confidence": "high"}
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f2",
+          "severity": "major",
+          "verdict": "imprecise",
+          "claim": "马克与同事二〇一四年的全国样本研究显示，性欲差异与关系满意度下降相关",
+          "problem": "研究归属不实。Mark 与 Murray 二〇一四年的论文是大学生异性恋样本（“college sample”），不是全国样本；且该文题名是性别差异研究，书目里给的题名与期刊（Archives of Sexual Behavior）查无此文。Mark 同年另一篇发在 Canadian Journal of Human Sexuality 23(1):27–33。另外“真正拉开差距的是沟通质量”并非该文结论。",
+          "correction": "有研究显示，性欲差异与关系满意度下降相关；但差异的绝对大小并不是关键，伴侣能否谈开、能否回应彼此的感受，才更决定这段关系走得顺不顺。",
+          "evidence": [
+            {"title": "Gender differences in desire discrepancy as a predictor of sexual and relationship satisfaction in a college sample of heterosexual romantic relationships (Mark & Murray)", "url": "https://scholars.uky.edu/en/publications/gender-differences-in-desire-discrepancy-as-a-predictor-of-sexual/fingerprints/", "quote": "Kristen P. Mark, Sarah H. Murray ... a college sample of heterosexual romantic relationships"},
+            {"title": "Mark, K. P. (2014), Canadian Journal of Human Sexuality 23(1): 27–33", "url": "https://dalspace.library.dal.ca/bitstreams/1fb7baa2-28ae-403a-b2ae-2105d99bccaa/download", "quote": "Mark, K. P. (2014). The impact of daily sexual desire and daily sexual desire discrepancy on the quality of the sexual experience in couples. Canadian Journal of Human Sexuality, 23(1), 27-33."}
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "书目第一条（Mark & Murray 2014, Archives of Sexual Behavior）题名、期刊与样本描述均无法核实，疑为拼接；建议整条替换。",
+        "f3 Basson 2000 的卷期页码已核实：J Sex Marital Ther 2000;26(1):51–65, PMID 10693116。",
+        "f6 Downey & Feldman 1996 已核实：J Pers Soc Psychol 70(6):1327–1343。",
+        "Meston & Buss 2007 未直接用于本专题任一 fact，仅列为书目。"
+      ],
+      "summary": "性欲差异专题除 f2 的研究归属（全国样本、题名与期刊）外均可成立；f2 已改为不绑定具体研究的表述。"
+    },
+    {
+      "id": "w2-geo-world-mountains-yellowstone",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "medium"},
+        {"id": "f3", "verdict": "imprecise", "confidence": "high", "issue": "issue-01"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "imprecise", "confidence": "high", "issue": "issue-02"},
+        {"id": "f8", "verdict": "supported", "confidence": "medium"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "supported", "confidence": "medium"},
+        {"id": "f11", "verdict": "wrong", "confidence": "high", "issue": "issue-03"},
+        {"id": "f12", "verdict": "supported", "confidence": "medium"}
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f3",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "三次超级喷发分别发生在约两百一十万年、一百三十万年和六十三万年前",
+          "problem": "三次的年份与“最近一次达八级”都对，但中间那次（Mesa Falls，约 130 万年前）喷出物约 280 立方公里，火山爆发指数为 7，未达超级喷发（VEI 8，通常以 1,000 立方公里为界）的门槛。称“三次超级喷发”不准确。",
+          "correction": "三次大喷发分别发生在约二百一十万年、一百三十万年和六十三万年前，喷出物以流纹岩和火山灰为主；第一次和最近一次都达到八级，中间那次规模小得多，未达超级喷发的门槛。",
+          "evidence": [
+            {"title": "Global Volcanism Program — Image GVP-03348 (Mesa Falls Tuff)", "url": "https://volcano.si.edu/gallery/ShowImage.cfm?photo=GVP-03348", "quote": "The 280 cu km Mesa Falls Tuff, deposited about 1.3 million years ago during the second of Yellowstone's three largest eruptions"},
+            {"title": "Mesa Falls Tuff", "url": "https://en.wikipedia.org/wiki/Mesa_Falls_Tuff", "quote": "ejected of 280 km3 (67 cu mi) of material ... VEI 7"}
+          ]
+        },
+        {
+          "id": "issue-02",
+          "factId": "f7",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "老忠实泉的喷发间隔约六十到九十分钟……所以它准得像钟",
+          "problem": "区间偏窄且“准得像钟”与观测不符。国家公园管理局的现行数据是平均约九十分钟，间隔在 50–127 分钟之间浮动（另有页面记 35–120 分钟、平均 92 分钟）；间隔还会受地震影响，游客中心给出的是预测窗口而非固定时刻。",
+          "correction": "老忠实泉平均约九十分钟喷一次，间隔在五十分钟到两小时之间浮动，并不真像钟表那样准；地下水在狭窄管道里被加热到沸腾，蒸汽把水柱顶出地面，之后管道重新灌满，循环再来一次。",
+          "evidence": [
+            {"title": "Old Faithful — National Park Service", "url": "https://home.nps.gov/places/old-faithful-geyser.htm", "quote": "average interval about 90 minutes, varying from 50 to 127 minutes"},
+            {"title": "Predicting Old Faithful's eruptions — NPS", "url": "https://home.nps.gov/features/yell/ofvec/exhibits/eruption/prediction/predict7.htm", "quote": "ranges from 35 to 120 minutes, average 92"}
+          ]
+        },
+        {
+          "id": "issue-03",
+          "factId": "f11",
+          "severity": "major",
+          "verdict": "wrong",
+          "claim": "这个数字远低于同一年被陨石击中的概率",
+          "problem": "方向说反了。USGS 黄石火山观测站的原文是：一年内超级喷发的概率与一颗一公里级小行星撞地球的概率“大致相当”（roughly similar），不是“远低于”。七十万分之一这一数字本身无误。",
+          "correction": "美国地质调查局估计，黄石未来一年内发生超级喷发的概率约为七十万分之一，与一颗一公里级小行星撞地球的概率大致相当，也远低于黄石地震、滑坡这些日常风险。",
+          "evidence": [
+            {"title": "Yellowstone Volcano Observatory FAQ（转载）", "url": "https://gosa.org/geyser-list/2005-March/000614.html", "quote": "This probability is roughly similar to that of a large (1 kilometer) asteroid hitting the Earth"}
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "f2“最老的在俄勒冈州，约一千六百万年”指 McDermitt 火山场（俄勒冈—内华达边界），年龄约 1,610 万年，措辞可接受。",
+        "f12“地质解释要等到一百年后”指 1960 年代板块构造，距 1872 年约九十年，属概括。"
+      ],
+      "summary": "黄石专题主体扎实；三处需改：中间那次喷发未达 VEI 8、老忠实间隔与“准得像钟”、以及超喷发概率与陨石撞击“远低于”应为“大致相当”。"
+    },
+    {
+      "id": "w5-geo-world-city-water",
+      "status": "corrected",
+      "confidence": "medium",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "medium"},
+        {"id": "f4", "verdict": "supported", "confidence": "medium"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "imprecise", "confidence": "high", "issue": "issue-01"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "medium"},
+        {"id": "f10", "verdict": "supported", "confidence": "medium"},
+        {"id": "f11", "verdict": "supported", "confidence": "medium"},
+        {"id": "f12", "verdict": "supported", "confidence": "medium"}
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f7",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "百年间部分地区下沉数米",
+          "problem": "“数米”明显低估。近百年墨西哥城部分地区累计沉降已达约 10–12 米（报道称超过 39 英尺），局部速率可达每年 50 厘米；“数米”会读者以为只有三五米。其余（速率不一、管道错位、教堂与地铁倾斜）均成立。",
+          "correction": "墨西哥城坐落在古湖盆上，长期抽取地下水造成地面沉降。近百年间部分地区累计下沉近十米，不同街区速率不一，供水与排水管道因此错位破裂，教堂与地铁站出现倾斜，维修成本逐年上升。",
+          "evidence": [
+            {"title": "Mexico City is sinking so quickly it can be seen from space (Los Angeles Times)", "url": "https://www.latimes.com/world-nation/story/2026-05-01/mexico-city-is-sinking-so-quickly-it-can-be-seen-from-space", "quote": "subsidence exceeding 39 feet"},
+            {"title": "Mexico City subsidence (JGR Solid Earth, 2021)", "url": "https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2020JB020648", "quote": "subsidence rates ... reach 50 cm/year"}
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "f9“漏损率常在一到三成”与世行/行业口径（发达国家约 10–20%、发展中国家 20–40%）相容，按“一到三成”保留。",
+        "f6“所有跨流域调水讨论都会引用”是绝对化措辞，但作为案例地位的描述成立，未单列 issue。"
+      ],
+      "summary": "城市水源专题以通论与三个城市案例为主，均有对应资料；仅墨西哥城“下沉数米”低估了实际量级，已改为“近十米”。"
+    },
+    {
+      "id": "w2-wh-islamic-algebra-khwarizmi",
+      "status": "verified",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "medium"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "supported", "confidence": "medium"},
+        {"id": "f9", "verdict": "supported", "confidence": "medium"},
+        {"id": "f10", "verdict": "supported", "confidence": "medium"},
+        {"id": "f11", "verdict": "supported", "confidence": "medium"},
+        {"id": "f12", "verdict": "supported", "confidence": "medium"}
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "f9“欧洲大学用它教代数，直到十六世纪”出自伊朗外交部文化页的概括，与数学史通说一致，但缺更专门的版本；confidence 记 medium。",
+        "f12 书名《大地形状》对应 Kitab Surat al-Ard，通常译《大地图志》或《地球的形状》，措辞可接受。"
+      ],
+      "summary": "花拉子米专题十二条与数学史文献一致：生卒、书名与术语、六种方程分类、几何配方、1145 年罗伯特译本、算法词源均可核实。"
+    },
+    {
+      "id": "cn-myth-change",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "imprecise", "confidence": "high", "issue": "issue-01"},
+        {"id": "f2", "verdict": "supported", "confidence": "medium"},
+        {"id": "f3", "verdict": "supported", "confidence": "medium"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "medium"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "medium"},
+        {"id": "f10", "verdict": "supported", "confidence": "medium"},
+        {"id": "f11", "verdict": "supported", "confidence": "high"},
+        {"id": "f12", "verdict": "supported", "confidence": "medium"}
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f1",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "羿从西王母那里求来不死药，还没来得及服用，妻子姮娥偷吃后飞入月中。原文只有一句",
+          "problem": "“妻子”与“还没来得及服用”都不在《淮南子》原文里，是东汉高诱注补上的；原文只有“羿请不死之药于西王母，姮娥窃以奔月，怅然有丧，无以续之”，既未点明夫妻关系，也未说药尚未服用。既称“原文只有一句”，又把注文当原文，前后矛盾。",
+          "correction": "奔月最早的完整记载在西汉《淮南子·览冥训》：羿从西王母处求来不死药，姮娥偷吃后飞入月中。原文只这一句，妻子身份和没来得及吃都是东汉高诱注补的，更没有月宫、玉兔和悔恨。",
+          "evidence": [
+            {"title": "《淮南子·览冥训》原文（中国哲学书电子化计划）", "url": "https://ctext.org/miscellaneous-schools/zh?searchu=%E5%A8%A5", "quote": "譬若羿请不死之药于西王母，姮娥窃以奔月，怅然有丧，无以续之。"},
+            {"title": "中秋传说故事：嫦娥奔月（中国网，引高诱注）", "url": "http://www.china.com.cn/guoqing/2020-09/24/content_41675173.htm", "quote": "对《淮南子·览冥训》上所说的“羿请不死之药于西王母，姮娥窃以奔月”句，东汉时期高诱作的注解云：“姮娥，羿妻。羿请不死之药于西王母，未及服之，姮娥盗食之，得仙，奔入月中，为月精。”"}
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "f2《归藏》为佚书，引文见类书转引（识典古籍），只能证明“汉代以前已有奔月异文”，不能复原全文。",
+        "f3 避讳说流传极广（光明网、央视），但清代周广业《经史避名汇考》已指出此说“不知何据”，故原文用“通常解释”是稳妥的。",
+        "f11 引文各本用字略异（相遗／相赠／相饷），《西湖游览志余》原文通常作“民间以月饼相遗，取团圆之义”。"
+      ],
+      "summary": "嫦娥专题整体与《淮南子》、高诱注、《灵宪》、《酉阳杂俎》及中秋习俗史相符；仅 f1 把高诱注的“羿妻”“未及服”当成了《淮南子》原文，已修正。"
+    },
+    {
+      "id": "w1-geo-world-arabian",
+      "status": "verified",
+      "confidence": "medium",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "medium"},
+        {"id": "f8", "verdict": "supported", "confidence": "medium"},
+        {"id": "f9", "verdict": "supported", "confidence": "medium"},
+        {"id": "f10", "verdict": "supported", "confidence": "medium"},
+        {"id": "f11", "verdict": "supported", "confidence": "medium"}
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "f1 半岛面积常作 3,237,500 平方公里，“约三百万”是保守概括，可接受。",
+        "f4 沙丘高度各源不一（WWF 250 米、沙特通讯社 300 米），“可超过一百米”稳妥。",
+        "f11 沙尘铁限制假说属主流但仍有区域差异，措辞用“会影响”而非确定因果，未判 imprecise。"
+      ],
+      "summary": "阿拉伯半岛专题十一条均与 USGS、WWF、沙特通讯社及沙特小麦计划资料相符，未发现需改写处。"
+    }
+  ]
+}

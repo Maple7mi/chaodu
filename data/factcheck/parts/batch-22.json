@@ -1,0 +1,300 @@
+{
+  "batch": "batch-22",
+  "checkedAt": "2026-11-18T02:36:00+08:00",
+  "dossiers": [
+    {
+      "id": "psych-attachment",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "imprecise", "confidence": "medium", "issue": "issue-01"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "supported", "confidence": "high"},
+        {"id": "f11", "verdict": "supported", "confidence": "medium"},
+        {"id": "f12", "verdict": "supported", "confidence": "medium"}
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f7",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "四年间有相当一部分人的依恋风格发生了变化",
+          "problem": "柯克帕特里克与哈赞1994年追踪177名成人四年，论文摘要的结论是依恋风格高度稳定，约七成人在两次测量中保持同一类型。原文只强调约三成人的变化，读者会高估成人依恋的流动性；方向不错，比例失准。",
+          "correction": "依恋类型不是终身判决。柯克帕特里克与哈赞1994年追踪一百七十七名成人四年，约七成人的依恋风格保持不变，约三成发生了变化；关系本身的经验，会慢慢改写那套关于他人的预期。",
+          "evidence": [
+            {
+              "title": "Attachment styles and close relationships: A four-year prospective study (Personal Relationships, 1994)",
+              "url": "https://doi.org/10.1111/j.1475-6811.1994.tb00058.x",
+              "quote": "attachment styles were highly stable over time"
+            },
+            {
+              "title": "Swinburne University thesis summarizing Kirkpatrick & Hazan (1994)",
+              "url": "https://researchbank.swinburne.edu.au/file/51e487b8-88e9-4916-ab91-b85b9421050f/1/Julie%20Fricker%20Thesis.pdf",
+              "quote": "70% of whom reported the same attachment style at the beginning and end of the study"
+            }
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "Kirkpatrick & Hazan (1994) 常被引作成人依恋可变的证据，但原文摘要强调高度稳定（四年约七成不变），引用时应同时给出比例。",
+        "Diamond et al. (2006) 的出处为 Journal of Social and Personal Relationships 23(2): 205–229，正文作者与年份无误。",
+        "f11 属临床与政策论证，不是实证研究结论；书目中没有对应文献。"
+      ],
+      "summary": "依恋理论脉络与主要研究年份均可核，唯柯克帕特里克与哈赞1994年的变化程度被放大，需按约三成改写。"
+    },
+    {
+      "id": "w1-world-history-classical-roman-law-citizenship",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "medium"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "imprecise", "confidence": "high", "issue": "issue-01"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "supported", "confidence": "high"},
+        {"id": "f11", "verdict": "supported", "confidence": "high"},
+        {"id": "f12", "verdict": "supported", "confidence": "high"}
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f6",
+          "severity": "major",
+          "verdict": "imprecise",
+          "claim": "公元前90年至前89年，同盟战争爆发",
+          "problem": "同盟战争爆发于公元前91年，主要战事到前89年基本结束，零星抵抗延续到前87年。前90年与前89年是通过《尤利乌斯法》《普劳提乌斯法》授予公民权的年份，不是战争起点；原句把法律年份当成了开战年份。",
+          "correction": "公元前91年，同盟战争爆发，意大利盟邦要求公民权。罗马在公元前90年通过《尤利乌斯法》、前89年通过《普劳提乌斯法》，把公民权授予波河以南的意大利人，才勉强平息战事，但新公民的投票权实际被压缩。",
+          "evidence": [
+            {
+              "title": "Dillon & Garland, The Social War (Ancient Rome sourcebook)",
+              "url": "https://www.taylorfrancis.com/chapters/mono/10.4324/9780203559291-15/social-war-matthew-dillon-lynda-garland?context=ubx",
+              "quote": "The Social War between Rome and the Italian allies broke out in 91 BC and was largely over by 89 BC"
+            },
+            {
+              "title": "C. Dart, The Lex Iulia, Lex Plautia Papiria and Enfranchisement (90 to 88 BCE)",
+              "url": "https://www.taylorfrancis.com/chapters/mono/10.4324/9781315552729-9/lex-iulia-lex-plautia-papiria-enfranchisement-90-88-bce-christopher-dart",
+              "quote": "the lex Plautia Papiria ... passed by the tribal assembly in 89 BCE, extended the possibility of citizenship to all those former insurgents who had surrendered"
+            }
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "十二铜表的材质古代记载不一：牛津古典辞书称十二块木板、也许为青铜，正文沿用中文通称“铜表”。",
+        "公元前242年设外事大法官是 Pomponius 的传统说法，现代学者对其年代有保留（AustLII 专文讨论），正文按传统纪年。",
+        "《国法大全》这一名称到16世纪才通行，查士丁尼本人未用；正文指同一汇编，不算错误。"
+      ],
+      "summary": "十二铜表、公民权扩张与《国法大全》脉络可靠；同盟战争的起点年份需从公元前90年改为前91年。"
+    },
+    {
+      "id": "w5-psych-sex-ed",
+      "status": "verified",
+      "confidence": "medium",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "medium"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "medium"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "supported", "confidence": "medium"},
+        {"id": "f11", "verdict": "supported", "confidence": "medium"}
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "UNESCO《国际性教育技术指导纲要》首版为2009年，2018年为修订版；正文“2018年发布”指修订版，宜写作“2018年修订发布”。",
+        "《未成年人保护法》2020年10月修订、2021年6月1日施行，正文“2021年施行”无误。",
+        "f10、f11 属综述性判断，证据来自多项评估与调查，书目未逐条列出，故置信度降为中等。"
+      ],
+      "summary": "性教育的历史、政策与评估证据总体可靠，未发现需要改写的硬错误。"
+    },
+    {
+      "id": "w4-geo-world-high-seas-fishery",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "medium"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "medium"},
+        {"id": "f5", "verdict": "imprecise", "confidence": "high", "issue": "issue-01"},
+        {"id": "f6", "verdict": "imprecise", "confidence": "high", "issue": "issue-02"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "supported", "confidence": "medium"},
+        {"id": "f11", "verdict": "supported", "confidence": "high"},
+        {"id": "f12", "verdict": "supported", "confidence": "medium"}
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f5",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "非法、不报告和不受管制的捕捞每年估计在一千万到两千三百万吨之间",
+          "problem": "FAO 与 Agnew 等长期引用的估计是每年1100万至2600万吨，经济价值100亿至230亿美元；原文的上下限都偏低，把区间写窄了。",
+          "correction": "非法、不报告和不受管制的捕捞每年估计在一千一百万到两千六百万吨之间，价值一百亿到两百三十亿美元。挂方便旗、关闭识别系统、在公海转运，是常见手法，追责却要跨越好几套司法管辖。",
+          "evidence": [
+            {
+              "title": "International Day for the Fight against IUU Fishing (FAO figures)",
+              "url": "https://www.genevaenvironmentnetwork.org/resources/updates/international-day-for-the-fight-against-illegal-unreported-and-unregulated-fishing/",
+              "quote": "the loss of 11–26 million tonnes of fish each year, which is estimated to have an economic value of 10–23 billion USD"
+            },
+            {
+              "title": "The Right Hook? Mainstreaming Detection Technology to End Global IUU Fishing (Brill)",
+              "url": "https://brill.com/display/book/edcoll/9789004332133/B9789004332133-s006.xml",
+              "quote": "somewhere between 11 million to 26 million tons of fish ... lost annually to iuu fishing"
+            }
+          ]
+        },
+        {
+          "id": "issue-02",
+          "factId": "f6",
+          "severity": "major",
+          "verdict": "imprecise",
+          "claim": "二〇二二年世贸组织达成协定，限制非法捕捞与过度产能相关补贴",
+          "problem": "2022年6月世贸组织第十二届部长级会议达成的《渔业补贴协定》只禁止三类补贴：助长非法捕捞、捕捞已过捕种群、在无管制公海捕鱼。产能过剩与过度捕捞（第二支柱）当时并未谈成，仍属后续谈判；协定2025年9月才生效。原文把“过度产能”一并算入协定范围。",
+          "correction": "补贴是扭曲的核心。全球渔业补贴每年约三百五十亿美元，其中约六成三被认为有害；二〇二二年世贸组织达成协定，禁止助长非法捕捞、捕捞过捕种群与无管制公海捕鱼的补贴，产能过剩一条当时仍未谈成。",
+          "evidence": [
+            {
+              "title": "The WTO Agreement on Fisheries Subsidies (WTO brochure)",
+              "url": "https://www.wto.org/english/res_e/booksp_e/fishagree_e.pdf",
+              "quote": "prohibitions on subsidies contributing to IUU fishing and subsidies regarding overfished stock"
+            },
+            {
+              "title": "Fisheries Subsidies and the World Trade Organization: The Negotiated Agreement",
+              "url": "https://brill.com/supplemental/journals/iner/29/2/article-p193_1.xml/Reinert-Fish_Subsidies_WTO_International_Negotiation_Supplement.pdf",
+              "quote": "an agreement was eventually reached at the 12th Ministerial Conference in June 2022"
+            }
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "IUU 捕捞的量级以 FAO/Agnew et al. 的 11–26 百万吨、100–230 亿美元为准。",
+        "WTO《渔业补贴协定》2022年6月达成文本、2025年9月生效；第二支柱（产能过剩与过度捕捞）仍在谈判。",
+        "BBNJ 协定2023年6月通过，2025年9月达到60国批准，2026年1月生效；正文“需六十国批准后生效”成立。"
+      ],
+      "summary": "公海渔业制度与案例可靠；IUU 捕捞量级与2022年WTO协定覆盖范围两处需修正。"
+    },
+    {
+      "id": "w3-psych-confirmation-bias",
+      "status": "verified",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "medium"},
+        {"id": "f8", "verdict": "supported", "confidence": "medium"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "supported", "confidence": "medium"},
+        {"id": "f11", "verdict": "supported", "confidence": "medium"},
+        {"id": "f12", "verdict": "supported", "confidence": "medium"}
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "四卡任务通常记为 Wason (1968) “Reasoning about a rule”；部分教材写作1966年，指更早的会议论文，正文取1968年可接受。",
+        "Nickerson (1998) 的卷期页码为 Review of General Psychology 2(2): 175–220，与正文一致。",
+        "f7、f8、f10、f11 属综述性归纳，证据分散，置信度标为中等。"
+      ],
+      "summary": "确认偏误的经典实验、年份与综述引述准确，未发现硬错误。"
+    },
+    {
+      "id": "w3-wh-discovery-cook",
+      "status": "verified",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "supported", "confidence": "high"},
+        {"id": "f11", "verdict": "supported", "confidence": "high"},
+        {"id": "f12", "verdict": "supported", "confidence": "high"}
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "库克第二次航行三次越过南极圈，最南为南纬71°10′；正文“七十度附近”是保守说法。",
+        "“浓缩的麦芽汁”指第二次航行携带的 malt wort；第一次航行更多依赖酸菜、柠檬与岸上采集的野菜。",
+        "f11 的神化之争以 Obeyesekere (1992) 与 Sahlins (1995) 的对立为代表，正文表述平衡。"
+      ],
+      "summary": "库克航行的年份、地点、疾病与测量细节均可核，未发现需要改写的错误。"
+    },
+    {
+      "id": "w4-geo-world-megalopolis",
+      "status": "verified",
+      "confidence": "medium",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "medium"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "medium"},
+        {"id": "f6", "verdict": "supported", "confidence": "medium"},
+        {"id": "f7", "verdict": "supported", "confidence": "medium"},
+        {"id": "f8", "verdict": "supported", "confidence": "medium"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "supported", "confidence": "medium"},
+        {"id": "f11", "verdict": "supported", "confidence": "medium"},
+        {"id": "f12", "verdict": "supported", "confidence": "high"}
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "长三角人口口径不一：2020年第七次人口普查为约2.35亿，新华社2020年稿件称约2.2亿；正文“超过2.3亿”取七普口径，宜注明普查年份。",
+        "东京都市圈人口随统计口径（1都3县或首都圈）在3600万–3700万之间，正文取整为约3700万可接受。",
+        "马尔凯蒂常数是经验归纳而非定律，正文“经验规律”的措辞准确。"
+      ],
+      "summary": "城市群的概念、数据与规划案例大体可核，部分数字随统计口径浮动但方向无误。"
+    },
+    {
+      "id": "w2-wh-medieval-hanse",
+      "status": "verified",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "medium"},
+        {"id": "f10", "verdict": "supported", "confidence": "medium"},
+        {"id": "f11", "verdict": "supported", "confidence": "high"},
+        {"id": "f12", "verdict": "supported", "confidence": "medium"}
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "“汉萨”词源：古高地德语 hansa 意为战士队伍、人群，中古低地德语转指商人团体；正文“团体、群”是概括说法。",
+        "汉萨没有正式宪法与首都；“以吕贝克为首”是事实上的会议地点与领导角色，不是法律地位。",
+        "1669年汉萨会议（Hansetag）在吕贝克举行，是最后一次，此后同盟事实上停止运作。"
+      ],
+      "summary": "汉萨的组织形态、商站、封锁手段与1669年终结均可核，未发现硬错误。"
+    }
+  ]
+}

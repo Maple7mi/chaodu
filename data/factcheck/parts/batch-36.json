@@ -1,0 +1,307 @@
+{
+  "batch": "batch-36",
+  "checkedAt": "2026-11-18T02:27:00+08:00",
+  "dossiers": [
+    {
+      "id": "w4-wh-regions-congo-free-state",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        { "id": "f1", "verdict": "imprecise", "confidence": "high", "issue": "issue-01" },
+        { "id": "f2", "verdict": "supported", "confidence": "medium" },
+        { "id": "f3", "verdict": "supported", "confidence": "medium" },
+        { "id": "f4", "verdict": "supported", "confidence": "high" },
+        { "id": "f5", "verdict": "supported", "confidence": "high" },
+        { "id": "f6", "verdict": "supported", "confidence": "high" },
+        { "id": "f7", "verdict": "supported", "confidence": "high" },
+        { "id": "f8", "verdict": "supported", "confidence": "high" },
+        { "id": "f9", "verdict": "supported", "confidence": "high" },
+        { "id": "f10", "verdict": "supported", "confidence": "medium" },
+        { "id": "f11", "verdict": "supported", "confidence": "high" },
+        { "id": "f12", "verdict": "supported", "confidence": "high" }
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f1",
+          "severity": "major",
+          "verdict": "imprecise",
+          "claim": "1885年，柏林会议承认利奥波德二世以“国际非洲协会”名义占有的刚果盆地为“刚果自由邦”。它不属于比利时国家，而是国王的私人财产；他自任元首，任命总督，收入归他支配。",
+          "problem": "柏林会议承认的是利奥波德以“国际刚果协会”（Association Internationale du Congo）名义占有的领地；“国际非洲协会”（Association Internationale Africaine）是1876年另设的慈善组织，两者常被混淆。其余关于私人领地、元首任命与收入归属的描述无误。",
+          "correction": "1885年，柏林会议承认利奥波德二世以“国际刚果协会”名义占有的刚果盆地为“刚果自由邦”。它不属于比利时国家，而是国王的私人财产；他自任元首，任命总督，收入归他支配。",
+          "evidence": [
+            {
+              "title": "HathiTrust：The Congo Free State（国际法论文，述柏林会议承认的协会）",
+              "url": "https://babel.hathitrust.org/cgi/ssd?id=mdp.39015031608410;seq=22;num=18",
+              "quote": "state founded in Africa by the International Association of the Congo"
+            }
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "断手记载的史料层级：Hochschild 依据传教士、行政官与士兵证词，近二十年亦有学者质疑其普遍性；专题已把“系统性还是局部”写成争论，未把数字坐实。",
+        "配额体系的关键法令是1891年9月21日秘密法令与1892年6月20日奖金制度，1885—1891年间以象牙与特许公司为主，正文把“配额”覆盖整个时期略粗。",
+        "1904年照片通常记作 Alice Seeley Harris 与丈夫 John Harris 在 Baringa 拍摄，被摄者为 Nsala，残肢属其女 Boali。"
+      ],
+      "summary": "刚果自由邦的骨架——1885年柏林会议、利奥波德私人领地、1908年比利时接管、Casement、Morel 与柯南·道尔的抗议链——均可核实。需要改的是建国名义：柏林会议承认的是“国际刚果协会”，不是“国际非洲协会”。配额、断手与人口损失部分把学界争论保留在正文里，处理得当。"
+    },
+    {
+      "id": "w4-psych-bystander",
+      "status": "verified",
+      "confidence": "high",
+      "facts": [
+        { "id": "f1", "verdict": "supported", "confidence": "high" },
+        { "id": "f2", "verdict": "supported", "confidence": "high" },
+        { "id": "f3", "verdict": "supported", "confidence": "high" },
+        { "id": "f4", "verdict": "supported", "confidence": "high" },
+        { "id": "f5", "verdict": "supported", "confidence": "high" },
+        { "id": "f6", "verdict": "supported", "confidence": "high" },
+        { "id": "f7", "verdict": "supported", "confidence": "high" },
+        { "id": "f8", "verdict": "supported", "confidence": "high" },
+        { "id": "f9", "verdict": "supported", "confidence": "high" },
+        { "id": "f10", "verdict": "supported", "confidence": "high" },
+        { "id": "f11", "verdict": "supported", "confidence": "high" },
+        { "id": "f12", "verdict": "supported", "confidence": "high" }
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "Darley & Latané 1968 的癫痫实验常被转述为“另有四人”，原始条件为参与者相信除自己外还有1、2或4人；31%对应“另有四人”条件。",
+        "Fischer et al. 2011 元分析含105项研究、约7500名被试，正文“上百项”为约数。",
+        "38名目击者的说法源自1964年《纽约时报》报道；Manning、Levine 与 Collins 2007年核查现场能见度与报警记录，认为人数被夸大。"
+      ],
+      "summary": "旁观者效应的经典实验（1968年纽约大学、冒烟、癫痫、五步模型、好撒玛利亚人）与后续元分析、CCTV 研究均能对上。38人神话的修正、危险情境下效应减弱、指定具体人求助等说法与文献一致，未见需要改写的硬伤。"
+    },
+    {
+      "id": "w2-psych-family-decision-authority",
+      "status": "verified",
+      "confidence": "high",
+      "facts": [
+        { "id": "f1", "verdict": "supported", "confidence": "high" },
+        { "id": "f2", "verdict": "supported", "confidence": "high" },
+        { "id": "f3", "verdict": "supported", "confidence": "high" },
+        { "id": "f4", "verdict": "supported", "confidence": "high" },
+        { "id": "f5", "verdict": "supported", "confidence": "high" },
+        { "id": "f6", "verdict": "supported", "confidence": "high" },
+        { "id": "f7", "verdict": "supported", "confidence": "medium" },
+        { "id": "f8", "verdict": "supported", "confidence": "medium" },
+        { "id": "f9", "verdict": "supported", "confidence": "high" },
+        { "id": "f10", "verdict": "supported", "confidence": "high" },
+        { "id": "f11", "verdict": "supported", "confidence": "high" },
+        { "id": "f12", "verdict": "supported", "confidence": "high" }
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "Blood & Wolfe 的八领域分类与资源论后来受到“资源—规范—谈判”模型的修正，正文已作此保留。",
+        "f7 的“一年几次／每天几十次”是修辞性概数，未见精确统计；时间日记研究可估决策与家务时长，但口径不一，不宜当作实测数字。",
+        "决策疲劳的实验室证据（自我损耗）在2010年代复制研究中效果缩水，正文用“容易”“研究提示”的弱断言，未把结论坐实。"
+      ],
+      "summary": "Blood & Wolfe 的分领域决策、资源理论、Lukes 的议程设置与隐性否决，以及“公平感比平均更重要”的结论都有文献支撑。f7 的“一年几次／每天几十次”是概数而非统计，已在注中说明；决策疲劳证据强度有限，正文措辞已作弱化。"
+    },
+    {
+      "id": "w1-psych-forgiveness",
+      "status": "verified",
+      "confidence": "high",
+      "facts": [
+        { "id": "f1", "verdict": "supported", "confidence": "high" },
+        { "id": "f2", "verdict": "supported", "confidence": "high" },
+        { "id": "f3", "verdict": "supported", "confidence": "high" },
+        { "id": "f4", "verdict": "supported", "confidence": "high" },
+        { "id": "f5", "verdict": "supported", "confidence": "high" },
+        { "id": "f6", "verdict": "supported", "confidence": "high" },
+        { "id": "f7", "verdict": "supported", "confidence": "high" },
+        { "id": "f8", "verdict": "supported", "confidence": "high" },
+        { "id": "f9", "verdict": "supported", "confidence": "high" },
+        { "id": "f10", "verdict": "supported", "confidence": "medium" },
+        { "id": "f11", "verdict": "supported", "confidence": "medium" },
+        { "id": "f12", "verdict": "supported", "confidence": "high" }
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "Enright 的定义强调放弃报复与回避，并不要求与加害者和解；专题与 Worthington 的区分一致。",
+        "Rasmussen et al. 2019 元分析含103项研究，健康关联混合了横断面与干预研究，不能单独支持因果。",
+        "Luchies et al. 2010 的因变量是 self-respect 与 self-concept clarity，中译“自尊”是常见但略宽的对应。"
+      ],
+      "summary": "Enright 与 Worthington 的概念区分、Luchies 的 doormat effect、宽恕干预的元分析结果与“宽恕不等于和解”的边界都可靠。“降低自尊”是对 self-respect 的略宽转写，“女性被期待宽恕”有性别社会化文献支撑但属中等强度。"
+    },
+    {
+      "id": "world-geo-monsoon",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        { "id": "f1", "verdict": "supported", "confidence": "medium" },
+        { "id": "f2", "verdict": "supported", "confidence": "high" },
+        { "id": "f3", "verdict": "imprecise", "confidence": "high", "issue": "issue-01" },
+        { "id": "f4", "verdict": "supported", "confidence": "high" },
+        { "id": "f5", "verdict": "supported", "confidence": "high" },
+        { "id": "f6", "verdict": "supported", "confidence": "high" },
+        { "id": "f7", "verdict": "supported", "confidence": "high" },
+        { "id": "f8", "verdict": "supported", "confidence": "high" },
+        { "id": "f9", "verdict": "supported", "confidence": "high" },
+        { "id": "f10", "verdict": "supported", "confidence": "high" },
+        { "id": "f11", "verdict": "supported", "confidence": "high" }
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f3",
+          "severity": "major",
+          "verdict": "imprecise",
+          "claim": "青藏高原的作用不可忽略。高原抬升使对流层中层形成一个巨大的热源，加热上空的空气，增强南北方向的温度梯度，从而加强季风环流；没有高原，南亚季风会弱得多。",
+          "problem": "“高原加热增强季风”是经典假说，但气候模拟给出了相反结果：保留喜马拉雅等周边山地的狭窄地形、仅移除青藏高原，南亚季风并未显著减弱。高原的机械阻挡（隔断冷空气）可能比加热更重要，“没有高原会弱得多”说得过满。",
+          "correction": "青藏高原及周边山地的作用不可忽略。高原抬升改变对流层中层环流，也阻挡冷空气，但其加热增强季风的说法仍有争议：气候模拟显示，保留周边山地而移除高原，季风并不会显著减弱。",
+          "evidence": [
+            {
+              "title": "Boos & Kuang 2013, Dominant control of the South Asian monsoon by orographic insulation versus plateau heating（Harvard DASH）",
+              "url": "https://dash.harvard.edu/entities/publication/73120378-b41c-6bd4-e053-0100007fdf3b",
+              "quote": "monsoon was largely unaffected by removal of the plateau in a climate model, provided the narrow orography of adjacent mountain ranges was preserved"
+            }
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "f1 的“一万毫米”指西海岸与东北部局部：乞拉朋齐多年平均约11872毫米，最高年记录26470毫米；塔尔沙漠年雨量约100—300毫米，“不足三百”对沙漠核心区成立。",
+        "f4 的撤退时间：印度气象局以9月1日为西北部开始撤退、10月基本结束；正文“九月底开始撤退”稍晚于官方口径，但落在常见叙述范围内。",
+        "f7 的2021年马哈拉施特拉邦暴雨与2022年巴基斯坦洪水，各源死亡数不一；正文未给具体数字，只保留“数百毫米／排水系统难以承受”。"
+      ],
+      "summary": "海陆热力差异、6—9月集中降水、喀拉拉6月1日爆发、厄尔尼诺偏弱、乞拉朋齐极端降水、气溶胶影响等均可核实。唯一需要改的是青藏高原：“没有高原季风会弱得多”与 Boos & Kuang 的模拟结果不符，高原加热的作用仍有争议。"
+    },
+    {
+      "id": "w1-world-history-ancient-phoenician-alphabet",
+      "status": "verified",
+      "confidence": "high",
+      "facts": [
+        { "id": "f1", "verdict": "supported", "confidence": "high" },
+        { "id": "f2", "verdict": "supported", "confidence": "high" },
+        { "id": "f3", "verdict": "supported", "confidence": "high" },
+        { "id": "f4", "verdict": "supported", "confidence": "high" },
+        { "id": "f5", "verdict": "supported", "confidence": "high" },
+        { "id": "f6", "verdict": "supported", "confidence": "high" },
+        { "id": "f7", "verdict": "supported", "confidence": "medium" },
+        { "id": "f8", "verdict": "supported", "confidence": "high" },
+        { "id": "f9", "verdict": "supported", "confidence": "high" },
+        { "id": "f10", "verdict": "supported", "confidence": "high" },
+        { "id": "f11", "verdict": "supported", "confidence": "high" },
+        { "id": "f12", "verdict": "supported", "confidence": "medium" }
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "乌加里特字母30个符号中含三个 aleph 变体，是否算“纯辅音字母”有讨论；正文用“辅音字母”是通行概括。",
+        "gimel 的图画义有“投掷棒”与“骆驼”两说，“投掷棒”较常见。",
+        "希腊字母借用时间有公元前9世纪与8世纪两说，正文取“约公元前八世纪”，与主流教材一致。",
+        "婆罗米文字是否经阿拉米字母传入印度仍有争论（Bright 认为可能直接源自腓尼基一类闪米特字母），正文用“影响”而非“衍生”，属可接受表述。"
+      ],
+      "summary": "腓尼基城邦、乌加里特30字母、22符号辅音字母、希腊人公元前8世纪借用并造元音、迦太基前814年、推罗紫、纸莎草失传等要点均与文献一致。个别细节（gimel 的图画义、希腊借用年代、婆罗米来源）存在异说，正文用“未必”“约”等词，属可接受范围。"
+    },
+    {
+      "id": "w1-myth-world-morrigan",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        { "id": "f1", "verdict": "imprecise", "confidence": "high", "issue": "issue-01" },
+        { "id": "f2", "verdict": "supported", "confidence": "high" },
+        { "id": "f3", "verdict": "supported", "confidence": "high" },
+        { "id": "f4", "verdict": "supported", "confidence": "high" },
+        { "id": "f5", "verdict": "supported", "confidence": "high" },
+        { "id": "f6", "verdict": "supported", "confidence": "high" },
+        { "id": "f7", "verdict": "imprecise", "confidence": "high", "issue": "issue-03" },
+        { "id": "f8", "verdict": "supported", "confidence": "high" },
+        { "id": "f9", "verdict": "supported", "confidence": "medium" },
+        { "id": "f10", "verdict": "imprecise", "confidence": "high", "issue": "issue-02" },
+        { "id": "f11", "verdict": "supported", "confidence": "high" },
+        { "id": "f12", "verdict": "supported", "confidence": "high" }
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f1",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "莫瑞甘这个名字由“伟大的”与“女王”两个词根组成，通常译作伟大的女王或幽灵女王。它既可以指一位女神，也可以指一组三位一体的战争女性，名单在不同文本里并不固定。",
+          "problem": "词源并未坐实为“伟大”：mor 也被认为与“恐怖、噩梦”同源，“幽灵女王”的译法正来自后一说。前半句把一种解释写成定论，又与后半句并列的两种译名自相矛盾；三位一体与名单不固定的说法无误。",
+          "correction": "莫瑞甘这个名字通常拆作“伟大”或“恐怖”与“女王”两部分，常译作伟大的女王或幽灵女王。它既可以指一位女神，也可以指一组三位一体的战争女性，名单在不同文本里并不固定。",
+          "evidence": [
+            {
+              "title": "The Morrígan（TheFreeDictionary 词条，引 Rosalind Clark）",
+              "url": "https://wwwencyclopedia.thefreedictionary.com/The+Morr%c3%adgan",
+              "quote": "the Irish \"Morrígan\" has its roots either in a word for \"terror\" or a word for \"greatness\""
+            },
+            {
+              "title": "theses.fr：莫瑞甘研究（述 mor + rigan 与“幽灵女王”译法）",
+              "url": "https://theses.fr/2012GRENL029/abes",
+              "quote": "le nom Morrigan pourrait être interprété comme étant la Reine Fantôme"
+            }
+          ]
+        },
+        {
+          "id": "issue-02",
+          "factId": "f10",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "后来的民间传说里出现了“渡口洗衣妇”：一个在河边洗涤血衣的女人，谁看见她，谁就快死了。这个形象与莫瑞甘没有直接的文本联系，但功能相似：把死亡提前通知给将死的人。",
+          "problem": "“没有直接的文本联系”过于绝对。牛津参考书明确说洗衣妇形象可能源自莫瑞甘，且巴德也能承担这一角色；学界通常认为二者有渊源或至少角色重叠，而非仅有功能相似。",
+          "correction": "后来的民间传说里出现了“渡口洗衣妇”：一个在河边洗涤血衣的女人，谁看见她，谁就快死了。这个形象可能与莫瑞甘或巴德有关，功能也相似：把死亡提前通知给将死的人。",
+          "evidence": [
+            {
+              "title": "Oxford Reference：washer at the ford",
+              "url": "https://www.oxfordreference.com/display/10.1093/oi/authority.20110803121134488",
+              "quote": "The persona of the washer may be derived from the Mórrígan, although Badb can take on this role."
+            }
+          ]
+        },
+        {
+          "id": "issue-03",
+          "factId": "f7",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "玛哈的故事解释了阿尔斯特人的诅咒。她被丈夫夸口能跑赢国王的马，被迫怀着孕参赛，跑赢后生下双胞胎，随即诅咒全境男人在危难时刻虚弱九天。",
+          "problem": "“虚弱九天”把两个数字混在一起：DIB 与《莱坎黄皮书》译文都说诅咒是五天四夜（或五夜四天）的分娩之痛，且延续九代；九天并非单次诅咒的时长。",
+          "correction": "玛哈的故事解释了阿尔斯特人的诅咒。她被丈夫夸口能跑赢国王的马，被迫怀着孕参赛，跑赢后生下双胞胎，随即诅咒全境男人在危难时刻遭受五天四夜的分娩之痛，这诅咒延续九代。",
+          "evidence": [
+            {
+              "title": "Dictionary of Irish Biography: Macha",
+              "url": "https://www.dib.ie/biography/macha-a9257",
+              "quote": "Macha curses every man within earshot to suffer labour pains for five days and four nights or five nights and four days. This debility lasts for nine generations"
+            },
+            {
+              "title": "《莱坎黄皮书》Noínden Ulad 英文译文（National Library of Scotland）",
+              "url": "http://deriv.nls.uk/dcn8/7689/76891376.8.xml",
+              "quote": "Five days and four nights, or five nights and four days, that was the duration of Noinden Ulad... unto the ninth generation"
+            }
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "三人组名单在不同文本中浮动：常见 Badb、Macha、Nemain，也有把 Morrígan 本人列入的版本。",
+        "f7 把“延续九代”误植为“虚弱九天”：DIB 与《莱坎黄皮书》译文均作五天四夜，诅咒延续九代。",
+        "f5 的乌鸦落肩见于《夺牛记》结尾插叙，不同译本细节略有出入。"
+      ],
+      "summary": "三人组、与达格达的相会、对库丘林的求爱与报复、死前乌鸦、“莫瑞甘的预言”、玛哈的诅咒、主权女神之争都能在中世纪文本与研究文献里找到依据。三处需改：名字词源被坐实为“伟大”（另有“恐怖”一说）；渡口洗衣妇被说成与莫瑞甘“没有直接文本联系”（牛津参考书认为可能源自她）；玛哈诅咒的“虚弱九天”应为五天四夜、延续九代。"
+    },
+    {
+      "id": "w5-geo-world-seismic-belts",
+      "status": "verified",
+      "confidence": "high",
+      "facts": [
+        { "id": "f1", "verdict": "supported", "confidence": "high" },
+        { "id": "f2", "verdict": "supported", "confidence": "high" },
+        { "id": "f3", "verdict": "supported", "confidence": "high" },
+        { "id": "f4", "verdict": "supported", "confidence": "high" },
+        { "id": "f5", "verdict": "supported", "confidence": "high" },
+        { "id": "f6", "verdict": "supported", "confidence": "high" },
+        { "id": "f7", "verdict": "supported", "confidence": "high" },
+        { "id": "f8", "verdict": "supported", "confidence": "high" },
+        { "id": "f9", "verdict": "supported", "confidence": "high" },
+        { "id": "f10", "verdict": "supported", "confidence": "high" },
+        { "id": "f11", "verdict": "supported", "confidence": "high" },
+        { "id": "f12", "verdict": "supported", "confidence": "high" }
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "f2 的700公里是深源地震的经典下限，现代观测最深约700余公里；不同教材给“约700”或“可达700”。",
+        "f7 的1985年墨西哥城地震震级常记 M8.0—8.1，正文未给震级，只讲湖相沉积的场地效应。",
+        "f12 的伊斯坦布尔、东京、德黑兰取自 Yeats《Earthquake Time Bombs》一类综述，属高风险城市名单，不是精确的断层距。"
+      ],
+      "summary": "板块边界分类、俯冲带700公里深源、圣安德烈斯走滑、洋中脊浅源小震、P/S 波与面波、震级与烈度、1985年墨西哥城场地效应、地震空区、预警时限、建筑抗震与近场海啸，均与 USGS 及地震学教材的口径一致，未发现需要改写的断言。"
+    }
+  ]
+}

@@ -1,0 +1,344 @@
+{
+  "batch": "batch-43",
+  "checkedAt": "2026-11-18T02:36:00+08:00",
+  "dossiers": [
+    {
+      "id": "w3-wh-revolutions-glorious-revolution",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "imprecise", "confidence": "high", "issue": "issue-01"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "medium"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "medium"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "supported", "confidence": "medium"},
+        {"id": "f11", "verdict": "imprecise", "confidence": "high", "issue": "issue-02"},
+        {"id": "f12", "verdict": "supported", "confidence": "medium"}
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f2",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "1688年6月，七位贵族签署邀请信",
+          "problem": "受邀署名的七人并非都是贵族：其中亨利·康普顿是伦敦主教，属教会人士；信件由辉格与托利两派要人联署，措辞只提保护新教与自由、恢复议会与法律，确未写废黜国王。",
+          "correction": "受邀的七人中包括伦敦主教康普顿，并非都是贵族；这封信由辉格与托利两派要人联署，只提保护新教与自由、恢复议会与法律，通篇未提废黜国王，措辞刻意留白。",
+          "evidence": [
+            {"title": "Wikipedia: Invitation to William（1688年6月30日七人联署信）", "url": "https://en.wikipedia.org/wiki/Invitation_to_William", "quote": "Edward Russell, Henry Sidney, Richard Lumley, Henry Compton Bishop of London, Charles Talbot, William Cavendish, Thomas Osborne"},
+            {"title": "royal.uk, William and Mary", "url": "https://www.royal.uk/william-and-mary", "quote": "Parliament declared that James had abdicated and offered the throne to William and Mary as joint monarchs"}
+          ]
+        },
+        {
+          "id": "issue-02",
+          "factId": "f11",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "洛克在1690年出版《政府论两篇》……但书稿的大部分写于此前的几十年",
+          "problem": "拉斯莱特以来的研究认为《政府论两篇》主体写于1679—1681年，距出版约十年，不是“此前的几十年”；书虽标1690年，实际1689年底已出版，1689年只作修改与少量增补。",
+          "correction": "《政府论两篇》一书虽标1690年，实际在1689年底已经出版；主体写于1679至1681年，距出版约十年，并非“此前的几十年”，1689年只作修改与少量增补，不能当作这场革命的指导思想。",
+          "evidence": [
+            {"title": "Wikipedia: Two Treatises of Government（写作与出版年代）", "url": "https://en.wikipedia.org/wiki/Two_Treatises_of_Government", "quote": "转述：拉斯莱特考订《政府论》主体写于1679—1680年，1689年秋才出版"},
+            {"title": "Cambridge, Hobbes, Locke, and Confusion's Masterpiece, ch. 6", "url": "https://www.cambridge.org/core/books/abs/hobbes-locke-and-confusions-masterpiece/lockes-law/1C5D5E9F74FE83135AE3E1F8A131DA2D", "quote": "This is also dated 1690 on the title page, but it also in fact appeared in 1689."}
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "f1/f5: 权利法案全文见 BAILII，1689年2月13日；https://beta.bailii.org/uk/legis/num_act/1689/bill_of_rights.html",
+        "f3: Browning 讲座章节记威廉兵力约1.5万人、1688年11月5日在托贝登陆；http://oxfordjournals.org/book/48024/chapter-abstract/420466167",
+        "f4: 国玺事件的当代记载本身即存疑，伯内特称“design or lost is not yet known”；https://www.cambridge.org/core/journals/antiquaries-journal/article/abs/what-happened-to-the-great-seal-of-james-ii1/4BD0047C7E7EE829B39B9B702444EF24",
+        "f6: 1701年王位继承法与汉诺威继承；https://www.parliament.uk/about/living-heritage/evolutionofparliament/parliamentaryauthority/revolution/overview/actofsettlement/",
+        "f8: 1707年联合法案与苏格兰教会保障；https://www.legislation.gov.uk/aosp/1707/7/section/XXV./1991-02-01/data.pdf",
+        "f10: “光荣”一词属辉格派叙事，基利克兰基战役（1689）与爱尔兰战事确有死亡。"
+      ],
+      "summary": "革命进程、法案内容与继承安排均可核实；邀请信署名者身份与洛克书稿写作年代两处表述不准确，已修正。"
+    },
+    {
+      "id": "cn-history-silver",
+      "status": "corrected",
+      "confidence": "medium",
+      "facts": [
+        {"id": "f1", "verdict": "imprecise", "confidence": "high", "issue": "issue-03"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "imprecise", "confidence": "medium", "issue": "issue-04"},
+        {"id": "f4", "verdict": "supported", "confidence": "medium"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "medium"},
+        {"id": "f7", "verdict": "supported", "confidence": "medium"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "medium"},
+        {"id": "f10", "verdict": "supported", "confidence": "medium"},
+        {"id": "f11", "verdict": "supported", "confidence": "medium"},
+        {"id": "f12", "verdict": "supported", "confidence": "medium"}
+      ],
+      "issues": [
+        {
+          "id": "issue-03",
+          "factId": "f1",
+          "severity": "moderate",
+          "verdict": "imprecise",
+          "claim": "宝钞只发不收，很快贬值到不足面额的十分之一……二十余年间购买力跌到不足一成",
+          "problem": "宝钞并非完全不收，商税可钱钞兼收；贬值幅度也被高估：洪武末一贯约折钱一百六十文，约为面额一成半，“百分之一上下”是永乐年间的事，不是发行后二十余年。",
+          "correction": "宝钞不可兑现、发行无度，但商税可钱钞兼收，并非只发不收；洪武末一贯约值一百六十文，仅为面额的一成半，跌到官价百分之一上下是永乐年间的事，不是发行后二十余年。",
+          "evidence": [
+            {"title": "网易：大明宝钞的发行与贬值", "url": "https://m.163.com/dy/article/HIBLN5RP052381FB.html", "quote": "洪武二十三年……二百五十文，四年后……一百六十文"},
+                        {"title": "首席收藏：明初停铸铜钱强推纸钞，壹贯仅值160文", "url": "http://coin.shouxi.com/news/opinion/2017/0112/3121.html", "quote": "定宝钞每贯合铜钱一千文或白银一两……政府行纸钞而不备金、银本钱……商税钱钞兼收"}
+          ]
+        },
+        {
+          "id": "issue-04",
+          "factId": "f3",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "这条航线由西班牙王室特许，利润在王室与马尼拉商人之间分成",
+          "problem": "马尼拉大帆船贸易是王室特许、限定由菲律宾居民经营的垄断贸易，王室所得主要是特许状出售与进出口关税，贸易利润归马尼拉商人，不是与王室按比例分成。",
+          "correction": "马尼拉大帆船贸易由西班牙王室特许，并限定由菲律宾居民经营；王室所得主要是特许状出售与进出口关税，贸易利润归马尼拉商人，并不是与王室按比例分成。",
+          "evidence": [
+            {"title": "Wikipedia: Manila galleon（王室垄断与菲律宾居民专营）", "url": "https://en.wikipedia.org/wiki/Manila_galleon", "quote": "转述：大帆船贸易由西班牙王室垄断，许可证售予马尼拉居民，王室另征关税。"}
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "f2: 一条鞭法万历九年推行、计亩征银；https://www.chinanews.com.cn/cul/news/2010/06-08/2329699.shtml",
+        "f4: 全汉昇转引肖努（Chaunu）估计，美洲白银约三分之一强经太平洋与大西洋输往亚洲，大部分终流入中国；https://www1.ihp.sinica.edu.tw/Publications/Bulletin/978/Article/530",
+        "f5: 隆庆元年（1567）月港开放，唯一合法民间海外贸易港口；https://www.news.cn/20261023/eda71eb8bd2f443994e38cb85158b259/c.html",
+        "f7: 18世纪银钱比价约七八百文，道光十八年约一千六百文；https://market.cloud.edu.tw/resources/web/1661165",
+        "f8: 虎门销烟实缴21,306箱（袋）；https://bianke.cnki.net/Web/Article/TN20805/XSYJ199003000.html",
+        "f9: 日昇昌1823年创设，另有1824年之说，故“1823年前后”稳妥；https://www.cnfin.com/life-xh08/a/20141210/1423269.shtml",
+        "f12: 1934年《白银收购法案》与1935年法币改革；https://finance.sina.cn/sa/2010-04-01/detail-ikkntiam5262251.d.html"
+      ],
+      "summary": "白银流入路线、一条鞭法与晚清银荒均可核实；宝钞贬值幅度与马尼拉贸易的利润分配两处表述不准确，已修正。"
+    },
+    {
+      "id": "w4-myth-oceania-rainbow-serpent",
+      "status": "verified",
+      "confidence": "medium",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "medium"},
+        {"id": "f6", "verdict": "supported", "confidence": "medium"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "supported", "confidence": "medium"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "supported", "confidence": "medium"},
+        {"id": "f11", "verdict": "supported", "confidence": "medium"},
+        {"id": "f12", "verdict": "supported", "confidence": "medium"}
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "f2: Yurlungur 为 Murngin（Yolngu）人的巨蟒，见 Oxford Reference；https://www.oxfordreference.com/display/10.1093/oi/authority.20110803125659265",
+        "f2: Ngalyod 为西阿纳姆地 Kunwinjku 人的彩虹蛇，见新南威尔士美术馆；https://visit.artgallery.nsw.gov.au/collection/works/265.2003/",
+        "f2: Noongar 的 Wagyl 开出天鹅河（Derbal Yerrigan），见西澳州立图书馆；https://webarchive.slwa.wa.gov.au/swan_river/community_icon/waugal55e9.html",
+        "f4: everywhen 出自斯坦纳1953年讲座，1956年收入《The Dreaming》；https://en.thefreedictionary.com/everywhen",
+        "f7: 阿纳姆地岩画中的彩虹蛇形象可早至六千年前，或至八千年前；https://books.google.com.sg/books?id=0xgfxQrtyPEC",
+        "f9: Mabo 案1992年6月3日判决；https://www.indigenous.gov.au/news/mabo-day",
+        "f10/f11: 图像权限与环境争议属民族志与法律讨论，本文只作概括，未给单一出处。"
+      ],
+      "summary": "各地名称、水与彩虹的母题、everywhen 概念、岩画年代与 Mabo 案均可核实，未发现需要修正的硬事实。"
+    },
+    {
+      "id": "psych-attribution",
+      "status": "verified",
+      "confidence": "medium",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "medium"},
+        {"id": "f5", "verdict": "supported", "confidence": "medium"},
+        {"id": "f6", "verdict": "supported", "confidence": "medium"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "medium"},
+        {"id": "f10", "verdict": "supported", "confidence": "medium"},
+        {"id": "f11", "verdict": "supported", "confidence": "medium"},
+        {"id": "f12", "verdict": "supported", "confidence": "medium"}
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "f3: Fincham & Bradbury (1990), Psychological Bulletin 107(1):3-33；https://www.mendeley.com/catalogue/1bad274a-a152-33cd-a58d-4d3ff3318969/",
+        "f7: 戈特曼“负面情感覆盖”释义；https://www.gottman.com/blog/how-positively-do-you-view-your-partner/",
+        "f8: Miller (1984) 个体主义—集体主义与归因差异，见 Blackwell 普通心理学教材章节；https://www.blackwellpublishing.com/intropsych/pdf/chapter17.pdf",
+        "f11: 归因重训用于反应性攻击儿童的小组干预，效果温和；https://files.eric.ed.gov/fulltext/ED376950.pdf",
+        "f4: 归因与满意度的因果方向在综述中即被列为未决问题。"
+      ],
+      "summary": "经典偏差、1990年综述结论、戈特曼概念与文化差异均有出处，未发现事实性错误。"
+    },
+    {
+      "id": "w1-world-history-ancient-assyria",
+      "status": "verified",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "medium"},
+        {"id": "f6", "verdict": "supported", "confidence": "medium"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "medium"},
+        {"id": "f10", "verdict": "supported", "confidence": "high"},
+        {"id": "f11", "verdict": "supported", "confidence": "medium"},
+        {"id": "f12", "verdict": "supported", "confidence": "medium"}
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "f2: 阿淑尔纳西尔帕二世铭文记剥皮示众，见 RIAo；https://build.oracc.org/riao/ria4/Q004455.46/",
+        "f2: 刺刑始用于其即位年（前882年），见 Radner 论文；https://epub.ub.uni-muenchen.de/27695/1/Radner_High_visibility_Punishment.pdf",
+        "f3: 提格拉特帕拉沙尔三世前745—前727年在位，行省与常备军改革；https://www.ebsco.com/research-starters/history/tiglath-pileser-iii",
+        "f7: 亚述巴尼拔图书馆藏泥板逾三万件；https://www.britishmuseum.org/blog/library-fit-king",
+        "f8: 城破火焚使泥板烧硬而得以保存；http://en.chinaculture.org/a/202410/26/WS671c4583a310f1265a1c9c7e_5.html",
+        "f10: 前612年巴比伦与米底攻陷尼尼微；http://oxfordjournals.org/book/47298/chapter-abstract/422416531",
+        "f6: 迁民规模在王室铭文中被夸大，实际多为分批按户迁移，属学界通说。"
+      ],
+      "summary": "年代、君主、迁民与图书馆等关键事实均可核实，未发现需要修正之处。"
+    },
+    {
+      "id": "cn-history-zhenghe",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "imprecise", "confidence": "high", "issue": "issue-05"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "medium"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "medium"},
+        {"id": "f8", "verdict": "imprecise", "confidence": "medium", "issue": "issue-06"},
+        {"id": "f9", "verdict": "supported", "confidence": "medium"},
+        {"id": "f10", "verdict": "supported", "confidence": "high"},
+        {"id": "f11", "verdict": "supported", "confidence": "high"},
+        {"id": "f12", "verdict": "imprecise", "confidence": "high", "issue": "issue-07"}
+      ],
+      "issues": [
+        {
+          "id": "issue-05",
+          "factId": "f2",
+          "severity": "moderate",
+          "verdict": "imprecise",
+          "claim": "据《明史》记载，第一次下西洋有船舶六十二艘、将士二万七千八百余人",
+          "problem": "《明史》所记“六十二”专指长四十四丈、阔十八丈的大号宝船，不是全队船数；同次远航全队约二百余艘，其中大、中号宝船六十二艘，将士二万七千八百余人则无误。",
+          "correction": "《明史》所记“六十二”专指长四十四丈、阔十八丈的大号宝船，并不是全队船数；同一次远航全队约二百余艘，其中大、中号宝船六十二艘，将士二万七千八百余人则记载无误。",
+          "evidence": [
+            {"title": "人民网：1405年7月11日 郑和始下西洋", "url": "http://m.people.cn/n4/0/2017/0711/c2771-9306811-2_4.html", "quote": "这只船队总共有208艘船，光是长44丈、宽18丈的宝船就有62艘"},
+            {"title": "江苏省交通运输厅：郑和远航", "url": "http://jtyst.jiangsu.gov.cn/art/2007/9/1/art_60255_7532496.html", "quote": "最多的一次是第一次下西洋,有船208艘,其中大、中号宝船62艘"}
+          ]
+        },
+        {
+          "id": "issue-06",
+          "factId": "f8",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "宣德五年（1430）最后一次出航，回朝后不久郑和去世",
+          "problem": "《非幻庵香火圣像记》记郑和宣德庚戌奉命出航、癸丑（1433）卒于古里，即死于归途，并未回到朝廷；卒年与卒地学界仍有争论，但“回朝后”与常见记载不合。",
+          "correction": "《非幻庵香火圣像记》记郑和宣德庚戌奉命出航、癸丑（1433）卒于古里，即死于归途，并没有回到朝廷；卒年与卒地学界仍有争论，但“回朝后不久去世”与常见记载不合。",
+          "evidence": [
+            {"title": "故宫博物院：郑和事迹考（PDF）", "url": "https://www.dpm.org.cn/Uploads/pdf/4985/T00018_00.pdf", "quote": "宣德庚戌，奉命前往西洋……癸丑，卒于古里"},
+            {"title": "Wikipedia: Zheng He（卒年与卒地）", "url": "https://en.wikipedia.org/wiki/Zheng_He", "quote": "转述：郑和于1433年在第七次下西洋归途中去世，卒地与卒年仍有争议"}
+          ]
+        },
+        {
+          "id": "issue-07",
+          "factId": "f12",
+          "severity": "moderate",
+          "verdict": "imprecise",
+          "claim": "此后六百年里，他的名字主要出现在地方志与民间传说中",
+          "problem": "郑和1433年去世，到1904年梁启超撰传时约四百七十年，不足六百年；且“此后”若指1904年之后，则与“六百年”自相矛盾，时间跨度应以近五百年表述。",
+          "correction": "郑和1433年去世，到1904年梁启超撰传时约四百七十年，已沉寂近五百年，并不是六百年；此后他才作为航海家重新进入公众视野，此前主要见于地方志与民间传说。",
+          "evidence": [
+            {"title": "文汇报：梁启超与《祖国大航海家郑和传》", "url": "http://paper.wenweipo.com/2004/07/29/OT0407290001.htm", "quote": "1904年，梁启超以“中国之新民”为笔名，在《新民丛报》第3卷第21号发表《祖国大航海家郑和传》"},
+            {"title": "故宫博物院：郑和事迹考（PDF）", "url": "https://www.dpm.org.cn/Uploads/pdf/4985/T00018_00.pdf", "quote": "癸丑（1433），卒于古里"}
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "f1: 1405年7月11日自刘家港出海，七次远航，最远至东非麻林、木骨都束、卜剌哇；http://jtyst.jiangsu.gov.cn/art/2007/9/1/art_60255_7532496.html",
+        "f3: 1957年南京宝船厂遗址出土舵杆长11.07米（另有11.03米之说）；https://maritimemuseum.sjtu.edu.cn/info/1161/5821.htm",
+        "f4: 《明史·郑和传》“成祖疑惠帝亡海外，欲踪迹之”与“耀兵异域”；https://cloud.kepuchina.cn/h5/detail?id=6858190448789692416",
+        "f7: 长颈鹿称麒麟、苏麻离青为高铁低锰钴料；https://m.toutiao.com/w/1871314738575360/",
+        "f8: 郑和卒年卒地存在异说，正文已按常见记载修正，学界争论见南京晓庄学院学报2014年文。"
+      ],
+      "summary": "航线、船队规模、三部行纪与梁启超撰传均可核实；宝船数目、郑和卒地与“六百年”三处表述不准确，已修正。"
+    },
+    {
+      "id": "w2-wh-medieval-feudal-contract",
+      "status": "verified",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "medium"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "medium"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "supported", "confidence": "medium"},
+        {"id": "f11", "verdict": "supported", "confidence": "high"},
+        {"id": "f12", "verdict": "supported", "confidence": "high"}
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "f4: 骑士役以每年四十天为常例，超期由领主付酬；https://www.cambridge.org/core/books/abs/publications-of-the-bedfordshire-historical-record-society/records-of-knight-service-in-bedfordshire/0FD2CFF95E5C47D576D831CF3DE3D3EF",
+        "f5: 继承金、监护、婚姻同意等封建附属权，见 Blackstone《Commentaries》；https://books.google.com.sg/books/download/New_Commentaries_on_the_Laws_of_England.pdf?id=G_5BAAAAYAAJ",
+        "f8: 盾牌钱（scutage）按骑士领计征，以钱代役；https://ia801608.us.archive.org/11/items/historyofenglish01poll/historyofenglish01poll.pdf",
+        "f12: Elizabeth A. R. Brown, The Tyranny of a Construct, AHR 79:4 (1974), 1063-1088；https://academic.oup.com/ahr/issue/79/4",
+        "f6: “我的封臣的封臣不是我的封臣”只在部分地区成立，英格兰王廷可越级管辖。"
+      ],
+      "summary": "臣服礼、封土义务、四十天骑士役、盾牌钱与布朗的批评均可核实，未发现硬伤。"
+    },
+    {
+      "id": "w4-geo-world-island-nations",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "medium"},
+        {"id": "f3", "verdict": "supported", "confidence": "medium"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "medium"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "medium"},
+        {"id": "f10", "verdict": "imprecise", "confidence": "medium", "issue": "issue-08"},
+        {"id": "f11", "verdict": "supported", "confidence": "high"},
+        {"id": "f12", "verdict": "supported", "confidence": "medium"}
+      ],
+      "issues": [
+        {
+          "id": "issue-08",
+          "factId": "f10",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "世界银行估计，小岛国每年的适应成本相当于其国内生产总值的可观比例",
+          "problem": "联合国环境署的测算给出具体量级：小岛国适应成本约每年47亿美元，相当于其GDP的0.7%，占GDP比重并不算“可观”，压力主要体现在财政预算与外部援助依赖上。",
+          "correction": "联合国环境署测算，小岛国每年适应成本约47亿美元，相当于其GDP的0.7%；这一比例看似不高，但相对财政预算压力显著，且建设与维护高度依赖外部援助，长期能否持续仍是问题。",
+          "evidence": [
+            {"title": "FAO AGRIS: The modelled costs of adaptation", "url": "https://agris.fao.org/search/ar/records/6748c83d7625988a3720c0db", "quote": "adaptation costs for small island developing States of US$4.7 billion per year, equivalent to 0.7 per cent of their GDP"}
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "f1: IPCC AR6：1901—2018年全球平均海平面上升0.20米，2006—2018年速率3.7毫米/年；https://psmsl.org/products/",
+        "f4: 图瓦卢约26平方公里、人口约1.1万，2023年与澳大利亚签署《法莱皮利联盟》；https://www.dailymail.com/wires/reuters/article-12733539/Climate-change-Tuvalu-spotlight.html",
+        "f5: 马尔代夫逾八成陆地海拔不足一米，胡鲁马累人工岛高出海面约两米；https://www.esa.int/ESA_Multimedia/Images/2021/07/Male_the_Maldives",
+        "f7: 基里巴斯2014年在斐济瓦努阿岛购地20平方公里；https://www.theguardian.com/environment/2014/jul/01/kiribati-climate-change-fiji-vanua-levu ；图瓦卢“数字国家”；https://www.reuters.com/business/cop/tuvalu-turns-metaverse-rising-seas-threaten-existence-2022-11-15/",
+        "f8: 世界银行Groundswell：2050年前三区域或有逾1.4亿人在国内迁移；https://www.connect4climate.org/index.php/infographics/groundswell-preparing-internal-climate-migration",
+        "f11: 《蒙特维多公约》国家四要件；https://questions-statements.parliament.uk/written-questions/detail/2020-02-06/13562"
+      ],
+      "summary": "海平面观测、图瓦卢与马尔代夫数据、气候迁移估算与国家资格要件均可核实；适应成本占GDP的比例表述不准确，已修正。"
+    }
+  ]
+}

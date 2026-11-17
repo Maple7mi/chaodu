@@ -1,0 +1,724 @@
+{
+  "batch": "batch-07",
+  "checkedAt": "2026-11-18T02:20:00+08:00",
+  "dossiers": [
+    {
+      "id": "w4-wh-wars-hiroshima-nuclear",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        {
+          "id": "f1",
+          "verdict": "imprecise",
+          "confidence": "high",
+          "issue": "issue-01"
+        },
+        {
+          "id": "f2",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f3",
+          "verdict": "supported",
+          "confidence": "medium"
+        },
+        {
+          "id": "f4",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f5",
+          "verdict": "supported",
+          "confidence": "medium"
+        },
+        {
+          "id": "f6",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f7",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f8",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f9",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f10",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f11",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f12",
+          "verdict": "supported",
+          "confidence": "high"
+        }
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f1",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "美国随后启动曼哈顿计划，高峰时雇用了数十万人",
+          "problem": "曼哈顿计划峰值雇员约十三万人（橡树岭、汉福德、洛斯阿拉莫斯三地合计），\"数十万\"高估约一个数量级；1939 年西拉德—爱因斯坦信、三处核心设施均无误。",
+          "correction": "1939年，物理学家西拉德担心纳粹德国先造出原子弹，说服爱因斯坦写信给罗斯福。美国随后启动曼哈顿计划，高峰时雇用了约十三万人，在橡树岭、汉福德和洛斯阿拉莫斯同时推进。",
+          "evidence": [
+            {
+              "title": "Manhattan Project Sites Special Resources Study（美国国家公园管理局）",
+              "url": "https://planning.nps.gov/showFile.cfm?sfid=29741&projectID=14946",
+              "quote": "the Manhattan Project was a $2.2 billion dollar effort that employed 130,000 workers at its peak"
+            },
+            {
+              "title": "Readex《曼哈顿计划》解密档案（首都师范大学图书馆）",
+              "url": "https://lib.cnu.edu.cn/static/frontWeb/news/detail?artId=2110909277538492416&category=6",
+              "quote": "该计划实际上是一个庞大的全国性网络，雇用了超过13万人。其核心设施秘密分布在三个地点：新墨西哥州洛斯阿拉莫斯、田纳西州橡树岭和华盛顿州汉福德"
+            }
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "死亡人数采用放射线影响研究所（RERF）常用区间：广岛 9 万–16.6 万、长崎 6 万–8 万，与\"十几万/约七万\"相容。",
+        "f3\"几十公里外感到热浪\"未逐字核到观测记录，暂按 supported 记，confidence 降为 medium。"
+      ],
+      "summary": "整体可靠；仅曼哈顿计划峰值用工规模被夸大，已给出改稿。"
+    },
+    {
+      "id": "w4-psych-poverty-decisions",
+      "status": "corrected",
+      "confidence": "medium",
+      "facts": [
+        {
+          "id": "f1",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f2",
+          "verdict": "supported",
+          "confidence": "medium"
+        },
+        {
+          "id": "f3",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f4",
+          "verdict": "imprecise",
+          "confidence": "high",
+          "issue": "issue-01"
+        },
+        {
+          "id": "f5",
+          "verdict": "imprecise",
+          "confidence": "medium",
+          "issue": "issue-02"
+        },
+        {
+          "id": "f6",
+          "verdict": "supported",
+          "confidence": "medium"
+        },
+        {
+          "id": "f7",
+          "verdict": "wrong",
+          "confidence": "high",
+          "issue": "issue-03"
+        },
+        {
+          "id": "f8",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f9",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f10",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f11",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f12",
+          "verdict": "supported",
+          "confidence": "high"
+        }
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f4",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "发现回报率很高，不少人一年内就把钱翻了几倍",
+          "problem": "原实验测得的月实际回报为 4.6%–5.3%，年化约 55%–63%，资金约一年多翻倍；\"一年内翻几倍\"明显夸大，且回报随经营者能力与家庭财富而异。",
+          "correction": "德梅尔、麦肯齐与伍德拉夫二〇〇八年在斯里兰卡给小微企业主发放小额资本，测得月实际回报约百分之五，年化五成到六成，资金一年多可翻倍。这说明缺的常常是启动资金，不是经营头脑。",
+          "evidence": [
+            {
+              "title": "Returns to Capital in Microenterprises: Evidence from a Field Experiment（QJE 2008，World Bank 书目页）",
+              "url": "https://microdata.worldbank.org/citations/9663",
+              "quote": "We find the average real return to capital in these enterprises is 4.6%–5.3%permonth (55%–63%per year), substantially higher than market interest rates."
+            }
+          ]
+        },
+        {
+          "id": "issue-02",
+          "factId": "f5",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "现金资助对已有生意的男性店主效果明显，对新开业者就弱得多",
+          "problem": "原研究的主要异质性是经营者性别与能力：男性名下的企业回报显著更高，女性名下的企业未发现正回报；原文并未把\"新开业者\"与\"已有生意者\"作为对照结论。",
+          "correction": "但同一笔钱给不同的人，效果差别很大。后续研究里，现金资助对男性店主效果明显，对女性店主几乎为零；约束不同，钱能撬动的东西也不同，平均效应常常掩盖两端的差别。",
+          "evidence": [
+            {
+              "title": "Returns to Capital in Microenterprises（QJE 摘要记录）",
+              "url": "https://seal.matrade.gov.my/neuaxis-e/Record/okr-10986-5590/Description",
+              "quote": "Treatment impacts are also significantly larger for enterprises owned by males; indeed, we find no positive return in enterprises owned by females."
+            },
+            {
+              "title": "The Quarterly Journal of Economics, 123(4): 1329–1372",
+              "url": "https://academic.oup.com/qje/article-abstract/123/4/1329/1933166",
+              "quote": "Returns are found to vary with entrepreneurial ability and with household wealth"
+            }
+          ]
+        },
+        {
+          "id": "issue-03",
+          "factId": "f7",
+          "severity": "major",
+          "verdict": "wrong",
+          "claim": "比较了几种鼓励储蓄的方式：给利息、发提醒、开承诺账户。结果承诺账户效果最好",
+          "problem": "原实验比较的是安全存款账户、带用途限制（专项）的账户与小组互助式储蓄，并没有\"给利息、发提醒\"这两种处理；结论也不是承诺账户最好——最简单的安全账户即使健康储蓄增加 66%，用途限制只在应急时有用、用于预防性健康反而降低储蓄。",
+          "correction": "杜帕斯与罗宾逊二〇一三年在肯尼亚比较了几种鼓励储蓄的方式：提供安全的存款账户、给存款加用途限制、借助小组互助施压。结果最简单的安全账户就让健康储蓄增加六成多，用途限制只在应急时有用。",
+          "evidence": [
+            {
+              "title": "Why Don't the Poor Save More? Evidence from Health Savings Experiments（AER 2013）",
+              "url": "https://pubs.aeaweb.org/doi/pdf/10.1257/aer.103.4.1138",
+              "quote": "Simply providing a safe place to keep money was sufficient to increase health savings by 66 percent."
+            },
+            {
+              "title": "Why Don't the Poor Save More?（书目摘要，含 earmarking 与 ROSCA 处理）",
+              "url": "https://nufind.nu.edu.sa/EdsRecord/edsair,edsair.doi.dedup.....46796bf93fe45b0203ae0cc1e9314163",
+              "quote": "Simply providing a safe place to keep money was sufficient to increase health savings by 66 percent. Adding an earmarking feature was onl"
+            }
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "f2\"小额、高频、期限紧\"是对 2004 年 AER 短文论点的转述，未能逐字核到原文，confidence 记 medium。",
+        "f6 的 81% 增幅为学界常引数字，本轮未取到原文页，confidence 记 medium。"
+      ],
+      "summary": "主题立论成立，但三处研究细节失真：资本回报被夸大、异质性维度写错、肯尼亚储蓄实验的处理与结论被误述。"
+    },
+    {
+      "id": "w1-world-history-ancient-giza-labor",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        {
+          "id": "f1",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f2",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f3",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f4",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f5",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f6",
+          "verdict": "imprecise",
+          "confidence": "medium",
+          "issue": "issue-01"
+        },
+        {
+          "id": "f7",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f8",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f9",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f10",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f11",
+          "verdict": "supported",
+          "confidence": "medium"
+        },
+        {
+          "id": "f12",
+          "verdict": "supported",
+          "confidence": "medium"
+        }
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f6",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "面包房与啤酒作坊的规模显示，工地每天要喂饱数千人",
+          "problem": "学界对吉萨工地劳力的主流估算为两万至两万五千人（Lehner 1997），部分估算下限也在一万人左右；\"数千人\"把一个上万人的后勤规模说小了一个量级。",
+          "correction": "工资以实物支付：面包、啤酒、谷物、鱼和偶尔的肉。面包房与啤酒作坊的规模显示，工地每天要喂饱上万人，粮食从尼罗河沿岸的庄园源源不断地运来。",
+          "evidence": [
+            {
+              "title": "The Block Pipeline Problem: Internal Contradictions in Orthodox Workforce Estimates for the Great Pyramid（引 Lehner 1997）",
+              "url": "https://zenodo.org/records/19201851",
+              "quote": "approximately 2.3 million stone blocks (Lehner 1997), a construction period of twenty years (Herodotus II.124), and a workforce of roughly 20,000 to 25,000 labourers (Lehner 1997)"
+            }
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "f2 的\"十万奴隶\"见希罗多德《历史》第二卷，属古代传说，正文已正确标注其缺乏同时代证据。",
+        "f7 的瓦迪·贾尔夫纸莎草 2013 年公布、梅雷尔记录图拉石灰石运输，均与检索到的整理本说明一致。"
+      ],
+      "summary": "除工地供餐规模被低估外，其余年代、石料数、纸莎草与墓葬证据均站得住。"
+    },
+    {
+      "id": "w5-wh-trade-sugar",
+      "status": "verified",
+      "confidence": "high",
+      "facts": [
+        {
+          "id": "f1",
+          "verdict": "supported",
+          "confidence": "medium"
+        },
+        {
+          "id": "f2",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f3",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f4",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f5",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f6",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f7",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f8",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f9",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f10",
+          "verdict": "supported",
+          "confidence": "medium"
+        },
+        {
+          "id": "f11",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f12",
+          "verdict": "supported",
+          "confidence": "medium"
+        }
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "跨大西洋运奴数字采用跨大西洋奴隶贸易数据库口径：约 1250 万人上船、1070 万人到达。",
+        "f10 契约劳工合同期\"通常五年\"为常见说法，各地合同三至十年不等，正文已用\"通常\"限定。"
+      ],
+      "summary": "糖业与奴隶制的主要年代、数字与因果链均有可靠来源支持，未发现需要改写之处。"
+    },
+    {
+      "id": "w1-geo-cn-loess-plateau",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        {
+          "id": "f1",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f2",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f3",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f4",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f5",
+          "verdict": "wrong",
+          "confidence": "high",
+          "issue": "issue-01"
+        },
+        {
+          "id": "f6",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f7",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f8",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f9",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f10",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f11",
+          "verdict": "supported",
+          "confidence": "medium"
+        },
+        {
+          "id": "f12",
+          "verdict": "supported",
+          "confidence": "medium"
+        }
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f5",
+          "severity": "major",
+          "verdict": "wrong",
+          "claim": "一九八二年，赫勒与刘东生在《自然》上发表结果，把磁化率曲线与深海氧同位素曲线对上",
+          "problem": "年份、期刊与内容三处错位：1982 年《自然》论文（300:431–433）做的是黄土地层磁性地层定年；把磁化率曲线与深海氧同位素曲线对比、证明黄土可作全球气候档案的是 1986 年《地球物理研究快报》13(11):1169–1172 的论文。",
+          "correction": "黄土里的磁化率记录了过去的气候。一九八六年，赫勒与刘东生发表结果，把磁化率曲线与深海氧同位素曲线对上，证明黄土可以当全球气候档案使用。",
+          "evidence": [
+            {
+              "title": "Palaeoclimatic and sedimentary history from magnetic susceptibility of loess in China（GRL 13(11), 1986）",
+              "url": "https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/GL013i011p01169",
+              "quote": "The variations of magnetic low field susceptibility in loess closely resemble those of the marine oxygen-isotope record [Shackleton and Opdyke, 1976] and establish for the first time a continuous record of the Pleistocene glacial and interglacial stages in a continental section. ... Heller, F.T. S. Liu, Magnetostratigraphical dating of loess deposits in China, Nature, 300, 431–433, 1982"
+            }
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "书目把 \"Heller F. & Liu T. S., Nature, 1982\" 列为磁化率对比的出处，实际该文是磁性地层定年；建议书目补 1986 年 GRL 论文。",
+        "f1 的 64 万 km²、六省范围与常见表述一致；f11 的\"两亿吨上下\"为近年输沙量常见量级。"
+      ],
+      "summary": "黄土的成因、粒度、厚度与输沙描述可靠；磁化率对比的发表年份与期刊被写错，需改。"
+    },
+    {
+      "id": "cn-geo-qinling",
+      "status": "verified",
+      "confidence": "high",
+      "facts": [
+        {
+          "id": "f1",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f2",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f3",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f4",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f5",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f6",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f7",
+          "verdict": "supported",
+          "confidence": "medium"
+        },
+        {
+          "id": "f8",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f9",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f10",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f11",
+          "verdict": "supported",
+          "confidence": "medium"
+        }
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "f4 淮河全长 1000 km、总落差 195 m，与河南省地名志一致。",
+        "f11\"没有独立入海口\"指自然河口；2003 年淮河入海水道建成后已有人工入海通道，正文\"直到近代\"一语略有歧义，可在后续版本微调。"
+      ],
+      "summary": "秦岭—淮河一线的走向、气候界线、淮河水文与西成高铁等关键数字均可核实，无需改写。"
+    },
+    {
+      "id": "w2-geo-world-rivers-mississippi",
+      "status": "verified",
+      "confidence": "high",
+      "facts": [
+        {
+          "id": "f1",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f2",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f3",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f4",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f5",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f6",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f7",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f8",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f9",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f10",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f11",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f12",
+          "verdict": "supported",
+          "confidence": "high"
+        }
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "f1 流域面积取常见 320 万 km²（含全部支流），另有 298 万 km² 的口径，属统计范围差异，不影响量级。",
+        "f4 的\"数十万人离开家园\"与 1927 年洪水近百万人家园被毁、红十字会救济约 70 万人的记载相容。"
+      ],
+      "summary": "密西西比的长度、流域、1927 与 1993 年洪水、堤防与三角洲逻辑均有可靠来源支持。"
+    },
+    {
+      "id": "w2-cn-history-fanzhen-fiscal",
+      "status": "corrected",
+      "confidence": "medium",
+      "facts": [
+        {
+          "id": "f1",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f2",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f3",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f4",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f5",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f6",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f7",
+          "verdict": "supported",
+          "confidence": "medium"
+        },
+        {
+          "id": "f8",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f9",
+          "verdict": "imprecise",
+          "confidence": "high",
+          "issue": "issue-01"
+        },
+        {
+          "id": "f10",
+          "verdict": "supported",
+          "confidence": "medium"
+        },
+        {
+          "id": "f11",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f12",
+          "verdict": "supported",
+          "confidence": "high"
+        }
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f9",
+          "severity": "major",
+          "verdict": "imprecise",
+          "claim": "宪宗削平淮西、成德等镇，魏博的田弘正归朝",
+          "problem": "两处不准：成德王承宗是\"归附\"而非被削平，成德镇号与势力仍在；时间上魏博田弘正归朝在 812 年，早于 817 年平定淮西，原文把顺序颠倒了。",
+          "correction": "元和年间，宪宗平定淮西等镇，魏博的田弘正先归朝，成德等镇随后相继归附，一度出现“元和中兴”。但削藩依赖中央的财力与军事优势，一旦这两样不足，归附的藩镇又会重新自立。",
+          "evidence": [
+            {
+              "title": "唐宪宗削藩之战（百度百科）",
+              "url": "https://baike.baidu.com/item/%E5%94%90%E5%AE%AA%E5%AE%97%E5%89%8A%E8%97%A9%E4%B9%8B%E6%88%98/6901090",
+              "quote": "元和七年（812年）收复魏博，以田弘正归顺朝廷为转折。……元和十二年（817年）十月初十，李愬雪夜奇袭蔡州，平定淮西吴元济，威震诸镇。淮西平定后，横海节度使程权、成德节度使王承宗、幽州节度使刘总相继归附朝廷。"
+            }
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "f7 的\"自行铸钱\"未在检索到的材料中直接证实（河朔财政独立、截留赋税、自署官吏均有据），建议再核或删去\"铸钱\"二字。",
+        "f2 的节度使兼观察、支度、营田使，与敦煌归义军职官研究所述一致。"
+      ],
+      "summary": "藩镇截留赋税、牙兵废立、盐铁转运使等主线可靠；元和削藩一句的时序与性质需修正。"
+    }
+  ]
+}

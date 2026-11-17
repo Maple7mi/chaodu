@@ -1,0 +1,294 @@
+{
+  "batch": "batch-37",
+  "checkedAt": "2026-11-18T02:58:00+08:00",
+  "dossiers": [
+    {
+      "id": "w5-psych-sexual-satisfaction",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        { "id": "f1", "verdict": "supported", "confidence": "medium" },
+        { "id": "f2", "verdict": "imprecise", "confidence": "high", "issue": "issue-01" },
+        { "id": "f3", "verdict": "imprecise", "confidence": "high", "issue": "issue-02" },
+        { "id": "f4", "verdict": "supported", "confidence": "medium" },
+        { "id": "f5", "verdict": "supported", "confidence": "high" },
+        { "id": "f6", "verdict": "supported", "confidence": "medium" },
+        { "id": "f7", "verdict": "supported", "confidence": "high" },
+        { "id": "f8", "verdict": "supported", "confidence": "high" },
+        { "id": "f9", "verdict": "supported", "confidence": "medium" },
+        { "id": "f10", "verdict": "supported", "confidence": "medium" },
+        { "id": "f11", "verdict": "supported", "confidence": "high" }
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f2",
+          "severity": "major",
+          "verdict": "imprecise",
+          "claim": "二〇一六年一项追踪研究把伴侣分成两组，一组维持原有频率，一组被要求把频率加倍。加倍的那组在欲望、享受与亲密感上都没有提升，反而报告了更多疲惫与压力。研究者因此提出“足够好”的频率这个概念。",
+          "problem": "两个关键点有误：该实验是 Loewenstein 等 2015 年发表于 JEBO 的论文，不是二〇一六年的追踪研究；“足够好”（Good-Enough Sex）模型由 McCarthy 与 Metz 于 2019 年提出，与该实验无关。实验本身“频率加倍未提升性快乐”的结论成立。",
+          "correction": "二〇一五年一项实验把伴侣分组，一组维持原频率，一组被要求把频率加倍。加倍组在欲望、享受与亲密感上都没有提升，反而报告更多疲惫与压力；研究者称，性满足不随次数线性增加。",
+          "evidence": [
+            {
+              "title": "Loewenstein et al. (2015), Does Increased Sexual Frequency Enhance Happiness? — ScienceDirect",
+              "url": "https://www.sciencedirect.com/science/article/abs/pii/S0167268115001316",
+              "quote": "Does Increased Sexual Frequency Enhance Happiness?（Journal of Economic Behavior & Organization, 2015）"
+            },
+            {
+              "title": "The “Good-Enough Sex” model — Taylor & Francis",
+              "url": "https://www.taylorfrancis.com/chapters/mono/10.4324/9781003671978-50/good-enough-sex-model-lohani-noor",
+              "quote": "The “Good-Enough Sex” (GES) model, formulated by McCarthy and Metz (2019)"
+            }
+          ]
+        },
+        {
+          "id": "issue-02",
+          "factId": "f3",
+          "severity": "major",
+          "verdict": "imprecise",
+          "claim": "二〇一二年一项针对美国大学生的调查发现，异性性行为中男性几乎每次都达到高潮，女性约在三成到四成之间。差距主要来自性行为脚本，而不是身体构造：延长前戏、增加口交、把女性高潮当成共同目标，差距会明显缩小。",
+          "problem": "“三成到四成”只适用于约炮：Armstrong 等 2012 的原始数字是初次约炮 11%、第二或第三次 16%、更高次约炮 34%，而恋爱关系中的性事件为 67%。不区分关系类型会把女性的高潮差距说小。",
+          "correction": "二〇一二年美国大学生调查发现，异性性行为中男性几乎每次都达到高潮，女性在恋爱关系中约六成七，在初次约炮中仅约一成一。差距主要来自性行为脚本而非身体构造，增加口交与延长前戏能缩小差距。",
+          "evidence": [
+            {
+              "title": "Armstrong, England & Fogarty (2012), Accounting for Women’s Orgasm — American Sociological Review",
+              "url": "https://journals.sagepub.com/doi/10.1177/0003122412445802",
+              "quote": "Women reported orgasms in 11 percent of first hookups, 16 percent of second or third hookups, 34 percent of higher-order hookups, and 67 percent of relationship sexual events."
+            }
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "f1 的“中等偏弱”是对频率—满意度相关强度的概括，不同样本的相关系数约在 0.2–0.4 之间，故按 supported 处理。",
+        "f6 关于伴侣对同一次性行为评分一致性的“中等程度”，与 JSM 2025 的感知准确性研究方向一致，属概括性表述。"
+      ],
+      "summary": "性满意度专题的机制性描述大体成立；两处需改：频率加倍实验是 2015 年而非 2016 年，且“足够好”模型并非该实验提出；女性高潮比例应区分恋爱关系（67%）与约炮（11%–34%）。"
+    },
+    {
+      "id": "w2-psych-family-triangulation",
+      "status": "verified",
+      "confidence": "high",
+      "facts": [
+        { "id": "f1", "verdict": "supported", "confidence": "high" },
+        { "id": "f2", "verdict": "supported", "confidence": "high" },
+        { "id": "f3", "verdict": "supported", "confidence": "high" },
+        { "id": "f4", "verdict": "supported", "confidence": "high" },
+        { "id": "f5", "verdict": "supported", "confidence": "high" },
+        { "id": "f6", "verdict": "supported", "confidence": "medium" },
+        { "id": "f7", "verdict": "supported", "confidence": "medium" },
+        { "id": "f8", "verdict": "supported", "confidence": "high" },
+        { "id": "f9", "verdict": "supported", "confidence": "medium" },
+        { "id": "f10", "verdict": "supported", "confidence": "medium" },
+        { "id": "f11", "verdict": "supported", "confidence": "high" },
+        { "id": "f12", "verdict": "supported", "confidence": "high" }
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "Buchanan 等 1991 的样本为 522 名 10–18 岁青少年，父母分居 4.5 年后电话访谈；正文“焦虑与愤怒”是对内化/外化症状的概括。",
+        "Bowen 的三角化是理论概念，f6/f7 的“缓和冲突、维持平衡”属临床理论表述，未有实验检验，按 supported/medium 处理。"
+      ],
+      "summary": "家庭三角化专题的经典定义、三种形式与四项实证研究（Buchanan 1991、Amato & Afifi 2006、Fosco & Grych 2010）均可核实，理论局限也交代得当。"
+    },
+    {
+      "id": "w3-myth-world-mictlan",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        { "id": "f1", "verdict": "supported", "confidence": "high" },
+        { "id": "f2", "verdict": "supported", "confidence": "high" },
+        { "id": "f3", "verdict": "supported", "confidence": "high" },
+        { "id": "f4", "verdict": "supported", "confidence": "high" },
+        { "id": "f5", "verdict": "supported", "confidence": "high" },
+        { "id": "f6", "verdict": "supported", "confidence": "medium" },
+        { "id": "f7", "verdict": "imprecise", "confidence": "medium", "issue": "issue-01" },
+        { "id": "f8", "verdict": "supported", "confidence": "medium" },
+        { "id": "f9", "verdict": "supported", "confidence": "high" },
+        { "id": "f10", "verdict": "supported", "confidence": "medium" },
+        { "id": "f11", "verdict": "supported", "confidence": "medium" },
+        { "id": "f12", "verdict": "supported", "confidence": "high" }
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f7",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "九层关卡的名单在梵蒂冈抄本 A 和《马利亚贝基亚诺抄本》里最完整，但两份抄本列出的关卡数目和名称有出入。研究者因此提醒：所谓「标准九层」是后人整理出来的，不是原文。",
+          "problem": "梵蒂冈抄本 A 的画页本身只列八层，第九层接在下一页，并非一份完整的九层名单；“标准九层”确是后人拼合，但“两份抄本里最完整”与实物不符。",
+          "correction": "九层关卡名单主要见于梵蒂冈抄本 A 与《马利亚贝基亚诺抄本》，但两份抄本列出的数目与名称有出入；梵蒂冈抄本 A 一页只画八层，第九层接在下一页。所谓「标准九层」是后人拼合整理出来的。",
+          "evidence": [
+            {
+              "title": "UNAM：Mictlan 与《梵蒂冈抄本 A》的层数",
+              "url": "https://historicas.unam.mx/publicaciones/publicadigital/libros/tiempo/teypm07.pdf",
+              "quote": "En la misma página constan apenas ocho niveles, pues en la siguiente estaría la continuación de la presentación del Mictlan, con su último y más profundo piso"
+            }
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "《马利亚贝基亚诺抄本》的层数与名称与梵蒂冈抄本 A 并不完全一致；正文“有出入”成立。",
+        "f6 的关卡名目在不同抄本与普及读物中写法不一，正文取常见拼写，按 supported/medium 处理。"
+      ],
+      "summary": "米克特兰专题的九层、四年、红狗引路、玉含口中、随葬等核心说法均有抄本研究支持；唯“梵蒂冈抄本 A 与马利亚贝基亚诺抄本列出的标准九层”应改为后人拼合。"
+    },
+    {
+      "id": "w1-psych-demand-withdraw",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        { "id": "f1", "verdict": "supported", "confidence": "high" },
+        { "id": "f2", "verdict": "imprecise", "confidence": "high", "issue": "issue-01" },
+        { "id": "f3", "verdict": "supported", "confidence": "high" },
+        { "id": "f4", "verdict": "supported", "confidence": "high" },
+        { "id": "f5", "verdict": "supported", "confidence": "medium" },
+        { "id": "f6", "verdict": "supported", "confidence": "medium" },
+        { "id": "f7", "verdict": "supported", "confidence": "medium" },
+        { "id": "f8", "verdict": "supported", "confidence": "medium" },
+        { "id": "f9", "verdict": "supported", "confidence": "medium" },
+        { "id": "f10", "verdict": "supported", "confidence": "medium" },
+        { "id": "f11", "verdict": "supported", "confidence": "medium" },
+        { "id": "f12", "verdict": "supported", "confidence": "medium" }
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f2",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "克里斯滕森与希维一九九〇年汇总多项观察研究，发现妻子要求、丈夫退缩的组合更常见，尤其在妻子想改变的话题上；但当丈夫更想改变时，两个人的位置会整个反过来。",
+          "problem": "Christensen 与 Heavey 1990 是一项单一观察研究：31 对夫妻在两个冲突情境（丈夫想改变/妻子想改变）中的互动，由丈夫、妻子与观察者三方评分；不是“汇总多项观察研究”。",
+          "correction": "克里斯滕森与希维一九九〇年观察三十一对夫妻在两类冲突中的表现，发现妻子要求、丈夫退缩的组合更常见，尤其在妻子想改变的话题上；当丈夫更想改变时，两人的位置会整个反过来。",
+          "evidence": [
+            {
+              "title": "Christensen & Heavey (1990), Gender and social structure in the demand/withdraw pattern — APA PsycNET",
+              "url": "https://psycnet.apa.org/doiLanding?doi=10.1037%2F0022-3514.59.1.73",
+              "quote": "In this study, 31 couples were assessed in 2 conflict situations: 1 in which husband wanted a change in wife and 1 in which wife wanted a change in husband."
+            }
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "f5 的“负强化”是要求-退缩模型的标准解释机制，属理论表述；f6 的纵向预测有 Christensen 等长期追踪支持。",
+        "Baucom 等 2010 的样本包括异性与同性伴侣，正文“跨性别与同性伴侣”不误。"
+      ],
+      "summary": "要求-退缩专题的性别反转、负强化与纵向关联均有文献支撑；仅 1990 年 Christensen & Heavey 被写成“汇总多项观察研究”，实为 31 对夫妻的观察实验。"
+    },
+    {
+      "id": "world-myth-inca-sun",
+      "status": "verified",
+      "confidence": "high",
+      "facts": [
+        { "id": "f1", "verdict": "supported", "confidence": "high" },
+        { "id": "f2", "verdict": "supported", "confidence": "high" },
+        { "id": "f3", "verdict": "supported", "confidence": "medium" },
+        { "id": "f4", "verdict": "supported", "confidence": "high" },
+        { "id": "f5", "verdict": "supported", "confidence": "high" },
+        { "id": "f6", "verdict": "supported", "confidence": "high" },
+        { "id": "f7", "verdict": "supported", "confidence": "high" },
+        { "id": "f8", "verdict": "supported", "confidence": "high" },
+        { "id": "f9", "verdict": "supported", "confidence": "high" },
+        { "id": "f10", "verdict": "supported", "confidence": "high" },
+        { "id": "f11", "verdict": "supported", "confidence": "high" },
+        { "id": "f12", "verdict": "supported", "confidence": "medium" }
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "因蒂·拉伊米 1944 年恢复之说有安第斯通讯社与库斯科纪念资料支持；仪式细节多据殖民时期编年史转述。",
+        "f3 的“婚姻、出征与耕作配合太阳历”是象征性概括：印加历法为阴阳合历，节庆与农事、王权紧密结合，但并非所有活动都按太阳历排定，按 supported/medium 处理。"
+      ],
+      "summary": "印加太阳崇拜专题的王权、科里坎查、因蒂·拉伊米、1572 年镇压与 1999 年木乃伊等关键事实均可核实。"
+    },
+    {
+      "id": "w1-world-history-ancient-akhenaten",
+      "status": "verified",
+      "confidence": "high",
+      "facts": [
+        { "id": "f1", "verdict": "supported", "confidence": "high" },
+        { "id": "f2", "verdict": "supported", "confidence": "medium" },
+        { "id": "f3", "verdict": "supported", "confidence": "high" },
+        { "id": "f4", "verdict": "supported", "confidence": "high" },
+        { "id": "f5", "verdict": "supported", "confidence": "high" },
+        { "id": "f6", "verdict": "supported", "confidence": "high" },
+        { "id": "f7", "verdict": "supported", "confidence": "medium" },
+        { "id": "f8", "verdict": "supported", "confidence": "high" },
+        { "id": "f9", "verdict": "supported", "confidence": "high" },
+        { "id": "f10", "verdict": "supported", "confidence": "high" },
+        { "id": "f11", "verdict": "supported", "confidence": "high" },
+        { "id": "f12", "verdict": "supported", "confidence": "medium" }
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "阿吞作为“太阳圆盘”的称法早于第十八王朝，但作为独占神格的崇拜始于阿肯那顿；f2 的“旧王国时期就出现过”按词语出现理解可成立。",
+        "f7 的“赫梯与米坦尼在北方争夺”是阿玛尔纳时期叙利亚局势的概括，信件中两者均为主要外部力量。"
+      ],
+      "summary": "阿肯那顿专题的年代、阿玛尔纳信件数量、图坦卡蒙复辟与 1887 年发现经过均与埃及学资料吻合。"
+    },
+    {
+      "id": "w2-geo-world-rivers-congo",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        { "id": "f1", "verdict": "supported", "confidence": "high" },
+        { "id": "f2", "verdict": "supported", "confidence": "high" },
+        { "id": "f3", "verdict": "supported", "confidence": "medium" },
+        { "id": "f4", "verdict": "supported", "confidence": "high" },
+        { "id": "f5", "verdict": "supported", "confidence": "high" },
+        { "id": "f6", "verdict": "supported", "confidence": "high" },
+        { "id": "f7", "verdict": "supported", "confidence": "medium" },
+        { "id": "f8", "verdict": "supported", "confidence": "high" },
+        { "id": "f9", "verdict": "supported", "confidence": "high" },
+        { "id": "f10", "verdict": "supported", "confidence": "high" },
+        { "id": "f11", "verdict": "wrong", "confidence": "high", "issue": "issue-01" },
+        { "id": "f12", "verdict": "supported", "confidence": "medium" }
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f11",
+          "severity": "major",
+          "verdict": "wrong",
+          "claim": "布拉柴维尔与金沙萨隔河相望，是全世界距离最近的两个首都之一。河面在这里宽达数公里，两岸靠渡船和一座铁路公路桥连接，河流既是通道，也是国家之间的边界。",
+          "problem": "两座首都之间没有铁路公路桥。目前两岸主要靠渡船与航班往来，规划中的公路铁路桥尚未建成；“靠渡船和一座铁路公路桥连接”与事实不符。",
+          "correction": "布拉柴维尔与金沙萨隔河相望，是全世界距离最近的两个首都。河面在这里宽达数公里，两岸目前主要靠渡船往返，公路铁路桥仍在规划中；河流既是通道，也是国家之间的边界。",
+          "evidence": [
+            {
+              "title": "Express: The world’s closest pair of capital cities",
+              "url": "https://www.express.co.uk/news/world/1986821/worlds-closest-pair-of-capital-cities-africa",
+              "quote": "However, despite their proximity, there’s no bridge linking them."
+            }
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "刚果河流域面积各来源口径不一（约 350 万–401 万平方公里），正文“三百七十万”落在常见区间内，未按错误处理。",
+        "f3 的雨季月份是简化说法：北部盆地有双雨季，南部主雨季为 10–3 月；正文强调的是两半球洪峰错开，按 supported/medium 处理。"
+      ],
+      "summary": "刚果河专题的水文与地貌描述大体可靠；布拉柴维尔—金沙萨之间并无铁路公路桥，只有渡船与航班，须改。"
+    },
+    {
+      "id": "w5-geo-world-namib-fog-desert",
+      "status": "verified",
+      "confidence": "high",
+      "facts": [
+        { "id": "f1", "verdict": "supported", "confidence": "high" },
+        { "id": "f2", "verdict": "supported", "confidence": "high" },
+        { "id": "f3", "verdict": "supported", "confidence": "high" },
+        { "id": "f4", "verdict": "supported", "confidence": "high" },
+        { "id": "f5", "verdict": "supported", "confidence": "high" },
+        { "id": "f6", "verdict": "supported", "confidence": "high" },
+        { "id": "f7", "verdict": "supported", "confidence": "medium" },
+        { "id": "f8", "verdict": "supported", "confidence": "medium" },
+        { "id": "f9", "verdict": "supported", "confidence": "high" },
+        { "id": "f10", "verdict": "supported", "confidence": "medium" },
+        { "id": "f11", "verdict": "supported", "confidence": "medium" },
+        { "id": "f12", "verdict": "supported", "confidence": "medium" }
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "纳米布雾日趋势的证据仍以短期观测与再分析为主，正文对不确定性的表述与文献一致。",
+        "f8 的“羚羊与鸵鸟舔水珠”属行为观察的通俗概括，advective fog 综述列有大型动物利用雾水的记录。"
+      ],
+      "summary": "纳米布雾生态专题的寒流、平流雾、甲虫与百岁兰取水机制均可核实，对雾日趋势的不确定性也处理得当。"
+    }
+  ]
+}

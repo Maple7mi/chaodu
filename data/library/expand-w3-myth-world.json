@@ -175,7 +175,16 @@
         "奥维德《变形记》第十至十一卷，约公元 8 年",
         "柏拉图《会饮篇》179d",
         "阿波罗多洛斯《神话集》1.3.2"
-      ]
+      ],
+      "factCheck": {
+        "status": "verified",
+        "confidence": "high",
+        "batch": "batch-60",
+        "checkedAt": "2026-11-18T02:41:57+08:00",
+        "issueCount": 0,
+        "appliedAt": "2026-11-17T18:46:28.243Z",
+        "summary": "12条均与古典文本及改编史相符：维吉尔与奥维德的系年、死因分岔、冥界条件、柏拉图异说、金片性质、蒙特威尔第与格鲁克改编均可核，无需修正。"
+      }
     },
     {
       "id": "w3-myth-world-persephone",
@@ -351,7 +360,16 @@
         "赫西俄德《神谱》912–914",
         "奥维德《变形记》第五卷 385–571",
         "奥维德《岁时记》第四卷 417–620"
-      ]
+      ],
+      "factCheck": {
+        "status": "verified",
+        "confidence": "high",
+        "batch": "batch-49",
+        "checkedAt": "2026-11-18T02:55:00+08:00",
+        "issueCount": 0,
+        "appliedAt": "2026-11-17T18:46:28.243Z",
+        "summary": "珀耳塞福涅专题的颂歌文本、行数、三分之二/三分之一裁定、厄琉西斯秘仪与奥维德改写均与古典文献相符，无需改写。"
+      }
     },
     {
       "id": "w3-myth-world-hel",
@@ -411,7 +429,7 @@
         },
         {
           "id": "f10",
-          "text": "《诗体埃达》里另有一个 Niflhel（雾冥）的说法，位置和层级都不清楚，只能从上下文猜它是海拉之下更暗的一层。中世纪的冰岛作者整理材料时，免不了受基督教地狱观的影响。"
+          "text": "《诗体埃达》里另有 Niflhel（雾冥）的说法。《欺骗古鲁菲》说它在海拉之下、位于第九层，但诗篇里的用法含糊，学者对它的位置仍有分歧；中世纪冰岛作者整理材料时，免不了受基督教地狱观的影响。"
         },
         {
           "id": "f11",
@@ -419,7 +437,7 @@
         },
         {
           "id": "f12",
-          "text": "后世民间传说把她变成另一种角色：丹麦故事里的 Hel 骑着三条腿的马、带来瘟疫。这已经是中世纪晚期的形象，与《埃达》里的冥界之主隔了很远，名字还在，职能已经换了。"
+          "text": "后世民间传说把她变成另一种角色：丹麦民间的 Hel 骑着三条腿的马、带来瘟疫，这匹马被称为 helhest。这类记录主要见于十七世纪以后，与《埃达》里的冥界主隔了很远，名字还在，职能已经换了。"
         }
       ],
       "angles": [
@@ -528,7 +546,16 @@
         "《诗体埃达·格里姆尼尔之歌》",
         "《诗体埃达·巴德尔之梦》",
         "《诗体埃达·女巫的预言》"
-      ]
+      ],
+      "factCheck": {
+        "status": "corrected",
+        "confidence": "high",
+        "batch": "batch-23",
+        "checkedAt": "2026-11-18T02:41:00+08:00",
+        "issueCount": 2,
+        "appliedAt": "2026-11-17T18:46:28.243Z",
+        "summary": "神话细节（洛基之女、半身青黑、厅名器物名、巴德尔的条件、词源）都与埃达文本对得上；两处问题在考据层面：Niflhel 的层级被说成完全不明，丹麦三腿马的形象被提前到中世纪晚期。"
+      }
     },
     {
       "id": "w3-myth-world-tuonela",
@@ -560,7 +587,7 @@
         },
         {
           "id": "f3",
-          "text": "图奥内拉是死者的国度，由图奥尼和他的妻子图奥内塔尔统治。它另有一个名字叫马纳拉，来自 mana 一词，这个词在芬兰语里兼指冥界、死者和冥界的力量，边界并不清楚。"
+          "text": "图奥内拉是死者的国度，由图奥尼和图奥内塔尔统治，又叫马纳拉。这个词源有争议：一说来自“maan ala”（地下），一说 mana 才是词根；两种说法都与冥界、死者相关，边界并不清楚。"
         },
         {
           "id": "f4",
@@ -704,7 +731,16 @@
         "《卡勒瓦拉》第十四篇（勒明盖宁之死）",
         "Elias Lönnrot,《卡勒瓦拉》序言与编纂说明，1835／1849",
         "Anna-Leena Siikala, Mythic Images and Shamanism, 2002"
-      ]
+      ],
+      "factCheck": {
+        "status": "corrected",
+        "confidence": "high",
+        "batch": "batch-17",
+        "checkedAt": "2026-11-18T02:20:00+08:00",
+        "issueCount": 1,
+        "appliedAt": "2026-11-17T18:46:28.243Z",
+        "summary": "12条中11条可核实：1835年初版32篇12,078行、1849年版50篇22,795行，图奥内拉的地理、图奥尼一家、勒明盖宁赴死、第十六篇饮酒与变形、1893年《图奥内拉的天鹅》均与通行本一致；仅“马纳拉来自mana”的词源被说成定论。"
+      }
     },
     {
       "id": "w3-myth-world-xibalba",
@@ -748,7 +784,7 @@
         },
         {
           "id": "f6",
-          "text": "双胞胎长大后也爱打球，声音吵到了冥界，领主们再次把他们召下去。这一次他们带上了对付考验的办法：一根可以替换的玉米秆、一只会说话的鹦鹉，还有彼此配合的默契。"
+          "text": "双胞胎长大后也爱打球，声音吵到了冥界，领主们再次把他们召下去。这一次他们带上了对付考验的办法：出发前在祖母家种下玉米秆，作为生死信号；此外还有彼此配合的默契与一整套骗术。"
         },
         {
           "id": "f7",
@@ -880,7 +916,16 @@
         "《波波尔·乌》Allen Christenson 译注本，2003",
         "Francisco Ximénez 抄本，约 1701–1703",
         "Michael Coe & Stephen Houston, The Maya, 第 9 版, 2015"
-      ]
+      ],
+      "factCheck": {
+        "status": "corrected",
+        "confidence": "high",
+        "batch": "batch-18",
+        "checkedAt": "2026-11-18T02:58:00+08:00",
+        "issueCount": 1,
+        "appliedAt": "2026-11-17T18:46:28.243Z",
+        "summary": "冥界结构、试炼房屋、球赛骗局与玉米造人都能对上译本与研究文献；只有“玉米秆替头、会说话的鹦鹉”这一处把两个母题混在了一起。"
+      }
     },
     {
       "id": "w3-myth-world-mictlan",
@@ -928,7 +973,7 @@
         },
         {
           "id": "f7",
-          "text": "九层关卡的名单在梵蒂冈抄本 A 和《马利亚贝基亚诺抄本》里最完整，但两份抄本列出的关卡数目和名称有出入。研究者因此提醒：所谓「标准九层」是后人整理出来的，不是原文。"
+          "text": "九层关卡名单主要见于梵蒂冈抄本 A 与《马利亚贝基亚诺抄本》，但两份抄本列出的数目与名称有出入；梵蒂冈抄本 A 一页只画八层，第九层接在下一页。所谓「标准九层」是后人拼合整理出来的。"
         },
         {
           "id": "f8",
@@ -1056,7 +1101,16 @@
         "《梵蒂冈抄本 A》，约 1580",
         "《马利亚贝基亚诺抄本》，16 世纪",
         "Miguel León-Portilla, Aztec Thought and Culture, 1963"
-      ]
+      ],
+      "factCheck": {
+        "status": "corrected",
+        "confidence": "high",
+        "batch": "batch-37",
+        "checkedAt": "2026-11-18T02:58:00+08:00",
+        "issueCount": 1,
+        "appliedAt": "2026-11-17T18:46:28.243Z",
+        "summary": "米克特兰专题的九层、四年、红狗引路、玉含口中、随葬等核心说法均有抄本研究支持；唯“梵蒂冈抄本 A 与马利亚贝基亚诺抄本列出的标准九层”应改为后人拼合。"
+      }
     },
     {
       "id": "w3-psych-emotion-granularity",
@@ -1236,7 +1290,16 @@
         "Kashdan, Barrett & McKnight, Emotion Review, 2015",
         "Lieberman et al., Psychological Science, 2007",
         "Bagby, Parker & Taylor, Journal of Psychosomatic Research, 1994"
-      ]
+      ],
+      "factCheck": {
+        "status": "verified",
+        "confidence": "high",
+        "batch": "batch-16",
+        "checkedAt": "2026-11-18T02:13:56+08:00",
+        "issueCount": 0,
+        "appliedAt": "2026-11-17T18:46:28.243Z",
+        "summary": "情绪粒度的测量、命名情绪实验与构念论表述均与原始研究相符，无实质错误。"
+      }
     },
     {
       "id": "w3-psych-emotion-contagion",
@@ -1416,7 +1479,16 @@
         "Barsade, Administrative Science Quarterly, 2002",
         "Kramer, Guillory & Hancock, PNAS, 2014",
         "Rose, Child Development, 2002"
-      ]
+      ],
+      "factCheck": {
+        "status": "verified",
+        "confidence": "high",
+        "batch": "batch-61",
+        "checkedAt": "2026-11-18T02:52:00+08:00",
+        "issueCount": 0,
+        "appliedAt": "2026-11-17T18:46:28.243Z",
+        "summary": "情绪传染专题的文献、年份、样本量与限度说明均可核实，未发现需要修改的断言。"
+      }
     },
     {
       "id": "w3-psych-emotion-forecasting",
@@ -1596,7 +1668,16 @@
         "Brickman, Coates & Janoff-Bulman, Journal of Personality and Social Psychology, 1978",
         "Gilbert & Wilson, Science, 2007",
         "Quoidbach, Gilbert & Wilson, Science, 2013"
-      ]
+      ],
+      "factCheck": {
+        "status": "verified",
+        "confidence": "medium",
+        "batch": "batch-21",
+        "checkedAt": "2026-11-18T02:18:50+08:00",
+        "issueCount": 0,
+        "appliedAt": "2026-11-17T18:46:28.243Z",
+        "summary": "综述、作者年份、样本量与核心结论均与原始文献一致，未发现需要修正的硬错误。"
+      }
     },
     {
       "id": "w3-psych-emotion-rumination",
@@ -1777,7 +1858,16 @@
         "Treynor, Gonzalez & Nolen-Hoeksema, Cognitive Therapy and Research, 2003",
         "Watkins, Psychological Bulletin, 2008",
         "Watkins et al., Journal of Consulting and Clinical Psychology, 2011"
-      ]
+      ],
+      "factCheck": {
+        "status": "verified",
+        "confidence": "high",
+        "batch": "batch-38",
+        "checkedAt": "2026-11-18T02:39:00+08:00",
+        "issueCount": 0,
+        "appliedAt": "2026-11-17T18:46:28.243Z",
+        "summary": "反刍思维专题十二条与文献吻合：1991年反应风格理论的定义、22题RRS与2003年沉浸/反思二因子、纵向相关与混淆因素、情绪诱导实验、抽象“为什么”与过程性“下一步”的分野、工作记忆占用、与失眠的双向循环、性别差异效应量小、干预（反刍聚焦CBT、正念）中等效应、自我抽离实验、正常哀伤与反刍的区分。事实层无错，但 sources 中两处期刊名有误（1991年文应为 Journal of Abnormal Psychology，2011年RCT应为 British Journal of Psychiatry），已在 sourceNotes 记录。"
+      }
     }
   ]
 }

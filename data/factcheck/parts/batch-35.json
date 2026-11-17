@@ -1,0 +1,277 @@
+{
+  "batch": "batch-35",
+  "checkedAt": "2026-11-18T02:54:00+08:00",
+  "dossiers": [
+    {
+      "id": "w4-psych-obedience",
+      "status": "verified",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "medium"},
+        {"id": "f10", "verdict": "supported", "confidence": "high"},
+        {"id": "f11", "verdict": "supported", "confidence": "high"},
+        {"id": "f12", "verdict": "supported", "confidence": "medium"}
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "f4 基线条件 26/40 服从至 450 伏，即 65%；f5 触摸条件 12/40（30%），远程/电话条件 65% 为各变体最高；f7 两同伴反抗条件仅 10% 继续。",
+        "f6 迁至 Bridgeport 后完全服从率约 47.5%，低于耶鲁基线；f8 Hofling 等 1966 年 22 名护士中 21 人（约 95%）准备照做。",
+        "f10 篇名为 Haslam & Reicher (2017) '50 Years of Obedience to Authority: From Blind Conformity to Engaged Followership'；f11 批评对象是斯坦福监狱实验，不是米尔格拉姆实验本身。"
+      ],
+      "summary": "十二条均有实验文献或综述支撑，1961 年基线 26/40、触摸条件 30%、两同伴反抗 10%、Bridgeport 47.5%、Hofling 21/22 等关键数字与原始报告一致，未发现需要修正之处。"
+    },
+    {
+      "id": "w4-psych-group-polarization",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "imprecise", "confidence": "high", "issue": "issue-01"},
+        {"id": "f6", "verdict": "supported", "confidence": "medium"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "supported", "confidence": "medium"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "supported", "confidence": "high"},
+        {"id": "f11", "verdict": "supported", "confidence": "medium"},
+        {"id": "f12", "verdict": "supported", "confidence": "medium"}
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f5",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "陪审团的量刑研究提供了现实版本。模拟陪审团讨论惩罚性赔偿时，讨论后的金额往往高于成员讨论前的个人判断，分歧被压缩，少数极高或极低的意见反而被放大。",
+          "problem": "前半句符合 Sunstein、Schkade 与 Kahneman 的“严厉性偏移”（severity shift）：陪审团裁决金额系统性高于陪审员讨论前判断的中位数。但“分歧被压缩、少数极高或极低的意见反而被放大”不是该研究的结论，且两句互相矛盾——偏移说的是整体金额上移，不是两端的极端意见被放大。",
+          "correction": "模拟陪审团讨论惩罚性赔偿后，裁决金额系统性高于陪审员讨论前判断的中位数，这被称为“严厉性偏移”；讨论并未简单压缩分歧，而是把整体金额推高。",
+          "evidence": [
+            {"title": "Sunstein, Schkade & Kahneman, Deliberating about Dollars: The Severity Shift, 100 Colum. L. Rev. 1139 (2000)", "url": "https://dash.harvard.edu/entities/publication/73120378-d027-6bd4-e053-0100007fdf3b", "quote": "deliberation produces a \"severity shift,\" in which the jury's dollar verdict is systematically higher than that of the median of its jurors' predeliberation judgments"}
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "f2 Stoner 的冒险转移研究是 1961 年 MIT 斯隆管理学院硕士论文，被试为 MIT 学生，属假设情境问卷而非真实决策。",
+        "f7 Guess 等 2023 年 Science 实验只覆盖停用算法信息流数周的结果，不能外推到长期；同段“接触对立观点更反感对方”有实验支持，但与算法实验并不矛盾。",
+        "f11 的干预手段（讨论前匿名写判断、安排异议者、把提反例设为任务）有实验与协商民主研究支持，但效果大小因场景而异。"
+      ],
+      "summary": "十二条中十一条成立；f5 把“严厉性偏移”误写成“分歧压缩、极端意见被放大”，已按原论文摘要改写。"
+    },
+    {
+      "id": "w2-myth-mesopotamia-zoroaster-dualism",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "medium"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "imprecise", "confidence": "high", "issue": "issue-01"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "supported", "confidence": "medium"},
+        {"id": "f11", "verdict": "supported", "confidence": "high"},
+        {"id": "f12", "verdict": "supported", "confidence": "medium"}
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f8",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "尸体被视为污染源。传统上不土葬也不火葬，而是把遗体放到寂静之塔，让鸟兽啄食，骨殖再收进纳骨器。这套做法在伊朗中部与印度的帕西人社区延续到当代，也因秃鹫减少而面临困难。",
+          "problem": "印度帕西人社区仍在使用达克玛（dakhma），但伊朗亚兹德的寂静之塔在二十世纪七十年代前后已被停用，当地琐罗亚斯德教徒改行水泥墓穴，不再曝尸。说“伊朗中部……延续到当代”不准确。",
+          "correction": "伊朗亚兹德的寂静之塔在二十世纪七十年代后已停用，遗体改葬水泥墓穴；只有印度帕西人社区仍行天葬，但秃鹫因药物中毒锐减，这一仪式已难以为继。",
+          "evidence": [
+            {"title": "Zoroastrian Towers of Silence in Yazd — Atlas Obscura", "url": "https://www.atlasobscura.com/places/zoroastrian-towers-of-silence", "quote": "Until 40 years ago, corpses could still be found on top of the Towers of Silence in Yazd, Iran, slowly disintegrating or being picked apart by desert vultures."},
+            {"title": "Tower of Silence — GSAPP Death Lab", "url": "https://deathlab.org/tower-of-silence/", "quote": "high pollution and pharmaceuticals have decimated India's vulture population, to the extent that in the past 15 years, the number of vultures has declined by 95%"}
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "f1 的公元前 1200–1000 年取语言学比较的常见区间（Boyce 认为约前 1000 年或更早，Skjærvø 倾向前 1200–1000），学界无定论，fact 已注明“没有共识”。",
+        "f8 伊朗段依 Atlas Obscura“约四十年前仍可见遗体”的记述；印度段依 GSAPP 与 2013 年帕西族秃鹫养殖场报道。",
+        "f10 阿契美尼德铭文确实极少提安格拉·曼纽，二元论的系统化通常归于萨珊时期祭司文献；f7 三级火庙即 Atash Behram、Adaran、Dadgah。"
+      ],
+      "summary": "十二条中十一条成立；f8 把伊朗与印度并列说“延续到当代”不确，伊朗寂静之塔约在 1970 年代停用，已改写。"
+    },
+    {
+      "id": "w1-world-history-ancient-hammurabi",
+      "status": "verified",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "supported", "confidence": "medium"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "supported", "confidence": "high"},
+        {"id": "f11", "verdict": "supported", "confidence": "high"},
+        {"id": "f12", "verdict": "supported", "confidence": "medium"}
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "f2 石柱为玄武岩，高 2.25 米，1901 年法国队在苏萨发现，约前 12 世纪被埃兰人当作战利品掠走，现藏卢浮宫。",
+        "f6 利息上限为银 20%、谷物 33.3%（1/3），条文设的是上限而非固定利率；f7 第 117 条规定服役三年、第四年释放。",
+        "f11 乌尔纳姆法典约前 2100 年，比汉谟拉比早约三百年；李必特-伊什塔尔法典约前 1930 年，也早于汉谟拉比。"
+      ],
+      "summary": "十二条均有博物馆、铭文译本或法律史研究支撑，年代、尺寸、282 条、利息上限、三年债务奴役等关键数字与原始材料一致。"
+    },
+    {
+      "id": "world-geo-great-barrier",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "imprecise", "confidence": "high", "issue": "issue-01"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "medium"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "imprecise", "confidence": "high", "issue": "issue-02"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "supported", "confidence": "medium"},
+        {"id": "f11", "verdict": "supported", "confidence": "high"}
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f1",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "大堡礁沿澳大利亚东北岸延伸约2300公里，由约2900个礁体与900多个岛屿组成，分布面积约34.4万平方公里。它不是一块连续的礁，而是在大陆架上生长的一片礁群，最宽处离岸约300公里，礁体之间有水道与浅滩相隔。",
+          "problem": "长度、面积与礁体数量大体正确，但宽度写错了。大堡礁海洋公园管理局给出的宽度是 60 至 250 公里，“最宽处离岸约 300 公里”偏高；礁体数官方口径为约 3000 个珊瑚礁，2900 是较旧的估计。",
+          "correction": "大堡礁南北长约2300公里，面积约34.4万平方公里，但宽度为60至250公里；“最宽处离岸约300公里”偏高，礁体数通常记为约3000个。",
+          "evidence": [
+            {"title": "Fascinating facts about the Great Barrier Reef — GBRMPA", "url": "https://www.gbrmpa.gov.au/learn/fascinating-facts-about-great-barrier-reef", "quote": "covers 344,400 square kilometres in area ... includes some 3,000 coral reefs, 600 continental islands, 300 coral cays ... is between 60 and 250 kilometres in width"}
+          ]
+        },
+        {
+          "id": "issue-02",
+          "factId": "f8",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "棘冠海星是礁体的另一种压力。它以珊瑚组织为食，一只成年个体一年能吃掉数平方米的珊瑚；爆发与农业径流带来的氮、磷以及幼体存活率上升有关，防治靠潜水员逐只注射，成本很高，近年爆发的间隔在缩短。",
+          "problem": "“数平方米”低估了一个数量级。澳大利亚海洋科学研究所的资料明确说，一只成年棘冠海星直径可达 80 厘米，一年吃掉约 10 平方米珊瑚。其余关于径流营养、幼体存活与注射防治的表述成立。",
+          "correction": "一只成年棘冠海星直径可达八十厘米，一年约吃掉10平方米珊瑚，不是笼统的“数平方米”；防治靠潜水员逐只注射，成本高，近年爆发间隔在缩短。",
+          "evidence": [
+            {"title": "Crown-of-thorns starfish — AIMS", "url": "https://www.aims.gov.au/sites/default/files/cots-revised.pdf", "quote": "grows to 80 cm across, eats 10 square metres of coral a year"}
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "f6 白化年表 1998、2002、2016、2017、2020、2022、2024 与 AIMS 记录一致；2016 年北部确有大片珊瑚死亡，但“三分之一分支珊瑚”无精确出处，未单列 issue。",
+        "f7 的 28%→14% 出自 1985–2012 年长期监测，原文时间点是 2012 年而非“2010 年代中期”，趋势与 2024 年回落成立。",
+        "f10 的 64 亿澳元是 2015–16 年大堡礁对澳大利亚经济的增加值口径，旅游直接收入约 57 亿澳元、约 6.4 万个岗位。"
+      ],
+      "summary": "十一条中九条成立；f1 宽度 300 公里与 f8 棘冠海星食量“数平方米”均与官方数据不符，已按 GBRMPA 与 AIMS 改写。"
+    },
+    {
+      "id": "w2-cn-history-kaiyuan-fiscal",
+      "status": "corrected",
+      "confidence": "medium",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "medium"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "medium"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "imprecise", "confidence": "high", "issue": "issue-01"},
+        {"id": "f8", "verdict": "supported", "confidence": "medium"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "supported", "confidence": "medium"},
+        {"id": "f11", "verdict": "supported", "confidence": "medium"},
+        {"id": "f12", "verdict": "supported", "confidence": "high"}
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f7",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "括户的意义在财政上很直接：多一个在籍丁口，就多一份租庸调；多一亩在册田，就多一份地税。它不改变税制，只是把已经漏掉的税基重新抓回账上，所以见效快、阻力也大。",
+          "problem": "宇文融括户对逃户的安置是“免其六年赋调，但轻税入官”，即重新入籍后六年内并不立即承担全额租庸调，只缴轻税。因此“多一个在籍丁口就多一份租庸调、见效快”在短期不成立，括户的财政收益是渐进的。",
+          "correction": "括户把逃户重新纳入户籍，但朝廷准许免六年租庸调、只纳轻税，所以短期内的增收有限；它的意义是把税基抓回账上，长期才转为正税。",
+          "evidence": [
+            {"title": "张荣强：唐代逃户与括户（腾讯新闻转载）", "url": "https://news.qq.com/rain/a/20250112A06FD800", "quote": "开元九年（721年）……州县逃亡户口听百日自首，或于所在附籍……宇文融括户从开元九年持续到十二年……免其六年赋调，但轻税入官"}
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "f4 天宝元年置十节度经略使，镇兵四十九万、马八万余匹；开元前每岁供边兵衣粮费不过二百万，天宝后衣一千二十万匹、粮一百九十万斛，“增加许多倍”是概括。",
+        "f8 裴耀卿开元二十二年（734）任江淮、河南转运使，置河阴仓等，三年运米七百万斛，省僦车钱三十万缗；漕运成本高于粮价是财政史通说。",
+        "f10 进奉在玄宗、肃宗时开始出现，安史之乱后在财政中地位上升，属正税外的皇帝私库通道；f12 两税法以原有户税、地税为基础，建中元年（780）推行。"
+      ],
+      "summary": "十二条中十一条成立；f7 说括户“见效快”忽略了免六年赋调、只纳轻税的安排，已改写为税基回收、长期见效。"
+    },
+    {
+      "id": "w1-myth-world-loki",
+      "status": "verified",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "supported", "confidence": "medium"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "supported", "confidence": "high"},
+        {"id": "f11", "verdict": "supported", "confidence": "high"},
+        {"id": "f12", "verdict": "supported", "confidence": "medium"}
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "f3 引《散文埃达·吉尔法欺诳篇》原文“Loki er fríðr ok fagr sýnum, illr í skaplyndi, mjǫk fjǫlbreytinn at háttum”，即“相貌俊美、性情恶劣、举止多变”。",
+        "f10 引 Brodeur 译本：众神把瓦利变成狼咬死纳尔，用纳尔的肠子把洛基绑在三块石头上，肠子化为铁，斯卡迪挂蛇，西格恩举盆接毒。",
+        "f12 的“十九世纪被简化为北欧撒旦”是接受史与学术史判断：中世纪文本确未把他写成纯粹的恶，十九世纪学者（如 Bugge）才把被缚的洛基与撒旦/路西法对应。"
+      ],
+      "summary": "十二条均有《诗体埃达》《散文埃达》原文或斯诺里文本研究支撑，血统、三子女、八足马、索尔锤、捆绑与地震成因等细节一致。"
+    },
+    {
+      "id": "w5-myth-cn-baosheng",
+      "status": "verified",
+      "confidence": "medium",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "medium"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "medium"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "supported", "confidence": "medium"},
+        {"id": "f9", "verdict": "supported", "confidence": "medium"},
+        {"id": "f10", "verdict": "supported", "confidence": "medium"},
+        {"id": "f11", "verdict": "supported", "confidence": "medium"}
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "f1 泉州史志：吴夲生于宋太平兴国四年（979），卒于景祐元年（1034），业医、不分贫富贵贱，采药跌伤后去世。",
+        "f3 坠崖说与“医虎”母题均有地方志与庙志系统支持，但“虎衔住救起”属传说变体；f5 宋代封号各志记载不一（有封侯、封真人等说），明代封“保生大帝”较确定。",
+        "f8 药签分科与数量（内科 120+30、儿科 60、眼科 90、外科 60）见高国钦研究；f9 庙方已把保育类与含重金属药材列禁，但“改用咨询转介”并非普遍制度。"
+      ],
+      "summary": "十一条均有地方志、庙志、台湾宗教文化资产与药签研究支撑；传说细节存在版本差异，但年代、籍贯、祖庙之争、1661 学甲建庙、上白礁祭典等核心事实成立。"
+    }
+  ]
+}

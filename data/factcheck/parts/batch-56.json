@@ -1,0 +1,394 @@
+{
+  "batch": "batch-56",
+  "checkedAt": "2026-11-18T02:52:00+08:00",
+  "dossiers": [
+    {
+      "id": "w3-wh-revolutions-steam-railways",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "medium"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "imprecise", "confidence": "medium", "issue": "issue-01"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "supported", "confidence": "medium"},
+        {"id": "f9", "verdict": "supported", "confidence": "medium"},
+        {"id": "f10", "verdict": "supported", "confidence": "high"},
+        {"id": "f11", "verdict": "supported", "confidence": "medium"},
+        {"id": "f12", "verdict": "supported", "confidence": "medium"}
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f4",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "1830年利物浦至曼彻斯特铁路开通，首次用蒸汽机车承担城际客运与货运，并举行机车竞赛。",
+          "problem": "机车竞赛不在 1830 年通车时举行。决定选用哪台机车的 Rainhill 试跑在 1829 年 10 月已经结束，斯蒂芬森的 Rocket 在那里胜出并跑出约 29 英里/小时；1830 年 9 月 15 日通车时用的就是试跑选出的机车。原句把先后两件事并成一件，时间顺序反了。",
+          "correction": "1830年利物浦至曼彻斯特铁路开通，首次用蒸汽机车承担城际客运与货运；选用机车的竞赛在此前1829年已经举行。这条线路证明铁路可以赚钱，也暴露了信号、道岔与安全管理的问题。",
+          "evidence": [
+            {
+              "title": "BBC News: 175th anniversary of the Liverpool and Manchester Railway",
+              "url": "http://news.bbc.co.uk/1/hi/england/merseyside/4246056.stm",
+              "quote": "The original journey took place on 15 September 1830 ... George Stephenson's Rocket was named as the best engine to operate on the route in the Rainhill Trials ... reached speeds of 29mph in 1829"
+            }
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "f2 的年份只能算勉强成立：瓦特 1769 年取得分离冷凝器专利，与博尔顿的合作始于 1774—1775 年，1776 年才售出第一批商用机；原句把合作与商用制造都系在 1776 年，未改，标 medium。",
+        "f1 的 1712 年与达德利城堡矿井可用 Newcomen 纪念文献与 ASME 地标说明互证；f6 的 1846 年轨距法条文（9 & 10 Vict. c.57）确认四英尺八英寸半。",
+        "书目齐全（Simmons 1991、Freeman 1999、Wolmar 2009），无需补注。"
+      ],
+      "summary": "蒸汽机与铁路的时间线整体可靠，唯一需要改的是把 1829 年的机车试跑误系到 1830 年通车那一年。"
+    },
+    {
+      "id": "w4-psych-contact-hypothesis",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "imprecise", "confidence": "high", "issue": "issue-01"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "medium"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "supported", "confidence": "medium"},
+        {"id": "f11", "verdict": "supported", "confidence": "high"},
+        {"id": "f12", "verdict": "supported", "confidence": "high"}
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f1",
+          "severity": "notable",
+          "verdict": "imprecise",
+          "claim": "并列出几个缺一不可的关键条件。",
+          "problem": "奥尔波特列的是四个“最有利于”减少偏见的条件（平等地位、共同目标、合作、权威支持），不是缺一不可。佩蒂格鲁后来明确指出，研究者把这些条件误当成必要条件，它们其实只是促进作用；此后的元分析也显示，条件不齐全的接触仍能降低偏见。原句把最佳条件写成了必要条件，与dek、f12 的口径也自相矛盾。",
+          "correction": "接触假说认为，在合适条件下，不同群体成员的直接接触能够降低偏见。奥尔波特一九五四年在《偏见的本质》里提出这个框架，并列出四个最有利于减少偏见的关键条件。",
+          "evidence": [
+            {
+              "title": "Pettigrew, Intergroup contact theory, Annual Review of Psychology (1998)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/15012467/",
+              "quote": "Writers overburden the hypothesis with facilitating, but not essential, conditions"
+            },
+            {
+              "title": "Pettigrew & Tropp, A meta-analytic test of intergroup contact theory (2006)",
+              "url": "https://psycnet.apa.org/record/2006-07099-004",
+              "quote": "713 independent samples from 515 studies ... intergroup contact typically reduces intergroup prejudice"
+            }
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "f2 把“可发展为私人关系”算作后来补上的第五条，符合文献（友谊潜力），但奥尔波特本人也提过这一条，措辞可再谨慎，未改。",
+        "f3 的罗伯斯山洞研究 1954 年实施、1961 年出版，原句只说“一九五四年”并已注明样本小、有引导，成立。",
+        "f8 的恩诺斯实验测的是对英语单一语言政策与驱逐政策的态度，原句概括为“提高对英语单一语言政策的支持”，准确。"
+      ],
+      "summary": "四条经典条件被写成“缺一不可”是本专题唯一实质偏差，其余年份、样本量与因果表述都站得住。"
+    },
+    {
+      "id": "world-myth-popol",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "wrong", "confidence": "high", "issue": "issue-01"},
+        {"id": "f3", "verdict": "supported", "confidence": "medium"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "medium"},
+        {"id": "f8", "verdict": "supported", "confidence": "medium"},
+        {"id": "f9", "verdict": "imprecise", "confidence": "medium", "issue": "issue-02"},
+        {"id": "f10", "verdict": "supported", "confidence": "high"},
+        {"id": "f11", "verdict": "wrong", "confidence": "high", "issue": "issue-03"},
+        {"id": "f12", "verdict": "supported", "confidence": "high"}
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f2",
+          "severity": "notable",
+          "verdict": "wrong",
+          "claim": "1857年法国学者布拉斯·德·布尔堡在危地马拉的档案馆中发现它，1861年刊行法译本。",
+          "problem": "发现年份错了。布尔堡在危地马拉城圣卡洛斯大学图书馆看到希门尼斯抄本是在 1854 年；1857 年出版的是舍尔策据同一抄本印出的西班牙文译本，不是发现之年。1861 年他在巴黎刊出基切语原文与法译，这半句正确。地点也不是“档案馆”，而是大学图书馆。",
+          "correction": "希门尼斯的抄本长期无人注意，1854年法国学者布拉斯·德·布尔堡在危地马拉城的大学图书馆发现它，1861年刊行法译本。此后它成为玛雅神话最重要的文本，现藏于芝加哥的纽伯里图书馆。",
+          "evidence": [
+            {
+              "title": "Brasseur de Bourbourg (Wikipedia, de)",
+              "url": "https://de.m.wikipedia.org/wiki/Brasseur_de_Bourbourg",
+              "quote": "1854 fand er in der Bibliothek von Guatemala-Stadt das Maya-Manuskript Popol Vuh"
+            },
+            {
+              "title": "El viajero y explorador Dr. Carl Scherzer y los manuscritos de Ximénez (Marshall University)",
+              "url": "http://mds.marshall.edu/cgi/viewcontent.cgi?article=1003&context=languages_faculty",
+              "quote": "en la “Notice Bibliographique” al comienzo del Popol Vuh. Le Livre Sacré (1861)"
+            }
+          ]
+        },
+        {
+          "id": "issue-02",
+          "factId": "f9",
+          "severity": "notable",
+          "verdict": "imprecise",
+          "claim": "复活后的胡恩·胡纳普成为太阳，什巴兰克成为金星。",
+          "problem": "把两套说法混进了一句。通行整理本（如克里斯滕森英译本所附词汇表）说升天成为太阳与月亮的是双胞胎胡纳普与什巴兰克；金星说源自汤普森对口头传统的推测。父亲胡恩·胡纳普虽有整理本让他与弟弟升为日月，但那是与“双胞胎为日月”并列的另一套讲法，不能同时又让儿子去当金星。原句父亲与儿子、太阳与金星都对不上号。",
+          "correction": "故事结尾，双胞胎胡纳普与什巴兰克升上天空，多数整理本说他们分别成为太阳与月亮，也有人把这一天象与金星联系起来。这个结局把神话与天体运行连在一起，也说明基切人用故事解释昼夜的交替。",
+          "evidence": [
+            {
+              "title": "Appendix 1: Popol Vuh glossary (University of Texas Press)",
+              "url": "https://www.degruyterbrill.com/_language/de?uri=%2Fdocument%2Fdoi%2F10.7560%2F752252-009%2Fpdf",
+              "quote": "Hero Twins: Hunahpu and Xbalanque, who became the Sun and the Moon in the Popol Vuh"
+            },
+            {
+              "title": "Joyce, Mexican Archaeology, p. 303 (Wikisource)",
+              "url": "https://en.wikisource.org/wiki/Page%3AMexican_Arch%C3%A6ology.djvu/303",
+              "quote": "honours are paid to Hun Hunahpu and Vukub Hunahpu, who become the sun and moon respectively"
+            }
+          ]
+        },
+        {
+          "id": "issue-03",
+          "factId": "f11",
+          "severity": "notable",
+          "verdict": "wrong",
+          "claim": "今天存世的玛雅象形文字抄本只有四部，分别藏于德累斯顿、马德里、巴黎与纽约。",
+          "problem": "第四部不在纽约。格罗利尔抄本（现称墨西哥玛雅抄本）1971 年只在纽约格罗利尔俱乐部展出过，1974 年已归还墨西哥，现藏墨西哥城国立人类学博物馆。德累斯顿、马德里、巴黎三部的所在地正确，“只有四部”也正确。",
+          "correction": "十六世纪西班牙传教士焚毁了大量玛雅抄本，1562年兰达在马尼焚书一事最为著名。今天存世的玛雅象形文字抄本只有四部，分别藏于德累斯顿、马德里、巴黎与墨西哥城。",
+          "evidence": [
+            {
+              "title": "Gaceta UNAM: El Códice Maya de México, auténtico y el más antiguo",
+              "url": "https://www.gaceta.unam.mx/el-codice-maya-de-mexico-autentico-y-el-mas-antiguo/",
+              "quote": "exhibido en el Club Grolier de Nueva York en 1971 y reintegrado a nuestro país en 1974"
+            },
+            {
+              "title": "Brown University: 13th century Maya codex proves genuine (EurekAlert)",
+              "url": "https://www.eurekalert.org/news-releases/598578",
+              "quote": "The Grolier Codex, an ancient document that is among the rarest books in the world"
+            }
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "f1 的“现存唯一的抄本”指希门尼斯 1701—1703 年抄本（Ayer MS 1515，纽伯里图书馆），与 f2 的收藏地一致，成立。",
+        "f7 的“十二位冥神”依通行计数（胡恩·卡梅、武库布·卡梅等两两成对），未找到单页可引的清单，标 medium。",
+        "story 里“一八五七年它才在档案馆里被重新发现”与 f2 同错，本任务不改 story，建议随 f2 一并改。"
+      ],
+      "summary": "抄本流传史有两处硬错：发现年份应为 1854，第四部抄本在墨西哥城；结尾的天象归属属于两套说法被混写，需改成有保留的通行表述。"
+    },
+    {
+      "id": "w5-geo-world-aral-sea",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "imprecise", "confidence": "medium", "issue": "issue-01"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "medium"},
+        {"id": "f10", "verdict": "supported", "confidence": "medium"},
+        {"id": "f11", "verdict": "supported", "confidence": "high"},
+        {"id": "f12", "verdict": "supported", "confidence": "medium"}
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f2",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "据估计真正到达田里的水不到引水量的一半",
+          "problem": "数字偏绝对。对中亚灌区的估计多在“引水的一半上下”：田间利用系数平均约 0.62，渠系与田间合计损失约四成，即到达田间的份额略高于一半而非“不到一半”。原句把区间下限当成了通例，其余（土渠、卡拉库姆运河超过一千公里）都成立。",
+          "correction": "一九六〇年代，苏联把这两条河的水引去种棉花。灌溉渠道多为土渠，渗漏与蒸发损失很大，据估计真正到达田里的水只有一半左右。卡拉库姆运河从阿姆河取水，穿过沙漠，输水距离超过一千公里。",
+          "evidence": [
+            {
+              "title": "Irrigation Engineering and Rural Planning No. 26 (1994): water application efficiency in the Aral basin",
+              "url": "https://www.jstage.jst.go.jp/article/jierp1982/1994/26/1994_26_15/_pdf/-char/ja",
+              "quote": "In the Aral basin, water application efficiency is generally low, averaging 62%"
+            },
+            {
+              "title": "ЕАБР: при орошении теряется половина воды (Water Resources Service, Kyrgyzstan)",
+              "url": "https://water.gov.kg/index.php?Itemid=1437&id=2658:pri-oroshenii-teryaetsya-polovina-vody-nuzhno-snizit-poteri-po-krajnej-mere-do-25-eabr&lang=ru&option=com_k2&view=item",
+              "quote": "потери воды в сельском хозяйстве в странах региона ЦА составляют 40%"
+            }
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "f4 的分湖年份在地图上通常读作 1986—1987 年，USGS Earthshots 用 1987 年影像说明南北断开，原句取 1987 年可接受。",
+        "f8 的四万吨与 1960 年前后的四万五千吨、穆伊纳克罐头厂 1990 年代停产，与咸海专著的水产数据一致。",
+        "f6 的“二〇一四年东部湖区第一次完全消失”有 NASA Terra 影像与 Micky 本人引语支持（“first time in modern times”），标 high。"
+      ],
+      "summary": "咸海专题的年份、面积、坝名与渔业数字都能对上；只需把“到达田里的水不到一半”改成更贴合的“一半左右”。"
+    },
+    {
+      "id": "w2-wh-medieval-magna-carta",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "imprecise", "confidence": "high", "issue": "issue-01"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "imprecise", "confidence": "medium", "issue": "issue-02"},
+        {"id": "f11", "verdict": "supported", "confidence": "high"},
+        {"id": "f12", "verdict": "supported", "confidence": "high"}
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f8",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "1225年，亨利三世成年后确认的版本成为后来援引的定本",
+          "problem": "“成年后”不对。1225 年 2 月重颁时亨利三世仍在摄政期，年约十八岁，1227 年才宣布亲政。这次重颁是贵族以批准征税（动产的十五分之一）为条件换来的，1225 年版共 37 条，此后确实成为被反复援引的定本，后半句成立。",
+          "correction": "1225年，亨利三世以批准征税为条件重新颁布的版本成为后来援引的定本；爱德华一世在1297年再次确认，它才稳定进入成文法传统。原件与定本之间，条文数量和措辞差别不小。",
+          "evidence": [
+            {
+              "title": "Spigelman, Magna Carta: the first century (NSW Supreme Court speech)",
+              "url": "https://supremecourt.nsw.gov.au/documents/Publications/Speeches/Pre-2015-Speeches/Spigelman/spigelman_22042015.pdf",
+              "quote": "The 1217 and 1225 Charters were expressly re-issued in exchange for a tax, in the latter case 1/15 of all movables"
+            },
+            {
+              "title": "Nederman, The ‘Apparitional’ Magna Carta in the Long Fourteenth Century",
+              "url": "https://www.cambridge.org/core/books/abs/fourteenth-century-england-xi/apparitional-magna-carta-in-the-long-fourteenth-century/B59B1D195A5D61FDD7591693D39CF6E0",
+              "quote": "the final and ‘official’ version ... was actually ratified in 1225 ... it contains 37 articles in contrast to the 63"
+            }
+          ]
+        },
+        {
+          "id": "issue-02",
+          "factId": "f10",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "美国宪法第五修正案、联合国人权宣言都引用过正当程序的表述",
+          "problem": "《世界人权宣言》没有“正当程序”（due process）这个词。第十条用的是“公正和公开的审讯”，与正当程序同源但表述不同；把两者说成同一表述的两次引用，会让读者以为宣言直接沿用了英文术语。前一句的制度语境差异判断是对的。",
+          "correction": "美国宪法第五修正案有明确的正当程序条款，联合国人权宣言则用公正审判来表述，两者的制度语境与十三世纪英格兰相距很远。同一种观念，承担的功能并不相同。",
+          "evidence": [
+            {
+              "title": "Right to a Fair Trial: Universal Declaration of Human Rights Article 10 (Brill)",
+              "url": "https://brill.com/display/book/9789004636309/B9789004636309_s010.xml",
+              "quote": "Everyone is entitled in full equality to a fair and public hearing by an independent and impartial tribunal"
+            }
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "f2 的“六十余条”指 1215 年文本的 63 条，编号为后世所加，原句未说是原编号，成立。",
+        "f12 的“四份原件”分别是大英图书馆两件、林肯与索尔兹伯里各一件，且都不带国王印玺，原句说“分别藏于”三处，成立。",
+        "f1 的“盖印非签字”与兰尼米德谈判数日，与 1215 年文本的流传史一致。"
+      ],
+      "summary": "大宪章专题的条文号、重颁年份与柯克读法都对，两处小偏差在措辞：1225 年重颁时的年龄定位，以及把人权宣言的表述等同于正当程序。"
+    },
+    {
+      "id": "w4-psych-loneliness",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "medium"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "medium"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "imprecise", "confidence": "high", "issue": "issue-01"},
+        {"id": "f10", "verdict": "supported", "confidence": "high"},
+        {"id": "f11", "verdict": "supported", "confidence": "medium"},
+        {"id": "f12", "verdict": "supported", "confidence": "high"}
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f9",
+          "severity": "notable",
+          "verdict": "imprecise",
+          "claim": "针对“纠正对他人态度的负面解读”和“增加有质量的接触”的项目效果较好",
+          "problem": "把两类干预并列说成都好，与元分析结果不符。Masi 等（2011）比较四类干预后指出，针对适应不良社会认知（即纠正对他人态度的负面解读）的项目效果最好，而单纯增加接触机会的一类效果最差；原句把最弱的一项写成了较好的一项，也与本条后半句“只把人凑到一起效果有限”冲突。",
+          "correction": "有效的干预很具体。汇总研究里，针对“纠正对他人态度的负面解读”的项目效果最好；单纯增加接触机会、只把人凑到一起做活动，效果最有限。关键在改变人对关系的解读，而不只是增加相处时间。",
+          "evidence": [
+            {
+              "title": "Masi et al. (2011), A meta-analysis of interventions to reduce loneliness, Pers Soc Psychol Rev",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/20716644/",
+              "quote": "The most effective interventions were those that addressed maladaptive social cognition"
+            }
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "f2 的情感/社交孤独二分出自 Weiss（1973），书目未列，但属通行区分，未改。",
+        "f6 的“自愿独处与被迫孤立后果不同”依赖独处研究，未找到单篇可引的对照实验，标 medium。",
+        "f9 的 correction 保留原句“解读比相处时间更重要”的落点，只调整两类干预的排序。"
+      ],
+      "summary": "孤独专题的机制、相关性与年龄分布都站得住；唯一实质偏差是把“增加接触机会”这类效果最弱的干预写成了效果较好。"
+    },
+    {
+      "id": "w5-geo-world-antarctic-ice-sheet",
+      "status": "verified",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "supported", "confidence": "high"},
+        {"id": "f11", "verdict": "supported", "confidence": "high"},
+        {"id": "f12", "verdict": "supported", "confidence": "high"}
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "f1 的面积约 1400 万平方公里、冰量约 3000 万立方公里、海平面当量约 58 米依 NSIDC；“约六成淡水”在不同机构口径为 60%—70%，原句取下限，可接受。",
+        "f1 的平均厚度写作一点九公里，与常用冰盖厚度综述一致；“最厚处超过四公里”偏保守（最高约 4.9 公里），不算错。",
+        "f11 明确把两种不稳定性称为假说并说明争议，符合当前文献，无需改。"
+      ],
+      "summary": "冰盖收支、冰架支撑、接地线与海平面指纹各条均与主流冰冻圈文献一致，未发现需要修改的断言。"
+    },
+    {
+      "id": "w2-psych-family-stepfamily",
+      "status": "verified",
+      "confidence": "medium",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "medium"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "medium"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "medium"},
+        {"id": "f8", "verdict": "supported", "confidence": "medium"},
+        {"id": "f9", "verdict": "supported", "confidence": "medium"},
+        {"id": "f10", "verdict": "supported", "confidence": "high"},
+        {"id": "f11", "verdict": "supported", "confidence": "medium"},
+        {"id": "f12", "verdict": "supported", "confidence": "medium"}
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "f3、f4、f5、f7、f8、f9、f11、f12 的正文在句号后多出一段重复小句（如“，而每一次谈都需要双方都还有力气谈。”），是生成时的拼接残留，不是事实错误；建议排版时清掉。",
+        "f10 的“整合以年计”与 Papernow 的分阶段研究一致（前期两三年、完全整合约七年），成立。",
+        "f3 的角色模糊出自 Cherlin（1978）“不完整制度”，书目已列，无需补注。"
+      ],
+      "summary": "继亲家庭各条都属于有文献支撑的倾向性陈述，未发现年份、数字或因果强度上的硬伤；只需清理正文里重复的残句。"
+    }
+  ]
+}

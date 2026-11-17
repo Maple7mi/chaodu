@@ -1,0 +1,287 @@
+{
+  "batch": "batch-08",
+  "checkedAt": "2026-11-18T02:32:00+08:00",
+  "dossiers": [
+    {
+      "id": "w5-wh-tech-internet",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "imprecise", "confidence": "high", "issue": "issue-01"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "medium"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "supported", "confidence": "high"},
+        {"id": "f11", "verdict": "supported", "confidence": "high"},
+        {"id": "f12", "verdict": "supported", "confidence": "medium"}
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f2",
+          "severity": "major",
+          "verdict": "imprecise",
+          "claim": "1974年，瑟夫和卡恩发表论文，提出把网络间的通信拆成TCP和IP两层。",
+          "problem": "1974 年的论文提出的是单一的 TCP（Transmission Control Program），并非 TCP/IP 两层；两层拆分发生在 1978 年前后，1981 年 RFC 791/793 才分别定稿。",
+          "correction": "1974年，瑟夫和卡恩发表论文，提出用一个TCP协议把不同类型的网络连起来；1978年前后，TCP才拆成TCP和IP两层：IP负责寻址转发，TCP负责排序、重传和流量控制，异构网络因此得以互联。",
+          "evidence": [
+            {"title": "RFC 675: Specification of Internet Transmission Control Program (1974)", "url": "https://www.rfc-editor.org/rfc/rfc675", "quote": "Specification of Internet Transmission Control Program"},
+            {"title": "RFC 793: Transmission Control Protocol (1981)", "url": "https://www.rfc-editor.org/rfc/rfc793", "quote": "Transmission Control Protocol"}
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "1974 年论文的 RFC 版本标题即为 Internet Transmission Control Program，说明当时是单一协议。",
+        "f12 的两个 2025 年事件（合并与单点配置故障）以 Internet Society Pulse 与 Cloudflare 通报为准。"
+      ],
+      "summary": "除 1974 年论文被误写成已提出 TCP/IP 两层外，其余史实与机制描述均可核实。"
+    },
+    {
+      "id": "w4-myth-cn-mengjiangnu-layers",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "imprecise", "confidence": "high", "issue": "issue-02"},
+        {"id": "f5", "verdict": "supported", "confidence": "medium"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "medium"},
+        {"id": "f10", "verdict": "supported", "confidence": "high"},
+        {"id": "f11", "verdict": "supported", "confidence": "high"},
+        {"id": "f12", "verdict": "supported", "confidence": "high"}
+      ],
+      "issues": [
+        {
+          "id": "issue-02",
+          "factId": "f4",
+          "severity": "major",
+          "verdict": "imprecise",
+          "claim": "秦始皇、长城、送寒衣这些要素在这里第一次凑齐。",
+          "problem": "《同贤记》原文写杞良避役逃走、被主典打杀后筑入城内，不是“累死”；原文也没有“送寒衣”情节，该要素较早见于敦煌《捣练子》，秦始皇只是筑长城的时代背景而非出场人物。",
+          "correction": "唐代《琱玉集》引《同贤记》，故事变了样：杞梁成了秦朝人，被征去修长城，逃役后与孟仲姿成亲，又被捉回打死筑入城中；孟仲姿寻夫，哭于城下，城崩，她滴血认骨。长城与秦役在这里第一次绑在一起。",
+          "evidence": [
+            {"title": "肖波：科学与传说的争辩及孟姜女故事演进（武汉大学）", "url": "https://ric.whu.edu.cn/info/1006/4098.htm", "quote": "杞良，秦始皇时北筑长城，避役逃走……主典怒其逃走，乃打杀之，并筑城内"},
+            {"title": "《同贤记》（《玉函山房辑佚书续编三种》）", "url": "https://www.shidianguji.com/book/7554251953912414247/chapter/1lylfaouh87be", "quote": "主典怒其逃走，乃打𭣰之，并筑城内……仲姿乃刺指血以滴白骨"},
+            {"title": "敦煌聯章體歌辭〈搗練子·孟姜女〉研究", "url": "https://kci.go.kr/kciportal/landing/article.kci?arti_id=ART002260812", "quote": "「送寒衣」是被這個〈搗練子·孟姜女〉第一次提到的"}
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "《同贤记》见《琱玉集》残卷，亦收于《玉函山房辑佚书续编三种》，原文可与《列女传》对读。",
+        "中国知网“孟姜女”词条把送寒衣也列入《同贤记》阶段，与原文及敦煌研究有出入，本批以原文为准。"
+      ],
+      "summary": "故事层累的脉络清楚，唯“送寒衣”被提前到《同贤记》且杞良死因写成“累死”，需要修正。"
+    },
+    {
+      "id": "w2-myth-cn-mazu",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "imprecise", "confidence": "high", "issue": "issue-03"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "supported", "confidence": "medium"},
+        {"id": "f11", "verdict": "supported", "confidence": "high"},
+        {"id": "f12", "verdict": "supported", "confidence": "high"}
+      ],
+      "issues": [
+        {
+          "id": "issue-03",
+          "factId": "f7",
+          "severity": "major",
+          "verdict": "imprecise",
+          "claim": "清代康熙二十三年，施琅率水师平定台湾后奏请加封，妈祖由天妃升为天后。",
+          "problem": "施琅请封天后是流传很广的旧说；2003 年公布的清宫档案与《康熙起居注》研究表明，康熙当年只准致祭、否决了封天后，正式晋封在乾隆二年（1737）。",
+          "correction": "清代康熙二十三年，施琅率水师平定台湾后奏请加封，妈祖由天妃升为天后——这是流传很广的旧说；档案研究表明康熙只准致祭、否决封天后，正式晋封在乾隆二年。此后水师与台湾移民社会都更普遍地供奉妈祖。",
+          "evidence": [
+            {"title": "李世偉《「媽祖加封天后」新探》，《海洋文化學刊》第1期", "url": "https://tpl.ncl.edu.tw/NclService/JournalContentDetail?SysId=A06027078", "quote": "康熙皇帝當年僅同意致祭媽祖，卻否決了封「天后」之議……媽祖真正的升為天后是在乾隆2年（1737）"},
+            {"title": "《清初赐封妈祖天后问题新探》（福建师范大学学报）", "url": "https://d.wanfangdata.com.cn/periodical/fjsfdxxb-zx200702004", "quote": "清朝廷在康熙二十三年前后未曾授封妈祖为天后"}
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "f5 的至元十八年（1281）封护国明著天妃为传统说法；《元史》本纪记作至元十五年（1278），同一封号系年有异说。",
+        "f10 的分香与“几千座庙”为通说，无精确统计，故置信度中等。"
+      ],
+      "summary": "妈祖生平、宋代封号与元代天妃等均可核实，唯康熙二十三年封天后一条与档案研究矛盾。"
+    },
+    {
+      "id": "w5-psych-risk-climate",
+      "status": "corrected",
+      "confidence": "medium",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "imprecise", "confidence": "high", "issue": "issue-04"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "medium"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "medium"},
+        {"id": "f7", "verdict": "unsupported", "confidence": "low", "issue": "issue-05"},
+        {"id": "f8", "verdict": "supported", "confidence": "medium"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "supported", "confidence": "medium"},
+        {"id": "f11", "verdict": "supported", "confidence": "high"},
+        {"id": "f12", "verdict": "supported", "confidence": "medium"}
+      ],
+      "issues": [
+        {
+          "id": "issue-04",
+          "factId": "f2",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "两项工具测量的构念有重叠但不完全相同，一个偏重对气候的担忧，一个偏重对生态破坏的悲痛。",
+          "problem": "气候焦虑量表与生态焦虑量表测的都是焦虑，后者把生态危机相关焦虑拆成情绪、反刍与行为等维度，并未把“悲痛”当作核心构念；悲痛更接近地方丧失感（solastalgia）。",
+          "correction": "量表是这个领域的基础工具。二〇二〇年克莱顿与卡拉兹亚发表气候焦虑量表，二〇二一年霍格等人发表生态焦虑量表；两项工具测量的构念有重叠但不完全相同，都聚焦焦虑，而非对生态破坏的悲痛。",
+          "evidence": [
+            {"title": "Clayton & Karazsia (2020), Journal of Environmental Psychology 69:101434", "url": "https://doi.org/10.1016/j.jenvp.2020.101434", "quote": "Development and Validation of a Measure of Climate Change Anxiety"},
+            {"title": "Hogg et al. (2021), Eco-Anxiety Scale, ANU repository", "url": "https://openresearch-repository.anu.edu.au/items/4c3cd8e7-3be1-4c8d-b108-95a2bc214269/full", "quote": "Eco-Anxiety Scale"}
+          ]
+        },
+        {
+          "id": "issue-05",
+          "factId": "f7",
+          "severity": "minor",
+          "verdict": "unsupported",
+          "claim": "否认与末日论都可能是防御……两种立场的共同点是回避具体的、可做的下一步。",
+          "problem": "把气候否认与“末日论”并列为同一种心理防御、并断言其共同点是回避行动，属于解释性论断；未检索到直接检验该说法的实证研究，宜降为假说或删去。",
+          "correction": null,
+          "evidence": []
+        }
+      ],
+      "sourceNotes": [
+        "f3 的数字来自 Lancet Planetary Health 2021 十国调查：近 60% 表示“非常或极度”担忧，超过 45% 表示影响日常生活。",
+        "f7 属理论解释而非调查结论，故标 unsupported 而非 wrong。"
+      ],
+      "summary": "量表、调查数字与临床边界均可核实；两处需要改：量表构念被误写成“悲痛”，否认/末日论防御说缺乏实证。"
+    },
+    {
+      "id": "w1-geo-world-aleutians",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "medium"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "medium"},
+        {"id": "f5", "verdict": "supported", "confidence": "medium"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "medium"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "wrong", "confidence": "high", "issue": "issue-06"},
+        {"id": "f11", "verdict": "supported", "confidence": "high"},
+        {"id": "f12", "verdict": "supported", "confidence": "medium"}
+      ],
+      "issues": [
+        {
+          "id": "issue-06",
+          "factId": "f10",
+          "severity": "major",
+          "verdict": "wrong",
+          "claim": "一九五七年安德烈亚诺夫群岛地震引发横跨太平洋的海啸，夏威夷受损，直接推动了太平洋海啸预警中心的建立。",
+          "problem": "推动预警中心建立的是 1946 年阿留申群岛海啸（重创希洛），美国 1949 年建立预警体系；1957 年海啸确实冲击夏威夷，但它不是该中心建立的原因。",
+          "correction": "一九四六年阿留申群岛地震引发横跨太平洋的海啸，夏威夷受损严重，直接推动美国在一九四九年建立太平洋海啸预警中心；一九五七年安德烈亚诺夫群岛地震再次引发大海啸，预警网络受到检验。岛链的监测站仍在网络中。",
+          "evidence": [
+            {"title": "Pacific Tsunami Warning Center History (NOAA/NWS)", "url": "https://www.tsunami.gov/php/content/history.php", "quote": "Official tsunami warning capability in the U.S. began in 1949 as a response to the 1946 tsunami generated in the Aleutian Islands that devastated Hilo."},
+            {"title": "April is Hawaiʻi Tsunami Awareness Month (State of Hawaiʻi)", "url": "https://waihalana.hawaii.gov/2026/04/02/april-is-hawai%ca%bbi-tsunami-awareness-month/", "quote": "As a result, the US started the US Seismic Sea Wave Warning System in 1949, which today is known as the Pacific Tsunami Warning Center."}
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "f2 的海沟最深处有 7,679 m 与 7,822 m 两种测量值，“超过七千八百米”与后者相符，故不判错。",
+        "f1 的“三百多个火山锥”缺权威统计，置信度中等；弧长约 2,500 km、活火山 40 余座可核。"
+      ],
+      "summary": "火山弧、二战与海啸史实大体可靠，唯把 1957 年海啸当成预警中心建立原因，属明确错误。"
+    },
+    {
+      "id": "cn-geo-karst",
+      "status": "verified",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "medium"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "supported", "confidence": "medium"},
+        {"id": "f11", "verdict": "supported", "confidence": "high"},
+        {"id": "f12", "verdict": "supported", "confidence": "high"}
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "f4 的岩溶面积各家统计略有出入（约 344 万 vs 346 万 km²），本批数字在通行范围内。",
+        "f8 小寨天坑深度常见 662 m，“约六百六十米”成立。"
+      ],
+      "summary": "术语、溶蚀机制、面积、天坑与遗产地均可核实，未发现需要改动的断言。"
+    },
+    {
+      "id": "w2-myth-cn-guandi",
+      "status": "verified",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "supported", "confidence": "medium"},
+        {"id": "f9", "verdict": "supported", "confidence": "medium"},
+        {"id": "f10", "verdict": "supported", "confidence": "medium"},
+        {"id": "f11", "verdict": "supported", "confidence": "high"},
+        {"id": "f12", "verdict": "supported", "confidence": "high"}
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "f1 的“不到一千字”可核：《关羽传》正文约 950 字。",
+        "f6 的光绪封号二十六字含“关圣大帝”四字，若只计谥号则为二十二字。"
+      ],
+      "summary": "谥号、历代封号、武成王庙配享与佛道吸收均有文献可查，未发现硬伤。"
+    },
+    {
+      "id": "w5-geo-cn-taiwan-strait",
+      "status": "verified",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "medium"},
+        {"id": "f7", "verdict": "supported", "confidence": "medium"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "supported", "confidence": "medium"},
+        {"id": "f11", "verdict": "supported", "confidence": "high"},
+        {"id": "f12", "verdict": "supported", "confidence": "medium"}
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "f7 未给具体通航数字，只作“密度高、风险上升”的描述，故不按数字断言核查。",
+        "f1 的“六十到八十米”与“平均约 60 米、大部小于 80 米”的常见表述一致。"
+      ],
+      "summary": "地形、季风环流、黑潮分支、潮流与渔业均可核实，未发现需要改动的断言。"
+    }
+  ]
+}

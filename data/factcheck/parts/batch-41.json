@@ -1,0 +1,300 @@
+{
+  "batch": "batch-41",
+  "checkedAt": "2026-11-18T02:41:00+08:00",
+  "dossiers": [
+    {
+      "id": "cn-history-railway",
+      "status": "verified",
+      "confidence": "high",
+      "facts": [
+        { "id": "f1", "verdict": "supported", "confidence": "high" },
+        { "id": "f2", "verdict": "supported", "confidence": "high" },
+        { "id": "f3", "verdict": "supported", "confidence": "high" },
+        { "id": "f4", "verdict": "supported", "confidence": "high" },
+        { "id": "f5", "verdict": "supported", "confidence": "medium" },
+        { "id": "f6", "verdict": "supported", "confidence": "medium" },
+        { "id": "f7", "verdict": "supported", "confidence": "high" },
+        { "id": "f8", "verdict": "supported", "confidence": "medium" },
+        { "id": "f9", "verdict": "supported", "confidence": "medium" },
+        { "id": "f10", "verdict": "supported", "confidence": "high" },
+        { "id": "f11", "verdict": "supported", "confidence": "medium" },
+        { "id": "f12", "verdict": "supported", "confidence": "medium" }
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "宓汝成《帝国主义与中国铁路》在批次中未标版本，本次以铁路史志、科普中国与官媒报道互证关键年份与数字。",
+        "1937 年里程有 1.17 万公里（关内）与 2.3 万公里（全国）两说，正文“约两万”取全国口径。"
+      ],
+      "summary": "12 条全部 supported；吴淞、唐胥、京张、1937 年里程、郑州与石家庄、哈尔滨、1923 年罢工等关键年份与数字均有可访问来源互证。"
+    },
+    {
+      "id": "w1-psych-caregiving",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        { "id": "f1", "verdict": "supported", "confidence": "high" },
+        { "id": "f2", "verdict": "supported", "confidence": "high" },
+        { "id": "f3", "verdict": "supported", "confidence": "medium" },
+        { "id": "f4", "verdict": "supported", "confidence": "medium" },
+        { "id": "f5", "verdict": "imprecise", "confidence": "medium", "issue": "issue-01" },
+        { "id": "f6", "verdict": "supported", "confidence": "high" },
+        { "id": "f7", "verdict": "supported", "confidence": "high" },
+        { "id": "f8", "verdict": "supported", "confidence": "medium" },
+        { "id": "f9", "verdict": "supported", "confidence": "medium" },
+        { "id": "f10", "verdict": "supported", "confidence": "medium" },
+        { "id": "f11", "verdict": "supported", "confidence": "high" },
+        { "id": "f12", "verdict": "supported", "confidence": "high" }
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f5",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "研究提示，后者更常缺席，而它恰恰是照护者最需要、也最不好意思开口要的。",
+          "problem": "工具性支持与情感支持的相对缺位没有直接研究支持；现有文献只表明照护者的情感与支持需求常被忽视，不能支撑“更常缺席”这一比较级。",
+          "correction": "照护者常收到两种支持：工具性支持，比如帮忙买菜、陪诊；情感支持，比如被听见、被安慰。研究提示，后者在照护者最需要的时候常常缺位，而他们又最不好意思开口要。",
+          "evidence": [
+            {
+              "title": "BMJ Supportive & Palliative Care 摘要：照护者自身需求常被忽视",
+              "url": "https://spcare.bmj.com/content/16/Suppl_1/A15.1",
+              "quote": "their own needs often remain invisible in clinical practice"
+            }
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "Lyons & Sullivan（2002）实为 63 对夫妻的 dyadic 研究；“共同应对”概念更早见于 Lyons 等 1998 的 communal coping 文献，故 f4 按 supported 中置信处理。",
+        "喘息服务的证据为混合结果，SBU 综述认为部分试验支持其减轻负担，但效应不一致，f8 因此只作“研究提示”处理。"
+      ],
+      "summary": "12 条中 11 条 supported；f5 关于情感支持更常缺席的比较级断言缺直接证据，判 imprecise 并改写；其余概念与研究者归属可核。"
+    },
+    {
+      "id": "w4-myth-cn-liangzhu-versions",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        { "id": "f1", "verdict": "supported", "confidence": "high" },
+        { "id": "f2", "verdict": "supported", "confidence": "high" },
+        { "id": "f3", "verdict": "wrong", "confidence": "high", "issue": "issue-01" },
+        { "id": "f4", "verdict": "supported", "confidence": "medium" },
+        { "id": "f5", "verdict": "supported", "confidence": "high" },
+        { "id": "f6", "verdict": "supported", "confidence": "medium" },
+        { "id": "f7", "verdict": "supported", "confidence": "medium" },
+        { "id": "f8", "verdict": "supported", "confidence": "high" },
+        { "id": "f9", "verdict": "imprecise", "confidence": "high", "issue": "issue-02" },
+        { "id": "f10", "verdict": "supported", "confidence": "high" },
+        { "id": "f11", "verdict": "supported", "confidence": "high" },
+        { "id": "f12", "verdict": "supported", "confidence": "medium" }
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f3",
+          "severity": "major",
+          "verdict": "wrong",
+          "claim": "北宋大观元年（1105），李茂诚作《义忠王庙记》",
+          "problem": "大观元年为 1107 年，1105 年是崇宁四年；《义忠王庙记》通常系于大观元年（1107），年份错位两年。",
+          "correction": "北宋大观元年（1107），李茂诚作《义忠王庙记》，把梁山伯写成鄞县县令，说他治水有功、死后显灵；庙记里的梁山伯是地方神，不是情郎，梁祝的义首先是对地方的义。",
+          "evidence": [
+            {
+              "title": "百度百科：义忠王庙记",
+              "url": "https://baike.baidu.com/item/%E4%B9%89%E5%BF%A0%E7%8E%8B%E5%BA%99%E8%AE%B0/966395",
+              "quote": "北宋徽宗大观元年（1107年）"
+            },
+            {
+              "title": "桐乡汇文：义忠王庙相关条目",
+              "url": "https://www.tongxianghuicn.com:443/search.jspx?field=tag&q=%E4%B9%89%E5%BF%A0%E7%8E%8B%E5%BA%99&libId=909",
+              "quote": "徽宗大观年间（一一〇七—一一一〇）"
+            }
+          ]
+        },
+        {
+          "id": "issue-02",
+          "factId": "f9",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "被西方观众称为中国的罗密欧与朱丽叶",
+          "problem": "这一类比出自周恩来 1954 年日内瓦会议期间对外国观众的介绍，不是西方观众自发的称呼；影片 1953 年拍成、1954 年放映这两点无误。",
+          "correction": "越剧《梁山伯与祝英台》在1950年代被拍成彩色电影，1954年日内瓦会议期间放映，周恩来称它是中国的罗密欧与朱丽叶；这个类比后来反过来影响了中国人对梁祝的理解。",
+          "evidence": [
+            {
+              "title": "央视电视指南：越剧《梁祝》与日内瓦会议",
+              "url": "https://tvguide.cctv.com/20061213/110765.shtml",
+              "quote": "1954年，周恩来总理把它带到了遥远的日内瓦，并形象地称之为中国的罗密欧与朱丽叶。"
+            }
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "《义忠王庙记》系年从大观元年（1107），网络流传的 1105 系误置。",
+        "梁祝墓与读书处分布于宁波、上虞、宜兴、济宁、汝南等地，属传说地理，本次未逐县核对地方志。"
+      ],
+      "summary": "12 条中 f3 将大观元年误作 1105，判 wrong 并改正；f9 把周恩来的类比说成西方观众称呼，判 imprecise；其余 10 条 supported。"
+    },
+    {
+      "id": "w1-myth-cn-taishan",
+      "status": "verified",
+      "confidence": "high",
+      "facts": [
+        { "id": "f1", "verdict": "supported", "confidence": "high" },
+        { "id": "f2", "verdict": "supported", "confidence": "high" },
+        { "id": "f3", "verdict": "supported", "confidence": "medium" },
+        { "id": "f4", "verdict": "supported", "confidence": "high" },
+        { "id": "f5", "verdict": "supported", "confidence": "medium" },
+        { "id": "f6", "verdict": "supported", "confidence": "high" },
+        { "id": "f7", "verdict": "supported", "confidence": "high" },
+        { "id": "f8", "verdict": "supported", "confidence": "medium" },
+        { "id": "f9", "verdict": "supported", "confidence": "high" },
+        { "id": "f10", "verdict": "supported", "confidence": "medium" },
+        { "id": "f11", "verdict": "supported", "confidence": "medium" },
+        { "id": "f12", "verdict": "supported", "confidence": "medium" }
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "Teiser《十王经》研究仅凭二次文献转引，未核对原书页码；敦煌写本数量与题名以《敦煌研究》论文为准。",
+        "东岳庙在宋以后的州县铺开属通说，本次以岱庙与地方信仰资料佐证，未逐州县统计。"
+      ],
+      "summary": "12 条全部 supported；镇墓文套语、后汉书引文、十王经审判节点、阎罗五殿与太山王七殿、酆都体系均有来源。"
+    },
+    {
+      "id": "w1-myth-cn-menshen",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        { "id": "f1", "verdict": "supported", "confidence": "high" },
+        { "id": "f2", "verdict": "supported", "confidence": "high" },
+        { "id": "f3", "verdict": "supported", "confidence": "high" },
+        { "id": "f4", "verdict": "supported", "confidence": "high" },
+        { "id": "f5", "verdict": "supported", "confidence": "medium" },
+        { "id": "f6", "verdict": "supported", "confidence": "high" },
+        { "id": "f7", "verdict": "supported", "confidence": "high" },
+        { "id": "f8", "verdict": "supported", "confidence": "high" },
+        { "id": "f9", "verdict": "supported", "confidence": "medium" },
+        { "id": "f10", "verdict": "imprecise", "confidence": "medium", "issue": "issue-01" },
+        { "id": "f11", "verdict": "supported", "confidence": "medium" },
+        { "id": "f12", "verdict": "supported", "confidence": "medium" }
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f10",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "敦煌藏经洞出土的唐五代纸本与刻本中有钟馗像",
+          "problem": "藏经洞所出钟馗材料可确认的是唐写本《除夕钟馗驱傩文》，属驱傩文书而非神像；纸本、刻本钟馗像的著录未能核实，神像流通的断语下得过实。",
+          "correction": "敦煌藏经洞出土的唐写本《除夕钟馗驱傩文》，说明钟馗在唐代已进入岁末驱傩仪式；至于纸本神像与木版年画的商业化，要等宋以后雕版普及才出现。",
+          "evidence": [
+            {
+              "title": "《敦煌研究》：从敦煌写本《除夕钟馗驱傩文》看钟馗故事的发展和演变",
+              "url": "https://www.cnki.com.cn/Article/CJFDTotal-DHYJ200801016.htm",
+              "quote": "敦煌写本《除夕钟馗驱傩文》是钟馗故事流传过程中的一个重大转折"
+            },
+            {
+              "title": "敦煌学信息资源库：同上论文条目",
+              "url": "http://dh.dha.ac.cn/Journal/Article?id=53675&table=EMPTY2_METADATA",
+              "quote": "从敦煌写本《除夕钟馗驱傩文》看钟馗故事的发展和演变"
+            }
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "《梦溪笔谈》钟馗条实见于《补笔谈》，批次正文统称《梦溪笔谈》尚可接受。",
+        "桃符、门神像并置的时间以《荆楚岁时记》为准，南朝梁已有明确记载。"
+      ],
+      "summary": "12 条中 f10 把敦煌钟馗材料说成纸本与刻本神像，现有著录只能确认唐写本驱傩文，判 imprecise；其余 11 条 supported。"
+    },
+    {
+      "id": "w1-geo-cn-sichuan-basin",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        { "id": "f1", "verdict": "supported", "confidence": "high" },
+        { "id": "f2", "verdict": "supported", "confidence": "medium" },
+        { "id": "f3", "verdict": "supported", "confidence": "high" },
+        { "id": "f4", "verdict": "supported", "confidence": "high" },
+        { "id": "f5", "verdict": "imprecise", "confidence": "high", "issue": "issue-01" },
+        { "id": "f6", "verdict": "supported", "confidence": "high" },
+        { "id": "f7", "verdict": "supported", "confidence": "medium" },
+        { "id": "f8", "verdict": "supported", "confidence": "high" },
+        { "id": "f9", "verdict": "supported", "confidence": "high" },
+        { "id": "f10", "verdict": "supported", "confidence": "high" },
+        { "id": "f11", "verdict": "supported", "confidence": "high" },
+        { "id": "f12", "verdict": "supported", "confidence": "high" }
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f5",
+          "severity": "major",
+          "verdict": "imprecise",
+          "claim": "重庆的年均雾日长期在一百天以上，个别年份接近两百天",
+          "problem": "一百天上下是 20 世纪 50 年代前后的历史平均值，有记录的最多一年为 148 天，没有可靠数据支持“接近两百天”；近几十年雾日已降到 30 至 50 天。",
+          "correction": "逆温加上静风，雾就散不掉。重庆历史上年均雾日约一百天，最多一年约一百四十八天，因而有「雾都」之名；近几十年雾日已降到三四十天，成都的雾日也多于同纬度平原城市。",
+          "evidence": [
+            {
+              "title": "《中国国家地理》2012 年第 11 期：重庆雾日",
+              "url": "https://ia902909.us.archive.org/12/items/chinese-national-geography/%E4%B8%AD%E5%9B%BD%E5%9B%BD%E5%AE%B6%E5%9C%B0%E7%90%862012/%E4%B8%AD%E5%9B%BD%E5%9B%BD%E5%AE%B6%E5%9C%B0%E7%90%86201211_text.pdf",
+              "quote": "20世纪50年代，重庆市的年平均雾日数达103天，最多一年达到了148天"
+            }
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "《四川省志·地理志》在批次中未标年份与页码；盆地面积与底部海拔以中科院地理所科普页互证。",
+        "成都年日照 1000 至 1200 小时取成都市气象台口径，重庆“略多”为约 1200 至 1400 小时。"
+      ],
+      "summary": "12 条中 f5 的“接近两百天”与实测最多 148 天不符，判 imprecise 并改写；面积、紫色土、日照、华西秋雨、汶川地震、都江堰、燊海井均 supported。"
+    },
+    {
+      "id": "w2-psych-comm-escalation",
+      "status": "verified",
+      "confidence": "high",
+      "facts": [
+        { "id": "f1", "verdict": "supported", "confidence": "medium" },
+        { "id": "f2", "verdict": "supported", "confidence": "high" },
+        { "id": "f3", "verdict": "supported", "confidence": "high" },
+        { "id": "f4", "verdict": "supported", "confidence": "high" },
+        { "id": "f5", "verdict": "supported", "confidence": "medium" },
+        { "id": "f6", "verdict": "supported", "confidence": "medium" },
+        { "id": "f7", "verdict": "supported", "confidence": "medium" },
+        { "id": "f8", "verdict": "supported", "confidence": "medium" },
+        { "id": "f9", "verdict": "supported", "confidence": "medium" },
+        { "id": "f10", "verdict": "supported", "confidence": "medium" },
+        { "id": "f11", "verdict": "supported", "confidence": "medium" },
+        { "id": "f12", "verdict": "supported", "confidence": "medium" }
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "四骑士与负向互惠以 Gottman 官网与 2015 年综述互证；f11 已把比例断言限定为统计关联，未当作个体预测。",
+        "生理唤醒部分属 Gottman 系列研究的通说，本次未逐篇核对原始实验。"
+      ],
+      "summary": "12 条全部 supported；四骑士、抱怨与批评之别、负向互惠等核心概念有研究综述支撑，涉及预测的表述已带统计关联限定。"
+    },
+    {
+      "id": "w4-psych-social-comparison",
+      "status": "verified",
+      "confidence": "high",
+      "facts": [
+        { "id": "f1", "verdict": "supported", "confidence": "high" },
+        { "id": "f2", "verdict": "supported", "confidence": "high" },
+        { "id": "f3", "verdict": "supported", "confidence": "medium" },
+        { "id": "f4", "verdict": "supported", "confidence": "medium" },
+        { "id": "f5", "verdict": "supported", "confidence": "high" },
+        { "id": "f6", "verdict": "supported", "confidence": "medium" },
+        { "id": "f7", "verdict": "supported", "confidence": "medium" },
+        { "id": "f8", "verdict": "supported", "confidence": "medium" },
+        { "id": "f9", "verdict": "supported", "confidence": "medium" },
+        { "id": "f10", "verdict": "supported", "confidence": "low" },
+        { "id": "f11", "verdict": "supported", "confidence": "medium" },
+        { "id": "f12", "verdict": "supported", "confidence": "medium" }
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "“参照的可及性”为 attainability/feasibility 的意译，中文文献用法不统一，f10 只作低置信 supported。",
+        "Verduyn 等 2015 为被动使用与主观幸福感的纵向证据，f5 的“更伤”限定在情绪与孤独指标上。"
+      ],
+      "summary": "12 条全部 supported；费斯汀格、上行与下行比较、被动使用等核心断言可核，f10 的术语译法在 sourceNotes 中说明。"
+    }
+  ]
+}

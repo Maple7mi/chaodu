@@ -1,0 +1,336 @@
+{
+  "batch": "batch-09",
+  "checkedAt": "2026-11-18T02:42:00+08:00",
+  "dossiers": [
+    {
+      "id": "world-history-metric",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "imprecise", "confidence": "high", "issue": "issue-01"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "medium"},
+        {"id": "f6", "verdict": "imprecise", "confidence": "high", "issue": "issue-02"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "supported", "confidence": "medium"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "supported", "confidence": "high"},
+        {"id": "f11", "verdict": "supported", "confidence": "medium"},
+        {"id": "f12", "verdict": "supported", "confidence": "high"}
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f3",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "1790年5月，制宪议会委托科学院确定新单位……议会最终选择地球子午线",
+          "problem": "时间线被压缩错了：塔列朗是 1790 年 4 月提出秒摆方案，议会 1790 年 8 月才把度量衡改革交给科学院；选定子午线四分弧是 1791 年 3 月 19 日科学院的报告，议会 3 月 26 日接受，不是 1790 年 5 月。",
+          "correction": "1790年4月塔列朗提议以秒摆为基准；同年8月议会把度量衡改革交给科学院。1791年3月科学院建议改测地球子午线，议会随即采纳，把米定义为子午线四千万分之一。",
+          "evidence": [
+            {"title": "The Earth based units of length and the birth of the metric system（G. D'Agostini, 2005）", "url": "https://www.roma1.infn.it/%7Edagos/history/sm/node4.html", "quote": "1790, April | Talleyrand proposes ... 1790, August ... As a result, the Academy of Science is entrusted of the reform of measures and weights. ... 1791, March 26 | The National Assembly accepts the recommendations of the commissions."}
+          ]
+        },
+        {
+          "id": "issue-02",
+          "factId": "f6",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "1795年5月该制度被废止",
+          "problem": "十进制时间不是 5 月废止的。国民公会于共和历三年芽月十八日（1795 年 4 月 7 日）通过了中止十进制时间的法令，与确立十进制米制的法令是同一天。",
+          "correction": "共和历推行过十进制时间：每天十小时、每小时一百分钟，钟表厂被迫重造机芯，工人与农民拒绝按新钟点上下工；该制度在一七九五年四月七日被中止，只有角度测量中的百分度留了下来。",
+          "evidence": [
+            {"title": "Revolutionary period skeleton clock（Fondation Napoléon）", "url": "https://www.napoleon.org/en/history-of-the-two-empires/objects/revolutionary-period-skeleton-clock/", "quote": "caused the Convention, on 18 Germinal, An III (7 April, 1795), to suspend \"indefintely\" the decree related to decimal time."},
+            {"title": "The Earth based units of length（D'Agostini）", "url": "https://www.roma1.infn.it/%7Edagos/history/sm/node4.html", "quote": "1795, April 7 | The Decimal Metric System ... is established by law."}
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "1799 年 6 月 22 日铂金米原器在巴黎正式呈交，与 f5 一致；呈交前 1799 年 3 月国际委员会已把米长定为 443.296 法寸。",
+        "1812 年拿破仑的混合制法令允许旧名用于米的非十进倍数，1837 年该法令被废除，1840 年起非米制单位在交易中入刑，与 f7、f12 一致。",
+        "旧制度下法国度量衡数量说法不一（数千至数十万种不等），f1 的“数十种地方尺”属保守表述，可支持。"
+      ],
+      "summary": "米制形成的关键年代与制度链条基本可靠；1790 年委托时间与十进制时间的废止月份各需一处修正。"
+    },
+    {
+      "id": "w3-myth-eastasia-blue-wolf",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "medium"},
+        {"id": "f2", "verdict": "supported", "confidence": "medium"},
+        {"id": "f3", "verdict": "supported", "confidence": "medium"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "medium"},
+        {"id": "f8", "verdict": "supported", "confidence": "medium"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "imprecise", "confidence": "medium", "issue": "issue-01"},
+        {"id": "f11", "verdict": "supported", "confidence": "medium"},
+        {"id": "f12", "verdict": "supported", "confidence": "high"}
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f10",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "他们没见到狼，却把狼写进了东方的地图",
+          "problem": "柏朗嘉宾、鲁布鲁克的报告里，狼是以比喻出现的（如西蒙·德·圣康坦把鞑靼人的歌声比作狼嚎），属于修辞与蛮族想象；没有证据表明使者“把狼写进地图”，这句话把比喻当成了地理记录。",
+          "correction": "十三世纪欧洲使者的报告常以荒野与野兽的比喻形容蒙古人，有人把他们的歌声比作狼嚎；这类修辞进入编年史与布道文，强化了欧洲对蒙古人的蛮族想象，但它属于比喻，不是地理记录。",
+          "evidence": [
+            {"title": "The Threat of a Mongol Incursion and Latin European Attitudes（Rochester 学位论文）", "url": "https://urresearch.rochester.edu/fileDownloadForInstitutionalItem.action?itemId=39436&itemFileId=195543", "quote": "Stoessel cites the 1247 account from Simon of Saint-Quentin who likens the voices of the Tartars to the bellowing of bulls or howling of wolves, a common trope invoked by Christians to question others' humanity"}
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "《蒙古秘史》开篇苍狼（Börte Chino）与白鹿（Qo'ai-maral）渡腾汲思水、居不儿罕山、生巴塔赤罕，与 f1 一致；巴塔赤罕到成吉思汗的世代数常见 21 或 22 代两种算法，故 f1 记 medium。",
+        "《秘史》现存主体是明代汉字音写加逐词旁译，畏兀儿体蒙古文原本不存，与 f4 一致。",
+        "《蒙古源流》（Erdeni-yin Tobchi，1662，萨囊彻辰）开篇为宇宙生成、佛陀与印度王统，再接入蒙古谱系，与 f6 一致。",
+        "不儿罕山（Burkhan Khaldun）位于肯特省，2015 年列入世界遗产，祭祀与旅游开发与 f12 一致。"
+      ],
+      "summary": "族源叙事、文本形态与后世改写均可核实；欧洲使者“把狼写进地图”的说法只有修辞比喻支持，需限定。"
+    },
+    {
+      "id": "w2-psych-family-differentiation",
+      "status": "verified",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "medium"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "medium"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "medium"},
+        {"id": "f8", "verdict": "supported", "confidence": "medium"},
+        {"id": "f9", "verdict": "supported", "confidence": "medium"},
+        {"id": "f10", "verdict": "supported", "confidence": "high"},
+        {"id": "f11", "verdict": "supported", "confidence": "medium"},
+        {"id": "f12", "verdict": "supported", "confidence": "medium"}
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "Skowron & Friedlander（1998）DSI 的四因子为情绪反应、自我位置、情绪切断与融合，与 f3 一致；量表针对成人的重要关系与原生家庭经验作答。",
+        "DSI 及其修订版把分化当作连续维度测量，理论上以 0—100 的假想量表描述，与 f2 一致。",
+        "分化与焦虑、躯体化、人际敏感的相关研究多为横断设计，f6 已明确写出“相关而非因果”，表述准确。",
+        "“面对父母时分化更低”“不同关系里表现不同”属鲍恩理论的临床命题，f2、f7 的措辞是理论描述而非实测数据。"
+      ],
+      "summary": "鲍恩理论、DSI 四因子与相关研究证据一致，未见需要修正的硬事实。"
+    },
+    {
+      "id": "w5-psych-refusal",
+      "status": "corrected",
+      "confidence": "medium",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "medium"},
+        {"id": "f2", "verdict": "unsupported", "confidence": "medium", "issue": "issue-01"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "medium"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "medium"},
+        {"id": "f7", "verdict": "supported", "confidence": "medium"},
+        {"id": "f8", "verdict": "supported", "confidence": "medium"},
+        {"id": "f9", "verdict": "supported", "confidence": "medium"},
+        {"id": "f10", "verdict": "imprecise", "confidence": "medium", "issue": "issue-02"},
+        {"id": "f11", "verdict": "supported", "confidence": "medium"}
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f2",
+          "severity": "major",
+          "verdict": "unsupported",
+          "claim": "调查显示，间接方式用得更频繁，但被误读的概率也更高",
+          "problem": "没有找到支持这两项判断的调查：拒绝策略研究确实区分直接与间接策略，但频率随语言、性别与情境变化，有的研究里直接拒绝反而更多；“间接方式更容易被误读”也没有可核对的测量。原句把没有出处的“调查”写成了结论。",
+          "correction": null,
+          "evidence": [
+            {"title": "Refusal Strategies for Invitations（ERIC EJ1309588）", "url": "https://files.eric.ed.gov/fulltext/EJ1309588.pdf", "quote": "Refusal Strategies for Invitations ... Direct Strategies ... Indirect Strategies"},
+            {"title": "Pragmatic analysis of refusal strategies in spoken English of Bahraini and Indian L2 learners（Cogent Arts & Humanities, 2024）", "url": "https://www.tandfonline.com/doi/full/10.1080/23311983.2024.2321682", "quote": "Both NEs and ILEs females used more direct refusals than males when refusing requests"}
+          ]
+        },
+        {
+          "id": "issue-02",
+          "factId": "f10",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "反复越界、被拒绝后施压或冷处理，比一次拒绝本身更能预测关系恶化",
+          "problem": "追踪研究能支持的是配偶间的拒绝与关系满意度相互负向关联，并没有把“越界/施压”与“一次拒绝”放在同一模型里比较预测力；原句的“更能预测”超出了证据强度。",
+          "correction": "能接受「不」的关系更稳定。追踪研究提示，反复越界、被拒绝后施压或冷处理，与关系满意度下降相互关联；一次拒绝本身未必伤关系，对方如何回应才是关键。",
+          "evidence": [
+            {"title": "Reciprocal association between spousal rejection and relationship satisfaction in Pakistani married adults: a cross-lagged investigation（Current Psychology, 2024）", "url": "https://ouci.dntb.gov.ua/en/works/9ZWdqQO7/", "quote": "Reciprocal association between spousal rejection and relationship satisfaction in Pakistani married adults: a cross-lagged investigation"}
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "Lu, Fang & Qiu（2023, JEP: Applied）7 项研究、样本约 3,600 人，发现拒绝者系统性高估拒绝给对方造成的负面后果，f5 的核心断言有实验支持。",
+        "f1 的“维护关系 vs 保持真实”是自信训练与关系沟通文献的通行概括，未指向某一项具体实证研究，故记 medium。",
+        "“坏唱片法”出自自信训练（assertiveness training）传统，属临床技法，f6 的“反复验证”宜理解为临床经验而非元分析结论。",
+        "f7、f8 的文化与性别脚本属综述性判断，方向与跨文化语用研究一致，但具体强度因群体而异。"
+      ],
+      "summary": "“拒绝高估伤害”有实验支持；“间接拒绝更频繁且更易被误读”无调查来源，“越界比拒绝更能预测恶化”表述过强。"
+    },
+    {
+      "id": "w1-geo-world-coral-triangle",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "medium"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "imprecise", "confidence": "high", "issue": "issue-01"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "supported", "confidence": "medium"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "supported", "confidence": "medium"},
+        {"id": "f11", "verdict": "supported", "confidence": "high"}
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f6",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "研究者用起源中心、重叠中心和残留中心三种假说解释这里的多样性",
+          "problem": "文献里是四种假说：起源中心、重叠中心、累积中心（center of accumulation）与残留/避难中心（center of survival）。原句漏掉了“累积中心”，把四种说成三种。",
+          "correction": "冰期结束后海水重新淹没陆架，礁体重新连成网络。研究者用起源中心、重叠中心、累积中心与残留中心四种假说解释这里的多样性，证据各有支持；海平面每升降一次，礁群就连通或断开一次。",
+          "evidence": [
+            {"title": "Pluralism explains diversity in the Coral Triangle（Barber, Meyer & Mora, Cambridge, 2015）", "url": "https://www.cambridge.org/core/books/abs/ecology-of-fishes-on-coral-reefs/pluralism-explains-diversity-in-the-coral-triangle/6B843D175BA8A26B2F5FAF24AB92724E", "quote": "Biogeographic studies have alternatively argued that this region is a center of (1) origin, (2) overlap, (3) accumulation, or (4) survival."}
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "CTI 六国为印尼、马来西亚、巴布亚新几内亚、菲律宾、所罗门群岛、东帝汶；海域面积常用 570 万—600 万平方公里两种说法，f1 的 570 万在通行区间内。",
+        "珊瑚三角约有 600 种造礁珊瑚（约占全球 76%）、2,000 种以上礁鱼（约占全球礁鱼 37%），拉贾安帕特的硬珊瑚种数为加勒比海的十倍以上，与 f2 一致。",
+        "末次冰期海平面比今天低约 120 米、巽他陆架出露，是古气候学通行结论，f5 可支持。"
+      ],
+      "summary": "六国范围、物种比例、贯穿流与白化事实可靠；多样性假说应为四种而非三种。"
+    },
+    {
+      "id": "cn-geo-hainan",
+      "status": "verified",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "medium"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "medium"},
+        {"id": "f10", "verdict": "supported", "confidence": "high"},
+        {"id": "f11", "verdict": "supported", "confidence": "medium"},
+        {"id": "f12", "verdict": "supported", "confidence": "high"}
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "海南岛全岛面积 34,012.66 平方公里（主岛 33,959.44），介于北纬 18°09′—20°09′，与 f1 一致；“唯一的热带岛屿省份”是常用表述。",
+        "五指山主峰 1,867 米，中部山地、四周台地平原，河流呈放射状，与 f2 一致。",
+        "西部东方、昌江年降水量约 1,000—1,200 毫米，东部万宁一带可达 2,400 毫米，f3 的“约一千毫米”与“两千毫米以上”均可支持。",
+        "1949—2021 年海南年均登陆台风约 2.3 个；1949—1990 年登陆 1.59 个/年、较大影响 1.14 个/年，f5 的“几个”成立。",
+        "橡胶 1906 年引入海南，适宜区一般在海拔 350—400 米以下，f7 的“四百米以下”略宽但可接受。",
+        "2020 年 6 月《海南自由贸易港建设总体方案》发布，2025 年 12 月 18 日全岛封关运作启动，与 f10 一致。"
+      ],
+      "summary": "面积、地形、降水差异、台风与自贸港时间点均与官方/研究资料一致。"
+    },
+    {
+      "id": "w2-myth-india-mahabharata-war",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "imprecise", "confidence": "medium", "issue": "issue-01"},
+        {"id": "f7", "verdict": "wrong", "confidence": "high", "issue": "issue-02"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "imprecise", "confidence": "medium", "issue": "issue-03"},
+        {"id": "f10", "verdict": "supported", "confidence": "high"},
+        {"id": "f11", "verdict": "supported", "confidence": "medium"},
+        {"id": "f12", "verdict": "supported", "confidence": "high"}
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f6",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "却有人在毗湿摩放下武器后仍以箭床困住他；象阵却踩过营地和妇孺",
+          "problem": "两处细节都不准：毗湿摩是不愿与身为女子的束发交战而放下武器，被阿周那射倒后躺在箭床上，并非“被箭床困住”；夜间潜入营地杀睡梦中诸子的是阿湿婆多摩等人，不是象阵。",
+          "correction": "史诗一面宣讲法，一面记录战争如何破坏规则：毗湿摩因不愿与女子交战而放下武器，仍被阿周那射倒，躺在箭床上；夜间偷袭营地时，连睡梦中的孩子也未能幸免。文本没有替任何一方遮掩。",
+          "evidence": [
+            {"title": "The Mahabharata, Book 10: Sauptika Parva, Section X（Wikisource）", "url": "https://en.wikisource.org/wiki/The_Mahabharata/Book_10:_Sauptika_Parva/Section_X", "quote": "The sons of Draupadi, O king, have been slain, with all the children of Drupada himself, while they were heedless and trustfully asleep in their own camp!"},
+            {"title": "Bhishma Will Not Fight Shikhandin — Udyoga Parva Adhyaya 172（Eternal Raga）", "url": "https://eternalraga.com/en/scriptures/mahabharata/udyoga-parva/172", "quote": "he will never kill a woman or one who was once a woman, and Shikhandin was born a girl."}
+          ]
+        },
+        {
+          "id": "issue-02",
+          "factId": "f7",
+          "severity": "major",
+          "verdict": "wrong",
+          "claim": "喊出“马死了”——死的其实是一头同名的大象",
+          "problem": "原文喊的是德罗纳之子阿湿婆多摩（Ashvatthama）的名字，战死的是与他同名的一头大象；尤迪希提拉低声补了“象”字。这里没有马，“马死了”是对名字的误译，也与后半句“同名大象”自相矛盾。",
+          "correction": "尤迪希提拉喊的是「德罗纳之子死了」——战死的是与德罗纳之子同名的一头大象；他低声补了一个「象」字，德罗纳闻讯放下武器，随即被杀。原文并无「马」。",
+          "evidence": [
+            {"title": "The Mahabharata, Drona Parva（M. N. Dutt 英译，Parimal Publications）", "url": "https://archive.org/download/mahabharata-vol-2-vana-parva-3-translation-by-m-n-dutt-parimal-publications-delhi_202405/Mahabharata%20Vol%205%20Drona%20Parva%207%20Translation%20By%20M%20N%20Dutt%20-%20Parimal%20Publications%2C%20Delhi_text.pdf", "quote": "Clearly said that Ashvathama was dead, adding indistinctly the word elephant after the name Ashvathama."}
+          ]
+        },
+        {
+          "id": "issue-03",
+          "factId": "f9",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "他后来举行马祭，把国土分给幸存者",
+          "problem": "马祭与升天途中护狗都见于史诗，但“把国土分给幸存者”没有文本依据：战后尤迪希提拉加冕为王，马祭是宣示王权的仪式；最后是放弃王位、把王国交给后人，而非分给幸存者。",
+          "correction": "战争结束后，尤迪希提拉见战场几乎无人生还，说这场胜利像一场葬礼；他举行马祭，后来放弃王位，与兄弟远行，升天途中不肯丢下跟随的狗。",
+          "evidence": [
+            {"title": "Selections from the Mahabharata（John Murdoch, 1898）", "url": "https://ia802900.us.archive.org/21/items/selectionsfromma00john/selectionsfromma00john.pdf", "quote": "The Seventeenth Book ... witnesses the abdication of his hardly-won throne ... until Yudhishthira, and a dog that had followed them from Hastinápura, are the only survivors."}
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "现存《摩诃婆罗多》约十万颂、十八篇，另有《诃利世系》附录；成书大致在公元前四世纪至公元四世纪之间，与 f1 一致。",
+        "《薄伽梵歌》属第六篇《毗湿摩篇》，十八章、约七百颂，与 f3 一致。",
+        "卡尔纳为贡蒂婚前所生、由车夫夫妇抚养，战车车轮陷泥时被杀，身份死后公开，与 f8 一致。",
+        "南印度写本与爪哇、巴厘改编本的差异，以及彼玛、卡尔纳支线故事，与 f10 一致。"
+      ],
+      "summary": "史诗结构、人物与教义解读基本准确；“马死了”与“分国土”两处细节需改，毗湿摩与夜袭的表述也需校正。"
+    },
+    {
+      "id": "w3-geo-cn-reclamation",
+      "status": "verified",
+      "confidence": "medium",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "medium"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "medium"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "medium"},
+        {"id": "f10", "verdict": "supported", "confidence": "medium"},
+        {"id": "f11", "verdict": "supported", "confidence": "medium"},
+        {"id": "f12", "verdict": "supported", "confidence": "medium"}
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "2018 年 7 月《国务院关于加强滨海湿地保护 严格管控围填海的通知》取消地方年度计划指标，除国家重大战略项目外全面停止新增围填海项目审批，并规定历史遗留问题处理前原则上不再受理新增申请，与 f8 一致。",
+        "通知同时要求新增围填海项目“同步施工、同步修复”，可作为 f9 修复转向的政策背景。",
+        "围填海改变纳潮量、流速与水体交换，进而加剧淤积与水质恶化，是海洋工程与海湾水动力学的通行结论，f3、f4 可支持。",
+        "f7 的“上世纪五十年代到本世纪初”为历史分期概括，各轮围垦的起止年份各地不一，故记 medium。"
+      ],
+      "summary": "围填海机理与 2018 年停批政策均与国务院文件和研究文献一致，未发现硬伤。"
+    }
+  ]
+}

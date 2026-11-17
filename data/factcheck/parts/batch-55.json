@@ -1,0 +1,289 @@
+{
+  "batch": "batch-55",
+  "checkedAt": "2026-11-18T02:58:00+08:00",
+  "dossiers": [
+    {
+      "id": "w3-wh-revolutions-cotton-factories",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "imprecise", "confidence": "high", "issue": "issue-01"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "medium"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "supported", "confidence": "high"},
+        {"id": "f11", "verdict": "supported", "confidence": "medium"},
+        {"id": "f12", "verdict": "supported", "confidence": "medium"}
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f2",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "1760年代前后，哈格里夫斯的珍妮机、阿克莱特的水力纺纱机、克朗普顿的骡机相继出现",
+          "problem": "珍妮机约 1764 年，水力纺纱机 1769 年，骡机约 1779 年；“1760年代前后”只能覆盖第一项，把三项并列会把跨度十五年的发明压成同一时段。",
+          "correction": "1733年凯伊的飞梭加快了织布，造成纱线短缺；1760年代哈格里夫斯的珍妮机问世，1769年阿克莱特的水力纺纱机、1779年克朗普顿的骡机相继出现，把纺纱从手工变成机器生产。",
+          "evidence": [
+            {"title": "Britannica: Inventors and Inventions of the Industrial Revolution", "url": "https://www.britannica.com/list/inventors-and-inventions-of-the-industrial-revolution", "quote": "About 1764 James Hargreaves, a poor uneducated spinner and weaver living in Lancashire, England, conceived a new kind of spinning machine"},
+            {"title": "Britannica: Inventors and Inventions of the Industrial Revolution", "url": "https://www.britannica.com/list/inventors-and-inventions-of-the-industrial-revolution", "quote": "the water frame, patented in 1769 by Richard Arkwright"},
+            {"title": "Britannica: Inventors and Inventions of the Industrial Revolution", "url": "https://www.britannica.com/list/inventors-and-inventions-of-the-industrial-revolution", "quote": "About 1779 Samuel Crompton invented the spinning mule"}
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "sources 只列 Thompson、Landes、Pollard 三部经典研究，未给版本信息，且都不支持三种纺纱机的具体年份；年份依据 Britannica 条目。",
+        "f5 的 1793 年惠特尼轧棉机与南方棉花产量上升可核，但把轧棉机与英国工厂写成同一条供应链是概括，不是某一来源的原话。"
+      ],
+      "summary": "棉纺机械的年份与技术链条基本准确，唯把水力纺纱机与骡机一并归入“1760年代前后”不确，已给修正；其余关于工厂制度、童工与工人运动的陈述成立。"
+    },
+    {
+      "id": "w4-wh-regions-noncooperation",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "imprecise", "confidence": "high", "issue": "issue-02"},
+        {"id": "f11", "verdict": "supported", "confidence": "medium"},
+        {"id": "f12", "verdict": "supported", "confidence": "medium"}
+      ],
+      "issues": [
+        {
+          "id": "issue-02",
+          "factId": "f10",
+          "severity": "major",
+          "verdict": "imprecise",
+          "claim": "穆盟在1930年代提出建立独立穆斯林国家的主张",
+          "problem": "1930 年是伊克巴尔在阿拉哈巴德演说中提出在印度西北部建立穆斯林家园的设想，不是穆盟的正式主张；穆盟正式要求建立独立穆斯林国家是 1940 年 3 月的拉合尔决议。原文“此后二十年”也随之时长失准。",
+          "correction": "穆斯林政治的组织化与国大党的关系也在变化。1930年伊克巴尔提出在西北印度建立穆斯林家园；1940年穆盟在拉合尔决议中正式要求建立独立的穆斯林国家，宗教代表权与联邦结构成为此后谈判中最难的题目。",
+          "evidence": [
+            {"title": "Associated Press of Pakistan: Minar-e-Pakistan — Re-living history", "url": "https://www.app.com.pk/national/minar-e-pakistan-re-living-history/", "quote": "Pakistan Resolution (Lahore Resolution), which was adopted during the All India Muslim League session of 22-24 March, 1940"},
+            {"title": "The All India Muslim League (archive.org full text)", "url": "https://archive.org/stream/allindiamuslimle00nade/allindiamuslimle00nade_djvu.txt", "quote": "Iqbal's Allahabad Address"}
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "f1 的伤亡：官方数字 379 死、约 1,100 伤，印度方面调查估计约 1,000 死，故“官方数字是数百人”成立。",
+        "f7 的“约六万人被捕”是常见估计，不同研究在六万至九万之间，不影响 supported 判定。"
+      ],
+      "summary": "不合作运动的进程、数字与甘地的策略大体准确；把穆盟的建国主张系于 1930 年代属时间错置，拉合尔决议在 1940 年，已修正。"
+    },
+    {
+      "id": "world-geo-ring-fire",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "imprecise", "confidence": "high", "issue": "issue-03"},
+        {"id": "f5", "verdict": "supported", "confidence": "medium"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "wrong", "confidence": "high", "issue": "issue-04"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "supported", "confidence": "medium"},
+        {"id": "f11", "verdict": "supported", "confidence": "high"}
+      ],
+      "issues": [
+        {
+          "id": "issue-03",
+          "factId": "f4",
+          "severity": "major",
+          "verdict": "imprecise",
+          "claim": "2004年苏门答腊与2011年日本东北的地震都在几十分钟内把海浪推到数千公里外，海啸预警因此以分钟计",
+          "problem": "几十分钟是海啸到达邻近海岸的时间；跨洋数千公里要十几到二十几小时（1960 年智利海啸约 15 小时到夏威夷、约 22 小时到日本）。因此预警也不是一律“以分钟计”，远场有数小时量级。",
+          "correction": "板块边界的地震多为逆断层型。海底逆断层错动时抬升海水，形成海啸；2004年苏门答腊与2011年日本东北的地震都在几十分钟内把海浪推到邻近海岸，跨洋则要十几到二十几小时，海啸预警因此以分钟到小时计。",
+          "evidence": [
+            {"title": "INGV: 22 May 1960, sixty years after the biggest earthquake ever recorded and the global tsunami", "url": "https://cat.ingv.it/index.php/en/media-and-documents/news-en/172-22-may-1960-sixty-years-after-the-biggest-earthquake-ever-recorded-and-the-global-tsunami", "quote": "It reached Hawaii after about 15 hours ... after about 22 hours, the tsunami hit the coasts of Japan"}
+          ]
+        },
+        {
+          "id": "issue-04",
+          "factId": "f7",
+          "severity": "minor",
+          "verdict": "wrong",
+          "claim": "此后航空业建立了火山灰咨询中心网络",
+          "problem": "火山灰咨询中心（VAAC）网络不是 2010 年之后建立的。国际民航组织 1987 年建立国际火山灰监视机制，1990 年代初设立 VAAC；2010 年喷发后修订的是灰浓度阈值、航路程序与预报协同。因果方向与时间顺序都写反了。",
+          "correction": "火山灰对航空的影响被低估过。2010年冰岛埃亚菲亚德拉火山喷发，火山灰云导致欧洲空域大面积关闭，超过十万架次航班取消；国际民航组织1987年建立火山灰监视机制，1990年代初设咨询中心，此后又收紧了灰浓度标准。",
+          "evidence": [
+            {"title": "ICAO METP: Volcanic Ash Advisory Centre review", "url": "https://www2023.icao.int/airnavigation/METP/MISD/MISD%20First%20Meeting%20Documents/MISD1-IP06_VA%20(VAAC%20Review).pdf", "quote": "The IAWV was formed by ICAO in the 1987 ... it was further agreed to set up Volcanic Ash Advisories Centres (VAAC)"},
+            {"title": "IATA: The impact of the ash plume", "url": "https://www-int.iata.org/en/iata-repository/publications/economic-reports/impact-of-ash-plume/", "quote": "causing over 100,000 flights' to be cancelled"}
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "f5 的“一百到三百公里”是弧沟间距的常见范围，实际值随板块俯冲角度与岩浆含水量变化。",
+        "f10 的“全球大部分铜”按 USGS 口径约为 75%，此处转引自行业媒体的 USGS 数据，未直接打开 USGS 原文。"
+      ],
+      "summary": "环火带的范围、成因与灾害链成立；海啸跨洋传播的时间尺度与火山灰咨询中心网络的建立时间被写错，已分别修正。"
+    },
+    {
+      "id": "w5-geo-world-aurora",
+      "status": "verified",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "medium"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "medium"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "supported", "confidence": "medium"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "supported", "confidence": "medium"},
+        {"id": "f11", "verdict": "supported", "confidence": "high"},
+        {"id": "f12", "verdict": "supported", "confidence": "medium"}
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "f6 的“约十七小时”是常见估算（约 17.6 小时），卡林顿当年的记录只给出大致时段。",
+        "f8 的“多颗卫星失效或降级”以 ADEOS-II 失联为代表，具体卫星清单在各机构的回顾中并不一致。"
+      ],
+      "summary": "极光的物理机制、观测史与空间天气影响均与文献相符，未发现需要改动的断言。"
+    },
+    {
+      "id": "w2-wh-medieval-investiture",
+      "status": "verified",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "medium"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "medium"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "supported", "confidence": "medium"},
+        {"id": "f11", "verdict": "supported", "confidence": "medium"},
+        {"id": "f12", "verdict": "supported", "confidence": "medium"}
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "f5 的卡诺莎细节主要出自 Lambert of Hersfeld 的编年史，他是亲教会改革的记述者，并非教廷公文；现代研究对其夸张程度仍有讨论，fact 的保留表述恰当。",
+        "f7 的沃尔姆斯协定对德国与勃艮第/意大利的主教选举程序并不相同（德国的主教在皇帝在场时选举），fact 作了统一表述。"
+      ],
+      "summary": "叙任权之争的文献链、关键年份与协定内容均可核；卡诺莎细节的来源偏向与沃尔姆斯协定的德意差异已记入来源注记。"
+    },
+    {
+      "id": "w4-wh-wars-cuban-missiles",
+      "status": "verified",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "medium"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "medium"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "supported", "confidence": "medium"},
+        {"id": "f11", "verdict": "supported", "confidence": "high"},
+        {"id": "f12", "verdict": "supported", "confidence": "medium"}
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "f4 的船队掉头：苏联船只实际在 10 月 23 日已接到返航指令，10 月 24 日执委会才确认；首次登船检查是 10 月 26 日的 Marucla 号。",
+        "f7 的罗伯特·肯尼迪口头承诺见诸多方回忆与多勃雷宁电报，但具体措辞与是否构成正式保证仍有史学争议。"
+      ],
+      "summary": "古巴导弹危机的时序、决策与后果叙述与档案研究一致；船队掉头与秘密承诺两处细节的复杂性已记入来源注记。"
+    },
+    {
+      "id": "w5-geo-cn-south-china-sea-reef",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "imprecise", "confidence": "high", "issue": "issue-05"},
+        {"id": "f9", "verdict": "supported", "confidence": "medium"},
+        {"id": "f10", "verdict": "supported", "confidence": "high"},
+        {"id": "f11", "verdict": "supported", "confidence": "high"},
+        {"id": "f12", "verdict": "supported", "confidence": "high"}
+      ],
+      "issues": [
+        {
+          "id": "issue-05",
+          "factId": "f8",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "南海珊瑚礁记录的鱼类物种数以千计",
+          "problem": "南海记录的海洋鱼类至少 3,365 种，其中略多于三分之一为珊瑚礁鱼，约一千一百种；礁鱼是“上千种”，不是“数以千计”，后者把总数与礁鱼数混为一谈。",
+          "correction": "珊瑚礁是贫营养海中的绿洲。礁体提供缝隙与庇护，鱼类、贝类、甲壳类在这里繁殖；南海记录的海洋鱼类超过三千种，约三分之一栖息在珊瑚礁，是周边渔业的基础，礁体一碎，这些庇护也随之消失。",
+          "evidence": [
+            {"title": "Arai 2015, Reviews in Fish Biology and Fisheries 25:85–101（摘要）", "url": "https://cgl.org.cn/auto/db/detail.aspx?db=211210&rid=40909&agfi=0&cls=0&uni=False&cid=0&showgp=False&prec=False&md=93&pd=6&msd=520&psd=236&mdd=93&pdd=6&count=10&reds=malaysia", "quote": "at least 3,365 species of marine fishes, more than one-third of these are coral reef fish"},
+            {"title": "Randall & Lim 2000, A checklist of the fishes of the South China Sea（Raffles Bulletin of Zoology Suppl. 8）", "url": "https://lkcnhm.nus.edu.sg/wp-content/uploads/sites/11/app/uploads/2017/06/s08rbz569-667.pdf", "quote": "Some 3,365 species of marine fishes are recorded from the area"}
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "f8 的物种数依据南海鱼类区系统计（至少 3,365 种，其中略多于三分之一为礁鱼），与“数以千计”不符。",
+        "f9 的棘冠海星暴发机制（营养盐输入、幼体存活率）仍在研究中，fact 的保留表述恰当。"
+      ],
+      "summary": "南海珊瑚礁的成因、白化机制与人类压力叙述成立；礁区鱼类物种数被抬高，已按区系统计修正。"
+    },
+    {
+      "id": "w2-wh-islamic-paper-samarkand",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "medium"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "medium"},
+        {"id": "f6", "verdict": "supported", "confidence": "medium"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "medium"},
+        {"id": "f10", "verdict": "imprecise", "confidence": "high", "issue": "issue-06"},
+        {"id": "f11", "verdict": "supported", "confidence": "high"},
+        {"id": "f12", "verdict": "supported", "confidence": "medium"}
+      ],
+      "issues": [
+        {
+          "id": "issue-06",
+          "factId": "f10",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "伊比利亚半岛在十世纪出现纸坊",
+          "problem": "十世纪伊比利亚已用纸，但有记载的第一座纸坊是十一世纪的哈蒂瓦（Xàtiva/Játiva），约 1056 年；把纸坊出现的时间提前了一个世纪。",
+          "correction": "纸继续向西：伊比利亚半岛在十世纪已用纸，第一座有记载的纸坊约1056年建在哈蒂瓦；意大利在十三世纪有了法布里亚诺的造纸业。欧洲人用纸，最初也多从伊斯兰地区进口，技术则随着工匠的流动慢慢落地。",
+          "evidence": [
+            {"title": "Ministerio de Cultura: El papel, un poco de historia（PDF）", "url": "https://www.cultura.gob.es/dam/jcr:0b107a62-d25d-4a74-8a37-53f5c65d8b22/jun-12-un-poco-historia.pdf", "quote": "Se estableció en Játiva (Valencia) la primera fábrica de papel de occidente ... (data del año 1056)"},
+            {"title": "Patrimonio Cultural en la Defensa: 纸的历史", "url": "https://patrimoniocultural.defensa.gob.es/es/node/1806/", "quote": "La localidad valenciana de Játiva ... primera ciudad en tener una fábrica de papel en Europa, allá por el año de 1056"}
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "f2 的“八世纪已有作坊”主要依据传统说法与 Iranica 综述，考古证据有限。",
+        "f1 的怛罗斯战俘说最早见于较晚的阿拉伯文献，Bloom 等认为造纸术更可能是渐次传播。",
+        "f5 的巴格达纸坊建于 794/795 年，归功于 al-Fadl b. Yahya，见 Iranica 条目。"
+      ],
+      "summary": "造纸术西传的路线、原料与制度影响叙述成立；伊比利亚纸坊的年代被提前了一个世纪，已修正。"
+    }
+  ]
+}

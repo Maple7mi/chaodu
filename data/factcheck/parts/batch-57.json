@@ -1,0 +1,299 @@
+{
+  "batch": "batch-57",
+  "checkedAt": "2026-11-18T02:58:00+08:00",
+  "dossiers": [
+    {
+      "id": "w4-wh-wars-berlin-blockade",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "medium"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "medium"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "imprecise", "confidence": "high", "issue": "issue-01"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "supported", "confidence": "high"},
+        {"id": "f11", "verdict": "supported", "confidence": "high"},
+        {"id": "f12", "verdict": "supported", "confidence": "medium"}
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f8",
+          "severity": "major",
+          "verdict": "imprecise",
+          "claim": "1949年4月，空运达到高峰，一天运入的物资接近一万吨。",
+          "problem": "创纪录日的数字被低估：1949年4月16日（复活节）24小时内运入12 940.9短吨、1 398架次，约合1.17万公吨，不是“接近一万吨”。原文其余断言（超过封锁前铁路运量、证明封锁无效）与史料一致。",
+          "correction": "1949年4月空运达到高峰，4月16日一天运入近一万三千吨物资，超过封锁前铁路的日运输量。这向苏联证明：封锁无法让城市屈服，西方不会因成本退让，空运能长久维持。",
+          "evidence": [
+            {"title": "12,941 TONS FLOWN INTO BERLIN IN DAY FOR AIRLIFT RECORD (The New York Times, 1949-04-17)", "url": "https://www.nytimes.com/1949/04/17/archives/12941-tons-flown-into-berlin-in-day-for-airlift-record-marks-are.html", "quote": "they flew 12,940.9 short tons of supplies into the city on 1,398 flights in the twenty-four-hour period that ended this noon"},
+            {"title": "The Air Force Can Deliver Anything: A History of the Berlin Airlift (US DoD)", "url": "https://media.defense.gov/2018/Jan/24/2001869016/-1/-1/1/The%20Air%20Force%20Can%20Deliver%20Anything%20a%20History%20of%20the%20Berlin%20Airlift.PDF", "quote": "Tunner determined to set a record in tonnage delivered in a 24-hour period ... the total delivery for the period was 6,988.7 tons"}
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "Cherny《The Candy Bombers》与 Harrison《Driving the Soviets up the Wall》均为可核查的学术/纪实著作，书目信息完整。",
+        "三条空中走廊的法律依据是1945年11月盟军管制委员会的空运协议，不是波茨坦会议文件；f3表述为“1945年的协议”尚可接受。"
+      ],
+      "summary": "12条中11条与史料吻合，唯“一天接近一万吨”低估了1949年4月16日12 941短吨的纪录日，已给出修正。"
+    },
+    {
+      "id": "w4-psych-conformity",
+      "status": "verified",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "medium"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "supported", "confidence": "high"},
+        {"id": "f11", "verdict": "supported", "confidence": "medium"},
+        {"id": "f12", "verdict": "supported", "confidence": "medium"}
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "Asch 1956 专论（Psychological Monographs 70(9)）页码与卷期在书目中不完整，但文献本身可核查。",
+        "Berns et al. 2005 的结论是“从众伴随枕-顶网络功能变化”，f10 概括为“与视知觉相关的脑区活动变化”属准确压缩。"
+      ],
+      "summary": "阿希实验的年份、比例（约1/3判断、75%至少一次、25%从不）、群体规模饱和点与后续 Neuroimaging 结论均可核实，无需改动。"
+    },
+    {
+      "id": "world-myth-veda",
+      "status": "verified",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "medium"},
+        {"id": "f7", "verdict": "supported", "confidence": "medium"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "supported", "confidence": "high"},
+        {"id": "f11", "verdict": "supported", "confidence": "high"},
+        {"id": "f12", "verdict": "supported", "confidence": "high"}
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "书目第一条“《梨俱吠陀》（十卷本，约公元前1500—前1200年）”缺校勘本/译本信息，建议补 Max Müller 或 Geldner 版本。",
+        "“一千零二十八首”依 Śākala 校本；部分目录作1017首，属递传差异，f1 的1028可接受。"
+      ],
+      "summary": "颂诗总数、编成年代、因陀罗约250首、第九卷苏摩、原人歌与造物歌、奥义书转向，均与权威辞书及牛津书目一致。"
+    },
+    {
+      "id": "w4-myth-oceania-pele",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "medium"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "medium"},
+        {"id": "f5", "verdict": "supported", "confidence": "medium"},
+        {"id": "f6", "verdict": "supported", "confidence": "medium"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "imprecise", "confidence": "high", "issue": "issue-01"},
+        {"id": "f11", "verdict": "supported", "confidence": "medium"},
+        {"id": "f12", "verdict": "supported", "confidence": "medium"}
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f10",
+          "severity": "major",
+          "verdict": "imprecise",
+          "claim": "项目最终被否决，理由是文化利益与地质风险。这是夏威夷传统宗教第一次在法庭上被当作有效理由。",
+          "problem": "事实链被简化错位：True/Mid-Pacific 地热井是因租约不再续签、工程停摆（1991年前后），不是被法院以“文化利益与地质风险”否决；Pele Defense Fund v. Paty（1992）争的是原住民进入 Wao Kele o Puna 从事传统祭祀与采集的权利，法院发回重审，并未直接判地热违法。“第一次在法庭上被当作有效理由”亦无依据。",
+          "correction": "地热项目在1990年代引发冲突。开发商想在基拉韦厄附近雨林钻井取热，当地居民以佩莱圣地为由反对；工程1991年因租约与资金停摆，相关诉讼争的是原住民进入祭祀地的权利，并未直接否决地热。",
+          "evidence": [
+            {"title": "Pele Defense Fund v. Paty, Hawaii Supreme Court (1992)", "url": "https://www.courtlistener.com/opinion/1179958/pele-defense-fund-v-paty/", "quote": "remanded for trial on the claim alleging ... violation of article XII, § 7 by the continued denial of access into the undeveloped areas of Wao Kele 'O Puna"},
+            {"title": "True/Mid-Pacific Geothermal Venture shutting operations (University of Hawaii archive)", "url": "https://evols.library.manoa.hawaii.edu/bitstreams/0c65599c-3598-4212-9bbb-63cc48b884c6/download", "quote": "now that True/Mid Pacific Geothermal Venture is shutting operations ... True Geothermal hasn't renewed its lease for the land and is closing"}
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "Beckwith《Hawaiian Mythology》、Emerson《Pele and Hiiaka》均为可核查经典；NPS 的“寄回火山石”材料属公园档案，非正式出版物。",
+        "f3 的考艾岛—欧胡岛—摩洛基—毛伊—夏威夷岛路线与 USGS 所述地质年龄方向一致，USGS 原文只列考艾、欧胡、毛伊、夏威夷四站。"
+      ],
+      "summary": "佩莱叙事与地质年龄的对应、2018年火山口塌陷、火山石传说均成立；地热争议一段的因果与法律结论需改写。"
+    },
+    {
+      "id": "w3-cn-history-red-turban",
+      "status": "verified",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "medium"},
+        {"id": "f7", "verdict": "supported", "confidence": "medium"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "supported", "confidence": "high"},
+        {"id": "f11", "verdict": "supported", "confidence": "high"}
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "《元史》《明史》可用中华书局点校本核对；《庚申外史》记石人谶语，属带有宣传色彩的私史，f3 已作限定。",
+        "征发民夫数各书作“十五万”“十七万”，f1 用“大量”回避了分歧，处理得当。"
+      ],
+      "summary": "治河、颍州起事、龙凤政权、鄱阳湖与1368年建国等年份与专名全部对得上，无需改动。"
+    },
+    {
+      "id": "w4-myth-americas-vodou",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "imprecise", "confidence": "high", "issue": "issue-01"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "supported", "confidence": "medium"},
+        {"id": "f11", "verdict": "supported", "confidence": "high"},
+        {"id": "f12", "verdict": "supported", "confidence": "high"}
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f8",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "但这一细节最早见于十九世纪后期的记载，具体时间、地点与参与者，史学界仍有争议。",
+          "problem": "最早成文记载的时间被推后了半个多世纪：布瓦·卡伊曼仪式目前可查的最早印刷记述是 Antoine Dalmas 的《圣多明各革命史》（1814年），属十九世纪初；“后期”不准确。仪式日期一般系于1791年8月14日，起义在8月22日爆发。",
+          "correction": "一七九一年八月，北部种植园的奴隶起义爆发，传统叙述把它追溯到布瓦·卡伊曼的一场仪式。这一细节最早见于一八一四年达尔马的记载，具体时间、地点与参与者，史学界仍有争议。",
+          "evidence": [
+            {"title": "Histoire de la révolution de Saint-Domingue (Dalmas, 1814) — Internet Archive", "url": "https://archive.org/details/histoiredelarv00dalm/mode", "quote": "Includes a description of a voodoo ceremony among the black slaves in Bois Caïman ... on the 14th of August, 1791"},
+            {"title": "A Vodou Ceremony in 1791 and its Contemporary Significations (Stockholm Review of Latin American Studies)", "url": "https://webarchiveweb.wayback.bac-lac.canada.ca/web/20210308010538/https://web.archive.org/web/20120722160838/http://www.lai.su.se/gallery/bilagor/SRoLAS_No4_6.%20%E2%80%9DOur%20Government%20is%20in.pdf", "quote": "the Vodou ceremony at Bwa Kayiman on August 14, 1791"}
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "Métraux《Voodoo in Haiti》法文原版1958年、英译1959年，f11 取1958年可接受；Maya Deren《Divine Horsemen》1953年无误。",
+        "“伏都娃娃”条 Getty AAT 明确称其与海地伏都无实质关联，是19—21世纪流行文化的产物。"
+      ],
+      "summary": "洛阿体系、仪式次序、1804年独立与2003年官方承认均准确；仅布瓦·卡伊曼记载的“十九世纪后期”需改为十九世纪初。"
+    },
+    {
+      "id": "w5-myth-cn-linshui",
+      "status": "corrected",
+      "confidence": "medium",
+      "facts": [
+        {"id": "f1", "verdict": "unverifiable", "confidence": "medium", "issue": "issue-01"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "imprecise", "confidence": "high", "issue": "issue-02"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "imprecise", "confidence": "medium", "issue": "issue-03"},
+        {"id": "f7", "verdict": "supported", "confidence": "medium"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "medium"},
+        {"id": "f10", "verdict": "supported", "confidence": "high"},
+        {"id": "f11", "verdict": "supported", "confidence": "medium"}
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f1",
+          "severity": "minor",
+          "verdict": "unverifiable",
+          "claim": "现存较早的地方文献是南宋《三山志》，记福州有临水夫人祠。",
+          "problem": "《淳熙三山志》（梁克家，1182年）有“祠庙”门，但可检索的全文与整理本中未能定位到“临水夫人祠”或“顺懿庙”条目，无法确认该句所依据的具体卷次；只能确认临水夫人信仰在宋代已受赐额（淳熙间赐额“顺懿”），以及明代《明一统志》《八闽通志》始有较完整记载。",
+          "correction": null,
+          "evidence": [
+            {"title": "明清以降临水夫人信仰之演变（付华顺）", "url": "https://core.ac.uk/download/41453199.pdf", "quote": "明代最早提及临水夫人的是明天顺五年编撰的《明一统志》，卷七十四顺懿庙中载，在古田东三十里"},
+            {"title": "淳熙三山志（梁克家）全文", "url": "https://lfglib.cn/text/historylib/205958.html", "quote": "《淳熙三山志》宋 梁克家 著 ... 祠 庙"}
+          ]
+        },
+        {
+          "id": "issue-02",
+          "factId": "f3",
+          "severity": "major",
+          "verdict": "imprecise",
+          "claim": "为作法脱去胎儿，托人照看，结果胎儿被蛇妖所害，她自己也血崩而死。",
+          "problem": "“胎儿被蛇妖所害”“血崩而死”是晚出且彼此分歧的传说细节，早期较可靠的地方记载只说“脱胎祈雨，寻卒”，死因未作血崩之解；《闽都别记》系统才有蛇妖、长坑鬼等加害情节。作为史实性陈述过强，应退回“脱胎祈雨后去世”的层次。",
+          "correction": "最要紧的一段是她二十四岁那年。福州大旱，她已怀孕，仍登坛祈雨；为作法脱去胎儿，托人照看，随后自己死去。临死前发愿：死后必为神，救天下难产之人。",
+          "evidence": [
+            {"title": "临水行祠（清·戚弢言《连江县志》引文，识典古籍）", "url": "https://www.shidianguji.com/zh/mid-page/7569724189532438554", "quote": "孕数月，会大旱，脱胎祈雨，寻卒，诀云：吾死後，不救世人産難，非神也。年僅二十有四。"},
+            {"title": "民间信俗（陈靖姑信俗）·中国非物质文化遗产网", "url": "https://www.ihchina.cn/project_details/15150.html", "quote": "传说她是福州仓山下渡人，24岁时脱胎祈雨，为解除旱情、拯救百姓而献出了年轻的生命"}
+          ]
+        },
+        {
+          "id": "issue-03",
+          "factId": "f6",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "福建沿海常把两庙并排，一个在码头，一个在街巷。",
+          "problem": "“两庙并排、一在码头一在街巷”的空间布局说法找不到可靠依据，属写作性想象；可核实的是妈祖—临水夫人的职能分工（海上航行 / 产育护幼）与闽台并祀现象。",
+          "correction": "与妈祖相比，两人的分工很清楚：妈祖管海上航行，陈靖姑管产房与孩童。闽台沿海常同时供奉两神，渔民出海拜妈祖，家里添丁、孩子生病则求临水夫人。",
+          "evidence": [
+            {"title": "千年临水情 两岸一家亲（福建省人民政府网转载福建日报）", "url": "https://www.fj.gov.cn/zwgk/ztzl/sxzygwzxsgzx/sdjj/wvjj/202311/t20231121_6304762.htm", "quote": "陈靖姑又称临水夫人、顺天圣母，是福建最具影响力的女神之一，被海内外誉为“救产、护胎、佑民”的“妇女儿童保护神”"}
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "《古田县志》明清刻本未标具体版本与卷次，建议补万历或乾隆本。",
+        "庄孔韶《银翅》是福建地方社会研究，与临水夫人信仰只有间接关联，不能作为本条事实的直接依据。"
+      ],
+      "summary": "陈靖姑的生平骨架、二十四岁脱胎祈雨、三十六婆姐与2008年国家级非遗均成立；《三山志》条目无法核实，蛇妖害胎与“两庙并排”两处需回退或改写。"
+    },
+    {
+      "id": "w2-myth-india-samudra-manthan",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "medium"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "medium"},
+        {"id": "f10", "verdict": "supported", "confidence": "high"},
+        {"id": "f11", "verdict": "imprecise", "confidence": "medium", "issue": "issue-01"},
+        {"id": "f12", "verdict": "supported", "confidence": "high"}
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f11",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "泰国的素可泰、印度的埃洛拉石窟也有类似题材。",
+          "problem": "吴哥窟东回廊49米浮雕、图像强调对称这两点成立；但“素可泰”与“埃洛拉石窟”的搅海题材找不到可靠对应，素可泰以佛像与行走佛著称，搅海浮雕的著名实例在吴哥、以及现代泰国（如素万那普机场雕塑）等地。以不确定的专名举例，属高风险断言。",
+          "correction": "吴哥窟东回廊有一幅搅海浮雕，长约五十米，画着两队人拉蛇搅海；东南亚多地的寺庙与宫殿沿用这个题材，泰国的机场也把它做成巨型雕塑。图像把宇宙过程变成可看的对抗，往往比文本更强调对称。",
+          "evidence": [
+            {"title": "Churning of the Ocean of Milk Gallery Conservation Project (World Monuments Fund)", "url": "https://www.wmf.org/projects/churning-ocean-milk-gallery-conservation-project", "quote": "Located in the temple complex of Angkor Wat ... displays a spectacular 49-meter bas-relief"},
+            {"title": "印度教文化（大公报，素万那普机场“乳海翻腾”雕塑）", "url": "http://www.tkww.hk/epaper/viewNewsDetail/mobile/1372246989512773632.html", "quote": "泰國素汪那普機場的候機大堂擺放了一組龐大雕像，名為「乳海翻騰」"}
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "《摩诃婆罗多》中译本仅标“中国社会科学出版社”，缺译者与版次，建议补齐。",
+        "十四宝的名单在《毗湿奴往世书》《薄伽梵往世书》间确有出入，f5 用“常见的是”已作限定。"
+      ],
+      "summary": "搅海的起因、曼陀罗山与婆苏吉、毒与青颈、十四宝、摩希妮与罗睺均与史诗/往世书传统一致；仅“素可泰、埃洛拉”一例不实，已改为可核查的吴哥与东南亚例证。"
+    }
+  ]
+}

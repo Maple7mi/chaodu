@@ -1,0 +1,332 @@
+{
+  "batch": "batch-63",
+  "checkedAt": "2026-11-18T02:58:00+08:00",
+  "dossiers": [
+    {
+      "id": "world-history-suez",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "medium"},
+        {"id": "f5", "verdict": "imprecise", "confidence": "high", "issue": "issue-01"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "medium"},
+        {"id": "f8", "verdict": "supported", "confidence": "medium"},
+        {"id": "f9", "verdict": "wrong", "confidence": "high", "issue": "issue-02"},
+        {"id": "f10", "verdict": "supported", "confidence": "high"},
+        {"id": "f11", "verdict": "supported", "confidence": "high"}
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f5",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "1956年10月29日，以色列发动“卡代什行动”突入西奈半岛，两天内逼近运河东岸",
+          "problem": "以军10月29日开战，但到11月2日才进至距运河约15公里处，“两天内逼近运河东岸”提前了至少两天。英法的最后通牒在10月30日即已发出，也不是以军逼近运河后才“随即”发出。",
+          "correction": "1956年10月29日，以色列发动“卡代什行动”突入西奈半岛；英法随即以“隔离交战双方”为名发出最后通牒，11月2日以军进至距运河约十五公里处，为出兵提供了现成的借口。",
+          "evidence": [
+            {"title": "Az 1956-os szuezi válság és Magyarország (MEK)", "url": "http://www.mek.oszk.hu/20000/20060/20060.pdf", "quote": "1956. november 2-án az izraeli hadsereg tizenöt kilométerre megközelítette a Szuezi-csatornát."},
+            {"title": "60 Years Later: Sinai War 1956 (Jamm)", "url": "https://www.ima.org.il/FilesUpload/MedicineArmyArticlePDF/0/463/231912.pdf", "quote": "reaching a distance of 15 kilometers from the Suez Canal"}
+          ]
+        },
+        {
+          "id": "issue-02",
+          "factId": "f9",
+          "severity": "major",
+          "verdict": "wrong",
+          "claim": "1957年3月最后一批英法军队撤离塞得港，以色列也在同月撤出西奈",
+          "problem": "英法军队已于1956年12月22日全部撤出塞得港；1957年3月撤离的是以色列军队（加沙与西奈）。原句把两批撤军并成了1957年3月。",
+          "correction": "联合国紧急部队11月进驻运河区，1956年12月英法军队全部撤出塞得港，以色列也在1957年3月撤出加沙与西奈；这是联合国第一次派出武装维和部队，蓝盔部队从此成为停火线的常见景象。",
+          "evidence": [
+            {"title": "British and French Are Out of Suez; U.N. in Control (NYT, 1956-12-23)", "url": "https://www.nytimes.com/1956/12/23/archives/british-french-are-out-of-suez-un-in-control-tanks-that-had.html", "quote": "British and French troops have completed their withdrawal from Port Said"},
+            {"title": "Burns Explains U.N.'s Take-Over; General Says Israeli Troops Will Be Out (NYT, 1957-03-06)", "url": "https://www.nytimes.com/1957/03/06/archives/burns-explains-uns-take-over-general-says-israeli-troops-will-be-out.html", "quote": "Israeli troops will be out of the Gaza Strip"}
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "f1 的164公里是1869年原运河长度，现行主航道约193公里，原文用的是历史长度，未混用。",
+        "f2 的44%来自176,602/400,000股，四舍五入成立；购股法案见英国 Suez Canal Shares Act 1876。",
+        "f9 的撤军日期原句有误，已在 issue-02 更正。"
+      ],
+      "summary": "苏伊士专题的年份、股比与事件链基本可靠，仅以军逼近运河的时间与英法撤军日期需要更正。"
+    },
+    {
+      "id": "w1-psych-secrecy",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "wrong", "confidence": "high", "issue": "issue-01"},
+        {"id": "f3", "verdict": "supported", "confidence": "medium"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "imprecise", "confidence": "medium", "issue": "issue-02"},
+        {"id": "f6", "verdict": "supported", "confidence": "medium"},
+        {"id": "f7", "verdict": "supported", "confidence": "medium"},
+        {"id": "f8", "verdict": "supported", "confidence": "medium"},
+        {"id": "f9", "verdict": "supported", "confidence": "medium"},
+        {"id": "f10", "verdict": "supported", "confidence": "medium"},
+        {"id": "f11", "verdict": "supported", "confidence": "medium"},
+        {"id": "f12", "verdict": "supported", "confidence": "medium"}
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f2",
+          "severity": "major",
+          "verdict": "wrong",
+          "claim": "斯莱皮安与同事二〇一二年的研究发现，隐瞒秘密的人会反复想到它，反而比说出来更耗神",
+          "problem": "该论文的实际出版年份是2017年（JPSP 113(1):1–33），不是2012年。研究支持的是秘密会不由自主地浮现、占用注意力，并未直接比较“隐瞒”与“说出来”的耗神程度。",
+          "correction": "斯莱皮安与同事二〇一七年的研究发现，人们会不由自主地想到自己的秘密，这种反复回想比实际隐瞒更消耗心力。秘密的负担不在信息本身，而在它不断回到脑子里、占掉注意力。",
+          "evidence": [
+            {"title": "Slepian, Chun & Mason (2017), The experience of secrecy — PubMed", "url": "https://pubmed.ncbi.nlm.nih.gov/28481618/", "quote": "J Pers Soc Psychol. 2017 Jul;113(1):1-33."},
+            {"title": "The experience of secrecy — APA PsycNet", "url": "https://doi.org/10.1037/pspa0000085", "quote": "The experience of secrecy. Journal of Personality and Social Psychology, 113(1), 1-33."}
+          ]
+        },
+        {
+          "id": "issue-02",
+          "factId": "f5",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "研究提示，发现秘密造成的伤害，常常大于秘密内容本身",
+          "problem": "没有找到直接比较“发现秘密”与“秘密内容”伤害大小的研究。现有研究（Davis et al., 2021）证明的是对秘密可能暴露的恐惧会加重反复惦记与心理负担，不能支持“发现造成的伤害更大”这一比较级。",
+          "correction": "被隐瞒的一方最在意的，往往不是那件事，而是“你为什么觉得不能告诉我”，以及自己被排除在决定之外。研究提示，对秘密可能暴露的恐惧本身，就会让人反复惦记、加重心理负担。",
+          "evidence": [
+            {"title": "Davis et al. (2021), Secrets, Psychological Health, and the Fear of Discovery", "url": "https://doi.org/10.1177/0146167220946195", "quote": "the fear of discovery (FoD)—defined as the fear that one's secret may be revealed by means other than deliberate disclosure—predicts the extent to which secrets affect well-being"}
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "书目把 Slepian, Chun & Mason 的论文年份写成2012，实际为2017年（JPSP 113(1):1–33），已在 issue-01 更正。",
+        "Lane & Wegner (1995) 的标题应为 “The cognitive consequences of secrecy”（JPSP 69(2):237–253），书目未给卷期。",
+        "f3 的两类秘密是对 disclosure 文献的概括，非单一实证研究；f10 的“说出来更容易得到回应”只有羞耻/自我隐瞒相关研究间接支持，原文用“研究提示”已留余地。"
+      ],
+      "summary": "秘密专题的框架与元分析数字可靠，但斯莱皮安研究的年份写错，“发现比内容更伤”的比较级也超出了现有证据。"
+    },
+    {
+      "id": "w1-myth-world-valkyrie",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "medium"},
+        {"id": "f6", "verdict": "supported", "confidence": "medium"},
+        {"id": "f7", "verdict": "wrong", "confidence": "high", "issue": "issue-01"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "wrong", "confidence": "high", "issue": "issue-02"},
+        {"id": "f11", "verdict": "supported", "confidence": "medium"},
+        {"id": "f12", "verdict": "supported", "confidence": "high"}
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f7",
+          "severity": "major",
+          "verdict": "wrong",
+          "claim": "丹麦日德兰半岛出土的哈尔比小像",
+          "problem": "哈尔比（Hårby）在丹麦菲英岛西南部，不在日德兰半岛。丹麦国家博物馆2013年的新闻稿明确写“ved Hårby på Sydvestfyn”，并记为3.5厘米高的实心银像。",
+          "correction": "考古上最常被引用的实物，是丹麦菲英岛哈比村出土的哈尔比小像：一件约公元八百年的银质女性雕像，手持剑与盾，头发束在脑后。它没有铭文，被解读为女武神，靠的是造型比对。",
+          "evidence": [
+            {"title": "Fynbo finder valkyrie fra vikingetiden — Nationalmuseet", "url": "https://natmus.dk/presse-og-nyheder/nyhedsarkiv/2013/fynbo-finder-valkyrie-fra-vikingetiden/", "quote": "En unik valkyrie af sølv er dukket frem af jorden ved Hårby på Sydvestfyn … en 3,5 centimeter høj figur i massivt sølv."}
+          ]
+        },
+        {
+          "id": "issue-02",
+          "factId": "f10",
+          "severity": "major",
+          "verdict": "wrong",
+          "claim": "瓦格纳的歌剧《女武神》于一八五六年首演",
+          "problem": "《女武神》1870年6月26日在慕尼黑宫廷剧院首演；1856年是瓦格纳完成总谱的年份，不是首演年份。",
+          "correction": "把女武神写成战场上挑男人的美女，主要是十九世纪的产物。瓦格纳的歌剧《女武神》于一八七〇年在慕尼黑首演，让女武神的骑行成为流行旋律，也把盔甲与美貌固化成大众印象。",
+          "evidence": [
+            {"title": "Die Walküre — RILM Music Encyclopedias", "url": "https://rme.rilm.org/articles/sol42454/1.0/sol42454", "quote": "München 26.6.1870 Hofth."},
+            {"title": "Die Walküre — Wikipedia", "url": "https://en.wikipedia.org/wiki/Die_Walk%C3%BCre", "quote": "premiered on 26 June 1870 at the National Theatre in Munich"}
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "f7 的出土地点与 f10 的首演年份均有误，已在 issues 中更正。",
+        "f11 关于女武神与 dísir 合流的说法属于学界的推测性解释，原文用“逐渐合流”略强，但未单列 issue。",
+        "书目把《诗体埃达》抄本记为约1270年、斯诺里《散文埃达》记为约1220年，均为常见断代，成立。"
+      ],
+      "summary": "女武神专题的文本与图像脉络基本可靠，但哈尔比小像的出土地点写错，瓦格纳歌剧的首演年份也错了一个时代。"
+    },
+    {
+      "id": "w2-psych-family-housework-standards",
+      "status": "verified",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "medium"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "medium"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "medium"},
+        {"id": "f7", "verdict": "supported", "confidence": "medium"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "medium"},
+        {"id": "f10", "verdict": "supported", "confidence": "medium"},
+        {"id": "f11", "verdict": "supported", "confidence": "medium"},
+        {"id": "f12", "verdict": "supported", "confidence": "medium"}
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "f5、f7、f8、f9、f11、f12 原文存在“。，”连用的标点损坏（如“…换不来承认。，也换不来…”），属编辑问题，不影响事实判断，建议统一清理。",
+        "f2、f4 的“标准差异而非总时长”判断有家务劳动综述与 cleanliness standards 研究支持，但“更多与…有关”是相关方向，不是严格的效应量比较。",
+        "f8 的公平感与关系满意度双向关联见 Bodi/Mikula/Riederer (2010) 与 PLOS ONE (2019) 的追踪研究，原文已用“研究提示”，限定充分。"
+      ],
+      "summary": "家务标准专题的概念与实证方向均可核实，未发现需要改写的断言；原文有若干标点损坏需编辑处理。"
+    },
+    {
+      "id": "w3-wh-discovery-columbian-exchange",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "medium"},
+        {"id": "f10", "verdict": "supported", "confidence": "high"},
+        {"id": "f11", "verdict": "supported", "confidence": "high"},
+        {"id": "f12", "verdict": "imprecise", "confidence": "high", "issue": "issue-01"}
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f12",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "只是船变成了集装箱和飞机，速度比帆船快了两个数量级",
+          "problem": "集装箱船巡航约20–25节（37–46公里/小时），帆船约4–8节（7–15公里/小时），只快几倍；只有飞机（约900公里/小时）才接近两个数量级。原句把船和飞机并提，却用同一个倍数概括。",
+          "correction": "这场交换没有完成的一天。今天的入侵物种、抗药性病菌、跨国粮食贸易，仍然沿着相似的路径移动物种与风险，只是帆船换成了集装箱船和飞机：集装箱船快几倍，飞机快近百倍。",
+          "evidence": [
+            {"title": "Fuel Consumption by Containership Size and Speed — The Geography of Transport Systems", "url": "https://transportgeography.org/contents/chapter4/transportation-and-energy/fuel-consumption-containerships/", "quote": "Normal (20-25 knots; 37.0 – 46.3 km/hr)"},
+            {"title": "Sailing Distance Calculator — Wi Yachts", "url": "https://www.wiyachts.com/blog/itinerary-sailing-distance-calculator/amp/", "quote": "A monohull has an average cruising speed between 4 and 8 knots."}
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "f12 的“两个数量级”只对飞机成立，已在 issue 中更正。",
+        "f2 的咖啡、香蕉传入美洲晚于16世纪，但同属哥伦布大交换后的物种流动，原文未给时间，不需改。",
+        "f7 的“几千万到一亿多”覆盖了 Koch et al. (2019) 的 6050万（IQR 4480–7820万）与更早的高估值，原文已明说估计不一。"
+      ],
+      "summary": "哥伦布大交换专题的物种清单、病菌时间线与人口估值均可核实，仅“快两个数量级”的速度概括需要按船与飞机分开。"
+    },
+    {
+      "id": "w4-cn-history-renkou-dingyin",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "medium"},
+        {"id": "f5", "verdict": "imprecise", "confidence": "high", "issue": "issue-01"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "supported", "confidence": "medium"},
+        {"id": "f11", "verdict": "supported", "confidence": "high"},
+        {"id": "f12", "verdict": "supported", "confidence": "high"}
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f5",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "各省实行时间不一，到乾隆年间基本完成",
+          "problem": "摊丁入亩雍正元年（1723）推行，到雍正七年（1729）已推广至绝大部分省份，湖北最后完成；山西因官员反对迟至乾隆元年（1736）才实施。说“到乾隆年间基本完成”把主体完成时间推后了。",
+          "correction": "雍正朝推行摊丁入亩，把固定下来的丁银摊入田赋，按地亩征收，地多者多出，地少者少出。各省实行时间不一，到雍正末年基本完成，山西迟至乾隆元年；田赋与丁银合并成一条，征收手续也简化了。",
+          "evidence": [
+            {"title": "摊丁入亩 — 百度百科", "url": "https://baike.baidu.com/item/%E6%91%8A%E4%B8%81%E5%85%A5%E4%BA%A9", "quote": "雍正元年（1723年）起全国普遍推行，至雍正七年（1729年）湖北最后完成实施 … 山西因官员反对推迟至乾隆元年（1736年）"},
+            {"title": "地丁银 — 百度百科", "url": "https://baike.baidu.com/item/%E5%9C%B0%E4%B8%81%E9%93%B6", "quote": "各省实施进度不一 … 山西因官员反对推迟至乾隆元年（1736年）"}
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "f5 的完成时间已在 issue-01 更正。",
+        "f3 的“康熙五十年丁数”常被引作2462万丁、丁银335万两，与《清史稿》口径一致；原文未给具体数字，不需补。",
+        "f7 的清代人口估值学界差异较大，原文已加“学界估算不一”的限定，成立。"
+      ],
+      "summary": "清代人口与赋役专题的制度脉络、年份和数字基本可靠，仅摊丁入亩的完成时间需要从“乾隆年间”改到“雍正末年，山西迟至乾隆元年”。"
+    },
+    {
+      "id": "cn-myth-nuwa",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "medium"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "wrong", "confidence": "high", "issue": "issue-01"},
+        {"id": "f11", "verdict": "supported", "confidence": "high"},
+        {"id": "f12", "verdict": "supported", "confidence": "medium"}
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f10",
+          "severity": "major",
+          "verdict": "wrong",
+          "claim": "用两扇磨石从山顶滚下，磨石相合才成婚",
+          "problem": "《独异志》原文的占验是烟：兄妹在昆仑山祝告“天若遣我兄妹二人为夫妻而烟悉合；若不使，烟散”，烟合而成婚。磨石相合是后世另传的版本，不是《独异志》原文。",
+          "correction": "唐代李亢《独异志》记女娲兄妹在昆仑山结为夫妇，两人上山祝告，若烟合拢便成婚，烟果然合在了一起。这是后起的解释，用来说明婚姻制度的起源，也把女娲从创世神变成了婚姻始祖。",
+          "evidence": [
+            {"title": "《独异志》— 识典古籍（古今图书集成引）", "url": "https://www.shidianguji.com/mid-page/7596443063024566281", "quote": "咒曰：天若遣我兄妹二人为夫妻而烟悉合；若不使，烟散。于烟即合，其妹即来就兄。"}
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "f10 的磨石情节与《独异志》原文不符，已在 issue-01 更正。",
+        "f11 的“依山凿窟”有北齐石窟与摩崖刻经为据，娲皇阁底层即北齐石窟，成立。",
+        "f9 的“分执规与矩”在汉画像石中常见（伏羲执规、女娲执矩），原文未指定谁执哪一件，成立。"
+      ],
+      "summary": "女娲专题的文本层次与图像材料基本可靠，仅《独异志》兄妹婚的占验物写错：原文是烟合，不是磨石相合。"
+    },
+    {
+      "id": "w1-geo-world-steppe",
+      "status": "verified",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "medium"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "medium"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "medium"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "supported", "confidence": "high"},
+        {"id": "f11", "verdict": "supported", "confidence": "medium"}
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "f1 的“八千公里”是匈牙利平原至蒙古高原的常用概数，不同划法可差数百公里。",
+        "f2 的200–500毫米覆盖典型草原与荒漠草原；干草原核心区常引200–450毫米，原文取宽区间，成立。",
+        "f9 的巴尔喀什湖“西淡东咸”由伊犁河等西侧入流造成，原文未给比例，方向正确。"
+      ],
+      "summary": "欧亚草原专题的地理参数、土壤与生态过程均可核实，未发现需要改写的断言。"
+    }
+  ]
+}

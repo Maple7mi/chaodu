@@ -1,0 +1,287 @@
+{
+  "batch": "batch-18",
+  "checkedAt": "2026-11-18T02:58:00+08:00",
+  "dossiers": [
+    {
+      "id": "w4-wh-regions-apartheid",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "imprecise", "confidence": "high", "issue": "issue-01"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "supported", "confidence": "high"},
+        {"id": "f11", "verdict": "supported", "confidence": "high"},
+        {"id": "f12", "verdict": "supported", "confidence": "high"}
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f7",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "1970年代，特兰斯凯等四个班图斯坦被宣布“独立”",
+          "problem": "四个“独立”跨了六年，只有一个在1970年代前半段：特兰斯凯1976、博普塔茨瓦纳1977、文达1979、西斯凯1981。写成“1970年代”把西斯凯排除在外。",
+          "correction": "班图斯坦政策把黑人的“国籍”迁到保留地。1976年起，特兰斯凯、博普塔茨瓦纳、文达、西斯凯相继被宣布“独立”，最后一个在1981年；居民在法律上成为外国人，失去南非公民权，国际社会普遍不承认这些“国家”。",
+          "evidence": [
+            {"title": "Bantustan — Oxford Reference (The Oxford Companion to Politics of the World)", "url": "https://www.oxfordreference.com/display/10.1093/oi/authority.20110803095445736?print", "quote": "Transkei accepted independence in 1976, followed by Bophuthatswana (1977), Venda (1979), and the Ciskei (1981)."},
+            {"title": "Max Planck Encyclopedia of Public International Law: Bantustans", "url": "https://opil.ouplaw.com/display/10.1093/law:epil/9780199231690/law-9780199231690-e1103", "quote": "Bantustans; Transkei; independence 1976"}
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "《人口登记法》最初的三类是白人、有色人、原住民（黑人），印度人后来自成类别；条文说“白人、有色人、印度人或黑人”是制度定型后的口径。"
+      ],
+      "summary": "12条中11条可用官方与学术来源支撑，仅班图斯坦“独立”的年份范围需要收紧到1976–1981。"
+    },
+    {
+      "id": "world-geo-la-smog",
+      "status": "verified",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "medium"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "supported", "confidence": "high"},
+        {"id": "f11", "verdict": "supported", "confidence": "medium"}
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "f7的“约100天”是量级说法：1970年代曾超过200天，2017年大洛杉矶仍有145个超标日，2020年单站最多141天，近年盆地在100–150天区间波动。"
+      ],
+      "summary": "光化学机理、1943年事件、CARB与《清洁空气法》时间线、催化器与无铅汽油均可核实，超标日下降的量级也站得住。"
+    },
+    {
+      "id": "w3-wh-revolutions-1848",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "medium"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "imprecise", "confidence": "high", "issue": "issue-01"},
+        {"id": "f11", "verdict": "supported", "confidence": "high"},
+        {"id": "f12", "verdict": "supported", "confidence": "high"}
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f10",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "普鲁士军队解散法兰克福议会",
+          "problem": "解散议会的是符腾堡军队：1849年6月法兰克福议会的残余议员迁到斯图加特，6月18日会场被符腾堡国王的军队封锁；普鲁士与奥地利军队是迫使议会撤离法兰克福的压力，不是执行解散者。",
+          "correction": "1849年，奥地利在俄国军队帮助下镇压匈牙利，意大利各邦的共和国被逐一击败；法兰克福议会的残余议员迁到斯图加特，6月被符腾堡军队封锁会场而解散。革命在两年内相继失败，旧王朝大多复位。",
+          "evidence": [
+            {"title": "Bundesarchiv: Juni 1849", "url": "https://www.bundesarchiv.de/themen-entdecken/online-entdecken/storys/schlaglichter-einer-revolution/juni-1849/", "quote": "Die Nationalversammlung war angesichts der Bedrohung durch die um Frankfurt zusammengezogenen preußischen und österreichischen Truppen nach Württemberg ausgewichen."},
+            {"title": "Dissertation (d-nb.info): Das Rumpfparlament in Stuttgart", "url": "https://d-nb.info/106661105X/34", "quote": "Das Fritzsche Reithaus ... wurde den Abgeordneten am 18.6.1849 von Truppen versperrt."}
+          ]
+        }
+      ],
+      "sourceNotes": [],
+      "summary": "1848年各国时间线与事件序列基本准确，唯一需要修正的是把法兰克福议会的解散归给了普鲁士军队。"
+    },
+    {
+      "id": "w4-myth-oceania-sami-shaman",
+      "status": "corrected",
+      "confidence": "medium",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "unverifiable", "confidence": "medium", "issue": "issue-01"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "medium"},
+        {"id": "f5", "verdict": "supported", "confidence": "medium"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "medium"},
+        {"id": "f10", "verdict": "supported", "confidence": "high"},
+        {"id": "f11", "verdict": "imprecise", "confidence": "high", "issue": "issue-02"},
+        {"id": "f12", "verdict": "supported", "confidence": "high"}
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f2",
+          "severity": "minor",
+          "verdict": "unverifiable",
+          "claim": "noaidi 字源与看见有关",
+          "problem": "没有找到可核来源支持“字源与看见有关”。词源资料只确认 noaidi 通行于各萨米语群、可能与芬兰语 noita 同源，来源本身有争议；“一个社群往往只有一两位”也没有可引的统计。",
+          "correction": "noaidi 是萨米萨满的称呼，词源至今没有定论，不宜写成与“看见”相关。他的职责是出神、占卜、治病、寻回失物，并在社群与神灵世界之间传递消息；他并非全职祭司，平时也放牧、捕鱼。",
+          "evidence": [
+            {"title": "Noaider og trommer (UiT Norges arktiske universitet)", "url": "https://uit.no/Content/475821/Noaiderogtrommer.pdf", "quote": "Termen noaidi brukes som kjent hos alle samegrupper, innbefattet Kola-samene, som betegnelse på sjamaner"},
+            {"title": "The noaidi and the outside Scandinavian understanding (Leiden University)", "url": "https://scholarlypublications.universiteitleiden.nl/access/item%3A2892210/view", "quote": "The term noaidi for the pre-Christian Sami may have included (as the generic term) the activities of diviner and sorcerer."}
+          ]
+        },
+        {
+          "id": "issue-02",
+          "factId": "f11",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "1986年萨米旗帜和萨米议会的建立",
+          "problem": "把两件事并到1986年。萨米旗帜1986年启用，但萨米议会是挪威1989、瑞典1993、芬兰1996才相继成立；阿尔塔河抗议也在1970年代末到1982年，不是1970年代一个点。",
+          "correction": "二十世纪后期，萨米文化复兴。1970年代末的阿尔塔河抗议成为这场复兴的标志；1986年萨米旗帜启用，挪威、瑞典、芬兰的萨米议会分别在1989、1993、1996年成立，语言和 joik 重新进入公共空间。",
+          "evidence": [
+            {"title": "Yle: Saamelaisten asema ja Suomen valtio", "url": "https://yle.fi/a/3-5756113", "quote": "Norjan saamelaisten parlamentti Saamelaiskäräjät aloittaa toimintansa 1989 Karasjoella. ... Ruotsi seuraa 1993 ... Suomi ... perustaa oman parlamenttinsa 1996 Inariin."}
+          ]
+        }
+      ],
+      "sourceNotes": [],
+      "summary": "鼓、审判记录与殖民压制部分可靠；需修正 noaidi 的未证实词源，以及把旗帜与议会都算在1986年的合并叙述。"
+    },
+    {
+      "id": "w2-psych-comm-repair",
+      "status": "verified",
+      "confidence": "medium",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "medium"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "medium"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "medium"},
+        {"id": "f8", "verdict": "supported", "confidence": "medium"},
+        {"id": "f9", "verdict": "supported", "confidence": "medium"},
+        {"id": "f10", "verdict": "supported", "confidence": "medium"},
+        {"id": "f11", "verdict": "supported", "confidence": "high"},
+        {"id": "f12", "verdict": "supported", "confidence": "medium"}
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "f3的“比争吵主题更能区分走向”是戈特曼模型的总结性说法（修复尝试是关系稳定最重要的因素之一），1992年JPSP论文本身量化的是负性情感与生理唤起对解体的预测，不是修复尝试与争吵主题的对照实验。"
+      ],
+      "summary": "修复尝试的定义、双向性与“相关而非因果”的限定都符合戈特曼研究及其临床文献，未发现需要改写的硬事实。"
+    },
+    {
+      "id": "w4-myth-oceania-maui",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "medium"},
+        {"id": "f2", "verdict": "imprecise", "confidence": "high", "issue": "issue-01"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "medium"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "medium"},
+        {"id": "f10", "verdict": "supported", "confidence": "medium"},
+        {"id": "f11", "verdict": "supported", "confidence": "high"},
+        {"id": "f12", "verdict": "supported", "confidence": "medium"}
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f2",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "《波利尼西亚神话》主要依据 Te Rangikaheke 等人写的手稿",
+          "problem": "“主要依据”过强。格雷1855年的书大量采用口传与多个报道者，其中约四分之一来自 Te Rangikaheke 的手稿；手稿是重要来源，但不是全书的主要底本。",
+          "correction": "毛利版本最完整的记录来自19世纪。乔治·格雷1855年出版《波利尼西亚神话》，其中约四分之一取自毛利学者 Te Rangikaheke 的手稿，其余来自其他报道者；这些手稿是口传与书写的混合，不能当成原版。",
+          "evidence": [
+            {"title": "Te Ao Hou 61 (1968): Grey's Polynesian Mythology", "url": "https://paperspast.natlib.govt.nz/periodicals/TAH196803.2.8", "quote": "about a quarter of his material was taken from the manuscripts of Te Rangikaheke"},
+            {"title": "Kōtare: Grey and Te Rangikaheke", "url": "https://ojs.victoria.ac.nz/kotare/article/download/658/469/0", "quote": "Te Rangikaheke manuscripts; Grey, Polynesian Mythology, 1855"}
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "f1把毛利语、夏威夷语、汤加语都写成 Maui，实际拼写带长音符号（Māui / Māui / Maui），句子因此自相矛盾；不影响史实判断，但宜在校对时统一。"
+      ],
+      "summary": "钓岛、取火、套太阳与死亡故事均与 Te Ara 等来源吻合；只有格雷书稿来源的比重被写高了。"
+    },
+    {
+      "id": "w3-myth-world-xibalba",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "medium"},
+        {"id": "f6", "verdict": "wrong", "confidence": "high", "issue": "issue-01"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "supported", "confidence": "medium"},
+        {"id": "f11", "verdict": "supported", "confidence": "high"},
+        {"id": "f12", "verdict": "supported", "confidence": "high"}
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f6",
+          "severity": "major",
+          "verdict": "wrong",
+          "claim": "双胞胎带上了“一根可以替换的玉米秆”和“一只会说话的鹦鹉”",
+          "problem": "替换头颅用的是南瓜（chilacayote），不是玉米秆；玉米秆是他们出发前种在祖母家、用来显示生死的信号。“会说话的鹦鹉”在《波波尔·乌》文本里找不到对应，属于混入的情节。",
+          "correction": "双胞胎长大后也爱打球，声音吵到了冥界，领主们再次把他们召下去。这一次他们带上了对付考验的办法：出发前在祖母家种下玉米秆，作为生死信号；此外还有彼此配合的默契与一整套骗术。",
+          "evidence": [
+            {"title": "Sacco, The road through Xibalba (Trent University)", "url": "https://arthurarchives.trentu.ca/_flysystem/fedora/2024-10/Sacco_trentu_0513D_11040.pdf", "quote": "the seemingly nonsensical substitute of the chilicayote for Hunahpu's head"},
+            {"title": "House in Xibalba (Southern Illinois University thesis)", "url": "https://opensiuc.lib.siu.edu/cgi/viewcontent.cgi?article=1005&context=uhp_theses", "quote": "a rabbit began running and all of the lords of Xibalba chased the rabbit and the ball, and Hunahpu took his head back."}
+          ]
+        }
+      ],
+      "sourceNotes": [],
+      "summary": "冥界结构、试炼房屋、球赛骗局与玉米造人都能对上译本与研究文献；只有“玉米秆替头、会说话的鹦鹉”这一处把两个母题混在了一起。"
+    },
+    {
+      "id": "w4-geo-cn-check-dam",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "medium"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "imprecise", "confidence": "high", "issue": "issue-01"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "supported", "confidence": "high"},
+        {"id": "f11", "verdict": "supported", "confidence": "medium"},
+        {"id": "f12", "verdict": "supported", "confidence": "high"}
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f7",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "骨干坝按五十年一遇设计、五百年一遇校核",
+          "problem": "这是分等标准的最高一档，不是统一规定。按 SL 289，骨干坝按库容分等：5级设计20–30年、校核200–300年；4级才是设计30–50年、校核300–500年。原文把上限写成了通例。",
+          "correction": "上世纪七十年代，陕北特大暴雨中，一批标准不足的淤地坝垮塌，冲毁下游的田和路，教训推动了除险加固与标准修订。此后的规范按库容分等设防，等级较高的骨干坝才按五十年一遇设计、五百年一遇校核。",
+          "evidence": [
+            {"title": "SL 289—2003《水土保持治沟骨干工程技术规范》（条文摘录，青岛市西海岸新区）", "url": "https://www.xihaian.gov.cn/zwgk/bmgk/csgl/gkml/zdgz/swsl/202012/P020201207467674378669.pdf", "quote": "SL 289—2003 水土保持治沟骨干工程技术规范：按库容分等确定设计淤积年限与校核洪水标准"},
+            {"title": "《中国水土保持》1988年第2期：淤地坝设计标准问题", "url": "http://stbctb.cnjournals.com/stbctb/article/abstract/19880209", "quote": "当时规范为10年设计、30年校核，论文建议骨干坝提高到25～30年设计、100～300年校核"}
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "f2“坝址选得好，工程量能省一半”是经验说法，未见出处；水利部科普页支持坝地亩产为坡地4–5倍、陕北6–10倍，但未给工程量数字。"
+      ],
+      "summary": "淤地坝的拦沙、造地、坝系与病害逻辑均可由水利部与科普来源支撑；设计标准被写成了单一数值，需按分等规范加限定。"
+    }
+  ]
+}

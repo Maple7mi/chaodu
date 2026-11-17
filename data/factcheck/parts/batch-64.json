@@ -1,0 +1,300 @@
+{
+  "batch": "batch-64",
+  "checkedAt": "2026-11-18T02:55:00+08:00",
+  "dossiers": [
+    {
+      "id": "psych-jealousy",
+      "status": "verified",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "medium"},
+        {"id": "f6", "verdict": "supported", "confidence": "medium"},
+        {"id": "f7", "verdict": "supported", "confidence": "medium"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "medium"},
+        {"id": "f10", "verdict": "supported", "confidence": "medium"},
+        {"id": "f11", "verdict": "supported", "confidence": "medium"},
+        {"id": "f12", "verdict": "supported", "confidence": "high"}
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "sources 只给作者、年份与刊名，无卷期页码；核对结果：Buss, Larsen, Westen & Semmelroth 1992 载 Psychological Science 3(4):251-255（强迫选择，男性约 60% 选性不忠、女性约 17%），Sagarin et al. 2012 引言复述了该比例。",
+        "DeSteno & Salovey 1996 的引文错配：给出的是 PSPB 上的《Jealousy and the characteristics of one's rival》，而连续评分使性别差异缩小/消失的研究是 DeSteno & Salovey 1996, Psychological Science 7(6):367-372。因此 f3 的年份与结论可核，但 bibliographic 条目需替换。",
+        "f4 的元分析为 Sagarin et al. 2012, Evolution and Human Behavior 33(6):595-614：40 篇论文、209 个效应量、47 个独立样本；连续测量 g*=0.258（95%CI 0.188-0.328），真实不忠 7 项 g*=0.234，故「效应量很小」成立。",
+        "f1 的两分（reactive / suspicious）见 Rydell & Bringle 2007；D2 f1 采用的五分/三分模型不同源（Buunk 1997 的三类为 reactive、preventive、anxious），两篇 dossier 使用不同分类，读者需注意。",
+        "f6 的「羞耻」不在最常见的清单里：文献常把嫉妒描述为愤怒、恐惧、悲伤、厌恶的混合（Springer 词条），羞耻属临床常见但非标准枚举，故给 medium。",
+        "f8 的元分析证据：Stith et al. 2004 报告嫉妒与男性施暴 r≈.17；Spencer et al. 2022 合并样本中嫉妒与施暴 .24、与受害 .23。原文用「多项元分析」「重要风险因素」，未夸大因果。",
+        "f12 的样本构成可核：Sagarin 2012 中 45 个样本用假设情境、7 个用真实不忠经历，「多数研究依赖假设情境与自陈」成立。"
+      ],
+      "summary": "嫉妒性别差异这条线可核：Buss 1992 的强迫选择比例、DeSteno & Salovey 1996 连续评分使差异缩小、Sagarin 2012 元分析 g*=0.258。唯一需要修的是 sources 里 DeSteno & Salovey 那一篇的期刊条目（PSPB 版是另一项研究），正文结论本身成立。"
+    },
+    {
+      "id": "psych-triangle",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "medium"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "imprecise", "confidence": "high", "issue": "issue-01"},
+        {"id": "f5", "verdict": "supported", "confidence": "medium"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "medium"},
+        {"id": "f8", "verdict": "supported", "confidence": "medium"},
+        {"id": "f9", "verdict": "supported", "confidence": "medium"},
+        {"id": "f10", "verdict": "supported", "confidence": "medium"},
+        {"id": "f11", "verdict": "supported", "confidence": "medium"}
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f4",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "使用社交网站时间越长，嫉妒与关系不满越高",
+          "problem": "把两项结果并成一项。缪斯等人 2009 年的研究（Cyberpsychology & Behavior 12(4):441-444，308 名本科生）测量的是与 Facebook 相关的嫉妒，摘要未报告关系满意度，也没有检验「时间越长」的纵向关系；研究为横断面自陈问卷，只能说明使用越多、嫉妒越强这一相关。",
+          "correction": "社交平台改变了嫉妒的触发条件。缪斯等人二〇〇九年调查三百余名大学生发现，使用社交网站越频繁，与Facebook有关的嫉妒越强；这是相关而非因果，研究并未报告关系满意度。看得越多，越容易看见威胁。",
+          "evidence": [
+            {"title": "PubMed: More information than you ever wanted: does Facebook bring out the green-eyed monster of jealousy?", "url": "https://pubmed.ncbi.nlm.nih.gov/19366318/", "quote": "Facebook usage was found to interact with measures of self-esteem and relationship satisfaction ... Facebook use significantly predicted Facebook-related jealousy, even after controlling for individual, personality, and relationship factors."},
+            {"title": "Muise, Christofides & Desmarais 2009 摘要页（CyberPsychology & Behavior 12(4):441-444）", "url": "https://www.liebertpub.com/doi/10.1089/cpb.2008.0263", "quote": "More Information than You Ever Wanted: Does Facebook Bring Out the Green-Eyed Monster of Jealousy?"}
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "f1 的三分模型在文献里有不止一种切法：Buunk 1997 分 reactive、preventive、anxious；Pfeiffer & Wong 1989 的多维嫉妒量表分 cognitive、emotional、behavioral。原文把第三类写作「怀疑性嫉妒」，与 Rydell & Bringle 的 suspicious facet 一致，但把它归给「预防性/怀疑性」三分时，第三类其实常叫 anxious jealousy。",
+        "f4 的年份、作者、期刊均可核；问题只在结论被扩写（详见 issue-01）。",
+        "f5 的电子监控研究为 Tokunaga 2011, Computers in Human Behavior（人际电子监控，IES），支持「查岗与更低的信任相关」；「短期安心、长期削弱」是机制推论，原文已用「研究提示」限定。",
+        "f8 的寻求保证（reassurance seeking）是焦虑与强迫谱系研究里的成熟构念，但「下一次需要更多」的剂量效应主要来自临床与实验研究，属机制解释；原文措辞未过度断言。",
+        "f10 的证据混杂：既有研究报告协商型非单偶伴侣嫉妒更低（Balzarini et al. 2021），也有研究指出「同意并不消除嫉妒，只是改变了对嫉妒的评价与调节方式」。原文用「不一定更低」，与后一种表述相符。"
+      ],
+      "summary": "三角化、依恋焦虑、电子监控、第三方非人、寻求保证等条目均有文献支撑；需改的是 f4，坎贝尔式表述把缪斯 2009 的「Facebook 相关嫉妒」扩写成了「嫉妒与关系不满」，已按摘要收窄并注明相关而非因果。"
+    },
+    {
+      "id": "w1-world-history-ancient-cuneiform",
+      "status": "verified",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "medium"},
+        {"id": "f5", "verdict": "supported", "confidence": "medium"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "supported", "confidence": "high"},
+        {"id": "f11", "verdict": "supported", "confidence": "high"},
+        {"id": "f12", "verdict": "supported", "confidence": "high"}
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "sources 三种（罗宾逊、范德米罗普、莫兰）均无页码；关键年代与数量改用可检索的博物馆与百科条目核对。",
+        "f1 的乌鲁克早期泥板（Uruk IV/III，约 3200-3000 BC）以数字与物品符号为主，属行政记账，学界通称「原始楔文」，与原文「不是完整句子、用来核对仓库进出」一致。",
+        "f4 的「泥板屋」= edubba（苏美尔语 e-dub-ba-a），学生抄写词表、谚语与文学作品，并有体罚记载（如《书吏与顽童》），均属亚述学常识。",
+        "f7 的「十二块泥板」为标准巴比伦版（Sîn-lēqi-unninni 编），原文用「据传」处理整理者归属，是稳妥写法。",
+        "f8 的阿玛尔纳信件计数有 382 封（Knudtzon 1907 编定）与约 380 封两种说法，原文「约三百八十封」可接受；现藏开罗、柏林、大英博物馆等，与原文一致。",
+        "f10 的 1857 年对照实验为四人（Rawlinson、Hincks、Oppert、Fox Talbot）分译同一篇亚述铭文、由 Edwin Norris 主持，结果基本一致；原文「几位学者独立翻译同一段铭文」准确。",
+        "f11 的「数以千计」偏保守：库云吉克出土约 30,000 块泥板与残片，19 世纪运往大英博物馆，构成亚述研究基础。"
+      ],
+      "summary": "从乌鲁克记账泥板、芦苇笔与火烧变硬、符号的表意表音、泥板屋学校、契约与证人、吉尔伽美什十二板、阿玛尔纳信件、六十进制、罗林森与 1857 年判读、亚述巴尼拔图书馆到公元一世纪失传，全部与博物馆/百科/亚述学通说相符，未发现需改写的断言。"
+    },
+    {
+      "id": "w2-myth-mesopotamia-akitu",
+      "status": "verified",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "medium"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "medium"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "medium"},
+        {"id": "f8", "verdict": "supported", "confidence": "medium"},
+        {"id": "f9", "verdict": "supported", "confidence": "medium"},
+        {"id": "f10", "verdict": "supported", "confidence": "high"},
+        {"id": "f11", "verdict": "supported", "confidence": "medium"},
+        {"id": "f12", "verdict": "supported", "confidence": "high"}
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "sources 四种（《埃努玛·埃利什》、Thureau-Dangin 1921、Linssen 2004、居鲁士圆柱）只给书名与年份，无页码；仪式细节改用引用了 Thureau-Dangin 与 Linssen 的综述核对。",
+        "f1 的「十一天」与尼散月（公历三四月）出自晚期巴比伦仪式泥板；秋季确有较小的阿基图（收获节），与原文「秋季还有一次较小的阿基图」一致。",
+        "f3 的《埃努玛·埃利什》为七块泥板、约 1,090 行、每板 115-170 行，原文「约一千行」「十二块」（此处指吉尔伽美什）与「五十个名号」「金古之血造人」均可核。",
+        "f5/f6 的第 5 日程序：王交出王冠、权杖与佩剑，跪地以马尔杜克名起誓未获罪，祭司打其脸颊、揪耳；流泪为吉兆（神已悦纳其誓、王位保留），不流泪则被视为神可能废王。原文顺序与因果均准确。",
+        "f7 的替身王（šar pūhi）主要见于亚述与新亚述文献，用于承担凶险预兆，期限过后替身常被处死；原文已用「可能」「往往」限定。",
+        "f9 的归还执行者有争议：以撒哈顿（680-669）宣称重建 Esagila 并送回马尔杜克，但部分学者认为神像真正回归在沙马什-舒姆-乌金（668 年后）时期，以撒哈顿的表述带有政治宣传成分，故给 medium。",
+        "f10 的居鲁士圆柱原文「他（马尔杜克）寻找一位正义的君主……牵起他的手，呼唤安善王居鲁士之名」，支持「马尔杜克选择了他」；「参加新年节、握住马尔杜克的手」属仪式性描述，见相关研究。",
+        "f11 的「曾计划参加新年节但未完成」出自晚期古典文献（阿里安等），亚历山大 323 BC 死于巴比伦可确证；「塞琉古王朝继续举行、形式已变」为通说。",
+        "f12 的程序泥板确为晚期（可能塞琉古时期）抄本，学界普遍提醒不能直接推及汉谟拉比时代，原文写法稳妥。"
+      ],
+      "summary": "阿基图节的十一天、尼散月、城外阿基图屋与伊什塔尔门游行、《埃努玛·埃利什》吟诵与五十名号、王受辱与流泪吉兆、替身王、诸神点名、689 BC 掠像与以撒哈顿重建、居鲁士圆柱、亚历山大之死，全部可核；仅神像归还的执行者与「计划参加」两点属学界有争议或晚出记载，已在 sourceNotes 标注并给 medium。"
+    },
+    {
+      "id": "w3-wh-discovery-columbus-geography",
+      "status": "verified",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "medium"},
+        {"id": "f10", "verdict": "supported", "confidence": "high"},
+        {"id": "f11", "verdict": "supported", "confidence": "high"},
+        {"id": "f12", "verdict": "supported", "confidence": "high"}
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "sources 四种（Morison 1942、Fernández-Armesto 1991、Phillips & Phillips 1992、拉斯·卡萨斯摘编日志）均无页码；具体数字（地球周长、海里数、日期）改用可检索的航海史与研究文献核对。",
+        "f1 的估算可核：哥伦布采用约 18,000-19,000 英里的地球周长（实际约 24,900 英里），并把亚洲东扩，得出加那利以西约 2,400-3,000 海里到日本的结论，与原文「只有几千海里」一致。",
+        "f4 的「扁平地球迷思」是史学界共识：中世纪受过教育者普遍知道地球为球体，1492 年的争论是尺寸与陆海比例。",
+        "f5 的 1492-10-12 登陆瓜纳哈尼（Guanahaní）为日志记载；具体岛址有圣萨尔瓦多岛（Watling Island）与萨马纳礁（Samana Cay）等候选，学界未定，原文写法准确。",
+        "f6 的 1494 年宣誓书可核：船队成员被要求签署声明古巴为亚洲大陆，否认者军官罚 100 枚铜币、水手 100 鞭并割舌（一说拔舌），见拉斯·卡萨斯摘编的日志与相关研究。",
+        "f9 的中世纪寰宇图（T-O 图）以耶路撒冷为中心、波托兰海图只画海岸线与罗盘方位，属地图史通说；「未知海域被缩短」是修辞性概括，故给 medium。",
+        "f10 的 1501-1502 年韦斯普奇沿南美东岸南下、1507 年瓦尔德泽米勒地图标 America，均可核。",
+        "f12 的 1494 年托德西利亚斯条约与 1529 年萨拉戈萨条约（把分界线移到太平洋一侧、成为香料群岛争执依据）一致。"
+      ],
+      "summary": "哥伦布的地球尺寸误判、托斯卡内利数据拼接、球形地球已是常识、1492-10-12 瓜纳哈尼登陆与岛址争议、1494 年古巴宣誓书、第三次航行的奥里诺科河口、纬度易定经度难定、T-O 图与波托兰海图、韦斯普奇与瓦尔德泽米勒、托德西利亚斯与萨拉戈萨两条线，全部与航海史文献相符，未发现需改写的断言。"
+    },
+    {
+      "id": "w3-wh-discovery-potosi-silver",
+      "status": "verified",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "medium"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "supported", "confidence": "high"},
+        {"id": "f11", "verdict": "supported", "confidence": "high"},
+        {"id": "f12", "verdict": "supported", "confidence": "medium"}
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "sources 四种（Flynn & Giráldez 1995、Hamilton 1934、全汉昇、Brook 2010）均无页码；产量、税率与年代改用可检索的论文与综述核对。",
+        "f1 的 4,000 米海拔（实际约 4,067 米）与矿道条件、米塔制背矿，见波托西矿业史研究；「温度高」指深部巷道的地热升温，与地表高寒并不矛盾。",
+        "f2 的混汞法于 1570 年代初引入波托西（Pedro de Velasco 等），流程为粉碎—加水银与盐— amalgam—蒸馏回收水银，与原文一致。",
+        "f3 的万卡韦利卡（Huancavelica）水银矿与欧洲（阿尔马登）补给构成瓶颈，供应中断即产量下滑，属波托西研究的通说。",
+        "f6 的五分之一税（quinto real）后降至十分之一（1504 年一度），走私与瞒报普遍，官方登记低于实际产量，学者以港口与铸币厂账目校正，与原文一致。",
+        "f7 的「十六世纪六十年代起」指 1565 年乌尔达内塔发现回程航线、1571 年黎牙实比建马尼拉后定期化的阿卡普尔科—马尼拉航线，早期为不定期航行，故给 medium。",
+        "f11 的「1571 年马尼拉开埠标志世界贸易成形」出自 Flynn & Giráldez 1995，原文已注明「有启发，也有争议」，措辞稳妥。",
+        "f12 的 17 世纪产量下滑（富矿采尽、水银不稳、洪水与人口减少）与欧洲、亚洲的紧缩同步，属全球史讨论中的常见判断，给 medium。"
+      ],
+      "summary": "波托西的海拔与矿井条件、1570 年代混汞法、万卡韦利卡水银瓶颈、米塔制、双洋运输路线、五分之一税与走私、马尼拉大帆船与白银东流、明代赋役折银、西班牙的「管道」角色、价格革命的多因、1571 年世界贸易标志说、17 世纪衰退，全部可核；两处（定期航线起点、全球同步紧缩）措辞略宽，给 medium。"
+    },
+    {
+      "id": "w1-geo-world-gobi",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "imprecise", "confidence": "high", "issue": "issue-01"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "imprecise", "confidence": "medium", "issue": "issue-02"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "medium"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "medium"},
+        {"id": "f10", "verdict": "supported", "confidence": "medium"},
+        {"id": "f11", "verdict": "supported", "confidence": "medium"}
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f2",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "年降水量往往不足一百毫米，蒸发量却是降水的几十倍",
+          "problem": "把西部的极值当成了全区常态。Britannica 记戈壁年总降水从西部不足 50 毫米到东北部 200 毫米以上；中国阿拉善戈壁的实测为 33-208 毫米。只有西部和极干旱区才「不足一百毫米」，东北部已接近半干旱；蒸发/降水比也随地点从数十倍到上百倍变化，不宜写成统一倍数。",
+          "correction": "戈壁的干旱首先来自位置：深居内陆，四周山地挡住水汽；年降水从西部不足五十毫米到东北部二百毫米以上，蒸发量远高于降水。空气干燥、云量少，昼夜温差也随之拉大。",
+          "evidence": [
+            {"title": "Encyclopaedia Britannica: Gobi - Climate", "url": "https://www.britannica.com/place/Gobi/Climate", "quote": "Annual total precipitation varies from less than 2 inches (50 mm) in the west to more than 8 inches (200 mm) in the northeast."},
+            {"title": "Plants 2025, 14(14):2119（阿拉善戈壁降水与蒸发）", "url": "https://www.mdpi.com/2223-7747/15/14/2119", "quote": "the Alxa Gobi receives only 32.8-208.1 mm of precipitation annually, while potential evaporation reaches 2000-3900 mm"}
+          ]
+        },
+        {
+          "id": "issue-02",
+          "factId": "f4",
+          "severity": "moderate",
+          "verdict": "imprecise",
+          "claim": "强蒸发把地下水中的铁、锰带到地表，氧化后沉积在砾石表面",
+          "problem": "把一种有争议的成因写成了定论。沙漠漆由黏土矿物与铁、锰氧化物组成，其来源「仍是争论中的问题」（美国 science.gov 词条：their origin is still a matter of debate），风尘沉降、太阳辐射、干湿交替与微生物活动都被认为参与；把机制单一归为地下水毛细上升后氧化，缺乏共识。",
+          "correction": "戈壁砾石表面常见一层黑褐色的壳，被称为岩漆或沙漠漆。它主要由黏土矿物与铁、锰氧化物组成，成因仍有争论，风尘沉降、微生物活动与干湿交替都被认为参与其中；颜色越深，通常说明地表暴露越久、越稳定。",
+          "evidence": [
+            {"title": "Science.gov: desert varnish", "url": "https://www.science.gov/topicpages/v/varnish", "quote": "their origin is still a matter of debate ... fungi and bacteria ... it is unclear whether they are involved in the formation"},
+            {"title": "Rock varnish 综述（黏土矿物 + 铁锰氧化物、多因素成因）", "url": "https://ouci.dntb.gov.ua/en/works/98EyKa17/", "quote": "rock varnish consists of clay minerals and iron-manganese oxides, formed under the combined action of solar radiation, wind, humidity and microbial activity"}
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "sources 三种（《中国自然地理·地貌》1980、Goudie 2009、国家气候中心气候公报）均无页码，正文数字改用 Britannica、MDPI 与 USGS/science.gov 条目核对。",
+        "f1 的语源可核：蒙古语「戈壁」指砾质/干旱荒漠，地貌学上 gravel desert 与 sandy desert 并列，风蚀把细颗粒带走、留下砾石与基岩，与原文一致。",
+        "f3 的蒙古高压与沙尘输送方向（可至朝鲜半岛、日本乃至北美）属通说；「几千公里」为量级表述。",
+        "f5 的黄土物源可核：Sr-Nd 同位素显示黄土高原物源区自祁连山向戈壁阿尔泰迁移，戈壁是重要源区之一，颗粒沿下风方向由粗到细。",
+        "f9 的覆盖度「不到一成」在戈壁中部与极端干旱区成立，绿洲与洪积扇缘明显更高，原文用「常常」已作限定。",
+        "f10 的草方格寿命有实测支持：防护寿命 2-5 年、中等规格可达 6 年，坡顶与坡脚因规格不同仅约 3 年，「两三年就得重铺」与之一致。",
+        "f11 的煤、铜、稀土（塔本陶勒盖、奥尤陶勒盖、白云鄂博）与采矿耗水、泉湿地干涸的冲突，见蒙古与内蒙古矿业环境研究。"
+      ],
+      "summary": "戈壁的砾质定义、蒙古高压与沙尘源、黄土物源、干河床与洪积扇、植被覆盖、草方格维护成本、矿产与水冲突均可核；需改两处：f2 把「不足一百毫米」写成全区常态（实际西部 <50、东北 >200 毫米），f4 把沙漠漆的争议成因写成了定论。"
+    },
+    {
+      "id": "w1-geo-world-kalahari",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "medium"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "medium"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "supported", "confidence": "medium"},
+        {"id": "f9", "verdict": "imprecise", "confidence": "high", "issue": "issue-01"},
+        {"id": "f10", "verdict": "supported", "confidence": "medium"},
+        {"id": "f11", "verdict": "supported", "confidence": "medium"}
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f9",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "盐壳反射阳光，进一步抬高地表温度，也让周边更加干燥",
+          "problem": "因果链自相矛盾。反射率高意味着吸收的太阳辐射更少，地表不会因此更热；实测盐结皮的反射率（棕泡状约 20%、白泡状约 27%）反而低于粗沙（约 32%）。盐壳的主要作用是封住地表、抑制蒸发并改变热惯量，而不是「反射阳光→升温→更干」。",
+          "correction": "内流盆地的汇水中心会积成盐沼。雨季是一片浅水，旱季结成盐壳；盐壳封住地表，蒸发少，盐分积在表层，植被几乎无法立足，盐尘还会被风带到远处。",
+          "evidence": [
+            {"title": "Salt encrustations and surface temperature in the Kalahari (core.ac.uk PDF, Table 8)", "url": "https://core.ac.uk/download/pdf/29365219.pdf", "quote": "reflectance values: coarse sand 32%, brown puffy crust 20%, white puffy crust 27%, sand crust 11%"}
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "sources 三种（Goudie 2009、Lancaster 1995、UNEP GEO）均无页码；沙层厚度、降水梯度与气候控制改用 SADC 地下水报告、EBSCO 与纳米比亚 UNFCCC 通报核对。",
+        "f1 的沙层厚度可核：卡拉哈里沙层平均约 85 米，津巴布韦剖面为 30 米松散沙 + 50 米弱胶结砂岩 + 20 米底砾，下伏砂岩，与原文「几十米厚」「铺在砂岩之上」相符。",
+        "f2 的三个因子部分成立但作用范围被拉平：副热带高压与深居内陆是主因，本格拉寒流主要影响西海岸（纳米布）的低温与雾，对内陆降水的作用是间接的；「东侧山地挡住印度洋水汽」只是雨影效应的粗略说法，东部反而是降水最多的部分（500-800 毫米），故给 medium 而非 issue。",
+        "f3 的梯度可核：北部 500-800 毫米、西南 150-200 毫米，与 EBSCO 条目一致。",
+        "f5 的纵向沙丘（linear/longitudinal dunes）与主导风平行、高度多在 5-20 米，属卡拉哈里沙丘研究通说；「沙的供应不旺盛」对应较弱的输沙势。",
+        "f7 的奥卡万戈为约 1.5-2 万平方公里内陆三角洲（不同季节与计法差异大），无显著出流、水由蒸散消耗、河道摆动，与原文一致（原文未给面积）。",
+        "f8 的红色被膜可核：石英砂粒表面覆氧化铁薄膜，成分为高岭石片与赤铁矿微粒，颜色随暴露时间加深；「厚度只有几十微米」未见直接测量，属合理量级但缺据，故给 medium。",
+        "f10/f11 的考古遗址沿干谷与水点分布、过度放牧与干旱导致沙丘活化，见卡拉哈里考古与荒漠化研究。"
+      ],
+      "summary": "沙层厚度与下伏砂岩、降水梯度、沙层吸水无地表径流、纵向沙丘、深根乔木、奥卡万戈内陆三角洲、红色氧化铁被膜、盐沼、遗址与水点、放牧致沙化全部可核；需改 f9 的「盐壳反射阳光→抬高温度」这一自相矛盾的因果链，其余一处（东侧山地挡水汽）措辞偏宽，已在 sourceNotes 说明。"
+    }
+  ]
+}

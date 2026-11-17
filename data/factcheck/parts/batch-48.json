@@ -1,0 +1,355 @@
+{
+  "batch": "batch-48",
+  "checkedAt": "2026-11-18T02:52:00+08:00",
+  "dossiers": [
+    {
+      "id": "world-history-mongol",
+      "status": "verified",
+      "confidence": "high",
+      "facts": [
+        { "id": "f1", "verdict": "supported", "confidence": "high" },
+        { "id": "f2", "verdict": "supported", "confidence": "high" },
+        { "id": "f3", "verdict": "supported", "confidence": "medium" },
+        { "id": "f4", "verdict": "supported", "confidence": "high" },
+        { "id": "f5", "verdict": "supported", "confidence": "high" },
+        { "id": "f6", "verdict": "supported", "confidence": "medium" },
+        { "id": "f7", "verdict": "supported", "confidence": "high" },
+        { "id": "f8", "verdict": "supported", "confidence": "high" },
+        { "id": "f9", "verdict": "supported", "confidence": "high" },
+        { "id": "f10", "verdict": "supported", "confidence": "high" },
+        { "id": "f11", "verdict": "supported", "confidence": "medium" },
+        { "id": "f12", "verdict": "supported", "confidence": "high" }
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "f1–f2: 1206 年斡难河源忽里台推举铁木真、帝国极盛约 2400 万平方公里与人口约 1 亿，见 Allsen《Culture and Conquest in Mongol Eurasia》(2001) 与 Britannica 'Mongol empire' 条目；四大汗国并立的表述与 1260 年后的实际政治格局一致。",
+        "f3: 站赤数目各史料统计口径不同，《新元史·兵志·站赤》所载中书省与行省陆站、水站、狗站合计约 1420 处，另有'全国驿站总数达一千五百余处'之说，故'约 1400 处'可取；'哈拉和林到中亚压缩到数周'为量级推断，非史料原文。",
+        "f4–f5: 斡脱（ortogh）为与官府合作的商人，见 Columbia 'The Mongols in World History' 与 Wikipedia 'Ortogh'；中统元宝交钞 1260 年以丝为本，1264 年起禁银、禁铜钱，见《新元史·食货志》；伊利汗国 1294 年钞法三日内巴扎罢市、旋废，见 Brill EIEO 'Gaykhatu' 与 Browne《A Literary History of Persia》。",
+        "f6: 马拉盖天文台 1259 年由旭烈兀兴建、纳西尔丁·图西主持，见 IAU/天文遗产网站 Maragheh 条目；'天文表译成多种文字'为概括说法，《伊儿汗天文表》以波斯文写成并译为阿拉伯文，流传范围有限。",
+        "f7: 1258 年巴格达陷落死亡人数无定论，当时哈里发一方与后世穆斯林史家数字从 20 万到 200 万不等，故'至今争议'成立。",
+        "f8: 1380 年库里科沃战役、德米特里·顿斯科伊击败马麦，见俄罗斯博物馆与《俄罗斯编年史》相关条目。",
+        "f9: 1271 年建国号大元、1279 年灭南宋，见中国社会科学院《中国通史》元史卷；伊本·白图泰 14 世纪游记记刺桐（泉州）的穆斯林商人、瓷器与海舶。",
+        "f10: 1346 年卡法围城与尸体抛入城中，见 Aberth《The Black Death》章节及 Gabriele de' Mussi 同时代记载。",
+        "f11–f12: 帖木儿 1380 年代起取呼罗珊与波斯，1395 年败金帐汗国；奥斯曼在安纳托利亚扩张、商路重心西移，见 Manz《The Rise and Rule of Tamerlane》。"
+      ],
+      "summary": "十二项均可核实：1206 年建国、疆域与人口、站赤规模、斡脱与纸钞、马拉盖天文台、巴格达屠城争议、库里科沃、元朝建立与泉州、黑死病经卡法传播、帖木儿兴起，未发现事实性错误。"
+    },
+    {
+      "id": "world-history-athens",
+      "status": "verified",
+      "confidence": "high",
+      "facts": [
+        { "id": "f1", "verdict": "supported", "confidence": "high" },
+        { "id": "f2", "verdict": "supported", "confidence": "high" },
+        { "id": "f3", "verdict": "supported", "confidence": "medium" },
+        { "id": "f4", "verdict": "supported", "confidence": "high" },
+        { "id": "f5", "verdict": "supported", "confidence": "high" },
+        { "id": "f6", "verdict": "supported", "confidence": "high" },
+        { "id": "f7", "verdict": "supported", "confidence": "high" },
+        { "id": "f8", "verdict": "supported", "confidence": "high" },
+        { "id": "f9", "verdict": "supported", "confidence": "high" },
+        { "id": "f10", "verdict": "supported", "confidence": "high" },
+        { "id": "f11", "verdict": "supported", "confidence": "medium" },
+        { "id": "f12", "verdict": "supported", "confidence": "medium" }
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "f1: 克里斯提尼改革 508/507 年、十部落与德莫，见亚里士多德《雅典政制》21–22（Yale Avalon 英译）。",
+        "f2: 公元前 451/450 年公民权法要求父母双方皆为公民，见《雅典政制》26.4 与 Glotz《Ancient Greece at Work》相关论述；此前父亲为公民即可入籍。",
+        "f3: 公元前 5 世纪后期成年男性公民 3–6 万、阿提卡总人口 25–30 万，为 Hansen 等公认估计；奴隶 8–10 万、外邦人 2–3 万取中位估计，学界区间更宽。",
+        "f4–f6: 妇女无政治权利、外邦人缴 μετοίκιον（男 12 德拉克马/年、女 6 德拉克马/年）并需公民担保人，见 Hansen《The Athenian Democracy in the Age of Demosthenes》与《雅典政制》正文；奴隶比例取 1/3 说。",
+        "f7–f8: 五百人议事会每部落 50 人、抽签、一年一任、一生至多两次；陪审员年选 6000 人，津贴 2 奥波尔后增至 3 奥波尔；公民大会年约 40 次、法定人数 6000，出席津贴（ἐκκλησιαστικόν）可定于公元前 403–390 年，见 Hansen 及 Sing 2010（UWA）博士论文。",
+        "f9: 陶片放逐法定票数 6000、放逐十年、财产保留，见《雅典政制》22 与相关研究。",
+        "f10: 提洛同盟立于公元前 478/477 年冬，盟邦出钱或出船，雅典掌金库与舰队，见 Woodhead, JHS 1959 及修昔底德卷一。",
+        "f11: 伯罗奔尼撒战争败后三十僭主，公元前 403 年民主恢复并颁布政治特赦（禁止追究内战旧账），见《雅典政制》39–40；'第一次'为后世追认说法。",
+        "f12: 伪色诺芬《雅典政制》批评民主让工匠、商人与穷人掌权，见 Loeb 本；其立场为寡头派，故'从反面说明'的解读成立。"
+      ],
+      "summary": "十二项制度史与人口数字均可核实：克里斯提尼改革、公民权法、人口结构、外邦人税、议事会与陪审法庭规模、津贴时间、陶片放逐、提洛同盟、403 年特赦与伪色诺芬批评，未发现事实性错误。"
+    },
+    {
+      "id": "w5-geo-world-mountain-zones",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        { "id": "f1", "verdict": "imprecise", "confidence": "high" },
+        { "id": "f2", "verdict": "supported", "confidence": "high" },
+        { "id": "f3", "verdict": "supported", "confidence": "high" },
+        { "id": "f4", "verdict": "supported", "confidence": "high" },
+        { "id": "f5", "verdict": "supported", "confidence": "high" },
+        { "id": "f6", "verdict": "supported", "confidence": "high" },
+        { "id": "f7", "verdict": "supported", "confidence": "high" },
+        { "id": "f8", "verdict": "supported", "confidence": "medium" },
+        { "id": "f9", "verdict": "supported", "confidence": "high" },
+        { "id": "f10", "verdict": "supported", "confidence": "high" },
+        { "id": "f11", "verdict": "supported", "confidence": "high" },
+        { "id": "f12", "verdict": "supported", "confidence": "medium" }
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f1",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "山每升高一千米，气温大约下降六度半，这个数值叫气温直减率。它意味着在热带的高山上，从山脚到山顶可以依次遇到常绿林、落叶林、针叶林、灌丛、草甸和冰雪，纬度带被压缩进几千米的高度里。",
+          "problem": "气温直减率本身无误，错的是一串'热带高山'的植被带：热带山地自下而上是低山常绿林、下山地常绿林、上山地（云雾）林、亚高山林，均为常绿阔叶林，不存在落叶林带与针叶林带，再往上才是灌丛、高山草甸与冰雪。落叶阔叶林与针叶林带是温带山地的垂直序列，原句把温带带谱套到了热带。",
+          "correction": "山每升高一千米，气温约降六度半。但热带高山的带谱并非常绿林、落叶林、针叶林依次排列：自下而上是低山常绿林、山地常绿林、云雾林、亚高山林，再往上是灌丛、草甸与冰雪；落叶林和针叶林主要属于温带山地。",
+          "evidence": [
+            {
+              "title": "Abode of the Clouds (University of Chicago Press), 热带山地森林带划分",
+              "url": "https://www.degruyterbrill.com/document/doi/10.7208/chicago/9780226535722-011/pdf",
+              "quote": "Four forest zones ... have been recognized on the higher tropical mountains up to the tree line: lowland, lower montane, upper montane and subalpine"
+            },
+            {
+              "title": "Tropical Ecology WBNZ 800, Altitudinal zonation in tropical areas",
+              "url": "http://149.156.165.8/laskowski/ET_S800/Tropical_ecology_5_TP2_Alt_zonation.pdf",
+              "quote": "Ecological life zones in the mountains ... Premontane, Tropical premontane forest, Cloud forest, Subparamo, Alvar/Nival zone"
+            }
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "f1: 垂直递减率 6.5 °C/1000 m 见 UNT 气象学讲义与 LibreTexts 'Environmental Lapse Rate'；热带山地森林带划分见 Degruyter『Abode of the Clouds』与热带生态学讲义，均无落叶林/针叶林带。",
+        "f2: 洪堡 1802 年钦博拉索之行、气压计测高与《植物地理学随笔》的温度—植被图，见 PNAS 2015 年重访洪堡论文（https://www.pnas.org/doi/10.1073/pnas.1509938112）；他到达约 5800 米，未登顶（峰高 6263 米）。",
+        "f4: Körner & Paulsen (2004) 全球林线观测给出生长季平均地温 6.7 °C ± 0.8；热带林线约 3800–4000 m、青藏高原南缘可达 4900 m，为林线高度上限记录。",
+        "f5: 雪线（平衡线）赤道附近约 4800–5000 m、阿尔卑斯约 2500–3200 m，见气候学教材与 'chionosphere' 综述。",
+        "f6: 安第斯传统垂直带 tierra caliente / templada / fría / páramo / helada 见 WBNZ 讲义与人文地理文献。",
+        "f9: Forero-Medina et al. (2011) 秘鲁安第斯鸟类调查：低海拔物种上移快于高海拔物种上限抬升，见 PNAS 相关论文。",
+        "f10: 阿拉比卡咖啡适宜带约 1200–1800 m；安第斯马铃薯驯化与数千地方品种见 CIP（国际马铃薯中心）资料。",
+        "f11: 每升高 1000 m 气压约降 11%–12%（海平面 101.3 kPa → 1000 m 约 89.9 kPa）。"
+      ],
+      "summary": "垂直带谱的其余论述（递减率、洪堡、林线温度、雪线、安第斯带名、云雾林、物种上移、农业分层、气压与冰雪融水）均可核实；只有 f1 把温带山地的落叶林、针叶林带写进了热带高山序列，已修正。"
+    },
+    {
+      "id": "world-geo-dead-sea",
+      "status": "verified",
+      "confidence": "high",
+      "facts": [
+        { "id": "f1", "verdict": "supported", "confidence": "high" },
+        { "id": "f2", "verdict": "supported", "confidence": "high" },
+        { "id": "f3", "verdict": "supported", "confidence": "high" },
+        { "id": "f4", "verdict": "supported", "confidence": "high" },
+        { "id": "f5", "verdict": "supported", "confidence": "high" },
+        { "id": "f6", "verdict": "supported", "confidence": "high" },
+        { "id": "f7", "verdict": "supported", "confidence": "high" },
+        { "id": "f8", "verdict": "supported", "confidence": "medium" },
+        { "id": "f9", "verdict": "supported", "confidence": "high" },
+        { "id": "f10", "verdict": "supported", "confidence": "medium" },
+        { "id": "f11", "verdict": "supported", "confidence": "high" }
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "f1: 湖面约 −430 m、长约 50 km、最宽约 15 km、面积约 605 km²、最深约 300 m、无出口，见 Wikipedia 'Dead Sea' 与 Britannica；中文资料另有长 86 km、最深 380 m 的口径（按湖床海拔计），'约 300 米'取北盆地实测水深。",
+        "f2: 死海转换断层为左旋走滑，属东非大裂谷系北延；阿拉伯板块相对非洲每年约 5 mm 的北向分量，见 USGS 与以色列地质调查局死海断层监测。",
+        "f3: 盐度约 34%、密度约 1.24 g/cm³，见 Dead Sea 水质资料与 apollomapping 专题（盐度 >33%，地中海约 3%）。",
+        "f5: 1960 年代以来湖面下降约 40 m、面积缩小约三分之一、年降约 1.2 m，见 Times of India 与 nashaniva 报道；约旦河入湖水量由 13 亿 m³/年降至约 1 亿 m³，见 National Geographic Indonesia。",
+        "f6: 西岸自 1980 年代以来出现数千个落水洞，见 ScienceDirect《Geomorphology》2023 年死海岸落水洞综述。",
+        "f7: 死海深钻（2010 年）恢复约 20 万年记录，见 Nature Middle East 与 Science 报道（Neugebauer et al. 2015）。",
+        "f8: 南端蒸发池由 Dead Sea Works（以色列）与 Arab Potash（约旦）经营，产钾、溴、镁。",
+        "f9: 1927 年耶利哥地震：AGU 论文按 ML 6.2 计算地震矩，OCHA 记 6.3 Mw、震中在死海北部；公元 31 年地震见昆兰与死海断层古地震研究。",
+        "f10: 红海—死海输水（Red Sea–Dead Sea Water Conveyance）可研由世界银行主持，2013 年签署、2015 年启动首期，因环境争议推进缓慢。",
+        "f11: 年降水不足 100 mm、蒸发潜力 >2000 mm，见 Israel Meteorological Service 与死海流域研究。"
+      ],
+      "summary": "十一项均可核实：湖面海拔与尺度、左旋走滑断层与板块速率、盐度密度、盐类组成、近几十年水位与面积变化、落水洞、深钻记录、钾盐工业、1927 年地震、红海—死海输水计划、极端水分亏缺，未发现事实性错误。"
+    },
+    {
+      "id": "w2-geo-cn-transport-shanghai-port",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        { "id": "f1", "verdict": "supported", "confidence": "high" },
+        { "id": "f2", "verdict": "supported", "confidence": "high" },
+        { "id": "f3", "verdict": "supported", "confidence": "high" },
+        { "id": "f4", "verdict": "supported", "confidence": "high" },
+        { "id": "f5", "verdict": "supported", "confidence": "medium" },
+        { "id": "f6", "verdict": "supported", "confidence": "high" },
+        { "id": "f7", "verdict": "supported", "confidence": "high" },
+        { "id": "f8", "verdict": "imprecise", "confidence": "high" },
+        { "id": "f9", "verdict": "supported", "confidence": "medium" },
+        { "id": "f10", "verdict": "supported", "confidence": "high" },
+        { "id": "f11", "verdict": "supported", "confidence": "high" },
+        { "id": "f12", "verdict": "supported", "confidence": "medium" }
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f8",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "三峡工程二〇〇三年开始蓄水，进入下游的泥沙大幅减少，长江口的淤积一度减轻，疏浚量跟着下降。但输沙少了，海岸和滩涂失去补给，崇明东滩一带反而出现侵蚀，岸线开始后退。",
+          "problem": "三峡蓄水后长江输沙锐减、淤积与疏浚量下降属实；但崇明东滩并未整体转为侵蚀后退。1984–2002 年滩涂面积基本维持在约 620 km²，之后持续上升，2013 年达最大值约 705 km²，此后仅局部低潮滩出现冲刷，总面积仍在 670 km² 上下；另一项研究显示 2002 年设保护区后滩涂以约 5.9 km²/年的速度增长。原句把局部蚀退写成整片岸线后退。",
+          "correction": "三峡蓄水后长江口来沙锐减，淤积与疏浚量一度下降。但崇明东滩整体没有转为侵蚀：1984 至 2013 年滩涂面积从约 620 平方公里增至 705 平方公里，此后只有局部低潮滩冲刷，总面积仍约 670 平方公里。",
+          "evidence": [
+            {
+              "title": "《自然资源学报》崇明东滩滩涂面积变化研究",
+              "url": "https://www.jnr.ac.cn/CN/article/downloadArticleFile.do?attachType=PDF&id=51588",
+              "quote": "崇明东滩涂面积在1984—2002年间总体基本保持在620 km²左右，之后面积呈现持续上升趋势，在2013年总面积达到最大值为705 km²。"
+            },
+            {
+              "title": "《海洋学报》崇明东滩滩涂资源演变",
+              "url": "http://www.hyxb.org.cn/aos/ch/reader/create_pdf.aspx?file_no=20150910&year_id=2015&quarter_id=9&falg=1",
+              "quote": "2002之后，崇明东滩被设立为自然保护区，滩涂基本处于自然演变状态，滩涂资源总量以5.9 km²/a的速度增长，是2002年之前的1.8倍。"
+            }
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "f1: 大通站 1950–2002 年平均输沙约 4.27×10⁸ t/年，2003 年后降至约 1.29×10⁸ t/年，见长江泥沙公报与 COSCO 环境报告。",
+        "f2–f5: 拦门沙自然水深约 6 m；长江口深水航道 1998 年 1 月一期开工、2000 年 3 月达 8.5 m，二期 2005 年 3 月达 10 m，三期 2010 年 3 月 14 日达 12.5 m、全长 92.2 km、底宽 350–400 m；5 万吨级双向、10 万吨级乘潮、20 万吨级减载乘潮通航，见交通运输部 2010 年 3 月新闻与工程验收报道。",
+        "f4: 明代潘季驯'束水攻沙'治河，见《河防一览》。",
+        "f6: 洋山深水港 2002 年 6 月开工、2005 年 12 月开港，东海大桥全长 32.5 km，码头前沿水深 15 m 以上，见新华社 2005 年报道。",
+        "f7: 上海港 2010 年集装箱吞吐量超过新加坡居世界第一，2023 年达 4916 万 TEU，见上港集团年报与 2024 年报道。",
+        "f9: 疏浚土吹填横沙东滩、南汇边滩造陆，见长江口深水航道治理工程与横沙东滩圈围工程资料。",
+        "f10: 上海水源地转向陈行、青草沙、东风西沙水库与黄浦江金泽,'两江并举、多源互补'，见上海市水务局资料。",
+        "f11: 12.5 m 航道贯通后 5 万吨级海轮直达南京、万吨级直达武汉、3000 吨级直达重庆，见交通运输部长江航务管理局 2023 年资料。"
+      ],
+      "summary": "工程尺度、分期水深、洋山港与东海大桥、箱量排名、水源地与长江干线通航等级均可核实；只有 f8 把崇明东滩的局部低潮滩蚀退写成整片岸线后退，与滩涂总面积仍在增长的实测数据不符，已修正。"
+    },
+    {
+      "id": "w5-psych-marriage-expectation",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        { "id": "f1", "verdict": "supported", "confidence": "medium" },
+        { "id": "f2", "verdict": "supported", "confidence": "high" },
+        { "id": "f3", "verdict": "imprecise", "confidence": "high" },
+        { "id": "f4", "verdict": "imprecise", "confidence": "high" },
+        { "id": "f5", "verdict": "supported", "confidence": "high" },
+        { "id": "f6", "verdict": "supported", "confidence": "medium" },
+        { "id": "f7", "verdict": "supported", "confidence": "high" },
+        { "id": "f8", "verdict": "supported", "confidence": "medium" },
+        { "id": "f9", "verdict": "supported", "confidence": "low" },
+        { "id": "f10", "verdict": "supported", "confidence": "medium" },
+        { "id": "f11", "verdict": "supported", "confidence": "medium" }
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f3",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "有一类期待特别容易落空：针对对方具体行为的期待，比如“结婚以后他会变得上进”“有了孩子他会收心”。这类期待把改变的责任放在别人身上，通常等不到兑现。",
+          "problem": "'通常等不到兑现'是一个关于改变是否发生的经验断言，现有研究并未检验、也不支持它。可核实的结论更弱：期待伴侣改变（或预期双方改变不一致）与更低的关系质量、更少的关系稳定性相关，且当事人报告的往往是个人成长而非关系改善。把相关性改写成'期待必然落空'，属于过度断言。",
+          "correction": "研究不支持“这类期待通常等不到兑现”。可核实的是：期待伴侣改变，与更低的关系满意度、更多冲突相关；改变是否发生取决于对方和两人的互动，无法由期待本身预测。",
+          "evidence": [
+            {
+              "title": "Times, They Are a Changin': Congruent Temporal Appraisals for Self and the Romantic Partner (Carleton University)",
+              "url": "https://carleton.scholaris.ca/items/ee43e6ad-5aba-475b-90e0-7a5c9919e89d",
+              "quote": "Predicting discrepant change was linked to lower relationship quality and less personal happiness compared to predicting no change or congruent change"
+            },
+            {
+              "title": "Journal of Social and Personal Relationships (2016), expected self- and partner-change",
+              "url": "https://journals.sagepub.com/doi/pdf/10.1177/0265407516652967",
+              "quote": "personal growth, but not more relationship stability, and actually reported lower relationship quality"
+            }
+          ]
+        },
+        {
+          "id": "issue-02",
+          "factId": "f4",
+          "severity": "major",
+          "verdict": "imprecise",
+          "claim": "另一类期待反而有益：对伴侣总体品性的积极看法，以及对关系前景的信心。研究里这类积极幻觉与更高的满意度相关，前提是它不否认具体问题的存在。",
+          "problem": "原句漏掉了 McNulty 与 Karney 研究的关键调节变量，把有条件成立的结论写成普遍有益。该研究追踪新婚四年发现：当夫妻的互动行为与关系归因最积极时，积极期待才预示满意度更稳定；当互动技能最差时，积极期待反而预示满意度下降更快。'前提是不否认具体问题'并非研究给出的条件，真正的条件是双方的沟通与归因质量。",
+          "correction": "另一类期待确有益处，但研究给出了条件：只有当夫妻的沟通与归因方式较积极时，积极期待才预示满意度更稳定；若互动技能最差，期待越高，满意度下降反而越快。",
+          "evidence": [
+            {
+              "title": "McNulty & Karney (2004), JPSP 86(5):729–743, PsycNET record",
+              "url": "https://psycnet.apa.org/record/2004-13298-006",
+              "quote": "when spouses' skills were most positive, positive expectations predicted more stable satisfaction over time whereas less positive expectations predicted steeper declines"
+            },
+            {
+              "title": "APA Monitor, 'High hopes and happy homes' (Sept 2004)",
+              "url": "https://www.apa.org/monitor/sep04/highhopes.html",
+              "quote": "Positive expectations can lead to improved circumstances because they affect and improve behavior... But, if people have high expectations that don't pan out, they can be very disappointed."
+            }
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "f2: 家务公平感取决于参照点（参照性比较 vs 关系性比较），见 J-STAGE《家族社会学研究》论文（doi 10.4234/jjoffamilysociology.10.1_15）。",
+        "f5: Hochschild《The Second Shift》(Viking, 1989)；'第二班'概念综述见 Latshaw, Sociology Compass (2011)。",
+        "f7: Karney & Bradbury (1995), Psychological Bulletin 118(1):3–34，综述 115 项纵向研究、逾 4.5 万对婚姻，指出婚姻质量随时间下降且受过渡事件与适应过程影响。",
+        "f9: 期待不被说出口、双方带着不同脚本进入婚姻，属伴侣治疗临床观察（Epstein & Baucom 认知—行为伴侣治疗），无单一实验来源，故置信度低。",
+        "f10–f11: 沟通与冲突协商质量预测婚姻满意度轨迹，见 Karney & Bradbury (1995) 的适应过程模型；行为契约式沟通（具体到谁做什么）在伴侣干预中常用。"
+      ],
+      "summary": "社会塑造、参照点比较、第二班、性别脚本、婚姻轨迹、社会比较与沟通训练均可核实；两处涉及具体研究结论的表述有偏差：f3 把'与低满意度相关'写成'等不到兑现'，f4 漏掉 McNulty 与 Karney 研究的关键调节条件，均已修正。"
+    },
+    {
+      "id": "w3-geo-world-mediterranean-climate",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        { "id": "f1", "verdict": "supported", "confidence": "high" },
+        { "id": "f2", "verdict": "supported", "confidence": "high" },
+        { "id": "f3", "verdict": "supported", "confidence": "high" },
+        { "id": "f4", "verdict": "supported", "confidence": "high" },
+        { "id": "f5", "verdict": "supported", "confidence": "high" },
+        { "id": "f6", "verdict": "supported", "confidence": "medium" },
+        { "id": "f7", "verdict": "supported", "confidence": "high" },
+        { "id": "f8", "verdict": "supported", "confidence": "high" },
+        { "id": "f9", "verdict": "supported", "confidence": "high" },
+        { "id": "f10", "verdict": "imprecise", "confidence": "high" },
+        { "id": "f11", "verdict": "supported", "confidence": "high" },
+        { "id": "f12", "verdict": "supported", "confidence": "medium" }
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f10",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "地中海沿岸的夏季干旱还在加剧。气温升高、降水减少，加上旅游和灌溉用水增加，地下水超采和海水入侵在一些沿海平原已经出现。夏天的干旱一年比一年长，水库的水位年年见底。",
+          "problem": "暖干化趋势与用水压力有 IPCC 评估支持，但'一年比一年长''年年见底'是逐年单调的绝对表述，评估报告明确指出年降水趋势只在部分地区、部分时段显著，长期并非单调下降；水库水位受年际降水与调度影响，年际波动很大。把趋势写成每年必然恶化，超出了证据。",
+          "correction": "地中海沿岸夏季干旱总体在加剧，IPCC 评估认为暖干化与用水压力上升；但干旱期长度和水库水位年际波动很大，不能说“一年比一年长”“年年见底”，各地趋势并不一致。",
+          "evidence": [
+            {
+              "title": "IPCC AR6 WG2, Cross-Chapter Paper 4: Mediterranean Region",
+              "url": "https://www.ipcc.ch/report/ar6/wg2/chapter/ccp4/",
+              "quote": "Observed trends in annual precipitation are significant only in some areas and some periods"
+            }
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "f1: 地中海气候分布于南北纬 30–40° 大陆西岸五区（地中海沿岸、加州、智利中部、南非西南角、澳大利亚西南与南部），见 Acevedo 等气候学章节与 CNVC 硬叶灌丛群系 F038。",
+        "f2–f4: 副热带高压夏半年控制、西风带冬半年控制，雨热错季，见周淑贞《气象学与气候学》与 IPCC AR6 相关章节。",
+        "f5–f7: 硬叶林形态（小叶、厚革质、气孔下陷）、火后萌发与火 regime，见 CNVC F038 与地中海生态学综述。",
+        "f8: 冬蓄夏用、短时强降水与洪水/缺水交替，见地中海水资源管理研究。",
+        "f9: 五区植物区系不同但形态趋同，为趋同演化经典案例，见 Ecology 教材与 CNVC。",
+        "f11: 加州北水南调（State Water Project、Central Valley Project）与干旱年限水，见 water.ca.gov 与洛杉矶县供水资料。",
+        "f12: 智利中部受安第斯山与海岸山脉夹持，西侧迎风多雨、东侧雨影干旱，见智利气候区划。"
+      ],
+      "summary": "气候成因、五区分布、雨热错季、硬叶形态、火生态、水库调度、趋同演化、加州调水与智利雨影均可核实；只有 f10 把总体暖干趋势写成逐年单调恶化并用'年年见底'的绝对说法，已修正。"
+    },
+    {
+      "id": "w3-wh-discovery-caravel",
+      "status": "verified",
+      "confidence": "high",
+      "facts": [
+        { "id": "f1", "verdict": "supported", "confidence": "high" },
+        { "id": "f2", "verdict": "supported", "confidence": "high" },
+        { "id": "f3", "verdict": "supported", "confidence": "medium" },
+        { "id": "f4", "verdict": "supported", "confidence": "high" },
+        { "id": "f5", "verdict": "supported", "confidence": "high" },
+        { "id": "f6", "verdict": "supported", "confidence": "high" },
+        { "id": "f7", "verdict": "supported", "confidence": "high" },
+        { "id": "f8", "verdict": "supported", "confidence": "high" },
+        { "id": "f9", "verdict": "supported", "confidence": "high" },
+        { "id": "f10", "verdict": "supported", "confidence": "medium" },
+        { "id": "f11", "verdict": "supported", "confidence": "high" },
+        { "id": "f12", "verdict": "supported", "confidence": "medium" }
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "f1–f2: 卡拉维尔由葡萄牙渔船演变、15 世纪定型，三角帆（lateen）可绕桅转动以调整迎风角，见 Oxford Reference 'caravel' 与 Britannica 'caravel'。",
+        "f3–f4: 帆船无法正对风向航行，最逼近风向约 60°–70°（卡拉维尔约 55°–65°），'抢风'折线航行；方帆顺风效率高、三角帆迎风效率高，见航海史与帆船空气动力学资料。",
+        "f5–f6: 平接（carvel-built）船壳、无船首楼与尾楼、尾柱中轴舵，见 Oxford Reference 与 Parry《The Age of Reconnaissance》。",
+        "f7: 返航走 volta do mar：向西北入大西洋抓中纬度西风，再折回伊比利亚，见葡萄牙航海史与 Diffie & Winius。",
+        "f8: 1492 年船队中 Pinta 与 Niña 为卡拉维尔（一为方帆、一为三角帆），Santa María 为克拉克帆船；Niña 在加那利群岛的 Las Palmas 改装为以方帆为主的 caravela redonda，见 Wikipedia 'Niña' 与 4score.org。",
+        "f9–f11: 卡拉维尔货舱小、不宜远洋炮战，主力货船与战舰为克拉克帆船及后来的盖伦；同期中国、阿拉伯与印度洋船舶同样具备远洋能力，季风区的三角帆早已成熟。",
+        "f12: 现代复制品依据沉船残骸、港口账簿与同时代草图重建，尺寸仍有推测成分，见 Parry 与复制船建造报告。"
+      ],
+      "summary": "十二项均可核实：船型来源、三角帆与方帆的空气动力学、抢风角度、平接船壳与中轴舵、volta do mar 航线、哥伦布船队的船型与改装、卡拉维尔的局限、同时代其他航海传统与复制船依据，未发现事实性错误。"
+    }
+  ]
+}

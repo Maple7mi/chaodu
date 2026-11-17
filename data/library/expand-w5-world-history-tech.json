@@ -173,7 +173,16 @@
         "Alexander Fleming, On the Antibacterial Action of Cultures of a Penicillium, British Journal of Experimental Pathology, 1929。",
         "Review on Antimicrobial Resistance ( chaired by Jim O'Neill ), Tackling Drug-Resistant Infections Globally, 2016。",
         "World Health Organization, Antimicrobial Resistance: Global Report on Surveillance, 2014。"
-      ]
+      ],
+      "factCheck": {
+        "status": "verified",
+        "confidence": "high",
+        "batch": "batch-60",
+        "checkedAt": "2026-11-18T02:41:57+08:00",
+        "issueCount": 0,
+        "appliedAt": "2026-11-17T18:46:28.287Z",
+        "summary": "12条均与可查文献一致：发现史、首次人体试验、耐药死亡预测、mcr-1、欧盟与中国禁令、药企退出、噬菌体疗法均成立，无需修正。"
+      }
     },
     {
       "id": "w5-wh-tech-vaccines",
@@ -347,7 +356,16 @@
         "Stanley Plotkin et al., Plotkin's Vaccines, Elsevier, 8th edition, 2023。",
         "World Health Organization, The Global Eradication of Smallpox, 1980。",
         "Brian Deer, How the case against the MMR vaccine was fixed, BMJ, 2011。"
-      ]
+      ],
+      "factCheck": {
+        "status": "verified",
+        "confidence": "high",
+        "batch": "batch-52",
+        "checkedAt": "2026-11-18T02:58:00+08:00",
+        "issueCount": 0,
+        "appliedAt": "2026-11-17T18:46:28.287Z",
+        "summary": "12 条均可核实：詹纳 1796、1980 年宣布消灭天花、麻疹 R0 12–18 与 92–95% 阈值、2019 年 869,770 例与 207,500 例死亡、VITT 量级、韦克菲尔德撤稿等关键数字与年份全部对得上。"
+      }
     },
     {
       "id": "w5-wh-tech-fertilizer",
@@ -521,7 +539,16 @@
         "Norman Borlaug, The Green Revolution, Peace, and Humanity, Nobel Lecture, 1970。",
         "Jan Willem Erisman et al., How a century of ammonia synthesis changed the world, Nature Geoscience, 2008。",
         "Guo et al., Significant Acidification in Major Chinese Croplands, Science, 2010。"
-      ]
+      ],
+      "factCheck": {
+        "status": "verified",
+        "confidence": "high",
+        "batch": "batch-51",
+        "checkedAt": "2026-11-18T02:58:00+08:00",
+        "issueCount": 0,
+        "appliedAt": "2026-11-17T18:46:28.287Z",
+        "summary": "哈伯-博施法、绿色革命育种、氮素损失与土壤酸化的年份和数字均可核，未发现需要修改的断言。"
+      }
     },
     {
       "id": "w5-wh-tech-pill",
@@ -694,7 +721,16 @@
         "Claudia Goldin and Lawrence Katz, The Power of the Pill: Oral Contraceptives and Women's Career and Marriage Decisions, Journal of Political Economy, 2002。",
         "Lara Marks, Sexual Chemistry: A History of the Contraceptive Pill, Yale University Press, 2001。",
         "Pope Paul VI, Humanae Vitae, 1968。"
-      ]
+      ],
+      "factCheck": {
+        "status": "verified",
+        "confidence": "high",
+        "batch": "batch-38",
+        "checkedAt": "2026-11-18T02:39:00+08:00",
+        "issueCount": 0,
+        "appliedAt": "2026-11-17T18:46:28.287Z",
+        "summary": "避孕药专题十二条均可核实：1960年5月Enovid获批、负反馈抑制排卵与三重避孕机制、0.3%与8%–9%的失败率区间、20–35微克炔雌醇的现代低剂量、1965年格里斯沃尔德案与1972年艾森斯塔德案、Goldin & Katz 2002 的州级法律差异识别策略、女性劳动参与率33%→60%、1968年《人类生命》通谕、日本1999年才上市、男性口服药仍无产品。仅f8（天主教地区使用率长期偏低）与f12（收入略高）按中等置信度处理，属综述性表述而非硬数字。"
+      }
     },
     {
       "id": "w5-wh-tech-chernobyl",
@@ -730,7 +766,7 @@
         },
         {
           "id": "f4",
-          "text": "爆炸把堆芯的石墨和燃料抛到厂房屋顶和周围。石墨着火后把放射性物质带上高空，释放的核素总量按国际原子能机构的口径估计约为五点二乘以十的十八次方贝克勒尔。"
+          "text": "释放的核素总量约为五点三乘以十的十八次方贝克勒尔，但这个数字不含惰性气体；若计入惰性气体，总量约为十四乘以十的十八次方贝克勒尔。"
         },
         {
           "id": "f5",
@@ -742,11 +778,11 @@
         },
         {
           "id": "f7",
-          "text": "1986年11月，混凝土石棺封住了破损的反应堆。2016年，一个巨大的拱形新安全封罩被整体滑移到位，设计寿命一百年，用来挡住雨水、加固旧结构并最终拆除。它重约三万吨，是世界上最大的可移动陆上结构之一。"
+          "text": "2016年11月29日，新安全封罩整体滑移到位，总重约三点六万吨，跨度二百五十七米、高一百零八米，设计寿命一百年，是世界最大的可移动陆上结构之一。"
         },
         {
           "id": "f8",
-          "text": "儿童甲状腺癌在事故后显著增加。放射性碘随牧草进入牛奶，被儿童甲状腺吸收；由于甲状腺癌相对可治，多数病例经手术和碘治疗存活。当时苏联没有及时发放稳定的碘片，也没有迅速限制本地牛奶。"
+          "text": "事故后普里皮亚季在次日早晨就向居民发放碘片，但其他污染区发放迟缓；牛奶限制也拖到数周之后，苏联的应急反应因此显得前后不一。"
         },
         {
           "id": "f9",
@@ -867,7 +903,16 @@
         "IAEA, INSAG-7: The Chernobyl Accident, Updating of INSAG-1, 1992。",
         "The Chernobyl Forum, Chernobyl's Legacy: Health, Environmental and Socio-Economic Impacts, 2005。",
         "Serhii Plokhy, Chernobyl: History of a Tragedy, Allen Lane, 2018。"
-      ]
+      ],
+      "factCheck": {
+        "status": "corrected",
+        "confidence": "high",
+        "batch": "batch-20",
+        "checkedAt": "2026-11-18T02:42:00+08:00",
+        "issueCount": 3,
+        "appliedAt": "2026-11-17T18:46:28.287Z",
+        "summary": "事故经过、疏散、急性放射病与信息公开均成立；源项口径、新安全封罩重量与碘片发放三处表述不准确，已分别修正。"
+      }
     },
     {
       "id": "w5-wh-tech-ozone",
@@ -907,7 +952,7 @@
         },
         {
           "id": "f5",
-          "text": "议定书给发展中国家十年宽限期，并设立多边基金，用于支付淘汰氯氟烃的技术改造费用。共同但有区别的责任第一次被写进有约束力的环境条约。"
+          "text": "议定书给发展中国家十年宽限期，并设立多边基金，支付淘汰氯氟烃的技术改造费用；这被视为共同但有区别的责任原则最早的一次条约实践，该提法到一九九二年里约宣言才正式确立。"
         },
         {
           "id": "f6",
@@ -1041,7 +1086,16 @@
         "Molina and Rowland, Stratospheric Sink for Chlorofluoromethanes, Nature, 1974。",
         "UNEP, Montreal Protocol on Substances that Deplete the Ozone Layer, 1987。",
         "WMO and UNEP, Scientific Assessment of Ozone Depletion, 2022。"
-      ]
+      ],
+      "factCheck": {
+        "status": "corrected",
+        "confidence": "high",
+        "batch": "batch-27",
+        "checkedAt": "2026-11-18T03:02:00+08:00",
+        "issueCount": 1,
+        "appliedAt": "2026-11-17T18:46:28.287Z",
+        "summary": "臭氧化学、1985年发现、议定书时间表、CFC-11未申报排放与中国淘汰进程均可核；仅“共同但有区别的责任第一次写进条约”需限定为1992年里约后的提法。"
+      }
     },
     {
       "id": "w5-wh-tech-climate-ipcc",
@@ -1214,7 +1268,16 @@
         "IPCC, Climate Change 2021: The Physical Science Basis, Sixth Assessment Report, 2021。",
         "John Tyndall, On the Absorption and Radiation of Heat by Gases and Vapours, Philosophical Magazine, 1861。",
         "Spencer Weart, The Discovery of Global Warming, Harvard University Press, 2003。"
-      ]
+      ],
+      "factCheck": {
+        "status": "verified",
+        "confidence": "high",
+        "batch": "batch-45",
+        "checkedAt": "2026-11-18T02:44:00+08:00",
+        "issueCount": 0,
+        "appliedAt": "2026-11-17T18:46:28.287Z",
+        "summary": "十二项事实的年份、数值与机制均与 IPCC 第六次评估报告及原始文献一致，未发现需要改动之处。"
+      }
     },
     {
       "id": "w5-wh-tech-internet",
@@ -1242,7 +1305,7 @@
         },
         {
           "id": "f2",
-          "text": "1974年，瑟夫和卡恩发表论文，提出把网络间的通信拆成TCP和IP两层：IP负责把数据包送到地址，TCP负责排序、重传和流量控制。这个拆分让不同类型的网络可以互联，而不必统一硬件。"
+          "text": "1974年，瑟夫和卡恩发表论文，提出用一个TCP协议把不同类型的网络连起来；1978年前后，TCP才拆成TCP和IP两层：IP负责寻址转发，TCP负责排序、重传和流量控制，异构网络因此得以互联。"
         },
         {
           "id": "f3",
@@ -1387,7 +1450,16 @@
         "Vint Cerf and Robert Kahn, A Protocol for Packet Network Intercommunication, IEEE Transactions on Communications, 1974。",
         "Saltzer, Reed and Clark, End-to-End Arguments in System Design, ACM Transactions on Computer Systems, 1984。",
         "Janet Abbate, Inventing the Internet, MIT Press, 1999。"
-      ]
+      ],
+      "factCheck": {
+        "status": "corrected",
+        "confidence": "high",
+        "batch": "batch-08",
+        "checkedAt": "2026-11-18T02:32:00+08:00",
+        "issueCount": 1,
+        "appliedAt": "2026-11-17T18:46:28.287Z",
+        "summary": "除 1974 年论文被误写成已提出 TCP/IP 两层外，其余史实与机制描述均可核实。"
+      }
     },
     {
       "id": "w5-wh-tech-sewers",
@@ -1423,7 +1495,7 @@
         },
         {
           "id": "f4",
-          "text": "1883年，德国细菌学家科赫在埃及和印度分离出霍乱弧菌，确认霍乱由细菌经口传播。斯诺的推断在三十年后得到病原学证实。科赫后来因此获得诺贝尔奖，霍乱的病原学才算真正建立。"
+          "text": "科赫1883年在埃及和印度发现霍乱弧菌，但1905年诺贝尔生理学或医学奖表彰的是他发现的结核杆菌，而非霍乱研究；霍乱病原学的建立与诺奖归属是两件事。"
         },
         {
           "id": "f5",
@@ -1431,7 +1503,7 @@
         },
         {
           "id": "f6",
-          "text": "工程师巴扎尔盖特设计了伦敦主下水道系统，总长约一百多公里，利用重力把污水向东排到泰晤士河下游。工程1865年基本完工，此后伦敦的霍乱疫情没有再大规模暴发。"
+          "text": "巴扎尔盖特系统的主干截流下水道约132公里，连同街道下水道共两千多公里；工程1859年动工，1868年主干通水，1875年全系统建成，而非1865年基本完工。"
         },
         {
           "id": "f7",
@@ -1560,7 +1632,16 @@
         "John Snow, On the Mode of Communication of Cholera, 2nd edition, 1855。",
         "Steven Johnson, The Ghost Map, Riverhead Books, 2006。",
         "WHO and UNICEF, Progress on Drinking Water, Sanitation and Hygiene, 2023。"
-      ]
+      ],
+      "factCheck": {
+        "status": "corrected",
+        "confidence": "high",
+        "batch": "batch-39",
+        "checkedAt": "2026-11-18T02:38:00+08:00",
+        "issueCount": 2,
+        "appliedAt": "2026-11-17T18:46:28.287Z",
+        "summary": "霍乱与下水道专题整体可靠；两处需修正：科赫诺奖理由被误挂到霍乱上，巴扎尔盖特工程的规模与完工年份被低估和提前。"
+      }
     },
     {
       "id": "w5-wh-tech-ivf",
@@ -1592,7 +1673,7 @@
         },
         {
           "id": "f3",
-          "text": "2010年，爱德华兹获得诺贝尔生理学或医学奖。斯特普托已于1991年去世，诺贝尔奖不追授，因此只有爱德华兹一人获奖。颁奖词提到，这项技术为不孕治疗开辟了一条全新的路径。"
+          "text": "二〇一〇年，爱德华兹获得诺贝尔生理学或医学奖。斯特普托已于一九八八年去世，诺贝尔奖不追授，因此只有爱德华兹一人获奖。颁奖词提到，这项技术为不孕治疗开辟了一条全新的路径。"
         },
         {
           "id": "f4",
@@ -1604,11 +1685,11 @@
         },
         {
           "id": "f6",
-          "text": "1983年，首例冷冻胚胎移植后婴儿出生。1990年代玻璃化冷冻技术提高了胚胎和卵子的存活率，使患者可以在一个周期里取卵、多次移植，也为生育力保存提供了可能。"
+          "text": "一九八四年，首例冷冻胚胎移植后出生的婴儿在澳大利亚诞生；此前一九八三年只有移植后妊娠的报告。一九九〇年代玻璃化冷冻提高了胚胎存活率，让患者能一次取卵、多次移植。"
         },
         {
           "id": "f7",
-          "text": "成功率与年龄高度相关。以美国辅助生殖技术登记数据为例，三十五岁以下女性每个取卵周期的活产率约三到四成，四十岁以上降到一成以下，四十五岁以上通常需要供卵。"
+          "text": "成功率与年龄高度相关。以美国辅助生殖技术登记数据为例，三十五岁以下每个取卵周期的活产率约四成，三十八至四十岁约两成多，四十一二岁约一成多，四十二岁以上才降到一成以下，四十五岁以上多需供卵。"
         },
         {
           "id": "f8",
@@ -1624,7 +1705,7 @@
         },
         {
           "id": "f11",
-          "text": "中国2001年发布《人类辅助生殖技术管理办法》，规定辅助生殖技术只能在批准的医疗机构开展，禁止代孕、禁止买卖配子、胚胎和胎儿。代孕在全球的法律差异很大。"
+          "text": "中国二〇〇一年发布《人类辅助生殖技术管理办法》，规定辅助生殖技术只能在批准的医疗机构开展，禁止代孕，禁止买卖配子、合子与胚胎；代孕在全球的法律差异很大。"
         },
         {
           "id": "f12",
@@ -1733,7 +1814,16 @@
         "Edwards and Steptoe, Birth after the reimplantation of a human embryo, The Lancet, 1978。",
         "Sarah Franklin, Biological Relatives: IVF, Stem Cells, and the Future of Kinship, Duke University Press, 2013。",
         "Human Fertilisation and Embryology Authority (UK), 年度报告与法规说明。"
-      ]
+      ],
+      "factCheck": {
+        "status": "corrected",
+        "confidence": "high",
+        "batch": "batch-26",
+        "checkedAt": "2026-11-18T02:31:00+08:00",
+        "issueCount": 4,
+        "appliedAt": "2026-11-17T18:46:28.287Z",
+        "summary": "十二条事实中，斯特普托卒年（一九九一应为一九八八）与首例冷冻胚胎婴儿年份（一九八三应为一九八四）是硬错误；活产率在“四十岁以上”处过粗，中国管理办法的禁售对象误作“胎儿”。其余技术史与监管事实有诺奖新闻稿、SART 数据与政府公报支撑。"
+      }
     }
   ]
 }

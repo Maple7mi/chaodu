@@ -27,7 +27,7 @@
         },
         {
           "id": "f2",
-          "text": "长期隔离让岛上的生物走上独立的路。狐猴、马岛獴、指猴和猴面包树都只在这里有，岛上约九成的维管植物是特有种，不少类群在非洲大陆上早已消失，空缺由少数祖先的后代填满。"
+          "text": "长期隔离让岛上的生物走上独立的路。狐猴、马岛獴、指猴都只在这里有，八种猴面包树有六种是特有种；岛上约九成的维管植物是特有种，不少类群在非洲大陆上早已消失，空缺由少数祖先的后代填满。"
         },
         {
           "id": "f3",
@@ -59,7 +59,7 @@
         },
         {
           "id": "f10",
-          "text": "森林消失后，雨水直接打在裸露的红土上。研究估计原始森林已失去约四成，河流输沙量上升，西部河口淤积加快，水库和珊瑚礁同时受影响，疏浚成本逐年增加。"
+          "text": "森林消失后，雨水直接打在裸露的红土上。研究估计1953至2014年间天然林已失去约四成，河流输沙量上升，西部河口淤积加快，水库和珊瑚礁同时受影响，疏浚成本逐年增加。"
         },
         {
           "id": "f11",
@@ -175,7 +175,16 @@
         "Goodman, S. M., & Benstead, J. P. (eds.). The Natural History of Madagascar. University of Chicago Press, 2003",
         "IUCN 濒危物种红色名录，2020 年狐猴评估",
         "FAO. Global Forest Resources Assessment 2020"
-      ]
+      ],
+      "factCheck": {
+        "status": "corrected",
+        "confidence": "high",
+        "batch": "batch-11",
+        "checkedAt": "2026-11-18T02:41:00+08:00",
+        "issueCount": 2,
+        "appliedAt": "2026-11-17T18:46:28.198Z",
+        "summary": "12条中10条可核实；把猴面包树整体说成马达加斯加特有是明确错误（8种中仅6种特有），森林损失“四成”需补1953—2014年这一时段。"
+      }
     },
     {
       "id": "w1-geo-world-new-zealand",
@@ -352,7 +361,16 @@
         "《新西兰自然史》",
         "Stats NZ. 乳制品与土地利用统计",
         "Department of Conservation. Predator Free 2050 计划文件"
-      ]
+      ],
+      "factCheck": {
+        "status": "verified",
+        "confidence": "high",
+        "batch": "batch-12",
+        "checkedAt": "2026-11-18T02:13:15+08:00",
+        "issueCount": 0,
+        "appliedAt": "2026-11-17T18:46:28.198Z",
+        "summary": "地质、气候、生态与人文地理叙述与来源一致，未发现需改写之处。"
+      }
     },
     {
       "id": "w1-geo-world-aleutians",
@@ -412,7 +430,7 @@
         },
         {
           "id": "f10",
-          "text": "一九五七年安德烈亚诺夫群岛地震引发横跨太平洋的海啸，夏威夷受损，直接推动了太平洋海啸预警中心的建立。岛链的监测站至今仍在预警网络中，海啸在无遮蔽海岸能爬高十几米。"
+          "text": "一九四六年阿留申群岛地震引发横跨太平洋的海啸，夏威夷受损严重，直接推动美国在一九四九年建立太平洋海啸预警中心；一九五七年安德烈亚诺夫群岛地震再次引发大海啸，预警网络受到检验。岛链的监测站仍在网络中。"
         },
         {
           "id": "f11",
@@ -529,7 +547,16 @@
         "NOAA. 北太平洋与白令海海洋生态报告",
         "《北太平洋海洋志》",
         "National Park Service. Aleutian World War II 历史资料"
-      ]
+      ],
+      "factCheck": {
+        "status": "corrected",
+        "confidence": "high",
+        "batch": "batch-08",
+        "checkedAt": "2026-11-18T02:32:00+08:00",
+        "issueCount": 1,
+        "appliedAt": "2026-11-17T18:46:28.198Z",
+        "summary": "火山弧、二战与海啸史实大体可靠，唯把 1957 年海啸当成预警中心建立原因，属明确错误。"
+      }
     },
     {
       "id": "w1-geo-world-coral-triangle",
@@ -573,7 +600,7 @@
         },
         {
           "id": "f6",
-          "text": "冰期结束后海水重新淹没陆架，礁体重新连成网络。研究者用起源中心、重叠中心和残留中心三种假说解释这里的多样性，证据各有支持，海平面每升降一次，礁群就连通或断开一次。"
+          "text": "冰期结束后海水重新淹没陆架，礁体重新连成网络。研究者用起源中心、重叠中心、累积中心与残留中心四种假说解释这里的多样性，证据各有支持；海平面每升降一次，礁群就连通或断开一次。"
         },
         {
           "id": "f7",
@@ -702,7 +729,16 @@
         "Coral Triangle Initiative on Coral Reefs, Fisheries and Food Security 区域报告",
         "NOAA Coral Reef Watch 白化监测资料",
         "《印度尼西亚海与贯穿流》"
-      ]
+      ],
+      "factCheck": {
+        "status": "corrected",
+        "confidence": "high",
+        "batch": "batch-09",
+        "checkedAt": "2026-11-18T02:42:00+08:00",
+        "issueCount": 1,
+        "appliedAt": "2026-11-17T18:46:28.198Z",
+        "summary": "六国范围、物种比例、贯穿流与白化事实可靠；多样性假说应为四种而非三种。"
+      }
     },
     {
       "id": "w1-geo-world-gulf-stream",
@@ -734,7 +770,7 @@
         },
         {
           "id": "f3",
-          "text": "湾流在哈特拉斯角离开海岸，转向东北，变成一条宽一百多公里、深一公里的急流。它的表层速度可达每秒两米，比长江的流速快一个量级，南北两缘的温差可达十摄氏度。"
+          "text": "湾流在哈特拉斯角离开海岸，转向东北，变成一条宽一百多公里、深一公里的急流。它的表层速度可达每秒两米，南北两缘的温差可达十摄氏度。"
         },
         {
           "id": "f4",
@@ -879,7 +915,16 @@
         "RAPID 计划 北纬 26.5 度翻转环流观测资料",
         "《大洋环流》",
         "Franklin, B. 关于湾流的海图与通信，1769–1786"
-      ]
+      ],
+      "factCheck": {
+        "status": "corrected",
+        "confidence": "high",
+        "batch": "batch-10",
+        "checkedAt": "2026-11-18T02:31:00+08:00",
+        "issueCount": 1,
+        "appliedAt": "2026-11-17T18:46:28.198Z",
+        "summary": "湾流的路径、驱动、观测体系与气候预估均可核实；f3 的流速量级比较有误，已修正。"
+      }
     },
     {
       "id": "w1-geo-world-southern-ocean",
@@ -1056,7 +1101,16 @@
         "CCAMLR. 南极海洋生物资源养护公约统计与保护措施",
         "《南大洋海洋学》",
         "NASA 与 NSIDC 南极海冰卫星记录"
-      ]
+      ],
+      "factCheck": {
+        "status": "verified",
+        "confidence": "medium",
+        "batch": "batch-05",
+        "checkedAt": "2026-11-18T02:18:00+08:00",
+        "issueCount": 0,
+        "appliedAt": "2026-11-17T18:46:28.198Z",
+        "summary": "南大洋的边界、环流、海冰、碳汇与保护区各条均可由权威机构资料支撑，仅个别数值为常用近似。"
+      }
     },
     {
       "id": "w1-psych-proximity",
@@ -1228,7 +1282,16 @@
         "Festinger, L., Schachter, S., & Back, K. (1950). Social Pressures in Informal Groups. Harper",
         "Allen, T. J. (1977). Managing the Flow of Technology. MIT Press",
         "Pettigrew, T. F., & Tropp, L. R. (2006). A meta-analytic test of intergroup contact theory. Journal of Personality and Social Psychology, 90(5), 751–783"
-      ]
+      ],
+      "factCheck": {
+        "status": "verified",
+        "confidence": "high",
+        "batch": "batch-31",
+        "checkedAt": "2026-11-18T02:52:00+08:00",
+        "issueCount": 0,
+        "appliedAt": "2026-11-17T18:46:28.198Z",
+        "summary": "接近效应的经典研究（Bossard 1932、Westgate 1950、Allen 1977）年份、样本与结论均无误，其余为有文献依据的概括。"
+      }
     },
     {
       "id": "w1-psych-reciprocal-liking",
@@ -1251,7 +1314,7 @@
       "facts": [
         {
           "id": "f1",
-          "text": "一九八六年，柯蒂斯和米勒综述了二十多项研究：当被试相信对方喜欢自己时，对对方的好感会上升；相信对方讨厌自己时，好感下降。这条双向的规律就是互惠好感，效应稳定但幅度中等。"
+          "text": "一九八六年，柯蒂斯和米勒做了一个实验：让被试相信对方喜欢或讨厌自己。被引导相信对方喜欢自己的人，举止更友善，也确实更受对方喜欢；相信对方讨厌自己的，互动随之变差。这就是互惠好感，效应稳定但幅度中等。"
         },
         {
           "id": "f2",
@@ -1404,7 +1467,16 @@
         "Aronson, E., & Linder, D. (1965). Gain and loss of esteem as determinants of interpersonal attractiveness. Journal of Experimental Social Psychology, 1(2), 156–171",
         "Boothby, E. J., Cooney, G., Sandstrom, G. M., & Schweitzer, M. E. (2018). The liking gap in conversations. Psychological Science, 29(11), 1839–1850",
         "Reis, H. T., & Shaver, P. (1988). Intimacy as an interpersonal process. In Handbook of Personal Relationships"
-      ]
+      ],
+      "factCheck": {
+        "status": "corrected",
+        "confidence": "high",
+        "batch": "batch-32",
+        "checkedAt": "2026-11-18T02:41:00+08:00",
+        "issueCount": 1,
+        "appliedAt": "2026-11-17T18:46:28.198Z",
+        "summary": "互惠好感专题除首条外均可核实：得失效应、喜欢差距、自我表露与亲密感形成、性别差异小等断言与既有实验和综述一致。首条把 Curtis & Miller 的单一实验误称为“综述二十多项研究”，需改写。"
+      }
     },
     {
       "id": "w1-psych-arousal-attribution",
@@ -1439,7 +1511,7 @@
         },
         {
           "id": "f4",
-          "text": "还有唤醒转移。齐尔曼的研究显示，前一个情境留下的残余唤醒，会叠加到随后的刺激上：刚看完恐怖片的人，对接下来遇到的人评价更高，因为心跳还没降下来。"
+          "text": "齐尔曼的唤醒转移指残余唤醒会加强随后的情绪与行为，他一九七一年的实验测的是攻击性；“看完恐怖片更喜欢对方”是后人把该机制引申到吸引研究。"
         },
         {
           "id": "f5",
@@ -1575,7 +1647,16 @@
         "Dutton, D. G., & Aron, A. P. (1974). Some evidence for heightened sexual attraction under conditions of high anxiety. Journal of Personality and Social Psychology, 30(4), 510–517",
         "Schachter, S., & Singer, J. E. (1962). Cognitive, social, and physiological determinants of emotional state. Psychological Review, 69(5), 379–399",
         "Zillmann, D. (1971). Excitation transfer in communication-mediated aggressive behavior. Journal of Experimental Social Psychology, 7(4), 419–434"
-      ]
+      ],
+      "factCheck": {
+        "status": "corrected",
+        "confidence": "high",
+        "batch": "batch-29",
+        "checkedAt": "2026-11-18T02:55:00+08:00",
+        "issueCount": 1,
+        "appliedAt": "2026-11-17T18:46:28.198Z",
+        "summary": "11条中10条成立。吊桥比例、沙赫特-辛格双因素理论、错误归因、复制危机与方法批评、归因需“无更合理解释”、唤醒可被读成不适、相关不等于因果、操控的伦理边界、长期关系中回应性更重要，均与文献一致。唯一问题是把“看完恐怖片后评价更高”的吸引类发现归到齐尔曼1971的攻击行为实验上，属文献归属不准。"
+      }
     },
     {
       "id": "w1-psych-self-disclosure",
@@ -1622,7 +1703,7 @@
         },
         {
           "id": "f7",
-          "text": "披露过量有代价。第一次见面就讲创伤细节、前任纠葛或家庭矛盾，常让对方不知如何回应；研究里，过早的负面披露会降低吸引力，除非双方已经建立了足够的信任。"
+          "text": "披露过量有代价。第一次见面就讲创伤细节、前任纠葛，常让对方不知如何回应；研究里，披露的亲密程度超过当前关系阶段时，好感会下降，而不只是内容负面。信任足够之后，同样的内容才更容易被接住。"
         },
         {
           "id": "f8",
@@ -1751,7 +1832,16 @@
         "Collins, N. L., & Miller, L. C. (1994). Self-disclosure and liking: A meta-analytic review. Psychological Bulletin, 116(3), 457–475",
         "Aron, A., Melinat, E., Aron, E. N., Vallone, R. D., & Bator, R. J. (1997). The experimental generation of interpersonal closeness. Personality and Social Psychology Bulletin, 23(4), 363–377",
         "Reis, H. T., & Shaver, P. (1988). Intimacy as an interpersonal process. In Handbook of Personal Relationships"
-      ]
+      ],
+      "factCheck": {
+        "status": "corrected",
+        "confidence": "high",
+        "batch": "batch-15",
+        "checkedAt": "2026-11-18T02:45:00+08:00",
+        "issueCount": 2,
+        "appliedAt": "2026-11-17T18:46:28.198Z",
+        "summary": "社会渗透理论、柯林斯与米勒元分析、阿伦36题范式均可靠；速度约会深层问题的研究无法落实，披露过量的机制被误写成“负面内容”。"
+      }
     }
   ]
 }

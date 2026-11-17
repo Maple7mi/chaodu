@@ -1,0 +1,694 @@
+{
+  "batch": "batch-53",
+  "checkedAt": "2026-11-18T02:50:00+08:00",
+  "dossiers": [
+    {
+      "id": "psych-listening",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        {
+          "id": "f1",
+          "verdict": "supported",
+          "confidence": "medium"
+        },
+        {
+          "id": "f2",
+          "verdict": "wrong",
+          "confidence": "high",
+          "issue": "issue-01"
+        },
+        {
+          "id": "f3",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f4",
+          "verdict": "supported",
+          "confidence": "medium"
+        },
+        {
+          "id": "f5",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f6",
+          "verdict": "supported",
+          "confidence": "medium"
+        },
+        {
+          "id": "f7",
+          "verdict": "supported",
+          "confidence": "medium"
+        },
+        {
+          "id": "f8",
+          "verdict": "supported",
+          "confidence": "medium"
+        },
+        {
+          "id": "f9",
+          "verdict": "supported",
+          "confidence": "medium"
+        },
+        {
+          "id": "f10",
+          "verdict": "supported",
+          "confidence": "medium"
+        },
+        {
+          "id": "f11",
+          "verdict": "supported",
+          "confidence": "high"
+        }
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f2",
+          "severity": "major",
+          "verdict": "wrong",
+          "claim": "主动倾听的培训效果被高估了。韦格等人2014年的实验发现，单纯复述对方的话并不比自然回应更能让人感到被倾听",
+          "problem": "该实验比较的是复述、给建议与简单回应三种反应，复述组自觉被理解的程度高于简单回应组、与给建议组相当或更高，结论方向与原文相反；实验也没有“自然回应”这一条件，“并不比自然回应”无从谈起。",
+          "correction": "韦格2014年的实验比较复述、给建议与简单回应三种反应：复述组自觉被理解的程度高于简单回应，与给建议组相当甚至更好；研究并未设置“自然回应”一组，因此不能说复述不如自然回应。",
+          "evidence": [
+            {
+              "title": "The relative effectiveness of active listening in initial interactions (International Journal of Listening, 2014)",
+              "url": "https://www.tandfonline.com/doi/full/10.1080/10904018.2013.813234",
+              "quote": "participants who received active listening responses felt more understood than participants who received either advice or simple acknowledgements"
+            }
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "Weger et al., The relative effectiveness of active listening in initial interactions, International Journal of Listening (2014)",
+        "https://www.tandfonline.com/doi/full/10.1080/10904018.2013.813234",
+        "Reis & Shaver 1988 人际过程模型与感知回应性（Handbook of Personal Relationships 章节，经 ScienceDirect 主题页与后续实证引用核对）",
+        "Gable et al. 2004, JPSP 87(2):228-245；Bolger & Amarel 2007, JPSP 92(3):458-475（N=257，无形支持降低情绪反应）",
+        "Gottman: 转向出价 86% vs 33% 与洪水期心率逾百、暂停二十分钟的说明，https://www.gottman.com/blog/turn-toward-instead-of-away/"
+      ],
+      "summary": "倾听的机制、实验与治疗原则大体可靠，唯把韦格2014年的实验结果说反，需要改写。"
+    },
+    {
+      "id": "w5-psych-consent",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        {
+          "id": "f1",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f2",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f3",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f4",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f5",
+          "verdict": "supported",
+          "confidence": "medium"
+        },
+        {
+          "id": "f6",
+          "verdict": "imprecise",
+          "confidence": "high",
+          "issue": "issue-02"
+        },
+        {
+          "id": "f7",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f8",
+          "verdict": "supported",
+          "confidence": "medium"
+        },
+        {
+          "id": "f9",
+          "verdict": "supported",
+          "confidence": "medium"
+        },
+        {
+          "id": "f10",
+          "verdict": "supported",
+          "confidence": "medium"
+        },
+        {
+          "id": "f11",
+          "verdict": "supported",
+          "confidence": "medium"
+        }
+      ],
+      "issues": [
+        {
+          "id": "issue-02",
+          "factId": "f6",
+          "severity": "major",
+          "verdict": "imprecise",
+          "claim": "后续研究把这个比例压得很低：多数说“不”的人就是不想。",
+          "problem": "1988 年原始调查本身给出的是高比例（610 名女大学生中 39.3% 至少一次口头拒绝而心里愿意），并非“很低”；后续研究虽给出更低估计，但原文未给任何数字，把“多数说不就是不想”与“象征性拒绝罕见”混为一谈。",
+          "correction": "1988年缪伦哈德与霍拉博的调查中，610名女大学生有39.3%至少一次口头拒绝而心里愿意，比例并不低；后续研究估计虽有下降，但把“象征性拒绝”说成已被压到很低，缺乏可核对的数字。",
+          "evidence": [
+            {
+              "title": "Muehlenhard & Hollabaugh (1988), Do women sometimes say no when they mean yes? JPSP 54(5):872-879",
+              "url": "https://psycnet.apa.org/record/1988-26427-001",
+              "quote": "39.3% of the 610 women surveyed reported having engaged in token resistance at least once"
+            }
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "Queensland Government, Sexual consent explained（自愿、知情、具体、可撤回四要件）https://www.qld.gov.au/community/getting-support-health-social-issue/support-victims-abuse/sexual-abuse-assault/about-sexual-abuse-assault/sexual-consent-explained",
+        "California SB 967 (2014), Chapter 748，肯定式同意标准，https://womenscaucus.legislature.ca.gov/sites/womenscaucus.legislature.ca.gov/files/PDF/SB%20967%20Text.pdf",
+        "Model Penal Code §213.0(d): Consent may be revoked or withdrawn any time before or during the act",
+        "Muehlenhard & Hollabaugh 1988, JPSP 54(5):872-879，https://psycnet.apa.org/record/1988-26427-001",
+        "Hickman & Muehlenhard 1999, Journal of Sex Research 36:258-272；Byers & Demmons 1999, JSR 36(2):180-189"
+      ],
+      "summary": "同意的要件、立法与强迫识别各条均有权威依据，仅象征性拒绝的比例表述与原始数据不符。"
+    },
+    {
+      "id": "w5-wh-trade-spice",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        {
+          "id": "f1",
+          "verdict": "supported",
+          "confidence": "medium"
+        },
+        {
+          "id": "f2",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f3",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f4",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f5",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f6",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f7",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f8",
+          "verdict": "imprecise",
+          "confidence": "medium",
+          "issue": "issue-03"
+        },
+        {
+          "id": "f9",
+          "verdict": "supported",
+          "confidence": "medium"
+        },
+        {
+          "id": "f10",
+          "verdict": "supported",
+          "confidence": "medium"
+        },
+        {
+          "id": "f11",
+          "verdict": "supported",
+          "confidence": "medium"
+        },
+        {
+          "id": "f12",
+          "verdict": "supported",
+          "confidence": "medium"
+        }
+      ],
+      "issues": [
+        {
+          "id": "issue-03",
+          "factId": "f8",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "十八世纪，胡椒改由地方王公、华人商人和乡村市集经营，欧洲公司只在几个港口设站收购。",
+          "problem": "18 世纪英国东印度公司并未退为只在港口设站：它在苏门答腊明古连直接推行胡椒定额种植、按年巡查，并召集地方王公摊派产量；王公与华人商人承担的是中间收购转运环节。",
+          "correction": "十八世纪英国东印度公司仍在苏门答腊明古连等地直接组织胡椒种植，向地方王公摊派定额、按年巡查收购；王公与华人商人承担中间转运，公司并未退为只在港口设站。",
+          "evidence": [
+            {
+              "title": "The Making and Unmaking of a Presidency: Envisioning Empire in British Bencoolen, 1685-1825 (Journal of British Studies)",
+              "url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/4C0CA8C6BF1E88181DA0CEACBC33C47A/S0021937123001429a.pdf/div-class-title-the-making-and-unmaking-of-a-presidency-envisioning-empire-in-british-bencoolen-1685-1825-div.pdf",
+              "quote": "the failure to enforce 'natives to a strict compliance' with pepper production quotas as well as 'not having regular annual surveys'"
+            }
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "Dutch East India Company 特许状（1602，二十一年垄断、建要塞、缔约权、初始资本 6,440,200 盾）https://en.m.wikipedia.org/wiki/Dutch_East_India_Trading_Company",
+        "Banda Islands 1621 人口约 1.5 万，几乎全部被杀或押往巴达维亚，https://brill.com/previewpdf/display/book/9789047442974/Bej.9789004165076.i-346_005.xml",
+        "The Making and Unmaking of a Presidency: British Bencoolen, 1685-1825, Journal of British Studies（公司推行胡椒定额与年度巡查）",
+        "FAOSTAT 2024 胡椒产量：越南 262,230 吨、印度 126,038 吨、巴西 124,925 吨、印尼 62,625 吨"
+      ],
+      "summary": "香料的生产、贸易路线、荷兰垄断与近代价格下跌均可核实，仅十八世纪胡椒经营方式的描述低估了公司的直接介入。"
+    },
+    {
+      "id": "w5-myth-africa-naga",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        {
+          "id": "f1",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f2",
+          "verdict": "supported",
+          "confidence": "medium"
+        },
+        {
+          "id": "f3",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f4",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f5",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f6",
+          "verdict": "supported",
+          "confidence": "medium"
+        },
+        {
+          "id": "f7",
+          "verdict": "imprecise",
+          "confidence": "high",
+          "issue": "issue-04"
+        },
+        {
+          "id": "f8",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f9",
+          "verdict": "supported",
+          "confidence": "medium"
+        },
+        {
+          "id": "f10",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f11",
+          "verdict": "supported",
+          "confidence": "medium"
+        },
+        {
+          "id": "f12",
+          "verdict": "supported",
+          "confidence": "medium"
+        }
+      ],
+      "issues": [
+        {
+          "id": "issue-04",
+          "factId": "f7",
+          "severity": "major",
+          "verdict": "imprecise",
+          "claim": "每年旱季结束时有“那伽火球”的说法",
+          "problem": "火球出现在雨季安居结束的“出夏节”（Ok Phansa），即阴历十一月满月夜，通常在公历 10 月，是雨季结束而非旱季结束；泰国旅游局与当地报道均以此定时。",
+          "correction": "那伽火球出现在雨季安居结束的“出夏节”（Ok Phansa），时值阴历十一月满月夜，通常在公历10月；这是雨季结束而非旱季结束，当地寺院与旅游局都按此定期举办节庆。",
+          "evidence": [
+            {
+              "title": "Naga Fireballs: Thailand's unexplained lights draw crowds to the Mekong (Khaosod English)",
+              "url": "https://www.khaosodenglish.com/featured/2026/10/26/naga-fireballs-thailands-unexplained-lights-draw-crowds-to-the-mekong/",
+              "quote": "glowing reddish-pink orbs said to rise silently from the river on the night marking the end of Buddhist Lent"
+            },
+            {
+              "title": "バンファイ・パヤナーク（龍神の火の玉祭り）／タイ国政府観光庁",
+              "url": "https://www.thailandtravel.or.jp/end-of-the-buddhist-lent-festival/",
+              "quote": "毎年10月のオークパンサー(出安居）"
+            }
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "V&A 藏品说明与佛传文献：Mucalinda 绕佛七匝、七头覆顶",
+        "Preah Thaong / Neang Neak 与 Kaundinya-Soma 传说（新加坡国家图书馆存档）",
+        "吴哥寺东回廊搅拌乳海浮雕，Vasuki 为绳（Siam Society 论文与图录）",
+        "Khaosod English 2026-10-26 那伽火球报道（出夏节之夜）；泰国政府观光厅出夏节条目，https://www.thailandtravel.or.jp/end-of-the-buddhist-lent-festival/"
+      ],
+      "summary": "那伽的图像、神话与东南亚在地化叙述基本可靠，唯火球祭的时令说错，应为雨季结束而非旱季结束。"
+    },
+    {
+      "id": "w2-wh-islamic-mamluk",
+      "status": "corrected",
+      "confidence": "medium",
+      "facts": [
+        {
+          "id": "f1",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f2",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f3",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f4",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f5",
+          "verdict": "supported",
+          "confidence": "medium"
+        },
+        {
+          "id": "f6",
+          "verdict": "supported",
+          "confidence": "medium"
+        },
+        {
+          "id": "f7",
+          "verdict": "imprecise",
+          "confidence": "medium",
+          "issue": "issue-05"
+        },
+        {
+          "id": "f8",
+          "verdict": "supported",
+          "confidence": "medium"
+        },
+        {
+          "id": "f9",
+          "verdict": "supported",
+          "confidence": "medium"
+        },
+        {
+          "id": "f10",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f11",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f12",
+          "verdict": "supported",
+          "confidence": "medium"
+        }
+      ],
+      "issues": [
+        {
+          "id": "issue-05",
+          "factId": "f7",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "父子传承的尝试多次失败，因为其他兵团不愿接受一个没有战功的继承人",
+          "problem": "苏丹虽多由军事集团推举，但 Qalawun 家族在 1290-1382 年间长期父死子继（al-Nasir Muhammad 及其子孙），世袭并非“多次失败”；失败的只是缺乏实力支撑的继承人，血统与战功长期并存。",
+          "correction": "苏丹多由军事集团推举，但Qalawun家族在1290至1382年间长期父死子继，只是继承人常受权臣挟制；说父子传承“多次失败”低估了世袭实践，血统与战功实际长期并存。",
+          "evidence": [
+            {
+              "title": "Caught between heredity and merit: the amir Qusun and the legacy of al-Nasir Muhammad b. Qalawun (BSOAS)",
+              "url": "https://www.cambridge.org/core/journals/bulletin-of-the-school-of-oriental-and-african-studies/article/abs/caught-between-heredity-and-merit-the-amir-quun-and-the-legacy-of-al-nir-muammad-b-qalwun-d-13411/B59E735943C9DDFC31D06BA1F491DA67",
+              "quote": "triggered a Qalawunid dynastic succession practice that was to remain dominant for many decades"
+            }
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "Cambridge History of Egypt, Vol.1（1250 年政权更替、Bahri 时期）",
+        "Ain Jalut 1260：Qutuz 与 Baybars 击败 Kitbuqa（多部通史与战役研究一致）",
+        "Marj Dabiq 1516-08-24、Raydaniyya 1517-01-23、Tuman Bay 1517-04-14 处死",
+        "Levanoni, The Mamluk conception of the sultanate（新买马穆鲁克制衡旧派系）",
+        "BSOAS, Caught between heredity and merit: the amir Qusun and the legacy of al-Nasir Muhammad"
+      ],
+      "summary": "马穆鲁克的来源、军事制度、瘟疫与经济影响叙述可靠，仅世袭问题的判断与 Qalawun 王朝的实际不符。"
+    },
+    {
+      "id": "w5-geo-cn-bohai-self-purification",
+      "status": "verified",
+      "confidence": "high",
+      "facts": [
+        {
+          "id": "f1",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f2",
+          "verdict": "supported",
+          "confidence": "medium"
+        },
+        {
+          "id": "f3",
+          "verdict": "supported",
+          "confidence": "medium"
+        },
+        {
+          "id": "f4",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f5",
+          "verdict": "supported",
+          "confidence": "medium"
+        },
+        {
+          "id": "f6",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f7",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f8",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f9",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f10",
+          "verdict": "supported",
+          "confidence": "medium"
+        },
+        {
+          "id": "f11",
+          "verdict": "supported",
+          "confidence": "medium"
+        },
+        {
+          "id": "f12",
+          "verdict": "supported",
+          "confidence": "medium"
+        }
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "渤海面积 7.7×10^4 km²、平均水深 18 m、最深 83 m；渤海海峡宽约 105-106 km",
+        "渤海湾 2003 年前整体半交换时间约 300 天（《同济大学学报》数值模拟）",
+        "黄河最大年输沙量逾 16 亿吨、现年均输沙量下降九成以上（中科院生态环境研究中心 2025-09-17）",
+        "2014 年 8 月 DO<3 mg/L 低氧区约 4.2×10^3 km²；填海后纳潮量缩减 3.95%（JGR Oceans 2023JC020570）"
+      ],
+      "summary": "渤海的面积、水文、污染、低氧与治理各条均可由论文与官方数据支撑，未发现需要改写的硬伤。"
+    },
+    {
+      "id": "w4-geo-cn-south-north-water",
+      "status": "verified",
+      "confidence": "high",
+      "facts": [
+        {
+          "id": "f1",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f2",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f3",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f4",
+          "verdict": "supported",
+          "confidence": "medium"
+        },
+        {
+          "id": "f5",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f6",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f7",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f8",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f9",
+          "verdict": "supported",
+          "confidence": "medium"
+        },
+        {
+          "id": "f10",
+          "verdict": "supported",
+          "confidence": "medium"
+        },
+        {
+          "id": "f11",
+          "verdict": "supported",
+          "confidence": "medium"
+        },
+        {
+          "id": "f12",
+          "verdict": "supported",
+          "confidence": "high"
+        }
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "水利部南水北调东线工程简介：13 级泵站、扬程 65 m、干线 1466.5 km",
+        "中线干线 1432 km、全程自流、年均调水 95 亿 m³、2014-12-12 通水",
+        "穿黄工程：郑州以西约 30 km 孤柏嘴、河床下 40 m、两条直径 7 m 隧洞、单洞 4.25 km、倒虹吸",
+        "丹江口大坝 162→176.6 m、总库容 290.5 亿 m³、移民 34.5 万人（河南 16.4 万、湖北 18.1 万）"
+      ],
+      "summary": "南水北调三线的规模、造价、移民与生态争议均有权威资料支撑，未发现需要改写的断言。"
+    },
+    {
+      "id": "w3-cn-history-song-commerce",
+      "status": "verified",
+      "confidence": "high",
+      "facts": [
+        {
+          "id": "f1",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f2",
+          "verdict": "supported",
+          "confidence": "medium"
+        },
+        {
+          "id": "f3",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f4",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f5",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f6",
+          "verdict": "supported",
+          "confidence": "medium"
+        },
+        {
+          "id": "f7",
+          "verdict": "supported",
+          "confidence": "medium"
+        },
+        {
+          "id": "f8",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f9",
+          "verdict": "supported",
+          "confidence": "medium"
+        },
+        {
+          "id": "f10",
+          "verdict": "supported",
+          "confidence": "medium"
+        },
+        {
+          "id": "f11",
+          "verdict": "supported",
+          "confidence": "medium"
+        },
+        {
+          "id": "f12",
+          "verdict": "supported",
+          "confidence": "medium"
+        }
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "《宋史·食货志》：过税每千钱二十、住税每千钱三十",
+        "交子：十六户富商联合发行，天圣元年（1023）设益州交子务；官交子以 36 万贯铁钱为准备金、两年一界、每界限额 125 万 6340 贯",
+        "后渚沉船 1974 年出土，香料药材 4700 多斤（国家文物局、央视网）",
+        "开封后期人口逾 140 万、临安城内外约百万（包伟民等估算）"
+      ],
+      "summary": "宋代商业革命的市场、货币、城市化与海外贸易各条均可由史料与研究支撑，未发现事实错误。"
+    }
+  ]
+}

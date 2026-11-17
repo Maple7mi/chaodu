@@ -1,0 +1,875 @@
+{
+  "batch": 46,
+  "generatedAt": "2026-11-17T18:01:54.530Z",
+  "instructions": "See data/factcheck/PROTOCOL.md. Check every fact; write only the issues you can support with web evidence.",
+  "totalDossiers": 8,
+  "totalFacts": 93,
+  "dossiers": [
+    {
+      "id": "w5-wh-trade-oil",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        {
+          "id": "f1",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f2",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f3",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f4",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f5",
+          "verdict": "imprecise",
+          "confidence": "medium",
+          "issue": "issue-01"
+        },
+        {
+          "id": "f6",
+          "verdict": "supported",
+          "confidence": "medium"
+        },
+        {
+          "id": "f7",
+          "verdict": "imprecise",
+          "confidence": "medium",
+          "issue": "issue-02"
+        },
+        {
+          "id": "f8",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f9",
+          "verdict": "supported",
+          "confidence": "medium"
+        },
+        {
+          "id": "f10",
+          "verdict": "imprecise",
+          "confidence": "high",
+          "issue": "issue-03"
+        },
+        {
+          "id": "f11",
+          "verdict": "supported",
+          "confidence": "medium"
+        },
+        {
+          "id": "f12",
+          "verdict": "imprecise",
+          "confidence": "medium",
+          "issue": "issue-04"
+        }
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f5",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "流水线把装配时间压到几分钟",
+          "problem": "高地公园流水线1913年10月启用后，单车装配时间由约12.5小时降到93分钟（约一个半小时），并未降到“几分钟”；原句把效率提升夸大了约一个数量级。1908年推出T型车、1914年1月实行五美元日薪均无误。",
+          "correction": "1908年，福特推出T型车；1913年高地公园工厂改用流水线，1914年把日薪提到五美元。汽车价格下降，普通家庭也买得起。单车装配时间从十二个半小时降到九十三分钟，产量迅速上升。",
+          "evidence": [
+            {
+              "title": "Library of Congress: Ford Implements the Moving Assembly Line",
+              "url": "https://guides.loc.gov/this-month-in-business-history/October/Ford",
+              "quote": "In October 1913, Henry Ford introduced the moving assembly line at the Highland Park factory in Michigan... What took workers 12.5 hours to assemble was reduced to just 93 minutes."
+            },
+            {
+              "title": "MotorCities: Automotive Manufacturing Before the Computer Age",
+              "url": "https://motorcities.org/story-of-the-week/2017/automotive-manufacturing-before-the-computer-age",
+              "quote": "At that time, it took a single car roughly 93 minutes or more to..."
+            }
+          ]
+        },
+        {
+          "id": "issue-02",
+          "factId": "f7",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "1949年法院判其违反反垄断法",
+          "problem": "1949年的定罪只针对“共谋垄断向NCL控制的公交公司销售巴士、轮胎与油品”；陪审团同时裁定被告“共谋垄断这些公交公司的所有权”不成立，即法院并未认定拆电车本身违法。此外参与控股的是加利福尼亚标准石油（后为雪佛龙），不是笼统的“标准石油”。",
+          "correction": "1930年代，通用汽车、火石与加州标准石油等组建控股公司，收购有轨电车线路，改开公共汽车。1949年法院判它们垄断巴士及相关用品销售，未认定拆电车违法；学界认为另有道路补贴等原因。",
+          "evidence": [
+            {
+              "title": "Wikipedia: General Motors streetcar conspiracy",
+              "url": "https://en.wikipedia.org/wiki/General_Motors_streetcar_conspiracy",
+              "quote": "In 1949, Firestone Tire, Standard Oil of California, Phillips Petroleum, GM, and Mack Trucks were convicted of conspiring to monopolize the sale of buses and related products to local transit companies controlled by NCL; they were acquitted of conspiring to monopolize the ownership of these companies."
+            },
+            {
+              "title": "WDET: Did Detroit automakers sabotage public transit?",
+              "url": "https://wdet.org/2025/06/12/curiosid-did-detroit-automakers-sabotage-public-transit/",
+              "quote": "In 1949, General Motors and the Firestone Tire company, among others, were convicted of conspiring to monopolize the sale of buses and products to National City Lines... But GM, Firestone and the others were acquitted of trying to, in effect, monopolize the transit industry."
+            },
+            {
+              "title": "Refueling Capitalism (De Gruyter)",
+              "url": "https://www.degruyterbrill.com/document/doi/10.5749/9780816685936-003/",
+              "quote": "In the mid-1930s, National City Lines was transformed into a holding company that included various corporate pillars of what might be called the auto-petroleum industrial complex—Firestone Tires, Phillips Petroleum, and Standard Oil of California."
+            }
+          ]
+        },
+        {
+          "id": "issue-03",
+          "factId": "f10",
+          "severity": "major",
+          "verdict": "imprecise",
+          "claim": "1953年，伊朗首相摩萨台推动石油国有化，英美支持政变把他赶下台",
+          "problem": "石油国有化与接管英伊石油公司发生在1951年（摩萨台1951年4月出任首相后即推动国有化法令）；1953年发生的是英美支持的政变。原句把两件事并到1953年，年份错位。1973年危机部分无误。",
+          "correction": "二战后，中东石油的地位上升。1951年，伊朗首相摩萨台推动石油国有化；1953年英美支持政变把他赶下台。1973年石油危机让油价和通货膨胀一起飙升。产油国和消费国的谈判，从此带着军舰的影子。",
+          "evidence": [
+            {
+              "title": "Treccani: Usa-Iran, settant'anni di conflitti",
+              "url": "https://www.treccani.it/magazine/atlante/geopolitica/usa-iran-settant-anni-di-conflitti-dal-colpo-di-stato-del-1953-al-ritorno-di-khomeini-nel-1979.html",
+              "quote": "Mohammad Mossadeq, primo ministro dal 1951 e grande promotore del nazionalismo iraniano. La sua decisione di nazionalizzare l'industria petrolifera, fino ad allora nelle mani della britannica Anglo-Iranian Oil Company..."
+            },
+            {
+              "title": "环球时报《1953年，中情局颠覆伊朗政府》（新浪转载）",
+              "url": "http://news.sina.com.cn/o/2006-03-22/23118504225s.shtml",
+              "quote": "1951年4月，伊朗民族阵线领导人穆罕默德·摩萨台被任命为首相……他在上任的当天就主持议会通过了石油国有化法令"
+            }
+          ]
+        },
+        {
+          "id": "issue-04",
+          "factId": "f12",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "二十世纪末，混合动力和锂电池汽车出现",
+          "problem": "普锐斯1997年底上市，混合动力确属二十世纪末；但锂电池汽车要到二十一世纪初才量产（特斯拉Roadster 2008年、日产Leaf 2010年），原句把两者一并说成“二十世纪末”，早了约十年。",
+          "correction": "二十世纪末混合动力汽车上市，锂电池汽车要到二十一世纪初才量产；城市重新讨论公交、步行和自行车。石油时代没有结束，但它的边界第一次被认真讨论，转型从此有了具体的技术选项。",
+          "evidence": [
+            {
+              "title": "The Industrial Ecology of the Automobile (Springer)",
+              "url": "https://link.springer.com/chapter/10.1007/978-3-319-20571-7_18",
+              "quote": "In late 1997 Toyota's Prius, the first mass-produced hybrid-electric vehicle (HEV), went on sale in Japan"
+            },
+            {
+              "title": "Benzinga: Polestar Credits Toyota, Tesla For Rebirth Of EVs",
+              "url": "https://cdn1.benzinga.com/news/23/07/33110992/polestar-credits-toyota-tesla-for-rebirth-of-evs-in-21st-century-next-phase-of-the-heros-journey",
+              "quote": "The Prius was launched in December 1997... Tesla, meanwhile, introduced the Roadster in 2008."
+            }
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "三本书目（Yergin 1991、Jackson 1985、Lewis 1997）均为通史/城市史著作且未标页码；f4 的油价数字、f5 的装配时长、f9 的分区与停车配建细节实际依赖机构页面与论文，书目未列出这些来源。",
+        "f7 的“标准石油”应写明为加利福尼亚标准石油（Standard Oil of California），书目未提示这一区分。"
+      ],
+      "summary": "12条中8条有可靠来源支持；4条需改：装配时长被写成“几分钟”、1949年定罪范围被放大、摩萨台国有化年份误作1953、锂电池汽车被提前到二十世纪末。"
+    },
+    {
+      "id": "world-history-maya",
+      "status": "verified",
+      "confidence": "high",
+      "facts": [
+        {
+          "id": "f1",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f2",
+          "verdict": "supported",
+          "confidence": "medium"
+        },
+        {
+          "id": "f3",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f4",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f5",
+          "verdict": "supported",
+          "confidence": "medium"
+        },
+        {
+          "id": "f6",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f7",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f8",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f9",
+          "verdict": "supported",
+          "confidence": "medium"
+        },
+        {
+          "id": "f10",
+          "verdict": "supported",
+          "confidence": "medium"
+        },
+        {
+          "id": "f11",
+          "verdict": "supported",
+          "confidence": "high"
+        }
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "迈克尔·科《玛雅》未注明版本与出版年（原书为 Michael D. Coe, The Maya），无法核对页码。",
+        "《玛雅君主与王后编年史》未注明原书名、出版社与年份（应为 Simon Martin & Nikolai Grube, Chronicle of the Maya Kings and Queens）。",
+        "《波波尔·乌》未注明译者与版本；“德累斯顿抄本研究”未给出作者与具体文献，均无法定位。",
+        "f8 的2018年 LiDAR 数字与 f7 的干旱记录，书目中没有对应文献，只能靠外部来源核对。"
+      ],
+      "summary": "11条均可由博物馆、同行评议论文与2018年 LiDAR 报道支持；仅“两国”的措辞和“抵抗一百七十年”的起算点可再推敲，不构成事实错误。"
+    },
+    {
+      "id": "w5-cn-history-chaijian-shangpinfang",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        {
+          "id": "f1",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f2",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f3",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f4",
+          "verdict": "supported",
+          "confidence": "medium"
+        },
+        {
+          "id": "f5",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f6",
+          "verdict": "imprecise",
+          "confidence": "high",
+          "issue": "issue-01"
+        },
+        {
+          "id": "f7",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f8",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f9",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f10",
+          "verdict": "supported",
+          "confidence": "medium"
+        },
+        {
+          "id": "f11",
+          "verdict": "imprecise",
+          "confidence": "high",
+          "issue": "issue-02"
+        },
+        {
+          "id": "f12",
+          "verdict": "supported",
+          "confidence": "medium"
+        }
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f6",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "二〇〇四年起，商业、旅游、娱乐和商品住宅用地必须通过招拍挂取得",
+          "problem": "把经营性用地招拍挂的起点写成2004年。国土资源部11号令自2002年7月1日起已规定，商业、旅游、娱乐和商品住宅等经营性用地必须以招标、拍卖或者挂牌方式出让；2004年8月31日只是清理此前协议出让历史遗留问题的截止线，不是制度起点。",
+          "correction": "二〇〇二年七月起，商业、旅游、娱乐和商品住宅等经营性用地必须招标、拍卖、挂牌出让。二〇〇四年八月三十一日后，协议出让的历史遗留用地也被叫停，地价随行就市，开发商的资金门槛提高。",
+          "evidence": [
+            {
+              "title": "中华人民共和国国土资源部令（第11号）：招标拍卖挂牌出让国有土地使用权规定",
+              "url": "https://www.gov.cn/gongbao/content/2003/content_62586.htm",
+              "quote": "第四条 商业、旅游、娱乐和商品住宅等各类经营性用地，必须以招标、拍卖或者挂牌方式出让。……本规定自2002年7月1日起施行。"
+            },
+            {
+              "title": "经营性土地出让“8·31”大限已过",
+              "url": "http://finance.sina.com.cn/roll/20040904/0555999993.shtml",
+              "quote": "要求从今年8月31日起，所有经营性的土地一律都要公开竞价出让，正式叫停协议出让经营性土地的做法，被业内称为8·31大限。"
+            }
+          ]
+        },
+        {
+          "id": "issue-02",
+          "factId": "f11",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "住房制度改革同时提出保障体系：经济适用房、廉租房、公租房和棚户区改造。",
+          "problem": "四个组成部分不是同一次房改同时提出的：1998年国发23号文提出经济适用房和廉租房；公共租赁住房的国家层面指导意见发布于2010年；棚户区改造2008年才纳入城镇保障性安居工程。“同时提出”把二十多年的逐步建设压缩成一次政策。",
+          "correction": "住房制度改革以来逐步建立保障体系：经济适用房、廉租房、公租房和棚户区改造先后推出。保障房覆盖面扩大，但申请资格、选址和退出机制一直是难点。保障房的位置也影响实际使用。",
+          "evidence": [
+            {
+              "title": "政策明确：停止住房实物分配",
+              "url": "https://www.gmw.cn/01shsb/1999-08/08/GB/shsb%5e1064%5e0%5eSH5-825.htm",
+              "quote": "建立和完善以经济适用住房为主的多层次城镇住房供应体系……最低收入家庭租赁由政府或单位提供的廉租住房，中低收入家庭购买经济适用住房"
+            },
+            {
+              "title": "关于加快发展公共租赁住房的指导意见",
+              "url": "https://www.mohurd.gov.cn/gongkai/zc/wjk/art/2010/art_17339_201308.html",
+              "quote": "建保[2010]87号……二〇一〇年六月八日"
+            },
+            {
+              "title": "国务院关于加快棚户区改造工作的意见",
+              "url": "https://www.gov.cn/zhengce/zhengceku/2013-07/12/content_4556.htm",
+              "quote": "2008年以来，各地区、各有关部门贯彻落实党中央、国务院决策部署，将棚户区改造纳入城镇保障性安居工程"
+            }
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "来源清单只有三项（1998年房改通知、2011年征收条例、1988年宪法修正案），f2、f4、f6、f7、f8 的关键文件未列入；这些条目另据国务院、国土资源部、央行等公开文本核对。",
+        "f4 的“分税制导致土地财政”是主流解释，也有学者认为二者无本质关联，正文宜保持“背景/压力”的弱因果。",
+        "f12 的“六个钱包”出自2018年樊纲在央视财经频道的发言，属流行说法，不是学术概念。"
+      ],
+      "summary": "12条事实的年份与制度节点基本可核；两处需改：经营性用地招拍挂的制度起点是2002年（2004年是清理协议出让的截止线），保障房四项并非1998年房改同时提出。"
+    },
+    {
+      "id": "world-history-enclosure",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        {
+          "id": "f1",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f2",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f3",
+          "verdict": "supported",
+          "confidence": "medium"
+        },
+        {
+          "id": "f4",
+          "verdict": "imprecise",
+          "confidence": "high",
+          "issue": "issue-01"
+        },
+        {
+          "id": "f5",
+          "verdict": "imprecise",
+          "confidence": "medium",
+          "issue": "issue-02"
+        },
+        {
+          "id": "f6",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f7",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f8",
+          "verdict": "supported",
+          "confidence": "medium"
+        },
+        {
+          "id": "f9",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f10",
+          "verdict": "supported",
+          "confidence": "medium"
+        },
+        {
+          "id": "f11",
+          "verdict": "supported",
+          "confidence": "medium"
+        }
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f4",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "约占当时耕地与公地的两成",
+          "problem": "分母不准确。英国议会把680万英亩表述为“英格兰土地总面积的五分之一强”，即两成是相对英格兰土地总面积，不是“耕地与公地”。约四千项法案、约七百万英亩本身在常见估计范围内（Open University 论文作约五千项、七百万英亩），但七百万英亩对应的比例也应按土地总面积表述。",
+          "correction": "议会圈地需经法案批准，由专员丈量、分配与补偿；1750至1850年间，英格兰与威尔士通过约四千项法案，圈占约七百万英亩，约占英格兰土地总面积的五分之一，多数集中在1790年后的粮价高涨期。",
+          "evidence": [
+            {
+              "title": "UK Parliament: Enclosing the land",
+              "url": "https://www.parliament.uk/about/living-heritage/transformingsociety/towncountry/landscape/overview/enclosingland/",
+              "quote": "between 1604 and 1914 over 5,200 enclosure Bills were enacted by Parliament which related to just over a fifth of the total area of England, amounting to some 6.8 million acres."
+            },
+            {
+              "title": "Open University thesis: A1.1.2 Post 1750",
+              "url": "https://oro.open.ac.uk/30150/1/Thesis_final_version_for_pdf.pdf",
+              "quote": "around 5,000 Acts were passed dealing with seven million acres of land ... the period between 1750 and 1850 was the most active"
+            }
+          ]
+        },
+        {
+          "id": "issue-02",
+          "factId": "f5",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "许多人被迫进城或移民",
+          "problem": "把有争议的因果强度写成了定论。英国议会指出，史家对圈地在多大程度上迫使农业劳动者永久离乡仍有分歧；Whyte 也概括了另一派观点：圈地过程大体公平，并未严重损害乡村下层多数人。删去“提供了劳动力”的因果断言，并把“许多人被迫”改为“部分人”，更符合证据。",
+          "correction": "圈地提高了农业效率：轮作、良种、排水与更大的地块让产量上升，为工业城市提供了粮食；小农与茅屋农失去公地使用权，部分人进城或移民，乡村人口结构随之改变。",
+          "evidence": [
+            {
+              "title": "UK Parliament: Enclosing the land",
+              "url": "https://www.parliament.uk/about/living-heritage/transformingsociety/towncountry/landscape/overview/enclosingland/",
+              "quote": "historians remain divided over the extent to which enclosure forced those at the lowest end of rural society, the agricultural labourers, to leave the land permanently to seek work in the towns."
+            },
+            {
+              "title": "Whyte, The Parliamentary Enclosure of Upland Commons in North–West England (Springer, 2013)",
+              "url": "https://link.springer.com/chapter/10.1007/978-94-007-6159-9_23",
+              "quote": "The alternative view is that the process was reasonably fair and did not severely disadvantage most of those in the lower strata of rural society"
+            }
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "书目中的瑟斯克《英格兰与威尔士农业史》与尼森《公地使用者》均为真实著作，但未标页码；f4 的法案数与土地面积、f6 的1834年济贫法实际依据 Parliament 页面与 Open University 论文，书目未列这些来源。",
+        "f8 末句“让游客以为这是古老的英格兰”是文化史解释；所查 Parliament 与 Gilpin 材料只支持圈地改造景观、如画旅游兴起，未直接测量游客认知，故该条给 medium。",
+        "f10 荷兰的土地重划（ruilverkaveling）主要兴起于19世纪末至20世纪，与丹麦、德意志北部的18世纪措施并不同步；原句未称同时，故未判错，但读者易误以为同期。"
+      ],
+      "summary": "11条中9条有可靠来源支持；f4 的“两成”分母应为英格兰土地总面积而非耕地与公地，f5 把“许多人被迫进城”这一有争议的因果强度写成定论；其余年代、数字与专名均可核实。"
+    },
+    {
+      "id": "w2-geo-cn-climate-plateau-heat",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        {
+          "id": "f1",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f2",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f3",
+          "verdict": "imprecise",
+          "confidence": "high",
+          "issue": "issue-01"
+        },
+        {
+          "id": "f4",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f5",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f6",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f7",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f8",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f9",
+          "verdict": "supported",
+          "confidence": "medium"
+        },
+        {
+          "id": "f10",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f11",
+          "verdict": "supported",
+          "confidence": "medium"
+        },
+        {
+          "id": "f12",
+          "verdict": "supported",
+          "confidence": "high"
+        }
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f3",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "这个低压叠加在印度低压之上，使亚洲南部低层出现一个深厚的低压区",
+          "problem": "高原夏季热低压是浅薄系统：600 hPa 最强，范围随高度缩小，约到 400 hPa 即消失并转为暖高压。它与印度低压叠加会加强亚洲南部的低层低压，但说成“深厚”既与同段“薄而强”自相矛盾，也夸大了它的垂直伸展。",
+          "correction": "夏季高原地面强烈加热，近地面空气受热膨胀上升，形成薄而强的热低压。这个低压叠加在印度低压之上，使亚洲南部低层出现一个范围广、强度大的低压区，海洋水汽因此被吸引向大陆。",
+          "evidence": [
+            {
+              "title": "科普中国·南亚高压",
+              "url": "https://cloud.kepuchina.cn/newSearch/imgText?from=1&id=6974061885972283392&is_self=2",
+              "quote": "7月份600hPa环流上，整个高原为热低压所控制……热低压控制的范围随高度缩小，大致到400hPa附近，热低压消失，开始转变为暖高压。"
+            }
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "f3 的热低压是浅薄系统，600 hPa 最强、约 400 hPa 即消失，与“深厚”矛盾；它叠加在印度低压上只加强低层低压，并不增加其垂直厚度。",
+        "f4 南亚高压确为北半球夏季最强暖性高压之一；f11 所述南亚高压与梅雨、华北降水的关系是统计相关，方向与强度因研究与时段而异，故置信度取 medium。",
+        "f12 所述再分析资料在高原复杂地形下的感热通量差异，有崔洋等、王子涛等对多套再分析资料的比较研究支持。"
+      ],
+      "summary": "高原专题的物理图像整体可靠：感热与潜热、南亚高压、西风分支、冷源与数值试验均与教科书及研究文献一致；仅 f3 把浅薄的高原热低压写成“深厚”的低压区，已修正。"
+    },
+    {
+      "id": "world-geo-permafrost",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        {
+          "id": "f1",
+          "verdict": "supported",
+          "confidence": "medium"
+        },
+        {
+          "id": "f2",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f3",
+          "verdict": "wrong",
+          "confidence": "high",
+          "issue": "issue-01"
+        },
+        {
+          "id": "f4",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f5",
+          "verdict": "supported",
+          "confidence": "medium"
+        },
+        {
+          "id": "f6",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f7",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f8",
+          "verdict": "supported",
+          "confidence": "medium"
+        },
+        {
+          "id": "f9",
+          "verdict": "supported",
+          "confidence": "medium"
+        },
+        {
+          "id": "f10",
+          "verdict": "wrong",
+          "confidence": "high",
+          "issue": "issue-02"
+        },
+        {
+          "id": "f11",
+          "verdict": "imprecise",
+          "confidence": "high",
+          "issue": "issue-03"
+        }
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f3",
+          "severity": "major",
+          "verdict": "wrong",
+          "claim": "估计总量在一千五百亿吨碳量级",
+          "problem": "1500 Pg C 折合 1.5 万亿吨（一万五千亿吨）碳；原文“一千五百亿吨”少了一个数量级，只相当于约 150 Pg。且 150 Pg 远不到大气含碳量（约 860 Pg）的两倍，与同句“约为大气两倍”自相矛盾。",
+          "correction": "冻土像一座巨大的碳库。植物残体在低温下分解缓慢，数万年积累的有机碳被封存在冻层中，估计总量在一万五千亿吨碳量级，约为大气中二氧化碳含碳量的两倍。",
+          "evidence": [
+            {
+              "title": "Woods Hole Research Center, Permafrost and Global Climate Change",
+              "url": "http://www.woodwellclimate.org/wp-content/uploads/2015/06/PB_Permafrost.pdf",
+              "quote": "Permafrost soils in the Arctic contain ~1500 petagrams (Pg) of carbon, almost twice as much as is currently in the atmosphere."
+            },
+            {
+              "title": "Permafrost Carbon Network",
+              "url": "https://permafrostcarbon.org/index.html",
+              "quote": "Approximately 1460 - 1600 Pg of soil carbon are estimated to be stored in soils and permafrost of high latitude ecosystems, which is almost twice as much carbon as is currently contained in the atmosphere."
+            }
+          ]
+        },
+        {
+          "id": "issue-02",
+          "factId": "f10",
+          "severity": "major",
+          "verdict": "wrong",
+          "claim": "一些河流的冬季基流明显减少",
+          "problem": "冻土退化使活动层加深、地下水补给与冬季释放增加；观测与模拟均显示北极多条河流的冬季流量在增加，而不是减少。原文把变化方向说反了。",
+          "correction": "冻土退化改变水文。活动层加深使地表水更易下渗，河流的补给路径改变；同时塌陷形成的湖泊增加，蒸发面扩大，区域的水循环因此被重新组织，一些河流的冬季基流反而增加。",
+          "evidence": [
+            {
+              "title": "Liu Shiqi et al., Mechanisms behind the uneven increases in early, mid- and late winter streamflow across four Arctic river basins, Journal of Hydrology 606:127425 (2022)",
+              "url": "https://katalog.istinye.edu.tr/vufind/SummonRecord/FETCH-LOGICAL-c375t-71cb83853be1280623edeff3ce5eb6fd450d49b655d2419d0e5094d75d84838b3?lng=en",
+              "quote": "Permafrost thawing gradually increases the winter streamflow."
+            }
+          ]
+        },
+        {
+          "id": "issue-03",
+          "factId": "f11",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "模型估计到本世纪末的累计排放从数十亿吨到数百亿吨不等",
+          "problem": "常用多模型估计为 37–174 Pg C（约 370–1740 亿吨碳），原文区间上下限都低约一个数量级：37 Pg 已相当于数百亿吨，174 Pg 则超过一千亿吨。",
+          "correction": "冻土碳的释放存在较大不确定性。模型估计到本世纪末的累计排放从数百亿吨到上千亿吨不等，取决于升温幅度、排水条件与植被响应，这也是气候预测中最大的不确定来源之一。",
+          "evidence": [
+            {
+              "title": "Permafrost carbon–climate feedback review (Istanbul Technical University repository)",
+              "url": "https://polen.itu.edu.tr:8443/server/api/core/bitstreams/c46bc685-6069-4707-97b0-d91e63f0af9b/content",
+              "quote": "models suggest that permafrost could emit 37-174 PgC by 2100 with an average of 92 ± 17 PgC across all simulations"
+            }
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "f1 的“约四分之一”指冻土区约占暴露陆地的 24%；若按实际被冻土覆盖的陆地计，USGS 给出的范围是 13–18%，属通行简写。",
+        "f8 的“两到三倍”偏保守：Rantanen et al. (2022) 给出 1979–2021 年北极升温约为全球平均的 3.8 倍，属表述保守而非错误。",
+        "f3 的 1500 Pg C 折合一万五千亿吨碳，原文“一千五百亿吨”少一个数量级，且与“约为大气两倍”自相矛盾；f11 的 37–174 Pg C 折合数百亿至上千亿吨。"
+      ],
+      "summary": "冻土专题的机制描述成立，但三处数字或方向有误：碳储量少一个数量级、冬季基流方向说反、本世纪末排放区间低一个量级，均已修正。"
+    },
+    {
+      "id": "w3-cn-history-song-keju",
+      "status": "verified",
+      "confidence": "high",
+      "facts": [
+        {
+          "id": "f1",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f2",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f3",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f4",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f5",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f6",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f7",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f8",
+          "verdict": "supported",
+          "confidence": "medium"
+        },
+        {
+          "id": "f9",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f10",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f11",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f12",
+          "verdict": "supported",
+          "confidence": "medium"
+        }
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "f2 殿试始于开宝六年（973）并成常制，与《宋史·选举志》及光明日报《殿试述略》一致。",
+        "f4 的“回避本州”是就州试、解试而言：别头试本为回避亲嫌，宋代扩及礼部试、乡试、路试、漕试，地方长官子弟另设场屋，表述可通。",
+        "f5 元祐年间恢复诗赋、经义与诗赋分场取士，南宋以经义为主，属可接受的概括。",
+        "f8 司马光《贡院乞逐路取人状》与欧阳修反对为治平元年（1064）之争；f12 的登科录统计（Kracke、何炳棣）在 1980 年代后受到 Hymes 等区域研究的质疑，故 f12 置信度取 medium。"
+      ],
+      "summary": "宋代科举专题各条与史实相符：殿试常制、糊名誊录、锁院别头、三舍法、特奏名、逐路取人与元祐党禁均能对应原始或权威二手材料，无需改动。"
+    },
+    {
+      "id": "w4-cn-history-shisanhang-yikou",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        {
+          "id": "f1",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f2",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f3",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f4",
+          "verdict": "supported",
+          "confidence": "medium"
+        },
+        {
+          "id": "f5",
+          "verdict": "imprecise",
+          "confidence": "high",
+          "issue": "issue-01"
+        },
+        {
+          "id": "f6",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f7",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f8",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f9",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f10",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f11",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f12",
+          "verdict": "supported",
+          "confidence": "medium"
+        }
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f5",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "十八世纪后期起，英国商人开始大量贩运鸦片，白银流向随之逆转",
+          "problem": "英商鸦片贩运自 18 世纪后期增长不假，但中国白银由净流入转为净输出在 19 世纪初（约 1808 年起）；原文的“随之逆转”把时点提前了约二三十年。",
+          "correction": "中国输出茶叶、生丝、瓷器、大黄，输入毛织品、棉花、钟表、檀香等。西洋商人长期用白银弥补逆差；十八世纪后期起英国商人开始大量贩运鸦片，到十九世纪初白银流向才逆转。",
+          "evidence": [
+            {
+              "title": "姜涛《论著选录》（中国社会科学院近代史研究所）",
+              "url": "http://jds.cssn.cn/xscg/ybwz/201605/t20160506_5254059.shtml",
+              "quote": "19世纪初，中国白银开始出超，并影响到国内银钱比价"
+            },
+            {
+              "title": "CNTV《鸦片战争》专题",
+              "url": "http://news.cntv.cn/20120520/103276.shtml",
+              "quote": "从1808年起，原本白银净流入的中国开始成为净输出国"
+            }
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "f1 乾隆二十二年（1757）撤江海关、浙海关于西洋贸易，仅留粤海关，与故宫《广州十三行与清宫生活》一致。",
+        "f2 行数：乾隆十六年（1751）洋行 26 家，道光十七年（1837）13 家，故“二十余家/十余家”成立。",
+        "f4 粤海关正税之外尚有规礼、分头、担头等杂税，见《清前期粤海关税则考》。",
+        "f8 同文行潘振承、怡和行伍秉鉴与英美商人的信贷往来，有中国档案报等材料支持。"
+      ],
+      "summary": "十三行专题的贸易结构、保商制度与行商处境均与史料相符；仅 f5 把白银流向逆转的时间提前到 18 世纪后期，已改为 19 世纪初。"
+    }
+  ]
+}

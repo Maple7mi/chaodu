@@ -1,0 +1,275 @@
+{
+  "batch": "batch-58",
+  "checkedAt": "2026-11-18T03:12:00+08:00",
+  "dossiers": [
+    {
+      "id": "w4-wh-wars-total-war",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "medium"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "imprecise", "confidence": "high", "issue": "issue-01"},
+        {"id": "f7", "verdict": "supported", "confidence": "medium"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "supported", "confidence": "high"},
+        {"id": "f11", "verdict": "imprecise", "confidence": "high", "issue": "issue-02"},
+        {"id": "f12", "verdict": "supported", "confidence": "medium"}
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f6",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "英国从1940年1月起实行配给，糖、黄油、肉类、衣物都凭券购买。",
+          "problem": "起始时间被压缩成同一天。1940年1月8日起只配给黄油、培根火腿和糖；肉类到1940年3月11日才纳入；衣物配给迟至1941年6月1日。原句让读者以为四类商品自1940年1月起同时凭券。",
+          "correction": "英国从1940年1月起配给糖、黄油和肉类，衣物到1941年6月才凭票。配给保证了基本营养，也压缩了消费；黑市与以物易物始终存在，各地供应差别很大。政府还用广播和食谱教家庭用有限食材做饭。",
+          "evidence": [
+            {"title": "BBC WW2 People's War — Fact File: Ration Books Introduced", "url": "https://www.bbc.co.uk/history/ww2peopleswar/timeline/factfiles/nonflash/a1057240.shtml", "quote": "Initially, the purchase of bacon, butter and sugar was limited ... Clothing was rationed from June 1941"},
+            {"title": "Who Do You Think You Are Magazine — What was rationing, when did it start and when did it end?", "url": "https://www.whodoyouthinkyouaremagazine.com/feature/rationing-second-world-war", "quote": "On 8 January 1940 rationing was introduced on butter, bacon and ham, and sugar, and by 11 March this was expanded to all meat ... from 1 June clothing was rationed"}
+          ]
+        },
+        {
+          "id": "issue-02",
+          "factId": "f11",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "1944年冬，荷兰西部在封锁与运输中断中饿死数万人。",
+          "problem": "死亡人数被高估一个量级口径。荷兰“饥饿之冬”（1944—45）的通行估计约两万人死于饥饿（另有二十余万人严重营养不良），不是“数万人”。",
+          "correction": "占领区的平民承受了另一种总体战：粮食被征走，青壮年被抓去做工。1941年冬至1942年，希腊出现严重饥荒；1944年冬，荷兰西部在封锁与运输中断中饿死约两万人。",
+          "evidence": [
+            {"title": "USHMM Library — The Hunger Winter (Tom Bijvoet & Anne van Arragon Hutten, eds.)", "url": "https://collections.ushmm.org/search/catalog/bib291258", "quote": "More than 200,000 people suffered from severe malnutrition and an estimated 20,000 people died of starvation"},
+            {"title": "Cambridge University Press — Famine and Death in Occupied Greece, 1941–1944", "url": "https://www.cambridge.org/aw/universitypress/subjects/history/twentieth-century-european-history/famine-and-death-occupied-greece-19411944?format=PB", "quote": "the famine that occurred in Greece during its occupation by German, Italian and Bulgarian forces in 1941 and 1942"}
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "Harrison、Overy、Tooze 三种书目信息完整；Overy 与 Tooze 对1944年德国军备产量峰值（Wagenführ 指数显示1944年7月见顶）判断一致。",
+        "f1“连自行车和铁锅都要凭票”是跨国拼贴式举例：美国1942年确曾对自行车实行配给，英国则以衣物、家具的“效用”券为主，铁锅凭票难以逐一坐实，属修辞性举例而非可核查数字。",
+        "f4“一千多家工厂”对应苏联官方口径的1523家企业（其中大型工厂1360家），可坐实。"
+      ],
+      "summary": "12条中10条与史料吻合；配给起始时间被压缩到1940年1月、荷兰饥饿之冬死亡人数写作“数万”两处需改，已给出修正。"
+    },
+    {
+      "id": "w4-cn-history-xinzheng-keju",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "medium"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "medium"},
+        {"id": "f6", "verdict": "supported", "confidence": "medium"},
+        {"id": "f7", "verdict": "imprecise", "confidence": "high", "issue": "issue-01"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "supported", "confidence": "high"},
+        {"id": "f11", "verdict": "supported", "confidence": "medium"},
+        {"id": "f12", "verdict": "supported", "confidence": "medium"}
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f7",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "1906年改官制，设外务部、度支部、陆军部等新机构，裁撤部分旧衙门。",
+          "problem": "把外务部算作1906年新设机构有误。外务部由总理各国事务衙门改设于1901年（辛丑条约后），1906年丙午改制时是“仍保留规制”的旧部；1906年新设/改设的是度支部（户部改）、陆军部（兵部改，并入练兵处）、邮传部等。",
+          "correction": "1906年改官制，户部改度支部、兵部改陆军部，增设邮传部等，裁并旧衙门；外务部早在1901年已由总理衙门改设。改革触动满汉权力格局，也引起督抚警惕；“皇族内阁”1911年成立，更让立宪派失望。",
+          "evidence": [
+            {"title": "人民网 — 1906年11月6日 清廷公布厘定中央官制方案", "url": "http://m.people.cn/n4/2017/1106/c677-10070984.html", "quote": "除内阁、军机处及外务、吏、学部仍保留规制外，其余各部均有大幅度变动。户部改为度支部……兵部改为陆军部"},
+            {"title": "《清史研究》— 清末中央官制改革（PDF）", "url": "http://qsyj.ruc.edu.cn/EN/article/downloadArticleFile.do?attachType=PDF&id=2045", "quote": "六月初九日，清廷将总理各国事务衙门改为外务部，“班列六部之前”"}
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "f5“1905年统一全国新军编制，计划编练三十六镇”存在史料口径差异：1904年頒《陆军营制饷章》并设练兵处规划三十六镇，1905年编成北洋六镇并统一番号；两种系年都能在通行辞书中找到，故不判错，但严格说“三十六镇计划”多系于1904年。",
+        "f2“连过渡的考试安排都没有留下”指未有逐年递减、分省减额的过渡方案，与1903年递减科举之议被1905年“立停”取代的史实相符；生员另给学堂出路的善后办法不属科举考试本身。",
+        "四种书目（萧功秦、张朋园、桑兵、郭廷以）均为可核查的学术著作，出版信息完整。"
+      ],
+      "summary": "12条中11条站得住；唯把外务部列为1906年新设机构与1901年总理衙门改设的史实冲突，已修正。"
+    },
+    {
+      "id": "cn-geo-taklamakan",
+      "status": "verified",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "medium"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "supported", "confidence": "medium"},
+        {"id": "f11", "verdict": "supported", "confidence": "high"},
+        {"id": "f12", "verdict": "supported", "confidence": "medium"}
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "f1 面积“约三十三万平方公里”与《中国国家地理》口径33.76万平方公里一致；“世界第二大流动沙漠”按流动沙丘面积排序成立（鲁卜哈利第一）。",
+        "f4 “八成以上是流动沙丘”对应流动沙丘约27.7万平方公里、占82%的数据。",
+        "f11 “累计输送数十亿立方米”偏保守：截至2025年塔里木河下游生态输水26次，累计下泄生态水102亿立方米，写作“数十亿”不构成错误，但明显低于公开累计值。",
+        "f2 蒸发量“两千毫米以上”与科普中国2500—3400毫米、中科院系资料2000毫米以上的范围相符。"
+      ],
+      "summary": "12条全部可核：面积、沙丘类型比例、塔里木河长度、沙漠公路里程与建成年代、生态输水与台特玛湖恢复均与公开资料一致，无需改动。"
+    },
+    {
+      "id": "w3-psych-shame-guilt",
+      "status": "verified",
+      "confidence": "medium",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "medium"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "medium"},
+        {"id": "f5", "verdict": "supported", "confidence": "medium"},
+        {"id": "f6", "verdict": "supported", "confidence": "medium"},
+        {"id": "f7", "verdict": "supported", "confidence": "medium"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "supported", "confidence": "medium"},
+        {"id": "f11", "verdict": "supported", "confidence": "high"},
+        {"id": "f12", "verdict": "supported", "confidence": "medium"}
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "f4 末句“所以羞耻的第一反应常常是遮住脸”与前一句“所以第一反应常常是遮住”重复，属编辑残留而非事实错误，建议删除其中一句。",
+        "f2 的测量断言可由 TOSCA、PFQ-2 等分开测量羞耻/内疚倾向的量表支撑；“结果并不重叠”宜理解为两量表相关中等而非同一构念。",
+        "f9 的相关性有元分析支持（羞耻倾向与抑郁、焦虑症状相关），但均为相关而非因果，原文措辞“相关”是准确的。",
+        "四条书目（Tangney & Dearing 2002；Tangney, Stuewig & Mashek 2007；Dickerson & Kemeny 2004；Lewis 1971）均可核查，卷期页码基本准确。"
+      ],
+      "summary": "12条均可由羞耻/内疚研究的综述与元分析支撑，方向、机制与相关关系表述准确；仅f4有一处重复句需编辑处理。"
+    },
+    {
+      "id": "w3-geo-world-sea-level",
+      "status": "verified",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "medium"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "medium"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "supported", "confidence": "high"},
+        {"id": "f11", "verdict": "supported", "confidence": "high"},
+        {"id": "f12", "verdict": "supported", "confidence": "medium"}
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "f2 的0.20米、1.3毫米/年、3.7毫米/年三个数字与IPCC AR6第一工作组结论逐字吻合。",
+        "f10 “零点三到一米”是跨情景的约数：AR6可能范围为0.28—1.01米（相对1995—2014年），SSP5-8.5低信度情景上限可达1.6米，原文已用“约”并点出低概率高影响情景，表述稳妥。",
+        "f5 “数以十万计”与全球冰川编目约20万条的量级一致；“许多冰川本世纪内消失”属SROCC的评估结论，措辞留有余地。",
+        "f8 雅加达地面沉降局部可达每年二十余厘米，原文“每年数厘米”是保守说法。"
+      ],
+      "summary": "12条与IPCC AR6/SROCC及冰川均衡调整、海平面指纹等文献一致，数字与机制表述无需修改。"
+    },
+    {
+      "id": "w4-geo-cn-kanerjing",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "medium"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "medium"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "supported", "confidence": "medium"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "supported", "confidence": "high"},
+        {"id": "f11", "verdict": "supported", "confidence": "high"},
+        {"id": "f12", "verdict": "imprecise", "confidence": "high", "issue": "issue-01"}
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f12",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "上世纪中叶，吐鲁番的坎儿井有上千条；如今仍在出水的只剩几百条。",
+          "problem": "“几百条”高估了现状。吐鲁番盆地有水坎儿井1957年为1237条，2009年第三次文物普查为278条，2023年已降至169条；“一百多条”才是当下口径。",
+          "correction": "上世纪中叶，吐鲁番的坎儿井有上千条；如今仍在出水的只剩一百多条，多集中在靠山、地下水位还没掉下去的地方，平原地带的渠大多干了。废弃的渠口还在，井口被沙埋掉，只剩一线土堆标出原来的方向。",
+          "evidence": [
+            {"title": "《中国科学》— 吐鲁番盆地坎儿井数量与流量演变（1957—2023）", "url": "https://www.sciengine.com/doi/pdf/0ADF87980AA74305826B1570C044812F", "quote": "1957-2023年有水坎儿井数量由1237条减少至169条，降幅高达86.34%"},
+            {"title": "人民网/新华网 — 新疆吐鲁番坎儿井消亡速度有效减缓", "url": "http://politics.people.com.cn/n/2015/0725/c70731-27359505.html", "quote": "2009年时，吐鲁番1108条坎儿井中仅剩下278条有水"}
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "f1 艾丁湖湖面海拔－154.31米（一说－154.43米），中国陆地最低点，与原文“低一百五十多米”一致。",
+        "f3 “最深的有几十米”偏保守：吐鲁番坎儿井最深竖井可达90米以上，竖井间距一般20—70米，原文“间距几十米”成立。",
+        "f5 吐鲁番年均降水量16毫米、蒸发量约3000毫米，与原文“不到二十毫米”“两千毫米以上”相符。",
+        "f8 “水份”按时间份额轮灌是吐鲁番坎儿井灌区的通行制度，具体契约细节缺乏公开档案，按口述史与水利志口径接受。"
+      ],
+      "summary": "12条中11条与水利志、普查和论文数据吻合；仅“只剩几百条”落后于2023年169条的现状，已修正。"
+    },
+    {
+      "id": "w5-myth-compare-creation",
+      "status": "verified",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "medium"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "medium"},
+        {"id": "f10", "verdict": "supported", "confidence": "medium"},
+        {"id": "f11", "verdict": "supported", "confidence": "high"},
+        {"id": "f12", "verdict": "supported", "confidence": "medium"}
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "f3 “深渊（tehom）与提亚马特同源”在语言学上指二者同出闪米特语“深水”词根，属通行词源判断；但由此推出《创世记》依赖《埃努玛·埃利什》的文学依赖关系仍有争议（Heidel、Lambert 等持保留），原文只用“同源”并强调“不再是要被杀死的对手”，未越界。",
+        "f1 提亚马特双眼流出底格里斯与幼发拉底，见《埃努玛·埃利什》第四块泥板；本书目只写“七块泥板”，未给译本页码。",
+        "f8 “三次失败”与《波波尔·乌》四次造人（动物、泥、木、玉米）中的三次失败相符，正文只举泥与木两次，计数不算错。",
+        "f11 《神谱》系年通行为公元前8世纪末至7世纪初，原文“约公元前七世纪”可接受。"
+      ],
+      "summary": "12条与《埃努玛·埃利什》《创世记》《神谱》《古事记》《波波尔·乌》及埃及创世传统一致，年代与母题归类无需改动。"
+    },
+    {
+      "id": "w2-geo-world-mountains-ural",
+      "status": "verified",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "medium"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "medium"},
+        {"id": "f10", "verdict": "supported", "confidence": "high"},
+        {"id": "f11", "verdict": "supported", "confidence": "high"},
+        {"id": "f12", "verdict": "supported", "confidence": "high"}
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "f6 欧亚以乌拉尔为界的提法在18世纪由塔季谢夫系统主张（自称1720年在托博尔斯克提出，1736年《全西伯利亚地理描述》成文），但瑞典人斯特拉伦贝格亦有优先权之争；原文单归塔季谢夫是教科书通行说法，可接受。",
+        "f3 纳罗达山海拔1894米（6214英尺），与“一千八百多米”一致。",
+        "f1 乌拉尔造山带主变形期为石炭纪末至二叠纪（约3.0—2.5亿年前），与原文一致。",
+        "f11 马格尼托哥尔斯克钢铁厂依托马格尼特纳亚山铁矿与库兹巴斯煤，属“乌拉尔—库兹涅茨克联合体”，原文表述准确。"
+      ],
+      "summary": "12条与地质、地理与工业史资料一致：纳罗达山高度、造山期、分界线的历史由来与矿产带均无需修改。"
+    }
+  ]
+}

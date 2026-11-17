@@ -1,0 +1,375 @@
+{
+  "batch": "batch-27",
+  "checkedAt": "2026-11-18T03:02:00+08:00",
+  "dossiers": [
+    {
+      "id": "w5-wh-tech-ozone",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "imprecise", "confidence": "medium", "issue": "issue-01"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "supported", "confidence": "high"},
+        {"id": "f11", "verdict": "supported", "confidence": "medium"},
+        {"id": "f12", "verdict": "supported", "confidence": "medium"}
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f5",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "共同但有区别的责任第一次被写进有约束力的环境条约。",
+          "problem": "蒙特利尔议定书第五条确实给发展中国家十年宽限期，并设多边基金，常被视为该原则最早的条约实践；但“共同但有区别的责任”这一提法到1992年里约宣言才正式确立，说它1987年“第一次被写进条约”是时代错置，应写成“最早的一次实践”并补上1992年的限定。",
+          "correction": "议定书给发展中国家十年宽限期，并设立多边基金，支付淘汰氯氟烃的技术改造费用；这被视为共同但有区别的责任原则最早的一次条约实践，该提法到一九九二年里约宣言才正式确立。",
+          "evidence": [
+            {
+              "title": "UN Secretary-General's message on the International Day for the Preservation of the Ozone Layer (2010)",
+              "url": "https://www.un.org/sg/en/content/former-secretary-general/statements/2010-09-16/secretary-generals-message-the-international-day-for-the-preservation-of-the-ozone-layer",
+              "quote": "The foundation of the Protocol is fairness. Through the principle of common but differentiated responsibility, the treaty provides a grace period to developing country parties, a funding mechanism governed by an equitable representation of developing and developed countries"
+            },
+            {
+              "title": "Common but Differentiated Responsibilities (Harvard University Press chapter)",
+              "url": "https://www.degruyterbrill.com/_language/de?uri=%2Fdocument%2Fdoi%2F10.4159%2F9780674020757-020%2Fhtml",
+              "quote": "The principle ... was a leitmotiv of the 1992 UN Conference on Environment and Development ... as reflected by the framers of the original Montreal Protocol in their article 5 provision for a grace period"
+            }
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "1987年签署、1990年伦敦与1992年哥本哈根修订、发达国家1996年停止氯氟烃生产，均可在UNEP《20 Questions》与WMO评估中核对。",
+        "南极恢复时间WMO 2022年评估给2066年，北极2045年、全球2040年，正文“2060年代”是取整，方向无误。",
+        "1%臭氧损耗对应DNA损伤性UV-B约2%的增加（UNEP背景文件），正文“百分之一到二”取了下限，属保守表述。",
+        "f5的“第一次”是全篇唯一需要限定的表述，见issue-01；其余年份、数字与专名均可核。"
+      ],
+      "summary": "臭氧化学、1985年发现、议定书时间表、CFC-11未申报排放与中国淘汰进程均可核；仅“共同但有区别的责任第一次写进条约”需限定为1992年里约后的提法。"
+    },
+    {
+      "id": "psych-repair",
+      "status": "corrected",
+      "confidence": "medium",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "medium"},
+        {"id": "f3", "verdict": "supported", "confidence": "medium"},
+        {"id": "f4", "verdict": "wrong", "confidence": "high", "issue": "issue-01"},
+        {"id": "f5", "verdict": "supported", "confidence": "medium"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "medium"},
+        {"id": "f8", "verdict": "imprecise", "confidence": "medium", "issue": "issue-02"},
+        {"id": "f9", "verdict": "supported", "confidence": "medium"},
+        {"id": "f10", "verdict": "supported", "confidence": "medium"},
+        {"id": "f11", "verdict": "unsupported", "confidence": "medium", "issue": "issue-03"}
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f4",
+          "severity": "major",
+          "verdict": "wrong",
+          "claim": "而带解释的道歉，常被听成在为自己开脱，也更难被相信。",
+          "problem": "Lewicki, Polin & Lount (2016) 的道歉六要素模型把“解释哪里出了问题”列为有效要素之一，与承认责任、提出补救同属最重要的三项，且要素越多效果越好；浙江师大的信任博弈实验也发现，含解释成分的道歉比无解释的道歉更能修复信任，承诺型解释效果最好。把解释一概说成开脱，与这些结果相反。",
+          "correction": "道歉的效力取决于内容。研究提示，承认责任、说明影响、表达悔意、提出补救、解释哪里出了问题，这些要素越多，道歉越容易被接受；其中承认责任最关键，解释得当并不会被当成开脱。",
+          "evidence": [
+            {
+              "title": "Effective Apologies Include Six Elements (Association for Psychological Science)",
+              "url": "https://www.psychologicalscience.org/news/minds-business/effective-apologies-include-six-elements.html",
+              "quote": "the more of these six elements an apology included, the more effective it was ... acknowledgment of responsibility was the most important"
+            },
+            {
+              "title": "哪种道歉更易被原谅：不同道歉类型对信任修复的影响（浙江师范大学）",
+              "url": "https://jps.ecnu.edu.cn/CN/article/downloadArticleFile.do?attachType=PDF&id=11132",
+              "quote": "相比无解释成分的道歉和无道歉，有解释成分的道歉更有效地修复了信任"
+            }
+          ]
+        },
+        {
+          "id": "issue-02",
+          "factId": "f8",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "用礼物、性和谐或尽快翻篇来结束冲突，可能短期恢复平静，但未处理的议题会以更高的强度回来",
+          "problem": "“礼物、性和谐、尽快翻篇”这组具体做法没有实证研究直接检验，“以更高强度回来”也是推测；可核的是长期回避与石墙化会让问题悬置、积累成情感疏离。方向可用，但机制与强度说过头了。",
+          "correction": "研究提示，用礼物、性和谐或尽快翻篇来结束冲突，可能短期恢复平静，但被回避的议题并未解决，长期回避会积累成情感疏离；翻篇不是修复，只是延期。",
+          "evidence": [
+            {
+              "title": "R is for Repair (The Gottman Institute)",
+              "url": "https://www.gottman.com/blog/r-is-for-repair/",
+              "quote": "any statement or action — silly or otherwise — that prevents negativity from escalating out of control"
+            },
+            {
+              "title": "The Place of Attachment Styles, Communication Patterns, and Conflict Resolution Strategies (Zenodo PDF)",
+              "url": "https://zenodo.org/records/16637069/files/INJOREP%20077%20The%20Place%20of%20Attachment%20Styles%2C%20Communication%20Patterns%2C%20and%20Conflict%20Resolution%20Strategies.pdf?download=1",
+              "quote": "short-term withdrawal may be adaptive, long-term avoidance develops into emotional detachment and unresolved problems"
+            }
+          ]
+        },
+        {
+          "id": "issue-03",
+          "factId": "f11",
+          "severity": "minor",
+          "verdict": "unsupported",
+          "claim": "冲突后越快重新连接，越不容易形成怨气；拖到第二天再谈，往往要花更多力气处理新增的猜测与防御",
+          "problem": "没有找到检验“隔夜成本更高”的研究。Gottman 的修复概念指冲突当下阻止负面升级的语句或动作，2015年的新婚夫妻研究编码的也是冲突中的修复序列，都没有比较当天与次日再谈的代价。这一条属于临床经验，不宜写成“研究提示”。",
+          "correction": null,
+          "evidence": [
+            {
+              "title": "R is for Repair (The Gottman Institute)",
+              "url": "https://www.gottman.com/blog/r-is-for-repair/",
+              "quote": "any statement or action — silly or otherwise — that prevents negativity from escalating out of control"
+            }
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "静止脸实验原始论文为 Tronick et al. 1978, J Am Acad Child Psychiatry 17(1):1-13；“多数婴儿重新靠近但非立刻恢复”符合重逢阶段的滞后恢复。",
+        "Gottman 的“情绪淹没”以心率超过约100次/分为标志，“二十分钟”来自其生理降级建议，属临床经验而非实验剂量。",
+        "f8 与 f11 的“研究提示”在可检索文献中找不到对应研究，前者降为 imprecise 并删去“更高强度回来”，后者判 unsupported、不给 correction。",
+        "f9 的强制控制循环出自 Walker 1979，学界对其方法有批评，但“道歉—和好构成循环一部分”的临床描述仍被广泛采用。"
+      ],
+      "summary": "静止脸、道歉六要素、情绪淹没与修复训练均有研究支撑；但“解释像开脱”与所引 Lewicki 研究相反，“假修复”机制说过头，“隔夜更贵”无实证支持。"
+    },
+    {
+      "id": "psych-sacrifice",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "imprecise", "confidence": "high", "issue": "issue-01"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "medium"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "medium"},
+        {"id": "f6", "verdict": "supported", "confidence": "medium"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "supported", "confidence": "medium"},
+        {"id": "f9", "verdict": "supported", "confidence": "medium"},
+        {"id": "f10", "verdict": "supported", "confidence": "medium"},
+        {"id": "f11", "verdict": "supported", "confidence": "high"},
+        {"id": "f12", "verdict": "supported", "confidence": "medium"}
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f1",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "惠顿、斯坦利与马克曼2007年区分了牺牲的两种动机",
+          "problem": "Whitton, Stanley & Markman (2007, JSCP 26(1):64-91) 的145对伴侣横断研究测的是“牺牲被感知为对自己有多大伤害”，结果是感知伤害越高，承诺越低、关系功能越差、抑郁症状越多；摘要与变量表都没有“亲近/回避”两种动机的区分。该区分出自 Impett, Gable & Peplau (2005, JPSP 89(3):327-344) 的十四天日记研究。",
+          "correction": "研究区分了牺牲的两种动机：为让关系更好而付出，与更好的关系质量相关；为回避冲突而付出，与更差的结果相关。这一区分出自伊姆佩特等人2005年；惠顿等人2007年研究的是牺牲被感知为伤害。",
+          "evidence": [
+            {
+              "title": "Whitton, Stanley & Markman (2007), If I Help My Partner, Will It Hurt Me? — abstract",
+              "url": "https://www.mendeley.com/catalogue/2a432d4b-d458-33e2-a4e7-c1ad484b3156/",
+              "quote": "Results from a cross-sectional study of 145 couples provided reliability and validity data for a measure of the extent to which relationship sacrifices are perceived to be harmful to the self."
+            },
+            {
+              "title": "Impett, Gable & Peplau (2005), Giving Up and Giving In — abstract",
+              "url": "https://www.mendeley.com/catalogue/95b1085f-b873-3f63-9000-1d83e130d06f/",
+              "quote": "first empirical test of approach and avoidance motives for sacrifice, using a two-week daily experience study; approach motives were positively associated with well-being and relationship satisfaction, whereas avoidance motives were negatively associated"
+            }
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "Whitton et al. 2007 的样本为145对伴侣，测的是感知伤害，不是两种动机；两种动机的区分与十四天日记均出自 Impett et al. 2005。",
+        "f3 的“长期单向付出”与 Whitton 的感知伤害、Fritz & Helgeson 的 unmitigated communion 一致，但多为相关研究，不能读成因果。",
+        "f4、f5、f9、f10、f12 属公平理论与临床建议，不是单一实证结论，按专业共识判 supported。",
+        "f11 对样本局限的说明与现有文献一致：多数研究用西方样本、异性恋伴侣与自我报告。"
+      ],
+      "summary": "两种动机与十四天日记的结论成立，但2007年 Whitton 研究被误当作动机区分者，实为 Impett 等2005年；其余属公平理论与临床共识。"
+    },
+    {
+      "id": "w2-psych-family-resource-dependence",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "medium"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "imprecise", "confidence": "high", "issue": "issue-01"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "medium"},
+        {"id": "f8", "verdict": "supported", "confidence": "medium"},
+        {"id": "f9", "verdict": "supported", "confidence": "medium"},
+        {"id": "f10", "verdict": "supported", "confidence": "medium"},
+        {"id": "f11", "verdict": "supported", "confidence": "medium"},
+        {"id": "f12", "verdict": "supported", "confidence": "high"}
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f5",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "为伴侣工作而搬迁的一方，往往在随后几年里收入下降、社交网络变窄",
+          "problem": "Cooke et al. (2009) 的美英纵向数据支持“搬迁时收入下降、此后恢复缓慢”，且育儿的影响约为搬迁的两倍，搬迁还会因丈夫收入上升而提高家庭总收入；但该研究没有测量社交网络，“社交网络变窄”没有所引来源支持。",
+          "correction": "研究提示，为伴侣工作而搬迁的一方，收入往往在搬迁当时下降、之后回升缓慢，育儿的影响约为其两倍；另一方因职位与人脉保留，家庭总收入反而上升，双方的相对筹码因此改变。",
+          "evidence": [
+            {
+              "title": "Cooke et al. (2009), A Longitudinal Analysis of Family Migration and the Gender Gap in Earnings — PubMed abstract",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/19348113/",
+              "quote": "women's earnings fall at the time of the event and recover slowly afterward, but the magnitude of the impact is roughly twice as large for childbirth as for migration"
+            }
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "Emerson 1962 的核心命题是权力等于依赖，依赖与需要成正比、与替代成反比，正文表述可核对原文。",
+        "Cooke et al. 2009 未测社交网络；“社交网络变窄”是常见推论，但不能记在该文名下，见 issue-01。",
+        "f6 的育儿收入惩罚可由 Kleven 等人的 child penalty 研究支持，正文未点名，属稳妥表述。",
+        "f12 的 BATNA 来自谈判研究，“替代方案不必完美”是规范性推论，非实验结论。"
+      ],
+      "summary": "Emerson 的依赖公式、Cooke 的迁移收入惩罚与育儿惩罚均可核；“社交网络变窄”不在所引研究里，已改为可核的收入与筹码表述。"
+    },
+    {
+      "id": "w4-myth-americas-amazon",
+      "status": "verified",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "medium"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "medium"},
+        {"id": "f8", "verdict": "supported", "confidence": "medium"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "supported", "confidence": "high"},
+        {"id": "f11", "verdict": "supported", "confidence": "high"},
+        {"id": "f12", "verdict": "supported", "confidence": "high"}
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "“亚马孙创世神话”是外部整理的单位，正文 dek 已说明；图卡诺、亚诺马米、瓜拉尼的叙事不可互换。",
+        "图卡诺巨蟒独木舟版本见 UFPA 学位论文与 Reichel-Dolmatoff；“每到一个河湾下船”是常见叙事细节，不同记录有异文。",
+        "万物之树母题见洪堡基金会的 El árbol de la abundancia：树被砍倒，树枝化为支流，果实散向全流域；与巨蟒创河版本常被并置，但属不同族群。",
+        "亚诺马米“猎物是亲属”见 Kopenawa 相关研究：貘是兄弟、西貒是姻亲，猎杀即确认差异；杀貘后不触碰、不闻气味的禁忌亦有记录。",
+        "瓜拉尼“无恶之地”与二十世纪土地、宗教运动的关联见 theses.fr 论文与 Nimuendajú 传统。"
+      ],
+      "summary": "图卡诺巨蟒独木舟、太阳父亲与亚赫、亚诺马米亲属猎物、万物之树与瓜拉尼无恶之地均有民族志或学术来源；各版本差异已注明。"
+    },
+    {
+      "id": "w3-cn-history-jin-mengan-mouke",
+      "status": "verified",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "medium"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "medium"},
+        {"id": "f10", "verdict": "supported", "confidence": "high"},
+        {"id": "f11", "verdict": "supported", "confidence": "high"}
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "《金史·兵志》原文作“以三百户为谋克，谋克十为猛安”，与正文一致；同卷又有“凡步骑之仗糗，皆取备焉”，支持自备装备。",
+        "大定二十三年统计为202猛安、1878谋克、615,624户，平均每谋克约328户，高于300户定额；“实际户数常不足额”更适用于金后期（晚期二十五人为谋克），正文宜加时间限定。",
+        "括地始见于海陵正隆元年（1156），世宗大定十七至二十一年、章宗承安五年（1200）再括，承安五年括得三十余万顷。",
+        "谋克从五品、世袭；猛安谋克户纳牛具税、免州县差役，“免役”指免州县差役而非一切赋役。"
+      ],
+      "summary": "猛安谋克三百户/十谋克、括地、通检推排、签军与1211/1234年均与《金史》及研究吻合；“户数常不足额”宜限定于后期。"
+    },
+    {
+      "id": "world-myth-enuma",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "medium"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "imprecise", "confidence": "high", "issue": "issue-01"},
+        {"id": "f7", "verdict": "supported", "confidence": "medium"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "medium"},
+        {"id": "f10", "verdict": "supported", "confidence": "high"},
+        {"id": "f11", "verdict": "supported", "confidence": "medium"},
+        {"id": "f12", "verdict": "supported", "confidence": "high"}
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f6",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "又用金古的血混泥土造出人类",
+          "problem": "《埃努玛·埃利什》第六块泥板是马杜克取金古的血造人，Langdon 1923 年译本作“With his blood he (Ea) made mankind”，没有掺泥土；泥与神血混合造人是《阿特拉哈西斯》等别的美索不达米亚传统。这一句把两个母题混在了一起。",
+          "correction": "一半尸体造天，一半造地；马杜克安置星辰、月亮与太阳，规定年月与节令，又用金古的血造出人类；星辰被安排为神的画像，月亮在月初隐没、月中圆满，为历法提供依据。",
+          "evidence": [
+            {
+              "title": "Langdon (1923), The Babylonian Epic of Creation — full text",
+              "url": "https://archive.org/stream/LangdonSTheBabylonianEpicOfCreationRestoredFromTheRecentlyRecoveredTabletsOfAssur1923/Langdon%20S%20-%20The%20Babylonian%20epic%20of%20creation%20restored%20from%20the%20recently%20recovered%20tablets%20of%20Assur%20-%201923_djvu.txt",
+              "quote": "With his blood he (Ea) made mankind, In the cult service of the gods, and he set the gods free."
+            }
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "全诗约1100行、七块泥板，见 ORACC；每块约150行为常用约数。",
+        "成书年代以尼布甲尼撒一世（约前1125—前1104）最流行，但仍有争议，现存抄本多属第一千年。",
+        "五十名号实际跨第六、七块泥板，共约51个名字而史诗坚持“五十”，正文沿用传统说法，可接受。",
+        "阿基图诵读与王权仪式的关系有 Lambert 与 van der Toorn 的不同解释，正文用“尤其在第一千年间”留了余地。"
+      ],
+      "summary": "七块泥板、十一怪物、五十名号与阿基图诵读均可核；唯“血混泥土造人”掺入了《阿特拉哈西斯》的母题。"
+    },
+    {
+      "id": "w2-cn-history-niu-li",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "supported", "confidence": "high"},
+        {"id": "f11", "verdict": "supported", "confidence": "high"},
+        {"id": "f12", "verdict": "imprecise", "confidence": "high", "issue": "issue-01"}
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f12",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "《旧唐书》多同情牛党，《新唐书》与部分宋人则推崇李德裕的政才",
+          "problem": "把史学分歧压成新旧唐书两极，且“《旧唐书》多同情牛党”缺乏直接文本依据；可核的是《新唐书》卷一七四赞痛斥牛僧孺、李宗闵“非盗为何”，明显不利于牛党，而岑仲勉《隋唐史》力主李德裕无党、批评《资治通鉴》偏袒李逢吉。评价的分歧比“旧书同情牛党”更复杂。",
+          "correction": "后世史家对牛李的评价一直有分歧。《新唐书》赞痛斥牛僧孺、李宗闵，明显不利于牛党；岑仲勉则主张李德裕无党，批评《资治通鉴》偏袒李逢吉。评价往往跟着史家立场走，读时要分清事实与判断。",
+          "evidence": [
+            {
+              "title": "《新唐书》卷一七四赞与岑仲勉论牛李（UTAR 学位论文 PDF）",
+              "url": "http://eprints.utar.edu.my/1354/1/CH-2014-1106602-1.pdf",
+              "quote": "僧孺、宗闵以方正敢进言，既当国，反奋私呢党，排弊所憎，是时权震天下，人指曰‘牛李’，非盗为何？"
+            }
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "元和三年制举案的年份、人物、考官被贬见《旧唐书》与百科条目；“李吉甫泣诉”见《新唐书·李德裕传》。",
+        "会昌三年停曲江题名与宴集见《旧唐书》卷一七四；会昌四年平泽潞、大中二年贬崖州、大中四年卒于崖州均可核。",
+        "文宗“去河北贼易，去朝廷朋党难”见《资治通鉴》系年。",
+        "“牛李”之“李”原指李宗闵，岑仲勉说可参；f12 的评价分歧见 issue-01。"
+      ],
+      "summary": "元和制举案、会昌政绩、贬崖州与文宗之叹均可核；新旧唐书评价的二分法过于整齐，“旧书同情牛党”缺直接依据。"
+    }
+  ]
+}

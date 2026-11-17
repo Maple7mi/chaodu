@@ -1,0 +1,319 @@
+{
+  "batch": "batch-60",
+  "checkedAt": "2026-11-18T02:41:57+08:00",
+  "dossiers": [
+    {
+      "id": "w5-wh-tech-antibiotics",
+      "status": "verified",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "supported", "confidence": "medium"},
+        {"id": "f11", "verdict": "supported", "confidence": "high"},
+        {"id": "f12", "verdict": "supported", "confidence": "medium"}
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "弗莱明1928年发现青霉素的细节由英国皇家病理学院讣告式文献与牛津大学医院史料交叉核对，St Mary's、葡萄球菌培养皿、菌落溶解均一致。",
+        "1941年2月12日首次用于人类的病人身份（43岁警察Albert Alexander）由牛津初级卫生保健中心博客与《国家地理》两源确认。",
+        "O'Neill报告“2050年每年1000万”与欧盟2006年、中国2020年禁用促生长抗生素的法规文本均可访问；mcr-1的菌株与阳性率引自期刊摘要页。"
+      ],
+      "summary": "12条均与可查文献一致：发现史、首次人体试验、耐药死亡预测、mcr-1、欧盟与中国禁令、药企退出、噬菌体疗法均成立，无需修正。"
+    },
+    {
+      "id": "w3-wh-revolutions-french-revolution",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "supported", "confidence": "high"},
+        {"id": "f11", "verdict": "imprecise", "confidence": "high", "issue": "issue-01"},
+        {"id": "f12", "verdict": "supported", "confidence": "high"}
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f11",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "恐怖统治依靠《嫌疑犯法令》与革命法庭：被怀疑敌视革命的人可以被逮捕、迅速审判。处死人数据估计在数万，其中相当一部分是平民与反抗征兵的农民；恐怖既是政治手段，也是内战的一部分。",
+          "problem": "“处死人数据估计在数万”把不同口径混在一起。恐怖统治期间经革命法庭正式处决者约1.7万人；把狱中死亡、未经审判的即决杀戮与地方私刑算进去，总数才达到数万。原句其余部分（嫌疑犯法令、革命法庭、恐怖与内战交织）无误，但读者会误以为官方处决本身就有数万。",
+          "correction": "恐怖统治依靠《嫌疑犯法令》与革命法庭，被怀疑敌视革命的人可以被捕、速审。正式处决约一万七千人，加上狱中死亡与未经审判的杀戮，总数才达数万；死者中不少是平民与反抗征兵的农民。恐怖既是政治手段，也是内战的一部分。",
+          "evidence": [
+            {"title": "Reign of Terror | Facts (Encyclopaedia Britannica)", "url": "https://www.britannica.com/facts/Reign-of-Terror", "quote": "Almost 17,000 people were killed by official executions during the Reign of Terror"},
+            {"title": "The French Revolution and the September Massacres (Papers Past)", "url": "https://paperspast.natlib.govt.nz/newspapers/BA18900816.2.63", "quote": "the total may be estimated as balancing between 1,485 ... and 1,368 ... we may take a middle course ... circa 1,300 persons"}
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "巴士底狱“狱中仅7人”由大英博物馆藏品说明直接支持；三级会议上次召开为1614年见剑桥大学出版社专著章节。",
+        "恐怖统治的起止与处决数字以《大英百科全书》事实页为准，与“数万”这一总量口径需区分。",
+        "1792年9月屠杀的死亡估计（1,368–1,485，通常取约1,300）取自当时报道的整理文本，属可核查的二手引述。"
+      ],
+      "summary": "12条中11条与史料吻合；“处死数万”混淆了正式处决（约1.7万）与含狱中死亡、即决杀戮的总数，已按原意修正。"
+    },
+    {
+      "id": "cn-history-keju",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "imprecise", "confidence": "high", "issue": "issue-01"},
+        {"id": "f5", "verdict": "imprecise", "confidence": "high", "issue": "issue-02"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "imprecise", "confidence": "high", "issue": "issue-03"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "supported", "confidence": "high"},
+        {"id": "f11", "verdict": "supported", "confidence": "high"},
+        {"id": "f12", "verdict": "supported", "confidence": "medium"}
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f4",
+          "severity": "major",
+          "verdict": "imprecise",
+          "claim": "宋太祖开宝六年（973），殿试成为常制，由皇帝亲自主持，及第者称“天子门生”。此后科举形成解试、省试、殿试三级，殿试第一名称状元，名次由皇帝亲自排定。殿试只考一场策问，名次分三甲，一甲三人即状元、榜眼、探花。",
+          "problem": "末句把明清制度安到了宋代。宋代殿试一般分五等（五甲），北宋曾分三甲，一甲限三名、状元榜眼探花之分是明代才定下的；宋代殿试内容也不止一场策问。开宝六年成常制、天子门生、三级考试等前半部分无误。",
+          "correction": "宋太祖开宝六年（973），殿试成为常制，由皇帝亲自主持，及第者称“天子门生”。此后科举形成解试、省试、殿试三级，殿试第一名称状元，名次由皇帝亲自排定。宋代殿试一般分五等，一甲三名与状元、榜眼、探花之称是明清的定制。",
+          "evidence": [
+            {"title": "科举辑萃·殿试（北京市东城区图书馆）", "url": "https://www.bjdclib.cn/ztfw/kjjc/kjcd/1/201604/t20160414_40738.html", "quote": "宋代一般分为五等，亦称五甲；明清分为三等，称三甲 ... 至明始规定：一甲三名，第一名为状元，第二名为榜眼，第三名为探花"},
+            {"title": "殿试（CNKI 工具书条目）", "url": "https://mall.cnki.net/reference/R2006061550001094.html", "quote": "宋太平兴国八年(983)殿试合格者分为五甲，元顺帝时改为三甲，并限一甲3人，此后成定制"}
+          ]
+        },
+        {
+          "id": "issue-02",
+          "factId": "f5",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "为防考官徇私，宋代推行糊名与誊录。糊名遮住考生的姓名籍贯，誊录则由书吏把试卷重抄一遍，考官看到的只是笔迹统一的副本，连字迹都无法辨认。这套办法从真宗朝开始推行，此后成为贡院的定制。",
+          "problem": "“从真宗朝开始推行”对糊名不准确：糊名（弥封）始于宋太宗淳化年间；誊录才是在真宗大中祥符八年设誊录院推行（另有景德二年河北路省试首用之说）。两项制度起点不同，不宜并成一句。",
+          "correction": "为防考官徇私，宋代推行糊名与誊录。糊名遮住考生的姓名籍贯，誊录则由书吏把试卷重抄一遍，考官看到的只是笔迹统一的副本，连字迹都无法辨认。糊名始于太宗淳化年间，誊录到真宗朝设院推行，此后成为贡院的定制。",
+          "evidence": [
+            {"title": "古代如何防止科举作弊（人民网）", "url": "http://politics.people.com.cn/n/2013/0608/c70731-21789502.html", "quote": "宋太宗淳化年间 ... 推行'糊名考校'法 ... 宋大中祥符八年，真宗赵恒下令设誊录院"},
+            {"title": "科举防弊与誊录制度（上海市教育考试院）", "url": "https://www.shmeea.edu.cn/page/19400/20201028/14643.html", "quote": "北宋景德二年，朝廷在为河北考生举行的省试中第一次采用了誊录法"}
+          ]
+        },
+        {
+          "id": "issue-03",
+          "factId": "f8",
+          "severity": "major",
+          "verdict": "imprecise",
+          "claim": "何炳棣在《明清社会史论》中统计，明清举人与进士中约有一半出自三代以内无功名的家庭。这个结论后来被艾尔曼等人修正，但科举带来相当程度的社会流动仍被广泛接受。",
+          "problem": "何炳棣的统计对象是进士（48份登科录、12,226人），不含举人；比例也非“约一半”：明代约47.5%，清代约37.2%，明清合计42.3%。“约有一半”只对明代成立，用于明清整体偏高。",
+          "correction": "何炳棣在《明清社会史论》中统计一万二千余名进士，明代约四成八出自三代以内无功名的家庭，清代约三成七，明清合计约四成二。这个结论后来被艾尔曼等人修正，但科举带来相当程度的社会流动仍被广泛接受。",
+          "evidence": [
+            {"title": "何炳棣《明清社会史论》的方法与数据（沈登苗）", "url": "https://www.aisixiang.com/data/118091.html", "quote": "明代进士出自A类者 ... 占47.5% ... 清代A类进士占19.1%，B类进士占18.1%，两者合计为37.2%。明清两代 ... 合计为42.3%"}
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "唐宋录取规模（唐6,603人、宋43,000人）取自可公开访问的试题解析与教辅材料，数字与多种通史表述一致，作为数量级证据使用。",
+        "殿试始于开宝六年、南北榜与南北卷的年份分别由《光明日报》文史版、山东大学论文PDF与中国知网工具书条目支持。",
+        "1905年9月2日上谕、袁世凯主稿的立停科举奏及英国1853年报告，分别有档案公众号、影印文献与学术出版社章节可查。"
+      ],
+      "summary": "12条中9条成立；f4把明清殿试分甲制度倒填到宋，f5把糊名起点误作真宗朝，f8把进士统计说成举人与进士并把42.3%说成约一半，均已修正。"
+    },
+    {
+      "id": "w3-myth-world-orpheus",
+      "status": "verified",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "medium"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "supported", "confidence": "medium"},
+        {"id": "f11", "verdict": "supported", "confidence": "high"},
+        {"id": "f12", "verdict": "supported", "confidence": "high"}
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "维吉尔《农事诗》约公元前29年、奥维德《变形记》约公元8年的系年与“现存最早完整叙述”之说，与古典学通行表述一致；柏拉图《会饮篇》179d的幻影版本另成一源。",
+        "泰纳龙海角入口、不许回头、欧律狄刻两次告别、被色雷斯妇女撕碎、头颅漂到列斯堡等细节，均可在维吉尔与奥维德文本对照中逐一落实。",
+        "俄耳甫斯教金片为公元前5至前3世纪墓葬薄金片，铭文是给亡灵的指路词而非回头故事；“是否统一宗教”仍属学界争论，表述稳妥。",
+        "《黑色俄耳甫斯》为1959年法巴合拍片、法国导演马塞尔·加缪执导，里约狂欢节背景；原文称“巴西电影”属通行简称，未构成事实错误。"
+      ],
+      "summary": "12条均与古典文本及改编史相符：维吉尔与奥维德的系年、死因分岔、冥界条件、柏拉图异说、金片性质、蒙特威尔第与格鲁克改编均可核，无需修正。"
+    },
+    {
+      "id": "w3-myth-eastasia-izanami",
+      "status": "verified",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "medium"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "supported", "confidence": "medium"},
+        {"id": "f11", "verdict": "supported", "confidence": "high"},
+        {"id": "f12", "verdict": "supported", "confidence": "medium"}
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "《古事记》712年、《日本书纪》720年成书由日本国立国会图书馆专题页与Taylor & Francis章节确认。",
+        "八雷神的名号与位置、千五百黄泉军、一日绞杀千人对应一日建千五百产屋，均可在《古事记》原文（含汉文训读本）中逐字核对；中文维基与百科条目可作辅助。",
+        "多贺大社祭神为伊邪那岐命与伊邪那美命，且《古事记》有“伊邪那岐大神は淡海の多賀に坐す”之句，见日本国会图书馆参考咨询数据库与神社资料。"
+      ],
+      "summary": "12条均与《古事记》《日本书纪》文本及神社传承吻合：成书年代、淤能碁吕岛、水蛭子、八雷神、千五百产屋、三贵子、多贺大社均可核，无需修正。"
+    },
+    {
+      "id": "w4-geo-cn-double-cropping",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "imprecise", "confidence": "high", "issue": "issue-01"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "medium"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "imprecise", "confidence": "high", "issue": "issue-02"},
+        {"id": "f6", "verdict": "supported", "confidence": "medium"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "supported", "confidence": "medium"},
+        {"id": "f11", "verdict": "supported", "confidence": "high"},
+        {"id": "f12", "verdict": "supported", "confidence": "medium"}
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f1",
+          "severity": "major",
+          "verdict": "imprecise",
+          "claim": "一年两熟需要足够的热量：从冬小麦播种到夏玉米收获，活动积温要四千度以上，华北平原刚好够用，再往北走，第二季就容易赶上秋霜。积温不够的地方，只能改种一季或换更早熟的品种。",
+          "problem": "热量门槛被说低了。中科院地理所的资料给出华北平原≥0℃积温4100–5400℃，并明确“≥0℃积温4600等值线是冬小麦与早熟玉米两熟的热量界限”。“四千度以上”会让读者以为4000℃即可两熟，实际要接近4600℃，且平原北部并不“刚好够用”。",
+          "correction": "一年两熟需要足够的热量：从冬小麦播种到夏玉米收获，≥0℃积温通常要四千六百度以上，华北平原中南部才够用，再往北走，第二季就容易赶上秋霜。积温不够的地方，只能改种一季或换更早熟的品种。",
+          "evidence": [
+            {"title": "中国华北平原气候资源特点（中国科学院地理科学与资源研究所）", "url": "http://igsnrr.cas.cn/cbkx/kpyd/zybk/qhzy/202009/t20200910_5692912.html", "quote": "≥0℃积温为4 100～5 400℃ ... ≥0℃积温4 600等值线是冬小麦与早熟玉米两熟的热量界限"}
+          ]
+        },
+        {
+          "id": "issue-02",
+          "factId": "f5",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "华北年降水五六百毫米，七成集中在七八月。冬小麦返青到灌浆正缺水，雨季还没到，只能靠灌溉补，这是两季最不对称的地方。小麦的水靠井，玉米的水靠天，一季靠抽、一季靠等，两季的水源根本不同。",
+          "problem": "“七成集中在七八月”偏高。华北平原年降水500–900毫米，7–8月降水约占全年45%–65%；把6–8月合起来才达到50%–75%（京津一带68%–77%）。用“七成”配“七八月”两个月份，与气候资料不符。",
+          "correction": "华北年降水五六百毫米，六七成集中在六月到八月。冬小麦返青到灌浆正缺水，雨季还没到，只能靠灌溉补，这是两季最不对称的地方。小麦的水靠井，玉米的水靠天，一季靠抽、一季靠等，两季的水源根本不同。",
+          "evidence": [
+            {"title": "中国华北平原气候资源特点（中国科学院地理科学与资源研究所）", "url": "http://igsnrr.cas.cn/cbkx/kpyd/zybk/qhzy/202009/t20200910_5692912.html", "quote": "年降水量为500～900毫米 ... 7～8月伏雨占45%～65%，3～5月只占10%～20%"},
+            {"title": "华北平原降水与灌溉（农业文献汇编）", "url": "http://papers.agrivy.com/webfiles/papers/2003-2006-FANG.pdf", "quote": "降雨量一般集中在6～8月份，大部分地区此期内降雨量占全年的50～75%"}
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "热量与降水的权威口径取自中科院地理所科普页（摘编自《中国资源科学百科全书》），并辅以农业气象文献的降水集中度数据。",
+        "冬小麦适播期（京津9月底至10月上旬、鲁豫10月上中旬）与冬前6叶左右、3–5个分蘖的壮苗标准，见农业技术推广站点与科普中国材料。",
+        "地下水漏斗、冬小麦灌溉占平原灌溉用水约七成、2014年起的季节性休耕与补助，见《地理学报》论文摘要、FAO AGRIS综述与中国网新闻。"
+      ],
+      "summary": "12条中10条成立；f1把两熟热量界限4000℃说低（应为4600℃等值线），f5把“六七成集中在6–8月”写成“七成集中在七八月”，均已修正。"
+    },
+    {
+      "id": "w5-psych-conflict-style",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "imprecise", "confidence": "high", "issue": "issue-01"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "medium"},
+        {"id": "f5", "verdict": "unverifiable", "confidence": "medium", "issue": "issue-02"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "supported", "confidence": "high"},
+        {"id": "f11", "verdict": "supported", "confidence": "medium"}
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f1",
+          "severity": "major",
+          "verdict": "imprecise",
+          "claim": "面对威胁，神经系统有几套默认反应：争、逃、僵、顺。它们不是性格缺陷，而是身体在极短时间内做出的自保选择，通常比意识更早启动，也常常事后才被自己发现。",
+          "problem": "把“争、逃、僵、顺”并列为神经系统的默认反应，证据强度被拉平了。争、逃、僵有生理学与行为学研究支撑（僵即强直不动），而“顺（fawn）”是治疗师提出的临床概括，没有患病率、验证量表和结局研究，四者并非等价的科学范畴。",
+          "correction": "面对威胁，人常见几套反应：争、逃、僵、顺。它们不是性格缺陷，而是身体在极短时间内做出的自保选择，往往比意识更早启动。其中争、逃、僵有较多生理研究支撑，顺更多是临床经验的概括。",
+          "evidence": [
+            {"title": "Fight, Flight, Freeze, Fawn: The Evidence (Cerevity)", "url": "https://cerevity.com/fight-flight-freeze-fawn/", "quote": "fawn was named by a psychotherapist rather than derived from research, with no prevalence figure, validated measure or outcome study located during this review"},
+            {"title": "The 4Fs: A Trauma Typology in Complex PTSD (Pete Walker)", "url": "http://www.havoca.org/cptsd/", "quote": "Deeper work with flight types – as with all types -gradually opens them to grieving their original abandonment"}
+          ]
+        },
+        {
+          "id": "issue-02",
+          "factId": "f5",
+          "severity": "minor",
+          "verdict": "unverifiable",
+          "claim": "顺能立刻止住争吵，代价是怨气被存起来。长期以顺从处理冲突的人，满意度通常更低，也更容易在某一天因为一件小事突然爆发，而且爆发时往往更难收场。",
+          "problem": "未检索到支撑“以顺从处理冲突者满意度更低、更易突然爆发”的实证研究；“顺”作为冲突姿态缺少统一的操作定义与测量工具，该段属临床经验推断，不能作为研究结论陈述。",
+          "correction": null,
+          "evidence": [
+            {"title": "Fight, Flight, Freeze, Fawn: The Evidence (Cerevity)", "url": "https://cerevity.com/fight-flight-freeze-fawn/", "quote": "fawn was named by a psychotherapist rather than derived from research, with no prevalence figure, validated measure or outcome study located during this review"}
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "戈特曼“淹没”的心率阈值（约100次/分）与20–30分钟暂停建议，见其研究综述与治疗手册转述；冲突频率不预测离婚、四项 horsemen 才预测，见戈特曼追踪研究的中文转述。",
+        "要求—退缩模式与性别差异引自 Christensen & Heavey 1990（JPSP 59(1):73–81）摘要，属分布倾向而非个体归因，原文表述已作限定。",
+        "强直不动（tonic immobility）与创伤后应激的关联见Cerevity综述所引研究，可作为“僵”有生理证据的支持。"
+      ],
+      "summary": "11条中9条有据；“四种默认神经反应”把临床概括的“顺”与有生理证据的争逃僵并列，属过度概括；f5关于顺从者满意度与爆发的断言缺乏实证，标为不可验证并留空修正。"
+    },
+    {
+      "id": "w2-cn-history-liangshui",
+      "status": "verified",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "medium"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "medium"},
+        {"id": "f10", "verdict": "supported", "confidence": "high"},
+        {"id": "f11", "verdict": "supported", "confidence": "high"},
+        {"id": "f12", "verdict": "supported", "confidence": "medium"}
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "建中元年（780）、杨炎、“户无主客，以见居为簿；人无丁中，以贫富为差”、夏税六月纳毕、秋税十一月纳毕，见福建省统计局《隋唐五代统计史》与《请行两税法奏》原文。",
+        "“量出制入”、行商三十税一、鳏寡孤独放免、丁额不废等条款，均有诏奏原文可逐句对照。",
+        "间架税、除陌钱为建中四年（783）赵赞奏行，见《圣学格物通》所引；鱼鳞图册、一条鞭法与摊丁入亩的承继关系见税务总局系统刊物。"
+      ],
+      "summary": "12条均与诏奏原文及制度史文献吻合：年代、人物、税制原则、征收期限、减免条款、杂税与后世承继均可核，无需修正。"
+    }
+  ]
+}

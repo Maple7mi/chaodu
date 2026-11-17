@@ -1,0 +1,746 @@
+{
+  "batch": "batch-21",
+  "checkedAt": "2026-11-18T02:18:50+08:00",
+  "dossiers": [
+    {
+      "id": "cn-history-liangzhu",
+      "status": "corrected",
+      "confidence": "medium",
+      "facts": [
+        {
+          "id": "f1",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f2",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f3",
+          "verdict": "imprecise",
+          "confidence": "medium",
+          "issue": "issue-01"
+        },
+        {
+          "id": "f4",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f5",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f6",
+          "verdict": "supported",
+          "confidence": "medium"
+        },
+        {
+          "id": "f7",
+          "verdict": "supported",
+          "confidence": "medium"
+        },
+        {
+          "id": "f8",
+          "verdict": "supported",
+          "confidence": "medium"
+        },
+        {
+          "id": "f9",
+          "verdict": "wrong",
+          "confidence": "high",
+          "issue": "issue-02"
+        },
+        {
+          "id": "f10",
+          "verdict": "supported",
+          "confidence": "medium"
+        },
+        {
+          "id": "f11",
+          "verdict": "supported",
+          "confidence": "medium"
+        },
+        {
+          "id": "f12",
+          "verdict": "imprecise",
+          "confidence": "medium",
+          "issue": "issue-03"
+        }
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f3",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "堤坝分高坝与低坝两组，高坝建在山谷口，低坝建在平原上，用于蓄水与泄洪。",
+          "problem": "十一条堤坝按位置和形态分三类，不是两组：除谷口高坝（岗公岭、老虎岭等六条）与平原低坝外，还有塘山山前长堤，长约五公里，是其中最大的单体工程。两分法把长堤漏掉了，也丢掉了长堤“沿山脚挡水”的功能。",
+          "correction": "水利系统由十一条堤坝组成，控制范围约一百平方公里，是中国现存最早的大型水利工程之一，比大禹治水的传说早约一千年。堤坝按位置分山前长堤、谷口高坝与平原低坝三类，分别用于挡水、蓄水与泄洪。",
+          "evidence": [
+            {
+              "title": "国家文物局：良渚古城遗址水利系统",
+              "url": "http://www.ncha.gov.cn/art/2022/5/25/art_2611_174509.html",
+              "quote": "根据形态和位置可分为山前长堤、谷口高坝和平原低坝三类。塘山长堤长约5公里，是水利系统中最大的单体工程。"
+            },
+            {
+              "title": "中国文物报：良渚古城外围水利系统的调查与发掘",
+              "url": "https://news.artron.net/20160314/n822085.html",
+              "quote": "确认良渚古城外围存在由11条堤坝组成的水利系统，年代距今约5000年。"
+            }
+          ]
+        },
+        {
+          "id": "issue-02",
+          "factId": "f9",
+          "severity": "major",
+          "verdict": "wrong",
+          "claim": "2016年，考古队在古城外围确认了一圈长条形的垄状堆积，可能是外城墙或防洪堤……若确为城墙，古城的范围要比原来大出好几倍。",
+          "problem": "把两处发现混成一处，年代也错位。2016年确认的是古城外围水利系统（十一条堤坝），不是外城墙；外郭城是2009—2012年通过大规模勘探与地理信息系统分析确认的，由美人地、卞家山等条形人工高地围成，围护面积约六点八平方公里，形成宫城、内城、外郭三重结构，规模并非“比原来大出好几倍”。",
+          "correction": "二〇〇九至二〇一二年，考古队通过大规模勘探与地理信息系统分析，在古城外围确认了一圈条形人工高地构成的外郭城，围护面积约七平方公里。加上宫城与内城，良渚古城呈宫城、内城、外郭三重结构。",
+          "evidence": [
+            {
+              "title": "中国青年报：良渚古城外围发现大型水利系统",
+              "url": "http://news.cyol.com/yuanchuang/2017-12/13/content_16777251.htm",
+              "quote": "2009年至2012年，考古队通过大规模勘探和地理信息系统分析，发现古城外围由扁担山、美人地、卞家山等条形人工高地构成外郭城，围护面积约6.8平方公里。"
+            },
+            {
+              "title": "国家文物局：良渚古城遗址概况",
+              "url": "http://www.ncha.gov.cn/art/2022/5/25/art_2611_174509.html",
+              "quote": "古城由宫城、内城、外郭城三重结构组成，宫城面积约30万平方米，内城面积约300万平方米。"
+            }
+          ]
+        },
+        {
+          "id": "issue-03",
+          "factId": "f12",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "良渚进入教材用了将近二十年。",
+          "problem": "“将近二十年”没有起算点，无法核对：从哪一年算、到哪一年算都没交代，换一个起点结论就变。可核实的是2019年9月全国统编人教版《中国历史》七年级上册收录良渚遗址，占整整一页。",
+          "correction": "「中华文明五千年」过去多依靠文献推算，良渚的城墙、水利与玉器让这句话有了考古学支撑。二〇一九年九月，良渚遗址编入全国统编《中国历史》七年级上册，占了整整一页。",
+          "evidence": [
+            {
+              "title": "人民日报海外版：良渚遗址进入全国统编教材",
+              "url": "http://paper.people.com.cn/rmrbhwb/html/2019-09/09/content_1945559.htm",
+              "quote": "2019年9月1日起，全国统编人教版《中国历史》七年级上册正式使用，良渚遗址被写入，占整整一页。"
+            }
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "f1: 1936年5月浙江省立西湖博物馆与吴越史地研究会试掘古荡，施昕更为该馆工作人员，同年7月、11月三次赴良渚调查，1936年末至1937年3月试掘六处；http://kaogu.cssn.cn/xwzx/kgdt/201801/t20180129_5944344.shtml",
+        "f1: 2019年7月6日第43届世界遗产大会将良渚古城遗址列入《世界遗产名录》，遗产年代写作公元前3300年至前2300年；http://www.ncha.gov.cn/art/2019/7/6/art_722_155889.html",
+        "f2: 城墙宽约20—150米、残高约4米、周长约6000米、围合面积约300万平方米，底部普遍铺垫石头、上部黄色黏土夯筑；https://www.lzmuseum.cn/LiangBoXinWen/2023743977746.html",
+        "f2: 城墙土方200万立方米以上，按4000人每日2000方计约需2.5—3年；另有“城墙约120万方、莫角山约350万方，约需1万人4年”的估算；http://www.lzcbs.com/lzwmdsd/files/basic-html/page148.html",
+        "f4: 莫角山台地面积30万平方米、实际高度十多米、土方200多万立方米；https://news.qq.com/rain/a/20250411A02ZMT00",
+        "f5: 反山M12出土玉器647件、玉粒435件、石钺5件；小型墓主要随葬陶器；https://www.zywhyj.cn/Uploads/PdfFile/2026-08-18/6a83b8ddc1d83.pdf",
+        "f6: 神人兽面纹见于玉琮、玉璧与玉钺，良渚博物院藏有神人兽面纹玉璧；https://www.lzmuseum.cn/jgwmg/detail.aspx?artid=5043",
+        "f7: 正文夹有英文单词“surplus”，建议改为“余粮”；茅山遗址清理出稻田、水渠与田埂；http://yangbo.cctv.cn/2024/03/12/ARTIowNQNJ42Hw6KjUBJts8L240312.shtml",
+        "f8: 溧阳梅岭玉矿是江浙已知唯一的软玉矿，被认为是良渚玉料的主要来源之一；http://www.jiangsu.gov.cn/art/2019/3/29/art_32648_8289387.html",
+        "f10: 良渚文化的下限通常写作距今4300年（公元前2300年），“距今约4200年前后”处在4.2ka事件的讨论区间内，年代表述可再收紧；https://www.cnki.com.cn/Article/CJFDTOTAL-HDSZ200004011.htm",
+        "f11: 探源工程各家对“文明标准”的表述并不统一（城市、阶级分化、王权、国家），“城市、礼仪建筑与手工业分工”是其中一种概括，建议核对原始表述后再定稿。"
+      ],
+      "summary": "城墙、水利系统、莫角山、反山与申遗信息均可核实；2016年“外城墙”一条把水利系统与外郭城混为一谈，另有堤坝分类与教材年限两处小误，已给出修正。"
+    },
+    {
+      "id": "w3-psych-emotion-forecasting",
+      "status": "verified",
+      "confidence": "medium",
+      "facts": [
+        {
+          "id": "f1",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f2",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f3",
+          "verdict": "supported",
+          "confidence": "medium"
+        },
+        {
+          "id": "f4",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f5",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f6",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f7",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f8",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f9",
+          "verdict": "supported",
+          "confidence": "medium"
+        },
+        {
+          "id": "f10",
+          "verdict": "supported",
+          "confidence": "medium"
+        },
+        {
+          "id": "f11",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f12",
+          "verdict": "supported",
+          "confidence": "medium"
+        }
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "f1: Wilson & Gilbert (2003), Affective Forecasting, Advances in Experimental Social Psychology 35: 345—411；摘要即称人们对未来情绪的正负方向预测较准，而在强度与持续时间上系统性出错；https://dash.harvard.edu/handle/1/41200882",
+        "f2/f4: 影响偏差与免疫忽视；Gilbert, Pinel, Wilson, Blumberg & Wheatley (1998), Immune neglect, JPSP 75(3): 617—638；https://pubmed.ncbi.nlm.nih.gov/9781405/",
+        "f5: Loewenstein (2005), Hot-cold empathy gaps and medical decision making, Health Psychology 24(4 Suppl): S49—S56；https://psycnet.apa.org/record/2005-08085-008",
+        "f6: Brickman, Coates & Janoff-Bulman (1978)：中奖者22人（伊利诺伊州彩票奖金5万美元以上）、事故瘫痪者29人（11人截瘫、18人四肢瘫）、对照22人；https://worlddatabaseofhappiness.eur.nl/correlational-findings/410/",
+        "f7: Gilbert & Wilson (2007), Prospection: Experiencing the Future, Science 317(5843): 1351—1354；https://pubmed.ncbi.nlm.nih.gov/17885134/",
+        "f8: Quoidbach, Gilbert & Wilson (2013), The End of History Illusion, Science 339(6115): 96—98，样本约1.9万人、18—68岁；https://www.science.org/doi/10.1126/science.1229294",
+        "f12: “参考他人实际报告、把事件放回日常背景、预演细节”三项干预有实验支持，但效应量普遍不大；未逐项核对原始实验，故整体给 medium。",
+        "f1: “二〇〇三年的综述给了这个领域一个名字”属通俗说法，术语在此前文献中已出现（如2000年关于聚焦效应的论文标题），严格说该章是系统化与定名，而非首创。"
+      ],
+      "summary": "综述、作者年份、样本量与核心结论均与原始文献一致，未发现需要修正的硬错误。"
+    },
+    {
+      "id": "w5-cn-history-jihuashengyu",
+      "status": "verified",
+      "confidence": "high",
+      "facts": [
+        {
+          "id": "f1",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f2",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f3",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f4",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f5",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f6",
+          "verdict": "supported",
+          "confidence": "medium"
+        },
+        {
+          "id": "f7",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f8",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f9",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f10",
+          "verdict": "supported",
+          "confidence": "medium"
+        },
+        {
+          "id": "f11",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f12",
+          "verdict": "supported",
+          "confidence": "medium"
+        }
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "f2: 1973年国务院成立计划生育领导小组，同期推行“晚、稀、少”；https://www.dswxyjy.org.cn/n1/2019/1014/c429547-31399618.html",
+        "f3: 1980年9月25日《关于控制我国人口增长问题致全体共产党员、共青团员的公开信》，“提倡一对夫妇只生育一个孩子”；同上",
+        "f4: 1982年宪法第二十五条“国家推行计划生育，使人口的增长同经济和社会发展计划相适应”；https://constitutions.unwomen.org/en/countries/asia/china",
+        "f7: 2021年8月人口与计划生育法修正，取消社会抚养费、删除相关处分规定，已征收的不予退还；http://www.npc.gov.cn/c2/c30834/202108/t20210818_312956.html",
+        "f8: 家庭户均规模1982年4.41、1990年3.96、2000年3.44、2010年3.10、2020年2.62；https://www.rmlt.com.cn/2021/0805/620907.shtml",
+        "f9: 出生性别比2004年最高121.18，2009年119.45，2015年113.51；UNFPA中国政策简报；https://china.unfpa.org/sites/default/files/pub-pdf/Chinese-UNFPA%20China%20policy%20brief%20on%20GBSS%20推动中国出生性别比正常化中文.pdf",
+        "f10: “二十一世纪初进入老龄化社会”按65岁以上人口占比7%的口径（2000年前后）；具体年份不同口径有差异，正文用“初”字尚可。",
+        "f11: 2013年单独二孩、2015年全面两孩、2021年三孩；http://shehui.china.com.cn/2022-05/20/content_78228094.htm"
+      ],
+      "summary": "政策文件、修法时间、普查数字与性别比峰值均与官方或权威来源一致，未发现需要修正的硬错误。"
+    },
+    {
+      "id": "w4-geo-world-national-parks",
+      "status": "corrected",
+      "confidence": "medium",
+      "facts": [
+        {
+          "id": "f1",
+          "verdict": "supported",
+          "confidence": "medium"
+        },
+        {
+          "id": "f2",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f3",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f4",
+          "verdict": "imprecise",
+          "confidence": "medium",
+          "issue": "issue-01"
+        },
+        {
+          "id": "f5",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f6",
+          "verdict": "supported",
+          "confidence": "medium"
+        },
+        {
+          "id": "f7",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f8",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f9",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f10",
+          "verdict": "supported",
+          "confidence": "medium"
+        },
+        {
+          "id": "f11",
+          "verdict": "supported",
+          "confidence": "medium"
+        },
+        {
+          "id": "f12",
+          "verdict": "supported",
+          "confidence": "medium"
+        }
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f4",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "游客量并未因此崩塌，反而转向文化体验。",
+          "problem": "“并未崩塌”与可查数据不符：禁攀前2018—19财年约39.5万人，2024—25财年约26.7万人，仍低约三分之一，期间还经历疫情导致的断崖式下跌（2020年不足10万）。禁攀与疫情的影响也难以拆开，后半句“转向文化体验”没有数据支撑。",
+          "correction": "澳大利亚乌鲁鲁一九八五年归还阿南古原住民，再以九十九年租约交回公园管理，形成共管。二〇一九年十月应原住民要求停止攀登。此后游客量长期低于禁攀前的峰值，疫情又加剧了下滑，近年才回升到二十六万上下。",
+          "evidence": [
+            {
+              "title": "Uluru-Kata Tjuta NP Tourism Statistics",
+              "url": "https://camperchamp.com.au/national-parks-statistics/uluru-kata-tjuta/",
+              "quote": "267,363 people visited Uluru-Kata Tjuta National Park in 2024–25 ... still about a third below the 2018–19 peak of 395,338, the last full year before the Uluru climb closed."
+            },
+            {
+              "title": "Open Access 书章：Uluru 禁攀后的游客数据",
+              "url": "https://library.oapen.org/bitstream/handle/20.500.12657/91149/1/9781040050002.pdf",
+              "quote": "visitation ... declined in the first year (October 2020) by 60% ... increased again to more than 220,000 visitors in 2022 (still 45% below pre-pandemic numbers)."
+            }
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "f1: 黄石1872年设立；原住民被逐步驱离、近年官方才承认；https://www.ncesc.com/when-were-native-americans-removed-from-yellowstone/",
+        "f2: 1916年组织法“conserve the scenery and the natural and historic objects and the wildlife therein”；维护欠账116亿美元；https://www.govinfo.gov/content/pkg/CHRG-115shrg29773/pdf/CHRG-115shrg29773.pdf",
+        "f3: 人与生物圈计划1971年提出生物圈保护区，分核心区、缓冲带、过渡区；https://www.kepuchina.cn/2016zt/100000whys/02/201809/t20180905_700600.shtml",
+        "f4: 1985年10月26日归还阿南古，签99年租约；https://www.pm.gov.au/media/marking-40-years-handback-uluru",
+        "f5: 黄石年游客约450—480万；https://cowboystatedaily.com/2026/08/07/bison-tosses-or-cowboy-culture-why-yellowstone-is-no-1-parks-google-obsession/",
+        "f5: 锡安2020—2021年疫情期间实行接驳车预约票，2021年5月取消；https://www.ksl.com/article/50175884/zion-national-park-ends-shuttle-ticket-system-after-new-federal-transit-guidance",
+        "f7: 2021年首批5个国家公园，总面积约23万平方公里；http://english.scio.gov.cn/pressroom/2026-10/13/content_118731090.html",
+        "f8: 三江源“一户一岗”公益岗位由17211个增至2025年底20843个，每人每月补助1800元；http://qh.people.com.cn/BIG5/n2/2026/0127/c378418-41485012.html",
+        "f9: 昆明—蒙特利尔全球生物多样性框架2022年12月通过，目标3即30x30；当时陆地保护地约17%、海洋约8%；https://www.nature.org/en-us/what-we-do/our-priorities/protect-water-and-land/land-and-water-stories/committing-to-30x30/",
+        "f12: “靠碳汇与生态补偿的公园要证明自己真的多存了碳”属分析性表述，无单一来源，按评论处理。"
+      ],
+      "summary": "黄石、NPS、生物圈计划、中国首批国家公园与30x30目标均可核实；乌鲁鲁禁攀后“游客量并未崩塌”与统计数据不符，已修正。"
+    },
+    {
+      "id": "w3-psych-cognitive-reappraisal",
+      "status": "verified",
+      "confidence": "medium",
+      "facts": [
+        {
+          "id": "f1",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f2",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f3",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f4",
+          "verdict": "supported",
+          "confidence": "medium"
+        },
+        {
+          "id": "f5",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f6",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f7",
+          "verdict": "supported",
+          "confidence": "medium"
+        },
+        {
+          "id": "f8",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f9",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f10",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f11",
+          "verdict": "supported",
+          "confidence": "medium"
+        },
+        {
+          "id": "f12",
+          "verdict": "supported",
+          "confidence": "medium"
+        }
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "f2: Gross (1998), Antecedent- and response-focused emotion regulation, JPSP 74(1): 224—237；120名被试观看厌恶影片，重评组厌恶体验更低、记忆表现更好；https://gz.nstl.gov.cn/paper_detail.html?doi=10.1037/0022-3514.74.1.224",
+        "f1/f3: 前因关注与反应关注的区分，抑制伴随交感神经与心血管活动升高；同上。",
+        "f5: 自我抽离（第三人称视角）与时间距离；Ayduk & Kross 系列研究；https://deepblue.lib.umich.edu/bitstream/handle/2027.42/91833/golalex.pdf",
+        "f6: Sheppes, Scheibe, Suri & Gross (2011), Emotion-Regulation Choice：低强度偏好重评、高强度偏好分心；https://www.psychologicalscience.org/journals/psychological-science/0956797611418350/",
+        "f8: Gross & John (2003), Individual differences in two emotion regulation processes, JPSP 85(2): 348—362；重评与更多积极情绪、更少消极情绪相关；https://psycnet.apa.org/doiLanding?doi=10.1037%2F0022-3514.85.2.348",
+        "f10: 重评训练的效果量多为小到中等，常与行为实验、暴露练习合并使用；“很少单独使用”与CBT实务一致，无单一实验可引。"
+      ],
+      "summary": "Gross 1998/2003、Sheppes 2011 与自我抽离研究均与正文一致，未见需要修正的硬错误。"
+    },
+    {
+      "id": "w4-geo-cn-hetao",
+      "status": "verified",
+      "confidence": "high",
+      "facts": [
+        {
+          "id": "f1",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f2",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f3",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f4",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f5",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f6",
+          "verdict": "supported",
+          "confidence": "medium"
+        },
+        {
+          "id": "f7",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f8",
+          "verdict": "supported",
+          "confidence": "medium"
+        },
+        {
+          "id": "f9",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f10",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f11",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f12",
+          "verdict": "supported",
+          "confidence": "medium"
+        }
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "f1: 乌兰布和坡降1/3000—1/5000，后套东西1/5000—1/8000、南北1/4000—1/8000；http://www.bynrsw.gov.cn/sites/sdw/detail.jsp?id=7462",
+        "f2: 三盛公枢纽1959年动工、1961年建成，总干渠长230余公里、设计引水流量565立方米每秒，一首制自流引水；http://www.mwr.gov.cn/szs/slgc/gdzmslgc/202510/t20251001_2068313.html",
+        "f2: 灌区渠沟10.36万条、总长6.4万公里，七级灌排体系，灌溉面积1154万亩；http://www.zghtgq.cn/jgzn/gqjj/",
+        "f3: 年降水130—250毫米、年蒸发2000—2400毫米；http://www.iwhr.org/zgskywwnew/ztbd/dbzhw/first/webinfo/2011/01/1294879660853429.htm",
+        "f5: 河套隆胜研究区临界控盐地下水埋深生育期初不小于1.60米、年均1.77米；http://agri.nais.net.cn/literature/casdd/547FFE4C-57C1-420A-A62D-38915A797FD5.html",
+        "f7: 总排干沟全长257.283公里，控制排水面积1137.56万亩；http://www.zghtgq.cn/zglj/psfzx/jgzn/gyjj/202406/t20240622_357569.html",
+        "f9: 2015—2022年平均秋浇面积40.8万公顷、年秋浇用水14.77亿立方米，占年均用水43.28亿立方米的34.1%；https://www.ggpsxb.com/jgpxxben/ch/reader/create_pdf.aspx?file_no=2023S136",
+        "f10: 1987年国务院黄河可供水量分配方案，内蒙古引黄耗水指标58.6亿立方米（巴彦淖尔40亿）；https://www.nmg.gov.cn/zfbgt/zwgk/zzqwj/202406/P020240625394613512931.docx",
+        "f8: “井灌井排抽的是潜水”与当地水文地质一致，但“井越打越深”的表述各地差异较大，按 medium 处理。"
+      ],
+      "summary": "坡降、枢纽年代、渠道里程、临界埋深、秋浇比例与分水指标均有可追溯来源，未发现需要修正的硬错误。"
+    },
+    {
+      "id": "w4-geo-world-biome-rainforest",
+      "status": "corrected",
+      "confidence": "medium",
+      "facts": [
+        {
+          "id": "f1",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f2",
+          "verdict": "supported",
+          "confidence": "medium"
+        },
+        {
+          "id": "f3",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f4",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f5",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f6",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f7",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f8",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f9",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f10",
+          "verdict": "imprecise",
+          "confidence": "medium",
+          "issue": "issue-01"
+        },
+        {
+          "id": "f11",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f12",
+          "verdict": "supported",
+          "confidence": "high"
+        }
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f10",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "有估算认为，砍掉四成以上，区域降雨会减少一到两成，旱季变长，火险跟着升高。",
+          "problem": "“四成”与Lovejoy & Nobre 2018的阈值大体一致，但“减少一到两成”这个具体幅度找不到可核对的出处；同类研究给出的阈值与降幅差异很大（毁林20%—40%、降雨下降三到五成的说法都有），写成确定区间会让人误以为已有共识。",
+          "correction": "林冠截留一部分降雨，叶片蒸腾又把水送回大气。雨林参与自己所在地区的降水循环，砍掉一片，附近的雨也可能变少。有估算认为，毁林到四成左右，区域降雨明显减少、旱季变长，火险跟着升高。",
+          "evidence": [
+            {
+              "title": "Lovejoy & Nobre (2018), Amazon tipping point, Science Advances",
+              "url": "https://www.science.org/doi/epdf/10.1126/sciadv.aat2340",
+              "quote": "at about 40% deforestation ... diminished rainfall and a lengthier dry season, and a likely shift to a savanna-like state"
+            },
+            {
+              "title": "Science Advances (2023), Modeling early warning signs of possible Amazon Forest dieback",
+              "url": "https://www.science.org/doi/full/10.1126/sciadv.adk5670",
+              "quote": "Deforestation may reach a critical point where abrupt declines in rainfall could cause widespread forest dieback ... nearly 20% of the Amazon has already been cleared"
+            }
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "f1: 雨林垂直分层（地被、灌木、林下、主林冠、突出层）与巨树高出林冠十余米为教科书级描述，多源一致。",
+        "f2: “到达地面只剩百分之一二”是常被引用的下限估计；密苏里植物园教材给的是林下接受冠层光照的2%—15%，两者口径不同（林下 vs 地面），若要严格可写“不足百分之几”；http://www.mobot.org/education/documents/Rainforest_Rendezvous_pre.pdf",
+        "f4/f5: 强风化、淋溶与铁铝氧化物富集，养分主要靠高效再循环；https://academic.oup.com/book/40880/chapter-abstract/348948784",
+        "f9: 凤梨科叶基储水并为蛙、昆虫幼虫提供微水体；https://www.nps.gov/ever/learn/nature/bromeliads.htm",
+        "f11: 人口压力下休耕期由二三十年缩短至五六年、地力退化；https://www.alice.cnptia.embrapa.br/alice/bitstream/doc/962606/1/Planting-of-fast-growing-trees-in-shifting.pdf",
+        "f6/f12: “第三年明显减产”“恢复成林要几十年”属概括性表述，方向与文献一致，具体数字随土壤与耕作方式变化。"
+      ],
+      "summary": "分层、光照、土壤与养分循环、附生植物等描述与教材及论文一致；雨林—降水反馈的具体降幅缺可核对出处，已改为定性表述。"
+    },
+    {
+      "id": "w3-geo-cn-ne-grain-base",
+      "status": "verified",
+      "confidence": "high",
+      "facts": [
+        {
+          "id": "f1",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f2",
+          "verdict": "supported",
+          "confidence": "medium"
+        },
+        {
+          "id": "f3",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f4",
+          "verdict": "supported",
+          "confidence": "medium"
+        },
+        {
+          "id": "f5",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f6",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f7",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f8",
+          "verdict": "supported",
+          "confidence": "medium"
+        },
+        {
+          "id": "f9",
+          "verdict": "supported",
+          "confidence": "medium"
+        },
+        {
+          "id": "f10",
+          "verdict": "supported",
+          "confidence": "medium"
+        },
+        {
+          "id": "f11",
+          "verdict": "supported",
+          "confidence": "high"
+        },
+        {
+          "id": "f12",
+          "verdict": "supported",
+          "confidence": "medium"
+        }
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "f1: 自然条件下形成1厘米黑土层需200—400年（中科院东北地理与农业生态研究所）；https://www.neigae.ac.cn/news/cmsm/202111/t20211101_6238993.html",
+        "f3: 三江平原无霜期120—140天，友谊县一带120—130天；https://wapbaike.baidu.com/item/%E4%B8%89%E6%B1%9F%E5%B9%B3%E5%8E%9F/343963",
+        "f5: 玉米收获水分常30%以上，北方常温安全储粮水分14%（GB/T 43994-2024）；https://nync.jiuquan.gov.cn/nyncj/c106977/202611/9b43a5fe9d3b47b69aaae2e56e40c50f.shtml",
+        "f6: 原始黑土有机质5%—8%、黑土层50—80厘米，现降至2%—4%、20—40厘米；https://cloud.kepuchina.cn/h5/detail?id=7463693636282089472",
+        "f11: 三江平原水田由1990年代约610万亩增至约4200万亩，地下水超采、水位持续下降；https://www.iga.ac.cn/news/research/202406/t20240617_7189570.html",
+        "f4/f9/f10: “一季的收成砸在最后一步”“北粮南运是运输问题”“收储政策影响卖粮时点”属产业分析，方向与公开报道一致，具体数字未逐条核对。"
+      ],
+      "summary": "黑土成土速率、无霜期、烘干水分标准、退化指标与三江平原地下水问题均有可追溯来源，未发现需要修正的硬错误。"
+    }
+  ]
+}

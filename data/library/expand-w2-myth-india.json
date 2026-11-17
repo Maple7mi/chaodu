@@ -43,11 +43,11 @@
         },
         {
           "id": "f6",
-          "text": "史诗一面宣讲法，一面记录战争如何破坏规则：约定不攻击失去武器的人，却有人在毗湿摩放下武器后仍以箭床困住他；约定不杀非战斗人员，象阵却踩过营地和妇孺。文本没有替任何一方遮掩。"
+          "text": "史诗一面宣讲法，一面记录战争如何破坏规则：毗湿摩因不愿与女子交战而放下武器，仍被阿周那射倒，躺在箭床上；夜间偷袭营地时，连睡梦中的孩子也未能幸免。文本没有替任何一方遮掩。"
         },
         {
           "id": "f7",
-          "text": "般度长子尤迪希提拉以从不撒谎著称，却在对德罗纳的战斗中喊出“马死了”——死的其实是一头同名的大象。老师闻言放下武器，被砍下头颅。这一节常被用来讨论：为胜利而说的真话式谎言，算不算违法。"
+          "text": "尤迪希提拉喊的是「德罗纳之子死了」——战死的是与德罗纳之子同名的一头大象；他低声补了一个「象」字，德罗纳闻讯放下武器，随即被杀。原文并无「马」。"
         },
         {
           "id": "f8",
@@ -55,7 +55,7 @@
         },
         {
           "id": "f9",
-          "text": "战争结束后，尤迪希提拉看着战场上只剩自己和少数人，说这场胜利像一场葬礼。他后来举行马祭，把国土分给幸存者，又在升天途中拒绝丢下跟随的狗。史诗用这些收尾提醒读者，胜利本身也是债务。"
+          "text": "战争结束后，尤迪希提拉见战场几乎无人生还，说这场胜利像一场葬礼；他举行马祭，后来放弃王位，与兄弟远行，升天途中不肯丢下跟随的狗。"
         },
         {
           "id": "f10",
@@ -176,7 +176,16 @@
         "《薄伽梵歌》，张保胜译，中国社会科学出版社，1989",
         "John D. Smith, The Mahabharata: An Abridged Translation, Penguin Classics, 2009",
         "Alf Hiltebeitel, Rethinking the Mahabharata, University of Chicago Press, 2001"
-      ]
+      ],
+      "factCheck": {
+        "status": "corrected",
+        "confidence": "high",
+        "batch": "batch-09",
+        "checkedAt": "2026-11-18T02:42:00+08:00",
+        "issueCount": 3,
+        "appliedAt": "2026-11-17T18:46:28.219Z",
+        "summary": "史诗结构、人物与教义解读基本准确；“马死了”与“分国土”两处细节需改，毗湿摩与夜袭的表述也需校正。"
+      }
     },
     {
       "id": "w2-myth-india-ramayana-hanuman",
@@ -228,7 +237,7 @@
         },
         {
           "id": "f8",
-          "text": "《罗摩衍那》随商路与婆罗门传教进入东南亚，泰国的《拉玛坚》、柬埔寨的《林伽》、爪哇的《罗摩衍那》、马来《室利罗摩传》都重写了它。哈奴曼在这些版本里常变成好色、顽皮的角色，与印度史诗中克制的独身形象相反。"
+          "text": "《罗摩衍那》随商路与婆罗门传教进入东南亚，泰国《拉玛坚》、柬埔寨《里姆克尔》（Reamker）、爪哇《卡卡温罗摩衍那》、马来《室利罗摩传》都重写了它；哈奴曼在这些版本里常变成好色顽皮的角色。"
         },
         {
           "id": "f9",
@@ -353,7 +362,16 @@
         "Paula Richman (ed.), Many Ramayanas: The Diversity of a Narrative Tradition in South Asia, University of California Press, 1991",
         "A. K. Ramanujan, “Three Hundred Ramayanas”, in Many Ramayanas, 1991",
         "Robert Goldman (tr.), The Ramayana of Valmiki, Princeton University Press, 1984–2017"
-      ]
+      ],
+      "factCheck": {
+        "status": "corrected",
+        "confidence": "high",
+        "batch": "batch-24",
+        "checkedAt": "2026-11-18T02:25:00+08:00",
+        "issueCount": 1,
+        "appliedAt": "2026-11-17T18:46:28.219Z",
+        "summary": "篇数、颂数、哈奴曼情节与东南亚各版本大体正确；f8 把柬埔寨版本误写成《林伽》，已给修正文本。"
+      }
     },
     {
       "id": "w2-myth-india-samudra-manthan",
@@ -417,7 +435,7 @@
         },
         {
           "id": "f11",
-          "text": "吴哥窟的东回廊有一幅著名的搅海浮雕，长约五十米，画着两队人拉蛇搅海；泰国的素可泰、印度的埃洛拉石窟也有类似题材。图像把抽象的宇宙过程变成可看的力量对抗，往往比文本更强调对称。"
+          "text": "吴哥窟东回廊有一幅搅海浮雕，长约五十米，画着两队人拉蛇搅海；东南亚多地的寺庙与宫殿沿用这个题材，泰国的机场也把它做成巨型雕塑。图像把宇宙过程变成可看的对抗，往往比文本更强调对称。"
         },
         {
           "id": "f12",
@@ -530,7 +548,16 @@
         "H. H. Wilson (tr.), The Vishnu Purana, 1840",
         "Cornelia Dimmitt & J. A. B. van Buitenen, Classical Hindu Mythology: A Reader in the Sanskrit Puranas, Temple University Press, 1978",
         "Maurice Glaize, The Monuments of the Angkor Group, 1944"
-      ]
+      ],
+      "factCheck": {
+        "status": "corrected",
+        "confidence": "high",
+        "batch": "batch-57",
+        "checkedAt": "2026-11-18T02:58:00+08:00",
+        "issueCount": 1,
+        "appliedAt": "2026-11-17T18:46:28.219Z",
+        "summary": "搅海的起因、曼陀罗山与婆苏吉、毒与青颈、十四宝、摩希妮与罗睺均与史诗/往世书传统一致；仅“素可泰、埃洛拉”一例不实，已改为可核查的吴哥与东南亚例证。"
+      }
     },
     {
       "id": "w2-myth-india-ganesha-origins",
@@ -590,7 +617,7 @@
         },
         {
           "id": "f10",
-          "text": "在一些文本里，他是湿婆与帕尔瓦蒂之子，因此与室建陀（战神）是兄弟；在另一些文本里，他被说成是毗湿奴或太阳神的化身。这种可插入多个神系的特性，说明他最初可能是一个地方性的护佑神。"
+          "text": "他与室建陀的兄弟关系在往世书里成立；但“毗湿奴或太阳神化身”的说法缺乏可靠文本依据，学界更强调他原为地方护佑神、后被纳入湿婆家庭。"
         },
         {
           "id": "f11",
@@ -707,7 +734,16 @@
         "Robert L. Brown, Ganesh: Studies of an Asian God, State University of New York Press, 1991",
         "Paul Courtright, Ganesa: Lord of Obstacles, Lord of Beginnings, Oxford University Press, 1985",
         "《摩诃婆罗多》第一篇开篇颂，中国社会科学出版社"
-      ]
+      ],
+      "factCheck": {
+        "status": "corrected",
+        "confidence": "high",
+        "batch": "batch-29",
+        "checkedAt": "2026-11-18T02:55:00+08:00",
+        "issueCount": 1,
+        "appliedAt": "2026-11-17T18:46:28.219Z",
+        "summary": "12条中11条成立。名称与“除障碍者”职能、姜黄膏造男孩的湿婆往世书版本、亲生/造出之别、象头来源诸说、断牙三说、摩诃婆罗多抄录节为后加、鼠骑较晚、四臂法器配置、造像始于笈多、日本欢喜天、往世书长期增补，均与文献相符。唯一问题是把他称作毗湿奴或太阳神的“化身”，缺可靠依据。"
+      }
     },
     {
       "id": "w2-myth-india-ramakien-thai",
@@ -751,11 +787,11 @@
         },
         {
           "id": "f6",
-          "text": "泰国王室把国王比作罗摩的化身，曼谷王朝的正式名称里就含“拉玛”一词；宫廷仪式的许多环节取自《拉玛坚》。史诗因此不只是文学，也是王权合法性的脚本，这一点与印度本地把罗摩当作神的方式不同。"
+          "text": "曼谷王朝的正式名称是却克里王朝，“拉玛”是历任国王的称号而非王朝名；王室确以罗摩自比，宫廷仪式也多取《拉玛坚》，但“正式名称含拉玛”不确切。"
         },
         {
           "id": "f7",
-          "text": "玉佛寺回廊的《拉玛坚》壁画共一百七十八幅，绘于拉玛三世时期，一八八二年又重绘。画面按情节顺序排列，观众沿回廊走一圈，等于读完一遍史诗；壁画把文本、建筑与仪式绑在一起。"
+          "text": "壁画主体绘于拉玛三世时期，约1832年；1882年拉玛五世为建都百年所做的是整修，不是重绘。178幅常指整组回廊画，具体数目各本记载略有出入。"
         },
         {
           "id": "f8",
@@ -884,7 +920,16 @@
         "S. Singaravelu, “The Ramayana in Southeast Asia”, in Many Ramayanas, University of California Press, 1991",
         "曼谷玉佛寺回廊《拉玛坚》壁画，拉玛三世时期绘，一八八二年重绘",
         "P. Schweisguth, Étude sur la littérature siamoise, 1951"
-      ]
+      ],
+      "factCheck": {
+        "status": "corrected",
+        "confidence": "high",
+        "batch": "batch-39",
+        "checkedAt": "2026-11-18T02:38:00+08:00",
+        "issueCount": 2,
+        "appliedAt": "2026-11-17T18:46:28.219Z",
+        "summary": "《拉玛坚》专题的源流、人物与孔剧地位基本准确；两处需修正：1882年是整修而非重绘，以及“拉玛”是王号不是王朝正式名称。"
+      }
     },
     {
       "id": "w2-myth-india-son-tinh-thuy-tinh",
@@ -908,11 +953,11 @@
       "facts": [
         {
           "id": "f1",
-          "text": "《山精水精》最早见于《岭南摭怪》，这是一部用汉文写成的越南传说集，成书年代大约在十四至十五世纪，收录了骆龙君、瓯姬等建国神话。故事在民间另有口传版本，细节与今本不完全一致。"
+          "text": "《山精水精》现存最早的记载是十四世纪的《越甸幽灵》，十五世纪的《岭南摭怪》随后收录；这是一部用汉文写成的越南传说集，也收了骆龙君、瓯姬等建国神话。故事在民间另有口传版本，细节与今本不完全一致。"
         },
         {
           "id": "f2",
-          "text": "雄王十八世有女媚娘，山精与水精同时求婚。雄王要求聘礼：象牙、犀角、龟甲与百种饼，先到者得婚。山精先到，娶走媚娘；水精随后赶到，愤怒地兴起大水，淹没田野，攻打巴维山，却始终攻不上山顶。"
+          "text": "雄王十八世有女媚娘，山精与水精同时求婚。雄王索聘礼：百盘糯米饭、百包粽子、九牙象、九距鸡、九红毛马，先到者得婚。山精先到娶走媚娘，水精来迟，怒起大水攻打巴维山，却攻不上山顶。"
         },
         {
           "id": "f3",
@@ -940,7 +985,7 @@
         },
         {
           "id": "f9",
-          "text": "这个故事被收入越南小学语文课本，成为国民共同记忆。近年在越南网络上，还出现过关于“山精先到就算赢是否公平”的讨论，说明古老叙事仍会被用来讨论当代的公平与性别问题。"
+          "text": "这个故事被收入越南六年级语文课本，成为国民共同记忆。近年在越南网络上，还出现过关于「山精先到就算赢是否公平」的讨论，说明古老叙事仍会被用来讨论当代的公平与性别问题。"
         },
         {
           "id": "f10",
@@ -1061,7 +1106,16 @@
         "Trần Quốc Vượng, Cơ sở văn hóa Việt Nam, Nhà xuất bản Giáo dục, 1995",
         "Keith W. Taylor, The Birth of Vietnam, University of California Press, 1983",
         "Nguyễn Văn Huyên, The Ancient Civilization of Vietnam, 1995"
-      ]
+      ],
+      "factCheck": {
+        "status": "corrected",
+        "confidence": "high",
+        "batch": "batch-50",
+        "checkedAt": "2026-11-18T02:42:00+08:00",
+        "issueCount": 3,
+        "appliedAt": "2026-11-17T18:46:28.219Z",
+        "summary": "九条站得住；最早出处、聘礼清单、课本学段三处与越南通行版本不符。"
+      }
     },
     {
       "id": "w2-geo-cn-climate-rainbelt",
@@ -1234,7 +1288,16 @@
         "丁一汇主编《中国气候》，科学出版社，2013",
         "中国气象局《梅雨监测指标》（QX/T 396—2017）",
         "Ding Yihui & Johnny C. L. Chan, “The East Asian summer monsoon: an overview”, Meteorology and Atmospheric Physics, 2005"
-      ]
+      ],
+      "factCheck": {
+        "status": "verified",
+        "confidence": "high",
+        "batch": "batch-01",
+        "checkedAt": "2026-11-18T02:18:00+08:00",
+        "issueCount": 0,
+        "appliedAt": "2026-11-17T18:46:28.219Z",
+        "summary": "雨带机制、梅雨指标、2020年超长梅雨与城市内涝成因均可核实，未发现需要修正的硬错误。"
+      }
     },
     {
       "id": "w2-geo-cn-climate-typhoon",
@@ -1270,7 +1333,7 @@
         },
         {
           "id": "f4",
-          "text": "台风路径主要受副热带高压引导：副高西侧气流把台风往西北推，副高强盛时台风西行登陆华南，副高东退时台风转向北上。路径预报误差每十年缩小约一半，但二十四小时误差仍有几十到上百公里。"
+          "text": "台风路径主要受副热带高压引导：副高西侧气流把台风往西北推，强盛时台风西行登陆华南，东退时转向北上。路径预报误差每年约缩小百分之三到四，二十四小时误差仍有几十到上百公里。"
         },
         {
           "id": "f5",
@@ -1407,7 +1470,16 @@
         "陈联寿、丁一汇《西太平洋台风概论》，科学出版社，1979",
         "中国气象局《热带气旋等级》（GB/T 19201—2006）",
         "Kerry Emanuel, “Increasing destructiveness of tropical cyclones over the past 30 years”, Nature, 2005"
-      ]
+      ],
+      "factCheck": {
+        "status": "corrected",
+        "confidence": "high",
+        "batch": "batch-47",
+        "checkedAt": "2026-11-18T02:54:00+08:00",
+        "issueCount": 1,
+        "appliedAt": "2026-11-17T18:46:28.219Z",
+        "summary": "台风结构与灾害机制无误，仅路径预报误差的下降速度被夸大。"
+      }
     },
     {
       "id": "w2-geo-cn-climate-red-soil",
@@ -1431,7 +1503,7 @@
       "facts": [
         {
           "id": "f1",
-          "text": "红壤系列包括红壤、黄壤与砖红壤，主要分布于北纬二十五度以南的亚热带与热带地区，覆盖江西、湖南、福建、广东、广西、云南、浙江等省区，总面积约两百万平方公里，是中国面积最大的一类土壤。"
+          "text": "红壤系列包括红壤、黄壤与砖红壤，主要分布于北纬三十度以南的亚热带与热带地区，覆盖江西、湖南、福建、广东、广西、云南、浙江等省区，总面积约两百万平方公里，是中国面积最大的一类土壤。"
         },
         {
           "id": "f2",
@@ -1580,7 +1652,16 @@
         "赵其国主编《中国红壤》，科学出版社，1983",
         "龚子同主编《中国土壤系统分类》，科学出版社，1999",
         "中国科学院千烟洲红壤丘陵综合开发试验站长期定位研究资料"
-      ]
+      ],
+      "factCheck": {
+        "status": "corrected",
+        "confidence": "high",
+        "batch": "batch-02",
+        "checkedAt": "2026-11-18T02:45:00+08:00",
+        "issueCount": 1,
+        "appliedAt": "2026-11-17T18:46:28.219Z",
+        "summary": "仅分布界线一条偏南（二十五度应为三十度左右），其余成土过程、酸化与改良叙述均成立。"
+      }
     },
     {
       "id": "w2-geo-cn-climate-plateau-heat",
@@ -1612,7 +1693,7 @@
         },
         {
           "id": "f3",
-          "text": "夏季高原地面强烈加热，近地面空气受热膨胀上升，形成薄而强的热低压。这个低压叠加在印度低压之上，使亚洲南部低层出现一个深厚的低压区，海洋水汽因此被吸引向大陆。"
+          "text": "夏季高原地面强烈加热，近地面空气受热膨胀上升，形成薄而强的热低压。这个低压叠加在印度低压之上，使亚洲南部低层出现一个范围广、强度大的低压区，海洋水汽因此被吸引向大陆。"
         },
         {
           "id": "f4",
@@ -1753,7 +1834,16 @@
         "叶笃正、高由禧《青藏高原气象学》，科学出版社，1979",
         "Wu Guoxiong & Zhang Yongsheng, “Tibetan Plateau forcing and the timing of the monsoon onset over South Asia and the South China Sea”, Monthly Weather Review, 1998",
         "Wu Guoxiong et al., “The influence of mechanical and thermal forcing by the Tibetan Plateau on Asian climate”, Journal of Hydrometeorology, 2007"
-      ]
+      ],
+      "factCheck": {
+        "status": "corrected",
+        "confidence": "high",
+        "batch": "batch-46",
+        "checkedAt": null,
+        "issueCount": 1,
+        "appliedAt": "2026-11-17T18:46:28.219Z",
+        "summary": "高原专题的物理图像整体可靠：感热与潜热、南亚高压、西风分支、冷源与数值试验均与教科书及研究文献一致；仅 f3 把浅薄的高原热低压写成“深厚”的低压区，已修正。"
+      }
     }
   ]
 }

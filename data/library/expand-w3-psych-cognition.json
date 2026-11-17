@@ -49,7 +49,7 @@
         },
         {
           "id": "f8",
-          "text": "失调也有神经层面的线索。伊祖马等人二〇〇八年的研究发现，当人做出选择并需要向他人表达时，与冲突监测和奖赏相关的脑区活动，能预测之后态度的改变幅度。"
+          "text": "伊祖马等人二〇一〇年的脑成像研究发现，人在两个同样喜欢的选项间做出选择后，前扣带皮层与背外侧前额叶的活动会随失调程度变化，纹状体的活动也跟着偏好一起改变。"
         },
         {
           "id": "f9",
@@ -61,7 +61,7 @@
         },
         {
           "id": "f11",
-          "text": "失调的强度取决于几个条件：行为是否自愿、后果是否可预见、是否造成了伤害、有没有旁观者。被强迫做的、无法预见的、没造成实际后果的事，通常不会留下多少失调，也不需要事后修补。"
+          "text": "失调的强度取决于几个条件：行为是否出于自愿、后果是否可预见、是否造成了自己不想要的伤害。旁观者在不在场并不是关键；没人看见的时候，人照样会替自己的选择找理由。"
         },
         {
           "id": "f12",
@@ -178,7 +178,16 @@
         "Brehm, J. W. (1956). Postdecision changes in the desirability of alternatives. Journal of Abnormal and Social Psychology",
         "Heine, S. J., & Lehman, D. R. (1997). Culture, dissonance, and self-affirmation. Personality and Social Psychology Bulletin"
       ],
-      "difficulty": "high-school"
+      "difficulty": "high-school",
+      "factCheck": {
+        "status": "corrected",
+        "confidence": "high",
+        "batch": "batch-42",
+        "checkedAt": "2026-11-18T02:56:00+08:00",
+        "issueCount": 2,
+        "appliedAt": "2026-11-17T18:46:28.245Z",
+        "summary": "八条机制性叙述站得住，一处年份与实验内容张冠李戴（Izuma 应为 2010 年 PNAS），一处把“旁观者”误列为失调强度的条件并与本篇另一段自相矛盾，其余按原样可用。"
+      }
     },
     {
       "id": "w3-psych-confirmation-bias",
@@ -359,7 +368,16 @@
         "Nickerson, R. S. (1998). Confirmation bias: A ubiquitous phenomenon in many guises. Review of General Psychology",
         "Lord, C. G., Ross, L., & Lepper, M. R. (1979). Biased assimilation and attitude polarization. Journal of Personality and Social Psychology"
       ],
-      "difficulty": "high-school"
+      "difficulty": "high-school",
+      "factCheck": {
+        "status": "verified",
+        "confidence": "high",
+        "batch": "batch-22",
+        "checkedAt": "2026-11-18T02:36:00+08:00",
+        "issueCount": 0,
+        "appliedAt": "2026-11-17T18:46:28.245Z",
+        "summary": "确认偏误的经典实验、年份与综述引述准确，未发现硬错误。"
+      }
     },
     {
       "id": "w3-psych-availability-heuristic",
@@ -418,7 +436,7 @@
         },
         {
           "id": "f10",
-          "text": "它不是纯粹的缺陷。在信息稀缺、需要快速判断的环境里，依赖“最近见过什么”比什么都不依赖要好。在熟人社会里这个启发式几乎总是对的；它出错的地方，是样本被报道和偶然事件重新洗过的场景。"
+          "text": "它不是纯粹的缺陷。信息稀缺、要快速判断时，依赖“最近见过什么”比什么都不依赖好。在变化缓慢的熟人社会里，它多数时候够用；出错的地方，是样本被报道和偶然事件重新洗过的场景。"
         },
         {
           "id": "f11",
@@ -536,7 +554,16 @@
         "Schwarz, N., Bless, H., Strack, F., et al. (1991). Ease of retrieval as information. Journal of Personality and Social Psychology",
         "Kuran, T., & Sunstein, C. R. (1999). Availability cascades and risk regulation. Stanford Law Review"
       ],
-      "difficulty": "high-school"
+      "difficulty": "high-school",
+      "factCheck": {
+        "status": "corrected",
+        "confidence": "medium",
+        "batch": "batch-54",
+        "checkedAt": "2026-11-18T02:47:00+08:00",
+        "issueCount": 1,
+        "appliedAt": "2026-11-17T18:46:28.245Z",
+        "summary": "可用性启发的提出、字母实验、媒体覆盖与风险判断、易得性实验与级联理论均有可靠文献支撑；仅结尾把该启发式在熟人社会中的作用说成“几乎总是对的”，属绝对化表述，已按原始论文的限定改写。"
+      }
     },
     {
       "id": "w3-psych-anchoring",
@@ -591,7 +618,7 @@
         },
         {
           "id": "f9",
-          "text": "锚定不是万能的。当锚明显荒谬、当人受到提醒、当判断涉及非常熟悉的领域时，效应会减弱。熟悉的领域里，人自带参照，锚不容易生根。越熟悉，人越有自己的尺子，越不依赖别人给的起点。"
+          "text": "锚定不是万能的。锚明显荒谬或受到提醒时，效应会减弱；但专业经验并不能可靠地关掉它，法官、房产经纪人同样会受影响。熟悉的领域里，人只是多了一把尺子，锚仍可能从别处进来。"
         },
         {
           "id": "f10",
@@ -713,7 +740,16 @@
         "Mussweiler, T., & Strack, F. (1999). Hypothesis-consistent testing and semantic priming in the anchoring paradigm. Journal of Experimental Social Psychology",
         "Englich, B., Mussweiler, T., & Strack, F. (2006). Playing dice with criminal sentences. Personality and Social Psychology Bulletin"
       ],
-      "difficulty": "high-school"
+      "difficulty": "high-school",
+      "factCheck": {
+        "status": "corrected",
+        "confidence": "high",
+        "batch": "batch-15",
+        "checkedAt": "2026-11-18T02:45:00+08:00",
+        "issueCount": 2,
+        "appliedAt": "2026-11-17T18:46:28.245Z",
+        "summary": "锚定-调整、选择性通达、精确锚与法官实验都站得住；群体放大锚缺实证，熟悉领域减弱锚定与法官研究矛盾。"
+      }
     },
     {
       "id": "w3-psych-loss-aversion",
@@ -757,7 +793,7 @@
         },
         {
           "id": "f6",
-          "text": "不是所有损失都一样重。自己选的、能预见的、一次性的损失，比被迫的、意外的、反复发生的损失更容易被接受；反过来，反复的小损失累积起来，痛感会超过一次大损失。"
+          "text": "不是所有损失都一样重。损失厌恶的强弱随情境变化：自己选的、能预见的损失，通常比被迫的、意外的更容易接受；反复的小损失若分开来感受，累加起来也可能超过一次同样总额的大损失。"
         },
         {
           "id": "f7",
@@ -891,7 +927,16 @@
         "Thaler, R. H. (1980). Toward a Positive Theory of Consumer Choice. Journal of Economic Behavior & Organization, 1(1), 39–60.",
         "Brown, A. L., Imai, T., Vieider, F. M., & Camerer, C. F. (2024). Meta-analysis of Empirical Estimates of Loss Aversion. Journal of Economic Literature, 62(2), 485–516.",
         "卡尼曼《思考，快与慢》，中信出版社，2012 年。"
-      ]
+      ],
+      "factCheck": {
+        "status": "corrected",
+        "confidence": "high",
+        "batch": "batch-23",
+        "checkedAt": "2026-11-18T02:41:00+08:00",
+        "issueCount": 1,
+        "appliedAt": "2026-11-17T18:46:28.245Z",
+        "summary": "前景理论、参照点、元分析数字都精确；只有“哪类损失更痛”的排序被写得比证据更整齐，已补上条件与限定。"
+      }
     },
     {
       "id": "w3-psych-cognitive-reappraisal",
@@ -1065,7 +1110,16 @@
         "Gross, J. J., & John, O. P. (2003). Individual differences in two emotion regulation processes. Journal of Personality and Social Psychology, 85(2), 348–362.",
         "Kross, E., & Ayduk, O. (2011). Making meaning out of negative experiences by self-distancing. Current Directions in Psychological Science, 20(3), 187–191.",
         "Webb, T. L., Miles, E., & Sheeran, P. (2012). Dealing with feeling: A meta-analysis of the effectiveness of strategies derived from the process model of emotion regulation. Psychological Bulletin, 138(4), 775–808."
-      ]
+      ],
+      "factCheck": {
+        "status": "verified",
+        "confidence": "medium",
+        "batch": "batch-21",
+        "checkedAt": "2026-11-18T02:18:50+08:00",
+        "issueCount": 0,
+        "appliedAt": "2026-11-17T18:46:28.245Z",
+        "summary": "Gross 1998/2003、Sheppes 2011 与自我抽离研究均与正文一致，未见需要修正的硬错误。"
+      }
     },
     {
       "id": "w3-psych-expressive-suppression",
@@ -1101,7 +1155,7 @@
         },
         {
           "id": "f4",
-          "text": "记忆也会受影响。抑制需要持续监控自己的表情，占用注意力，正在发生的事就记不牢；同样的影片，重评组事后记得的细节比重评组之外的人更多。"
+          "text": "记忆也会受影响。抑制需要持续监控自己的表情，还要压住手势与语气，占用注意力，正在发生的事就记不牢；看同样的影片，抑制组事后记得的细节比重评组更少。"
         },
         {
           "id": "f5",
@@ -1129,7 +1183,7 @@
         },
         {
           "id": "f11",
-          "text": "身体会先报警。长期压住的人常有睡眠浅、肩颈紧、胃口变化；这些不是“想太多”，而是需要被当成信号看待，必要时该去看医生而不是继续忍。忍过去不是处理，只是把它延后。"
+          "text": "身体会先报警。长期压住情绪的人常报告各种躯体不适与睡眠问题；这些不是“想太多”，而是压力信号，持续存在时该去看医生，而不是继续忍。忍过去不是处理，只是把它延后。"
         },
         {
           "id": "f12",
@@ -1239,7 +1293,16 @@
         "Butler, E. A., Egloff, B., Wilhelm, F. H., Smith, N. C., Erickson, E. A., & Gross, J. J. (2003). The social consequences of expressive suppression. Emotion, 3(1), 48–67.",
         "Srivastava, S., Tamir, M., McGonigal, K. M., John, O. P., & Gross, J. J. (2009). The social costs of emotional suppression. Journal of Personality and Social Psychology, 96(4), 883–897.",
         "Grandey, A. A. (2000). Emotional regulation in the workplace: A new way to conceptualize emotional labor. Journal of Occupational Health Psychology, 5(1), 95–110."
-      ]
+      ],
+      "factCheck": {
+        "status": "corrected",
+        "confidence": "high",
+        "batch": "batch-62",
+        "checkedAt": "2026-11-18T03:08:00+08:00",
+        "issueCount": 2,
+        "appliedAt": "2026-11-17T18:46:28.245Z",
+        "summary": "12条中10条与 Gross 系列实验及综述一致；f4比较句自相矛盾且方向与实验结果相反，f11症状清单缺乏来源，均已修正，其余保留。"
+      }
     },
     {
       "id": "w3-psych-shame-guilt",
@@ -1413,7 +1476,16 @@
         "Tangney, J. P., Stuewig, J., & Mashek, D. J. (2007). Moral emotions and moral behavior. Annual Review of Psychology, 58, 345–372.",
         "Dickerson, S. S., & Kemeny, M. E. (2004). Acute stressors and cortisol responses: A theoretical integration and synthesis of laboratory research. Psychological Bulletin, 130(3), 355–391.",
         "Lewis, M. (1971). Shame and guilt in neurosis. Psychoanalytic Review, 58(3), 419–438."
-      ]
+      ],
+      "factCheck": {
+        "status": "verified",
+        "confidence": "medium",
+        "batch": "batch-58",
+        "checkedAt": "2026-11-18T03:12:00+08:00",
+        "issueCount": 0,
+        "appliedAt": "2026-11-17T18:46:28.245Z",
+        "summary": "12条均可由羞耻/内疚研究的综述与元分析支撑，方向、机制与相关关系表述准确；仅f4有一处重复句需编辑处理。"
+      }
     },
     {
       "id": "w3-psych-empathy-accuracy",
@@ -1441,7 +1513,7 @@
         },
         {
           "id": "f2",
-          "text": "艾克斯一九九三年的研究让刚认识的两个人对话，再由旁观者逐句判断说话人此刻的想法。结果准确率高于随机，但远谈不上读心；更关键的是，当事人自评的准确度与实测准确度几乎不相关。"
+          "text": "艾克斯的研究让刚认识的两人对话，事后各自回看录像、逐句写下当时所想，再由评分者比对猜中多少。结果准确率高于随机，远谈不上读心；更关键的是，当事人自评的准确度与实测准确度几乎不相关。"
         },
         {
           "id": "f3",
@@ -1586,7 +1658,16 @@
         "Ickes, W. (1993). Empathic accuracy. Journal of Personality, 61(4), 587–610.",
         "Eyal, T., Steffel, M., & Epley, N. (2018). Perspective mistaking: Accurately understanding the mind of another requires getting perspective, not taking perspective. Journal of Personality and Social Psychology, 114(4), 547–571.",
         "Barrett, L. F., Mesquita, B., & Gendron, M. (2011). Context in emotion perception. Current Directions in Psychological Science, 20(5), 286–290."
-      ]
+      ],
+      "factCheck": {
+        "status": "corrected",
+        "confidence": "high",
+        "batch": "batch-59",
+        "checkedAt": "2026-11-18T03:02:00+08:00",
+        "issueCount": 1,
+        "appliedAt": "2026-11-17T18:46:28.245Z",
+        "summary": "共情准确度的两位核心作者与两项核心研究（Ickes 1993、Eyal 等 2018）均可核，自信与准确脱节、换位思考不等于更准这两条也有文献支撑；需改的是 f2 对艾克斯范式的方法描述，把「旁观者判断」改回「当事人自述＋评分者比对」。"
+      }
     },
     {
       "id": "w3-psych-mindfulness-evidence",
@@ -1764,7 +1845,16 @@
         "Kuyken, W., Ball, S., Crane, C., et al. (2022). Effectiveness and cost-effectiveness of universal school-based mindfulness training compared with normal school provision (MYRIAD). Evidence-Based Mental Health, 25(1), 1–9.",
         "Kabat-Zinn, J. (1990). Full Catastrophe Living. Delacorte Press.",
         "Teasdale, J. D., Segal, Z. V., Williams, J. M. G., et al. (2000). Prevention of relapse/recurrence in major depression by mindfulness-based cognitive therapy. Journal of Consulting and Clinical Psychology, 68(4), 615–623."
-      ]
+      ],
+      "factCheck": {
+        "status": "verified",
+        "confidence": "high",
+        "batch": "batch-24",
+        "checkedAt": "2026-11-18T02:25:00+08:00",
+        "issueCount": 0,
+        "appliedAt": "2026-11-17T18:46:28.245Z",
+        "summary": "47 项试验、84 所学校、8,376 名学生等数字与主要结论均对得上；其余为与证据方向一致的概括。"
+      }
     },
     {
       "id": "w3-psych-sleep-mood",
@@ -1938,7 +2028,16 @@
         "Walker, M. P., & van der Helm, E. (2009). Overnight therapy? The role of sleep in emotional brain processing. Psychological Bulletin, 135(5), 731–748.",
         "Van Dongen, H. P. A., Maislin, G., Mullington, J. M., & Dinges, D. F. (2003). The cumulative cost of additional wakefulness. Sleep, 26(2), 117–126.",
         "Walker, M. P. (2017). Why We Sleep. Scribner."
-      ]
+      ],
+      "factCheck": {
+        "status": "verified",
+        "confidence": "medium",
+        "batch": "batch-25",
+        "checkedAt": "2026-11-18T02:47:00+08:00",
+        "issueCount": 0,
+        "appliedAt": "2026-11-17T18:46:28.245Z",
+        "summary": "睡眠剥夺增强杏仁核反应、削弱前额叶调控，以及情绪解读偏移、周末补觉不足、酒精与咖啡因影响睡眠等断言均有研究支持；属综述与机制解释的部分置信度中等。"
+      }
     },
     {
       "id": "w3-psych-exercise-mood",
@@ -2112,7 +2211,16 @@
         "Cooney, G. M., Dwan, K., Greig, C. A., et al. (2013). Exercise for depression. Cochrane Database of Systematic Reviews, 9, CD004366.",
         "Ratey, J. J. (2008). Spark: The Revolutionary New Science of Exercise and the Brain. Little, Brown.",
         "Raichlen, D. A., & Alexander, G. E. (2017). Adaptive capacity: An evolutionary neuroscience model linking exercise, cognition, and brain health. Trends in Neurosciences, 40(7), 408–421."
-      ]
+      ],
+      "factCheck": {
+        "status": "verified",
+        "confidence": "high",
+        "batch": "batch-17",
+        "checkedAt": "2026-11-18T02:20:00+08:00",
+        "issueCount": 0,
+        "appliedAt": "2026-11-17T18:46:28.245Z",
+        "summary": "12条均可核实：Noetel等2024年BMJ系统综述与网络荟萃分析纳入218项RCT、495个臂、14,170人，步行/慢跑与瑜伽效应最大，效果随处方强度上升，但证据确定性多为低或极低。"
+      }
     }
   ]
 }

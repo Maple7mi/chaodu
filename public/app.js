@@ -15,6 +15,7 @@ const state = {
   route: { name: 'today', id: null, date: null },
   article: null,
   archive: { query: '', category: '', feedback: '', page: 1, data: null },
+  factcheck: { query: '', status: 'all', page: 1, data: null },
   stats: null,
   submitting: false,
   countdownTimer: null,
@@ -154,6 +155,26 @@ function statusMark(a) {
   if (fb?.action === 'known' || fb?.action === 'dislike') return '待评';
   if (a.read) return '待评';
   return '→';
+}
+
+function factBadge(a) {
+  const fc = a.factCheck;
+  if (!fc) return '';
+  return `<a class="fc-badge is-${esc(fc.tone || 'muted')}" href="#/factcheck/${encodeURIComponent(a.dossierId)}" title="查看这篇的核查记录">事实核查 · ${esc(fc.statusLabel)}</a>`;
+}
+
+function factcheckPanel(a) {
+  const fc = a.factCheck;
+  if (!fc) return '';
+  return `
+    <section class="factcheck-note is-${esc(fc.tone || 'muted')}">
+      <div class="fc-note-head">
+        <span class="fc-badge is-${esc(fc.tone || 'muted')}">事实核查 · ${esc(fc.statusLabel)}</span>
+        <span>${fc.issueCount ? `${fc.issueCount} 条记录` : '未发现需修正的断言'}${fc.confidence ? ` · ${fc.confidence === 'high' ? '高置信' : fc.confidence === 'low' ? '低置信' : '中置信'}` : ''}</span>
+      </div>
+      <p>${esc(fc.summary || '这篇的每条 fact 都已进入全库核查账本。')}</p>
+      <a href="#/factcheck/${encodeURIComponent(a.dossierId)}">查看核查记录与证据 →</a>
+    </section>`;
 }
 
 function articleRow(a) {
@@ -435,6 +456,7 @@ function renderArticle(data) {
       <article class="reader">
         <header class="reader-head">
           <span class="cat-label ${catClass(a.category)}">${esc(catText(a))}</span>
+          ${factBadge(a)}
           <h1>${esc(a.title)}</h1>
           <p class="reader-dek">${esc(a.dek)}</p>
           <div class="reader-meta">
@@ -446,6 +468,7 @@ function renderArticle(data) {
         </header>
         <div class="reader-body">${paras}</div>
         ${a.aside ? `<aside class="misconception"><div class="kicker">常见误解</div><p>${esc(a.aside)}</p></aside>` : ''}
+        ${factcheckPanel(a)}
         ${terms}
         ${sources}
         <div class="reader-end">— 完 —</div>
@@ -817,6 +840,177 @@ async function routeStats() {
   }
 }
 
+/* ---------------- factcheck ---------------- */
+
+const FC_STATUS = [
+  ['all', '全部'],
+  ['verified', '已核实'],
+  ['corrected', '有修正'],
+  ['disputed', '有争议'],
+  ['unverifiable', '待核实'],
+];
+
+function fcTone(status) {
+  return status === 'verified' ? 'ok' : status === 'corrected' ? 'warn' : status === 'disputed' ? 'alert' : 'muted';
+}
+
+function fcStatusLabel(status) {
+  return FC_STATUS.find(([v]) => v === status)?.[1] || status;
+}
+
+function factcheckShell(summary) {
+  const t = summary?.totals;
+  const total = t?.checkedDossiers || 0;
+  const count = (k) => t?.[k] || 0;
+  return `
+    <div class="page page-factcheck">
+      <header class="page-head">
+        <div class="kicker">核查</div>
+        <h1>每句话，都查过</h1>
+        <p>全库 ${t?.expectedDossiers || 512} 个专题、${t?.expectedFacts || 6053} 条 facts，逐条进入核查账本。关键断言（年份、数字、专名、研究结论）联网取证；找不到可靠来源的，不写成肯定句。</p>
+      </header>
+      <div class="fc-summary">
+        <div class="fc-stat is-ok"><span>已核实</span><strong>${count('verified')}</strong></div>
+        <div class="fc-stat is-warn"><span>有修正</span><strong>${count('corrected')}</strong></div>
+        <div class="fc-stat is-alert"><span>有争议</span><strong>${count('disputed')}</strong></div>
+        <div class="fc-stat is-muted"><span>待核实</span><strong>${count('unverifiable')}</strong></div>
+        <div class="fc-stat"><span>覆盖</span><strong>${total}<small> / ${t?.expectedDossiers || 512}</small></strong></div>
+      </div>
+      <div class="fc-method">
+        <strong>怎么查的</strong>
+        <p>${esc(summary?.method || '每条 fact 单独判定；专题书目只作线索，不自动等于来源支持。')} 修正建议经复核后才写入内容库；未解决的条目保留“有争议/待核实”，不冒充已核实。</p>
+      </div>
+      <div class="archive-tools fc-tools">
+        <div class="search-box">
+          <input id="fc-search" type="search" placeholder="搜专题 id 或结论……" autocomplete="off" value="${esc(state.factcheck.query)}">
+        </div>
+        <div class="filters" aria-label="核查状态筛选">
+          ${FC_STATUS.map(([v, t2]) => `<button class="filter-btn ${state.factcheck.status === v ? 'is-active' : ''}" data-fc-status="${v}">${t2}</button>`).join('')}
+        </div>
+        <span class="archive-total" id="fc-total">—</span>
+      </div>
+      <div class="fc-list" id="fc-list"><div class="empty-state"><p>正在翻账本……</p></div></div>
+      <div class="pager" id="fc-pager"></div>
+    </div>`;
+}
+
+function factcheckItem(it) {
+  const tone = it.tone || fcTone(it.status);
+  return `
+    <a class="fc-item" href="#/factcheck/${encodeURIComponent(it.id)}">
+      <span class="fc-item-status is-${tone}">${esc(it.statusLabel || fcStatusLabel(it.status))}</span>
+      <span class="fc-item-main">
+        <strong>${esc(it.title || it.id)}</strong>
+        <small>${esc(it.id)} · ${esc(it.confidence || 'medium')} 置信</small>
+        <span>${esc(it.summary || '这条专题已进入核查账本。')}</span>
+      </span>
+      <span class="fc-item-count">${it.issueCount ? `${it.issueCount} 条记录` : '无待改'}</span>
+    </a>`;
+}
+
+function renderFactcheckPager(data) {
+  const el = document.getElementById('fc-pager');
+  if (!el) return;
+  if (!data.pages || data.pages <= 1) { el.innerHTML = ''; return; }
+  el.innerHTML = `
+    <button data-fc-page="${data.page - 1}" ${data.page <= 1 ? 'disabled' : ''} aria-label="上一页">←</button>
+    <span>${data.page} / ${data.pages}</span>
+    <button data-fc-page="${data.page + 1}" ${data.page >= data.pages ? 'disabled' : ''} aria-label="下一页">→</button>`;
+}
+
+async function loadFactcheck(page = 1) {
+  state.factcheck.page = page;
+  const q = new URLSearchParams({
+    status: state.factcheck.status,
+    query: state.factcheck.query,
+    page: String(page),
+    pageSize: '24',
+  });
+  const list = document.getElementById('fc-list');
+  try {
+    const data = await api(`/api/factcheck?${q}`);
+    state.factcheck.data = data;
+    const total = document.getElementById('fc-total');
+    if (total) total.textContent = `共 ${data.list.total} 个专题`;
+    if (!list) return;
+    list.innerHTML = data.list.items.length
+      ? data.list.items.map(factcheckItem).join('')
+      : `<div class="empty-state"><h2>这个筛选下还没有记录</h2><p>换个状态看看，或者 <a class="side-link" href="#/factcheck">查看全部</a>。</p></div>`;
+    renderFactcheckPager(data.list);
+  } catch (e) {
+    if (list) list.innerHTML = `<div class="empty-state"><p>${esc(e.message)}</p></div>`;
+  }
+}
+
+async function routeFactcheck(id = null) {
+  setActiveNav('factcheck');
+  stopCountdown();
+  bodyReader(false);
+  if (id) {
+    app.innerHTML = `<div class="empty-state"><p>正在翻核查记录……</p></div>`;
+    try {
+      const d = await api(`/api/factcheck/${encodeURIComponent(id)}`);
+      const issues = d.issues || [];
+      const detail = issues.length
+        ? issues.map((i) => `
+          <div class="fc-issue">
+            <div class="fc-issue-head"><span>${esc(i.factId)}</span><strong>${esc(i.severity || 'minor')} · ${esc(i.verdict || '')}</strong></div>
+            <p class="fc-claim">原句：${esc(i.claim || '')}</p>
+            <p>${esc(i.problem || '')}</p>
+            ${i.correction ? `<p class="fc-correction">建议改为：${esc(i.correction)}</p>` : ''}
+            ${(i.evidence || []).map((e) => `<a class="fc-evidence" href="${esc(e.url)}" target="_blank" rel="noreferrer">${esc(e.title || e.url)}</a>`).join('')}
+          </div>`).join('')
+        : `<div class="fc-empty">没有发现需要修正的断言。</div>`;
+      app.innerHTML = `
+        <div class="page page-factcheck">
+          <div class="reader-toolbar">
+            <a class="back" href="#/factcheck">← 核查账本</a>
+            <span>${esc(d.id)}</span>
+          </div>
+          <header class="page-head fc-detail-head">
+            <div class="kicker">核查记录</div>
+            <h1>${esc(d.title || d.id)}</h1>
+            <p>${esc(d.summary || '这个专题已进入全库核查账本。')}</p>
+            <div class="reader-meta">
+              <span class="fc-badge is-${esc(fcTone(d.status))}">${esc(fcStatusLabel(d.status))}</span>
+              <span>${esc(d.confidence || 'medium')} 置信</span>
+              <span>${d.issueCount || 0} 条记录</span>
+              ${d.checkedAt ? `<span>${esc(String(d.checkedAt).slice(0, 10))}</span>` : ''}
+            </div>
+          </header>
+          <div class="fc-detail-meta">
+            <span>逐条判定：支持 ${d.verdicts?.supported || 0}</span>
+            <span>不精确 ${d.verdicts?.imprecise || 0}</span>
+            <span>错误 ${d.verdicts?.wrong || 0}</span>
+            <span>无来源 ${d.verdicts?.unsupported || 0}</span>
+            <span>待核实 ${d.verdicts?.unverifiable || 0}</span>
+          </div>
+          ${(d.sourceNotes || []).length ? `<div class="fc-source-notes"><strong>来源与边界</strong><ul>${d.sourceNotes.map((n) => `<li>${esc(n)}</li>`).join('')}</ul></div>` : ''}
+          <div class="fc-issues">${detail}</div>
+        </div>`;
+      window.scrollTo({ top: 0, behavior: 'instant' });
+    } catch (e) {
+      renderError(e);
+    }
+    return;
+  }
+  state.factcheck = { query: '', status: 'all', page: 1, data: null };
+  let summary = null;
+  try { summary = (await api('/api/factcheck')).summary; } catch { /* page still renders */ }
+  app.innerHTML = factcheckShell(summary);
+  window.scrollTo({ top: 0, behavior: 'instant' });
+  loadFactcheck(1);
+  const input = document.getElementById('fc-search');
+  let timer = null;
+  input?.addEventListener('input', () => {
+    clearTimeout(timer);
+    timer = setTimeout(() => {
+      state.factcheck.query = input.value.trim();
+      loadFactcheck(1);
+    }, 260);
+  });
+}
+
 /* ---------------- router ---------------- */
 
 function parseHash() {
@@ -826,6 +1020,7 @@ function parseHash() {
   if (parts[0] === 'issue' && parts[1]) return { name: 'issue', date: parts[1] };
   if (parts[0] === 'archive') return { name: 'archive' };
   if (parts[0] === 'stats') return { name: 'stats' };
+  if (parts[0] === 'factcheck') return { name: 'factcheck', id: parts[1] ? decodeURIComponent(parts[1]) : null };
   return { name: 'today' };
 }
 
@@ -839,6 +1034,7 @@ async function route() {
     else if (parsed.name === 'issue') await routeIssue(parsed.date);
     else if (parsed.name === 'archive') await routeArchive();
     else if (parsed.name === 'stats') await routeStats();
+    else if (parsed.name === 'factcheck') await routeFactcheck(parsed.id);
     else await routeToday();
   } catch (e) {
     if (seq === state.routeSeq) renderError(e);
@@ -880,6 +1076,22 @@ app.addEventListener('click', (e) => {
   if (page && !page.disabled) {
     e.preventDefault();
     loadArchive(Number(page.dataset.page));
+    return;
+  }
+  const fcStatus = e.target.closest('[data-fc-status]');
+  if (fcStatus) {
+    e.preventDefault();
+    state.factcheck.status = fcStatus.dataset.fcStatus;
+    document.querySelectorAll('[data-fc-status]').forEach((el) => {
+      el.classList.toggle('is-active', el.dataset.fcStatus === state.factcheck.status);
+    });
+    loadFactcheck(1);
+    return;
+  }
+  const fcPage = e.target.closest('[data-fc-page]');
+  if (fcPage && !fcPage.disabled) {
+    e.preventDefault();
+    loadFactcheck(Number(fcPage.dataset.fcPage));
   }
 });
 

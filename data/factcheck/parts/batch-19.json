@@ -1,0 +1,286 @@
+{
+  "batch": "batch-19",
+  "checkedAt": "2026-11-18T02:32:00+08:00",
+  "dossiers": [
+    {
+      "id": "w4-wh-regions-cuban-revolution",
+      "status": "verified",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "medium"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "medium"},
+        {"id": "f10", "verdict": "supported", "confidence": "high"},
+        {"id": "f11", "verdict": "supported", "confidence": "high"},
+        {"id": "f12", "verdict": "supported", "confidence": "high"}
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "f2/f3: BBC Mundo 回溯格拉玛号：1956年11月25日出发、12月2日登陆，82人，21人重新集结；https://www.bbc.com/mundo/noticias-america-latina-38119128",
+        "f7: Granma 载1959年土地改革上限30 caballerías（约402公顷）；https://www.granma.cu/granmad/secciones/galerias/galeria18/foto3.htm",
+        "f7: 纽约时报1960年7月10日报道美国削减古巴糖配额；https://www.nytimes.com/1960/07/10/archives/us-vs-cuba-washington-acts-slash-of-sugar-quota-marks-end-of-the.html",
+        "f10: 古巴官方纪念1961年扫盲运动，约70.7万人脱盲；https://www.fidelcastro.cu/en/noticia/cuba-recalls-educational-achievements-1961-literacy-campaign",
+        "f11: 1989—1993年古巴GDP下降约35%、进口下降约75%；https://www.taylorfrancis.com/chapters/mono/10.4324/9780203946121-7/cuban-democracy-act-putting-hammer-fidel-castro-jessica-gibbs",
+        "f9: 美苏谈判将卡斯特罗排除在外；美国的不入侵承诺系对苏联的口头保证，古巴未获正式安全保障；https://apps.dtic.mil/sti/tr/pdf/AD1112170.pdf",
+        "f12: 2016年3月奥巴马访问古巴；http://global.chinadaily.com.cn/kindle/2016-03/21/content_23992731.htm"
+      ],
+      "summary": "12条均可核实：蒙卡达、格拉玛号、土地改革、糖配额、吉隆滩、导弹危机与特殊时期的时间与数字与史料一致；导弹危机一条按“古巴未获正式安全保障”判为可用。"
+    },
+    {
+      "id": "world-geo-baikal",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "imprecise", "confidence": "high", "issue": "issue-01"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "medium"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "imprecise", "confidence": "high", "issue": "issue-02"},
+        {"id": "f10", "verdict": "supported", "confidence": "high"},
+        {"id": "f11", "verdict": "supported", "confidence": "high"}
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f4",
+          "severity": "minor",
+          "verdict": "imprecise",
+          "claim": "湖水透明度可达40米，因为悬浮颗粒少、生物量低，加上端足类等动物持续滤食",
+          "problem": "把主要滤食者写成端足类不准确。贝加尔湖的清澈主要靠特有桡足类剑水蚤（Epischura baicalensis）滤食浮游藻类与细菌；端足类多为底栖碎屑食性，不是水体澄清的主要作用者。",
+          "correction": "湖水透明度可达40米，源于悬浮颗粒少、生物量低，以及特有桡足类剑水蚤（Epischura baicalensis）持续滤食浮游藻类与细菌；端足类多为底栖碎屑食性，并非主要滤食者。清澈使光线可达较深水层，冰下湖水呈深蓝。",
+          "evidence": [
+            {"title": "Специалисты приоткрывают секреты Байкала", "url": "https://originof.ru/news/1199", "quote": "Прозрачная толща воды просматривается на глубину 40 метров... Рачки эпишура (Epischura baicalensis)... Питаются они бактериями и одноклеточными водорослями, фильтруя воду."}
+          ]
+        },
+        {
+          "id": "issue-02",
+          "factId": "f9",
+          "severity": "major",
+          "verdict": "imprecise",
+          "claim": "深层水的更新时间估计在数十年到上百年之间",
+          "problem": "示踪剂模型给出的深水交换时间远短于此：南、中、北三个盆地300米以下深水的平均滞留时间分别约为11.2、10.4和6.2年；数百年量级的是全湖水的平均滞留时间，原句把两者混为一谈。",
+          "correction": "贝加尔湖春、秋两季确会发生垂直混合，表层冷水下沉把氧气带入深水；但示踪模型估计南、中、北三个盆地深水的平均滞留时间仅约11.2、10.4和6.2年，数百年量级的是全湖水的平均滞留时间，两者不应混同。",
+          "evidence": [
+            {"title": "Kipfer et al. (1997), Environmental Science & Technology", "url": "https://pubs.acs.org/doi/10.1021/es9700459", "quote": "Mean residence times in the south, central, and north basins are 11.2 ± 0.6, 10.4 ± 0.5, and 6.2 ± 0.5 yr, respectively."}
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "f1: 吉尼斯世界纪录与贝加尔湖博物馆数据：长636公里、面积约3.15万平方公里、最深1642米；https://www.guinnessworldrecords.de/world-records/largest-freshwater-lake-by-volume",
+        "f1/f3: 俄方资料：湖面海拔456米、岸线约2000公里、容积2.3万立方公里、色楞格河占入流约一半；https://baikalake.feerc.ru/en/about/",
+        "f5: 超过2630种动植物、约80%特有；https://hal.science/hal-03897807v1/document",
+        "f7: 沉积厚约7公里、约2500万年、1993与1996年深钻；https://www.scinexx.de/dossierartikel/tatort-baikalsee/",
+        "f10: 1956年伊尔库茨克水电站蓄水使湖面抬高约1.2米；http://geoprodig.cnrs.fr/items/show/88725",
+        "f11: 贝加尔斯克纸浆厂2013年关闭；https://tass.com/russia/698036"
+      ],
+      "summary": "地理与水文数字全部核实；透明度成因中的滤食者被误写成端足类，深水更新时间与示踪模型结果相差一个量级，两处已修正。"
+    },
+    {
+      "id": "w4-cn-history-shanghai-zujie",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "medium"},
+        {"id": "f7", "verdict": "supported", "confidence": "medium"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "imprecise", "confidence": "high", "issue": "issue-01"},
+        {"id": "f11", "verdict": "supported", "confidence": "medium"},
+        {"id": "f12", "verdict": "supported", "confidence": "high"}
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f10",
+          "severity": "major",
+          "verdict": "imprecise",
+          "claim": "1943年，中国与英美签订新约，废除治外法权，交还租界",
+          "problem": "1943年1月11日的中美、中英新约确实废除治外法权并放弃在上海等地公共租界的权利，但上海法租界不在其内；法租界直至1946年2月28日《中法新约》才正式交还，且当时租界已被日军占领，实际移交更复杂。",
+          "correction": "1943年1月，中国与美英签订新约废除治外法权，美英放弃在上海等地公共租界的权利；上海法租界则到1946年2月28日《中法新约》才正式交还，且租界移交因日军占领而复杂。",
+          "evidence": [
+            {"title": "人民网：1943年中美中英新约废除治外法权", "url": "http://dangshi.people.com.cn/n/2014/0903/c85037-25596545-4.html", "quote": "1943年1月11日，中美、中英分别在华盛顿和重庆签订新约，废除美、英在华治外法权。"},
+            {"title": "《关于法国放弃在华治外法权及其有关特权条约》原文", "url": "https://www.whfzg.org.cn/book/dfz/bookall/id/1091/category_id/417504.html", "quote": "法兰西共和国政府放弃其对于上海法租界（包括两扩充区）、天津法租界（包括老西开区域）、汉口及广州法租界之权利……中华民国三十五年二月二十八日，即西历一九四六年二月二十八日，订于重庆。"}
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "f1: 1845年11月29日《上海土地章程》，宫慕久与巴富尔议定，23条、830亩；http://jds.cssn.cn/xscg/xslw/201605/t20160506_5249715.shtml",
+        "f3: 1869年会审公廨正式设立；http://jds.cssn.cn/newzxdt/202101/t20210128_5304555.shtml",
+        "f4/f5: 1869年租地人会议扩大为纳税人会议，1928年起有华董；https://zh.wikipedia.org/zh-hant/上海公共租界納稅人會議",
+        "f9: 1937年淞沪会战后租界成孤岛，1941年日军进驻公共租界，1943年汪伪与国民政府先后宣布收回；http://dangshi.people.com.cn/n/2014/0903/c85037-25596545-4.html"
+      ],
+      "summary": "开埠、土地章程、会审公廨、工部局与华董年份均可核实；1943年交还租界的表述漏掉法租界1946年才交还，已修正。"
+    },
+    {
+      "id": "w4-myth-cn-xiyouji-formation",
+      "status": "verified",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "medium"},
+        {"id": "f10", "verdict": "supported", "confidence": "medium"},
+        {"id": "f11", "verdict": "supported", "confidence": "high"},
+        {"id": "f12", "verdict": "supported", "confidence": "medium"}
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "f1: 《大唐西域记》校注：贞观三年出发、十九年正月回长安、657部、亲践110国、传闻28国；https://www.shidianguji.com/mid-page/7447262602905878578",
+        "f3: 《大唐三藏取经诗话》三卷十七节，南宋临安中瓦子张家刻本，猴行者自称花果山紫云洞八万四千铜头铁额猕猴王；https://zh.wikisource.org/wiki/大唐三藏取經詩話_(校排本)",
+        "f4/f5: 杨景贤杂剧六本二十四折；《永乐大典》卷13139存魏征梦斩泾河龙，《朴通事谚解》存车迟国斗圣；https://www.aisixiang.com/data/97548.html",
+        "f6: 万历二十年世德堂刊本，二十卷一百回，题华阳洞天主人校；胡适、鲁迅据天启《淮安府志》推测吴承恩；https://www.gmw.cn/01wzb/2001-01/21/GB/2001^1817^0^WZ3-2142.htm",
+        "f7: 康熙二年《西游证道书》补第九回陈光蕊、江流儿故事；https://paper.cntheory.com/html/2020-08/28/nw.D110000xxsb_20200828_3-A12.htm",
+        "f8: 张书绅《新说西游记》以《大学》解西游，识典古籍影印本；https://www.shidianguji.com/book/CADAL02000774/chapter/1llzbujrcbjm1",
+        "f9: 鲁迅无支祁说、胡适哈奴曼说、季羡林混血说；https://www.gmw.cn/01wzb/2007-10/25/content_688494.htm"
+      ],
+      "summary": "玄奘行程、取经诗话、杨景贤杂剧、世德堂本、证道书与作者之争均有文献可查，未发现需要更正的事实。"
+    },
+    {
+      "id": "w3-cn-history-liao-dual",
+      "status": "verified",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "supported", "confidence": "high"},
+        {"id": "f11", "verdict": "supported", "confidence": "high"},
+        {"id": "f12", "verdict": "supported", "confidence": "high"}
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "f1: 916年耶律阿保机称帝建契丹国，947年改国号大辽；https://wiki.cnki.com.cn/HotWord/3380853.htm",
+        "f3/f4: 《辽史·百官志》“以国制治契丹，以汉制待汉人”；邱靖嘉《辽代南北面官再检讨》指出两套官制按所任职事区分、人员跨系统流动；http://hrczh.cass.cn/sxqy/zgs/202502/t20250228_5853994.shtml",
+        "f5: 五京为上京临潢府、东京辽阳府、南京析津府、中京大定府、西京大同府；http://nm.cnr.cn/lywh/nmfg/200612/t20061214_504352062.html",
+        "f6/f7/f8: 捺钵、斡鲁朵、头下军州制度概述；http://epaper.dtnews.cn/dtrb/h5/html5/2026-05/20/content_7_288593.htm",
+        "f9: 辽科举主要取汉人，契丹、奚人不得应试；http://lishisuo.cass.cn/xsyj/slxxjs/202001/t20200116_5078446.shtml",
+        "f11: 1005年澶渊之盟，宋岁输银十万两、绢二十万匹；http://jishi.cntv.cn/20101206/100565.shtml",
+        "f12: 1114年女真起兵，1125年辽亡，耶律大石西迁建西辽；https://zh.wikipedia.org/zh-cn/金滅遼之戰"
+      ],
+      "summary": "建国、燕云十六州、南北面官、五京、捺钵、科举与澶渊之盟均可核实；南北面官非按民族一刀切之说有专文支持。"
+    },
+    {
+      "id": "w4-myth-americas-coyote",
+      "status": "corrected",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "medium"},
+        {"id": "f3", "verdict": "supported", "confidence": "medium"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "medium"},
+        {"id": "f6", "verdict": "supported", "confidence": "medium"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "supported", "confidence": "medium"},
+        {"id": "f11", "verdict": "imprecise", "confidence": "high", "issue": "issue-01"},
+        {"id": "f12", "verdict": "supported", "confidence": "high"}
+      ],
+      "issues": [
+        {
+          "id": "issue-01",
+          "factId": "f11",
+          "severity": "major",
+          "verdict": "imprecise",
+          "claim": "一九三三年……是最早由原住民女性自己编订的英文故事集之一",
+          "problem": "《郊狼故事》虽由莫宁·多夫写作，1933年Caxton Printers版却由海斯特·迪恩·盖伊编辑并插图，序言出自立熊酋长，并非她“自己编订”；她确是最早出版英文故事集的原住民女性之一。",
+          "correction": "1933年，奥卡纳甘作家莫宁·多夫出版《郊狼故事》，但该书由海斯特·迪恩·盖伊编辑并插图，并非她本人编订；它仍是最早由原住民女性记录出版的英文故事集之一，书中附有立熊酋长序言与麦克沃特注释。",
+          "evidence": [
+            {"title": "Library of Congress catalog description, Coyote Stories", "url": "https://catdir.loc.gov/catdir/enhancements/fy0730/89028956-d.html", "quote": "Coyote stories / by Mourning Dove (Humishuma) ; edited and illustrated by Heister Dean Guie, with notes by L.V. McWhorter (Old Wolf) and a foreword by Chief Standing Bear."},
+            {"title": "HathiTrust record, Coyote Stories (1933)", "url": "https://babel.hathitrust.org/cgi/ssd?id=uc1.$b59452", "quote": "Coyote stories, by Mourning Dove (Humishuma); edited and illustrated by Heister Dean Guie."}
+          ]
+        }
+      ],
+      "sourceNotes": [
+        "f7: 卡沙亚等族群的神话传统只在冬季讲述，讲述受季节与场合约束；https://files.eric.ed.gov/fulltext/ED382046.pdf",
+        "f8: 菲尼《内兹佩尔塞文本》1934年收录郊狼故事，博厄斯、萨丕尔、雅各布斯等记录大量双语文本；https://publications.newberry.org/lewisandclark/brilliantplan/creators/coyote.html",
+        "f9: 海姆斯《In Vain I Tried to Tell You》1981年分析克拉卡马斯奇努克语文本的句法与段落组织；https://onlinelibrary.wiley.com/doi/10.1002/9780470776391.furread"
+      ],
+      "summary": "口传传统、文本记录与海姆斯研究可核实；《郊狼故事》的编订者被误写为莫宁·多夫本人，已修正。"
+    },
+    {
+      "id": "w3-wh-discovery-ming-silver",
+      "status": "verified",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "high"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "medium"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "medium"},
+        {"id": "f10", "verdict": "supported", "confidence": "high"},
+        {"id": "f11", "verdict": "supported", "confidence": "high"},
+        {"id": "f12", "verdict": "supported", "confidence": "high"}
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "f1: 一条鞭法嘉靖间试行，万历九年（1581）张居正定为正规赋役制度颁行全国；https://www.chinanews.com.cn/cul/news/2010/06-08/2329699.shtml",
+        "f4: 16世纪后日本、美洲白银经马尼拉、澳门与东南沿海流入中国；https://www.chinanews.com.cn/cul/news/2010/06-08/2329699.shtml",
+        "f8: 辽饷起于1618年，剿饷1637年、练饷1639年，合称三饷；https://zh.wikipedia.org/zh-cn/三餉",
+        "f10: 学界对“17世纪银荒”是否足以单独导致明亡有争议，1641—1645年进口缺口仅占此前输入总量约4%；https://www.cambridge.org/core/services/aop-cambridge-core/content/view/051515B7767AB41D91ED213342A6E348/S0022050700016508a.pdf/myth-and-reality-of-chinas-seventeenth-century-monetary-crisis.pdf"
+      ],
+      "summary": "一条鞭法、三饷、白银流入与银荒争议均可核实；把明亡归因多元一句有经济史论文支持。"
+    },
+    {
+      "id": "w4-cn-history-weisuo-junhu",
+      "status": "verified",
+      "confidence": "high",
+      "facts": [
+        {"id": "f1", "verdict": "supported", "confidence": "medium"},
+        {"id": "f2", "verdict": "supported", "confidence": "high"},
+        {"id": "f3", "verdict": "supported", "confidence": "high"},
+        {"id": "f4", "verdict": "supported", "confidence": "high"},
+        {"id": "f5", "verdict": "supported", "confidence": "high"},
+        {"id": "f6", "verdict": "supported", "confidence": "high"},
+        {"id": "f7", "verdict": "supported", "confidence": "high"},
+        {"id": "f8", "verdict": "supported", "confidence": "high"},
+        {"id": "f9", "verdict": "supported", "confidence": "high"},
+        {"id": "f10", "verdict": "supported", "confidence": "high"},
+        {"id": "f11", "verdict": "supported", "confidence": "high"},
+        {"id": "f12", "verdict": "supported", "confidence": "high"}
+      ],
+      "issues": [],
+      "sourceNotes": [
+        "f1: 《明会要》卷五十九：“大率以五千六百人为卫，一千一百二十人为千户所，百十有二人为百户所”，卫所总隶五军都督府；https://www.shidianguji.com/zh/book/7461917686017032255/chapter/1kp04i17s99fk",
+        "f1: “军籍由五军都督府掌管”系概括说法，军籍册籍、勾补与清军实际由兵部、都司卫所与地方有司共同经手，不宜理解为单一衙门独掌。",
+        "f4: 屯田“三分守城、七分屯种”为常见说法，各地比例不一，原句已作限定。",
+        "f8: 1449年土木之变后于谦整顿京营、设团营；https://zh.wikipedia.org/zh-cn/土木之變",
+        "f9: 戚继光嘉靖年间在浙江义乌招募矿工农民编练新军；https://zh.wikipedia.org/zh-cn/戚繼光",
+        "f11: 张居正出身荆州卫军籍，万历年间官至首辅；https://zh.wikipedia.org/zh-cn/張居正"
+      ],
+      "summary": "卫所编制、军户、屯田、勾军、团营与募兵均可核实；军籍管理一句属概括，未作硬性更正。"
+    }
+  ]
+}
