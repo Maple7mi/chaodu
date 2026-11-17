@@ -194,6 +194,7 @@ function renderIssue(payload, historical = false) {
   const comp = issue.composition || payload.composition || {};
   const readCount = articles.filter((a) => a.read).length;
   const ratedCount = articles.filter((a) => a.feedback?.action === 'rate').length;
+  const remaining = Math.max(0, articles.length - ratedCount);
   const complete = articles.length > 0 && ratedCount >= articles.length;
   const lead = articles.find((a) => a.feedback?.action !== 'rate') || articles[0];
   const rest = articles.filter((a) => a.id !== lead?.id);
@@ -230,9 +231,9 @@ function renderIssue(payload, historical = false) {
           <span class="ratio">${esc(comp.coreRatioLabel || '')}</span>
         </div>
         <div class="daily-banner ${complete ? 'is-done' : ''}">
-          <span class="daily-banner-label">${complete ? '今日完成' : '今日还差'}</span>
-          <strong>${complete ? '20 / 20' : `${ratedCount} / ${articles.length}`}</strong>
-          <span>${complete ? '20 个评分都打完了，明早八点见。' : '必须给出 20 个 1–5 星评分；「我知道」「不感兴趣」不计入。'}</span>
+          <span class="daily-banner-label">${complete ? '今日完成' : '今日已评'}</span>
+          <strong>${ratedCount} / ${articles.length}</strong>
+          <span>${complete ? '20 个评分都打完了，明早八点见。' : `还差 ${remaining} 个 1–5 星评分；「我知道」「不感兴趣」不计入。`}</span>
         </div>
       </section>
 
@@ -250,7 +251,7 @@ function renderIssue(payload, historical = false) {
           <div class="side-block">
             <div class="side-kicker">今日完成</div>
             <div class="progress-ring ${complete ? 'is-complete' : ''}" style="--p:${pct}"><span>${ratedCount}<small> / ${articles.length}</small></span></div>
-            <p class="progress-note">${complete ? '20 个评分都完成了。' : ratedCount ? `还差 ${articles.length - ratedCount} 个评分。` : '从第一个评分开始。'}<br>打开 ${readCount} 篇；我知道 / 不感兴趣不计分。</p>
+            <p class="progress-note">${complete ? '20 个评分都完成了。' : ratedCount ? `还差 ${remaining} 个评分。` : '从第一个评分开始。'}<br>打开 ${readCount} 篇；我知道 / 不感兴趣不计分。</p>
           </div>
 
           <div class="side-block">
