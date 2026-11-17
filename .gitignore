@@ -22,3 +22,7 @@ tests/.next*/
 tests/.completion-sent.json
 
 tmp/
+
+tmp-*
+
+tmp_*
