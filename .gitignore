@@ -20,3 +20,5 @@ tests/.ui*/
 tests/.edge*/
 tests/.next*/
 tests/.completion-sent.json
+
+tmp/
